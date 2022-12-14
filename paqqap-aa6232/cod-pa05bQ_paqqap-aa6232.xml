@@ -1,0 +1,1195 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quodlibetum 8</title>
+        <author ref="#Aureoli">Petrus Aureolus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quodlibetum 8</title>
+          <date when="2022-12-14">December 14, 2022</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="R" n="cod-pa05bQ">Roma 1605, Quodlibeta</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2022-12-14" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#R" n="80"/>
+        <cb ed="#R" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="paqqap-aa6232"> <!-- q8 -->
+        <head xml:id="paqqap-aa6232-Hd1e102">Quodlibetum 8</head>
+        <head xml:id="paqqap-aa6232-Hd1e104" type="question-title">
+          Utrum ad visionem beatificam 
+          requiratur aliqua similitudo creata
+        </head>
+        <p xml:id="paqqap-aa6232-d1e107">
+          <lb ed="#R" n="122"/>QVODLJBETVM 
+          <lb ed="#R" n="123"/>OCTAVVM. 
+          <lb ed="#R" n="124"/>Vtrum ad visionem beatificam 
+          requira<lb ed="#R" n="125" break="no"/>tur aliqua similitudo creata.
+        </p>
+        <p xml:id="paqqap-aa6232-d1e118">
+          <lb ed="#R" n="126"/>Octauo quaerebatur; Vtrum ad visionem 
+          bea<lb ed="#R" n="127" break="no"/>tificam requiratur aliqua similitudo 
+          crea<lb ed="#R" n="128" break="no"/>ta, &amp; videtur quod sic: quia secundum Phy- 
+          <!--0081.xml-->
+          <pb ed="#P" n="81"/>
+          <cb ed="#R" n="a"/>
+          <lb ed="#R" n="1"/>losophum secundo de anima: omnis 
+          cogni<lb ed="#R" n="2" break="no"/>tio fit per assimilationem: sed nulla 
+          assi<lb ed="#R" n="3" break="no"/>milatio est nisi per similitudinem, &amp; per 
+          <lb ed="#R" n="4"/>consequens beatifica.
+        </p>
+        <p xml:id="paqqap-aa6232-d1e143">
+          <lb ed="#R" n="5"/>Sed in oppositum est, quod cognitio in specie 
+          <lb ed="#R" n="6"/>representante, vel in similitudine est 
+          aenig<lb ed="#R" n="7" break="no"/>matica, &amp; specularis: sed visio beatifica non 
+          <lb ed="#R" n="8"/>erit huiusmodi, sed facialis, iuxta illud: 
+          Vi<lb ed="#R" n="9" break="no"/>demus nunc per secundum, &amp;c. ergo. 
+        </p>
+        <p xml:id="paqqap-aa6232-d1e156">
+          <lb ed="#R" n="10"/>Responsio ad quaestionem. 
+        </p>
+        <p xml:id="paqqap-aa6232-d1e161">
+          <lb ed="#R" n="11"/>Respondeo: Primo ponam quandam 
+          proposi<lb ed="#R" n="12" break="no"/>tionem negatiuam: secundo affirmatiuam: 
+          <lb ed="#R" n="13"/>tertio mouebo dubia circa ipsam. 
+        </p>
+        <div xml:id="paqqap-aa6232-Dd1e170">
+          <head xml:id="paqqap-aa6232-Hd1e172">Articulus 1</head>
+          <p xml:id="paqqap-aa6232-d1e174">
+            <lb ed="#R" n="14"/>ARTICVLVS I. 
+            <lb ed="#R" n="15"/>Quod si negari debeat species a beatifica visione, 
+            <lb ed="#R" n="16"/>hoc oportet ratione facialis, &amp; clarae notitiae, 
+            <lb ed="#R" n="17"/>nec propter lumen speciei, sicut
+            <lb ed="#R" n="18"/>aliqui opinantur. 
+          </p>
+          <p xml:id="paqqap-aa6232-d1e187">
+            <lb ed="#R" n="19"/>PRIMA propositio est, 
+            <lb ed="#R" n="20"/>quod si debeat tolli 
+            spe<lb ed="#R" n="21" break="no"/>cies a beatifica visione 
+            <lb ed="#R" n="22"/>hoc non facit non ratio 
+            <lb ed="#R" n="23"/>facialis, &amp; clarae notitiae, 
+            <lb ed="#R" n="24"/>nec finitatio, seu limitatio 
+            <lb ed="#R" n="25"/>specie i creatae propter 
+            <lb ed="#R" n="26"/>opinionem, quae has 
+            ra<lb ed="#R" n="27" break="no"/>tiones assignat. 
+          </p>
+          <p xml:id="paqqap-aa6232-d1e209">
+            <lb ed="#R" n="28"/>Prima quidem limitationem speciei creatae, 
+            nul<lb ed="#R" n="29" break="no"/>la enim similitudo finita potest repraesentare 
+            diui<lb ed="#R" n="30" break="no"/>nam essentiam, quod patet, primo 
+            auctoritate<lb ed="#R" n="31" break="no"/>Dyonisij de diuinis nom. cap. 1. qui dicit, per 
+            simili<lb ed="#R" n="32" break="no"/>tudines inferioris ordinis rerum non possunt 
+            supe<lb ed="#R" n="33" break="no"/>riora cognosci, sicut per speciem corporis non 
+            po<lb ed="#R" n="34" break="no"/>test cognosci essentia rei in corpore: species 
+            au<lb ed="#R" n="35" break="no"/>tem creata est inferioris ordinis quam diuina 
+            es<lb ed="#R" n="36" break="no"/>sentia: ergo. 
+          </p>
+          <p xml:id="paqqap-aa6232-d1e231">
+            <lb ed="#R" n="37"/>Secundo: quia essentia Dei est ipsum suum esse, 
+            <lb ed="#R" n="38"/>quod nulli formae creatae competit, &amp; per 
+            conse<lb ed="#R" n="39" break="no"/>quens repraesentare eam non potest. 
+          </p>
+          <p xml:id="paqqap-aa6232-d1e241">
+            <lb ed="#R" n="40"/>Tertio quia nullum limitatum per rationem 
+            sa<lb ed="#R" n="41" break="no"/>pientiae, vel bonitatis, vel ipsius esse potest esse 
+            <lb ed="#R" n="42"/>fimilitudo eius, quod est incircunscriptum, &amp; 
+            con<lb ed="#R" n="43" break="no"/>tinens supereminenter quicquid potest 
+            significa<lb ed="#R" n="44" break="no"/>ri, aut intelligi ab intellectu creato: sed talis est 
+            <lb ed="#R" n="45"/>Dei essentia: igitur nulla limitata species potest 
+            re<lb ed="#R" n="46" break="no"/>praesentare eam. 
+          </p>
+          <p xml:id="paqqap-aa6232-d1e259">
+            <lb ed="#R" n="47"/>Secundam rationem assignat claritate intuitiuae 
+            <lb ed="#R" n="48"/>notitiae, quia prout Augustinus ait 15. de Trinit. 
+            <lb ed="#R" n="49"/>cap. 9. Cum apostolus ait: videmus nunc per 
+            spe<lb ed="#R" n="50" break="no"/>culum in aenigmate: speculi, &amp; aenigmatis nomine 
+            <lb ed="#R" n="51"/>quaecunque similitudines significatae ab Apostolo 
+            <lb ed="#R" n="52"/>intelligi possunt, quae accommodatae sunt ad 
+            intel<lb ed="#R" n="53" break="no"/>ligendum Deum: Sed videre Deum per essentiam 
+            <lb ed="#R" n="54"/>non est cognitio aenigmatica, &amp; specularis, imo 
+            cla<lb ed="#R" n="55" break="no"/>ra, &amp; facialis: igitur non videtur per speciem, imo 
+            <lb ed="#R" n="56"/>hoc dicere est dicere, quod Deus in se non 
+            videa<lb ed="#R" n="57" break="no"/>tur, licet per thophoma, &amp; speculum, quod est 
+            erro<lb ed="#R" n="58" break="no"/>Sed his non obstantibus probo propositionem.
+            <lb ed="#R" n="59"/>
+            <!-- line coord order error -->neum. 
+          </p>
+          <p xml:id="paqqap-aa6232-d1e292">
+            <lb ed="#R" n="60"/>Primo, quod limitatio non impedit sic: Actus, quo 
+            <!--0081.xml-->
+            <cb ed="#R" n="b"/>
+            <lb ed="#R" n="61"/>videtur Dei essentia, est expraessa similitudo ipsius: 
+            <lb ed="#R" n="62"/>sed actus quo videtur Dei essentia, limitatum quid 
+            <lb ed="#R" n="63"/>est, &amp; finitum: ergo aliqua res limitata, &amp; finita 
+            po<lb ed="#R" n="64" break="no"/>test esse expraeila similitudo Dei essentiam 
+            reprae<lb ed="#R" n="65" break="no"/>sentans. 
+          </p>
+          <p xml:id="paqqap-aa6232-d1e312">
+            <lb ed="#R" n="66"/>Maior patet per <ref xml:id="paqqap-aa6232-Rd1e316">Augustinum 5. de Trinit. cap. 
+              <lb ed="#R" n="67"/>11.</ref> qui ait, quod simillima est visio cogitationis rei 
+            <lb ed="#R" n="68"/>illi, vnde formatur, &amp; ex qua gignitur. &amp; 14. de 
+            <lb ed="#R" n="69"/>Trinit. cap. 17. Tunc perfecta erit Dei similitudo 
+            <lb ed="#R" n="70"/>in mente, quando Dei perfecta est visio: Apostolus 
+            <lb ed="#R" n="71"/>enim Joannes ait: Scimus quoniam cum 
+            appa<lb ed="#R" n="72" break="no"/>ruerit, similes ei erimus, quoniam videbimus eum 
+            <lb ed="#R" n="73"/>sicuti est. hinc apparet tunc in ista imagine Dei 
+            <lb ed="#R" n="74"/>plenam similitudinem fieri, quando eius plenam 
+            <lb ed="#R" n="75"/>percipit visionem. hoc ille. Et cap. 6. dicit, 
+            cogita<lb ed="#R" n="76" break="no"/>tionem, qua formatur mentis obtuitus, imaginem 
+            <lb ed="#R" n="77"/>rei esse. 
+          </p>
+          <p xml:id="paqqap-aa6232-d1e344">
+            <lb ed="#R" n="78"/>Similiter, &amp; Anselm. dicit quod Monol. 33. nulla 
+            <lb ed="#R" n="79"/>ratione potest negari cogitationem rei esse 
+            imagi<lb ed="#R" n="80" break="no"/>nem eius ad similitudinem tanquam ex eius 
+            im<lb ed="#R" n="81" break="no"/>pressione formata. 
+          </p>
+          <p xml:id="paqqap-aa6232-d1e355">
+            <lb ed="#R" n="82"/>Ratione etiam patet. Jllud enim, quod 
+            vltima<lb ed="#R" n="83" break="no"/>te facit formaliter, vt res aliqua menti appareat, 
+            lu<lb ed="#R" n="84" break="no"/>ceat, &amp; sit praesens in esse conspicuo, &amp; prospectu 
+            <lb ed="#R" n="85"/>est realis expraessissima similitudo. hoc patet, 
+            esse<lb ed="#R" n="86" break="no"/>enim apparens rosae, quae mihi obijcitur nulla 
+            exi<lb ed="#R" n="87" break="no"/>stente, illud non est reale, sed rationis tantum 
+            <lb ed="#R" n="88"/>vel intentionale, &amp; ideo nihil est ex se, sed oportet 
+            <lb ed="#R" n="89"/>quod reducatur ad aliquid reale, ex cuius 
+            deno<lb ed="#R" n="90" break="no"/>minatione sit illud; aut in mente est quaedam res, 
+            <lb ed="#R" n="91"/>quae est relatiua apparitio, praesentialitas, &amp; 
+            simili<lb ed="#R" n="92" break="no"/>tudo conspicua rei, obiectum quod apparet &amp; 
+            re<lb ed="#R" n="93" break="no"/>lucet relucentia, &amp; apparitione expraesfissima 
+            ap<lb ed="#R" n="94" break="no"/>paret, &amp; lucet. Sed actus visionis diuinae est illud, 
+            <lb ed="#R" n="95"/>quo formaliter vltimate diuina essentia menti 
+            ap<lb ed="#R" n="96" break="no"/>paret, obijcitur, &amp; lucet in esse conspicuo, &amp; 
+            prae<lb ed="#R" n="97" break="no"/>specto. Dato enim quod nulla mutatione aliqua 
+            fa<lb ed="#R" n="98" break="no"/>cta, nec ex parte Dei, nec ex parte beati, adnihilet 
+            <lb ed="#R" n="99"/>Deus visionem in mente beati, constat quod non 
+            <lb ed="#R" n="100"/>est apparens, lucens, nec conspicua Dei essentia 
+            il<lb ed="#R" n="101" break="no"/>li menti, sed aberit secundum esse prospectum. Et 
+            <lb ed="#R" n="102"/>hoc est commune actui omni cognitiuo: nullus enim 
+            <lb ed="#R" n="103"/>habet in prospectu mentis rem, nisi dum actu 
+            de<lb ed="#R" n="104" break="no"/>ipsa cogitat, vnde Augustinus 14. de Trinit. cap. 6. 
+            <lb ed="#R" n="105"/>tanta est vis cogitationis, vt nec ipsa mens sit 
+            in<lb ed="#R" n="106" break="no"/>prospectu suo, nisi dum se cogitat, nec aliter possit 
+            <lb ed="#R" n="107"/>esse in conspectu suo, nisi, cogitando. Sequitur: 
+            Mul<lb ed="#R" n="108" break="no"/>tarum disciplinarum peritus ea, quae nouit, eius me 
+            <lb ed="#R" n="109"/>moria continentur, nec tamen est aliquid in 
+            con<lb ed="#R" n="110" break="no"/>spectu mentis suae, nisi cogitat, &amp; lib. 15. dicit quod 
+            <lb ed="#R" n="111"/>res lucet in cognitione virtute ipsius: igitur ipsa 
+            <lb ed="#R" n="112"/>visio expraessa diuinae essentiae est expraessiua 
+            simili<lb ed="#R" n="113" break="no"/>tudo ipsius. 
+          </p>
+          <p xml:id="paqqap-aa6232-d1e428">
+            <lb ed="#R" n="114"/>Minor autem, quod actus sit res limitata, patet 
+            <lb ed="#R" n="115"/>quia est creatura, &amp; accidens in determinato 
+            ge<lb ed="#R" n="116" break="no"/>nere qualitatis. 
+          </p>
+          <p xml:id="paqqap-aa6232-d1e437">
+            <lb ed="#R" n="117"/>Ad tria vero motiua patet.
+          </p>
+          <p xml:id="paqqap-aa6232-d1e442">
+            <lb ed="#R" n="118"/>Ad Primum quidem, quod similitudinem esse 
+            infe<lb ed="#R" n="119" break="no"/>rioris ordinis qua sint cognita, dupliciter intelligi 
+            <lb ed="#R" n="120"/>potest essentialiter quasi ipsa sit per essentiam suam 
+            <lb ed="#R" n="121"/>inferior, &amp; sic constat, quod similitudo omnis 
+            exi<lb ed="#R" n="122" break="no"/>stentis in intellectu, vel de Angelo, vel de quauis 
+            sub<lb ed="#R" n="123" break="no"/>stantia, est ordinis inferioris, cum accidens inferius 
+            <lb ed="#R" n="124"/>sit substautia, nec sic intelligit Dyonisius. 
+          </p>
+          <p xml:id="paqqap-aa6232-d1e460">
+            <lb ed="#R" n="125"/>Vel potest intelligi obiectiue, &amp; sic Dyonisius 
+            <lb ed="#R" n="126"/>intendit, quod per similitudinem inferioris 
+            ordi<lb ed="#R" n="127" break="no"/>nis rerum, hoc est, quae repraesentat inferiora, non 
+            <lb ed="#R" n="128"/>possunt superiora cognosci: Vnde exemplificat, quod 
+            <!--0082.xml-->
+            <pb ed="#P" n="82"/>
+            <cb ed="#R" n="a"/>
+            <lb ed="#R" n="1"/>per speciem corporis, non potest inferri nisi, quod 
+            <lb ed="#R" n="2"/>Doi essentia videri non potest per speciem alicuius 
+            <lb ed="#R" n="3"/>ereaturae, sed non quod per speciem creatam sola 
+            <lb ed="#R" n="4"/>Dei essentia sic infertur. Vnde in argumento cō- 
+            <lb ed="#R" n="5"/>mittitur fallacia figurae dictionis, vel amphibolo⸗ 
+            <lb ed="#R" n="6"/>giae, cum dicitur per speciem rei inferioris ordinis 
+            <lb ed="#R" n="7"/>non possunt superiora cognosci, quia vel potest 
+            in<lb ed="#R" n="8" break="no"/>telligi intransitiue per speciem, quae est per essentiam 
+            <lb ed="#R" n="9"/>inferior in ordine, &amp; sic est falsa: vel transitiue, idest 
+            <lb ed="#R" n="10"/>per speciem, quae est de re inferioris ordinis ad 
+            co<lb ed="#R" n="11" break="no"/>gnitionem rei superioris, immo &amp; e conuerso, quia 
+            <lb ed="#R" n="12"/>per speciem angeli non potest homo cognosci. 
+            <lb ed="#R" n="13"/>Ad secundum dicendum, quod peccat per non 
+            <lb ed="#R" n="14"/>causam, vt causam. non causa, vt causa est, quod 
+            <lb ed="#R" n="15"/>non possit species reprae sentare Deum, qui est suum 
+            <lb ed="#R" n="16"/>esse, propter hoc, quod species non est suum esse 
+            <lb ed="#R" n="17"/>sicut patet, quia species, quae vere est accidens, &amp; 
+            <lb ed="#R" n="18"/>inhaerens, potest repraesentare substantiam, &amp; 
+            subsi<lb ed="#R" n="19" break="no"/>stens. Vnde nulla esset ratio, qui vellet ostendere, 
+            <lb ed="#R" n="20"/>quod angelus non potest habere similitudinem, 
+            ar<lb ed="#R" n="21" break="no"/>guere, quod angelus in essendo subsistit, omnis 
+            au<lb ed="#R" n="22" break="no"/>tem similitudo accidentialis inhaeret, &amp; non 
+            subsi<lb ed="#R" n="23" break="no"/>stit. Et ratio huius est, quia repraesentatio 
+            funda<lb ed="#R" n="24" break="no"/>tur super qualitatem, &amp; conformitatem, non autem 
+            <lb ed="#R" n="25"/>super existentiam, vel inhaerentiam. Vnde accidit 
+            <lb ed="#R" n="26"/>rei repraesentari, quod subsistat, vel inhaereat, vel 
+            <lb ed="#R" n="27"/>quod sit esse suum, vel non sit. Quamuis etiam 
+            fal<lb ed="#R" n="28" break="no"/>sum assumat, scilicet, quod species non sit suum 
+            <lb ed="#R" n="29"/>esse, vt alias ostensum est, quod esse non est nisi 
+            at<lb ed="#R" n="30" break="no"/>firmatio essentiae veridicans ipsum, vt 
+            Commenta<lb ed="#R" n="31" break="no"/>tor 5. meth. dicit. Et per consequens omnis res 
+            <lb ed="#R" n="32"/>est suum esse realiter, quamuis differat secundum 
+            <lb ed="#R" n="33"/>modum concipiendi conceptionis.
+          </p>
+          <p xml:id="paqqap-aa6232-d1e549">
+            <lb ed="#R" n="34"/>Ad tertium dicendum, quod propositio, cui 
+            in<lb ed="#R" n="35" break="no"/>nititur, non est vera, scilicet, quod illud, quod est 
+            <lb ed="#R" n="36"/>incircumscriptum, continens in se supereminenter 
+            <lb ed="#R" n="37"/>quicquid potest sieri, vel intelligi ab intellectu crea 
+            <lb ed="#R" n="38"/>to, non possit repraesentari per speciem finitam, &amp; 
+            <lb ed="#R" n="39"/>limitatam: probatum est enim, quod actus visionis 
+            <lb ed="#R" n="40"/>simillimus est diuinae essentiae exhibens eam praesen 
+            <lb ed="#R" n="41"/>tem facialiter in esse apparenti, &amp; cognito, &amp; 
+            ta<lb ed="#R" n="42" break="no"/>men est quod finitum. Et hoc patet, si ponderetur 
+            <lb ed="#R" n="43"/>propositio, cui istud argumentum videtur facere 
+            <lb ed="#R" n="44"/>difficultatem, quae est, quod species infiniti debet 
+            <lb ed="#R" n="45"/>esse infinita: secundum hoc enim scientia de 
+            diui<lb ed="#R" n="46" break="no"/>nitate esset infinita, vnde cum repraesentatio 
+            funde<lb ed="#R" n="47" break="no"/>tur super qualitatem, finitas autem, &amp; infinitas 
+            re<lb ed="#R" n="48" break="no"/>spiciat quantitatem, est mutare quale in quantum, 
+            <lb ed="#R" n="49"/>cum arguitur: haec est similitudo infiniti: ergo est 
+            <lb ed="#R" n="50"/>in se infinitum quid in esse sensibili. Patet tamen 
+            <lb ed="#R" n="51"/>secundum perspectiuum, quod si in modica pupilla 
+            <lb ed="#R" n="52"/>oculi describatur similitudo medietatis caeli, 
+            ae<lb ed="#R" n="53" break="no"/>que repraesentaret ipsam, ac si aequaretur sibi in 
+            <lb ed="#R" n="54"/>quantitate. 
+          </p>
+          <p xml:id="paqqap-aa6232-d1e597">
+            <lb ed="#R" n="55"/>Secundo probo propositionem, quod clara 
+            no<lb ed="#R" n="56" break="no"/>titia, &amp; intuitiua hoc nullo modo impediat: 
+            Con<lb ed="#R" n="57" break="no"/>stat enim, quod notitia non rei praesentis per visum 
+            <lb ed="#R" n="58"/>corporeum apprehensa est clara, &amp; facialis notitia 
+            <lb ed="#R" n="59"/>non impeditur per hoc, quod ponitur species 
+            tan<lb ed="#R" n="60" break="no"/>quam ratio videndi, &amp; per consequens non est 
+            ve<lb ed="#R" n="61" break="no"/>rum, quad qui poneret diuinam essentiam per 
+            spe<lb ed="#R" n="62" break="no"/>ciem cognosci tanquam per rationem videndi, 
+            po<lb ed="#R" n="63" break="no"/>neret diuinam essentiam non videri, aut in aenigma 
+            <lb ed="#R" n="64"/>te cognosci. 
+          </p>
+          <p xml:id="paqqap-aa6232-d1e622">
+            <lb ed="#R" n="65"/>Praeterea: Jllud, quod ponit aenigma, &amp; notitiam 
+            <lb ed="#R" n="66"/>facialem, est medium creatum se tenens ex 
+            parte<lb ed="#R" n="67" break="no"/>obiecti, quasi actus attingat illud medium, &amp; non 
+            <lb ed="#R" n="68"/>diuinam essentiam per se, non autem tollet facialem 
+            <!--0082.xml-->
+            <cb ed="#R" n="b"/>
+            <lb ed="#R" n="69"/>notitiam medium, quod est ratio cognoscendi, quia 
+            <lb ed="#R" n="70"/>in illam non fertur actus, sed immediate in 
+            obie<lb ed="#R" n="71" break="no"/>ctum, quamuis ratio ferendi sit species: ergo 
+            non<lb ed="#R" n="72" break="no"/>tollitur facialis notitia, si speoies poneretur isto 
+            vl<lb ed="#R" n="73" break="no"/>timo modo.
+          </p>
+          <p xml:id="paqqap-aa6232-d1e648">
+            <lb ed="#R" n="74"/>Quod autem de Augustino inducitur, patet, 
+            <lb ed="#R" n="75"/>quod intelligit de quacumque creata similitudine, 
+            <lb ed="#R" n="76"/>quae adhibetur ad intelligendum per modum cuius 
+            <lb ed="#R" n="77"/>dam medij obiecti, secundum quod dicitur ad 
+            Ro<lb ed="#R" n="78" break="no"/>man. 1. Quod inuisibilia Dei per ea, quae facta sunt, 
+            <lb ed="#R" n="79"/>intellectae conspiciuntur. Et sic ponere, quod 
+            diui<lb ed="#R" n="80" break="no"/>na essentia videtur per speciem mediam, esset 
+            erro<lb ed="#R" n="81" break="no"/>neum. Vnde patetiquod committitur aequiuocatio 
+            <lb ed="#R" n="82"/>de medio in toto isto processu. 
+          </p>
+        </div>
+        <div xml:id="paqqap-aa6232-Dd1e671">
+          <head xml:id="paqqap-aa6232-Hd1e673">Articulus 2</head>
+          <p xml:id="paqqap-aa6232-d1e675">
+            <lb ed="#R" n="83"/>ARTICVLVS II 
+            <lb ed="#R" n="84"/>Quod Deus in patria videtur per solam creatam 
+            <lb ed="#R" n="85"/>similitudinem, quae est ipse actus sine alia 
+            <lb ed="#R" n="86"/>specie, &amp; hoc est etiam commune 
+            <lb ed="#R" n="87"/>omni potentiae cognitiuae. 
+          </p>
+          <p xml:id="paqqap-aa6232-d1e688">
+            <lb ed="#R" n="88"/>NVnc secundo pono propositionem affirmatiuam, 
+            <lb ed="#R" n="89"/>scilicet, quod Deus videtur in patria per 
+            <lb ed="#R" n="90"/>creatam similitudinem, quia per actum, quae est 
+            <lb ed="#R" n="91"/>vera similitudo obiecti, &amp; hoc commune omni 
+            po<lb ed="#R" n="92" break="no"/>tentiae cognitiuae, scilicet, quod nulla alia species 
+            <lb ed="#R" n="93"/>est media formaliter, aut similitudo alia, nisi actus, 
+            <lb ed="#R" n="94"/>qui similis est ipsi rei, vt dictum est secundum 
+            Au<lb ed="#R" n="95" break="no"/>gustinum: sic, quod actus non addit vltra speciem 
+            <lb ed="#R" n="96"/>actualem repraesentationem. 
+          </p>
+          <p xml:id="paqqap-aa6232-d1e710">
+            <lb ed="#R" n="97"/>Hanc autem propositionem, quae sorte videtur 
+            <lb ed="#R" n="98"/>noua, probo duplici ratione. Prima fundata 
+            in<lb ed="#R" n="99" break="no"/>auctoritate. Secunda tenente ex se. Quia secundum 
+            <lb ed="#R" n="100"/>Augustinum de moribus Ecclesiae: Nullus ordo ita 
+            <lb ed="#R" n="101"/>se habet, vt cum aliquid dicimus, rationem 
+            praece<lb ed="#R" n="102" break="no"/>das auctoritas; nam infirma potest videri ratio, 
+            <lb ed="#R" n="103"/>quae cum reddita fuerit, auctoritatem postea, per, 
+            <lb ed="#R" n="104"/>quam firmetur, assumit. Sed quia caligantes 
+            ho<lb ed="#R" n="105" break="no"/>minum mentes consuetudine tenentur, 
+            perspicuita<lb ed="#R" n="106" break="no"/>ti, aut certitudini rationis aspectum idoneum 
+            at<lb ed="#R" n="107" break="no"/>tendere nequeunt, saluberrime compertum est, vt 
+            <lb ed="#R" n="108"/>in luce veritatis aciem titubantem inducat 
+            aucto<lb ed="#R" n="109" break="no"/>ritas. 
+          </p>
+          <p xml:id="paqqap-aa6232-d1e741">
+            <lb ed="#R" n="110"/>Primo igitur ratione in auctoritatibus fundata 
+            <lb ed="#R" n="111"/>apparet propositio. Si enim vel in intellectu, vel 
+            <lb ed="#R" n="112"/>in sensu, quae sunt potentiae cognitiuae, poneretur 
+            <lb ed="#R" n="113"/>aliqua species distincta ab actu, &amp; non esset ipsa 
+            <lb ed="#R" n="114"/>similitudo, &amp; species, actus ille, qui imprimitur ab 
+            <lb ed="#R" n="115"/>obieco sequeretur, quod per primum conceptum 
+            <lb ed="#R" n="116"/>in sensu, vel intellectu, non esset ipsa visio, &amp; 
+            intel<lb ed="#R" n="117" break="no"/>lectio: sequeretur etiam, quod visio, &amp; intellectio 
+            <lb ed="#R" n="118"/>non esset purum pati ab obiecto tali. Patet per 
+            po<lb ed="#R" n="119" break="no"/>nentes species distinctas realiter ab actu. Et si 
+            si<lb ed="#R" n="120" break="no"/>mul tempore potentia respiciat vtrumque, tamen 
+            <lb ed="#R" n="121"/>ordine naturae prius respicit speciem, per quam 
+            fa<lb ed="#R" n="122" break="no"/>cta in actu primo elicit actum secundum, qui est 
+            <lb ed="#R" n="123"/>cognoscere, intelligere, vel videre, &amp; ita cognoscere 
+            <lb ed="#R" n="124"/>non est purum pati ab obiecto, nec primum 
+            impres<lb ed="#R" n="125" break="no"/>sum in potentia. Sed Sancti &amp; Philosophi dicunt, 
+            <lb ed="#R" n="126"/>quod primum passum ab obiecto in potentiam est 
+            <lb ed="#R" n="127"/>actus ipse, qui est, vtpote visio, &amp; intellectio: ergo. 
+            <lb ed="#R" n="128"/>Et de sanctis quidem patet. 
+          </p>
+          <p xml:id="paqqap-aa6232-d1e786">
+            <lb ed="#R" n="129"/>Nam Augustinus, de quantitate ani. c. 12. dicit, 
+            <lb ed="#R" n="130"/>quod non aliquid aliud patiuntur oculi, nisi ipsum 
+            <lb ed="#R" n="131"/>visum, cum vident. Si enim me interrogares, quid 
+            <lb ed="#R" n="132"/>pateretur aegrotans, aegritudinem responderem: 
+            <lb ed="#R" n="133"/>cur ergo interroganti, quid videns patiatur, non 
+            <!--0083.xml-->
+            <pb ed="#P" n="83"/>
+            <cb ed="#R" n="a"/>
+            <lb ed="#R" n="1"/>recte visum ipsum responderem.
+          </p>
+          <p xml:id="paqqap-aa6232-d1e808">
+            <lb ed="#R" n="2"/>Similiter <ref xml:id="paqqap-aa6232-Rd1e812">11. de Trinit. cap. 20.</ref> dicit, illa 
+            infor<lb ed="#R" n="3" break="no"/>matio sensus, quae visio dicitur a solo corpore, 
+            <lb ed="#R" n="4"/>quod videtur, imprimitur, &amp; subdit, quod 
+            tardio<lb ed="#R" n="5" break="no"/>ribus ingenijs difficile persuaderi potest formari in 
+            <lb ed="#R" n="6"/>nostro sensu commotionem rei visibilis, &amp; eandem 
+            <lb ed="#R" n="7"/>formam esse visioneo, &amp; infra: imago rei impressa 
+            <lb ed="#R" n="8"/>secundum est visio sensusue formatus, &amp; concludit, 
+            <lb ed="#R" n="9"/>quod imago rei, quae in sensu est, est visio. 
+          </p>
+          <p xml:id="paqqap-aa6232-d1e830">
+            <lb ed="#R" n="10"/>Similiter <ref xml:id="paqqap-aa6232-Rd1e834">eodem lib. cap. 9.</ref> dicit, quod quatuor 
+            <lb ed="#R" n="11"/>reperiuntur species quasi gradatim natae altera ex 
+            <lb ed="#R" n="12"/>altera, specie quippe corporis quid cernitur 
+            exori<lb ed="#R" n="13" break="no"/>tur illa, quae fit in sensu cernentis, &amp; ab hac est ea 
+            <lb ed="#R" n="14"/>quae fit in memoria, &amp; ab hac, quae fit in acie 
+            cogi<lb ed="#R" n="15" break="no"/>tantis. &amp; subdit, quod duae istarum sunt visiones 
+            <lb ed="#R" n="16"/>secundum illa, quae fit in sensu cernentis, altera in 
+            <lb ed="#R" n="17"/>acie cogitantis, propterea duas in hoc genere 
+            cer<lb ed="#R" n="18" break="no"/>nitates volui commendare, vnam. cum visio 
+            sen<lb ed="#R" n="19" break="no"/>tientis formatur ex corpore: Alia tamen visio 
+            co<lb ed="#R" n="20" break="no"/>gitantis formatur ex memoria, memoriam vero 
+            <lb ed="#R" n="21"/>volui, quia non solet visio dici, cum forma 
+            memo<lb ed="#R" n="22" break="no"/>riae commendatur. Ex quo patet, quod forma, 
+            <lb ed="#R" n="23"/>quae imprimitur sensui est ipsa visio, aut quae 
+            impri<lb ed="#R" n="24" break="no"/>mitur aciei cogitationis, non autem illa, quae 
+            im<lb ed="#R" n="25" break="no"/>primitur memoriae, quia non est potentia 
+            cogni<lb ed="#R" n="26" break="no"/>tiua. 
+          </p>
+          <p xml:id="paqqap-aa6232-d1e872">
+            <lb ed="#R" n="27"/>Similiter &amp; <ref xml:id="paqqap-aa6232-Rd1e876">Ansel. Monol. 33.</ref> dicit, quod nulla 
+            <lb ed="#R" n="28"/>ratione negari potest, cum mens rationalis 
+            cogi<lb ed="#R" n="29" break="no"/>tando intelligit, imaginem nasci in sua 
+            cogitatio<lb ed="#R" n="30" break="no"/>ne, imo ipsam cogitationem esse imaginem. Et 
+            <lb ed="#R" n="31"/>concludit, quod rationalis mens, cum se cogitando 
+            <lb ed="#R" n="32"/>intelligit, habet secum imaginem suam ex se natam 
+            <lb ed="#R" n="33"/>idest cogitationem ad suam similitudinem quasi 
+            <lb ed="#R" n="34"/>sua impressione formatam.
+          </p>
+          <p xml:id="paqqap-aa6232-d1e894">
+            <lb ed="#R" n="35"/>Similiter &amp; Phylosophus in secundo de anima 
+            <lb ed="#R" n="36"/>expraesse dicit, quod idem est actus sensibilis, &amp; 
+            sen<lb ed="#R" n="37" break="no"/>sus, &amp; eadem est actio sensibilis, &amp; passio sensus, &amp; 
+            <lb ed="#R" n="38"/>ponit exemplum Commentator com. 14. dicens; 
+            <lb ed="#R" n="39"/>verbi gratia sonare est actio soni, audire autem est 
+            <lb ed="#R" n="40"/>passio sensus accidentis: &amp; verbi gratia. In visu 
+            pas<lb ed="#R" n="41" break="no"/>sio visus est videre, licet sit in figura nominis 
+            agen<lb ed="#R" n="42" break="no"/>tis. Actio vero sui sensibilis, quod est color, caret 
+            <lb ed="#R" n="43"/>nomine in graeca lingua, nunc autem cum actio 
+            <lb ed="#R" n="44"/>sensibilis sit impraessio specici, nisi ipsa species esset 
+            <lb ed="#R" n="45"/>ipsa sensatio formaliter, sed aliquid consequens 
+            <lb ed="#R" n="46"/>aliud a subiecto, non esset verum, quod actio 
+            sensi<lb ed="#R" n="47" break="no"/>bilis, &amp; passio sentientis esset idem secundum 
+            <lb ed="#R" n="48"/>rem 
+          </p>
+          <p xml:id="paqqap-aa6232-d1e927">
+            <lb ed="#R" n="49"/>Similiter Phylosophus in tertio de anima: 
+            Post<lb ed="#R" n="50" break="no"/>quam dixit, quod intelligere est pati, dicit esse 
+            su<lb ed="#R" n="51" break="no"/>sceptiuum speciei, ipsum intelligere appellans 
+            spe<lb ed="#R" n="52" break="no"/>diem, &amp; ideo Commentator com. 25. eodem 3. ait 
+            <lb ed="#R" n="53"/>quod intelligere in cupite passionis, &amp; passio non 
+            <lb ed="#R" n="54"/>actio, &amp; tum esset actio, si per speciem intellectus 
+            <lb ed="#R" n="55"/>eli aeret actum. Dicit etiam com. 31. quod 
+            abstra<lb ed="#R" n="56" break="no"/>here nihil aliud est, quam facere intentiones 
+            imagi<lb ed="#R" n="57" break="no"/>natas intellectus in actu, postquam erant in 
+            poten<lb ed="#R" n="58" break="no"/>tia: Intelligere vero nihil aliud est quam recipere 
+            <lb ed="#R" n="59"/>has intentiones: constat autem quod ibi vocat 
+            in<lb ed="#R" n="60" break="no"/>tentiones ipsas species igitur secundum mentem 
+            <lb ed="#R" n="61"/>sanctorum, &amp; Phylosophorum non est aliud actus 
+            <lb ed="#R" n="62"/>cognitiuus in quacunque potentia appraehensiua, 
+            <lb ed="#R" n="63"/>nisi receptio similitudinis speciei, aut formae rei 
+            co<lb ed="#R" n="64" break="no"/>gnitae, &amp; per consequens in ea non est alia species 
+            <lb ed="#R" n="65"/>ponenda.
+          </p>
+          <p xml:id="paqqap-aa6232-d1e967">
+            <lb ed="#R" n="66"/>Nec valet si dicatur, quod auctoritate istae 
+            intel<lb ed="#R" n="67" break="no"/>ligendae sunt per causalitatem, &amp; non formaliter, vt 
+            <lb ed="#R" n="68"/>sit sensus, quod species sit intellectio, vel sensatio, 
+            <!--0083.xml-->
+            <cb ed="#R" n="b"/>
+            <lb ed="#R" n="69"/>quod est causa eorum? Non valet vtique, tum 
+            <lb ed="#R" n="70"/>quia secundum hunc modum possent omnes 
+            pro<lb ed="#R" n="71" break="no"/>positiones essentiales inficiari. Vnde possit 
+            di<lb ed="#R" n="72" break="no"/>ei, quod homo est animal per causalitatem: 
+            <lb ed="#R" n="73"/>Tum quia modus loquendi improprius est, nec 
+            <lb ed="#R" n="74"/>vsitatus in Phylosophia, quia est causa 
+            decep<lb ed="#R" n="75" break="no"/>tionis. In hoc enim differt phylosophia 
+            Aristo<lb ed="#R" n="76" break="no"/>telis a phylosophia Platonis, quia iste loquebatur 
+            <lb ed="#R" n="77"/>metaphorice, ille vero sub proprijs verbis. Tum 
+            <lb ed="#R" n="78"/>quia Phylosophus, &amp; Augustinus non probarent 
+            il<lb ed="#R" n="79" break="no"/>lud, ad quod adducunt has propositiones, si 
+            intel<lb ed="#R" n="80" break="no"/>ligerentur per causalitatem, sicut apparet 
+            dedu<lb ed="#R" n="81" break="no"/>centi illud, quod Augustinus dixit 11. de Trinit. 
+            <lb ed="#R" n="82"/>Intendit enim probare quandam Trinitatem 
+            in<lb ed="#R" n="83" break="no"/>sensu, accipiendo pro ente corpus visibile, &amp; 
+            pal<lb ed="#R" n="84" break="no"/>pabile, &amp; formam impraessam ac visionem ipsam. 
+            <lb ed="#R" n="85"/>Pro tertio vero intentionem copulantem. Si 
+            igi<lb ed="#R" n="86" break="no"/>tur intelligeret, quod forma &amp; visio essent duae res, 
+            <lb ed="#R" n="87"/>&amp; quod forma esset visio. per causalitatem, &amp; non 
+            <lb ed="#R" n="88"/>essentialiter, tunc haberet quaternitatem, quia 
+            <lb ed="#R" n="89"/>duas proles impressas ab obiecto sub ordine 
+            quo<lb ed="#R" n="90" break="no"/>dam, speciem scilicet, &amp; visiones, cuius oppositum 
+            <lb ed="#R" n="91"/>ipse intendit. 
+          </p>
+          <p xml:id="paqqap-aa6232-d1e1030">
+            <lb ed="#R" n="92"/>Similiter &amp; Phylosophus in secundo de anima 
+            <lb ed="#R" n="93"/>non probaret, quod cognoscens visionem scilicet 
+            <lb ed="#R" n="94"/>sensus communis, cognosceret colorem seu 
+            colo<lb ed="#R" n="95" break="no"/>rationem, ex hoc quod idem est actus senfitiui, &amp; 
+            <lb ed="#R" n="96"/>sensibilis; nisi intelligeret, quod primum 
+            impres<lb ed="#R" n="97" break="no"/>sum a semsibili est ipsa sensatio, vt a colore 
+            colora<lb ed="#R" n="98" break="no"/>tio, oculi intelligibili, quae est visio. Vbi etiam 
+            <lb ed="#R" n="99"/>Commentator ait, quod intelligere nihil aliud est, 
+            <lb ed="#R" n="100"/>quam recipere intentiones intellectas, non potest 
+            <lb ed="#R" n="101"/>glossari, quod hoc sit dictum per causalitatem, 
+            <lb ed="#R" n="102"/>quia falsum diceret, cum effectus alius sit causae a 
+            <lb ed="#R" n="103"/>causa.
+          </p>
+          <p xml:id="paqqap-aa6232-d1e1059">
+            <lb ed="#R" n="104"/>Secundo patet idem ratione dicente propter 
+            <lb ed="#R" n="105"/>quid. Illud enim, quod existens in potentiam cog: 
+            ta<lb ed="#R" n="106" break="no"/>tina est sibi formaliter ratio, vt res sibi appareat, &amp; 
+            <lb ed="#R" n="107"/>praesentetur obiectiue, est formaliter actus 
+            cogno<lb ed="#R" n="108" break="no"/>scendi, constat enim quod actus cognoscendi non 
+            <lb ed="#R" n="109"/>est nisi quaedam formasis apparentia. Vnde eam 
+            <lb ed="#R" n="110"/>graeci vocant phantasiam, idest apparitionem. Et 
+            <lb ed="#R" n="111"/>propter hoc Augustinus cap. 9. de Triniti vt supra 
+            <lb ed="#R" n="112"/>allegatum es dicit, quod ista est vis cognitionis, 
+            <lb ed="#R" n="113"/>quod facit rem in prospectu, vnde &amp; conspici nihil 
+            <lb ed="#R" n="114"/>aliud est quam in conspectu habere, cognpscere 
+            au<lb ed="#R" n="115" break="no"/>tem, &amp; conspicere idem est. Sed omnis similitudo 
+            <lb ed="#R" n="116"/>formalis existens in potentia cognitiua 
+            vltimare<lb ed="#R" n="117" break="no"/>disposita est id, quod formaliter facit eidem 
+            poten<lb ed="#R" n="118" break="no"/>tiae rem potentialiter, &amp; obiectiue apparere, &amp; hoc 
+            <lb ed="#R" n="119"/>patet ex dicto Phylosophi in 3. de anima, 
+            Anaxa<lb ed="#R" n="120" break="no"/>goram approbantis, dicit quod si intellectus 
+            habe<lb ed="#R" n="121" break="no"/>ret penes se aliquam connumeralem speciem, 
+            face<lb ed="#R" n="122" break="no"/>ret apparere illud cuius haberet speciem, &amp; ex hoc 
+            <lb ed="#R" n="123"/>haberet apparitionem extranei, &amp; quasi obrstueret 
+            <lb ed="#R" n="124"/>intellectum. Propter hoc etiam Auicen. dicit, quod 
+            <lb ed="#R" n="125"/>impossibile erat, quod in intellectu remaneret 
+            spe<lb ed="#R" n="126" break="no"/>cies, quia cum sit potentia cognitiua, semper 
+            opor<lb ed="#R" n="127" break="no"/>tet quandiu speciem haberet potentem videretur 
+            <lb ed="#R" n="128"/>species enim, quod obiectum apparet propter idem 
+            <lb ed="#R" n="129"/>etiam memoria non ponitur virtus appraehensiua, 
+            <lb ed="#R" n="130"/>quia species ibi existentes semper facerent lucem 
+            <lb ed="#R" n="131"/>obiectum, &amp; ratio huius potest apparere, quod 
+            spe<lb ed="#R" n="132" break="no"/>ciei, &amp; similitudinis est ropraesentare. Vnde 
+            po<lb ed="#R" n="133" break="no"/>nentes species dicunt eas necessarias, vt 
+            repraesen<lb ed="#R" n="134" break="no"/>tent obiectum, &amp; manitestum est, quod omnis 
+            si<lb ed="#R" n="135" break="no"/>militudo est repraesentatiua sui similis, &amp; 
+            expraessi<lb ed="#R" n="136" break="no"/>ua, &amp; per consequens cum repraesentare sit rem 
+            <!--0084.xml-->
+            <pb ed="#P" n="84"/>
+            <cb ed="#R" n="a"/>
+            <lb ed="#R" n="1"/>praesentem facere , patet quod si ponatur similitu⸗ 
+            <lb ed="#R" n="2"/>do in potentia, cui potest fieri repraesentatio, qualis 
+            <lb ed="#R" n="3"/>est cognitiua, exhibebit actu rem praesentem: 
+            Jgi<lb ed="#R" n="4" break="no"/>tur omnis similitudo existens in potentia cognitiua 
+            <lb ed="#R" n="5"/>vlti mate disposita est actus cognitiuus, imo si 
+            <lb ed="#R" n="6"/>praeter actum poneretur alia species, sequeretur, 
+            <lb ed="#R" n="7"/>quod essent duo actus, quia adhuc illa species 
+            re<lb ed="#R" n="8" break="no"/>praesentaret obiectum, &amp; ipsum faceret apparere 
+            <lb ed="#R" n="9"/>vt dicit Phylosophus. 
+          </p>
+          <p xml:id="paqqap-aa6232-d1e1159">
+            <lb ed="#R" n="10"/>Sed forte dicetur, quod species non ponitur, vt 
+            <lb ed="#R" n="11"/>repraesentet obiectum, quia hoc competit actui, 
+            <lb ed="#R" n="12"/>sed vt sit ratio agendi intellectui, vel vt coagat 
+            in<lb ed="#R" n="13" break="no"/>tellectum, ac si obiectum esset praesens, vnde tenet 
+            <lb ed="#R" n="14"/>vicem obiecti in coeliciendo actum: hoc autem 
+            <lb ed="#R" n="15"/>non valet, quantumlibet enim coagat, adhuc ex vi 
+            <lb ed="#R" n="16"/>suae essentiae in intellectu est illud, quo formaliter 
+            <lb ed="#R" n="17"/>obiectum, cuius est similitudo, repraesentatur, ac 
+            <lb ed="#R" n="18"/>praesentialiter apparet, non enim potest species 
+            <lb ed="#R" n="19"/>separari ab actu suo proprio: sed actus proprius 
+            <lb ed="#R" n="20"/>speciei est reprae sentare, imo non est nisi 
+            repraesen<lb ed="#R" n="21" break="no"/>tatio obiecti: igitur absque hoc quod coagat ad 
+            <lb ed="#R" n="22"/>productionem alterius similitudinis, ipsa seipsa 
+            for<lb ed="#R" n="23" break="no"/>maliter repraesentabit. Et confirmatur, quia quod 
+            <lb ed="#R" n="24"/>iuest alicui per rationem communem, inest 
+            cuili<lb ed="#R" n="25" break="no"/>bet participanti illam: sed actui inest, quod 
+            exhi<lb ed="#R" n="26" break="no"/>beat obiectum, &amp; faciat formaliter apparere, ex 
+            <lb ed="#R" n="27"/>hoc quod est similitudo, &amp; repraesentatio obiecti: 
+            <lb ed="#R" n="28"/>ergo, &amp; hoc inest speciei alteri, si ponatur. 
+          </p>
+          <p xml:id="paqqap-aa6232-d1e1203">
+            <lb ed="#R" n="29"/>Confirmatur etiam: quia talis species, &amp; actus 
+            <lb ed="#R" n="30"/>non different nisi sicut expraessior similitudo, &amp; 
+            mi<lb ed="#R" n="31" break="no"/>nor, &amp; per consequens non differrent nisi per magis 
+            <lb ed="#R" n="32"/>repraesentare, &amp; minus: in aliquo igitur gradu 
+            face<lb ed="#R" n="33" break="no"/>ret apparere obiectum species praedicta, &amp; per 
+            con<lb ed="#R" n="34" break="no"/>sequens esset quaedam cognitio, &amp; quoddam 
+            con<lb ed="#R" n="35" break="no"/>spicere. 
+          </p>
+          <p xml:id="paqqap-aa6232-d1e1221">
+            <lb ed="#R" n="36"/>Forte etiam dicetur, quod nec actus nec species 
+            <lb ed="#R" n="37"/>exhibet obiectum praesens, nec constituit in esse ap 
+            <lb ed="#R" n="38"/>parenti, &amp; ita ratio haec cessat. Sed hoc dici non 
+            <lb ed="#R" n="39"/>potest, negans enim, quin obiectum aliquod esse 
+            <lb ed="#R" n="40"/>intentionale habeat, &amp; prospectum in actu intellectus, 
+            <lb ed="#R" n="41"/>negat vniuersale, negat intentiones secundas, negat 
+            <lb ed="#R" n="42"/>relationes rationis, &amp; vniuersaliter negat etiam 
+            scien<lb ed="#R" n="43" break="no"/>tiam esse de rebus, &amp; veritatem omnium 
+            enuncia<lb ed="#R" n="44" break="no"/>tionum, &amp; ponit quod anima appraehendit, aut 
+            co<lb ed="#R" n="45" break="no"/>gnoscit nisi per proprias passiones, &amp; deniq; negat 
+            <lb ed="#R" n="46"/>omnia, quae sunt in ea.
+          </p>
+          <p xml:id="paqqap-aa6232-d1e1248">
+            <lb ed="#R" n="47"/>Negat quidem vniuersale, quia constat quod nec 
+            <lb ed="#R" n="48"/>actus, nec intellectus, nec aliquid existens extra 
+            <lb ed="#R" n="49"/>se vniuersale, sed particulare: Juxta illud Porhyrij: 
+            <lb ed="#R" n="50"/>In solis purisq; intellectibus posita sicut 
+            particula<lb ed="#R" n="51" break="no"/>re, &amp; ideo iam vniuersale nihil est, vel non habet esse 
+            <lb ed="#R" n="52"/>nisi in anima obiectiue, &amp; secundum esse intellectuale, 
+            <lb ed="#R" n="53"/>&amp; apparens. Secundae intentiones, &amp; relationes, &amp; en 
+            <lb ed="#R" n="54"/>tis iur ionit tous fuler este ceste ne is inima nee 
+          </p>
+          <p xml:id="paqqap-aa6232-d1e1268">
+            <lb ed="#R" n="55"/>Similiter si actio intellectus, qui terminatur ad 
+            <lb ed="#R" n="56"/>rosam simpliciter, cum dicitur rosa est flos, non 
+            <lb ed="#R" n="57"/>habet in prospectu ipsam rosam, sed vel speciem, 
+            <lb ed="#R" n="58"/>vei ipsum actum, sequitur, quod illa propositio 
+            <lb ed="#R" n="59"/>est falsa, quia species rosae non est species floris, 
+            <lb ed="#R" n="60"/>nec actus est actus. Sequitur etiam, quod scientia 
+            <lb ed="#R" n="61"/>de ista propositione non est de rebus, &amp; vniuersaliter 
+            <lb ed="#R" n="62"/>quicquid est, quod lucet in phantasmate, cum sit 
+            <lb ed="#R" n="63"/>aliud a phantasmate, &amp; ab actu intellectus, 
+            ne<lb ed="#R" n="64" break="no"/>cesie est, quod ponatur vel subsistere, sicut posuit 
+            <lb ed="#R" n="65"/>Plato, vel tantum esse intentionaliter, &amp; secundum 
+            <lb ed="#R" n="66"/>esse apparens, &amp; aliquid. Haec est intentio 
+            Augu<lb ed="#R" n="67" break="no"/>stini 14. de Trinit. cap. 6. vbi dicit, quod creata 
+            <!--0084.xml-->
+            <cb ed="#R" n="b"/>
+            <lb ed="#R" n="68"/>est vis cogitationis, quod nihil est in prospectu men 
+            <lb ed="#R" n="69"/>ti nisi illud vnum, quod cogitat: &amp; subdit, quod 
+            ani<lb ed="#R" n="70" break="no"/>ma cogitando congeminat se, ut sit in se conspiciens 
+            <lb ed="#R" n="71"/>&amp; tota doctrina Augustini, &amp; Phylosophi vbi 
+            lo<lb ed="#R" n="72" break="no"/>quuntur de actibus cognitiuis hanc veritatem 
+            cla<lb ed="#R" n="73" break="no"/>mat, scilicet, quod res sunt secundum esse apparens 
+            <lb ed="#R" n="74"/>cognitum praesentiale, &amp; prospectum etiam intem 
+            <lb ed="#R" n="75"/>tionale in acie cogitantis. 
+          </p>
+          <p xml:id="paqqap-aa6232-d1e1320">
+            <lb ed="#R" n="76"/>Tertio potest hoc probari ratione diuisiua. Si 
+            <lb ed="#R" n="77"/>enim praeter illam similitudinem, quae est actus, 
+            po<lb ed="#R" n="78" break="no"/>natur similitudo alia in potentia cognitiua, vel erunt 
+            <lb ed="#R" n="79"/>eiusdem rationis, vel alterius. Sed eiusdem 
+            ratio<lb ed="#R" n="80" break="no"/>nis poni non possunt, tum quia accidentia eiusdem 
+            <lb ed="#R" n="81"/>speciei solo numero differentia in eodem subiecto 
+            <lb ed="#R" n="82"/>plura esse non possunt; tum quia quaelibet ex illis 
+            <lb ed="#R" n="83"/>similitudinibus esset formaliter actus cognitiuus, 
+            <lb ed="#R" n="84"/>ex quo essent eiusdem speciei, &amp; ita bis ac 
+            du<lb ed="#R" n="85" break="no"/>plici actu cognosceret potentia quicquid 
+            cogno<lb ed="#R" n="86" break="no"/>sceret.
+          </p>
+          <p xml:id="paqqap-aa6232-d1e1346">
+            <lb ed="#R" n="87"/>Nec etiam potest dici, quod sint alterius 
+            ratio<lb ed="#R" n="88" break="no"/>nis, quia tunc vna esset nobilior alia, vt actus esset 
+            <lb ed="#R" n="89"/>similitudo expraessior, &amp; nobilior, &amp; per consequens 
+            <lb ed="#R" n="90"/>contineret primam similitudinem in virtute: Nunc 
+            <lb ed="#R" n="91"/>autem duae formae tales, quarum vna contineret aliam 
+            <lb ed="#R" n="92"/>in virtute, incompossibiles sunt in subiecto eodem. 
+            <lb ed="#R" n="93"/>Vnde quia anima intellectiua continet sensitiuam in 
+            <lb ed="#R" n="94"/>virtute, incompossibiles sunt in eodem 
+            corpore<lb ed="#R" n="95" break="no"/>esset enim bis animatum, &amp; bis sensibile quare: &amp; 
+            si<lb ed="#R" n="96" break="no"/>militudo nobilior, quae est cognitio, &amp; ignobilior, 
+            <lb ed="#R" n="97"/>quae est species, cum haec contineatur virtualiter in 
+            <lb ed="#R" n="98"/>illa tanquam in eminenti, incompossibiles erunt in 
+            <lb ed="#R" n="99"/>eadem potentia simul. Sequetur enim, quod idem 
+            <lb ed="#R" n="100"/>bis assimilaretur alicui. Vnde quia tetragonus con 
+            <lb ed="#R" n="101"/>tinet trigonum, figura tetragona, &amp; trigona incom 
+            <lb ed="#R" n="102"/>possibiles sunt in eadem superficie simul. Similiter 
+            <lb ed="#R" n="103"/>quia calidum continet tepidum, impossibile est 
+            ca<lb ed="#R" n="104" break="no"/>liditatem, &amp; tepiditatem esse simul in eodem 
+            subie<lb ed="#R" n="105" break="no"/>cto. Et ratio sumi potest, quia forma diminuta, &amp; 
+            <lb ed="#R" n="106"/>forma eminens specie distinctae differunt sicut 
+            habi<lb ed="#R" n="107" break="no"/>tus, &amp; priuatio, nam differentia specifica forme 
+            <lb ed="#R" n="108"/>diminutae includit priuationem, differentia vero 
+            <lb ed="#R" n="109"/>formae eminentis includit habitum oppositum: 
+            ta<lb ed="#R" n="110" break="no"/>les autem differentiae incompossibiles sunt in 
+            eo<lb ed="#R" n="111" break="no"/>dem subiecto: ergo. 
+          </p>
+          <p xml:id="paqqap-aa6232-d1e1403">
+            <lb ed="#R" n="112"/>Confirmatur quia tales formae habent rationem 
+            <lb ed="#R" n="113"/>terminorum motus, ita quod subiectum transit ab vna 
+            <lb ed="#R" n="114"/>in aliam. quod patet, quia non ex quolibet fit 
+            <lb ed="#R" n="115"/>quodlibet primo physicorum. Sed existens sub 
+            <lb ed="#R" n="116"/>priuatione transfertur a priuatione in habitum 
+            <lb ed="#R" n="117"/>vnde quaecunque tales formae habent 
+            contrarie<lb ed="#R" n="118" break="no"/>tatem, quae exigitur ad terminos motus, sicut 
+            pa<lb ed="#R" n="119" break="no"/>tet de tepido, &amp; calido, quia contrarietas est 
+            di<lb ed="#R" n="120" break="no"/>stantia secundum priuationem, &amp; habitum, vt 
+            pa<lb ed="#R" n="121" break="no"/>tet decimo metaphysicae. Cum igitur istae duae 
+            simi<lb ed="#R" n="122" break="no"/>litudines essent repraesentationes eiusdem rei, 
+            es<lb ed="#R" n="123" break="no"/>sent in eodem genere, nam quaelibet est 
+            repraesen<lb ed="#R" n="124" break="no"/>tatio vnius rei; differrent autem expressius, &amp; 
+            <lb ed="#R" n="125"/>nobilius, &amp; per consequens essent termini 
+            mo<lb ed="#R" n="126" break="no"/>tus: Vnde potentia cognitiua, dum reduceretur ad 
+            <lb ed="#R" n="127"/>similitudinem, quae est actus, amitteret primam 
+            <lb ed="#R" n="128"/>similitudinem, sicut aqua amittit tepiditatem 
+            <lb ed="#R" n="129"/>dum acquirit caliditatem: ergo propter 
+            similitu<lb ed="#R" n="130" break="no"/>dinem, quae est actus, non est ponenda similitudo 
+            <lb ed="#R" n="131"/>alia in potentia cognitiua.
+          </p>
+        </div>
+        <div xml:id="paqqap-aa6232-Dd1e1450">
+          <head xml:id="paqqap-aa6232-Hd1e1452">Articulus 3</head>
+          <p xml:id="paqqap-aa6232-d1e1454">
+            <!--0085.xml-->
+            <pb ed="#P" n="85"/>
+            <cb ed="#R" n="a"/>
+            <lb ed="#R" n="1"/>ARTJCVLVSIII. 
+            <lb ed="#R" n="2"/>In quo ponuntur quaedam dubia, quae occurrunt 
+            <lb ed="#R" n="3"/>in illa positione, quod ad cognitionem solus 
+            <lb ed="#R" n="4"/>actus sufficit absque specie
+          </p>
+          <p xml:id="paqqap-aa6232-d1e1472">
+            <lb ed="#R" n="5"/>NVnc tertio mouenda est hic quaedam 
+            difficul<lb ed="#R" n="6" break="no"/>tas: Videtur enim hoc aut, quod species 
+            in<lb ed="#R" n="7" break="no"/>intellectu non remaneant post actum considerandi; 
+            <lb ed="#R" n="8"/>aut quod intellectus omnia actu consideret, 
+            quo<lb ed="#R" n="9" break="no"/>rum species habet, si species est ipsum, quod 
+            intel<lb ed="#R" n="10" break="no"/>lectio: hoc autem omni experientiae repugnat. 
+          </p>
+          <p xml:id="paqqap-aa6232-d1e1488">
+            <lb ed="#R" n="11"/>Propter hanc autem difficultatem aliqui 
+            nega<lb ed="#R" n="12" break="no"/>uerunt in intellectu speciem aliquam remanere 
+            <lb ed="#R" n="13"/>post actualem considerationem. quod tamen ratio 
+            <lb ed="#R" n="14"/>nale non est; tum quia, quod est perfectionis 
+            in<lb ed="#R" n="15" break="no"/>parte sensitiua denegari non debet parti 
+            intelle<lb ed="#R" n="16" break="no"/>ctiuae: perfectionis autem est in sensu, quod ibi 
+            me<lb ed="#R" n="17" break="no"/>moria speciem retinens, &amp; conseruans, &amp; similiter 
+            <lb ed="#R" n="18"/>in imaginatiua remanent formae: Tum quia 
+            pos<lb ed="#R" n="19" break="no"/>sunt addiscere, vel inuenire, quod fit per actuale 
+            <lb ed="#R" n="20"/>considerare, esset intellectus in potentia similiter, 
+            <lb ed="#R" n="21"/>ficut &amp; ante inuenire, vel addiscere; cuius 
+            opposi<lb ed="#R" n="22" break="no"/>tum Phylosophus dicit in 3. de anima: Tum quia 
+            <lb ed="#R" n="23"/>in separatione animae a corpore intellecto nudo 
+            <lb ed="#R" n="24"/>abiret, non posset per se considerare. 
+          </p>
+          <p xml:id="paqqap-aa6232-d1e1521">
+            <lb ed="#R" n="25"/>Propterea difficultatem istam videntes 
+            commu<lb ed="#R" n="26" break="no"/>niter opinantes dixerunt, quod species est aliud 
+            <lb ed="#R" n="27"/>realiter ab actu, &amp; quod remanet species actu tran 
+            <lb ed="#R" n="28"/>seunte: Cuius oppositum ex superioribus patet. Et 
+            <lb ed="#R" n="29"/>propter hoc visum est alijs, quod in parte 
+            intelle<lb ed="#R" n="30" break="no"/>ctiua ponenda est memoria tanquam distincta 
+            po<lb ed="#R" n="31" break="no"/>tentia ab intellectu, ex hoc quod memoria illa non 
+            <lb ed="#R" n="32"/>est vis cognitiua aut apprehensiua, a qua 
+            exprimi<lb ed="#R" n="33" break="no"/>tur in intellectu siue in acie cogitantis tamquam 
+            <lb ed="#R" n="34"/>in alia materia species consimilis, ei quam 
+            conser<lb ed="#R" n="35" break="no"/>uat, &amp; illa est intellectio siue visio. &amp; haec videtur 
+            <lb ed="#R" n="36"/>fuisse mens August. 1i. de Trinit. &amp; quasi vbiq. in 
+            <lb ed="#R" n="37"/>illo lib. secundum hoc ergo species in memoria, 
+            <lb ed="#R" n="38"/>quia non est vis apprehensiua, non est formaliter 
+            <lb ed="#R" n="39"/>cognitio, sed posita in acie cogitantis. 
+          </p>
+          <p xml:id="paqqap-aa6232-d1e1557">
+            <lb ed="#R" n="40"/>Sed hic modus dicendi non est conueniens. Tum 
+            <lb ed="#R" n="41"/>quia si ponitur memoria alia potentia, aut erit 
+            di<lb ed="#R" n="42" break="no"/>stincta re ab intellectu, sicut ponunt dicentes 
+            po<lb ed="#R" n="43" break="no"/>tentias qualitates esse, &amp; hoc dici non potest, quia 
+            <lb ed="#R" n="44"/>potentiae animae non videntur esse qualitates, cum 
+            <lb ed="#R" n="45"/>qualitas omnis dicat aliquam determinatam natu 
+            <lb ed="#R" n="46"/>ram, &amp; non sit purum possibile. Phylosophus autem 
+            <lb ed="#R" n="47"/>dicit 3. de anima, quod natura intellectus possibilis 
+            <lb ed="#R" n="48"/>est, quod nihil sit actu eorum quae sunt, sed neq. vnam 
+            <lb ed="#R" n="49"/>habens figuram, sed hanc tantum, quod possibilis 
+            <lb ed="#R" n="50"/>sit vocatus, vnde est purum possibile in genere 
+            in<lb ed="#R" n="51" break="no"/>telligibilium in substantia sua, &amp; in natura 
+            praepa<lb ed="#R" n="52" break="no"/>rati, non in natura praeparationis, vt posuit 
+            Ale<lb ed="#R" n="53" break="no"/>xander. Secundum hoc ergo nec intellectus 
+            possibi<lb ed="#R" n="54" break="no"/>lis, nec illa memoria si poneretur, possent dici 
+            qua<lb ed="#R" n="55" break="no"/>litates, sed purum possibile, alioquin non reciperet 
+            <lb ed="#R" n="56"/>omnia. Si vero detur, quod sunt differentes 
+            poten<lb ed="#R" n="57" break="no"/>tiae, quod tamen sunt idipsum re, tunc remanet 
+            dif<lb ed="#R" n="58" break="no"/>ficultas, quomodo species erunt in re vitali, &amp; 
+            ap<lb ed="#R" n="59" break="no"/>prehensiua, &amp; tamen non facient obiectum 
+            appa<lb ed="#R" n="60" break="no"/>rere. 
+          </p>
+          <p xml:id="paqqap-aa6232-d1e1605">
+            <lb ed="#R" n="61"/>Circa difficultatem ergo istam considerandum, 
+            <lb ed="#R" n="62"/>quod non minus sequitur ponentem, quod species 
+            <lb ed="#R" n="63"/>realiter differant ab actu: est enim propositio nota 
+            <lb ed="#R" n="64"/>ex 9. met. quod posito actiuo, &amp; passiuo disposita ex 
+            <lb ed="#R" n="65"/>vtroq. approximato necesse est sequi actum. Sed 
+            <!--0085.xml-->
+            <cb ed="#R" n="b"/>
+            <lb ed="#R" n="66"/>specie existente in intellectu Intellectus cum specie, 
+            <lb ed="#R" n="67"/>est actiuum sufficiens ad causandum actum, &amp; ipse 
+            <lb ed="#R" n="68"/>intellectus sufficiens ad suscipiendum, &amp; sic actiuum 
+            <lb ed="#R" n="69"/>erit passiuo sufficienter approximatum, 
+            praecipue<lb ed="#R" n="70" break="no"/>si voluntas imperet actum considerandi; &amp; tamen 
+            <lb ed="#R" n="71"/>non sequetur actus quantumcunq. voluntas 
+            impe<lb ed="#R" n="72" break="no"/>ret nisi phantasma fit in actu conformi, quia 
+            intel<lb ed="#R" n="73" break="no"/>ligentem necesse semper phantasmata speculari, &amp; 
+            <lb ed="#R" n="74"/>tamen a phantasmate tunc, vel recipit intellectus, 
+            <lb ed="#R" n="75"/>vt exigitur phantasma, vt actum disponens ad 
+            age<lb ed="#R" n="76" break="no"/>re, vt passiuum disponens ad agere, nec vt passiuum 
+            <lb ed="#R" n="77"/>disponens ad suscipere, nec sicut approximans 
+            acti<lb ed="#R" n="78" break="no"/>uum passiuo: ergo mirum est, quod actio non 
+            se<lb ed="#R" n="79" break="no"/>quatur, sic quod intellectus habens speciem exeat 
+            <lb ed="#R" n="80"/>in actum absq. phantasmate 
+          </p>
+          <p xml:id="paqqap-aa6232-d1e1655">
+            <lb ed="#R" n="81"/>Ad hoc autem respondetur communiter, quia 
+            <lb ed="#R" n="82"/>hoc facit ordo potentiarum: sed haec solutio 
+            interi<lb ed="#R" n="83" break="no"/>mit illud principium, scilicet, quod agente 
+            appro<lb ed="#R" n="84" break="no"/>ximato, &amp; passo disposito, de necessitate sequitur 
+            <lb ed="#R" n="85"/>actus; nam ordo iste non videtur in intellectu 
+            di<lb ed="#R" n="86" break="no"/>spositionem ponere ad agendum, aut recipiendum, 
+            <lb ed="#R" n="87"/>cum sit quaedam relatio, quae nec est principium 
+            <lb ed="#R" n="88"/>actionis, nec passionis, vt patet 5. physic. 
+          </p>
+          <p xml:id="paqqap-aa6232-d1e1675">
+            <lb ed="#R" n="89"/>Et ideo dicendum, quod licet species, &amp; actus 
+            <lb ed="#R" n="90"/>cognitiuus idem sint secundum suum absolutum, 
+            <lb ed="#R" n="91"/>tamen differunt ratione in hoc, quod vbicunq. in 
+            <lb ed="#R" n="92"/>potentia non apprehenfiua aut vitali dispositione 
+            <lb ed="#R" n="93"/>existente, in qua non est apprehensiua, similitudo 
+            <lb ed="#R" n="94"/>illa ponatur, habet rationem tantummodo speciei, 
+            <lb ed="#R" n="95"/>&amp; non actus, &amp; ideo species in memoria sensitiua 
+            <lb ed="#R" n="96"/>aut in medio non est comprehensio, in potentia 
+            <lb ed="#R" n="97"/>vero cognitiua est comprehenfio: non additur 
+            au<lb ed="#R" n="98" break="no"/>tem aliud, dum est comprehensio nisi sola 
+            praesen<lb ed="#R" n="99" break="no"/>tialitas, &amp; apparentia obiectiui, quod est purum 
+            <lb ed="#R" n="100"/>ens rationis. Quamuis enim similitudo semper sit 
+            <lb ed="#R" n="101"/>apta nata praesentare obiectum, &amp; facere 
+            appare<lb ed="#R" n="102" break="no"/>re, non tamen praecise hoc habet a se, nec in omni 
+            <lb ed="#R" n="103"/>subiecto, &amp; propter hoc in memoria, vel in medio, 
+            <lb ed="#R" n="104"/>quamuis sit species, non tamen obiecta 
+            praesentia<lb ed="#R" n="105" break="no"/>liter repraesentat, alioquin medium, &amp; memoria 
+            <lb ed="#R" n="106"/>vere cognoscerent. habet igitur species in 
+            poten<lb ed="#R" n="107" break="no"/>tia cognitiua, vt faciat apparere, quia vtrumque 
+            <lb ed="#R" n="108"/>potentia scilicet &amp; species, constituunt vnum, ad 
+            <lb ed="#R" n="109"/>quod sequitur obiecti apparentia, ita quod quia 
+            es<lb ed="#R" n="110" break="no"/>se apparens est esse vitale, quod sit haec apparitio, 
+            <lb ed="#R" n="111"/>est ex potentia: quod vero sit talis res sub ista appa 
+            <lb ed="#R" n="112"/>ritione, est ex specie ipsa. Et ideo Commet. 3. com. 
+            <lb ed="#R" n="113"/>18. de anima dicit, quod sicut esse sensibile 
+            diuidi<lb ed="#R" n="114" break="no"/>tur in materiam, &amp; formam, sic esse intelligibile. 
+          </p>
+          <p xml:id="paqqap-aa6232-d1e1734">
+            <lb ed="#R" n="115"/>Dicit etiam, quod intentio intellecta, &amp; 
+            intelle<lb ed="#R" n="116" break="no"/>ctus materialis faciunt vnum in actu, sic quod 
+            in<lb ed="#R" n="117" break="no"/>tellectus seu intellectio actualis componitur ex 
+            in<lb ed="#R" n="118" break="no"/>tellectu possibili, &amp; similitudine rei, quae vocatur 
+            <lb ed="#R" n="119"/>intentio intellectiua. 
+          </p>
+          <p xml:id="paqqap-aa6232-d1e1747">
+            <lb ed="#R" n="120"/>Sic igitur ad <sic>dicffiultatem</sic> dicendum, quod sicut 
+            <lb ed="#R" n="121"/>species existens in memoria, vel medio vel sensu 
+            di<lb ed="#R" n="122" break="no"/>straco per fortem imaginationem, vel in intellectu 
+            <lb ed="#R" n="123"/>secundum ponentes eam differre ab actu: (In his 
+            <lb ed="#R" n="124"/>enim omnibus remanet absolutum speciei absque 
+            <lb ed="#R" n="125"/>hoc quod actu repraesentet, &amp; exhibeat praesens ob 
+            <lb ed="#R" n="126"/>iectum, &amp; tamen istud repraesentare &amp; species sola 
+            <lb ed="#R" n="127"/>ratione differrent,) sic in proposito erit. Dato quod 
+            <lb ed="#R" n="128"/>species non differant ab actu realiter sed sola ratione 
+            <lb ed="#R" n="129"/>scilicet solo actuali representare praesentiam subiecti. 
+            <lb ed="#R" n="130"/>Videmus enim, quod sinistrum in colũna non differt
+            <lb ed="#R" n="131"/>
+            <!-- line coord order error -->re, cum sit relatio rationis, &amp; tamen amittit 
+            ratio<lb ed="#R" n="132" break="no"/>
+            <!-- line coord order error -->nem dextri, sola immutatione facta alibi.
+          </p>
+          <p xml:id="paqqap-aa6232-d1e1785">
+            <lb ed="#R" n="133"/>Est ergo sciendum, quod intentio intellecta ob- 
+            <!--0086.xml-->
+            <pb ed="#P" n="86"/>
+            <cb ed="#R" n="a"/>
+            <lb ed="#R" n="1"/>iectiue habet duplex subiectum; primum in eo, 
+            <lb ed="#R" n="2"/>quod est verum pro esse apparenti, &amp; hoc 
+            subie<lb ed="#R" n="3" break="no"/>ctum est intentio imaginata, nunquam enim 
+            intel<lb ed="#R" n="4" break="no"/>lectus noster fertur in aliquod vniuersale, aut 
+            ali<lb ed="#R" n="5" break="no"/>quam quidditatem obiectiue, nisi speculando eam 
+            <lb ed="#R" n="6"/>in aliquo particulari phantasmate. &amp; ideo 
+            Com<lb ed="#R" n="7" break="no"/>mentator, ait quod proportio intentionum 
+            intelli<lb ed="#R" n="8" break="no"/>gibilium ad intentiones imaginatas est sicut 
+            pro<lb ed="#R" n="9" break="no"/>portio caloris ad corpus coloratum, non sicut 
+            pro<lb ed="#R" n="10" break="no"/>portio coloris ad sensum visus est: intellecta enim 
+            <lb ed="#R" n="11"/>sunt intentiones formarum imaginis abstractae a 
+            <lb ed="#R" n="12"/>materia. &amp; idem etiam dicit commento 18. quod 
+            <lb ed="#R" n="13"/>intentiones intellectae sunt de intentionibus 
+            ima<lb ed="#R" n="14" break="no"/>ginatis, sicut formae de materia. &amp; Phylosophus 
+            <lb ed="#R" n="15"/>ait, quod Intelligentem necesse est phantasmata 
+            <lb ed="#R" n="16"/>speculari. 
+          </p>
+          <p xml:id="paqqap-aa6232-d1e1831">
+            <lb ed="#R" n="17"/>Secundum vero subiectum est illud, per quod 
+            <lb ed="#R" n="18"/>sunt entia realia: Et ille est possibilis intellectus 
+            <lb ed="#R" n="19"/>informatus similitudine rei, nam totum istud est 
+            <lb ed="#R" n="20"/>intellectio realis, a qua dependet esse subiectum 
+            <lb ed="#R" n="21"/>intentionis intellectae, &amp; hoc patet per 
+            Commen<lb ed="#R" n="22" break="no"/>tatorem in praed ictis locis. 
+          </p>
+          <p xml:id="paqqap-aa6232-d1e1847">
+            <lb ed="#R" n="23"/>Cum igitur omne dependens corrumpatur ad 
+            <lb ed="#R" n="24"/>corruptionem illius a quo dependet, necesse est 
+            <lb ed="#R" n="25"/>quod circa intellectionem contingat duplex 
+            cor<lb ed="#R" n="26" break="no"/>rputio, &amp; generatio. Vna quidem in se quantum ad 
+            <lb ed="#R" n="27"/>reale absolutum, quod per intellectionem 
+            impor<lb ed="#R" n="28" break="no"/>tatur, etsic generatur intellectio in addiscente 
+            <lb ed="#R" n="29"/>de nouo, aut sustinente similitudinem rei, &amp; 
+            cor<lb ed="#R" n="30" break="no"/>rumpitur in obliuiscente. Altera vero in 
+            prospe<lb ed="#R" n="31" break="no"/>ctu, cum corrumpitur intentio imaginata, in quo 
+            <lb ed="#R" n="32"/>sustentabatur intentio intellecta, &amp; per 
+            conse<lb ed="#R" n="33" break="no"/>quens intentio quantum ad illud, quod dicit 
+            ob<lb ed="#R" n="34" break="no"/>iectiue: Et ideo experientia docet, quod 
+            abeun<lb ed="#R" n="35" break="no"/>tibus, vel turbatis phantasmatibus intentio cessat 
+            <lb ed="#R" n="36"/>non quidem quo ad realitatem absolutam, sed 
+            <lb ed="#R" n="37"/>quantum ad actum rationis, quae est 
+            repraesenta<lb ed="#R" n="38" break="no"/>re, aut exhibere vniuersale in prospectu. Et ideo 
+            di<lb ed="#R" n="39" break="no"/>cit Commentator 3. de anima com. 49. quo 
+            intel<lb ed="#R" n="40" break="no"/>lectus quidditatis aut vniuersalis indiget forma 
+            <lb ed="#R" n="41"/>imaginatiua indiuisionali in qua sustentetur. &amp; 
+            <lb ed="#R" n="42"/>Phylosophus de memoria, &amp; reminisc. dicit quod 
+            <lb ed="#R" n="43"/>volens intelligere lineam simpliciter ponit ante 
+            <lb ed="#R" n="44"/>oculos lineam pedalem, vt in linea pedali 
+            conside<lb ed="#R" n="45" break="no"/>ret quidditatem simpliciter. 
+          </p>
+          <p xml:id="paqqap-aa6232-d1e1899">
+            <lb ed="#R" n="46"/>Ex his patet ad difficultatem, nam in intellectu 
+            <lb ed="#R" n="47"/>possibili remanet species, &amp; similitudo sine 
+            actua<lb ed="#R" n="48" break="no"/>li consideratione, non tamen vt faciens apparere 
+            <lb ed="#R" n="49"/>aut vt praesentans obiectum, &amp; ita remanet 
+            ab<lb ed="#R" n="50" break="no"/>solute, vt species, &amp; similitudo, non autem vt 
+            inten<lb ed="#R" n="51" break="no"/>tio. Sed dum phantasia existens in suo actu exhibet 
+            <lb ed="#R" n="52"/>intentionem imaginatam siue particulare 
+            funda<lb ed="#R" n="53" break="no"/>mentum, tunc similitudo illa remanens in intellectu 
+            <lb ed="#R" n="54"/>exhibet in esse obiectiuo intentionem intellectam, 
+            <lb ed="#R" n="55"/>quae nullo phantasmate sustentatur, &amp; colligatur. 
+            <lb ed="#R" n="56"/>Et propter hoc dicit Commentator 2. de anima 
+            <lb ed="#R" n="57"/>com. 18. qu d generatio, &amp; corruptio insunt 
+            intel<lb ed="#R" n="58" break="no"/>lectis, vel secundum quod sunt entia simpliciter, &amp; 
+            <lb ed="#R" n="59"/>hoc cum acquiruntur, aut delentur secundum suum 
+            <lb ed="#R" n="60"/>esse reale ab intellectu possibili; vel secundum esse 
+            <lb ed="#R" n="61"/>verum, &amp; sic generantur, &amp; corrumpuntur 
+            intelle<lb ed="#R" n="62" break="no"/>eta non in se per generationem, vel per 
+            corruptio<lb ed="#R" n="63" break="no"/>nem formae imaginatae. Concedendum est igitur, 
+            <lb ed="#R" n="64"/>quod intellectio differt a specie non quidem quo ad 
+            <lb ed="#R" n="65"/>aliquid reale absolutum, sed quia intellectio 
+            nomi<lb ed="#R" n="66" break="no"/>nat ipsam speciem, vt actu exhibet obiectum in 
+            es<lb ed="#R" n="67" break="no"/>se praesentiali, &amp; apparenti.
+          </p>
+          <p xml:id="paqqap-aa6232-d1e1949">
+            <!--0086.xml-->
+            <cb ed="#R" n="b"/>
+            <lb ed="#R" n="68"/>Sed contra praedicta videntur esse dubia.
+          </p>
+          <p xml:id="paqqap-aa6232-d1e1958">
+            <lb ed="#R" n="69"/>Primum quidem, quia manente re 
+            denominan<lb ed="#R" n="70" break="no"/>te omni alio circunscripto denominatum manet, 
+            <lb ed="#R" n="71"/>vnde pictura Caesaris manente semper remanet 
+            <lb ed="#R" n="72"/>Caesar pictus: Sed esse apparens, &amp; essse 
+            cogni<lb ed="#R" n="73" break="no"/>tum non est nisi quaedam denominatio ab ipsa 
+            <lb ed="#R" n="74"/>intellectione, quae est quaedam formalis 
+            appari<lb ed="#R" n="75" break="no"/>tio: ergo quantumcunque absentia sint 
+            phantas<lb ed="#R" n="76" break="no"/>mata si remanet in intellectu realis intentio, 
+            vide<lb ed="#R" n="77" break="no"/>tur, quod obiectum maneat in esse cognito &amp; esse 
+            <lb ed="#R" n="78"/>intellecto. 
+          </p>
+          <p xml:id="paqqap-aa6232-d1e1983">
+            <lb ed="#R" n="79"/>Secundum, quod nullum esse habet ex se, sed ex 
+            <lb ed="#R" n="80"/>hoc quod aliud habet esse non incipit, nec desinit 
+            <lb ed="#R" n="81"/>esse praecise per se, sed alio incipiente aut 
+            desinen<lb ed="#R" n="82" break="no"/>te esse: sed constat quod esse apparens, cum sit 
+            <lb ed="#R" n="83"/>nihil esse in se, totum esse quod habet est per rem 
+            <lb ed="#R" n="84"/>intellectionis: ergo illa manente semper manebit 
+            <lb ed="#R" n="85"/>tale esse apparens, alioquin si per se incipit esse, &amp; 
+            <lb ed="#R" n="86"/>desinit, videbitur verum esse reale. 
+          </p>
+          <p xml:id="paqqap-aa6232-d1e2003">
+            <lb ed="#R" n="87"/>Tertium, quia secundum Commentatorem 
+            <lb ed="#R" n="88"/>sic sensus habet duo subiecta sicut &amp; intellectus, 
+            <lb ed="#R" n="89"/>&amp; est sensibile subiectum secundum, quod sensatio 
+            <lb ed="#R" n="90"/>est vera, potentia vero est subiectum secundum 
+            <lb ed="#R" n="91"/>quod est vnum de numero entium. Si ergo ad 
+            ge<lb ed="#R" n="92" break="no"/>nerationem, vel corruptionem subiecti secnndum 
+            <lb ed="#R" n="93"/>quod intellectus est verus, videlicet intentionis 
+            <lb ed="#R" n="94"/>imaginatae, non generatur nec corrumpitur 
+            intel<lb ed="#R" n="95" break="no"/>lectio, sed tota realiter manet nunc faciens 
+            ap<lb ed="#R" n="96" break="no"/>parere, nunc autem apparet obiectum: ergo nec 
+            <lb ed="#R" n="97"/>sensatio ad praesentiam, &amp; absentiam sensibilis 
+            ge<lb ed="#R" n="98" break="no"/>nerabitur realiter, aut corrumpetur, sed tantum 
+            <lb ed="#R" n="99"/>faciet; nec apparere, nec non apparere 
+            sensibile<lb ed="#R" n="100" break="no"/>&amp; secundum hoc dicam, quod omnes sensationes 
+            <lb ed="#R" n="101"/>sunt secundum rem in sensu a natiuitate, &amp; omnes 
+            <lb ed="#R" n="102"/>volitiones in voluntate, &amp; intellectiones in 
+            intelle<lb ed="#R" n="103" break="no"/>ctu, quamuis obiecta non sint praesentia. 
+          </p>
+          <p xml:id="paqqap-aa6232-d1e2042">
+            <lb ed="#R" n="104"/>Quartum est, quod Phylosophus, &amp; 
+            Commenta<lb ed="#R" n="105" break="no"/>tor non intelligunt per eise verum esse apparens, vt 
+            <lb ed="#R" n="106"/>videtur, alioquin sensibilia mouentia seusum non 
+            <lb ed="#R" n="107"/>essent subiectum sensationis, sed esse verum, cuius 
+            <lb ed="#R" n="108"/>oppositum Commentator dicit, constat enim 
+            <lb ed="#R" n="109"/>quod sensibilia habent esse reale, &amp; non solum 
+            ap<lb ed="#R" n="110" break="no"/>parens. 
+          </p>
+          <p xml:id="paqqap-aa6232-d1e2060">
+            <lb ed="#R" n="111"/>Sed his non obstantibus dicendum, quod sicut 
+            <lb ed="#R" n="112"/>similitudo entis in potentia retentiua, &amp; non 
+            ap<lb ed="#R" n="113" break="no"/>prehensiua non est formaliter cognitio, nec facit 
+            <lb ed="#R" n="114"/>apparere obiectum, existens vero in 
+            apprehen<lb ed="#R" n="115" break="no"/>siua potentia apparere facit, vt Augustinus I1. 
+            <lb ed="#R" n="116"/>de Trinitatae dicit: sic eadem similitudo existens in 
+            <lb ed="#R" n="117"/>potentia cognitiua vltimate disposita, &amp; 
+            perfe<lb ed="#R" n="118" break="no"/>cta facit apparere obiectum existens non in 
+            ea<lb ed="#R" n="119" break="no"/>dem indistincta, &amp; sub esse diminuto non faciet 
+            <lb ed="#R" n="120"/>apparere, nunc autem intellectus possibilis est 
+            in<lb ed="#R" n="121" break="no"/>fimum genus intelligibilium. 
+          </p>
+          <p xml:id="paqqap-aa6232-d1e2086">
+            <lb ed="#R" n="122"/>Vt <ref xml:id="paqqap-aa6232-Rd1e2090">Commentator dicit secundo de anima, com. 
+              <lb ed="#R" n="123"/>32.</ref> &amp; ideo ratione suae infinitatis nihil intelligit 
+            <lb ed="#R" n="124"/>sine phantasmate. &amp; signum huius est, quia 
+            quan<lb ed="#R" n="125" break="no"/>to grossior est intellectus, tanto magis materiali 
+            <lb ed="#R" n="126"/>phantasmate indiget, quanto vero intellectus est 
+            <lb ed="#R" n="127"/>altior in hominibus, tantum phantasmata 
+            spiri<lb ed="#R" n="128" break="no"/>tualiora, &amp; meliora sibi sufficiunt. Sic ergo 
+            po<lb ed="#R" n="129" break="no"/>tentia intellectiua non est in sui perfecta 
+            dispo<lb ed="#R" n="130" break="no"/>sitione, inquantum apprehensiua, nisi dum 
+            <lb ed="#R" n="131"/>phantasma est in actu suo. Sicut si poneretur 
+            <lb ed="#R" n="132"/>exemplum de debili naue trahente, quae non 
+            <lb ed="#R" n="133"/>est in vltimata dispositione ad trahendum nisi 
+            <lb ed="#R" n="134"/>tota die alio assistente. Sic etiam colores 
+            <!--0087.xml-->
+            <pb ed="#P" n="87"/>
+            <cb ed="#R" n="a"/>
+            <lb ed="#R" n="1"/>vitrei non sunt in vltimata dispositione, vt 
+            simi<lb ed="#R" n="2" break="no"/>litudinem suam diffundant in aere, radio 
+            tamen<lb ed="#R" n="3" break="no"/>perfunduntur. 
+          </p>
+          <p xml:id="paqqap-aa6232-d1e2133">
+            <lb ed="#R" n="4"/>Ad primum ergo dicendum, quod species siue 
+            <lb ed="#R" n="5"/>similitudo non est totalis causa, quod obiectum 
+            <lb ed="#R" n="6"/>habeat esse apparens, nec totale denominans, 
+            alio<lb ed="#R" n="7" break="no"/>quin in medio, vel memoria faceret obiectum 
+            ap<lb ed="#R" n="8" break="no"/>parere: est ergo causa totalis constitutum ex 
+            po<lb ed="#R" n="9" break="no"/>tentia apprehensiua in debita dispositione 
+            existen<lb ed="#R" n="10" break="no"/>te, &amp; ex ipsa similitudine. Et ideo quodcunque 
+            <lb ed="#R" n="11"/>istorum trium deficiat scilicet species, vel 
+            appre<lb ed="#R" n="12" break="no"/>hensiua potentia, vel dispositio exigita, non 
+            ma<lb ed="#R" n="13" break="no"/>nebit esse apparens; desinet enim esse, non per 
+            <lb ed="#R" n="14"/>se, &amp; praecise, sed ad cessationem alicuius, quod 
+            <lb ed="#R" n="15"/>erat increatum ipsi. Sic autem est, cum 
+            simili<lb ed="#R" n="16" break="no"/>tudine existente in intellectu possibili 
+            phantas<lb ed="#R" n="17" break="no"/>ma non est in actu conformi, tunc enim 
+            intelle<lb ed="#R" n="18" break="no"/>ctus ratione suae debilitatis non est in 
+            dispositio<lb ed="#R" n="19" break="no"/>ne exigita ad apprehendendum, &amp; ita remanet 
+            <lb ed="#R" n="20"/>ibi similitudo, quod in potentia, non 
+            apprehen<lb ed="#R" n="21" break="no"/>siua. Et per idem patet ad secundum non oportet 
+            <lb ed="#R" n="22"/>enim, quod illud esse apparens sit reale, quia 
+            prae<lb ed="#R" n="23" break="no"/>cise non desinit esse, nec incipit alio incipiente, 
+            <lb ed="#R" n="24"/>vel desinente.
+          </p>
+          <p xml:id="paqqap-aa6232-d1e2182">
+            <lb ed="#R" n="25"/>Et si dicatur, quod cum intelligere sit pati, non 
+            <lb ed="#R" n="26"/>apparet, quod phantasia, quae realiter 
+            distingui<lb ed="#R" n="27" break="no"/>tur ab intellectu, ponat eam in vltimata 
+            disposi<lb ed="#R" n="28" break="no"/>tione ad apprehendum: hoc tantum conceditur 
+            <lb ed="#R" n="29"/>in potentijs actiuis, quod ad praesentiam alterius 
+            <lb ed="#R" n="30"/>actiui coagens agere possit, sicut patet in 
+            exem<lb ed="#R" n="31" break="no"/>plo de tractore nauis. Et adhuc, uec in 
+            parti<lb ed="#R" n="32" break="no"/>bus videtur esse concedendum, nisi dum agunt 
+            <lb ed="#R" n="33"/>in ratione, sicut tractores eandem nauem mouent. 
+            <lb ed="#R" n="34"/>Si vtique sic dicatur, non valet, nam intel 
+            <lb ed="#R" n="35"/>lectio quantum ad similitudinem receptam, est 
+            <lb ed="#R" n="36"/>pasiio; quantum vero ad expressionem, &amp; 
+            re<lb ed="#R" n="37" break="no"/>praesentationem obiecri, quod facit apparere 
+            <lb ed="#R" n="38"/>est quaedam intentionalis actio, &amp; secundum 
+            <lb ed="#R" n="39"/>rationem in idem tendens cum actu 
+            phantasian<lb ed="#R" n="40" break="no"/>di. Nam vna, &amp; eadem res vt particularis 
+            <lb ed="#R" n="41"/>est phantasiata; vt vniuersalis vero natura 
+            sim<lb ed="#R" n="42" break="no"/>pliciter intellecta, &amp; ideo necesse est 
+            concurrere<lb ed="#R" n="43" break="no"/>speculationem intellectus cum ipsa 
+            apprehensio<lb ed="#R" n="44" break="no"/>ne phantasmatis, quia tendunt &amp; agunt in idem 
+            <lb ed="#R" n="45"/>obiectiue. Istae namque potentiae, etsi non sunt 
+            <lb ed="#R" n="46"/>transeuntes realiter, negari tamen non potest, 
+            <lb ed="#R" n="47"/>quin transeunt obiectiue. Et ideo Augustinus 
+            <lb ed="#R" n="48"/>cap. 12. dicit de quantitate animae, quod sensus 
+            <lb ed="#R" n="49"/>ibi sentiunt vbi non sunt, quoniam vsque ad 
+            sy<lb ed="#R" n="50" break="no"/>dera tenduntur, quod quidem non est verum 
+            <lb ed="#R" n="51"/>realiter, sed intentionaliter, &amp; obiectiue. 
+            Vn<lb ed="#R" n="52" break="no"/>de sicut lux perficit colorem, &amp; imaginatio 
+            sen<lb ed="#R" n="53" break="no"/>sum communem: Sic imaginatio existens in 
+            <lb ed="#R" n="54"/>actu suo iuuat, &amp; perficit, &amp; roborat 
+            intelle<lb ed="#R" n="55" break="no"/>ctum, quia tendunt in idem, quamuis 
+            diuersimo<lb ed="#R" n="56" break="no"/>de; imaginatio, quia particulariter, intellectus 
+            ve<lb ed="#R" n="57" break="no"/>ro vniuersaliter. 
+          </p>
+          <p xml:id="paqqap-aa6232-d1e2256">
+            <lb ed="#R" n="58"/>Ad tertium dicendum, quod sensibile duplicem 
+            <lb ed="#R" n="59"/>habitudinem habet ad sensationem. Primam 
+            qui<lb ed="#R" n="60" break="no"/>dem agentis, &amp; conseruantis, secundam vero 
+            ter<lb ed="#R" n="61" break="no"/>minatis, &amp; sustentantis intentionem sensatam 
+            ob<lb ed="#R" n="62" break="no"/>iectiuam, quando sensatio vera est: quando vero 
+            <lb ed="#R" n="63"/>sensatio falsa est, vt si ex oculorum mollicie, vel 
+            <lb ed="#R" n="64"/>ex alia causa visio maneat visibili abeunte, tunc 
+            <lb ed="#R" n="65"/>intentio visa non sustentatur in re, cum iam 
+            abie<lb ed="#R" n="66" break="no"/>rit. Et hoc apparet in delusis, &amp; similiter in visis 
+            <lb ed="#R" n="67"/>per radium reflexum &amp; fractum: nam imago, &amp; 
+            <!--0087.xml-->
+            <cb ed="#R" n="b"/>
+            <lb ed="#R" n="68"/>intentio visa apparet in alio situ, vbi non est ipsa 
+            <lb ed="#R" n="69"/>res. Secundum hoc ergo, si sensationes essent 
+            aeter<lb ed="#R" n="70" break="no"/>nae aut ab origine in sensibus, sensus sempet declus 
+            <lb ed="#R" n="71"/>derentur, quia sensationes huiusmodi semper 
+            re<lb ed="#R" n="72" break="no"/>praesentant dum sunt, dato etiam, quod obiectum 
+            <lb ed="#R" n="73"/>nt absens, non sic autem est de inteleeuu, 
+            quo<lb ed="#R" n="74" break="no"/>niam intentio intellecta semper eget 
+            phantasma<lb ed="#R" n="75" break="no"/>te siue intellectio vera sit siue falsa. Et idep Com 
+            <lb ed="#R" n="76"/>mentator, cum dicit esse simile de subiecto, quo 
+            <lb ed="#R" n="77"/>visus est verus, &amp; quo intellectio est vera, 
+            post<lb ed="#R" n="78" break="no"/>modum dissimilitudines quasdam assignant, &amp; 
+            <lb ed="#R" n="79"/>plures sunt quam ipse assignet: igitur sic nec 
+            sen<lb ed="#R" n="80" break="no"/>sationes possent semper esse in sensibus per 
+            ra<lb ed="#R" n="81" break="no"/>tionem iam dictam. Sed nec intellectiones in 
+            in<lb ed="#R" n="82" break="no"/>tellectu sunt a natura, quamuis non posset hoc 
+            <lb ed="#R" n="83"/>probari per rationem praedictam. Sed tamen 
+            <lb ed="#R" n="84"/>aliunde patet, quia sequeretur, quod formae 
+            op<lb ed="#R" n="85" break="no"/>positae scilicet oppositiones essentiae, &amp; iterum 
+            <lb ed="#R" n="86"/>intellectiones falsae inessent a natura. Videmus 
+            <lb ed="#R" n="87"/>etiam, quod mutatur homo de aestimatione in 
+            <lb ed="#R" n="88"/>aestimationem, &amp; est natus suscipere omnia, &amp; ideo 
+            <lb ed="#R" n="89"/>necesse est, quod intellectiones secundum rem 
+            <lb ed="#R" n="90"/>non sint actu a natura, imo generantur, &amp; 
+            corrum<lb ed="#R" n="91" break="no"/>puntur.
+          </p>
+          <p xml:id="paqqap-aa6232-d1e2337">
+            <lb ed="#R" n="92"/>Ad quartum dicendum, quod sensibilia habent 
+            <lb ed="#R" n="93"/>duplex esse, vnum quidem reale, siue sentiatur in 
+            <lb ed="#R" n="94"/>actu siue non. Saltem hoc verum est de 
+            tangibi<lb ed="#R" n="95" break="no"/>libus quibusdam, quicquid sit fit de odore &amp; 
+            so<lb ed="#R" n="96" break="no"/>no, quia Pnylosophus c irima viderur 
+            innue<lb ed="#R" n="97" break="no"/>re, quod non habeant esse reale. sed aautum 
+            <lb ed="#R" n="98"/>intentionale, &amp; sensatum 5 quod xantum sint 
+            <lb ed="#R" n="99"/>dum actu sentiuntur, &amp; quod esse non habeant 
+            ni<lb ed="#R" n="100" break="no"/>si obiectiuùm in seutiente, aliud vero esse habeant 
+            <lb ed="#R" n="101"/>vltra esse reale secundum esse sensatum, quod est 
+            <lb ed="#R" n="102"/>esse obiectiuum, &amp; intentionale. Et secutidum 
+            Au<lb ed="#R" n="103" break="no"/>gustinum a. de Trinit. cap. 2. licet dum videtur 
+            <lb ed="#R" n="104"/>color, non distinguamus, inter esse reale coloris, 
+            <lb ed="#R" n="105"/>&amp; suum esse visum, &amp; intentionale, tamen dum 
+            <lb ed="#R" n="106"/>est detrahitur. color, &amp; remanet visio in 
+            habenti<lb ed="#R" n="107" break="no"/>bus molles oculos; remanet etiam color secundum 
+            <lb ed="#R" n="108"/>esse sensatum apparens, &amp; intenrionale. Cum 
+            er<lb ed="#R" n="109" break="no"/>go dicit Commentator, quod sensitiua sunt 
+            sub<lb ed="#R" n="110" break="no"/>iectum sensationum secundum esse verum, 
+            intel<lb ed="#R" n="111" break="no"/>ligit secundum esse intentionale; nam dum 
+            obie<lb ed="#R" n="112" break="no"/>cta sunt praesentia, &amp; videntur per lineam rectam 
+            <lb ed="#R" n="113"/>absque vllo errore, tunc esse sensatum &amp; esse 
+            rea<lb ed="#R" n="114" break="no"/>le sunt simul in eodem situ, &amp; tamen esse 
+            inten<lb ed="#R" n="115" break="no"/>tionale habet in reali sustentari, quamuis dum 
+            vi<lb ed="#R" n="116" break="no"/>dentur per lineam fractam aut reflexam, 
+            es<lb ed="#R" n="117" break="no"/>se sensatum, quod est esse imaginis, &amp; esse 
+            in<lb ed="#R" n="118" break="no"/>tentionale differat, &amp; distet a vero situ rei 
+            <lb ed="#R" n="119"/>visae. 
+          </p>
+          <p xml:id="paqqap-aa6232-d1e2400">
+            <lb ed="#R" n="120"/>Concludendo igitur patet, quid dicendum ad 
+            quae<lb ed="#R" n="121" break="no"/>stionem, quia ad visionem beatificam requiritur 
+            <lb ed="#R" n="122"/>similitudo creata, quae est actus visionis; 
+            similitu<lb ed="#R" n="123" break="no"/>do vero, quae sit videndi ratio, aut quae coagat 
+            <lb ed="#R" n="124"/>intellectui ad visionem elicitam, aut quae terminet 
+            <lb ed="#R" n="125"/>visionem, &amp; mediet inter ipsam &amp; diuinam 
+            essen<lb ed="#R" n="126" break="no"/>tiam, nullo modo est ponenda, sed nec in aliqua 
+            <lb ed="#R" n="127"/>alia cognitione. 
+          </p>
+          <p xml:id="paqqap-aa6232-d1e2420">
+            <lb ed="#R" n="128"/>Ad argumentum igitur principale dicendum, 
+            <lb ed="#R" n="129"/>quod cum dicitur cognitionem omnem fieri per 
+            <lb ed="#R" n="130"/>assimilationem, haec praepositio, per, notat 
+            habitu<lb ed="#R" n="131" break="no"/>dinem causae formalis, non efficientis, aut alicuius 
+            <lb ed="#R" n="132"/>alterius; sicut si diceretur, quod linea sit recta per 
+            <lb ed="#R" n="133"/>rectitudinem. vnde sensus est, quod cognitio per 
+            as<lb ed="#R" n="134" break="no"/>similationem fit, ꝗa cognitio formaliter assimilatio 
+            <!--0088.xml-->
+            <pb ed="#P" n="88"/>
+            <cb ed="#R" n="a"/>
+            <lb ed="#R" n="1"/>est, non autem debet intelligi, quod praecedat 
+            assi<lb ed="#R" n="2" break="no"/>milatio cognitionem tanquam coagens, aut ratio 
+            <lb ed="#R" n="3"/>eliciendi. 
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

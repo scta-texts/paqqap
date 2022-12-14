@@ -1,0 +1,1293 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quodlibetum 2</title>
+        <author ref="#Aureoli">Petrus Aureolus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quodlibetum 2</title>
+          <date when="2022-12-14">December 14, 2022</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="R" n="cod-pa05bQ">Roma 1605, Quodlibeta</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2022-12-14" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#R" n="8"/>
+        <cb ed="#R" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="paqqap-aa3305"> <!-- q2 -->
+        <head xml:id="paqqap-aa3305-Hd1e102">Quodlibetum 2</head>
+        <head xml:id="paqqap-aa3305-Hd1e104" type="question-title">
+          Utrum actio agentis differat realiter 
+          ab agente.
+        </head>
+        <p xml:id="paqqap-aa3305-d1e107">
+          <lb ed="#R" n="77"/>QVOLJBETVM 
+          <lb ed="#R" n="78"/>SECVNDVM. 
+          <lb ed="#R" n="79"/>Vtrum actio agentis differat realiter 
+          <lb ed="#R" n="80"/>ab agente.
+        </p>
+        <p xml:id="paqqap-aa3305-d1e118">
+          <lb ed="#R" n="81"/>Secundo quaerebatur: Vtrum actio agentis 
+          <lb ed="#R" n="82"/>differat formaliter ab agente, &amp; 
+          argueba<lb ed="#R" n="83" break="no"/>tur quod non: actio namque agentis, non 
+          <lb ed="#R" n="84"/>est aliud, quam actiuitas formae, per quam 
+          <lb ed="#R" n="85"/>agens agit. Si enim esset aliquid elicitum, 
+          <lb ed="#R" n="86"/>fieret per actionem aliquam, &amp; 
+          procede<lb ed="#R" n="87" break="no"/>retur in infinitum: &amp; ideo non potest esse, 
+          <lb ed="#R" n="88"/>quod actio sit aliquid egrediens a forma 
+          <lb ed="#R" n="89"/>non remanens in ea subiectiue. Est igitur 
+          <lb ed="#R" n="90"/>quidam modus, &amp; quaedam actiuitas 
+          ipsius<lb ed="#R" n="91" break="no"/>formae, quia modus non differt realiter, &amp; 
+          <lb ed="#R" n="92"/>essentialiter ab eo, cuius est modus: ergo 
+          <lb ed="#R" n="93"/>actio non differt formaliter ab agente. 
+        </p>
+        <p xml:id="paqqap-aa3305-d1e150">
+          <lb ed="#R" n="94"/>Sed in oppositum videtur, quod Augustinus 
+          <lb ed="#R" n="95"/>de Trinitate capite primo dicit, quod 
+          im<lb ed="#R" n="96" break="no"/>possibile est, vt aliquid sit sibi causa, vt sit: 
+          <lb ed="#R" n="97"/>ergo non possunt realiter esse idem. 
+        </p>
+        <p xml:id="paqqap-aa3305-d1e161">
+          <lb ed="#R" n="98"/>Responsio ad quaestionem.
+        </p>
+        <p xml:id="paqqap-aa3305-d1e166">
+          <lb ed="#R" n="99"/>Respondeo: in ista quaestione primo 
+          inquiren<lb ed="#R" n="100" break="no"/>dum est de actione, &amp; agente in creaturis, 
+          <lb ed="#R" n="101"/>an differant realiter. Secundo vero in Deo, 
+          <lb ed="#R" n="102"/>de actione ad extra respectu creaturae, vtrum 
+          <lb ed="#R" n="103"/>differt a Deo realiter. Tertio de actione, 
+          <lb ed="#R" n="104"/>vel quasi actione ad intra, scilicet de 
+          pro<lb ed="#R" n="105" break="no"/>ductione, vtrum differat a persona 
+          produ<lb ed="#R" n="106" break="no"/>ducente realiter. 
+        </p>
+        <div xml:id="paqqap-aa3305-Dd1e186">
+          <head xml:id="paqqap-aa3305-Hd1e188">Articulus 1</head>
+          <head xml:id="paqqap-aa3305-Hd1e190" type="question-title">
+            An actio, et agens differant realiter in creaturis 
+            et primo secundum opinionem auctorum</head>
+          <p xml:id="paqqap-aa3305-d1e193">
+            <lb ed="#R" n="107"/>ARTICVLVS I. 
+            <lb ed="#R" n="108"/>An actio, &amp; agens differant realiter in creaturis 
+            <lb ed="#R" n="109"/>&amp; primo secundum opinionem Auctorum.
+          </p>
+          <p xml:id="paqqap-aa3305-d1e202">
+            <lb ed="#R" n="110"/>CIrca primum ergo considerandum 
+            <lb ed="#R" n="111"/>est de quidditatiua ratione 
+            actio<lb ed="#R" n="112" break="no"/>nis, &amp; passionis. Vnum est in quo 
+            <lb ed="#R" n="113"/>omnes concordant. Aliud 
+            ve<lb ed="#R" n="114" break="no"/>ro in quo opinantes 
+            diuersimo<lb ed="#R" n="115" break="no"/>de sentiunt. conueniunt quidem 
+            <lb ed="#R" n="116"/>in hoc, quod quidditatiua, &amp; definitiua ratio 
+            <!--0009.xml-->
+            <pb ed="#P" n="9"/>
+            <cb ed="#R" n="a"/>
+            <lb ed="#R" n="1"/>actionis est illud, quod importatur per hanc 
+            cir<lb ed="#R" n="2" break="no"/>cumloquutionem ab hoc; passiones vero per 
+            hu<lb ed="#R" n="3" break="no"/>iusmodi ab hoc, &amp; hoc, siue actum &amp; productum 
+            <lb ed="#R" n="4"/>sit forma in hoc ens facta in instanti, &amp; permutatum 
+            <lb ed="#R" n="5"/>esse, qualis est forma substantialis, siue sit facta in 
+            <lb ed="#R" n="6"/>tempore, &amp; per motum &amp; successionem, sicut albe 
+            <lb ed="#R" n="7"/>do, &amp; qualitates in quibus est alteratio. Omnes 
+            <lb ed="#R" n="8"/>enim in hoc consentiunt, quod habitudo huiusmo 
+            <lb ed="#R" n="9"/>di formae ad agens, quae non est aliud quam esse hu 
+            <lb ed="#R" n="10"/>iusmodi ab hoc est passio, habitudo vero agentis ad 
+            <lb ed="#R" n="11"/>has formas, quae non est aliud, quam huius in hoc 
+            <lb ed="#R" n="12"/>est quidditatiue, &amp; definitiue actio; ideo autem 
+            <lb ed="#R" n="13"/>in ista definitiua ratione conueniunt, quia Philoso 
+            <lb ed="#R" n="14"/>phus 3. physicor. sic exprimit formales rationes. 
+            <lb ed="#R" n="15"/>actionis, &amp; passionis, vbi dicit Commentator com 
+            <lb ed="#R" n="16"/>men. 18. quod actio agentis, &amp; passio patientis sunt 
+            <lb ed="#R" n="17"/>vnum in subiecto, &amp; duo definitione, sicut ascensus 
+            <lb ed="#R" n="18"/>&amp; descensus per idem spacium inter sursum, &amp; deor 
+            <lb ed="#R" n="19"/>sum. licet enim idem spatium sit, tamen processus 
+            <lb ed="#R" n="20"/>a sursum ad deorsum dicitur descensus, prout vero 
+            <lb ed="#R" n="21"/>est ad deorsum in sursum, dicitur ascensus, &amp; inclu 
+            <lb ed="#R" n="22"/>dit quid. Similiter est de motore, &amp; moto, quoniam 
+            <lb ed="#R" n="23"/>res facta inter illa est eadem, sed in respectu 
+            agen<lb ed="#R" n="24" break="no"/>tis dicitur mouere, &amp; in respectu alterius dicitur 
+            <lb ed="#R" n="25"/>moueri: &amp; alibi in comm. a 1. dicit, quod mouere, 
+            <lb ed="#R" n="26"/>&amp; moueri sunt idem secundum subiectum, &amp; 
+            diffe<lb ed="#R" n="27" break="no"/>runt secundum quidditatem. Definitio enim eorum 
+            <lb ed="#R" n="28"/>est diuersa, quia mouere est actio motoris in rem 
+            <lb ed="#R" n="29"/>motam, moueri autem est passio moti a motore. 
+            <lb ed="#R" n="30"/>Dicere autem actionem motoris in rem motam 
+            <lb ed="#R" n="31"/>est aliud a dicere actionem moti a motore. haec 
+            <lb ed="#R" n="32"/>Commentator. Similiter &amp; Auctor 6. principiorum 
+            <lb ed="#R" n="33"/>rationem quidditatiuam actionis definitiue 
+            expri<lb ed="#R" n="34" break="no"/>mens, non aliud explicat nisi rationem illam, quam 
+            <lb ed="#R" n="35"/>important hae duae dictiones huius in hoc. Ait enim 
+            <lb ed="#R" n="36"/>quod actio est illud secundum quam in illud, quod 
+            <lb ed="#R" n="37"/>subijcitur, agere dicuntur, &amp; passionem definiens 
+            <lb ed="#R" n="38"/>explicat illam rationem, quam importat haec 
+            cir<lb ed="#R" n="39" break="no"/>cumlocutio huius ab hoc, vnde dicit, quod est 
+            ef<lb ed="#R" n="40" break="no"/>fectus, illatioque actionis siue ab actione. 
+          </p>
+          <p xml:id="paqqap-aa3305-d1e313">
+            <lb ed="#R" n="41"/>Disconueniunt autem in exponendo illam 
+            ratio<lb ed="#R" n="42" break="no"/>nem, quam praedictae rationes circumloquuntur: 
+            <lb ed="#R" n="43"/>dixerunt namque aliqui, quod huiusmodi rationes 
+            <lb ed="#R" n="44"/>sunt duae habitudines, &amp; duo respectus alterius ge 
+            <lb ed="#R" n="45"/>neris, quorum vnus est in agente subiectiue, scilicet 
+            <lb ed="#R" n="46"/>actio, quam circumloquitur illa oratio, huius in 
+            <lb ed="#R" n="47"/>hoc. Alter vero est subiectiue in passio, quem 
+            cir<lb ed="#R" n="48" break="no"/>cumloquitur oratio reliqua, scilicet huius ab hoc. 
+            <lb ed="#R" n="49"/>&amp; ratio horum fuit, quia forma est in eo, quod 
+            de<lb ed="#R" n="50" break="no"/>nominat, &amp; in eo, quod suscipit effectum formalem: 
+            <lb ed="#R" n="51"/>sed actio formaliter denominat agens, cum agens 
+            <lb ed="#R" n="52"/>sit agens formaliter, &amp; agat actione: igitur in agen 
+            <lb ed="#R" n="53"/>te est actio, sicut albedo in albo. 
+          </p>
+          <p xml:id="paqqap-aa3305-d1e345">
+            <lb ed="#R" n="54"/>Dixerunt vero alij concordando cum praeceden 
+            <lb ed="#R" n="55"/>tibus, quod sunt duo respectus, quorum vterque 
+            <lb ed="#R" n="56"/>est in passo subiectiue immediate non mediante 
+            ter<lb ed="#R" n="57" break="no"/>mino producto: habitudo enim agentis ad 
+            termi<lb ed="#R" n="58" break="no"/>num productum non est de genere actionis, sed de 
+            <lb ed="#R" n="59"/>genere relationis, sed habitudo illa quae est 
+            agen<lb ed="#R" n="60" break="no"/>tis ad passum, secundum quam passum 
+            transmuta<lb ed="#R" n="61" break="no"/>tur ab agente, qui est quodammodo prior non tem 
+            <lb ed="#R" n="62"/>pore: sed ordiue ad ipsum terminum productum 
+            <lb ed="#R" n="63"/>est de genere actionis. 
+          </p>
+          <p xml:id="paqqap-aa3305-d1e369">
+            <lb ed="#R" n="64"/>Ratio istorum fuit, quia secundum auctorem 
+            <lb ed="#R" n="65"/>6. principiorum. Actio est secundum quam aliquid 
+            <lb ed="#R" n="66"/>agere dicimur, quod pertinet ad terminum 
+            for<lb ed="#R" n="67" break="no"/>malem. immo subdit, quod actio non requirit quid 
+            <lb ed="#R" n="68"/>agat, sed in quid agat, sed dicit in illud, quod 
+            <!--0009.xml-->
+            <cb ed="#R" n="b"/>
+            <lb ed="#R" n="69"/>subijcitur, quod pertinet ad subiectum. Et 
+            simili<lb ed="#R" n="70" break="no"/>terPhilosophus in illa circumlocutione dicit, quod 
+            <lb ed="#R" n="71"/>actio est huius in hoc, hoc est, agentis in subiectum. 
+            <lb ed="#R" n="72"/>omnia etiam verba significantia actionem 
+            impor<lb ed="#R" n="73" break="no"/>tant habitudinum ad subiectum non formalem ter 
+            <lb ed="#R" n="74"/>minum, sicut patet, quod sol dicitur illuminare 
+            <lb ed="#R" n="75"/>aerem, non lumen, &amp; ignis calefacere lignum non 
+            <lb ed="#R" n="76"/>calorem. hinc est etiam. quod productiones in 
+            di<lb ed="#R" n="77" break="no"/>uinis non sunt de genere actionis, quia non 
+            ha<lb ed="#R" n="78" break="no"/>bent subiectum, sed sunt de genere relationis, 
+            tan<lb ed="#R" n="79" break="no"/>quam origines terminorum, nec etiam creatio est 
+            <lb ed="#R" n="80"/>de genere actionis propter eandem rationem. 
+            Re<lb ed="#R" n="81" break="no"/>stat igitur, quod respectus in quo consistit 
+            forma<lb ed="#R" n="82" break="no"/>liter ratio actionis sit ad subiectum, non ad 
+            termi<lb ed="#R" n="83" break="no"/>num. Quod autem subiectiue sit in passo &amp; non 
+            in<lb ed="#R" n="84" break="no"/>agente, patet, quia transmutans simul est cum eo, 
+            <lb ed="#R" n="85"/>quod transinutatur, sed actio non transmutat agens 
+            <lb ed="#R" n="86"/>sed transmutat passum: est ergo in passo, &amp; non in 
+            <lb ed="#R" n="87"/>agente. 
+          </p>
+          <p xml:id="paqqap-aa3305-d1e428">
+            <lb ed="#R" n="88"/>Dixerunt vero alij, quod rationes importatae 
+            <lb ed="#R" n="89"/>per illas circumloquutiones non sunt respectus, 
+            <lb ed="#R" n="90"/>nec aliquid reale, aliud a forma producta subsisten 
+            <lb ed="#R" n="91"/>te, vel inhaeronte faca in instanti, vel successiue, 
+            <lb ed="#R" n="92"/>sed huiusmodi rationes sunt quaedam denomina. 
+            <lb ed="#R" n="93"/>tiones, seu connotationes: nam forma ipsa, quae 
+            <lb ed="#R" n="94"/>producitur, connotat ipsum agens tanquam illud, 
+            <lb ed="#R" n="95"/>a quo est, &amp; sic dicitur actio, denominat etiam 
+            se<lb ed="#R" n="96" break="no"/>ipsam tanquam illud, quod est ab alio, &amp; sic 
+            dici<lb ed="#R" n="97" break="no"/>tur passio. Sunt etiam actio, &amp; passio formaliter, 
+            <lb ed="#R" n="98"/>&amp; in recto ipsa forma, connotatiuo autem, &amp; per 
+            <lb ed="#R" n="99"/>modum denominantis includunt huiusmodi 
+            ratio<lb ed="#R" n="100" break="no"/>nes esse, scilicet ab alio, &amp; a quo aliud. ratio 
+            isto<lb ed="#R" n="101" break="no"/>rum est, quia si huiusmodi rationes importarent 
+            <lb ed="#R" n="102"/>rem aliquam additam formae productae, vel 
+            abso<lb ed="#R" n="103" break="no"/>lutam, uel relatiuam, cum res huiusmodi de 
+            no<lb ed="#R" n="104" break="no"/>uo esse inciperet prius non existens, quaereretur, qua 
+            <lb ed="#R" n="105"/>actione de non esse exiret ad esse. Aut enim per 
+            <lb ed="#R" n="106"/>aliam actionem, aut immediate per seipsam. non 
+            <lb ed="#R" n="107"/>primum, quia actionis non est actio, &amp; iterum 
+            <lb ed="#R" n="108"/>procederetur in infinitum. Nec secundum, quia 
+            <lb ed="#R" n="109"/>tunc haberetur propositum, qua ratione enim illa 
+            <lb ed="#R" n="110"/>res, quae est actio, de non esse ad esse exigit ad esse 
+            <lb ed="#R" n="111"/>virrutem agentis absque omni realitate media, 
+            pa<lb ed="#R" n="112" break="no"/>ri ratione &amp; ipsa forma producta potuit immedia 
+            <lb ed="#R" n="113"/>te virtute agentis exire in esse, absque omni 
+            rea<lb ed="#R" n="114" break="no"/>litate media, quae sit actio, siout actio agentis, quae 
+            <lb ed="#R" n="115"/>immediate ab eo egreditur, est formaliter &amp; in 
+            re<lb ed="#R" n="116" break="no"/>cto ipsamet forma producta, vt connotat agens 
+            si<lb ed="#R" n="117" break="no"/>ue denotat, quam connotationem importat haec 
+            <lb ed="#R" n="118"/>dictio, ab, &amp; ita forma, vt ab agente, est 
+            quiddi<lb ed="#R" n="119" break="no"/>tatiue formaliter actio.
+          </p>
+          <p xml:id="paqqap-aa3305-d1e500">
+            <lb ed="#R" n="120"/>Nunc secundo, in quo opinantes conueniunt, &amp; 
+            <lb ed="#R" n="121"/>in quo discrepant circa naturam actionis ponendae 
+            <lb ed="#R" n="122"/>sunt Propositiones intentae. 
+          </p>
+          <p xml:id="paqqap-aa3305-d1e509">
+            <lb ed="#R" n="123"/>Prima quidem est, quod actio non potest 
+            esse<lb ed="#R" n="124" break="no"/>respectus existens in agente subiectiue contra 
+            pri<lb ed="#R" n="125" break="no"/>mam opinionem, quod patet ratione ducente ad 
+            <lb ed="#R" n="126"/>impossibile. Quia si hoc verum esset, sequeretur, 
+            <lb ed="#R" n="127"/>quod omne agens praeageret in se, &amp; prius 
+            causa<lb ed="#R" n="128" break="no"/>ret nouam realitatem in se, quam in passo, illa 
+            <lb ed="#R" n="129"/>namque realitas cum non sit, cum ponatur de 
+            no<lb ed="#R" n="130" break="no"/>uo in agente, oportet, quod vel hoc sit virtute agen 
+            <lb ed="#R" n="131"/>tis, vel virtute propria, quod impossibile est, quia 
+            <lb ed="#R" n="132"/>nulla res producit seipsam de non esse ad esse, vel 
+            <lb ed="#R" n="133"/>formae productae virtute, quod magis impossibile 
+            <lb ed="#R" n="134"/>est, &amp; ideo oportebit, quod agens praeageret in se, 
+            <lb ed="#R" n="135"/>&amp; prius causaret nouam realitatem in se quam in 
+            <lb ed="#R" n="136"/>passo, illa namque realitas, cum non sit nihil, si po- 
+            <!--0010.xml-->
+            <pb ed="#P" n="10"/>
+            <cb ed="#R" n="a"/>
+            <lb ed="#R" n="1"/>natur de nono in agente, oportet, quod hoc sit 
+            vir<lb ed="#R" n="2" break="no"/>tute agentis, quod illam realitatem causat in se. 
+          </p>
+          <p xml:id="paqqap-aa3305-d1e553">
+            <lb ed="#R" n="3"/>Item sequeretur, quod omnis potentia actiua 
+            <lb ed="#R" n="4"/>est passiua, &amp; receptiua ex hoc ipso, quod est 
+            acti<lb ed="#R" n="5" break="no"/>ua, quia de ratione actionis est secundum hanc viam, ua, quia de ratione actionis est secundum hanc viam, 
+            <lb ed="#R" n="6"/>quod eliciatur in agente, &amp; remaneat in potentia, 
+            <lb ed="#R" n="7"/>a qua elicitur. 
+          </p>
+          <p xml:id="paqqap-aa3305-d1e567">
+            <lb ed="#R" n="8"/>Adhuc sequitur, quod acquiratur respectus in 
+            <lb ed="#R" n="9"/>agente, nullo absoluto acquisito in eo, aut etiam 
+            <lb ed="#R" n="10"/>in alio: nam actio praecedit origine formam 
+            pro<lb ed="#R" n="11" break="no"/>ductam, propter quod sua realitas non sequitur 
+            <lb ed="#R" n="12"/>acquisitionem alicuius absoluti acquisiti in produ 
+            <lb ed="#R" n="13"/>cto, nec in producente. 
+          </p>
+          <p xml:id="paqqap-aa3305-d1e583">
+            <lb ed="#R" n="14"/>Rursum sequitur, quod omne transmutans 
+            trans<lb ed="#R" n="15" break="no"/>mutatur, &amp; omne agens, cum acquirat in se 
+            reali<lb ed="#R" n="16" break="no"/>tatem, per quam aliter se habet nunc quam prius.
+          </p>
+          <p xml:id="paqqap-aa3305-d1e592">
+            <lb ed="#R" n="17"/>Similiter sequitur, quod omne mouens 
+            mouea<lb ed="#R" n="18" break="no"/>tur, quia cum motiorctiua sit aliquid successiuum 
+            <lb ed="#R" n="19"/>in ipso motore erit acquisitio successiua realitatis, 
+            <lb ed="#R" n="20"/>quam necessario importat, &amp; ita successiue transfe 
+            <lb ed="#R" n="21"/>retur motor de realitate in realitatem, &amp; per 
+            con<lb ed="#R" n="22" break="no"/>sequens monebitur: sed praedicta omnia 
+            impossibi<lb ed="#R" n="23" break="no"/>lia sunt, vt per se patet: ergo &amp; illud, ex quo sequũ- 
+            <lb ed="#R" n="24"/>tur, scilicet, quod actio sit aliqua res respectiua 
+            <lb ed="#R" n="25"/>vel absoluta, aut res etiam modalis existens 
+            inhae<lb ed="#R" n="26" break="no"/>renter, dicit enim, in agente.
+          </p>
+          <p xml:id="paqqap-aa3305-d1e616">
+            <lb ed="#R" n="27"/>Praeterea auctoritate Philosophi in 3. physic. idem 
+            <lb ed="#R" n="28"/>patet: dicit enim quod actio agentis non est in 
+            a<lb ed="#R" n="29" break="no"/>gente, quod exponens Commentator commen. 18 
+            <lb ed="#R" n="30"/>ait, quod actio agentis, quae est mouere non est in 
+            <lb ed="#R" n="31"/>eo, sed est eius. 
+          </p>
+          <p xml:id="paqqap-aa3305-d1e629">
+            <lb ed="#R" n="32"/>Ad motiuum autem opinionis dicendum, quod 
+            <lb ed="#R" n="33"/>secus est de effectu formali, &amp; forma siue subiecti 
+            <lb ed="#R" n="34"/>denominatione a causa formali, &amp; denominatione 
+            <lb ed="#R" n="35"/>agentis ab actione: forma namque denominat 
+            in<lb ed="#R" n="36" break="no"/>haerenter, &amp; informando, &amp; idcirco non est 
+            subie<lb ed="#R" n="37" break="no"/>ctiue, nisi in illo, quod denominat: actio autem non 
+            <lb ed="#R" n="38"/>denominat agens per modum inhaerentis, sed per 
+            <lb ed="#R" n="39"/>modum egredientis: est enim actio ab agente, &amp; 
+            <lb ed="#R" n="40"/>eius, non in eo, vt dicit Commentator. Vnde ratio 
+            <lb ed="#R" n="41"/>magis es ad oppositum, quia, quod denominat per 
+            <lb ed="#R" n="42"/>egressum, non per informationem, impossibile est, 
+            <lb ed="#R" n="43"/>quod sit subiectiue in eo, quod denominat.
+          </p>
+          <p xml:id="paqqap-aa3305-d1e658">
+            <lb ed="#R" n="44"/>Quod actio non importat respectum agentis ad 
+            <lb ed="#R" n="45"/>passum immediate, immo mediante 
+            ter<lb ed="#R" n="46" break="no"/>mino producto habet esse in 
+            <lb ed="#R" n="47"/>passo. 
+          </p>
+          <p xml:id="paqqap-aa3305-d1e670">
+            <lb ed="#R" n="48"/>SEcunda vero Propositio est, quod actio non 
+            im<lb ed="#R" n="49" break="no"/>portat respectum agentis ad passum 
+            immedia<lb ed="#R" n="50" break="no"/>te respectum quidem priorem origine, in subiecto 
+            <lb ed="#R" n="51"/>ante terminum productum; immo mediante termi 
+            <lb ed="#R" n="52"/>no est in passo, quod est contra opinionem secundam. 
+            <lb ed="#R" n="53"/>hoc autem potest declarari ratione ducente ad im 
+            <lb ed="#R" n="54"/>possibile. Si enim respectus per actionem importa 
+            <lb ed="#R" n="55"/>tus existeret mediante passo, &amp; non mediante termi 
+            <lb ed="#R" n="56"/>no, qui per actionem inducitur, sequeretur, quod 
+            <lb ed="#R" n="57"/>respectus de nouo inciperet esse in passo, non ex 
+            ac<lb ed="#R" n="58" break="no"/>quisitione alicuius absoluti, sed immediante natura, 
+            <lb ed="#R" n="59"/>si detur, quod ex acquisitione alicuius absoluti, vel 
+            <lb ed="#R" n="60"/>illud erit aliud a termino producto, &amp; et sic erunt duo
+            <!-- missing line break --> absoluta producta, quod est absonum, vel et ipse
+            <!-- missing line break --> formalis terminus, &amp; habetur propositum.
+          </p>
+          <p xml:id="paqqap-aa3305-d1e705">
+            <lb ed="#R" n="61"/>Item sequeretur, quod duo respectus de genere 
+            <lb ed="#R" n="62"/>actionis essent in eodem producto, vnus quidem 
+            <lb ed="#R" n="63"/>ad passum, &amp; alius ad formalem terminum, quod 
+            <lb ed="#R" n="64"/>enim ille, qui est ad terminum, sit de genere actio- 
+            <!--0010.xml-->
+            <cb ed="#R" n="b"/>
+            <lb ed="#R" n="65"/>nis pater, quia ille non est, nisi origo 
+            termini<lb ed="#R" n="66" break="no"/>Agens enim causat, &amp; originat terminum, nunc 
+            <lb ed="#R" n="67"/>autem nullus respectus de genere relationis 
+            origi<lb ed="#R" n="68" break="no"/>nat, aut causat terminum. similitudo. n. aut 
+            paterni<lb ed="#R" n="69" break="no"/>tas non est respectus productini, &amp; vniuersaliter 
+            re<lb ed="#R" n="70" break="no"/>latio sequitur fundamontum, &amp; tantum per conse 
+            <lb ed="#R" n="71"/>quens non causat, nec producit ipsum, actio autem 
+            <lb ed="#R" n="72"/>causat ipsum terminum, &amp; inducit: manifestum est 
+            <lb ed="#R" n="73"/>ergo, quod respectus ille, qui est ad passum median 
+            <lb ed="#R" n="74"/>te termino, est de genere actionis. Si ergo est alius 
+            <lb ed="#R" n="75"/>respectus ad passum immediate, immo ad 
+            termi<lb ed="#R" n="76" break="no"/>num mediante passo, qui sit de genere actionis, se⸗ 
+            <lb ed="#R" n="77"/>quitur, quod duae actiones erunt in codem 
+            produ<lb ed="#R" n="78" break="no"/>cto, &amp; ita omne agens ageo duplici actione : sed 
+            <lb ed="#R" n="79"/>haec impossibilia sunt sicut patet: igitur. respestus 
+            <lb ed="#R" n="80"/>importatus per actionem est in passo mediante for 
+            <lb ed="#R" n="81"/>mali termino, &amp; non immediate per modum puae⸗ 
+            <lb ed="#R" n="82"/>cedentis formalem terminum in ipso passo.
+          </p>
+          <p xml:id="paqqap-aa3305-d1e760">
+            <lb ed="#R" n="83"/>Praeterea auctoritate idem patet, dicit enim 
+            <lb ed="#R" n="84"/>Commentator 7. met. comm. 21. quod actio agen⸗ 
+            <lb ed="#R" n="85"/>tis non dependet a subiecto, nisi secundum quod 
+            <lb ed="#R" n="86"/>pendet de forma, cum actio agentis non dependeat 
+            <lb ed="#R" n="87"/>a:subiecto sine forma, manifestum est enim, quod 
+            <lb ed="#R" n="88"/>actio agentis depender ex subiecto, propter hoc, 
+            <lb ed="#R" n="89"/>quod pendet de forma, hoc ille. ex quo patet, quod 
+            <lb ed="#R" n="90"/>ageus per actionem non attingit subiectum 
+            imme<lb ed="#R" n="91" break="no"/>diate, sed mediāte formali termino, sic quod respe 
+            <lb ed="#R" n="92"/>ctus importatus per actionem non influitur in 
+            pas<lb ed="#R" n="93" break="no"/>sum, nisi quantus influitur formalis terminus, vel 
+            <lb ed="#R" n="94"/>aliquid ab solutum 
+          </p>
+          <p xml:id="paqqap-aa3305-d1e789">
+            <lb ed="#R" n="95"/>Ad motiuum vero positionis dicendum equod 
+            <lb ed="#R" n="96"/>quia apud Aristotelem, &amp; caeteros Philosophos im 
+            <lb ed="#R" n="97"/>possibile fuit ex nihilo aliquid fieri, idcirco 
+            dixe<lb ed="#R" n="98" break="no"/>runt, omnem actionem non solum respicere 
+            forma<lb ed="#R" n="99" break="no"/>lem terminum, aut formam productam, immo &amp; 
+            <lb ed="#R" n="100"/>ipsum subiectum, &amp; hinc est, quod in 
+            definitioni<lb ed="#R" n="101" break="no"/>bus, &amp; circumloquutionibus actionis ponitur 
+            subie<lb ed="#R" n="102" break="no"/>ctum. secundum quod iste respectus sit subiectiue 
+            <lb ed="#R" n="103"/>immediate in subiecto, &amp; non mediante formali ter 
+            <lb ed="#R" n="104"/>mino, numquam habetur ex intentione eorum 
+            <lb ed="#R" n="105"/>immo oppositum sicut patet, quod Auctor 6. 
+            prin<lb ed="#R" n="106" break="no"/>cipiorum dicit actionem non exigere quid agat. 
+            <lb ed="#R" n="107"/>Sed nunquid non excludit formalem terminum 
+            <lb ed="#R" n="108"/>cum expresse dicat Commentator 12. metaph. com 
+            <lb ed="#R" n="109"/>men. 18. quod actio agentis est, &amp; inueniendo 
+            ali<lb ed="#R" n="110" break="no"/>quid positiuum, non autem in priuando: 
+            intelli<lb ed="#R" n="111" break="no"/>git ergo Auctor 6. principiorum, quod non exigit, 
+            <lb ed="#R" n="112"/>quid agat, scilicet sensibile aut perfectius, vnde 
+            <lb ed="#R" n="113"/>loquitur secundum vulgus, vt patet in exemplo 
+            <lb ed="#R" n="114"/>suo de combustione domus, quod secundum 
+            vul<lb ed="#R" n="115" break="no"/>gus non fit aliquid per talem combustionem, immo 
+            <lb ed="#R" n="116"/>quod erat corpus, &amp; tamen secundum veritatem 
+            <lb ed="#R" n="117"/>aliquid fit, emanat enim ignis ex lignis, &amp; caeteris 
+            <lb ed="#R" n="118"/>partibus domus. 
+          </p>
+          <p xml:id="paqqap-aa3305-d1e844">
+            <lb ed="#R" n="119"/>Ex his pater, quod praedicatum actionis, &amp; vera 
+            <lb ed="#R" n="120"/>actio de genere actionis potest reperiri, vbi etiam 
+            <lb ed="#R" n="121"/>non est forma in subiecto producta, prius namque 
+            <lb ed="#R" n="122"/>potest separari absq. repugnantia a posteriori, sed 
+            <lb ed="#R" n="123"/>actio per prius est ad terminum formalem tanquam 
+            <lb ed="#R" n="124"/>causa, &amp; origo ipsius, &amp; mediante formali 
+            termi<lb ed="#R" n="125" break="no"/>no actio dependet a subiecto: ergo si terminus for 
+            <lb ed="#R" n="126"/>malis inueniatur per se subsistens, &amp; produci 
+            abs<lb ed="#R" n="127" break="no"/>que subiecto, adhuc remanebit vera ratio actionis 
+            <lb ed="#R" n="128"/>secundum quam est vere agens, &amp; producitur crea 
+            <lb ed="#R" n="129"/>tura productione de genere actionis, &amp; similiter 
+            <lb ed="#R" n="130"/>productiones in diuinis habent modum generis 
+            <lb ed="#R" n="131"/>actionis, inquantum per eas terminus vere 
+            acci<lb ed="#R" n="132" break="no"/>pit esse. 
+          </p>
+          <p xml:id="paqqap-aa3305-d1e877">
+            <!--0011.xml-->
+            <pb ed="#P" n="11"/>
+            <cb ed="#R" n="a"/>
+            <lb ed="#R" n="1"/>Quod aaii aediienistuumuba sunt formaliten actio, 
+            <lb ed="#R" n="2"/>&amp; passio, necessario distinguuntur. 
+            <lb ed="#R" n="3"/>realiter a forma. 
+          </p>
+          <p xml:id="paqqap-aa3305-d1e894">
+            <lb ed="#R" n="4"/>TErtia Propositio est, quod illae habitudines 
+            ho<lb ed="#R" n="5" break="no"/>ius in hoc, &amp; huius ab hoc necessetio fant 
+            <lb ed="#R" n="6"/>aliquid reale aliud a sorma producta, &amp; per 
+            conse<lb ed="#R" n="7" break="no"/>quens non est verum, quod actio sit in recto ipsa 
+            <lb ed="#R" n="8"/>forma, quod dicebat opinio tertia. hoc autem 
+            <lb ed="#R" n="9"/>patet ratione, &amp; auctoritate. Ratione sic, s 
+            quan<lb ed="#R" n="10" break="no"/>docunque aliqua sic se habent, quod vnum manet 
+            <lb ed="#R" n="11"/>secundum rem, reliquum secundum rationem, 
+            trans<lb ed="#R" n="12" break="no"/>eunte illa secundum rem non sunt idem, cum idem 
+            <lb ed="#R" n="13"/>non possit separari a se quin tollatur veritas primii 
+            <lb ed="#R" n="14"/>priacipij, quia erit, &amp; remanebit dum. nouerit, 
+            <lb ed="#R" n="15"/>nec remanebit: sed manente agento &amp;. 
+            manente<lb ed="#R" n="16" break="no"/>forma producta huiusmodi habitudites secundum 
+            <lb ed="#R" n="17"/>rem transeunt, huius scilicet inihos, &amp; huius ab 
+            <lb ed="#R" n="18"/>hoc. hanc probo supponendo regulam: quae 
+            maxi<lb ed="#R" n="19" break="no"/>ma est in Theologia, scilicet, quod omnem 
+            effe<lb ed="#R" n="20" break="no"/>ctum causae efficientis creaturae potest Deus imme 
+            <lb ed="#R" n="21"/>diate facere: Sole igitur existente in eodem fitu in 
+            <lb ed="#R" n="22"/>coelo, Deus potest conseruare, &amp; solem, &amp; radium 
+            <lb ed="#R" n="23"/>qui est a sole, &amp; tamen manutenebitaeum sine sole, 
+            <lb ed="#R" n="24"/>&amp; per consequens transibit secundum rem 
+            bahitu<lb ed="#R" n="25" break="no"/>do importata per esse a sole, nihilominus sol&amp; 
+            ra<lb ed="#R" n="26" break="no"/>dius secundum rem remanebunt, quod non posset 
+            <lb ed="#R" n="27"/>esse, si ista habitudo secundum rem non esset aliud, 
+            <lb ed="#R" n="28"/>quam radius. Et in omnem formam, quam agens 
+            <lb ed="#R" n="29"/>naturale potest inducere, potest Deus immediate 
+            <lb ed="#R" n="30"/>inducere: ponatur ergo in instanti, quod sol dobot 
+            <lb ed="#R" n="31"/>inducere radium, aut generans formam, 
+            substan<lb ed="#R" n="32" break="no"/>tialem, quod Deus inducat radium, fine formam 
+            <lb ed="#R" n="33"/>substantialem, tunc verum est dicere, quod neo ra 
+            <lb ed="#R" n="34"/>dius est a sole, nec forma substantialis est a 
+            gene<lb ed="#R" n="35" break="no"/>rante, sed vtrumque a Deo, &amp; tamenest eadem for 
+            <lb ed="#R" n="36"/>ma substantialis, est idem radius, qui esset a sole, &amp; 
+            <lb ed="#R" n="37"/>a generante: non est igitur haec habitudo. 
+            impor<lb ed="#R" n="38" break="no"/>tata per ab, &amp; tamen manet. vterque terminusi for 
+            <lb ed="#R" n="39"/>ma, scilicet, quae producitur, &amp; agens, a quo posset 
+            <lb ed="#R" n="40"/>produci. 
+          </p>
+          <p xml:id="paqqap-aa3305-d1e977">
+            <lb ed="#R" n="41"/>Et iterum quaeretur, qua ratione, si Deus non 
+            in<lb ed="#R" n="42" break="no"/>duxisset radium, vel substantialem formam, verum 
+            <lb ed="#R" n="43"/>esset dicere magis, quod essent ab agente, quam 
+            <lb ed="#R" n="44"/>non, nisi esset ab aliquid aliud a radio, &amp; a forma 
+            <lb ed="#R" n="45"/>immo cum esse a Deo, &amp; ab agente sit aliud &amp; aliud 
+            <lb ed="#R" n="46"/>sicut patet, &amp; cum radius est idem, impossibile est 
+            <lb ed="#R" n="47"/>poni, quod vtrumque sit idem, &amp; cum radio: 
+            vn<lb ed="#R" n="48" break="no"/>de, quare iste radius qui est aptus natus esse a Sole 
+            <lb ed="#R" n="49"/>in isto instanti sit a Deo, &amp; non a sole; ratio assigna 
+            <lb ed="#R" n="50"/>ri non potest ex parte radij, cum sit idem, nec ex 
+            par<lb ed="#R" n="51" break="no"/>te Dei in se, cum nulla mutatio sit in eo,nec ex 
+            par<lb ed="#R" n="52" break="no"/>te solis cum manuteneatur a Deo in illo situ, &amp; in 
+            <lb ed="#R" n="53"/>illa dispositione qua statim produceret, nisi 
+            praeue<lb ed="#R" n="54" break="no"/>niatur a Deo: ergo oportet, quod ratio 
+            assigne<lb ed="#R" n="55" break="no"/>tur ex parte illius, quod importatur per esse a b. 
+            <lb ed="#R" n="56"/>Deus enim substrahit a radio esse a sole, &amp; per 
+            con<lb ed="#R" n="57" break="no"/>sequens vnum potest ab alio separarit igitur non 
+            <lb ed="#R" n="58"/>est possibile, quod ratio illa, quam important 
+            cir<lb ed="#R" n="59" break="no"/>cunloquutiones hoc ab hoc, vel ab hoc hoc, sit 
+            <lb ed="#R" n="60"/>idem secundum rem cum forma producta. 
+          </p>
+          <p xml:id="paqqap-aa3305-d1e1023">
+            <lb ed="#R" n="61"/>Confirmatur, quia aere posito inter duas 
+            cande<lb ed="#R" n="62" break="no"/>las aeque distantes, Deus potest subtrahere 
+            actio<lb ed="#R" n="63" break="no"/>nem vnius, &amp; tunc aut in aere formam lucis 
+            indu<lb ed="#R" n="64" break="no"/>cet; quare igitur lux generata magis est ab 
+            vna<lb ed="#R" n="65" break="no"/>quam ab alia, non potest causa assignari nisi quod 
+            <lb ed="#R" n="66"/>esse ab, sit aliud a forma lucis, sic, quod Deus pos- 
+            <!--0011.xml-->
+            <cb ed="#R" n="b"/>
+            <lb ed="#R" n="67"/>esic suspendnromm importetam pecess ab 
+            etma<lb ed="#R" n="68" break="no"/>nente, sormasnei ie yt. eJ -maa, cact e:nat u.
+          </p>
+          <p xml:id="paqqap-aa3305-d1e1047">
+            <lb ed="#R" n="69"/>Neque valet: si dicatorx quod quaeliberffurma 
+            <lb ed="#R" n="70"/>ducis numerata. connotat agens suum aita quod 
+            <lb ed="#R" n="71"/>impossibile est eadem numero esse a duabus 
+            can<lb ed="#R" n="72" break="no"/>delis, non valet vtique, quia si hoc haberet a se, &amp; 
+            <lb ed="#R" n="73"/>ex se, semper haberet etiam respectu. Dei, nec 
+            pos<lb ed="#R" n="74" break="no"/>set Deus a re lucis sepatareiesse a sole vel candela, 
+            <lb ed="#R" n="75"/>quod tamen facerei potest conseruando radium 
+            <lb ed="#R" n="76"/>productum a solairel candela, vel praeueniendo 
+            <lb ed="#R" n="77"/>actionem. 
+          </p>
+          <p xml:id="paqqap-aa3305-d1e1069">
+            <lb ed="#R" n="78"/>Naturaliter etiam patet, quod transit 
+            importa<lb ed="#R" n="79" break="no"/>mmper esse ab, scilicee generatio actio, &amp; tamen 
+            <lb ed="#R" n="80"/>manes forma generuta, &amp; tamen aliqua instanti 
+            <lb ed="#R" n="81"/>fuit rerum dicere hoc, nunc hoc est actu a 
+            gene<lb ed="#R" n="82" break="no"/>rante i namen postmodum non est verum, igitur 
+            <lb ed="#R" n="83"/>esse a generante estalinda forma. 
+          </p>
+          <p xml:id="paqqap-aa3305-d1e1085">
+            <lb ed="#R" n="84"/>Praeterea aucoritate putet idem, quia 
+            Philoso<lb ed="#R" n="85" break="no"/>pbus 3. physic. dicit, quod actio cum passione non 
+            <lb ed="#R" n="86"/>est idem proprie, sed illud cui insunt hec, scilicet 
+            <lb ed="#R" n="87"/>motus, &amp; Commentatun comm. 22. ibidem, &amp; 
+            <lb ed="#R" n="88"/>pluribus alijs commentis dicit, quod actior &amp; 
+            pas<lb ed="#R" n="89" break="no"/>dio differunt secundum quidditatem &amp; definitionem 
+            <lb ed="#R" n="90"/>&amp; sunt eadem secundum subiectum, quia fecundum 
+            <lb ed="#R" n="91"/>formami productam, ex quibus potest sic argui: 
+            <lb ed="#R" n="92"/>Accidens, &amp; subiectum differunt secundum 
+            rem<lb ed="#R" n="93" break="no"/>non est enim verum dicere de iis, quae solum 
+            diffe<lb ed="#R" n="94" break="no"/>runt ratione, quod sint idem subiecto, &amp; differāt 
+            <lb ed="#R" n="95"/>secundum quidditatem, prasertim cum 
+            Philoso<lb ed="#R" n="96" break="no"/>phus &amp; Commentator 2. physic. isto modo loquen 
+            <lb ed="#R" n="97"/>di vtantur de accidentibus, vt de leui, &amp; raro 
+            di<lb ed="#R" n="98" break="no"/>eit ibi, quod sunt idem subiecto, scilicet in 
+            superfi<lb ed="#R" n="99" break="no"/>cie, &amp; differunt quidditate. 
+          </p>
+          <p xml:id="paqqap-aa3305-d1e1123">
+            <lb ed="#R" n="100"/>Et confirmatur, quia quidditas accidentis a qua, 
+            <lb ed="#R" n="101"/>differt a subiecto. Cum ergo dicant Philosophus, &amp; 
+            <lb ed="#R" n="102"/>Commentator, quod actio, &amp; passio differunt 
+            se<lb ed="#R" n="103" break="no"/>cundum quidditates, quas exprimunt abihoc hoc, 
+            <lb ed="#R" n="104"/>siue hoc ab hoc, quantum ad actionem, &amp; quantum 
+            <lb ed="#R" n="105"/>ad passionem hoc ab hoc. Sicut autem vnum subie 
+            <lb ed="#R" n="106"/>cto in forma producta, cui reraque habitudo inest 
+            <lb ed="#R" n="107"/>&amp; hoc, siue illa forma sit producta per se, siue in 
+            <lb ed="#R" n="108"/>subicoto successine, quod appellatur motus, fiue 
+            <lb ed="#R" n="109"/>in instaeti transmutatione indinisibili, necesse est 
+            <lb ed="#R" n="110"/>dicere, quod rationes praedictae in quibus 
+            definiti<lb ed="#R" n="111" break="no"/>ue consistit quidditas actionis, &amp; passionis differant 
+            <lb ed="#R" n="112"/>secundum rem a forma producta, quae non fit subie 
+            <lb ed="#R" n="113"/>ctiue: in ea.
+          </p>
+          <p xml:id="paqqap-aa3305-d1e1156">
+            <lb ed="#R" n="114"/>Confirmatur, quia Philosophus in 5. physier 
+            di<lb ed="#R" n="115" break="no"/>cit, quod in actione non est actio, in formam autem pro 
+            <lb ed="#R" n="116"/>ductam est actio: ergo forma producta non est actio.
+          </p>
+          <p xml:id="paqqap-aa3305-d1e1165">
+            <lb ed="#R" n="117"/>Ad motiuum autem positionis dicendum, quod 
+            <lb ed="#R" n="118"/>realitas importata peraeste ab hoc, quod non est 
+            <lb ed="#R" n="119"/>aliud, quam agere, &amp; per esse hoc ab hoc, quod non est 
+            <lb ed="#R" n="120"/>aliud quam agi, impossibile est, quod directe fiant 
+            <lb ed="#R" n="121"/>per aliquam actionem aut passionem, quia 
+            pruce<lb ed="#R" n="122" break="no"/>deretur in infinitum: sunt ergo illud quo, forma 
+            <lb ed="#R" n="123"/>fit. &amp; cum quaeritur, an virtute agentisexeant 
+            de<lb ed="#R" n="124" break="no"/>non esse ad esse: dicendum, quod non exeunt 
+            tan<lb ed="#R" n="125" break="no"/>quam quod, sed tãquam quo forma producta exit: 
+            <lb ed="#R" n="126"/>in illo autem, quod isto modo exit tanquam quo, 
+            <lb ed="#R" n="127"/>aPparet ex terminis, quod est sistendum. Si enim 
+            <lb ed="#R" n="128"/>exigeret aliud quo exiret de non esse inesse, iam 
+            <lb ed="#R" n="129"/>non esset illud quo aliud exit, sed esset illud quodi. 
+            <lb ed="#R" n="130"/>Et ideo Philosophus in prino Prior. dicit, quod 
+            <lb ed="#R" n="131"/>principium generationis non est generatiol: &amp; per 
+            <lb ed="#R" n="132"/>hanc rationem in quinto physic. probat, quod in 
+            <lb ed="#R" n="133"/>generationem, &amp; actionem non est motus, aut ac- 
+            <!--0012.xml-->
+            <pb ed="#P" n="12"/>
+            <cb ed="#R" n="a"/>
+            <lb ed="#R" n="1"/>quisttio, quuia procederetur in infinitum. &amp; ldom 
+            <lb ed="#R" n="2"/>Commentator in com. 12. dicit ibidemu Alt onim, 
+            <lb ed="#R" n="3"/>quod impollibile est, quod geniratio habeat 
+            gene<lb ed="#R" n="4" break="no"/>rationem, aut corruptio corruptionem. Sic igitur 
+            <lb ed="#R" n="5"/>ex praecedentibus patet, quid sit actio, &amp; passiu in 
+            <lb ed="#R" n="6"/>creaturis, quia subiectiue sunt in ipsa forma produ 
+            <lb ed="#R" n="7"/>cta, siue sit subsistens, siue inhaerens. Et si inhaeres, 
+            <lb ed="#R" n="8"/>vel indiuisibilis, vt stfiat successiue. Istae autem 
+            <lb ed="#R" n="9"/>partes fluentes, vel ipsa totalis forma sunt ab agen 
+            <lb ed="#R" n="10"/>te, sic, quod esse ab agente est aliquid aliud ab eis, 
+            <lb ed="#R" n="11"/>vt probatum est, quod se habet per modum via, &amp; 
+            <lb ed="#R" n="12"/>originis. Et ideo sicut aliud est ascensus, &amp; descen. 
+            <lb ed="#R" n="13"/>sus inter duos terminos, quamuis spacium sinido: 
+            <lb ed="#R" n="14"/>sic inter agens productum actio, &amp; passio quiddita 
+            <lb ed="#R" n="15"/>tiue differunt, quamuis forma, quae attingitur per 
+            <lb ed="#R" n="16"/>actionem &amp; passionem, sit eadem: vt enim incipio 
+            <lb ed="#R" n="17"/>ab agente, &amp; peruenio ad formam, habeo 
+            quiddi<lb ed="#R" n="18" break="no"/>tatem actionis, quam optime explicat ab hoc hoc, 
+            <lb ed="#R" n="19"/>scilicet forma producta. Si vero incipio ab ipsa 
+            <lb ed="#R" n="20"/>forma, &amp; termino in ipsum agens, dicendo, hoc, soi 
+            <lb ed="#R" n="21"/>licet forma producta, ab hoc, scilicet ab agente, ha 
+            <lb ed="#R" n="22"/>beo rationem quidditatiuam passionis. Nam esse hoc 
+            <lb ed="#R" n="23"/>ab hoc, nihil aliud est, quam hoc fieri, &amp; agi ab 
+            <lb ed="#R" n="24"/>hoc; esse autem ab hoc hoc, nihil aliud est quam 
+            <lb ed="#R" n="25"/>hoc facere, &amp; agere hoc, &amp; ideo Philosophus 
+            pro<lb ed="#R" n="26" break="no"/>prijssimo expressit realitatem quidditatiuam 
+            actio<lb ed="#R" n="27" break="no"/>nis &amp; passionis; nisi quod Graeci carent ablatiuo, 
+            <lb ed="#R" n="28"/>&amp; ideo in circumlocutione actionis posuit 
+            geniti<lb ed="#R" n="29" break="no"/>uum, dicendo huius in hoc; per ablatiuum autem 
+            <lb ed="#R" n="30"/>magis exprimitur conuenienter, vt dictum est. 
+          </p>
+          <p xml:id="paqqap-aa3305-d1e1276">
+            <lb ed="#R" n="31"/>Ex hoc autem patet, quod actio est medium 
+            in<lb ed="#R" n="32" break="no"/>ter agens, &amp; formam actam, non quidem medium 
+            <lb ed="#R" n="33"/>situale, vel distantiae, sed causale: est enim prius 
+            <lb ed="#R" n="34"/>origino, &amp; causaliter forma producta, &amp; posterius 
+            <lb ed="#R" n="35"/>agente, ideo Philosophus in 3. physic. &amp; 4. metapli. 
+            <lb ed="#R" n="36"/>dicit, quod est via ad formam: &amp; Commentator r. 
+            <lb ed="#R" n="37"/>coeli &amp; mun. com. a1. 3. etiam physic. dicit, quod 
+            <lb ed="#R" n="38"/>haec est dispositio actionis, quod est existens inter 
+            <lb ed="#R" n="39"/>duo, scilicet inter agens, &amp; formam actam: vnde 
+            <lb ed="#R" n="40"/>patet, quod Philosophus vocat eam viam: 
+            Com<lb ed="#R" n="41" break="no"/>mentator intermedium: &amp; si vocetur interuallum, 
+            <lb ed="#R" n="42"/>idem est sicut via, omnia enim haec idem sonant.
+          </p>
+          <p xml:id="paqqap-aa3305-d1e1305">
+            <lb ed="#R" n="43"/>Si autem quaeritur, vtrum actio realiter sit 
+            mo<lb ed="#R" n="44" break="no"/>eus: Dicendum, quod si accipiatur motus mate. 
+            <lb ed="#R" n="45"/>rialiter pro partibus formae sibi mutuo 
+            succedenti<lb ed="#R" n="46" break="no"/>bus, tunc actio differt realiter a motu, quia a 
+            ma<lb ed="#R" n="47" break="no"/>teria motus: si vero accipiatur motus formaliter 
+            <lb ed="#R" n="48"/>non pro ipsis partibus succedentibus, sed pro 
+            suc<lb ed="#R" n="49" break="no"/>cessiua generatione partium, tunc motus est 
+            quae<lb ed="#R" n="50" break="no"/>dam actio successiua, quia quaedam generatio, &amp; 
+            <lb ed="#R" n="51"/>illa actio se habet vt in plus, &amp; vt genus: nam 
+            <lb ed="#R" n="52"/>actio successiua est motus, instantanea vero est mu 
+            <lb ed="#R" n="53"/>tatio, &amp; hoc si sit in subiecto. Si vero sine subiecto, 
+            <lb ed="#R" n="54"/>erit simplex emanatio, sicut creatio creaturae. Et 
+            <lb ed="#R" n="55"/>ex hoc patet, quod motus secundum suum 
+            forma<lb ed="#R" n="56" break="no"/>le differt realiter a partibus formae fluentis: tum 
+            <lb ed="#R" n="57"/>quia realitas partium fluentium manet in 
+            termi<lb ed="#R" n="58" break="no"/>no, &amp; tamen cessat motus: tum quia motus non 
+            <lb ed="#R" n="59"/>est nisi ipsa generatio partium successiua, siue 
+            ip<lb ed="#R" n="60" break="no"/>sum fieri continuum talium partium; fieri autem 
+            <lb ed="#R" n="61"/>transit in fine motus, &amp; tamen manent omnes par 
+            <lb ed="#R" n="62"/>tes factae in esse quieto secundum totum suum 
+            rea<lb ed="#R" n="63" break="no"/>le. Patet etiam quomodo verum est, quod 
+            Com<lb ed="#R" n="64" break="no"/>mentator 3. physicor. commen. 4. dicit, quod 
+            mo<lb ed="#R" n="65" break="no"/>tus nihil aliud est quam generatio partis post 
+            par<lb ed="#R" n="66" break="no"/>tem. Et idem dicit 5. physic. com. 9. dicit enim, 
+            <lb ed="#R" n="67"/>quod secundum suam formam est in praedicamen- 
+            <!--0012.xml-->
+            <cb ed="#R" n="b"/>
+            <lb ed="#R" n="68"/>to passionis, sed secundum materiam in aliis 
+            prae<lb ed="#R" n="69" break="no"/>dicamentis 
+          </p>
+        </div>
+        <div xml:id="paqqap-aa3305-Dd1e1371">
+          <head xml:id="paqqap-aa3305-Hd1e1373">Articulus 2</head>
+          <head xml:id="paqqap-aa3305-Hd1e1375" type="question-title">
+            De actione Dei ad extra, et primo quod necessario 
+            est aliud realiter a diuina essentiae 
+            et a creatura
+          </head>
+          <p xml:id="paqqap-aa3305-d1e1378">
+            <lb ed="#R" n="70"/>ARTICVLVS II. 
+            <lb ed="#R" n="71"/>De actione Dei ad extra, &amp; primo quod necessario 
+            <lb ed="#R" n="72"/>est aliud realiter a diuina essentiae 
+            <lb ed="#R" n="73"/>&amp; a creatura 
+          </p>
+          <p xml:id="paqqap-aa3305-d1e1389">
+            <lb ed="#R" n="74"/>Circa torium autem, quid sit actio Dei in 
+            ordi<lb ed="#R" n="75" break="no"/>Aune ad creaturam: Pono primo conclusionem, 
+            <lb ed="#R" n="76"/>quod actio Dei ad extra intendendo per actionem 
+            <lb ed="#R" n="77"/>Doi, quod dictum est, scilicet importatum per, ex, 
+            <lb ed="#R" n="78"/>hoc modo non est idipsum, quod diuina essentia, 
+            <lb ed="#R" n="79"/>necetiam idipsum, quud forma producta, quod di 
+            <lb ed="#R" n="80"/>co propter duplicem opinionem.
+          </p>
+          <p xml:id="paqqap-aa3305-d1e1407">
+            <lb ed="#R" n="81"/>Prima quidem, quae ponit, quod actio Dei ad 
+            en<lb ed="#R" n="82" break="no"/>era, vepote oreatio, vel quaeuis alia, est idipsum, 
+            <lb ed="#R" n="83"/>quod diuinae essentia, alioquin Deus non esset agens 
+            <lb ed="#R" n="84"/>per essentiam, non attingeret immediate creatura, 
+            <lb ed="#R" n="85"/>sed per actionem mediam, &amp; differret 
+            potentia<lb ed="#R" n="86" break="no"/>actiua in Deo a suo agere, sicut in creaturis. 
+            <lb ed="#R" n="87"/>Secunda vero, quae pouit, quod creatio idom 
+            <lb ed="#R" n="88"/>est cum forma creata; alioquin esset dare mediu 
+            <lb ed="#R" n="89"/>inter Creatorem &amp; creaturam: quod si illud 
+            ali<lb ed="#R" n="90" break="no"/>quid esset creatura; aut osset immediate a Deo, &amp; 
+            <lb ed="#R" n="91"/>sic pari ratione quaelibes creatura; aut non 
+            imme<lb ed="#R" n="92" break="no"/>diate, sed per aliam actionem, &amp; sic esset 
+            proces<lb ed="#R" n="93" break="no"/>sus in infinitum. 
+          </p>
+          <p xml:id="paqqap-aa3305-d1e1439">
+            <lb ed="#R" n="94"/>Non obstantibus autem istis dicendum est sicut 
+            <lb ed="#R" n="95"/>prius. quod enim actio Dei ad extra non sit diuina 
+            <lb ed="#R" n="96"/>essentia, patet ratione ducente ad impossibile. Si 
+            <lb ed="#R" n="97"/>onim illud esset verum, sequeretur, quod esset actio 
+            <lb ed="#R" n="98"/>ab effectu, quod essentia diuina est ab aeterno, nulla 
+            <lb ed="#R" n="99"/>creatura existente in antu, &amp; non agat illa actiunemes 
+            <lb ed="#R" n="100"/>causa enim in actu, &amp; effectus in actu simul sunt &amp; 
+            <lb ed="#R" n="101"/>non sunt, agens autem per actionem est in aotu 
+            vl<lb ed="#R" n="102" break="no"/>timato. 
+          </p>
+          <p xml:id="paqqap-aa3305-d1e1461">
+            <lb ed="#R" n="103"/>Rursum sequeretur, quod diuina essentia esset 
+            <lb ed="#R" n="104"/>illud, quod circumloirur haec ratio, ab hoc hoc. 
+            <lb ed="#R" n="105"/>sicut ex praecedentibus patet, &amp; per consequens 
+            ef<lb ed="#R" n="106" break="no"/>set quaedum: habitudo ad creaturam, quod poni 
+            <lb ed="#R" n="107"/>non potest.
+          </p>
+          <p xml:id="paqqap-aa3305-d1e1474">
+            <lb ed="#R" n="108"/>Item sequeretur, quod sicut ab aeterno in Deo 
+            <lb ed="#R" n="109"/>est Deitas, sic habitudo a quo hoc esset, ab aeterno 
+            <lb ed="#R" n="110"/>in Deo actu, &amp; sic nullo habente esse a Deo 
+            rema<lb ed="#R" n="111" break="no"/>neret hoc esse a Deo, quod est impossibile: 
+          </p>
+          <p xml:id="paqqap-aa3305-d1e1485">
+            <lb ed="#R" n="112"/>Rursum actio esset in actu, &amp; non denominaret 
+            <lb ed="#R" n="113"/>in actu. Vnde Deus haberet in actu creationem 
+            <lb ed="#R" n="114"/>ab aeterno, nec tamen crearet. Cum igitur 
+            praedi<lb ed="#R" n="115" break="no"/>cta poni non possint, nec illud ex quo sequuntur, 
+            <lb ed="#R" n="116"/>scilicet, quod essentia diuina sit actio Dei ad 
+            ex<lb ed="#R" n="117" break="no"/>tra. 
+          </p>
+          <p xml:id="paqqap-aa3305-d1e1501">
+            <lb ed="#R" n="118"/>Confirmatur, quia sicut se habent aliae causae 
+            <lb ed="#R" n="119"/>ad suos effectus, sic &amp; causa efficiens quantum ad 
+            <lb ed="#R" n="120"/>id quod est ponere effectum in actu: sed impossibile 
+            <lb ed="#R" n="121"/>est, quod causa formalis sit actu informans, &amp; non 
+            <lb ed="#R" n="122"/>sit effectus formalis, aut quod finis actu finiat, &amp; 
+            <lb ed="#R" n="123"/>tamen, quod non sit aliquid ad finem in actu; &amp; 
+            si<lb ed="#R" n="124" break="no"/>militer, quod causa materialis actu materialiter 
+            <lb ed="#R" n="125"/>constitnat, &amp; non sit actu effectus constitutus: 
+            er<lb ed="#R" n="126" break="no"/>go impossibile est, quod Deus habeat creationem, 
+            <lb ed="#R" n="127"/>&amp; actionem ad extra in actu, &amp; quod non sit 
+            ali<lb ed="#R" n="128" break="no"/>quis effectus ad extra in actu, quod contingeret 
+            <lb ed="#R" n="129"/>si diuina essentia esset actio Dei ad extra. 
+            <lb ed="#R" n="130"/>Confirmatur etiam, quia, quod est 
+            impossibile<lb ed="#R" n="131" break="no"/>intelligi sine contradictione, impossibile est in esse 
+            <!--0013.xml-->
+            <pb ed="#P" n="13"/>
+            <cb ed="#R" n="a"/>
+            <lb ed="#R" n="1"/>poni. Impossibile est enim concipi causam in actu, 
+            <lb ed="#R" n="2"/>quin concipiatur effectus in actu. 
+          </p>
+          <p xml:id="paqqap-aa3305-d1e1545">
+            <lb ed="#R" n="3"/>Si autem dicatur, quod Deus suo velle 
+            produ<lb ed="#R" n="4" break="no"/>cit immediate creaturam, velle autem Dei est sua 
+            <lb ed="#R" n="5"/>essentia: dicendum, quod suo velle producit 
+            impera<lb ed="#R" n="6" break="no"/>tiue, si per velle producat, non tamen executiue. aliud 
+            <lb ed="#R" n="7"/>n. est ipsum profluere creaturae in esse a Deo, vel a 
+            <lb ed="#R" n="8"/>velle diuino, &amp; aliud ipsum velle diuinum; istud aunt 
+            <lb ed="#R" n="9"/>profuere, quod non est aliud quam illud, quod per 
+            <lb ed="#R" n="10"/>illam circumlocutionem ab hoc hoc explicatur, vt su 
+            <lb ed="#R" n="11"/>pra dictum em, est ipsa actioDei ad extra, de qua est ser 
+            <lb ed="#R" n="12"/>mo. quod vero actio Dei ad extra, siue illud, quod 
+            im<lb ed="#R" n="13" break="no"/>portatur per esse a Deo differat a forma producta 
+            <lb ed="#R" n="14"/>per actionem ad extra, ex praecedentibus patet: illud 
+            <lb ed="#R" n="15"/>enim, quod manet alio transeunte, non est idem 
+            rea<lb ed="#R" n="16" break="no"/>liter cum illo, quod transit. Sed constat, quod illum 
+            <lb ed="#R" n="17"/>eundem radium, quem facit in aere, posset Deus sa 
+            <lb ed="#R" n="18"/>cere vel in aere, vel etiam sine aere, creando ipsum 
+            <lb ed="#R" n="19"/>sine subiecto, &amp; per consequens radius tunc esset a 
+            <lb ed="#R" n="20"/>Deo immediate, &amp; a nullo alio, nunc autem non est ve 
+            <lb ed="#R" n="21"/>rum, quod sit immediate creatus a Deo, &amp; tamen 
+            <lb ed="#R" n="22"/>manet tota realitas eiusdem radii: ergo esse a Deo 
+            <lb ed="#R" n="23"/>in radio non est oĩno idem realiter cum ipso radio. 
+          </p>
+          <p xml:id="paqqap-aa3305-d1e1594">
+            <lb ed="#R" n="24"/>Ad motiua vero primae opinionis, dicendum, quod 
+            <lb ed="#R" n="25"/>Deus immediate attingit omnem rem, quae potest 
+            <lb ed="#R" n="26"/>esse illud, quod attingitur seu creatur, tanquam quod 
+            <lb ed="#R" n="27"/>sic, quod non attingit mediante attinctione, &amp; agat 
+            <lb ed="#R" n="28"/>mediāte actione, tanquam eo quo agit &amp; attingit; 
+            <lb ed="#R" n="29"/>&amp; quod huiusmodi attinctio aliquid sit, non est 
+            <lb ed="#R" n="30"/>inconueniens immo est necessarium, vt ex 
+            termi<lb ed="#R" n="31" break="no"/>nis patet. Vnde quod creatura sit a Deo non 
+            me<lb ed="#R" n="32" break="no"/>diāte illo, quod importatur per esse a Deo 
+            impos<lb ed="#R" n="33" break="no"/>sibile est, nec tamen esse a Deo est nihil esse, vt 
+            pa<lb ed="#R" n="34" break="no"/>tet. nec etiam oportet, quod illud scilicet esse a Deo 
+            <lb ed="#R" n="35"/>sit per aliud esse a Deo, quod non est, quod est a 
+            <lb ed="#R" n="36"/>Deo, sed quo aliud est a Deo, &amp; haec omnia ex 
+            ter<lb ed="#R" n="37" break="no"/>minis patent. 
+          </p>
+          <p xml:id="paqqap-aa3305-d1e1627">
+            <lb ed="#R" n="38"/>Ad motiuum secundae opinionis dicendum, quod 
+            <lb ed="#R" n="39"/>vniuersaliter accipiendo creaturam pro omni eo, 
+            <lb ed="#R" n="40"/>quod de nihilo fit, &amp; pro eo, quod est factio eius de 
+            <lb ed="#R" n="41"/>nihilo, sic constat, quod non est medium inter Deum 
+            <lb ed="#R" n="42"/>&amp; creaturam: quia actio sub creatura continetur 
+            <lb ed="#R" n="43"/>sic vniuersaliter accepta. Sed arctando nomen crea 
+            <lb ed="#R" n="44"/>turae, ad illud, quod creaturae fit tanquam quod, sic 
+            <lb ed="#R" n="45"/>non est impossibile, immo necessarium, quod sit 
+            <lb ed="#R" n="46"/>dare inter Deum, &amp; creaturam, quae fit, suam 
+            actio<lb ed="#R" n="47" break="no"/>nem qua fit. 
+          </p>
+          <p xml:id="paqqap-aa3305-d1e1651">
+            <lb ed="#R" n="48"/>Si dicatur vlterius: Cum Deus possit 
+            separare<lb ed="#R" n="49" break="no"/>omnia, quae repugnantiam non includunt in primo 
+            <lb ed="#R" n="50"/>modo, quantumcunq. includant in secundo, quod 
+            <lb ed="#R" n="51"/>secundum hoc poterit facere creationem fine 
+            crea<lb ed="#R" n="52" break="no"/>tura, &amp; creaturam sine dependentia a Deo, si 
+            dif<lb ed="#R" n="53" break="no"/>ferat creatio a creatura realiter: dicendum, quod 
+            <lb ed="#R" n="54"/>in isto copulato, Deum facere creaturam, 
+            includi<lb ed="#R" n="55" break="no"/>tur tanquam pars factio creaturae a Deo, quae est 
+            <lb ed="#R" n="56"/>quaedam dependentia creaturae ab ipso, &amp; ideo est 
+            <lb ed="#R" n="57"/>contradictio &amp; repugnantia primi modi, quod Deus 
+            <lb ed="#R" n="58"/>faciat creaturam, sine dependenda a se quamuis 
+            <lb ed="#R" n="59"/>dependentia differat realiter, &amp; a Deo, &amp; a 
+            creatu<lb ed="#R" n="60" break="no"/>ra. Vnde si esset, aliud esset, quod posset in illud 
+            re<lb ed="#R" n="61" break="no"/>pugnans in secundo modo, optime argueretur de 
+            <lb ed="#R" n="62"/>illo similiter in isto copulato ab hoc hoc, quod 
+            cir<lb ed="#R" n="63" break="no"/>cumloquitur rationem actionis, includitur tanquam 
+            <lb ed="#R" n="64"/>pars ipsum hoc, quod est creatura. Vnde 
+            Philoso<lb ed="#R" n="65" break="no"/>phus dicit, quod actio agentis non est abscissa, sed 
+            <lb ed="#R" n="66"/>huius in hoc, vbi Commentator com. 21. ait, quod 
+            <lb ed="#R" n="67"/>ratio actionis non abscinditur, sed est continua ex 
+            <lb ed="#R" n="68"/>hoc in hoc. Contradictio ergo est, quod fiat actio, 
+            <!--0013.xml-->
+            <cb ed="#R" n="b"/>
+            <lb ed="#R" n="69"/>vel creatio sine re ereata, sicut quod sit relatio sine 
+            <lb ed="#R" n="70"/>termino. 
+          </p>
+          <p xml:id="paqqap-aa3305-d1e1708">
+            <lb ed="#R" n="71"/>Est etiam secunda contradictio, quod repugnantia 
+            <lb ed="#R" n="72"/>est in primo modo, quod mutetur essentialis 
+            diffe<lb ed="#R" n="73" break="no"/>rentia generis, vel speciei, vt quod homo fiat irra⸗ 
+            <lb ed="#R" n="74"/>tionalis, vel albedo fiat color congregatiuus 
+            ge<lb ed="#R" n="75" break="no"/>neris, vt quod substantia alicuius accidat, aut quod 
+            <lb ed="#R" n="76"/>absolutum fiat respectus, vel respectus ens 
+            absolu<lb ed="#R" n="77" break="no"/>tum: nunc autem differentia diuidens actionem, &amp; 
+            <lb ed="#R" n="78"/>passionem ab aliis entibus est secundumPhilosoph. 
+            <lb ed="#R" n="79"/>4. met. quod sunt accidentia, non quae fiant, sed 
+            fi<lb ed="#R" n="80" break="no"/>ctiones quibus alia fiant: vnde sunt viae vel exitus 
+            <lb ed="#R" n="81"/>in esse, vt dicit. Si autem fierent per se, vt remaneret 
+            <lb ed="#R" n="82"/>exitus in esse sine exeunte; tunc creatio non esset fa 
+            <lb ed="#R" n="83"/>ctio, sed factum, nec esset formaliter, &amp; in 
+            abstrac<lb ed="#R" n="84" break="no"/>to haec ratio esse hoc, sed potius fieret quid ens ex 
+            <lb ed="#R" n="85"/>hoc, &amp; ita vnum genus entis in aliud mutaretur, 
+            <lb ed="#R" n="86"/>quod est aeque repugnans in primo modo, sicut si 
+            <lb ed="#R" n="87"/>substantia fieret accidens, vel albedo nigredo. 
+          </p>
+          <p xml:id="paqqap-aa3305-d1e1747">
+            <lb ed="#R" n="88"/>Quod creatio, &amp; conseruatio sunt actiones distin. 
+            <lb ed="#R" n="89"/>ctae realiter. 
+          </p>
+          <p xml:id="paqqap-aa3305-d1e1754">
+            <lb ed="#R" n="90"/>SEcundam Conclusionem pono, quod creatio, &amp; 
+            con<lb ed="#R" n="91" break="no"/>seruatio non important eandem habitudinem, nec 
+            <lb ed="#R" n="92"/>per consequens sunt eadem res, aut actio eadem. hoc 
+            <lb ed="#R" n="93"/>dico propter opinionem, quae dicit, quod sunt eadem 
+            <lb ed="#R" n="94"/>actio, nec differunt, nisi penes connotata: quia 
+            crea<lb ed="#R" n="95" break="no"/>tio importat acceptionem esse nunc primo post non 
+            <lb ed="#R" n="96"/>esse praecedentis instantis: conseruatio vero 
+            conti<lb ed="#R" n="97" break="no"/>nuationem eiusdem acceptionis esse vnius &amp; 
+            sim<lb ed="#R" n="98" break="no"/>plicis, absq. respectu ad non esse in pracedenti 
+            im<lb ed="#R" n="99" break="no"/>mediato nunc, sic quod creatura est in continuo fie 
+            <lb ed="#R" n="100"/>ri, &amp; acceptione esse suo modo, sicut filius in Deo.
+          </p>
+          <p xml:id="paqqap-aa3305-d1e1781">
+            <lb ed="#R" n="101"/>Sed teneo Conclusionem oppositam, quam probo. 
+            Crea<lb ed="#R" n="102" break="no"/>re est formaliter producere, &amp; creari esse accipere 
+            <lb ed="#R" n="103"/>per te, &amp; addit pro connotato respectum ad non esse 
+            <lb ed="#R" n="104"/>in nunc immediate praecedenti, sed conseruare non 
+            <lb ed="#R" n="105"/>est producere, nec conseruari est produci, vel 
+            esse<lb ed="#R" n="106" break="no"/>accipere etiam continue: igitur conseruare non est 
+            <lb ed="#R" n="107"/>idipsum, quod creare, vel conseruari idipsum, quod 
+            <lb ed="#R" n="108"/>creari continue differens per solum connotatum. 
+            <lb ed="#R" n="109"/>Minorem probo: si conseruare esset producere, 
+            es<lb ed="#R" n="110" break="no"/>set producere continue, &amp; conseruari produci, Deus 
+            <lb ed="#R" n="111"/>non posset radium a sole productum conseruare 
+            im<lb ed="#R" n="112" break="no"/>mediate, nisi illum radium iam productum a sole im 
+          </p>
+          <p xml:id="paqqap-aa3305-d1e1810">
+            <lb ed="#R" n="113"/>mediate de nouo produceret, &amp; noua productio, 
+            <lb ed="#R" n="114"/>quia iam non conseruaret continuando 
+            productio<lb ed="#R" n="115" break="no"/>nem primam quae fuit a sole. Si ergo conseruatio 
+            <lb ed="#R" n="116"/>est continuatio productionis, oportebit Deum pro 
+            <lb ed="#R" n="117"/>ducere radium noua productione, &amp; radium iterum 
+            <lb ed="#R" n="118"/>esse accipere; hoc autem est impossibile productionem 
+            <lb ed="#R" n="119"/>interrumpi, &amp; innouari, quin innouetur terminus, 
+            <lb ed="#R" n="120"/>radius autem non interrumpitur: sed idem manens 
+            <lb ed="#R" n="121"/>qui fuit a sole productus continuatur a Deo. Et rur 
+            <lb ed="#R" n="122"/>sum idem radius erit bis productus, semel a sole 
+            <lb ed="#R" n="123"/>semel a Deo: igitur cum res a creatura 
+            producta<lb ed="#R" n="124" break="no"/>possit immediate a Deo conseruari, absq. hoc, quod 
+            <lb ed="#R" n="125"/>ab eo iterum producatur, manifeste patet, quod 
+            <lb ed="#R" n="126"/>conseruare non est continue producere. 
+          </p>
+          <p xml:id="paqqap-aa3305-d1e1843">
+            <lb ed="#R" n="127"/>Dices, quod Deus potest continuare illam 
+            produ<lb ed="#R" n="128" break="no"/>ctionem radij qua sol produxit. Contra: tunc idem 
+            <lb ed="#R" n="129"/>esset esse a sole, &amp; esse a Deo, quod est impossibile. 
+            <lb ed="#R" n="130"/>Item tunc variato termino non variaretur habitudo. 
+            <lb ed="#R" n="131"/>Constat enim, quod Deus &amp; sol non est idem, sic 
+            <lb ed="#R" n="132"/>nec radium esse a sole, &amp; a Deo est ab eodem esse 
+            <lb ed="#R" n="133"/>&amp; per consequens habitudo illa non est eadem. 
+          </p>
+          <p xml:id="paqqap-aa3305-d1e1861">
+            <lb ed="#R" n="134"/>Ad hoc forte dicetur, quod in productione radij 
+            <lb ed="#R" n="135"/>a sole coagit immediate Deus, &amp;ideo sublata actio- 
+            <!--0014.xml-->
+            <pb ed="#P" n="14"/>
+            <cb ed="#R" n="a"/>
+            <lb ed="#R" n="1"/>ne solis remanet immediata actio Dei, &amp; illa conti 
+            <lb ed="#R" n="2"/>nuatur, &amp; per illam conseruat. 
+          </p>
+          <p xml:id="paqqap-aa3305-d1e1879">
+            <lb ed="#R" n="3"/>Sed contra primo, quia hoc a multis non 
+            dici<lb ed="#R" n="4" break="no"/>tur, scilicet, quod Deus aliter coagat in actione 
+            <lb ed="#R" n="5"/>cuiuslibet creaturae, nisi quia virtutem creaturae 
+            <lb ed="#R" n="6"/>actiuam conseruat. 
+          </p>
+          <p xml:id="paqqap-aa3305-d1e1890">
+            <lb ed="#R" n="7"/>Secundo dato, quod hoc concedatur, adhuc 
+            ha<lb ed="#R" n="8" break="no"/>betur intentum, quia si coagit in actione omnis 
+            crea<lb ed="#R" n="9" break="no"/>turae, sic, quod ipsa actio quaecunque quae est a 
+            creatu<lb ed="#R" n="10" break="no"/>ra, simul cum hoc est a Deo: de ratione ergo est illam 
+            <lb ed="#R" n="11"/>productionem manere, quin radius per illam actionem 
+            <lb ed="#R" n="12"/>&amp; a Deo sit, &amp; a sole, sed putest, esse, quod Deus sine 
+            so<lb ed="#R" n="13" break="no"/>le manuteneat: ergo actio illa prior, quae a Deo 
+            si<lb ed="#R" n="14" break="no"/>mul, &amp; a sole extitit, de necessitate transiuit: 
+            succe<lb ed="#R" n="15" break="no"/>det ergo noua productio totaliter existens a Deo, si 
+            <lb ed="#R" n="16"/>conseruare est producere, &amp; sic habetur intentum. 
+          </p>
+          <p xml:id="paqqap-aa3305-d1e1915">
+            <lb ed="#R" n="17"/>Confirmatur praecedens quaestio, lapidem sursum 
+            <lb ed="#R" n="18"/>tenere, &amp; sursum ponere, est aliud, &amp; aliud, immo 
+            il<lb ed="#R" n="19" break="no"/>lud manet, istud transit: quare ergo non sit aliud, 
+            <lb ed="#R" n="20"/>creaturam in esse ponere, &amp; positam in esse tenere 
+            <lb ed="#R" n="21"/>non apparet. 
+          </p>
+          <p xml:id="paqqap-aa3305-d1e1928">
+            <lb ed="#R" n="22"/>Confirmatur praecedens ratio, quia tu dicis, quod 
+            <lb ed="#R" n="23"/>conseruatio est continuatio primae productionis 
+            v<lb ed="#R" n="24" break="no"/>nius simplicis existentis: quaero ergo, quare Deus 
+            <lb ed="#R" n="25"/>non potest continuare immediate esse creaturae pro 
+            <lb ed="#R" n="26"/>ductae pro primo instanti positum, sicut ipsam 
+            pro<lb ed="#R" n="27" break="no"/>ductionem pro instanti positam. Et cum non appa 
+            <lb ed="#R" n="28"/>reat quare: conseruabitur ergo creatura, &amp; 
+            transi<lb ed="#R" n="29" break="no"/>bit productio eius. 
+          </p>
+          <p xml:id="paqqap-aa3305-d1e1948">
+            <lb ed="#R" n="30"/>Haec est expressa intentio <ref xml:id="paqqap-aa3305-Rd1e1952">Aug. 4. sup. Gen. c. 14</ref>
+            <lb ed="#R" n="31"/>concordantis illas duas auctoritates. Requieuit 
+            <lb ed="#R" n="32"/>Deus ab omni opere, quod patrarat: &amp;: Pater meus 
+            <lb ed="#R" n="33"/>vsque modo operatur, &amp; ego operor. distinguit 
+            e<lb ed="#R" n="34" break="no"/>nim vnam a qua cessauit, scilicet condendo 
+            crea<lb ed="#R" n="35" break="no"/>turam, condere autem est producere a materia, a 
+            <lb ed="#R" n="36"/>qua vsque modo non cessauit, immo vsque modo 
+            <lb ed="#R" n="37"/>operatur, quam vocat continuationem, qua vniuer 
+            <lb ed="#R" n="38"/>sam creaturam conditam continuat, de qua dicit, 
+            <lb ed="#R" n="39"/>quod omnia tenentis virtus causa subsistendi est 
+            <lb ed="#R" n="40"/>omni creaturae, quae virtus ab eis, quae creata sunt si 
+            <lb ed="#R" n="41"/>aliquando cessaret, omnis creatura concideret. hoc 
+            <lb ed="#R" n="42"/>etiam intendit Auicen 6. met. cum ait, quod effectus 
+            <lb ed="#R" n="43"/>formaliter dependet a prima causa non solum in 
+            <lb ed="#R" n="44"/>fi eri, sed in facto esse. 
+          </p>
+          <p xml:id="paqqap-aa3305-d1e1985">
+            <lb ed="#R" n="45"/>CiRCA tertium, quomodo se habeant actiuae 
+            pro<lb ed="#R" n="46" break="no"/>ductiones in diuinis, &amp; quid sunt, scilicet generare 
+            <lb ed="#R" n="47"/>&amp; spirare. Supposito, quod secundum suam realita 
+            <lb ed="#R" n="48"/>tem formaliter non sint ad se, aut aliquid absolutum: 
+            <lb ed="#R" n="49"/>sed potius ad aliquid vt origines. Si enim essent 
+            <lb ed="#R" n="50"/>quid absolutum formaliter, &amp; ad se essent 
+            commu<lb ed="#R" n="51" break="no"/>nes tribus secundum illam regulam Aug. 5. de 
+            Tri<lb ed="#R" n="52" break="no"/>nit. c. 12. Quicquid ad seipsum Deus dicitur de 
+            sin<lb ed="#R" n="53" break="no"/>gulis personis. 
+          </p>
+          <p xml:id="paqqap-aa3305-d1e2007">
+            <lb ed="#R" n="54"/>Sed contra istam Conclusionem videntur esse ali 
+            <lb ed="#R" n="55"/>qua. Primum: quia nulla actio(vt ex praedictis patet) 
+            <lb ed="#R" n="56"/>producitur, nec elicitur, nec aliquid est sibi causa, 
+            <lb ed="#R" n="57"/>quod sit tanquam quod, sed tanquam quo aliud es 
+            <lb ed="#R" n="58"/>se accipit: non est ergo hoc proprium 
+            productio<lb ed="#R" n="59" break="no"/>nibus in diuinis: sed commune omni actioni. Vnde 
+            <lb ed="#R" n="60"/>generare in diuinis non accipit esse, sed est illud 
+            <lb ed="#R" n="61"/>quo pater filio dat esse. 
+          </p>
+          <p xml:id="paqqap-aa3305-d1e2027">
+            <lb ed="#R" n="62"/>Secundum, quia impossibile est, quod aliquid 
+            pro<lb ed="#R" n="63" break="no"/>ducat, quin ex aliqua vi producat. potentia enim 
+            <lb ed="#R" n="64"/>praecedit actum, nec negatur potentiae, sicut Mega 
+            <lb ed="#R" n="65"/>ricius contra quem disputatur: igitur pater 
+            pro<lb ed="#R" n="66" break="no"/>dueit aliqua Vi a qua profluit generatio non vt 
+            ter<lb ed="#R" n="67" break="no"/>
+            <!-- line coord order error -->minus, ted iilud quo prosluit terminus.
+          </p>
+          <p xml:id="paqqap-aa3305-d1e2046">
+            <lb ed="#R" n="68"/>
+            <!-- line coord order error -->Tertiam, quia Doctores no recipiunt ista verba
+            <!--0014.xml-->
+            <cb ed="#R" n="b"/>
+            <lb ed="#R" n="69"/>accipere esse in diuinis: igitur nihil est dicere, quod 
+            <lb ed="#R" n="70"/>huiusmodi productiones non accipiunt esse, vt sint. 
+            <lb ed="#R" n="71"/>Quartum, si generare non est elicitum in diuinis 
+            <lb ed="#R" n="72"/>sequitur, quod pater non vere generat, quia ille 
+            ge<lb ed="#R" n="73" break="no"/>nerat a quo generatio intelligitur profluere, &amp; 
+            <lb ed="#R" n="74"/>emanare. 
+          </p>
+          <p xml:id="paqqap-aa3305-d1e2070">
+            <lb ed="#R" n="75"/>Sed his non obstantibus dicendum, vt prius, quod 
+            <lb ed="#R" n="76"/>probo. Si enim generare non esset res a se, sed 
+            ali<lb ed="#R" n="77" break="no"/>quid esset sibi causa, vt esset, sequeretur, quod 
+            pri<lb ed="#R" n="78" break="no"/>mum suppositum in diuinis esset elicitum, quia 
+            <lb ed="#R" n="79"/>suum formale constitutum esset elicitum cum res 
+            <lb ed="#R" n="80"/>importata per generare &amp; paternitatem sit eadem. 
+          </p>
+          <p xml:id="paqqap-aa3305-d1e2086">
+            <lb ed="#R" n="81"/>Confirmatur, quia istud tollit infinitas 
+            difficul<lb ed="#R" n="82" break="no"/>tates. Primum qualiter paternitas, &amp; generare 
+            <lb ed="#R" n="83"/>constituat primum suppositum cum actiones 
+            sup<lb ed="#R" n="84" break="no"/>ponaut supposita constituta, &amp;relationes supponant 
+            <lb ed="#R" n="85"/>actiones: hoc faciliter soluitur, si dicatur, quod res 
+            <lb ed="#R" n="86"/>generationis a nihilo profluit, vel elicitur, sed a 
+            <lb ed="#R" n="87"/>se, idcirco cum essentia constituit primum 
+            suppofi<lb ed="#R" n="88" break="no"/>tum. Si vero eliceret, necessario suppositum ipsum 
+            <lb ed="#R" n="89"/>constitueretur. 
+          </p>
+          <p xml:id="paqqap-aa3305-d1e2108">
+            <lb ed="#R" n="90"/>Secundam, qualiter potentia generandi non con 
+            <lb ed="#R" n="91"/>tinetur sub omnipotentia, quia non est potentia eli 
+            <lb ed="#R" n="92"/>citiua in diuinis, quae sit principium generationis, 
+            <lb ed="#R" n="93"/>sed est purus actus, &amp; purum generare, &amp; potentia 
+            <lb ed="#R" n="94"/>entitatiua. Vnde ibi potentia sumitur pro potentia 
+            <lb ed="#R" n="95"/>mathematica, quae est actus, &amp; necessitas non 
+            po<lb ed="#R" n="96" break="no"/>tentia naturalis, quae est principium actus, &amp; per 
+            <lb ed="#R" n="97"/>consequens non continetur sub omnipotentia quae 
+            <lb ed="#R" n="98"/>est potentia productiua. 
+          </p>
+          <p xml:id="paqqap-aa3305-d1e2130">
+            <lb ed="#R" n="99"/>Tertiam qualiter filius non est impotens, quia 
+            <lb ed="#R" n="100"/>generare non potest, nec enim hoc est impotentia, 
+            <lb ed="#R" n="101"/>seu priuatio alicuius potentiae, sed impossibilitas 
+            <lb ed="#R" n="102"/>eo modo, quo patrem non posse esse Spiritum 
+            san<lb ed="#R" n="103" break="no"/>ctum, non est impotentia, sed impossibilitas, &amp; hoc 
+            <lb ed="#R" n="104"/>expresse intendit Aug. contra Maximum, cum 
+            di<lb ed="#R" n="105" break="no"/>cit de filio, quod non genuit, non quia non potuit: 
+            <lb ed="#R" n="106"/>sed quia non oportuit. Et exponit Magist. 1. Sent. 
+            <lb ed="#R" n="107"/>quod non impotentia, sed inoporteitas, hoc est 
+            im<lb ed="#R" n="108" break="no"/>possibilitas fuit. 
+          </p>
+          <p xml:id="paqqap-aa3305-d1e2154">
+            <lb ed="#R" n="109"/>Quartam, qualiter potentia generandi cum non 
+            <lb ed="#R" n="110"/>differat ab actu, &amp; necessitate, &amp; ad aliquid non 
+            pro<lb ed="#R" n="111" break="no"/>ducat, qualiter etiam non oportet quaerere formale 
+            <lb ed="#R" n="112"/>principium generationis, cum non sit ibi 
+            princi<lb ed="#R" n="113" break="no"/>pium elicitiuum productionis, sed principium elici 
+            <lb ed="#R" n="114"/>tiuum producti, scilicet actus. 
+          </p>
+          <p xml:id="paqqap-aa3305-d1e2171">
+            <lb ed="#R" n="115"/>Ad instantiam dicendum, quod in omni alia 
+            pro<lb ed="#R" n="116" break="no"/>ductione siue creaturae, siue Dei ad extra ipsa 
+            pro<lb ed="#R" n="117" break="no"/>ductio non solum est illud quo terminus accipit 
+            es<lb ed="#R" n="118" break="no"/>se, vt sit ab agente; immo &amp; ipsa virtute agentis 
+            ha<lb ed="#R" n="119" break="no"/>bet, vt sit, non tanquam quod fit, sed tanquam quo 
+            <lb ed="#R" n="120"/>aliud fit, est tamen prius termino, sed posterius 
+            <lb ed="#R" n="121"/>agente in ordine causalitatis effectiuae, &amp; ideo est 
+            no<lb ed="#R" n="122" break="no"/>uitas non solum ex parte termini, sed ex parte actionis 
+            <lb ed="#R" n="123"/>vnde ex terminis patet, quod virtus agentis respicit 
+            <lb ed="#R" n="124"/>tam actionem, quam terminum, sed causalitatis 
+            a<lb ed="#R" n="125" break="no"/>ctione. In productionibus autem personalibus hoc 
+            <lb ed="#R" n="126"/>impossibile est: nam ipsum generare nec habet a 
+            <lb ed="#R" n="127"/>persona patris, vt sit, cum ipsam constituat; nec ab 
+            <lb ed="#R" n="128"/>essentia, quia distingueretur ab ea secundum 
+            ma<lb ed="#R" n="129" break="no"/>ximam Aug. quam ponit 1. de Trin. quae dicit, quod 
+            <lb ed="#R" n="130"/>nulla res, quae fit, sit sibi ipsi causa vt sit, accipiendo 
+            <lb ed="#R" n="131"/>causalitatem secundum genus efficientiae seu 
+            origi<lb ed="#R" n="132" break="no"/>nis: non est ergo ipsum generare res, quae sit 
+            pro<lb ed="#R" n="133" break="no"/>fluens ab essentia, seu pullulans, nec per modum 
+            ter<lb ed="#R" n="134" break="no"/>mini, &amp; posterioris respectu essentiae, aut alicuius 
+            <lb ed="#R" n="135"/>alterius principij productiui, sicut est de omni alia 
+            <lb ed="#R" n="136"/>actione, siue sit creaturae, siue Dei ad extra.
+          </p>
+          <p xml:id="paqqap-aa3305-d1e2221">
+            <!--0015.xml-->
+            <pb ed="#P" n="15"/>
+            <cb ed="#R" n="a"/>
+            <lb ed="#R" n="1"/>Ad secundum dicendum, quod Ambr. expresse 
+            di<lb ed="#R" n="2" break="no"/>cit lib. 4. de fide cath. quod generatio non ad 
+            sublimita<lb ed="#R" n="3" break="no"/>tem pertinet potentiae, sed ad proprietatem naturae. 
+            <lb ed="#R" n="4"/>Constat autem, quod si generare proflueret ab 
+            ali<lb ed="#R" n="5" break="no"/>qua potentia productiua, quod pertineat ad 
+            subli<lb ed="#R" n="6" break="no"/>mitatem potentiae: si enim posse producere lapidem 
+            <lb ed="#R" n="7"/>est perfectionis, multo magis posse producere Deum. 
+            <lb ed="#R" n="8"/>&amp; ideo sciendum, quod licet in non 
+            supernaturali<lb ed="#R" n="9" break="no"/>bus, siue in non necessariis oporteat distinguere 
+            <lb ed="#R" n="10"/>potentiam ab actu, quia potentia praecedit actum, 
+            <lb ed="#R" n="11"/>&amp; in hoc errauit Maximinus, vel Megaricius, 
+            ta<lb ed="#R" n="12" break="no"/>men in diuinis non differt esse &amp; posse, nec oportet 
+            <lb ed="#R" n="13"/>aliquam vim, aut potentiam praemittere a qua 
+            pro<lb ed="#R" n="14" break="no"/>fluat actus, sed ipsemet actus est illa vis &amp; potentia, 
+            <lb ed="#R" n="15"/>propter hoc Philosophus, &amp; Com. 12. met. ibidem 
+            <lb ed="#R" n="16"/>dicit, quod non omnis actio est a potentia. 
+          </p>
+          <p xml:id="paqqap-aa3305-d1e2265">
+            <lb ed="#R" n="17"/>Ad formam ergo cum dicitur, quod omne agens 
+            <lb ed="#R" n="18"/>aliqua vi agit, &amp; aliqua potentia: dicendum, quod 
+            <lb ed="#R" n="19"/>verum est accipiendo generaliter vim, &amp; potentiam, 
+            <lb ed="#R" n="20"/>vel pro entitatiuo principio, sicut est in non 
+            neces<lb ed="#R" n="21" break="no"/>sariis, vel pro ipsamet actione, quae non est vna vis. 
+            <lb ed="#R" n="22"/>&amp;ita est in necessarijs, &amp; aeternis, non enim pater 
+            <lb ed="#R" n="23"/>alia vi produceret filium, quam vi puri actus, &amp; 
+            pro<lb ed="#R" n="24" break="no"/>ductionis purae, quae est generare, vt ex dictis 
+            Am<lb ed="#R" n="25" break="no"/>bros. &amp; Philosophi patet. 
+          </p>
+          <p xml:id="paqqap-aa3305-d1e2287">
+            <lb ed="#R" n="26"/>Ad tertium dicendum, quod non solum Sancti, 
+            <lb ed="#R" n="27"/>immo &amp; Euangelium recipit verbum acceptionis 
+            <lb ed="#R" n="28"/>esse in diuinis. Vnde Jo. 15. de Spiritu sancto loquens 
+            <lb ed="#R" n="29"/>dicit: ille me clarificabit; quia de meo accipiet. 
+            <lb ed="#R" n="30"/>Et Hilar. 4. de Trin. dicit contra Sabellium probat, 
+            <lb ed="#R" n="31"/>quod pater non est filius, quia nulla res est sibi cau 
+            <lb ed="#R" n="32"/>sa, vt sit: quae propositio nihil concluderet, nisi sume 
+            <lb ed="#R" n="33"/>retur minor, videlicet, quod pater est ipsi filio 
+            ra<lb ed="#R" n="34" break="no"/>tio &amp; causa, vt sit. &amp; ideo generaliter verum est, quod 
+            <lb ed="#R" n="35"/>omnis res in diuinis, aut est a se a nullo habens vt sit 
+            <lb ed="#R" n="36"/>essentia, &amp; hoc modo productiones actiuae in 
+            diui<lb ed="#R" n="37" break="no"/>nis sunt res a se non habentes virtute actiua 
+            alicu<lb ed="#R" n="38" break="no"/>ius vt sint: aut non est res a se, sicut productiones 
+            <lb ed="#R" n="39"/>passiuae, &amp; personae productae. 
+          </p>
+          <p xml:id="paqqap-aa3305-d1e2320">
+            <lb ed="#R" n="40"/>Ad quartum dicendum, quod aliter Sortes gene 
+            <lb ed="#R" n="41"/>rat, &amp; aliter generans inquantum generans 
+            gene<lb ed="#R" n="42" break="no"/>rat. Sortes enim generat generatione profluente 
+            <lb ed="#R" n="43"/>a se, generans autem inquantum huiusmodi 
+            gene<lb ed="#R" n="44" break="no"/>rat quidem non generatione profluente, sed potius 
+            <lb ed="#R" n="45"/>constituta intrinsece, &amp; ideo non minus, immo 
+            per<lb ed="#R" n="46" break="no"/>fectius, &amp; intimius dicitur generare. Cum enim 
+            <lb ed="#R" n="47"/>generatio sit pars intrinseca, &amp; constitutiua 
+            gene<lb ed="#R" n="48" break="no"/>rantis inquantum generans est, si ab ipso inquantum 
+            <lb ed="#R" n="49"/>huiusmodi proflueret generatio sequeretur, quod 
+            <lb ed="#R" n="50"/>generatio proflueret a generatione, quod est impos 
+            <lb ed="#R" n="51"/>sibile: non est igitur in Diuinis aliquid quod gene 
+            <lb ed="#R" n="52"/>ret, sicut Sortes, quia nec ab essentia, nec a 
+            perso<lb ed="#R" n="53" break="no"/>na profuit generatio sicut praedictum est, sed est 
+            <lb ed="#R" n="54"/>ibi aliquid, quod generat tanquam generatione 
+            <lb ed="#R" n="55"/>constitutum, scilicet pater qui dicit personam con 
+            <lb ed="#R" n="56"/>stitutam ex essentia, &amp; generatione, &amp; idcirco 
+            ve<lb ed="#R" n="57" break="no"/>rissime, &amp; intimissime dicitur generare: filius etiam 
+            <lb ed="#R" n="58"/>vere producitur, non eo modo quo dicitur Sortes 
+            <lb ed="#R" n="59"/>produci: sed eo modo quo productum inquantum 
+            <lb ed="#R" n="60"/>productum producitur, tanquam terminus 
+            produ<lb ed="#R" n="61" break="no"/>ctionis, &amp; non sicut constitutum per eam 
+            formali<lb ed="#R" n="62" break="no"/>ter: productum autem inquantum huiusmodi 
+            pro<lb ed="#R" n="63" break="no"/>ducitur tanquam constitutum productione, &amp; quia 
+            <lb ed="#R" n="64"/>productio passiua in diuinis vere habet, vt sit ab 
+            <lb ed="#R" n="65"/>ipsa generatione actiua, idcirco filius constitutus 
+            <lb ed="#R" n="66"/>ipsa productione verissime, &amp; intimissime dicitur 
+            <lb ed="#R" n="67"/>produci.
+          </p>
+          <p xml:id="paqqap-aa3305-d1e2383">
+            <!--0015.xml-->
+            <cb ed="#R" n="b"/>
+            <lb ed="#R" n="68"/>Ad quintum dicendum, quod intelligere rem sub 
+            <lb ed="#R" n="69"/>modo sibi opposito, vtpote albedinem per modum 
+            <lb ed="#R" n="70"/>congregatiui, est falsum intelligere, &amp; ideo talis 
+            con<lb ed="#R" n="71" break="no"/>ceptus est a ratione rectificandus: cum igitur res il 
+            <lb ed="#R" n="72"/>la, quae importatur per generare, vel paternitatem 
+            <lb ed="#R" n="73"/>in diuinis non possit concipi per modum cuiusdam 
+            <lb ed="#R" n="74"/>efuxus ab essentia vel persona, quin ille 
+            conce<lb ed="#R" n="75" break="no"/>ptus sit falsus, &amp; repugnans naturae rei, immo &amp; ip 
+            <lb ed="#R" n="76"/>si conceptui, quia intelligeretur, quod idem 
+            pro<lb ed="#R" n="77" break="no"/>flueret a se, si profueret a persona, idcirco non 
+            de<lb ed="#R" n="78" break="no"/>bet concipi per modum rei egredientis ab essentia 
+            <lb ed="#R" n="79"/>vel persona, sed potius personae constituentis, &amp; a 
+            <lb ed="#R" n="80"/>nullo egredientis. 
+          </p>
+          <p xml:id="paqqap-aa3305-d1e2419">
+            <lb ed="#R" n="81"/>Ad sextum dicendum, quod nec Verbum pullula 
+            <lb ed="#R" n="82"/>tionis admittendum est, quia significat quendam 
+            <lb ed="#R" n="83"/>egressum reducibilem ad modum originis: nulla 
+            <lb ed="#R" n="84"/>enim res, quae est principium actiuum, dicitur de pul 
+            <lb ed="#R" n="85"/>lulantibus, vt philosophus 5. metaph. dicit: nec est 
+            <lb ed="#R" n="86"/>verum, quod generare, se possit habere ad essentiam, 
+            <lb ed="#R" n="87"/>per modum formae, vel sequelae, quia vbi ponitur ta 
+            <lb ed="#R" n="88"/>lis sequela formalis, oportet, quod sit distinctio rea 
+            <lb ed="#R" n="89"/>lis. nec etiam est verum, quod possit saluari ratio 
+            <lb ed="#R" n="90"/>principij productiui respectu producti, supposito, 
+            <lb ed="#R" n="91"/>quod productiones non habeant, vt sint ab illo prin 
+            <lb ed="#R" n="92"/>cipio, sed sint tantum sequelae formales. constat 
+            <lb ed="#R" n="93"/>enim, quod tam productio, quam formalis 
+            termi<lb ed="#R" n="94" break="no"/>nus dependet a producto principio secundum idem 
+            <lb ed="#R" n="95"/>genus actiuitatis, quamuis terminus tanquam 
+            <lb ed="#R" n="96"/>quod, &amp; productio tanquam quo: &amp; hoc patet, tum 
+            <lb ed="#R" n="97"/>quia propter quod vnumquodque tale &amp; illud 
+            ma<lb ed="#R" n="98" break="no"/>gis, nunc autem terminus dependet ab actiuitate 
+            <lb ed="#R" n="99"/>producentis mediante actione: ergo multo fortius 
+            <lb ed="#R" n="100"/>dependebit ab eo secundum genus actiuitatis, &amp; 
+            <lb ed="#R" n="101"/>non vt sequela formalis: tum quia medium connectit 
+            <lb ed="#R" n="102"/>extrema, productio autem media est inter actiuita 
+            <lb ed="#R" n="103"/>tem principij productiui, siue elicitiuae potentiae re 
+            <lb ed="#R" n="104"/>spectu termini producti, nisi ipsa productio habeat, 
+            <lb ed="#R" n="105"/>vt sit ab illo principio secundum genus actiuitatis, 
+            <lb ed="#R" n="106"/>&amp; per consequens distingueretur ab illo, vt 
+            proba<lb ed="#R" n="107" break="no"/>tum est supra.
+          </p>
+          <p xml:id="paqqap-aa3305-d1e2480">
+            <lb ed="#R" n="108"/>Quod perfectiones in diuinis habent modum 
+            praedi<lb ed="#R" n="109" break="no"/>camenti actionis, quamuis non sint in 
+            <lb ed="#R" n="110"/>praedicamento. 
+          </p>
+          <p xml:id="paqqap-aa3305-d1e2489">
+            <lb ed="#R" n="111"/>SEcundam Conclusionem pono, quod 
+            productio<lb ed="#R" n="112" break="no"/>nes in diuinis habent modum praedicamenti 
+            actio<lb ed="#R" n="113" break="no"/>nis, quae tamen non sit in illo praedicamento, sicut nec 
+            <lb ed="#R" n="114"/>aliquid, quod sit in Deo cadit in praedicamento. hanc 
+            au<lb ed="#R" n="115" break="no"/>tem conclusionem pono propter opinionem, quae 
+            <lb ed="#R" n="116"/>dicit, quod productiones in diuinis habent 
+            ratio<lb ed="#R" n="117" break="no"/>nem tantum &amp; modum habitudinum, ac 
+            relatio<lb ed="#R" n="118" break="no"/>num, non autem modum actionis, quod dici non 
+            <lb ed="#R" n="119"/>potest, &amp; ideo probo conclusionem propositam: 
+            <lb ed="#R" n="120"/>constat enim, quod nulla habitudo de genere 
+            rela<lb ed="#R" n="121" break="no"/>tionis est productiua termini, sed nec per eam aut 
+            <lb ed="#R" n="122"/>mediante ea aliquid datur, aut communicatur 
+            ter<lb ed="#R" n="123" break="no"/>mino ab alio termino(non. nalbum per 
+            similitudi<lb ed="#R" n="124" break="no"/>nem producit aliud coalbum, aut sibi communicat, nec 
+            <lb ed="#R" n="125"/>coalbum dicitur de albo exire ratione similitudinis) 
+            <lb ed="#R" n="126"/>Sed pater in diuinis generatione vera producit 
+            si<lb ed="#R" n="127" break="no"/>lium iuxta illud Prophetae: Ego hodie genui te: &amp; 
+            <lb ed="#R" n="128"/>vere filius exit a patre, iuxta illud Jo. 16. Exiui a pa 
+            <lb ed="#R" n="129"/>tre: &amp; 17. Cognouerunt vere, quia a te exiui: pater 
+            <lb ed="#R" n="130"/>igitur generonne dedit filio, quod maius oĩbus est. Io. 1o 
+            <lb ed="#R" n="131"/>Et filius nil hi quod non generonne siue natiuitate 
+            acce<lb ed="#R" n="132" break="no"/>perit, vt Hilar. dicit: ergo non potest sane dici, quod in di 
+            <lb ed="#R" n="133"/>uinis solae habitudines referentes, &amp; non causantes 
+            <!--0016.xml-->
+            <pb ed="#P" n="16"/>
+            <cb ed="#R" n="a"/>
+            <lb ed="#R" n="1"/>nec agentes, &amp; per consequens habent modum 
+            <lb ed="#R" n="2"/>praedicamenti actionis: quia secundum Simplicium 
+            <lb ed="#R" n="3"/>differt a relatione increare, siue in causam esse ter 
+            <lb ed="#R" n="4"/>mini. 
+          </p>
+          <p xml:id="paqqap-aa3305-d1e2556">
+            <lb ed="#R" n="5"/>Et si dicatur, quod Aug. &amp; Boet. dicunt, tantum 
+            <lb ed="#R" n="6"/>duo praedicata tanquam ad suos modos in diuinis 
+            <lb ed="#R" n="7"/>manere substantiam, scilicet, &amp; relationem, non 
+            <lb ed="#R" n="8"/>valet, quia sub relatione etiam comprehenditur 
+            <lb ed="#R" n="9"/>etiam modus actionis, &amp; passionis: nam per 
+            rela<lb ed="#R" n="10" break="no"/>tionem intelligitur omne, quod non est ad se. 
+            Vn<lb ed="#R" n="11" break="no"/>de intendunt Sancti, quod duo modi praedicandi 
+            <lb ed="#R" n="12"/>sunt in diuinis, vnus a se, &amp; alius absolutus, &amp; 
+            <lb ed="#R" n="13"/>hunc vocant modum substantiae; alium vero non 
+            <lb ed="#R" n="14"/>a se, sed ad aliud, &amp; illum vocant modum 
+            relatio<lb ed="#R" n="15" break="no"/>nis, &amp; sic non accipiunt relationem proprie, prout 
+            <lb ed="#R" n="16"/>constituit distinctum praedicmaentum contra sex praedi 
+            <lb ed="#R" n="17"/>camenta, quae sunt praedicamenta non absoluta, &amp; non a 
+            <lb ed="#R" n="18"/>se. Ad argumentum principale dicendum, quod 
+            <lb ed="#R" n="19"/>actiuitas formae nullo modo est actio vera, quia acti 
+            <lb ed="#R" n="20"/>uitas nominat potentiã; actio vero actum illius po 
+            <lb ed="#R" n="21"/>tentiae: constat autem, quod potentia actiua, &amp; 
+            <lb ed="#R" n="22"/>actio non sunt idem, cum sint primae differentiae en 
+            <lb ed="#R" n="23"/>tis. &amp; cum additur, quod actio non potest esse 
+            ali<lb ed="#R" n="24" break="no"/>quid egrediens a forma, concedatur, quod non est 
+            <lb ed="#R" n="25"/>egrediens tanquam, quod, sed potius est illud, quo 
+            <lb ed="#R" n="26"/>terminus egreditur, siue egressus termini, &amp; 
+            id<lb ed="#R" n="27" break="no"/>circo est in termino subiectiue, nec procedetur 
+            in<lb ed="#R" n="28" break="no"/>infinitum, vt dictum est in corpore quaestionis. 
+            <lb ed="#R" n="29"/>Nec poni potest, quod actio sit modus absolutus 
+            <lb ed="#R" n="30"/>remanens in forma; tum quia actio non esset 
+            con<lb ed="#R" n="31" break="no"/>tinua cum termino, sed abscissa, cuius oppositum 
+            <lb ed="#R" n="32"/>Philosophus, &amp; Commentator 3. physic. dicunt; 
+            <lb ed="#R" n="33"/>tum quia illo modo non attingeretur terminus: 
+            <lb ed="#R" n="34"/>quia non transiret in ipsum: sed maneret tota actio 
+            <lb ed="#R" n="35"/>in agente, tum quia forma praeageret illum modum 
+            <lb ed="#R" n="36"/>in se, &amp; ita alia actione, &amp; sic procederetur in 
+            in<lb ed="#R" n="37" break="no"/>finitum. 
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

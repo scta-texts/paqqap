@@ -1,0 +1,1720 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quodlibetum 14 
+          Utrum virtus moralis diuidatur in 
+          quatuor cardinales tanquam in 
+          species subalternas 
+          comprehendentes omnes virtutes. 
+        </title>
+        <author ref="#Aureoli">Petrus Aureolus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quodlibetum 14 
+            Utrum virtus moralis diuidatur in 
+            quatuor cardinales tanquam in 
+            species subalternas 
+            comprehendentes omnes virtutes. 
+          </title>
+          <date when="2022-12-14">December 14, 2022</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="R" n="cod-pa05bQ">Roma 1605, Quodlibeta</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2022-12-14" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#R" n="128"/>
+        <cb ed="#R" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="paqqap-a41954"> <!-- q14 -->
+        <head xml:id="paqqap-a41954-Hd1e102">Quodlibetum 14</head>
+        <head xml:id="paqqap-a41954-Hd1e104">
+          Utrum virtus moralis diuidatur in 
+          quatuor cardinales tanquam in 
+          species subalternas 
+          comprehendentes omnes virtutes. 
+        </head>
+        <p xml:id="paqqap-a41954-d1e106">
+          <lb ed="#R" n="5"/>VVALJDL A. X. MJ 
+          <lb ed="#R" n="6"/>DECJMVMQVARTVM. 
+          <lb ed="#R" n="7"/>Vtrum virtus moralis diuidatur in 
+          qua<lb ed="#R" n="8" break="no"/>tuor Cardinales tanquam in 
+          spe<lb ed="#R" n="9" break="no"/>cies subalternas 
+          comprehen<lb ed="#R" n="10" break="no"/>dentes omnes virtutes. 
+        </p>
+        <p xml:id="paqqap-a41954-d1e122">
+          <lb ed="#R" n="11"/>Quartodecimo quaerebatur: Vtrum virtus 
+          mo<lb ed="#R" n="12" break="no"/>ralis diuidatur in quatuor Cardinales 
+          tan<lb ed="#R" n="13" break="no"/>quam in species subalternas 
+          comprehen<lb ed="#R" n="14" break="no"/>dentes omnes virtutes. Et videtur, quod 
+          <lb ed="#R" n="15"/>non: Genus namque subalternum non 
+          di<lb ed="#R" n="16" break="no"/>uiditur contra species, vt animal contra 
+          ho<lb ed="#R" n="17" break="no"/>minem, vel leonem; sed quatuor 
+          virtu<lb ed="#R" n="18" break="no"/>tes cardinales condiuiduntur contra alias, 
+          <lb ed="#R" n="19"/>vrpote contra liberalitatem, 
+          magnificen<lb ed="#R" n="20" break="no"/>tiam, mansuetudinem, vt patet 2. Ethic. 
+          <lb ed="#R" n="21"/>ergo quatuor Cardinales non sunt genera 
+          <lb ed="#R" n="22"/>suba lterna continentia sub se omnes 
+          virtu<lb ed="#R" n="23" break="no"/>tes specifice distinctas. 
+        </p>
+        <p xml:id="paqqap-a41954-d1e154">
+          <lb ed="#R" n="24"/>Praeterea: Phylosophus in lib. Ethic. procedit 
+          <lb ed="#R" n="25"/>artificialiter tractando de virtutibus, sed 
+          <lb ed="#R" n="26"/>ipse non diuidit virtutem moralem primo 
+          <lb ed="#R" n="27"/>in quatuor Cardinales, &amp; deinde in 
+          singu<lb ed="#R" n="28" break="no"/>las speciales virtutes; imo prima 
+          distin<lb ed="#R" n="29" break="no"/>ctione virtutem diuidit in species 
+          specialis<lb ed="#R" n="30" break="no"/>simas, vt patet 2. Ethic. qui tamen 
+          proces<lb ed="#R" n="31" break="no"/>sus artificialis non esset, si virtutes 
+          Cardi<lb ed="#R" n="32" break="no"/>nales essent primae species subaltemae: 
+          ge<lb ed="#R" n="33" break="no"/>nus enim prius, debet diuidi per primas 
+          <lb ed="#R" n="34"/>differentias, &amp; deinde per vltimas, vt patet. 
+          <lb ed="#R" n="35"/>7. met. igitur illud quod prius. 
+        </p>
+        <p xml:id="paqqap-a41954-d1e183">
+          <lb ed="#R" n="36"/>Praeterea: ꝓpecies, quae sunt genera subalterna, 
+          <lb ed="#R" n="37"/>non habent species contentas sub se 
+          tan<lb ed="#R" n="38" break="no"/>quam partes potentiales, aut integrales, 
+          <lb ed="#R" n="39"/>sed potius vt partes substantiuas, sicut 
+          pa<lb ed="#R" n="40" break="no"/>tet de animali, cuius non est pars 
+          poten<lb ed="#R" n="41" break="no"/>tialis aut integralis leo. Sed virtutibus 
+          <lb ed="#R" n="42"/>Cardinalibus adnectuntur virtutes aliae 
+          tan<lb ed="#R" n="43" break="no"/>quam partes integrales, aut potentiales 
+          <lb ed="#R" n="44"/>sicut consuetum est dici: igitur non sunt 
+          <lb ed="#R" n="45"/>species primae tanquam subalternae 
+          respe<lb ed="#R" n="46" break="no"/>ctu omnium virtutum.
+        </p>
+        <p xml:id="paqqap-a41954-d1e209">
+          <lb ed="#R" n="47"/>Praeterea: Virtutes morales sunt species specia 
+          <lb ed="#R" n="48"/>lissimae, quae habent propriam motalem 
+          ma<lb ed="#R" n="49" break="no"/>teriam &amp; distinctam: sed quaelibet 
+          virtu<lb ed="#R" n="50" break="no"/>tum moralium habet vnam materiam 
+          mo<lb ed="#R" n="51" break="no"/>ralem specificam, vt temperantia, 
+          delecta<lb ed="#R" n="52" break="no"/>tiones tactus, &amp; gustus, &amp; iustitia actiones, 
+          <!--0128.xml-->
+          <cb ed="#R" n="b"/>
+          <lb ed="#R" n="53"/>quae sum xd alterumu cegonon possamt ea 
+          <lb ed="#R" n="54"/>se virtutes genera les quasi speties subebis 
+          <lb ed="#R" n="55"/>temae, sedfunt spedes ipeclalissime.
+        </p>
+        <p xml:id="paqqap-a41954-d1e235">
+          <lb ed="#R" n="56"/>Sed in oppositum videtui, quia genus prino 
+          <lb ed="#R" n="57"/>descendit in species subalternas, &amp; ilsis 
+          <lb ed="#R" n="58"/>mediantibus in species specialissimas: sed 
+          <lb ed="#R" n="59"/>
+          <ref xml:id="paqqap-a41954-Rd1e245">Tullius in a. Reth. primo</ref> diuiditi totum 
+          <lb ed="#R" n="60"/>rationem honesti, quam vocat virtutem 
+          <lb ed="#R" n="61"/>moralem in quatuor Cardinales, prudena 
+          <lb ed="#R" n="62"/>tiam scilicet, &amp; iustitiam, fortitudinem, &amp; 
+          <lb ed="#R" n="63"/>temperantiam. Deinde vero prudentiam in 
+          <lb ed="#R" n="64"/>partes tres, memoriam scilicet, intelligent 
+          <lb ed="#R" n="65"/>dam, &amp; prudentiam lustitiam autem in sex, 
+          <lb ed="#R" n="66"/>Religionem vide licet, pietatem, gratiam, 
+          <lb ed="#R" n="67"/>vindicationem, obseruantiam, vertatem. 
+          <lb ed="#R" n="68"/>Fortitudinem autem in quatuor, 
+          magnifi<lb ed="#R" n="69" break="no"/>centiam scilicet, fidentiam, patientiam, 
+          <lb ed="#R" n="70"/>perseuerantiam. Temperantiam autem in 
+          <lb ed="#R" n="71"/>tres, continentiam videlicet, clementiam, 
+          <lb ed="#R" n="72"/>&amp; modestiam, &amp; constat quod etiam ista 
+          <lb ed="#R" n="73"/>sunt de numero virtutum 
+          specialissima<lb ed="#R" n="74" break="no"/>rum: Igitur Cardinales virtutes sunt 
+          ge<lb ed="#R" n="75" break="no"/>nerales, omnes virtutes specificas 
+          conti<lb ed="#R" n="76" break="no"/>nentes. 
+        </p>
+        <p xml:id="paqqap-a41954-d1e285">
+          <lb ed="#R" n="77"/>Responsio ad quaestionem 
+        </p>
+        <p xml:id="paqqap-a41954-d1e290">
+          <lb ed="#R" n="78"/>Respondeo, hic primo ponetur vna opinio 
+          <lb ed="#R" n="79"/>communis. Secundo vero dicetur ad 
+          quae<lb ed="#R" n="80" break="no"/>stionem iuxta illud, quod videtur: &amp; 
+          ter<lb ed="#R" n="81" break="no"/>tio remouebuntur quaedam dubia. Et 
+          quar<lb ed="#R" n="82" break="no"/>to ostendetur, qualiter virtutes 
+          Cardina<lb ed="#R" n="83" break="no"/>les tanquam generales descendant in 
+          vir<lb ed="#R" n="84" break="no"/>tutes omnes speciales, quae possunt 
+          redu<lb ed="#R" n="85" break="no"/>ci ad morales: 
+        </p>
+        <div xml:id="paqqap-a41954-Dd1e311">
+          <head xml:id="paqqap-a41954-Hd1e313">Articulus 1</head>
+          <p xml:id="paqqap-a41954-d1e315">
+            <lb ed="#R" n="86"/>ARTJCVLVS I. 
+          </p>
+          <p xml:id="paqqap-a41954-d1e320">
+            <lb ed="#R" n="87"/>CIRCA primum sciendum 
+            <lb ed="#R" n="88"/>quod in ista quaestione 
+            qui<lb ed="#R" n="89" break="no"/>dam dixerunt, haec quatuor 
+            <lb ed="#R" n="90"/>vocabula, iustitia, pruden⸗ 
+            <lb ed="#R" n="91"/>tia, fortitudo, 
+            temperan<lb ed="#R" n="92" break="no"/>tia, aliquando 
+            significare<lb ed="#R" n="93" break="no"/>quasdam generales 
+            condi<lb ed="#R" n="94" break="no"/>-tiones, &amp; circumstantias 
+            <lb ed="#R" n="95"/>omnis actus virtuosi: De omni namque actu 
+            vir<lb ed="#R" n="96" break="no"/>tuose elecito verum est dicere, quod in eo est ratio 
+            <lb ed="#R" n="97"/>debiti &amp; iusti. Nam faciens actum virtutis facit, 
+            <lb ed="#R" n="98"/>quod debet: &amp; iterum ratio fortitudinis, 
+            quia<lb ed="#R" n="99" break="no"/>difficultatem quandam, quam habet actns virtu⸗ 
+            <lb ed="#R" n="100"/>tis, contra quam virtuosus se stabilit: similiter 
+            ra<lb ed="#R" n="101" break="no"/>tio temperantiae, quia in omni actu, virtutis 
+            ne<lb ed="#R" n="102" break="no"/>cesse est obseruare temperiem, &amp; modum.
+          </p>
+          <p xml:id="paqqap-a41954-d1e357">
+            <lb ed="#R" n="103"/>Et rursum bonum rationis, &amp; prudentiae in 
+            quo<lb ed="#R" n="104" break="no"/>libet actu virtuoso relucet, quo circa ista nomina, 
+            <lb ed="#R" n="105"/>vt significant has conditiones generales, 
+            non<lb ed="#R" n="106" break="no"/>sunt proprie virtutes, sed omnium virtutum 
+            cir<lb ed="#R" n="107" break="no"/>cunstantiae. Aliquando vero appropriantur haec 
+            <lb ed="#R" n="108"/>nomina virtutibus, quae sunt circa materias, in 
+            <lb ed="#R" n="109"/>quibus praecipue relucent considerationes illae, vt 
+            <lb ed="#R" n="110"/>quia tomperies, &amp; modus relucet maxime circa- 
+            <!--0129.xml-->
+            <pb ed="#P" n="129"/>
+            <cb ed="#R" n="a"/>
+            <lb ed="#R" n="1"/>delectationem tactus, &amp; gustus. Idcirco 
+            Tempe<lb ed="#R" n="2" break="no"/>rantia appellatur illa virtus, quae perficit 
+            homi<lb ed="#R" n="3" break="no"/>nem circa istam materiam. Et similiter fortitudo 
+            <lb ed="#R" n="4"/>dicitur illa virtus, quae perficit hominem circa 
+            <lb ed="#R" n="5"/>timores mortis, vbi difficilius est homini se figere 
+            <lb ed="#R" n="6"/>&amp; stabilire.
+          </p>
+          <p xml:id="paqqap-a41954-d1e396">
+            <lb ed="#R" n="7"/>Et simile est de ratione debiti in actionibus ad 
+            <lb ed="#R" n="8"/>alterum, quia ibi magis relucet quam in 
+            quacun<lb ed="#R" n="9" break="no"/>que alia materia. Bonum etiam rationis maxime 
+            <lb ed="#R" n="10"/>relucet in actibus rationis practicae, qui sunt 
+            con<lb ed="#R" n="11" break="no"/>siliari, iudicare, praecipere &amp; secundum hoc 
+            pru<lb ed="#R" n="12" break="no"/>dentia, iustitia, temperantia fortitudo sunt 
+            virtu<lb ed="#R" n="13" break="no"/>tes specificae consistentes circa determinatas 
+            ma<lb ed="#R" n="14" break="no"/>terias. 
+          </p>
+          <p xml:id="paqqap-a41954-d1e417">
+            <lb ed="#R" n="15"/>Dixerunt ergo isti, quod ratio cardinalitatis 
+            at<lb ed="#R" n="16" break="no"/>tribuitur istis quatuor prout sunt virtutes 
+            specia<lb ed="#R" n="17" break="no"/>les, pro eo quod esse cardinale in virtutibus nil 
+            <lb ed="#R" n="18"/>aliud est, quam habere rationem aliquam 
+            virtuo<lb ed="#R" n="19" break="no"/>sam per excellentiam, &amp; principaliter, quae tamen 
+            <lb ed="#R" n="20"/>reperiatur in pluribus alijs virtutibus 
+            participa<lb ed="#R" n="21" break="no"/>tiue, &amp; minus principaliter, vt temperies &amp; modus 
+            <lb ed="#R" n="22"/>principaliter reperitur iu delectationibus tactus, &amp; 
+            <lb ed="#R" n="23"/>gustus. In gaudio vero cirea, quod est euterpelia, 
+            <lb ed="#R" n="24"/>&amp; in ira circa quam es mansuetudo minus 
+            princi<lb ed="#R" n="25" break="no"/>paliter, &amp; participatiue. Et quia rationes illae 
+            <lb ed="#R" n="26"/>quatuor generales sic, vt praedictum est in quatuor 
+            <lb ed="#R" n="27"/>generalibus materijs principaliter reperiuntur, 
+            <lb ed="#R" n="28"/>ideo virtutes, quae sunt circa illas materias 
+            cardi<lb ed="#R" n="29" break="no"/>nales dicuntur partes potentiales, quia haec est 
+            na<lb ed="#R" n="30" break="no"/>tura totius potentialis, quod virtus eius per prius 
+            <lb ed="#R" n="31"/>reperitur in vno mediante quo deriuatur in alia, vt 
+            <lb ed="#R" n="32"/>virtus a se per prius lucet in corde, &amp; ab ipso 
+            deri<lb ed="#R" n="33" break="no"/>natur in membra alia. 
+          </p>
+        </div>
+        <div xml:id="paqqap-a41954-Dd1e462">
+          <head xml:id="paqqap-a41954-Hd1e464">Articulus 2</head>
+          <p xml:id="paqqap-a41954-d1e466">
+            <lb ed="#R" n="34"/>ARTICVLVS II. 
+            <lb ed="#R" n="35"/>Cuius est conclusio prima, quod a tribus 
+            virtuti<lb ed="#R" n="36" break="no"/>bus communicantibus in vna ratione 
+            genera<lb ed="#R" n="37" break="no"/>li potest abstrabi vnus 
+            concip<lb ed="#R" n="38" break="no"/>tus quidditatiuus. 
+          </p>
+          <p xml:id="paqqap-a41954-d1e479">
+            <lb ed="#R" n="39"/>CIrca secundum ponendae sunt tres 
+            conclusio<lb ed="#R" n="40" break="no"/>nes iuxta illud, quod videtur in hac materia 
+            <lb ed="#R" n="41"/>dicendum 
+          </p>
+          <p xml:id="paqqap-a41954-d1e488">
+            <lb ed="#R" n="42"/>Prima quidem conclusio est, quod ab omnibus 
+            <lb ed="#R" n="43"/>virtutibus, quae communicant in vna ratione 
+            gene<lb ed="#R" n="44" break="no"/>rali potest abstrahi vnus conceptus quidditatiuus 
+            <lb ed="#R" n="45"/>communis, &amp; per consequens vna ratio generis 
+            <lb ed="#R" n="46"/>subalterni; Verbi gratia a sobrietate, castitate-, 
+            <lb ed="#R" n="47"/>mansuetudine, clementia &amp; eutrapelia potest 
+            ac<lb ed="#R" n="48" break="no"/>cipi vna ratio generalis qua omnes conueniunt in 
+            <lb ed="#R" n="49"/>temperie, non sunt enim aliud quam diuersae 
+            tem<lb ed="#R" n="50" break="no"/>peries circa diuersas materias, &amp; idcirco 
+            tem<lb ed="#R" n="51" break="no"/>perantia est genus ad omnes. Similiter a 
+            religio<lb ed="#R" n="52" break="no"/>ne, quae reddit Deo quod suum est, &amp; pietate quae 
+            <lb ed="#R" n="53"/>hoc reddit parentibus, &amp; sic de omnibus alijs 
+            po<lb ed="#R" n="54" break="no"/>test abstrahi vna communis quidditatiua ratio, 
+            <lb ed="#R" n="55"/>quia omnes sunt quaedam redditiones debiti circa 
+            <lb ed="#R" n="56"/>diuersas materias, &amp; ideo iustitia est vnum genus 
+            <lb ed="#R" n="57"/>commune omnibus. 
+          </p>
+          <p xml:id="paqqap-a41954-d1e525">
+            <lb ed="#R" n="58"/>Et idem intelligendum, quod ab Eubulia, quae 
+            <lb ed="#R" n="59"/>est rectitudo consilij, &amp; Synesi quae est rectitudo 
+            <lb ed="#R" n="60"/>iudicij, &amp; praeceptiua prudentia, quae est rectitudo 
+            <lb ed="#R" n="61"/>imperij potest abstrahi communis ratio, &amp; 
+            quid<lb ed="#R" n="62" break="no"/>ditatiua, quia omnes sunt rectitudines actuum 
+            <lb ed="#R" n="63"/>rationis circa agibilia, &amp; ideo prudentia erit 
+            ge<lb ed="#R" n="64" break="no"/>nus ad omnes. 
+          </p>
+          <p xml:id="paqqap-a41954-d1e544">
+            <lb ed="#R" n="65"/>Et pari ratione a patientia, magnanimitate, &amp; 
+            <!--0129.xml-->
+            <cb ed="#R" n="b"/>
+            <lb ed="#R" n="66"/>longanimitare potest abstrahi ratio fictionis, &amp; sta 
+            <lb ed="#R" n="67"/>bilimenti, quia omnes istae sunt quaedam 
+            firmita<lb ed="#R" n="68" break="no"/>tes animi circa diuersas materias, propter quod 
+            <lb ed="#R" n="69"/>fortitudo genus erit ad eas. Hanc autem 
+            acceptio<lb ed="#R" n="70" break="no"/>nem horum quatuor nominum pro quatuor 
+            no<lb ed="#R" n="71" break="no"/>minibus subalternis omnium virtutum omiserunt 
+            <lb ed="#R" n="72"/>positores praedicti, cum tamen sit principalis. haec 
+            <lb ed="#R" n="73"/>igitur Conclusio potest multiplicari declarari
+          </p>
+          <p xml:id="paqqap-a41954-d1e570">
+            <!-- missing line break -->Primo sic: Quandocumque aliqua ratio inuentiru
+            <lb ed="#R" n="74"/>in pluribus speciebus sub genere contentis, si ratio 
+            <lb ed="#R" n="75"/>illa essentialis fuerit vni ex istis speciebus sub 
+            ge<lb ed="#R" n="76" break="no"/>nere contentis, erit subalternalijs, quia quod est 
+            es<lb ed="#R" n="77" break="no"/>sentiale vni speciei sub aliquo genere non potest in 
+            <lb ed="#R" n="78"/>esse accidentaliter alicui eiusdem generis; nam, vel est 
+            <lb ed="#R" n="79"/>genus, vel differentia illius, cui essentiale est. 
+            Jmpos<lb ed="#R" n="80" break="no"/>bile est autem differentiam alicuius speciei, si fuerit illi 
+            <lb ed="#R" n="81"/>propria, reperiri accidentaliter aut essentialiter in 
+            <lb ed="#R" n="82"/>alia specie eiusdem generis; si verb sit differentia 
+            <lb ed="#R" n="83"/>communis tunc non inerit accidentaliter 
+            specie<lb ed="#R" n="84" break="no"/>bus alijs quibus communis est, sed potius 
+            essen<lb ed="#R" n="85" break="no"/>tialiter, &amp; ita poterit accipi communis conceptus 
+            <lb ed="#R" n="86"/>generis, genus vero illarum specierum erit, quibus 
+            <lb ed="#R" n="87"/>ponuntur esse communis.
+          </p>
+          <p xml:id="paqqap-a41954-d1e605">
+            <lb ed="#R" n="88"/>Et exemplum ad hoc est de animali, &amp; leone 
+            <lb ed="#R" n="89"/>nihil enim est essentiale leoni si reperiatur in boue 
+            <lb ed="#R" n="90"/>quin sit houi essentiale. Sed ratio temperiei 
+            repe<lb ed="#R" n="91" break="no"/>ritur in pluribus virtutibus, mansuerudo namque 
+            <lb ed="#R" n="92"/>est quaedam temperies, &amp; moderatio irae; similiter 
+            <lb ed="#R" n="93"/>clementia est quaedam temperies respectu poenae 
+            <lb ed="#R" n="94"/>quam affectat crudelis.
+          </p>
+          <p xml:id="paqqap-a41954-d1e623">
+            <lb ed="#R" n="95"/>Castitas autem est quaedam moderatio respectu 
+            <lb ed="#R" n="96"/>delectabilium sensus tactus, sicut est sobrietas 
+            re<lb ed="#R" n="97" break="no"/>spectu delectabilium gustus. Constat autem, quod 
+            <lb ed="#R" n="98"/>ratio temperiei, &amp; moderaminis essentialis est 
+            in<lb ed="#R" n="99" break="no"/>sobrietate &amp; castitate: ergo ipsa erit essentialis om 
+            <lb ed="#R" n="100"/>nibus alijs, &amp; per consequens poterit abstrahi 
+            con<lb ed="#R" n="101" break="no"/>ceptus generis subalterni quem exprimit hoc 
+            no<lb ed="#R" n="102" break="no"/>men temperantia. Et idem potest concludi de 
+            ra<lb ed="#R" n="103" break="no"/>tione firmitatis, &amp; fictionis, quae communis est 
+            <lb ed="#R" n="104"/>multis virtutibus. Et similiter de ratione 
+            reddi<lb ed="#R" n="105" break="no"/>tionis debiti quam exprimit nomen iustitiae, &amp; de 
+            <lb ed="#R" n="106"/>rectitud me racionis, quam exprimit nomen 
+            Pru<lb ed="#R" n="107" break="no"/>
+            <!-- line coord error -->
+            <lb ed="#R" n="108"/>dentiae. 
+          </p>
+          <p xml:id="paqqap-a41954-d1e658">
+            <lb ed="#R" n="109"/>Secundo sic. Quod praedicatur in quid de pluribus 
+            <lb ed="#R" n="110"/>differentibus specie, habet generis rationem, vt 
+            <lb ed="#R" n="111"/>patet 1. Topic. sed interroganti quid sunt 
+            mansue<lb ed="#R" n="112" break="no"/>tudo, &amp; castitas, competenter respondetur, quod 
+            <lb ed="#R" n="113"/>sunt temperantia, haec quidem concupiscentiae, 
+            <lb ed="#R" n="114"/>illa irae. 
+          </p>
+          <p xml:id="paqqap-a41954-d1e674">
+            <lb ed="#R" n="115"/>Similiter <sic>intetroganti</sic>, quid sit patientia, &amp; 
+            lon<lb ed="#R" n="116" break="no"/>ganimitas, congruenter respondetur, quod sunt 
+            <lb ed="#R" n="117"/>quaedam firmitates, &amp; fortitudines animi, illa 
+            <lb ed="#R" n="118"/>quidem in tolerando tristitias illatas, haec vero in 
+            <lb ed="#R" n="119"/>expectando promissa secundum longitudinem tem 
+            <lb ed="#R" n="120"/>poris, &amp; diuturnitatem, igitur temperantia, &amp; 
+            for<lb ed="#R" n="121" break="no"/>titudo erunt quaedam genera contenta sub virtute 
+            <lb ed="#R" n="122"/>continentia multas species specialissimas, &amp; idem 
+            <lb ed="#R" n="123"/>est de prudentia &amp; iustitia.
+          </p>
+          <p xml:id="paqqap-a41954-d1e699">
+            <lb ed="#R" n="124"/>Tertio sic: Omnis differentia per se est diuisiua 
+            <lb ed="#R" n="125"/>generis, &amp; sub genere constitutiua speciei, vt 
+            Por<lb ed="#R" n="126" break="no"/>phyrius dicit, sed bonum rationis prout consistit 
+            <lb ed="#R" n="127"/>in quadam fictione, &amp; bonum rationis prout 
+            con<lb ed="#R" n="128" break="no"/>sistit in debiti redditione, &amp; bonum rationis prout 
+            <lb ed="#R" n="129"/>consistit essentialiter in rectitudine cognitionis 
+            <lb ed="#R" n="130"/>practicae hae vtique inter se sunt differentiae 
+            alte<lb ed="#R" n="131" break="no"/>rius rationis, &amp; constat, quod diuidunt per se 
+            bo<lb ed="#R" n="132" break="no"/>num rationis circa materiam agibilem generali. 
+            <lb ed="#R" n="133"/>ter sumptam in quo essentialiter consistit ratio vir. 
+            <!--0130.xml-->
+            <pb ed="#P" n="130"/>
+            <cb ed="#R" n="a"/>
+            <lb ed="#R" n="1"/>tutis moralis, vt patet a. Ethic. ex definitione 
+            vir<lb ed="#R" n="2" break="no"/>tutis: ergo quatuor istae differentiae sub virtute 
+            con<lb ed="#R" n="3" break="no"/>stituent quatuor genera subalterna continentia 
+            <lb ed="#R" n="4"/>specialissimas species totius generis virtutis. 
+          </p>
+          <p xml:id="paqqap-a41954-d1e738">
+            <lb ed="#R" n="5"/>Quatuor sic: Omnis differentia est essentialis in 
+            <lb ed="#R" n="6"/>virtutibus &amp; habitibus, quae sumitur ex omnibus, 
+            <lb ed="#R" n="7"/>cum habitus &amp; virtutes penes obiectam distinguan 
+            <lb ed="#R" n="8"/>tur, vt patet ex a. de anima de actibus, &amp; potenrijs: 
+            <lb ed="#R" n="9"/>&amp; in tertio dicitur, quod secantur scientiae, sicut &amp; 
+            <lb ed="#R" n="10"/>res: sed obiectorum quantum ad inateriam 
+            agibi<lb ed="#R" n="11" break="no"/>lem, quam coniecturant virtutes morales, quaedam 
+            <lb ed="#R" n="12"/>sunt, quae se habent ad homines per modum 
+            attra<lb ed="#R" n="13" break="no"/>hentis, in quibus difficile est animum moderari 
+            se<lb ed="#R" n="14" break="no"/>cundam rectam rationem.
+          </p>
+          <p xml:id="paqqap-a41954-d1e762">
+            <lb ed="#R" n="15"/>Quaedam vero habent se per modum repellentis 
+            <lb ed="#R" n="16"/>&amp; obruentis, contra, quae difficile est animum figere 
+            <lb ed="#R" n="17"/>&amp; firmare, quando ratio dictat. Quaedam vero sunt, 
+            <lb ed="#R" n="18"/>quae nec obruuntur quantum est ex se, nec alliciunt, 
+            <lb ed="#R" n="19"/>quia respiciunt tantum alterum, &amp; ideo totum 
+            ra<lb ed="#R" n="20" break="no"/>tionis bonum attenditur in bene se habere ad 
+            al<lb ed="#R" n="21" break="no"/>terum. 
+          </p>
+          <p xml:id="paqqap-a41954-d1e780">
+            <lb ed="#R" n="22"/>Omnia autem agibilia in hoc conueniunt, quod 
+            <lb ed="#R" n="23"/>sub ea cadit &amp; consilium, &amp; iudicium, &amp; sic de alijs 
+            <lb ed="#R" n="24"/>actibus rationis practicae, in quibus potest esse obli 
+            <lb ed="#R" n="25"/>quitas, &amp; rectitudo. Igitur hae quatuor differentiae 
+            <lb ed="#R" n="26"/>generales, quae accipiuntur ex omnibus, vt patet, 
+            <lb ed="#R" n="27"/>distinguent essentialiter virtutem in quatuor 
+            spe<lb ed="#R" n="28" break="no"/>cies generales omnes alias continentes. 
+          </p>
+          <p xml:id="paqqap-a41954-d1e798">
+            <lb ed="#R" n="29"/>Confirmatur autem praesens conclusio ex 
+            inten<lb ed="#R" n="30" break="no"/>tione <ref xml:id="paqqap-a41954-Rd1e804">Tullij in 2. Reth.</ref> &amp; <ref xml:id="paqqap-a41954-Rd1e806">Senec. in lib. de copia verb.</ref>
+            <lb ed="#R" n="31"/>qui diuidunt totam virtutem in istas quatuor 
+            spe<lb ed="#R" n="32" break="no"/>cies, &amp; deinde quamlibet illarum in alias 
+            specifi<lb ed="#R" n="33" break="no"/>cas, &amp; singulares virtutes. 
+          </p>
+          <p xml:id="paqqap-a41954-d1e816">
+            <lb ed="#R" n="34"/>Quod virtutes athomae non respiciunt cardinales 
+            <lb ed="#R" n="35"/>quasi cardinalium partes potentiales. 
+          </p>
+          <p xml:id="paqqap-a41954-d1e824">
+            <lb ed="#R" n="36"/>SEcunda conclusio est, quod virtutes specificae, &amp; 
+            <lb ed="#R" n="37"/>athomae non respiciunt virtutes Cardinales 
+            <lb ed="#R" n="38"/>tanquam potentiales partes, sicut posuerunt 
+            prae<lb ed="#R" n="39" break="no"/>dicti: quod patet. 
+          </p>
+          <p xml:id="paqqap-a41954-d1e835">
+            <lb ed="#R" n="40"/>Primo sic. Pars potentialis est subiectiue in toto, 
+            <lb ed="#R" n="41"/>sicut patet quod potentiae animae sunt in ipsa 
+            sub<lb ed="#R" n="42" break="no"/>iectiue: sed manifestum est, quod virtutes athomae 
+            <lb ed="#R" n="43"/>non sunt subiectiue in Cardinalibus: igitur se non 
+            <lb ed="#R" n="44"/>habent ad eas sicut partes potentiales ad totum.
+          </p>
+          <p xml:id="paqqap-a41954-d1e848">
+            <lb ed="#R" n="45"/>Praeterea: Totum operatur per partem 
+            putentia<lb ed="#R" n="46" break="no"/>lem, sicut anima per vegetatiuum, &amp; sensitiuum 
+            <lb ed="#R" n="47"/>sed virtus principalis, vtpote temperantia non ope 
+            <lb ed="#R" n="48"/>ratur per alias virtutes annexas: ergo illae non 
+            de<lb ed="#R" n="49" break="no"/>bent dici annecti: sicut partes potentiales suo toti.
+          </p>
+          <p xml:id="paqqap-a41954-d1e861">
+            <lb ed="#R" n="50"/>Praeterea: Partes potentiales non sunt nobiliores 
+            <lb ed="#R" n="51"/>suo toto: sed religio, &amp; latria, est nobilior quam par 
+            <lb ed="#R" n="52"/>ticularis iustitia, illa enim est erga Deum, &amp; ista 
+            <lb ed="#R" n="53"/>erga proximum: ergo latria, &amp; religio non est pars 
+            <lb ed="#R" n="54"/>potentialis particularis iustitiae, sicut isti ponunt.
+          </p>
+          <p xml:id="paqqap-a41954-d1e874">
+            <lb ed="#R" n="55"/>Praeterea: Species sub eodem genere contentae 
+            <lb ed="#R" n="56"/>non respiciunt nobiliorem speciem infra illud 
+            ge<lb ed="#R" n="57" break="no"/>nus, sicut partes potentialestotum, quantumcunq. 
+            <lb ed="#R" n="58"/>enim homo sit nobilior caeteris animalibus, &amp; 
+            vta<lb ed="#R" n="59" break="no"/>tur omnibus, &amp; omnia sint facta propter hominem, 
+            <lb ed="#R" n="60"/>nullus tamen dicit, quod animalia sint partes essen 
+            <lb ed="#R" n="61"/>tiales ipsius hominis: sed magnanimitas, patientia, 
+            <lb ed="#R" n="62"/>magnificentia sunt distinctae virtutes specificae, &amp; 
+            <lb ed="#R" n="63"/>sic de multis alijs virtutibus: igitur dicere, quod 
+            <lb ed="#R" n="64"/>quaedam ex istis sunt partes potentiales iustitiae, 
+            <lb ed="#R" n="65"/>quaedam fortitudinis, &amp; sic de alijs, non est 
+            ratio<lb ed="#R" n="66" break="no"/>naliter dictum.
+          </p>
+          <p xml:id="paqqap-a41954-d1e903">
+            <!--0130.xml-->
+            <cb ed="#R" n="b"/>
+            <lb ed="#R" n="67"/>Quod Cardinalitus noo auribuitur uiemul, 
+            <lb ed="#R" n="68"/>propter participare principalitr a 
+            <lb ed="#R" n="69"/>quam specillem uirtutem. 
+          </p>
+          <p xml:id="paqqap-a41954-d1e917">
+            <lb ed="#R" n="70"/>TErtia conclusio est, quod cardipalitas, vel 
+            el<lb ed="#R" n="71" break="no"/>se Cardinale in virtutibus non attribuitur 
+            <lb ed="#R" n="72"/>eis propter participare principaliter aliquam 
+            ra<lb ed="#R" n="73" break="no"/>tionem, quae modo minus principali 
+            participa<lb ed="#R" n="74" break="no"/>tur ab alijs. constat enim, quod difficilius est 
+            pu<lb ed="#R" n="75" break="no"/>gnare contra iram, quam contra concupiscentiam, 
+            <lb ed="#R" n="76"/>vt patet a. &amp; 7. Ethic. &amp; per consequens 
+            mansue<lb ed="#R" n="77" break="no"/>tudo, quae moderatur iram, &amp; temperat, videtur 
+            <lb ed="#R" n="78"/>rationem temperiqi, &amp; modi principalius 
+            partici<lb ed="#R" n="79" break="no"/>pare quam castitas, quae moderatur 
+            concupiscen<lb ed="#R" n="80" break="no"/>tiam venereorum, aut parsimonia, quae temperat 
+            <lb ed="#R" n="81"/>concupiscentiam gustus: sed mansuetudo non 
+            pro<lb ed="#R" n="82" break="no"/>prie virtus Cardinalis, imo secundum istos 
+            tem<lb ed="#R" n="83" break="no"/>perantia dicitur Cardinalis: participare ergo 
+            prin<lb ed="#R" n="84" break="no"/>cipaliter aliquam rationem, non facit virtutem 
+            es<lb ed="#R" n="85" break="no"/>se Cardinalem. 
+          </p>
+          <p xml:id="paqqap-a41954-d1e954">
+            <lb ed="#R" n="86"/>Praeterea: Temperantia est virtus Cardinalis 
+            se<lb ed="#R" n="87" break="no"/>cundum istos, aut ergo illa temperantia est virtus 
+            <lb ed="#R" n="88"/>castitatis, quae respicit delectabilia secundum tactum, 
+            <lb ed="#R" n="89"/>aut parsimonia, quae respicit cibum, &amp; sobrietas, 
+            <lb ed="#R" n="90"/>quae respicit vinum, aut forte genus temperantiae, 
+            <lb ed="#R" n="91"/>quae est communis.
+          </p>
+          <p xml:id="paqqap-a41954-d1e970">
+            <lb ed="#R" n="92"/>Sed non potest dari, quod genus commune, tum 
+            <lb ed="#R" n="93"/>quia secundum istos virtus Cardina lis est quadam 
+            <lb ed="#R" n="94"/>virtus specialis, cui aliae annectuntur; tum quia 
+            <lb ed="#R" n="95"/>infra illud genus necesse est, quod in aliqua 
+            specie<lb ed="#R" n="96" break="no"/>rum principalius, &amp; perfectius reperiatur ratio 
+            tem<lb ed="#R" n="97" break="no"/>periei, quia differentiarum diuidentium genus semper 
+            <lb ed="#R" n="98"/>subalterna est nobilior, &amp; per consequens illa virtus 
+            <lb ed="#R" n="99"/>est Cardinalis iuxta regulam istorum. Nec potest dici 
+            <lb ed="#R" n="100"/>quod vel castitas praecise, nec sobrietas praecise, nec 
+            <lb ed="#R" n="101"/>parsimonia sit illa virtus temperantiae, quae est Car 
+            <lb ed="#R" n="102"/>dinalis, nec etiam isti hoc dicunt, sed solum illa 
+            <lb ed="#R" n="103"/>temperantia communis, de qua Phyl. loquitur in 3. 
+            <lb ed="#R" n="104"/>Ethic. igitur esse Cardinale non competit virtuti 
+            <lb ed="#R" n="105"/>per rationem principalitatis. 
+          </p>
+          <p xml:id="paqqap-a41954-d1e1003">
+            <lb ed="#R" n="106"/>Praeterea: Virtus latriae &amp; religionis est nobilior 
+            <lb ed="#R" n="107"/>inter omnes virtutes, quae reddunt alteri, quod suum 
+            <lb ed="#R" n="108"/>est &amp; ideo reddere debitum nobiliori modo compe 
+            <lb ed="#R" n="109"/>tit sibi quam iustitiae particulari, quia reddit 
+            debi<lb ed="#R" n="110" break="no"/>tum Deo: igitur secundum hoc latuia erit virtus 
+            <lb ed="#R" n="111"/>Cardinalis, &amp; non particularis iustitia, cuius 
+            op<lb ed="#R" n="112" break="no"/>positum isti dicunt.
+          </p>
+          <p xml:id="paqqap-a41954-d1e1021">
+            <lb ed="#R" n="113"/>Si dicatur, quod reddere debitum Deo non 
+            pos<lb ed="#R" n="114" break="no"/>sumus aequiualens, &amp; aequale, &amp; ideo ratio debitum 
+            <lb ed="#R" n="115"/>reddendi perfectius saluatur in iustitia 
+            particula<lb ed="#R" n="116" break="no"/>ri per quam redditur alteri quicquid est debitum: 
+            <lb ed="#R" n="117"/>non valet, quia in iustitia non accipiatur medium, 
+            <lb ed="#R" n="118"/>siue iustum per modum contrapassi 
+            proportiona<lb ed="#R" n="119" break="no"/>lis; licet ergo per latriam non reddatur Deo 
+            aequi<lb ed="#R" n="120" break="no"/>ualens per modum proportionalis, quia quantum 
+            <lb ed="#R" n="121"/>est possibile creaturam rependere, nec amplius 
+            <lb ed="#R" n="122"/>exigit Deus, nec ad amplius tenetur creatura, &amp; 
+            <lb ed="#R" n="123"/>ideo ratio reddendi debitum secundum, quod 
+            exi<lb ed="#R" n="124" break="no"/>git aequitas &amp; iustitia in religione, &amp; latria 
+            maxi<lb ed="#R" n="125" break="no"/>me saluatur.
+          </p>
+          <p xml:id="paqqap-a41954-d1e1052">
+            <lb ed="#R" n="126"/>Praeterea: Fortitudo, &amp; patientia, vtraque est cir 
+            <lb ed="#R" n="127"/>ca pericula mortis, fortitudo quidem in aggredien 
+            <lb ed="#R" n="128"/>do, &amp; non resiliendo a virtute propter pericula, 
+            pa<lb ed="#R" n="129" break="no"/>tientia vero in non commoueri, nec obrui tristtitia 
+            <lb ed="#R" n="130"/>in tolerando pericula, sed constat difficilius e 
+            <lb ed="#R" n="131"/>non commoueri, nec affici tristitia in experientia 
+            <lb ed="#R" n="132"/>periculorum, quam non resilire tantum, &amp; 
+            prop<lb ed="#R" n="133" break="no"/>ter hoc 3. Ethic. dicit Phylosophus, quod in tali- 
+            <!--0131.xml-->
+            <pb ed="#P" n="131"/>
+            <cb ed="#R" n="a"/>
+            <lb ed="#R" n="1"/>bus sufficit non tristari, quando super extendun. 
+            <lb ed="#R" n="2"/>tur pericula. hinc &amp; Laurentius, qui non solum non 
+            <lb ed="#R" n="3"/>resiliebat a virtute in craticula existens, quod 
+            per<lb ed="#R" n="4" break="no"/>tinebat ad fortitudinem, sed cum hoc in 
+            tormen<lb ed="#R" n="5" break="no"/>tis gaudebat, &amp; carbones refrigerium sibi 
+            praesta<lb ed="#R" n="6" break="no"/>bant, quod pertinebat ad patientiam, habuit 
+            mar<lb ed="#R" n="7" break="no"/>tyrium excellentius alijs, qui non resilierant a 
+            vir<lb ed="#R" n="8" break="no"/>tute, sed tamen similem patientiam &amp; gaudium 
+            <lb ed="#R" n="9"/>de tormentis non habebant: igitur secundum hoc 
+            <lb ed="#R" n="10"/>patientia magis est virtus Cardinalis, quam 
+            forti<lb ed="#R" n="11" break="no"/>tudo, cuius oppositum isti dicunt. 
+          </p>
+        </div>
+        <div xml:id="paqqap-a41954-Dd1e1103">
+          <head xml:id="paqqap-a41954-Hd1e1105">Articulus 3</head>
+          <p xml:id="paqqap-a41954-d1e1107">
+            <lb ed="#R" n="12"/>ARTJCVLVS III. 
+            <lb ed="#R" n="13"/>Vbi mouentur quaedam dubia.
+          </p>
+          <p xml:id="paqqap-a41954-d1e1114">
+            <lb ed="#R" n="14"/>NVnc tertio mouenda sunt tria dubia. 
+            <lb ed="#R" n="15"/>d Primum quidem quod omnis diuisio 
+            de<lb ed="#R" n="16" break="no"/>bet esse bimembris secundum Boetium in libro 
+            di<lb ed="#R" n="17" break="no"/>uisi onum. Vnde cum differentiarum diuidentium 
+            <lb ed="#R" n="18"/>genus, vna sit habitus, reliqua priuatio, necesse est 
+            <lb ed="#R" n="19"/>quod euacuent totum ambitum generis: Sed 
+            vir<lb ed="#R" n="20" break="no"/>tutes Cardinales quatuor ponuntur: ergo prima 
+            <lb ed="#R" n="21"/>diuisio virtutis non potest esse in eas tanquam in 
+            <lb ed="#R" n="22"/>primas species &amp; genera subalterna.
+          </p>
+          <p xml:id="paqqap-a41954-d1e1136">
+            <lb ed="#R" n="23"/>Secundum vero, quod species sunt ex Arist. sub 
+            <lb ed="#R" n="24"/>genere, vt praedicatur secundum magis, &amp; minus 
+            <lb ed="#R" n="25"/>de suis speciebus: sed ratio formalis iustitiae, quae 
+            <lb ed="#R" n="26"/>consistit in redditione debiti, per prius &amp; 
+            perfe<lb ed="#R" n="27" break="no"/>ctius dicitur de iustitia commutatiua &amp; 
+            distributi<lb ed="#R" n="28" break="no"/>ua, per posterius autem &amp; secundum minus 
+            per<lb ed="#R" n="29" break="no"/>fecte dicitur de liberalitate aut affabilitate aut 
+            ve<lb ed="#R" n="30" break="no"/>ritate, quae ponuntur partes iustitiae. In his enim 
+            <lb ed="#R" n="31"/>non est ratio debiti simpliciter, quod est debitum 
+            <lb ed="#R" n="32"/>necessitatis &amp; aequitatis, sed est magis debitum 
+            se<lb ed="#R" n="33" break="no"/>cundum quid, quia debitum honestatis: ergo non 
+            <lb ed="#R" n="34"/>videtur quod iustitia se habeat ad commutatiuam, 
+            <lb ed="#R" n="35"/>&amp; distributiuam, liberalitatem, &amp; affabilitatem 
+            si<lb ed="#R" n="36" break="no"/>cut genus &amp; species. Et idem posset argui de 
+            tem<lb ed="#R" n="37" break="no"/>perantia, &amp; fortitudine, &amp; prudentia quantum ad 
+            <lb ed="#R" n="38"/>virtutes, quae ponuntur eis annexae. 
+          </p>
+          <p xml:id="paqqap-a41954-d1e1173">
+            <lb ed="#R" n="39"/>Tertium quia negari non potest secundum 
+            San<lb ed="#R" n="40" break="no"/>ctos, &amp; Phyl. quin sint ponendae virtutes Cardina les, 
+            <lb ed="#R" n="41"/>nec apparet, quid facit virtutem esse cardinalem 
+            <lb ed="#R" n="42"/>nisi illud, quod supra secundum alios dictum est, 
+            vi<lb ed="#R" n="43" break="no"/>delicet habere aliquam rationem principaliter, 
+            <lb ed="#R" n="44"/>quam plures aliae virtutes participent diminutae. 
+          </p>
+          <p xml:id="paqqap-a41954-d1e1190">
+            <lb ed="#R" n="45"/>Ad primum istorum dicendum, quod diuisio vir 
+            <lb ed="#R" n="46"/>tutis in genere semper est bimembris, vel 
+            reduci<lb ed="#R" n="47" break="no"/>tur ad bimembrem. 
+          </p>
+          <p xml:id="paqqap-a41954-d1e1199">
+            <lb ed="#R" n="48"/>Sciendum, quod ratio virtutis moralis 
+            essentia<lb ed="#R" n="49" break="no"/>liter in bono rationis consistit, prout patet ex 
+            defi<lb ed="#R" n="50" break="no"/>nitione virtutis, quam ponit Phyl. 2. Ethic. sic dicens 
+            <lb ed="#R" n="51"/>virtus est habitus electiuus in mente consistens 
+            de<lb ed="#R" n="52" break="no"/>terminata recta ratione, &amp; prout sapiens 
+            determi<lb ed="#R" n="53" break="no"/>nabit: aut igitur bonum rationis est tale per 
+            essen<lb ed="#R" n="54" break="no"/>tiam, &amp; respectu huius accipitur virtus prudentiae, 
+            <lb ed="#R" n="55"/>cuius ratio formalis consistit in bono rationis 
+            pra<lb ed="#R" n="56" break="no"/>cticae vel participatiue per essentiam: aut est solum 
+            <lb ed="#R" n="57"/>bonum rationis per participationem vel 
+            obedien<lb ed="#R" n="58" break="no"/>tiam. Et hoc potes esse dupliciter. Quia vel in 
+            or<lb ed="#R" n="59" break="no"/>dine ad alterum, &amp; respectu talis boni sumitur 
+            vir<lb ed="#R" n="60" break="no"/>tus iustitiae, cuius formalis ratio consistit in ratione 
+            <lb ed="#R" n="61"/>debiti, quod est ad alterum. Vel est tale bonum scili 
+            <lb ed="#R" n="62"/>cet per participationem vel obedientiam in ordine 
+            <lb ed="#R" n="63"/>ad scipsum, &amp; hoc potest esse dupliciter. 
+          </p>
+          <p xml:id="paqqap-a41954-d1e1236">
+            <lb ed="#R" n="64"/>Vel in ordine ad illa, quae propter sui excessum 
+            <lb ed="#R" n="65"/>habent hominem obruere, &amp; respectu talium est 
+            <!--0131.xml-->
+            <cb ed="#R" n="b"/>
+            <lb ed="#R" n="66"/>virtus fortitudinis, cuius ratio formalis consistit in 
+            <lb ed="#R" n="67"/>fixione contra obedientiam, vel in ordine ad illa 
+            <lb ed="#R" n="68"/>quae propter sui complacentiam habent hominem 
+            <lb ed="#R" n="69"/>nimis allicere, &amp; respectu talium est virtus 
+            tempe<lb ed="#R" n="70" break="no"/>rantiae, cuius ratio formalis consistit in 
+            moderatio<lb ed="#R" n="71" break="no"/>ne contra sic allicientia, &amp; sic patet quomodo 
+            vir<lb ed="#R" n="72" break="no"/>tutis diuisio in quatuor Cardinales, etsi non sit 
+            <lb ed="#R" n="73"/>bimembris, tamen eo modo quo dictum est, 
+            redu<lb ed="#R" n="74" break="no"/>citur ad bimembrem, &amp; hoc sufficit. 
+          </p>
+          <p xml:id="paqqap-a41954-d1e1267">
+            <lb ed="#R" n="75"/>Ad secundum dicendum secundum 
+            Phyloso<lb ed="#R" n="76" break="no"/>phum 7. Ethic. quod analogiae latent in generibus. 
+            <lb ed="#R" n="77"/>Vnde &amp; in 3. meth. dicit, quod licet inter indiuidua: 
+            <lb ed="#R" n="78"/>sub speciem non sit prius &amp; posterius, est tamen 
+            <lb ed="#R" n="79"/>inter species sub genere, &amp; ideo vna species nobi 
+            <lb ed="#R" n="80"/>lior potest esse mensura omnium aliarum, sicut 
+            <lb ed="#R" n="81"/>albedo omnium colorum sicut patet 9. imetaph. 
+            <lb ed="#R" n="82"/>vbi etiam dicitur, quod differentiarum 
+            consti<lb ed="#R" n="83" break="no"/>tuentium speciem altera est habitus, &amp; ideo 
+            no<lb ed="#R" n="84" break="no"/>bilior, &amp; ideo nobiliorem speciem constituit: non 
+            <lb ed="#R" n="85"/>est igitur inconueniens, quod sub iustitia 
+            repe<lb ed="#R" n="86" break="no"/>riantur diuersae species virtutum, quarum vna 
+            <lb ed="#R" n="87"/>plus participat de ratione debiti quam alia, 
+            si<lb ed="#R" n="88" break="no"/>cut etiam rationem sensibilitatis nobiliori 
+            mo<lb ed="#R" n="89" break="no"/>do participat homo, cum sensitiua hominis fit 
+            <lb ed="#R" n="90"/>nobilior, &amp; homo species nobilior sub 
+            ani<lb ed="#R" n="91" break="no"/>mali, quam equus, vel aliud.
+          </p>
+          <p xml:id="paqqap-a41954-d1e1306">
+            <lb ed="#R" n="92"/>Vnde debitum honestatis &amp; necessitatis 
+            vtrum<lb ed="#R" n="93" break="no"/>que est debitum, quamuis sit ibi quaedam 
+            analo<lb ed="#R" n="94" break="no"/>gia, perfectum &amp; imperfectum, prius &amp; post. 
+            Quo<lb ed="#R" n="95" break="no"/>modo autem species sint coaeuae sub genere: 
+            Intelli<lb ed="#R" n="96" break="no"/>gendum est in recipiendo praedicationem generis, 
+            <lb ed="#R" n="97"/>licet enim albedo sit nobilior color, vel maior 
+            co<lb ed="#R" n="98" break="no"/>lor in perfectione, non est tamen magis color, 
+            de<lb ed="#R" n="99" break="no"/>hoc tamen diffusius dictum est in primo quaestione 
+            <lb ed="#R" n="100"/>de vnit. Dei dist. 2. 
+          </p>
+          <p xml:id="paqqap-a41954-d1e1328">
+            <lb ed="#R" n="101"/>Ad tertium dicendum, quod procedit ab 
+            insuf<lb ed="#R" n="102" break="no"/>ficienti, est enim alia ratio, vnde attribuitur 
+            virtu<lb ed="#R" n="103" break="no"/>ti, vt sit Cardinalis: Cardinale namque dictum est 
+            <lb ed="#R" n="104"/>a Cardine, in quo vertitur ostium: quia ergo 
+            <lb ed="#R" n="105"/>humana conuersatio vertitur in materias illas 
+            ge<lb ed="#R" n="106" break="no"/>nerales virtutes, respectu quarum sunt praedictae, 
+            <lb ed="#R" n="107"/>quatuor generales virtutes. Idcirco virtutes istae 
+            <lb ed="#R" n="108"/>sumptae in genere dicuntur Cardinales: quicquid 
+            <lb ed="#R" n="109"/>enim agit virtuosus virtuose, reduci habet, vel ad 
+            <lb ed="#R" n="110"/>iustiriam, vel temperantiam, fortitudinem, seu pru 
+            <lb ed="#R" n="111"/>dentiam sumpta in genere, nec sunt Cardinales vir 
+            <lb ed="#R" n="112"/>tutes aliquae speciales virtutes, vt patet secundum 
+            <lb ed="#R" n="113"/>Tullium 2. Reth. diuidentem totam rationem honesti 
+            <lb ed="#R" n="114"/>quam vocat virtutem moralem in quatuor partes 
+            <lb ed="#R" n="115"/>tanquam in species famosiores &amp; primas, &amp; 
+            dein<lb ed="#R" n="116" break="no"/>de quamlibet illarum diuidit in virtutes 
+            specifi<lb ed="#R" n="117" break="no"/>cas, &amp; idem facit Seneca de cop. verb. 
+          </p>
+        </div>
+        <div xml:id="paqqap-a41954-Dd1e1368">
+          <head xml:id="paqqap-a41954-Hd1e1370">Articulus 4</head>
+          <p xml:id="paqqap-a41954-d1e1372">
+            <lb ed="#R" n="118"/>ARTICVLVS IV. 
+            <lb ed="#R" n="119"/>Qualiter quatuor virtutes Cardinales descendant 
+            <lb ed="#R" n="120"/>in virtutes speciales, quae sunt octo. Et 
+            pri<lb ed="#R" n="121" break="no"/>mo ponitur sufficientia decem &amp; octo 
+            <lb ed="#R" n="122"/>virtutum, quae sub prudentia 
+            <lb ed="#R" n="123"/>continentur. 
+          </p>
+          <p xml:id="paqqap-a41954-d1e1388">
+            <lb ed="#R" n="124"/>NVnc quarto videndum est, per quem 
+            mo<lb ed="#R" n="125" break="no"/>Vdum virtutes Cardinales quatuor in 
+            virtu<lb ed="#R" n="126" break="no"/>tes speciales descendant, quae possent reduci ad 18. 
+            <lb ed="#R" n="127"/>virtutes, contentas sub quatuor Cardinalibus 
+            tan<lb ed="#R" n="128" break="no"/>quam sub generibus subalternis, ponendo sufficien 
+            <lb ed="#R" n="129"/>tiam virtutum quarumlibet, prout continentur 
+            <lb ed="#R" n="130"/>sub genere sibi proprio.
+          </p>
+          <p xml:id="paqqap-a41954-d1e1406">
+            <!--0132.xml-->
+            <pb ed="#P" n="132"/>
+            <cb ed="#R" n="a"/>
+            <lb ed="#R" n="1"/>Et primo videnda est sufficientia 18. virtutum 
+            <lb ed="#R" n="2"/>quae sub prudentia continentur, quae sunt 
+            monasti<lb ed="#R" n="3" break="no"/>ca prudentia, oeconomica, regalis, seu legis 
+            posi<lb ed="#R" n="4" break="no"/>tiua, militaris, politica, seu ciuilis, Eubulia 
+            Sy<lb ed="#R" n="5" break="no"/>nesis, gnomia, prudentia praeceptiua, discretio, seu 
+            <lb ed="#R" n="6"/>sollicitudo, rationabilitas, prouidentia, 
+            circunspe<lb ed="#R" n="7" break="no"/>ctio, cautio, seu cautela. vt igitur harum virtutum, 
+            <lb ed="#R" n="8"/>quae continentur sub prudentia in communi 
+            ha<lb ed="#R" n="9" break="no"/>beatur sufficientia commemorando vitia eis 
+            op<lb ed="#R" n="10" break="no"/>posita &amp; alia. 
+          </p>
+          <p xml:id="paqqap-a41954-d1e1437">
+            <lb ed="#R" n="11"/>Sciendum est, quod cum ratio formalis pruden 
+            <lb ed="#R" n="12"/>tiae consistat in bono rationis per essentiam, hoc po 
+            <lb ed="#R" n="13"/>test accipi dupliciter, quia vel quantum ad 
+            mate<lb ed="#R" n="14" break="no"/>riam, quam ratio practica transit, vel quantum ad 
+            <lb ed="#R" n="15"/>actus proprios, per quos transit, non sit nisi bonum 
+            <lb ed="#R" n="16"/>agibile. hoc potest esse dupliciter. 
+          </p>
+          <p xml:id="paqqap-a41954-d1e1454">
+            <lb ed="#R" n="17"/>Quia vel est agibile ab vno, &amp; respectu talis est 
+            <lb ed="#R" n="18"/>prudentia monastica, vel est agibile a 
+            communita<lb ed="#R" n="19" break="no"/>te, vel a principalibus. 
+          </p>
+          <p xml:id="paqqap-a41954-d1e1463">
+            <lb ed="#R" n="20"/>Et hoc potest esse etiam dupliciter, quia vel a com 
+            <lb ed="#R" n="21"/>munitate domestica, &amp; respectu huius est 
+            pruden<lb ed="#R" n="22" break="no"/>tia oeconomica; vel est agibile a communitate 
+            po<lb ed="#R" n="23" break="no"/>litica, &amp; istud pertinet ad virtutem, quae dicitur 
+            <lb ed="#R" n="24"/>prudentia regalis, vel legislatiua ordinatiue, &amp; 
+            <lb ed="#R" n="25"/>praeceptiue, sed executiue propter victoriam qui- 
+          </p>
+          <p xml:id="paqqap-a41954-d1e1479">
+            <lb ed="#R" n="26"/>dem pertinet ad prudentiam militarem, sed per 
+            <lb ed="#R" n="27"/>sufficientiam pertinet ad prudentiam politicam, 
+            <lb ed="#R" n="28"/>seu ciuilem. 
+          </p>
+          <p xml:id="paqqap-a41954-d1e1488">
+            <lb ed="#R" n="29"/>Si vero sumatur bonum rationis, quantum ad 
+            <lb ed="#R" n="30"/>actus, per quos super debitam materiam practica 
+            <lb ed="#R" n="31"/>ratio transit, hoc etiam potest esle dupliciter. 
+          </p>
+          <p xml:id="paqqap-a41954-d1e1497">
+            <lb ed="#R" n="32"/>Vno modo quantum ad actus principales, alio 
+            <lb ed="#R" n="33"/>modo quantum ad ea, quae adminiculantur ad 
+            hu<lb ed="#R" n="34" break="no"/>iusmodi habitus. 
+          </p>
+          <p xml:id="paqqap-a41954-d1e1506">
+            <lb ed="#R" n="35"/>Si primo modo hoc potest esse tripliciter, quia vel 
+            <lb ed="#R" n="36"/>ille actus est inuenire per consilium, vel est iudicare 
+            <lb ed="#R" n="37"/>de inuentis, vel perficere iudicata, vt sic fiat appli 
+            <lb ed="#R" n="38"/>catio ad opus. 
+          </p>
+          <p xml:id="paqqap-a41954-d1e1518">
+            <lb ed="#R" n="39"/>Primus igitur actus, qui est inuenire debito 
+            mo<lb ed="#R" n="40" break="no"/>do per consilium, &amp; debitis circumstantijs 
+            obser<lb ed="#R" n="41" break="no"/>uatis, pertinet ad virtutem Eubuliae, cui diuersa 
+            <lb ed="#R" n="42"/>vitia secundum diuersas circumstantias 
+            opponun<lb ed="#R" n="43" break="no"/>tur, scilicet astutia, quae sibi opponitur, quo ad 
+            fi<lb ed="#R" n="44" break="no"/>nem intentum, quia per astutiam inueniùntur 
+            ac<lb ed="#R" n="45" break="no"/>comoda media ad malum aerem; opponitur enim 
+            <lb ed="#R" n="46"/>ei praecipitatio, quo ad procedendi modum 
+            consi<lb ed="#R" n="47" break="no"/>lio intrinsecum, qui est procedere cum tarditate, 
+            <lb ed="#R" n="48"/>secundum illud Philosophi, consiliari autem tarde. 
+          </p>
+          <p xml:id="paqqap-a41954-d1e1542">
+            <lb ed="#R" n="49"/>Opponitur etiam eidem fraus, &amp; dolus, quo ad 
+            <lb ed="#R" n="50"/>inuentum medium. Pertinet enim ad hoc inuenire 
+            <lb ed="#R" n="51"/>media sophistica, &amp; apparentia, &amp; magis ad 
+            homi<lb ed="#R" n="52" break="no"/>nem, quam ad rem. &amp; ideo semper sunt circa 
+            ma<lb ed="#R" n="53" break="no"/>teriam, quae se habet ad alterum. Et siquidem 
+            fue<lb ed="#R" n="54" break="no"/>rit in materia iuslitiae, alteri nocendo: tunc dicitur 
+            <lb ed="#R" n="55"/>fraus: si vero in materia alia, tunc dicitur dolus. 
+            <lb ed="#R" n="56"/>Potest tamen contingere, quod quamuis media 
+            <lb ed="#R" n="57"/>sint apparentia, &amp; ad hominem, non tamen nocet 
+            <lb ed="#R" n="58"/>homini decipi, immo prodest, &amp; tunc est dolus 
+            bo<lb ed="#R" n="59" break="no"/>nus, iuxta illud Apostoli, dolo vos coepi. 
+          </p>
+          <p xml:id="paqqap-a41954-d1e1568">
+            <lb ed="#R" n="60"/>Secundus autem actus, qui est iudicare de 
+            inuen<lb ed="#R" n="61" break="no"/>tis, pertinet ad virtutem synesis, &amp; gnomiae. Sed 
+            <lb ed="#R" n="62"/>disferunt, quia si feratur iudicium secundum 
+            com<lb ed="#R" n="63" break="no"/>munia practica, pertinet ad virtutem synesis, cui 
+            <lb ed="#R" n="64"/>opponitur contrarie stultitia, a qua quis dicitur 
+            <lb ed="#R" n="65"/>stultus, sicut Nabal Carmeli. Priuatiue vero 
+            fa<lb ed="#R" n="66" break="no"/>tuitas, vel asynesia, a qua dicuntur asyneti 
+            secun<lb ed="#R" n="67" break="no"/>dum Philosophum 6. Ethic. 
+          </p>
+          <p xml:id="paqqap-a41954-d1e1588">
+            <lb ed="#R" n="68"/>Si vero seratur iudicium secundum altiora prin- 
+            <!--0132.xml-->
+            <cb ed="#R" n="b"/>
+            <lb ed="#R" n="69"/>cipia, &amp; quasi transcendentia modum humanum 
+            <lb ed="#R" n="70"/>hoc pertinet ad virtutem gnomiae, cui possent eadem 
+            <lb ed="#R" n="71"/>opposita assignari, sicut &amp; synesi, tamen circa 
+            prin<lb ed="#R" n="72" break="no"/>cipia altiora. 
+          </p>
+          <p xml:id="paqqap-a41954-d1e1606">
+            <lb ed="#R" n="73"/>Tertius autem actus, qui est praecipere iudicata, 
+            <lb ed="#R" n="74"/>pertinet ad prudentiam praeceptiuam, &amp; ad 
+            discre<lb ed="#R" n="75" break="no"/>tionem, sed differenter; nam ad prudentiam 
+            prae<lb ed="#R" n="76" break="no"/>ceptiuam, quae propter excellentiam actus 
+            praece<lb ed="#R" n="77" break="no"/>ptiui super alios actus rationis particularis nomem 
+            <lb ed="#R" n="78"/>prudentiae sibi specialiter vindicauit, cuius 
+            oppo<lb ed="#R" n="79" break="no"/>situm dicitur imprudentia in non exequendo 
+            prae<lb ed="#R" n="80" break="no"/>ceptiuae, &amp; applicando ad opus, quod iudicatum 
+            <lb ed="#R" n="81"/>est. Ad hanc inquantum prudentiam addit discre 
+            <lb ed="#R" n="82"/>tio segregationem omnium incommodorum, quae 
+            <lb ed="#R" n="83"/>occurrunt etiam circa iudicata, &amp; huius oppositum 
+            <lb ed="#R" n="84"/>dicitur indiscretio. 
+          </p>
+          <p xml:id="paqqap-a41954-d1e1635">
+            <lb ed="#R" n="85"/>Si vero sumatur bonum rationis quantum ad ea, 
+            <lb ed="#R" n="86"/>quae adminiculantur ad actus principales practicae 
+            <lb ed="#R" n="87"/>rationis, hoc potest esse dupliciter, quia vel 
+            admi<lb ed="#R" n="88" break="no"/>niculantur ad omnes actus communiter, &amp; hoc 
+            per<lb ed="#R" n="89" break="no"/>tinet ad virtutem sollicitudinis, vel diligentiae, 
+            cu<lb ed="#R" n="90" break="no"/>ius oppositum in plus potest dici cura superflua; 
+            <lb ed="#R" n="91"/>contra quam dicebat Christus Matth. 6. Nolite 
+            sol<lb ed="#R" n="92" break="no"/>liciti esse, &amp; c. In minus vero eidem opponitur 
+            ne<lb ed="#R" n="93" break="no"/>gligentia. 
+          </p>
+          <p xml:id="paqqap-a41954-d1e1658">
+            <lb ed="#R" n="94"/>Vel adminiculantur ad aliquos actus rationis 
+            <lb ed="#R" n="95"/>singulariter, &amp; hoc potest esse tripliciter secundum 
+            <lb ed="#R" n="96"/>numerum principalium actuum iam dictorum. 
+          </p>
+          <p xml:id="paqqap-a41954-d1e1667">
+            <lb ed="#R" n="97"/>Si ergo sit adminiculans ad actum inueniendi per 
+            <lb ed="#R" n="98"/>deliberationem, vel consilium, hoc potest esse vel 
+            <lb ed="#R" n="99"/>quasi actiue &amp; comparatiue, &amp; hoc pertinet ad vir 
+            <lb ed="#R" n="100"/>tutem, quae dicitur rationabilitas, a qua dicitur 
+            <lb ed="#R" n="101"/>quis rationabilis, cuius oppositum dicitur 
+            irratio<lb ed="#R" n="102" break="no"/>nabilitas, &amp; est vitium illorum, qui non 
+            communi<lb ed="#R" n="103" break="no"/>cant cum alijs in principijs practicis, quibus 
+            consi<lb ed="#R" n="104" break="no"/>liamur in materia agibili. 
+          </p>
+          <p xml:id="paqqap-a41954-d1e1687">
+            <lb ed="#R" n="105"/>Vel hoc potest quasi obtemperatiue, &amp; 
+            obediti<lb ed="#R" n="106" break="no"/>ue, &amp; hoc pertinet ad virtutem, quae dicitur persua 
+            <lb ed="#R" n="107"/>dibilitas cui opponitur capitositas, vel pertina cia, 
+            <lb ed="#R" n="108"/>a qua dicitur quis capitosus, &amp; pertinax, quod est 
+            <lb ed="#R" n="109"/>impersuadibilem esse, &amp; nimis immanere propriae 
+            <lb ed="#R" n="110"/>rationi, vel sententiae. 
+          </p>
+          <p xml:id="paqqap-a41954-d1e1703">
+            <lb ed="#R" n="111"/>Opponitur etiam eidem virtuti leuitas cordis 
+            <lb ed="#R" n="112"/>per contrarium ad pertinaciam, de qua 
+            leuitate<lb ed="#R" n="113" break="no"/>dicit Sapiens: qui cito credit, leuis est corde. 
+          </p>
+          <p xml:id="paqqap-a41954-d1e1712">
+            <lb ed="#R" n="114"/>Si vero sit ad actum iudicandi adminiculans, ad 
+            <lb ed="#R" n="115"/>hoc multum valet recordatio de praeteritis, primo 
+            <lb ed="#R" n="116"/>aduertentia praesentium. Secundo coniectura de 
+            <lb ed="#R" n="117"/>futuris. 
+          </p>
+          <p xml:id="paqqap-a41954-d1e1723">
+            <lb ed="#R" n="118"/>Primum igitur istorum pertinet ad virtutem 
+            <lb ed="#R" n="119"/>memoriae, &amp; ad virtutem visus, sed differenter, 
+            <lb ed="#R" n="120"/>quamuis ista duo raro contra se videantur ponere 
+            <lb ed="#R" n="121"/>in numerum, quia cum iudicatur per vnum 
+            parti<lb ed="#R" n="122" break="no"/>culare visum adminiculatur memoria, a cuius 
+            op<lb ed="#R" n="123" break="no"/>posito dicitur quis immemor, vel obliuiosus; qui 
+            <lb ed="#R" n="124"/>licet multa viderit, vnde se posset dirigere in 
+            agen<lb ed="#R" n="125" break="no"/>dis, non apponit tamen cordi. Cum vero 
+            iudica<lb ed="#R" n="126" break="no"/>tur per vniuersale practicum principium ex 
+            expe<lb ed="#R" n="127" break="no"/>rientijs, &amp; multis memorijs acceptum 
+            adminicu<lb ed="#R" n="128" break="no"/>latur visus, vel intellectus, de quo loquitur ipse Phi 
+            <lb ed="#R" n="129"/>losophus 6. Ethic. cuius oppositum mentis caecitas 
+            <lb ed="#R" n="130"/>dici potest, vel inertia, a qua potest dici iners, quasi 
+            <lb ed="#R" n="131"/>sine arte videndi. 
+          </p>
+          <p xml:id="paqqap-a41954-d1e1757">
+            <lb ed="#R" n="132"/>Secundum autem istorum, quod est aduertentia 
+            <lb ed="#R" n="133"/>praesentium, pertinet ad virtutem, quae dicitur 
+            in<lb ed="#R" n="134" break="no"/>telligentia, a cuius opposito dicitur, quis obtusus, 
+            <lb ed="#R" n="135"/>qui non plene intelligit, quae occurrunt, nec praesen 
+            <lb ed="#R" n="136"/>tia aduertit. 
+            <!--0133.xml-->
+            <pb ed="#P" n="133"/>
+            <cb ed="#R" n="a"/>
+            <lb ed="#R" n="1"/>Tertium autem istorum, quod est coniecturatio 
+            <lb ed="#R" n="2"/>de futuris pertinet ad virtutem prouidentiae, a cuius 
+            <lb ed="#R" n="3"/>opposito quis appellatur improuidus. 
+          </p>
+          <p xml:id="paqqap-a41954-d1e1783">
+            <lb ed="#R" n="4"/>Si vero sit adminiculans ad actum procedendi 
+            <lb ed="#R" n="5"/>ad hoc praecipue duo valent scilicet consideratio 
+            <lb ed="#R" n="6"/>omnium circunstantiarum quae debent obseruari &amp; 
+            <lb ed="#R" n="7"/>hoc pertinet ad circumspectionem, a cuius 
+            opposi<lb ed="#R" n="8" break="no"/>to quis dicitur incircunspectus. 
+          </p>
+          <p xml:id="paqqap-a41954-d1e1796">
+            <lb ed="#R" n="9"/>Valet etiam multum consideratio omnium 
+            im<lb ed="#R" n="10" break="no"/>pedimentorum, per quae posset frustrari praecepti 
+            <lb ed="#R" n="11"/>executio, &amp; hoc pertinet ad virtutem quae potest 
+            <lb ed="#R" n="12"/>dici Cautio vel cautela, a cuius opposito dicitur 
+            <lb ed="#R" n="13"/>quis incauuus. 
+          </p>
+          <p xml:id="paqqap-a41954-d1e1809">
+            <lb ed="#R" n="14"/>Notandum tamen circa praesentem materiam, quod 
+            <lb ed="#R" n="15"/>quinque primae virtutes congrue sumi possent per 
+            <lb ed="#R" n="16"/>omnes sequentes quam actus iudicij concilij &amp; pra 
+            <lb ed="#R" n="17"/>cepti &amp;c. possent cadere vel circa materiam 
+            perti<lb ed="#R" n="18" break="no"/>nentem ad prudentiam monasticam, vel circa 
+            ma<lb ed="#R" n="19" break="no"/>teriam pertinentem ad oeconomicam, &amp; ita de alijs; 
+            <lb ed="#R" n="20"/>vnde quia materia communis est istis, &amp; alijs, non 
+            <lb ed="#R" n="21"/>assignantur eius vitia opposita, nisi illa quae caeteris 
+            <lb ed="#R" n="22"/>dictis virtutibus opponuntur. 
+          </p>
+          <p xml:id="paqqap-a41954-d1e1831">
+            <lb ed="#R" n="23"/>Notandum etiam, quod ex parte materiae 
+            omni<lb ed="#R" n="24" break="no"/>bus speciebus prudentiae tria vitia opponuntur, 
+            <lb ed="#R" n="25"/>quae sunt prudentia carnis, prudentia mundi, &amp; 
+            <lb ed="#R" n="26"/>prudentia di aboli, vel vtendo verbis Jacobi in sua 
+            <lb ed="#R" n="27"/>canonica cap. 3. prudentia animalis, diabolica, &amp; 
+            <lb ed="#R" n="28"/>terrena, nam circa vitia carnis exercere actus 
+            prae<lb ed="#R" n="29" break="no"/>dictos, scilicet consiliari, ludicare &amp;c. pertinet 
+            <lb ed="#R" n="30"/>ad prudentiam carnis vel animalem. Circa vitia 
+            <lb ed="#R" n="31"/>vero quae committuntur in temporalibus, cuiusmo 
+            <lb ed="#R" n="32"/>di est auaritia &amp; vsura, &amp; huiusmodi actus 
+            praedi<lb ed="#R" n="33" break="no"/>ctos exercere pertinet ad prudentiam mundi, vel 
+            <lb ed="#R" n="34"/>terrenam; sed circa vitia spiritualia, cuiusmodi 
+            <lb ed="#R" n="35"/>sunt inuidia, &amp; superbia, &amp; huiusmodi, pertinet ad 
+            <lb ed="#R" n="36"/>prudentiam diabolicam. 
+          </p>
+          <p xml:id="paqqap-a41954-d1e1864">
+            <lb ed="#R" n="37"/>Sufficientia 22. virtutum, quae sub iusttitia 
+            <lb ed="#R" n="38"/>continentur. 
+          </p>
+          <p xml:id="paqqap-a41954-d1e1872">
+            <lb ed="#R" n="39"/>QEcundo Videnda est sufficientia 22. virtutum 
+            <lb ed="#R" n="40"/>D quae sub iustitia continentur, quae sunt latria 
+            <lb ed="#R" n="41"/>pietas, dulia, hiperdulia, legalis iustitia, Epicheia 
+            <lb ed="#R" n="42"/>beneuolentia, affabilitas, beneficientia, veritas seu 
+            <lb ed="#R" n="43"/>am citia, liberalitas, poenitentia, reuerentia, 
+            obser<lb ed="#R" n="44" break="no"/>uantia, misericordia, iudicatio, gratitudo, 
+            puniti<lb ed="#R" n="45" break="no"/>ua iustitia, restitutiua iustitia, distributiua iustitia. 
+            <lb ed="#R" n="46"/>Vt igitur harum virtutum quae continentur sub 
+            iu<lb ed="#R" n="47" break="no"/>stitia in communi habeatur sufficientia, 
+            comme<lb ed="#R" n="48" break="no"/>morando etiam vitia eis opposita. 
+          </p>
+          <p xml:id="paqqap-a41954-d1e1896">
+            <lb ed="#R" n="49"/>Sciendum est quod cum ratio formalis iustitiae 
+            <lb ed="#R" n="50"/>consistat in ratione debiti reddendi secundum 
+            re<lb ed="#R" n="51" break="no"/>ctam rationem homini potest contingere vt sit 
+            de<lb ed="#R" n="52" break="no"/>bitor quadrupliciter quia vel hoc potest 
+            continge<lb ed="#R" n="53" break="no"/>re secundum habitudinem effectus ad causam vel 
+            <lb ed="#R" n="54"/>conditionem propriam, &amp; naturam, vel quantum 
+            <lb ed="#R" n="55"/>ad perfectionem secundam, &amp; superadditam, vel 
+            <lb ed="#R" n="56"/>quantum ad actionem voluntariam. Comparatur 
+            <lb ed="#R" n="57"/>ergo homo vt effectus ad causam tripliciter. 
+          </p>
+          <p xml:id="paqqap-a41954-d1e1918">
+            <lb ed="#R" n="58"/>Primo quidem ad Deum secum esse suum totale 
+            <lb ed="#R" n="59"/>Secundo vero ad parentes secundum esse 
+            natura<lb ed="#R" n="60" break="no"/>les: Et tertio ad quemlibet superiorem vel legem secun 
+            <lb ed="#R" n="61"/>dum esse perfectum. Deo igitur reddit debitum per 
+            <lb ed="#R" n="62"/>virtutem latriae, quod quidem facere potest triplici 
+            <lb ed="#R" n="63"/>ratione, vel inquantum considerat eum sub 
+            ratio<lb ed="#R" n="64" break="no"/>ne principij producentis vel prouidentis, vel omnia 
+            <lb ed="#R" n="65"/>praescientis, &amp; iutuentis.
+          </p>
+          <p xml:id="paqqap-a41954-d1e1938">
+            <lb ed="#R" n="66"/>Sed ratione principij producentis, cum sit obli- 
+            <!--0133.xml-->
+            <cb ed="#R" n="b"/>
+            <lb ed="#R" n="67"/>gatus homo se toto ipsi Deo, ideo reddit ei 
+            debi<lb ed="#R" n="68" break="no"/>tum multis modis. reddit si quidem ei debitum, &amp; 
+            <lb ed="#R" n="69"/>obsequium quantum ad animam per deuotionem, 
+            <lb ed="#R" n="70"/>cuius oppositum dicitur indeuotio, sed quantum ad 
+            <lb ed="#R" n="71"/>labium per laudem, cuius oppositum est 
+            blasphe<lb ed="#R" n="72" break="no"/>mia. Sed ad corporis gestum per adorationem, sed 
+            <lb ed="#R" n="73"/>quantum ad sacrorum ritum, &amp; aliorum 
+            pertinen<lb ed="#R" n="74" break="no"/>tium ad habitum, seu ad quemcumque corporis or 
+            <lb ed="#R" n="75"/>natum, reddit debitum per sanctitatem seu 
+            religio<lb ed="#R" n="76" break="no"/>nem. Oppositum vero adorationis, &amp; religionis ver 
+            <lb ed="#R" n="77"/>gens ad excessum, dicitur superstitio, vergens vero 
+            <lb ed="#R" n="78"/>in irreuerentiam Sacrosanctorum, vel in defectu 
+            ae<lb ed="#R" n="79" break="no"/>stimationis eorum dicitur simonia quia 
+            Simonia<lb ed="#R" n="80" break="no"/>cus peraequat sacramenta, &amp; alia dona Dei spiritua 
+            <lb ed="#R" n="81"/>lia pecuniae vel alteri rei temporali. 
+            <lb ed="#R" n="82"/>Quantum vero ad temporale a Deo acceptum, 
+            <lb ed="#R" n="83"/>debitum reddit oblatio vel decimarum vel 
+            primi<lb ed="#R" n="84" break="no"/>tiarum, vel quorumlibet sacrificiorum cuius oppo 
+            <lb ed="#R" n="85"/>situm est directe Idolatria, quamuis extendat se ad 
+            <lb ed="#R" n="86"/>omnia praedicta, inquantum exhibentur alteri 
+            <lb ed="#R" n="87"/>quam Deo.
+          </p>
+          <p xml:id="paqqap-a41954-d1e1993">
+            <lb ed="#R" n="88"/>Sub ratione vero principij omnia prouidentis, 
+            <lb ed="#R" n="89"/>homo Deum considerans reddit illi debitum, vt iam 
+            <lb ed="#R" n="90"/>prouidenti, de preterito vel praesenti per gratiarum 
+            <lb ed="#R" n="91"/>actionem, cuius oppositum est, obliuio beneficiorum, 
+            <lb ed="#R" n="92"/>Dei, sed vt inducatur ad prouidendum de futuro, 
+            <lb ed="#R" n="93"/>vel pro futuro impendit sibi obsequium indirectum 
+            <lb ed="#R" n="94"/>quandoque per petitionem, quae dicitur oratio seu 
+            <lb ed="#R" n="95"/>deprecatio, vel inuoc atio, quandoque per superero 
+            <lb ed="#R" n="96"/>gationem, &amp; gratuitam obligationem, quae dicitur 
+            <lb ed="#R" n="97"/>votum, seu deuotio, cuius oppositum est voti 
+            transgres<lb ed="#R" n="98" break="no"/>sio. Recursus vero pro prouidentia in futurum ad 
+            <lb ed="#R" n="99"/>stellas, vel diuinos, vel sortes vel creaturam aliam 
+            <lb ed="#R" n="100"/>non habet nomen aliud, quam superstitio, quam- 
+          </p>
+          <p xml:id="paqqap-a41954-d1e2024">
+            <lb ed="#R" n="101"/>uis sit vitium distinctum ab illo quod opponebatur 
+            <lb ed="#R" n="102"/>sanctitati siue religioni.
+          </p>
+          <p xml:id="paqqap-a41954-d1e2032">
+            <lb ed="#R" n="103"/>Sub ratione vero omnia praescientis, homo 
+            <lb ed="#R" n="104"/>Deum considerans reddit Deo, quod suum est per 
+            <lb ed="#R" n="105"/>drplicem actum protestandi diuinam notitiam, &amp; 
+            <lb ed="#R" n="106"/>veritatem qui sunt adiuratio, &amp; iuramentum. Sed 
+            <lb ed="#R" n="107"/>differenter, quia iuramentum reddit diuinae 
+            verita<lb ed="#R" n="108" break="no"/>ti, quod suum est attestatiue, cuius oppositum est 
+            <lb ed="#R" n="109"/>periurium, adiuratio vero reddit debitum magis 
+            <lb ed="#R" n="110"/>inductiue. 
+          </p>
+          <p xml:id="paqqap-a41954-d1e2052">
+            <lb ed="#R" n="111"/>Comparatur autem homo ad parentes vt 
+            debi<lb ed="#R" n="112" break="no"/>tor sub ratione effectus ad causam secundum 
+            esse<lb ed="#R" n="113" break="no"/>naturale, &amp; ipsis reddit debitum per virtutem, qua 
+            <lb ed="#R" n="114"/>potest dici Jus paternum, sine pietas, cuius 
+            opposi<lb ed="#R" n="115" break="no"/>tum dicitur impietas, quamuis ista duo sub 
+            alia<lb ed="#R" n="116" break="no"/>fignificatione quandoque sumantur.
+          </p>
+          <p xml:id="paqqap-a41954-d1e2068">
+            <lb ed="#R" n="117"/>Comparatur quoque ad quemlibet superiorem 
+            <lb ed="#R" n="118"/>vel legem secundum esse perfectionale, ad quod 
+            <lb ed="#R" n="119"/>inducitur tripliciter. Quandoque quidem per mo 
+            <lb ed="#R" n="120"/>dum exempli vt ab illis qui sunt sibi superiores. 
+            <lb ed="#R" n="121"/>quantum ad imitationem perfectionis, &amp; status, 
+            <lb ed="#R" n="122"/>&amp; istis debitum per virtutem hiperduliae, reddit 
+            <lb ed="#R" n="123"/>exhibendo eis debitum cultum, &amp; obsequium. 
+            <lb ed="#R" n="124"/>Quandoque vero inducitur per modum 
+            praece<lb ed="#R" n="125" break="no"/>pti, vt ab illis quorum subditus est, &amp; qui ex officio 
+            <lb ed="#R" n="126"/>praesident sibi, quibus reddit debitum per virtutem 
+            <lb ed="#R" n="127"/>duliae. 
+          </p>
+          <p xml:id="paqqap-a41954-d1e2094">
+            <lb ed="#R" n="128"/>Quandoque vero in inducitur quasi per modum 
+            <lb ed="#R" n="129"/>eruditionis, &amp; docrinae practicae, per quem 
+            mo<lb ed="#R" n="130" break="no"/>dum legibus bene ordinatis expedit hominem 
+            in<lb ed="#R" n="131" break="no"/>ducere ad virtualem perfectionem, &amp; istis reddit 
+            <lb ed="#R" n="132"/>debitum per virtutem legalis institiae, &amp; epycheiae. 
+            <lb ed="#R" n="133"/>sed differunt, quia legalis iustitia est obeditiua 
+            <lb ed="#R" n="134"/>respiciendo maxime ad legis verbum, &amp; eius actus 
+            <!--0134.xml-->
+            <pb ed="#P" n="134"/>
+            <cb ed="#R" n="a"/>
+            <lb ed="#R" n="1"/>est iudicium, oppositum vero ipsius est 
+            commu<lb ed="#R" n="2" break="no"/>niter omne ritium, quia lex bene ordinatata 
+            pro<lb ed="#R" n="3" break="no"/>hibet omne vitium, singulariter tamen sibro 
+            <lb ed="#R" n="4"/>nitur, &amp; in speciali inobedientia ad legem, 
+            <lb ed="#R" n="5"/>Epycheia vero est obedientia respiciendo 
+            maxi<lb ed="#R" n="6" break="no"/>me ad intellectum, quem habuisset legistator, vnde 
+            <lb ed="#R" n="7"/>est obseruatiua legis non. secundum verbum sicut 
+            <lb ed="#R" n="8"/>legalis iustitia, sed secundum intellectum alium 
+            <lb ed="#R" n="9"/>consequens verbum, &amp; proptor hoc, quod est 
+            le<lb ed="#R" n="10" break="no"/>gis interpretatina.
+          </p>
+          <p xml:id="paqqap-a41954-d1e2140">
+            <lb ed="#R" n="11"/>Si vero consideretur homo secundum 
+            conditio<lb ed="#R" n="12" break="no"/>nem propriam, tripliciter inuenitur debitor, secun 
+            <lb ed="#R" n="13"/>dum quod triplicem conditionem naturaliter 
+            re<lb ed="#R" n="14" break="no"/>poritur habere. 
+          </p>
+          <p xml:id="paqqap-a41954-d1e2151">
+            <lb ed="#R" n="15"/>Est enim animal sociabile vel ciuile, &amp; est animal 
+            <lb ed="#R" n="16"/>rationale, est &amp; animal, quod sibi non sufficit si 
+            so<lb ed="#R" n="17" break="no"/>litarium velit esse, ex prima conditione tripliciter 
+            <lb ed="#R" n="18"/>efficitur debitor aliorum, scilicet quantum ad ani 
+            <lb ed="#R" n="19"/>mum, quod reddit per beneuolentiam, cuius 
+            op<lb ed="#R" n="20" break="no"/>positum est inuidia, quantum ad verbum, quod 
+            <lb ed="#R" n="21"/>reddit per affabilitatem a cuius opposito per exces 
+            <lb ed="#R" n="22"/>sum in contristando, &amp; defectum in delectando, 
+            <lb ed="#R" n="23"/>dicitur quis discolus, &amp; inuidus. Sed per ex 
+            <lb ed="#R" n="24"/>cessum in delectando: dicitur adulator. quod si vult 
+            <lb ed="#R" n="25"/>de lectationem per modum proprium quis intendat 
+            <lb ed="#R" n="26"/>appellatur blanditor, est enim debitor quantum ad 
+            <lb ed="#R" n="27"/>auxilium, &amp; beneficium, quod reddit per 
+            bene<lb ed="#R" n="28" break="no"/>ficentiam.
+          </p>
+          <p xml:id="paqqap-a41954-d1e2185">
+            <lb ed="#R" n="29"/>Ex secunda quoque conditione efficitur debitor 
+            <lb ed="#R" n="30"/>eius, quod exigit natura inquantum rationalis. Et 
+            <lb ed="#R" n="31"/>haec est veritas, quod debitum reddit per virtutem 
+            <lb ed="#R" n="32"/>veracitatis vel veritatis cui virtuti opponitur mul 
+            <lb ed="#R" n="33"/>tiplex vitium scilicet, quantum ad verbum, 
+            men<lb ed="#R" n="34" break="no"/>dacium absolute. Quod si dicatur respectu propriae 
+            <lb ed="#R" n="35"/>excellentiae, opponitur Ironia, sed quantum ad 
+            fa<lb ed="#R" n="36" break="no"/>ctum vel signum veritati opponitur fimulatio 
+            qui<lb ed="#R" n="37" break="no"/>dem respectu omnis perfectionis, hypocrisis vero in 
+            <lb ed="#R" n="38"/>speciali respectu sanctitatis.
+          </p>
+          <p xml:id="paqqap-a41954-d1e2209">
+            <lb ed="#R" n="39"/>Ex tertia vero conditione obligatur homo vt 
+            <lb ed="#R" n="40"/>alijs societur, quod fit per virtutem amicitiae, cuius 
+            <lb ed="#R" n="41"/>oppositum est oddium vel inimicitia.
+          </p>
+          <p xml:id="paqqap-a41954-d1e2218">
+            <lb ed="#R" n="42"/>Si autem consideretur homo quantum ad 
+            perse<lb ed="#R" n="43" break="no"/>ctionem secundam vel superadditam, &amp; eius 
+            oppo<lb ed="#R" n="44" break="no"/>situm, hoc potest esse, vel ratione eius, quod 
+            <lb ed="#R" n="45"/>habet in se, vel ratione eius, quod reperit in 
+            <lb ed="#R" n="46"/>alio.
+          </p>
+          <p xml:id="paqqap-a41954-d1e2231">
+            <lb ed="#R" n="47"/>Si ratione eius, quod reperit in se, vel illud est 
+            <lb ed="#R" n="48"/>bonum, vel defectus boni, quod est ipsum 
+            malum<lb ed="#R" n="49" break="no"/>si illud sit bonum, vel est bonum animae, &amp; respectu 
+            <lb ed="#R" n="50"/>huius est superius assignata virtus duliae, hiperdulia 
+            <lb ed="#R" n="51"/>legalis iustitiae, &amp; epichaeiae, vel est bonum fortunae 
+            <lb ed="#R" n="52"/>qualia sunt bona temporalia, propter quae obliga 
+            <lb ed="#R" n="53"/>tus est ad distribuendum, &amp; hoc pertinet ad 
+            libe<lb ed="#R" n="54" break="no"/>ralitatem, cuius oppositum per excellum dicitur. 
+            <lb ed="#R" n="55"/>prodigalitas, per desectum illiberalitas. Sed 
+            quan<lb ed="#R" n="56" break="no"/>do communicatur istud vitium excessus qui 
+            dici<lb ed="#R" n="57" break="no"/>tur tenacitas, d qua dicitur quis cymini venditor. 
+            <lb ed="#R" n="58"/>Quandoque vero excessus turpiter acquirendi, vt 
+            <lb ed="#R" n="59"/>vt ab aleis, vel meretricio. si vero in se reperiat 
+            de<lb ed="#R" n="60" break="no"/>fectum boni, quod est malum culpae tenetur ad 
+            e<lb ed="#R" n="61" break="no"/>mendandum, quod fanit per virtutem paenitentiae, 
+            cu<lb ed="#R" n="62" break="no"/>ius oppositum est inpoenitentia. 
+          </p>
+          <p xml:id="paqqap-a41954-d1e2268">
+            <lb ed="#R" n="63"/>Si vero surgat obligatio ratione eius, quod 
+            repe<lb ed="#R" n="64" break="no"/>rit homo in alio aut illud est bonum maxime 
+            bo<lb ed="#R" n="65" break="no"/>num moris, vel illud est malum, si sit bonum 
+            mo<lb ed="#R" n="66" break="no"/>ris obligatur ad honorem tribuendum, quod 
+            red<lb ed="#R" n="67" break="no"/>ditur per virtutem reuerentiae respectu meliorum, cu 
+            <!--0134.xml-->
+            <cb ed="#R" n="b"/>
+            <lb ed="#R" n="68"/>ius oppositum est irreuerentia. Sed per virtutem 
+            <lb ed="#R" n="69"/>obsetuantiae redditur respectu aequalium, vel 
+            info<lb ed="#R" n="70" break="no"/>riorum, cuius oppositum est inobseruantia, vel 
+            in<lb ed="#R" n="71" break="no"/>itunitio dici potest. 
+          </p>
+          <p xml:id="paqqap-a41954-d1e2294">
+            <lb ed="#R" n="72"/>Si autem, quod reperitur in alio, sit malum 
+            te<lb ed="#R" n="73" break="no"/>nbtur ad subueniendum, si sit malum poenae, ad quod 
+            <lb ed="#R" n="74"/>inclipat virtus misericordiae, cuius oppositum est 
+            <lb ed="#R" n="75"/>incompassio, seu immisericordia.
+          </p>
+          <p xml:id="paqqap-a41954-d1e2306">
+            <lb ed="#R" n="76"/>Vel tenetur ad tollendum, &amp; persequendum si 
+            <lb ed="#R" n="77"/>sit malum culpae, &amp; ad hoc inclinat virtus 
+            vindica<lb ed="#R" n="78" break="no"/>tionis, seu vindictae.
+          </p>
+          <p xml:id="paqqap-a41954-d1e2315">
+            <lb ed="#R" n="79"/>Si vero consideretur homo quantum ad 
+            obliga<lb ed="#R" n="80" break="no"/>tionem, quae surgit per actionem voluntariam, aut factum, 
+            <lb ed="#R" n="81"/>il la actio voluntaria praesupponit, si praesupponat 
+            <lb ed="#R" n="82"/>&amp; illud sit sibi bonum, obligatur ad 
+            reconpensan<lb ed="#R" n="83" break="no"/>dum secundum possibilitatem, quod reddit per 
+            <lb ed="#R" n="84"/>virtutem gratitudinis, &amp; huius oppositum dicitur 
+            <lb ed="#R" n="85"/>ingratitudo ex qua procedunt isti tres actus 
+            scili<lb ed="#R" n="86" break="no"/>cet beneficium obliuisci in animo, detrahere, &amp; 
+            mi<lb ed="#R" n="87" break="no"/>nuere verbo, &amp; vicem non rependere facto. Si 
+            ve<lb ed="#R" n="88" break="no"/>ro sit malum obligatur quis ex officio ad 
+            corrigen<lb ed="#R" n="89" break="no"/>dum, ad quod inclinat iustitia priuatiua. Et hoc 
+            <lb ed="#R" n="90"/>est verum generaliter respectu omnis mali 
+            quan<lb ed="#R" n="91" break="no"/>tum ad illum cuius est ex officio malum punire, 
+            <lb ed="#R" n="92"/>sicut est iudex vel superior, sed specialiter 
+            obliga<lb ed="#R" n="93" break="no"/>tur qui malum gessit, si sit laesiuum proximi, ad 
+            <lb ed="#R" n="94"/>fatisfactionem, ad quod inclinat iustitia 
+            restitui<lb ed="#R" n="95" break="no"/>ca
+          </p>
+          <p xml:id="paqqap-a41954-d1e2354">
+            <lb ed="#R" n="96"/>Si vero actio voluntaria non praesupponat 
+            fa<lb ed="#R" n="97" break="no"/>ctum, Sed sit de pari, potest oriri duplex 
+            obli<lb ed="#R" n="98" break="no"/>gatio, scilicet vel ad aequalitatem secundum 
+            pro<lb ed="#R" n="99" break="no"/>portionem geometricam, &amp; hanc exercet iustitia 
+            <lb ed="#R" n="100"/>distributiua cui opponitur multiplex vitium 
+            fa<lb ed="#R" n="101" break="no"/>ciens exorbitare a debita proportione 
+            conditio<lb ed="#R" n="102" break="no"/>nis alicnius, quae non facit ad rem cuiusmodi est no 
+            <lb ed="#R" n="103"/>bilitas vel diuitiae, sicut est carnalitas etiam ratione 
+            <lb ed="#R" n="104"/>parentelae, sicut est etiam partialitas ratione priua 
+            <lb ed="#R" n="105"/>tae amicitiae. 
+          </p>
+          <p xml:id="paqqap-a41954-d1e2378">
+            <lb ed="#R" n="106"/>Vel obligatio est ad aequalitatem secundum 
+            <lb ed="#R" n="107"/>proportionem arithmeticam, &amp; hanc exercet 
+            iu<lb ed="#R" n="108" break="no"/>stitia commutatiua cui etiam diuersa vitia 
+            op<lb ed="#R" n="109" break="no"/>ponuntur: fraus enim sibi opponitur, quae tunc 
+            con<lb ed="#R" n="110" break="no"/>uertitur, cum vendibile plus venditur, quam 
+            va<lb ed="#R" n="111" break="no"/>let; quamuis enim etiam opponi possit eubuliae 
+            in<lb ed="#R" n="112" break="no"/>quantum fraus est in exteriori apparentia 
+            me<lb ed="#R" n="113" break="no"/>diorum sicut dictum est supra: Opponitur etiam 
+            <lb ed="#R" n="114"/>eidem iustitiae communitatiuae vsura, &amp; simonia 
+            <lb ed="#R" n="115"/>in uendendo seu commutando, quod non est 
+            com<lb ed="#R" n="116" break="no"/>mutabile, sed differenter, quoniam vsura consistit 
+            <lb ed="#R" n="117"/>in vendendo vsum rei, quae non habet vsum 
+            distin<lb ed="#R" n="118" break="no"/>ctum a re: Simonia vero in vendendo effectum rei, 
+            <lb ed="#R" n="119"/>quae non subest potestati hominis, sed Dei, 
+            quam<lb ed="#R" n="120" break="no"/>uis ex alia ratione dici possit, quod opponatur san 
+            <lb ed="#R" n="121"/>ctitati, seu religioni sicut dictum est supra. 
+            <lb ed="#R" n="122"/>Notandum vero, quod iustitia restitutiua, ideo 
+            <lb ed="#R" n="123"/>non potest dici commutatiua, quoniam potest esse 
+            <lb ed="#R" n="124"/>respectu cuiuscunque dempti, quod cedat inquantum 
+            <lb ed="#R" n="125"/>demptum in nocumentum alterius, siue supra tale cade 
+            <lb ed="#R" n="126"/>re possit commutatio siue non, sic respectu famae, sicut 
+            <lb ed="#R" n="127"/>vitae, &amp; similium, quae in tot partes diuidi potest, 
+            <lb ed="#R" n="128"/>quot vitia praesupponit, quorum est reductiua ad 
+            <lb ed="#R" n="129"/>aequalitatem. Haec autem vitia sic possunt 
+            distin<lb ed="#R" n="130" break="no"/>gui. Potest enim quis alteri iniuriam inferre, &amp; eum 
+            <lb ed="#R" n="131"/>damnare vel subtrahendo vitam, &amp; si fiat publice 
+            <lb ed="#R" n="132"/>tunc homicidium, si vero occulte, vel machinetur 
+            <lb ed="#R" n="133"/>ad hoc, sic est veneficium. Vel subtrahendo ea, quae 
+            <lb ed="#R" n="134"/>spectant ad personae consistentiam, Vnde auferendo 
+            <!--0135.xml-->
+            <pb ed="#P" n="135"/>
+            <cb ed="#R" n="a"/>
+            <lb ed="#R" n="1"/>membrum est Mutilatio: auferendo neruitatem 
+            <lb ed="#R" n="2"/>membri est vulneratio: auserendo vero valetudinem, 
+            <lb ed="#R" n="3"/>&amp; sanitatem est percussio.
+          </p>
+          <p xml:id="paqqap-a41954-d1e2456">
+            <lb ed="#R" n="4"/>Vel potest quis damnificare subtrahendo famam, 
+            <lb ed="#R" n="5"/>quae quidem subtracio potest dici demagnatio, 
+            <lb ed="#R" n="6"/>quantum ad boni minorationem vel detractionem 
+            <lb ed="#R" n="7"/>quantum ad totalem ablationem. Vel criminatio 
+            <lb ed="#R" n="8"/>quantum ad criminis vel falsi impositionem, vel infa 
+            <lb ed="#R" n="9"/>matio, quantum ad veram vel falsam diuulgationem. 
+          </p>
+          <p xml:id="paqqap-a41954-d1e2472">
+            <lb ed="#R" n="10"/>Sufficientia 15. virtutum, quae sub 
+            fortitudi<lb ed="#R" n="11" break="no"/>ne continentur. 
+          </p>
+          <p xml:id="paqqap-a41954-d1e2480">
+            <lb ed="#R" n="12"/>TErtio videnda est sufficientia 15. virtutum, 
+            <lb ed="#R" n="13"/>quae sub fortitudine continentur, quae sunt 
+            <lb ed="#R" n="14"/>sunt magnanimitas. fiducia, fortitudo 
+            particula<lb ed="#R" n="15" break="no"/>ris, securitas, magnificentia, Munificentia, 
+            com<lb ed="#R" n="16" break="no"/>minatio, hospitalitas, patientia, constantia, 
+            lon<lb ed="#R" n="17" break="no"/>ganimitas, aequanimitas, stabilitas, perseuerantia, 
+            <lb ed="#R" n="18"/>strenuitas. Vt igitur harum virtutum, quae sub 
+            for<lb ed="#R" n="19" break="no"/>titudine continentur, in communi habeatur 
+            suffi<lb ed="#R" n="20" break="no"/>cientia commemorando etiam vitia eis opposita. 
+            <lb ed="#R" n="21"/>Sciendum est, quod cum ratio formalis 
+            forti<lb ed="#R" n="22" break="no"/>tudinis consistat in fixione contra obruentia 
+            <lb ed="#R" n="23"/>propter sui excessum vel arduitatem, talia vel com 
+            <lb ed="#R" n="24"/>parantur homini tanquam futura, vel tanquam 
+            <lb ed="#R" n="25"/>praesentia; Praeterita enim postquam praeterierunt, 
+            <lb ed="#R" n="26"/>nullam videntur habere arduitatem. Si ergo com 
+            <lb ed="#R" n="27"/>parantur homini vt sutura, aut illa sunt bona, aut 
+            <lb ed="#R" n="28"/>illa sunt mala. Si bona sunt, aut ergo propter sui 
+            <lb ed="#R" n="29"/>arduitatem sunt qua si improportionabilia homini, &amp; 
+            <lb ed="#R" n="30"/>respectu talium sequitur virtus magnanimitatis. 
+            <lb ed="#R" n="31"/>cuius oppositum per defectum dicitur 
+            pusillani<lb ed="#R" n="32" break="no"/>mitas. 
+          </p>
+          <p xml:id="paqqap-a41954-d1e2528">
+            <lb ed="#R" n="33"/>Per excessum vero respectu honorabilis 
+            alicu<lb ed="#R" n="34" break="no"/>cuius vel virtuosi, vel cuiuscunque, cui debeatur ex 
+            <lb ed="#R" n="35"/>cellentia, dicitur praesumptio. Sed si cum hoc sit 
+            <lb ed="#R" n="36"/>impulius ad arduum, &amp; maximae dignitatis, 
+            negle<lb ed="#R" n="37" break="no"/>cto actu cui debetur, &amp; merito habendi dicitur am 
+            <lb ed="#R" n="38"/>bitio, a qua dicitur quis ambitiosus. 
+          </p>
+          <p xml:id="paqqap-a41954-d1e2544">
+            <lb ed="#R" n="39"/>Aut illa ardua sunt homini satis proportionabilia 
+            <lb ed="#R" n="40"/>&amp; respectu talium agit virtus fiducia, cuius 
+            op<lb ed="#R" n="41" break="no"/>positum est diffidentia de omni actu arduo. Si vero 
+            <lb ed="#R" n="42"/>illa sunt de maximis malis, qualia sunt pericula 
+            <lb ed="#R" n="43"/>mortis, &amp; c. respectu talium est virtus fortitudinis 
+            <lb ed="#R" n="44"/>particularis, quae propter difficultatem circa 
+            ta<lb ed="#R" n="45" break="no"/>lia mala, nomen sibi generis vindicauit, cui etiam 
+            <lb ed="#R" n="46"/>opponitur excessiue audacia, sed per defectum 
+            <lb ed="#R" n="47"/>timor: aut sunt illa de communibus malis, &amp; 
+            re<lb ed="#R" n="48" break="no"/>spectu talium est virtus Securitatis, a cuius 
+            op<lb ed="#R" n="49" break="no"/>posito dicitur quis trepidus in rebus minimis, 
+            <lb ed="#R" n="50"/>vt qui timet muscas volantes, vel folia mota. 
+          </p>
+          <p xml:id="paqqap-a41954-d1e2573">
+            <lb ed="#R" n="51"/>Si vero sunt ea, quae comparantur homini per modum 
+            <lb ed="#R" n="52"/>habentium arduitatem competenter tãquam praesen 
+            <lb ed="#R" n="53"/>tia, talia non possunt bona esse, quoniam 
+            inquan<lb ed="#R" n="54" break="no"/>tum sunt adepta nullam includunt arduitatem, sunt 
+            <lb ed="#R" n="55"/>ergo mala praesentia, quae possunt esse in triplici dif 
+            <lb ed="#R" n="56"/>ferentia, aut enim sunt voluntarie assumpta, aut 
+            <lb ed="#R" n="57"/>sub alio inflicta, aut aliunde, &amp; quasi causaliter 
+            in<lb ed="#R" n="58" break="no"/>ducta. 
+          </p>
+          <p xml:id="paqqap-a41954-d1e2593">
+            <lb ed="#R" n="59"/>Si ergo sunt voluntarie assumpta talia non 
+            con<lb ed="#R" n="60" break="no"/>sueuerunt esse nisi priuando se bonis 
+            temporali<lb ed="#R" n="61" break="no"/>bus propter multam erogationem, quod quia 
+            inclu<lb ed="#R" n="62" break="no"/>dit difficultatem, requirit virtutem, quae respectu 
+            <lb ed="#R" n="63"/>magnorum sumptuum in communi dicitur 
+            ma<lb ed="#R" n="64" break="no"/>gnificentia, cuius oppositum per defectum dicitur 
+            <lb ed="#R" n="65"/>paruificentia. Per excessum vero potest dici con- 
+            <!--0135.xml-->
+            <cb ed="#R" n="b"/>
+            <lb ed="#R" n="66"/>sumptio resplendens sine melodia, sicut habetur 4. 
+            <lb ed="#R" n="67"/>Ethic. sed in speciali, quia singularem includit de 
+            <lb ed="#R" n="68"/>corem sacere magna in muneribus, &amp; conuiuijs 
+            <lb ed="#R" n="69"/>seu communicationibus idcirco respectu talium sunt 
+            <lb ed="#R" n="70"/>speciales virtutes, &amp; Munificentia respectu munerũ; 
+            <lb ed="#R" n="71"/>conuiuatio vero respectu communicationis cibi, 
+            <lb ed="#R" n="72"/>&amp; potus in communi, cuius oppositum est proprie 
+            <lb ed="#R" n="73"/>commessatio. Sed specialiter communicationis ad 
+            <lb ed="#R" n="74"/>peregrinos, &amp; extraneos dicitur hospitalitas, 
+            de<lb ed="#R" n="75" break="no"/>qua prima Pet. 4. dicitur: hospitantes inuicem sine 
+            <lb ed="#R" n="76"/>murmuratione. 
+          </p>
+          <p xml:id="paqqap-a41954-d1e2639">
+            <lb ed="#R" n="77"/>Si vero mala sunt ab alio inflicta, consueuerunt. 
+            <lb ed="#R" n="78"/>consequi duo contra rectitudinem rationis, 
+            scili<lb ed="#R" n="79" break="no"/>cet deordinata commotio consequens malum con 
+            <lb ed="#R" n="80"/>sequens, quod figitur homo per patientiam, cuius 
+            <lb ed="#R" n="81"/>oppositum est impatientia. 
+          </p>
+          <p xml:id="paqqap-a41954-d1e2653">
+            <lb ed="#R" n="82"/>Consequitur quandoque etiam desertio boni, 
+            <lb ed="#R" n="83"/>contra quam figitur homo per constantiam, cuius 
+            <lb ed="#R" n="84"/>oppositum est inconstantia. 
+          </p>
+          <p xml:id="paqqap-a41954-d1e2662">
+            <lb ed="#R" n="85"/>Si vero sint mala aliunde, &amp; quasi causaliter 
+            in<lb ed="#R" n="86" break="no"/>ducta vt homo ex hoc a bono resiliat, hoc potest 
+            <lb ed="#R" n="87"/>contingere quinque modis, quandoque enim quis 
+            <lb ed="#R" n="88"/>resilit a bono propter temporis longiturnitatem 
+            <lb ed="#R" n="89"/>contra quod figit longanimitas, cuius 
+            oppo<lb ed="#R" n="90" break="no"/>situm est tedium expectandi. quandoque vero 
+            pro<lb ed="#R" n="91" break="no"/>pter fortitudinem aduersitatum, contra, quod 
+            <lb ed="#R" n="92"/>figit aequanimitas, cuius opposita sunt erectio 
+            in<lb ed="#R" n="93" break="no"/>prosperis, &amp; deiectio in aduersis. 
+          </p>
+          <p xml:id="paqqap-a41954-d1e2684">
+            <lb ed="#R" n="94"/>Quandoque vero propter fortunae vertibilitatem 
+            <lb ed="#R" n="95"/>contra quam sigit iabilitas, cuius oppositum 
+            <lb ed="#R" n="96"/>est instabilitas, quod solet esse quam maxime 
+            vi<lb ed="#R" n="97" break="no"/>tium mulierum. 
+          </p>
+          <p xml:id="paqqap-a41954-d1e2695">
+            <lb ed="#R" n="98"/>Quandoque vero propter actionis assiduitatis 
+            <lb ed="#R" n="99"/>consequens, quod figit perseuerantia, cuius 
+            opposi<lb ed="#R" n="100" break="no"/>tum imperseuerantia dici potest. 
+          </p>
+          <p xml:id="paqqap-a41954-d1e2704">
+            <lb ed="#R" n="101"/>Quandoque etiam propter operis difficultatem 
+            <lb ed="#R" n="102"/>contra quod figit strenuitas, cui multa vitia 
+            <lb ed="#R" n="103"/>opponuntur, scilicet mollicies ratione cessionis. 
+            o<lb ed="#R" n="104" break="no"/>ciositas &amp; pigritia ratione cessationis. sed etiam 
+            ac<lb ed="#R" n="105" break="no"/>cidia ratione tristitiae, &amp; amaricationis. 
+          </p>
+          <p xml:id="paqqap-a41954-d1e2717">
+            <lb ed="#R" n="106"/>Sufficientia 25. uir tutum, quae sub 
+            Tempe<lb ed="#R" n="107" break="no"/>rantia continentur.
+          </p>
+          <p xml:id="paqqap-a41954-d1e2725">
+            <lb ed="#R" n="108"/>QVarto videnda est sufficientia 25. virtutum, 
+            <lb ed="#R" n="109"/>quae sub temperantia continentur, quae sunt. 
+            <lb ed="#R" n="110"/>parsimonia, sobrietas, abstinentia, casti, 
+            <lb ed="#R" n="111"/>tas, pudicitia. Virginitas, viduitas continentia; ma, 
+            <lb ed="#R" n="112"/>suetudo, clementia, eutrapelia, foedus, timoratus, p 
+            <lb ed="#R" n="113"/>dor, studiositas, sufficientia, paupertas, honestas 
+            h<lb ed="#R" n="114" break="no"/>militas, concordia, tranquillitas, splendor faciei, tꝰ 
+            <lb ed="#R" n="115"/>citurnitas, ornatus, &amp; compositio. 
+          </p>
+          <p xml:id="paqqap-a41954-d1e2745">
+            <lb ed="#R" n="116"/>Vt virtutum harum, quae continentur sub 
+            temperam<lb ed="#R" n="117" break="no"/>tia habeatur sufficientia, commemorando etia m 
+            <lb ed="#R" n="118"/>vitia, quae sibi opponuntur. 
+          </p>
+          <p xml:id="paqqap-a41954-d1e2754">
+            <lb ed="#R" n="119"/>Sciendum est, quod cum ratio formalis 
+            tempe<lb ed="#R" n="120" break="no"/>rantiae consistat in quadam moderatione 
+            con<lb ed="#R" n="121" break="no"/>tra nimis allicientia, hoc potest contingere 
+            qua<lb ed="#R" n="122" break="no"/>drupliciter. homo enim potest deordinate allici in 
+            <lb ed="#R" n="123"/>appetitu sensitiuo exteriori, vel in apperitu 
+            ratio<lb ed="#R" n="124" break="no"/>nali etiam interiori, vel in illis, quae sunt in 
+            conui<lb ed="#R" n="125" break="no"/>ctu exteriori. 
+          </p>
+          <p xml:id="paqqap-a41954-d1e2772">
+            <lb ed="#R" n="126"/>In appetitu vero sensitiuo exteriori potest 
+            <lb ed="#R" n="127"/>quis allici deordinate, quandoque quidem per ea, 
+            <lb ed="#R" n="128"/>quae respiciunt sensum gustus, quandoque vero per 
+            <lb ed="#R" n="129"/>ea, quae respiciunt sensum tactus, videlicet per ea, 
+            <lb ed="#R" n="130"/>quae pertinent ad venerea. Quantum igitur ad illa, 
+            <!--0136.xml-->
+            <pb ed="#P" n="136"/>
+            <cb ed="#R" n="a"/>
+            <lb ed="#R" n="1"/>quae respiciunt sensum Tactus, vide licet per ea, quae 
+            <lb ed="#R" n="2"/>respiciunt sensum gustus, potest quis allici per cibum 
+            <lb ed="#R" n="3"/>vel potum. Virtus ergo modificans circa cibum 
+            <lb ed="#R" n="4"/>dicitur Parsimonia, cui opponitur per defectum 
+            <lb ed="#R" n="5"/>Miserabilitas; quamuis hoc possit esse nomen com 
+            <lb ed="#R" n="6"/>mune ad omne vitium per defectum circa 
+            mate<lb ed="#R" n="7" break="no"/>riam temperantiae, per excessum vero habet multa
+            <lb ed="#R" n="8"/>
+            <!-- line coor order error -->opposita.
+          </p>
+          <p xml:id="paqqap-a41954-d1e2811">
+            <lb ed="#R" n="9"/>
+            <!-- line coord order error -->Opponitur enim sibi per excessum in prauenire
+            
+            <lb ed="#R" n="10"/>horam vel tempus manducandi, vel fractio ieiunij. 
+            <lb ed="#R" n="11"/>In quanto vero gastrimargia vel ingurgitatio. In 
+            <lb ed="#R" n="12"/>quali vero respectu ciborum, qui sunt lauti vel 
+            illi<lb ed="#R" n="13" break="no"/>berales vel inhonesti. Vitium a quo dicitur quis 
+            <lb ed="#R" n="14"/>lurcator, vel gluto. 
+          </p>
+          <p xml:id="paqqap-a41954-d1e2829">
+            <lb ed="#R" n="15"/>In sumendo vero seu in sumendi modo 
+            opponi<lb ed="#R" n="16" break="no"/>tur ei voracitas. Virtus quoque modificans circa 
+            <lb ed="#R" n="17"/>potum dicitur sobrietas, cui potest assignari per de 
+            <lb ed="#R" n="18"/>fectum miserabilitas, sicut dictum est, sed per exces 
+            <lb ed="#R" n="19"/>sum ei opponitur ebrietas seu vinolentia. 
+          </p>
+          <p xml:id="paqqap-a41954-d1e2843">
+            <lb ed="#R" n="20"/>Cum autem hae duae virtutes modificent 
+            circa<lb ed="#R" n="21" break="no"/>praedicta modo humano, vel secundum 
+            commu<lb ed="#R" n="22" break="no"/>nes, &amp; humanas, tamen virtus Abstinentia 
+            modifi<lb ed="#R" n="23" break="no"/>cat circa vtrumque secundum leges aliquas 
+            altio<lb ed="#R" n="24" break="no"/>res, cui opponuntur praedicta vitia circa materiam 
+            <lb ed="#R" n="25"/>altiorem, singulariter tamen fractio ieiunij. 
+          </p>
+          <p xml:id="paqqap-a41954-d1e2859">
+            <lb ed="#R" n="26"/>Quantum ad illa vero, quae respiciunt sensum ta 
+            <lb ed="#R" n="27"/>ctus, Potest quis modificari quantum ad venereum 
+            <lb ed="#R" n="28"/>actum, vel quantum ad vencrea signa, &amp; circa vtra 
+            <lb ed="#R" n="29"/>que dupliciter scilicet vel secundum leges commu 
+            <lb ed="#R" n="30"/>nes, &amp; humanas, vel secundum modum, &amp; legem 
+            <lb ed="#R" n="31"/>aliquam transcendentem, &amp; secundum haec accipiun 
+            <lb ed="#R" n="32"/>tur quat uor virtutes.\
+          </p>
+          <p xml:id="paqqap-a41954-d1e2877">
+            <lb ed="#R" n="33"/>Virtus enim modificans circa venereum actum 
+            <lb ed="#R" n="34"/>modo humano dicitur Castiras, cuius oppositum 
+            <lb ed="#R" n="35"/>nomine generali dicitur Luxuria mu tas sub se spe 
+            <lb ed="#R" n="36"/>aeies comprehendens, quae sunt simplex Fornicatio 
+            <lb ed="#R" n="37"/>respectu personae solutae. 
+          </p>
+          <p xml:id="paqqap-a41954-d1e2890">
+            <lb ed="#R" n="38"/>Adulterium vel moechia respectu personae alteri 
+            <lb ed="#R" n="39"/>ligatae. Stuprum respectu virginum. Incestus 
+            respe<lb ed="#R" n="40" break="no"/>ctu parentum. Sacrilegium respectu sanc 
+            ificata<lb ed="#R" n="41" break="no"/>rum, &amp; Deo dedicatarum. Vitium contra naturam 
+            <lb ed="#R" n="42"/>generaliter quidem Sodomia; singulariter vero 
+            con<lb ed="#R" n="43" break="no"/>tra naturam indiuidui, mollicies seu concubitus 
+            <lb ed="#R" n="44"/>masculorum. Contra naturam speciei vsus quarum 
+            <lb ed="#R" n="45"/>libet bestiarum. 
+          </p>
+          <p xml:id="paqqap-a41954-d1e2910">
+            <lb ed="#R" n="46"/>Virtus vero modificans circa venerea signa 
+            di<lb ed="#R" n="47" break="no"/>citur Pudicitia, cuius oppositum dicitur 
+            impudici<lb ed="#R" n="48" break="no"/>tia, a qua dicitur quis esse impudicus. 
+          </p>
+          <p xml:id="paqqap-a41954-d1e2919">
+            <lb ed="#R" n="49"/>Virtus vero modificans circa praedicta tum secun 
+            <lb ed="#R" n="50"/>dum modum, &amp; leges aliquas transcendentes, pro 
+            <lb ed="#R" n="51"/>toto quidem tempore vitae humanae modificat 
+            Vir<lb ed="#R" n="52" break="no"/>ginitas, cui opponitur quaecunque experientia 
+            <lb ed="#R" n="53"/>actus carnalis. Sed quantum ad aliquem corporis 
+            <lb ed="#R" n="54"/>portionem modificat Viduitas, cui omnia praedicta 
+            <lb ed="#R" n="55"/>vitia suo modo possunt opponi, cum sit circa mate 
+            <lb ed="#R" n="56"/>riam dictarum virtutum, nec addat nisi 
+            superero<lb ed="#R" n="57" break="no"/>gationem. 
+          </p>
+          <p xml:id="paqqap-a41954-d1e2942">
+            <lb ed="#R" n="58"/>In appetitu etiam animali, &amp; interiori, in quo 
+            <lb ed="#R" n="59"/>conuenit homo cum bestijs, potest homo sex 
+            mo<lb ed="#R" n="60" break="no"/>dis deordinate, &amp; inordinate moueri, scilicet per 
+            <lb ed="#R" n="61"/>motum irae, quem frenat virtus Mansuetudinis, 
+            cu<lb ed="#R" n="62" break="no"/>ius oppositum est lracundia. 
+          </p>
+          <p xml:id="paqqap-a41954-d1e2955">
+            <lb ed="#R" n="63"/>lracundiae vero species sunt tres, a quibus 
+            dicun<lb ed="#R" n="64" break="no"/>tur quidam acuti a facilitate irascendi, quidam dif 
+            <lb ed="#R" n="65"/>ficiles a tenacitate irae: quidam vero amari, qui 
+            <lb ed="#R" n="66"/>non quiescunt sine gr.ui poena, &amp; adepta vindicta. 
+          </p>
+          <p xml:id="paqqap-a41954-d1e2966">
+            <lb ed="#R" n="67"/>Potest etiam quis moueri immoderate per motum 
+            <!--0136.xml-->
+            <cb ed="#R" n="b"/>
+            <lb ed="#R" n="68"/>concupiscentiae, quem fraenat virtus Continentiae, en 
+            <lb ed="#R" n="69"/>ius oppositum elt incontinentia vel bestialitas, si ex 
+            <lb ed="#R" n="70"/>cedat modum humanum, sicut patet. 7. Ethic- 
+          </p>
+          <p xml:id="paqqap-a41954-d1e2982">
+            <lb ed="#R" n="71"/>Quandoque etiam poteit quis deordinate 
+            mo<lb ed="#R" n="72" break="no"/>ueri per appetitum vindictae, quem frenat virtus 
+            <lb ed="#R" n="73"/>Clementiae, cui opponitur per defectum remito, 
+            <lb ed="#R" n="74"/>quia vero hoc forte non est sibi propriem 
+            opposi<lb ed="#R" n="75" break="no"/>tum, ideo, 
+          </p>
+          <p xml:id="paqqap-a41954-d1e2995">
+            <lb ed="#R" n="76"/>Sciendum, quod omniam vitia, quae raro contin 
+            <lb ed="#R" n="77"/>gunt, vel ipsa sunt innominata, vel a talibus vitijs 
+            <lb ed="#R" n="78"/>dicuntur insensibiles: potest tamen dici oppositum 
+            <lb ed="#R" n="79"/>huius nimis mitescere. Per excessum vero eidem 
+            <lb ed="#R" n="80"/>Cruditas opponitur, quae consistit in defectu 
+            com<lb ed="#R" n="81" break="no"/>passionis non proprie in excessu, ascendens ad 
+            pu<lb ed="#R" n="82" break="no"/>niendum. Ex quo patet, quod mansuetudo, &amp; 
+            <lb ed="#R" n="83"/>clementia non differunt, sicut aliqui dicunt penes 
+            <lb ed="#R" n="84"/>passionem irae modificatam, &amp; paenam remitti, sed 
+            <lb ed="#R" n="85"/>passionem aliam, ad quam sequitur alia poena. 
+            In<lb ed="#R" n="86" break="no"/>ueniuntur enin crudeles aliqui sine ira. 
+          </p>
+          <p xml:id="paqqap-a41954-d1e3021">
+            <lb ed="#R" n="87"/>Quandoque etiam potest quis deordinate moue 
+            <lb ed="#R" n="88"/>ri per motum ludi vel gaudij, qui motus 
+            modifica<lb ed="#R" n="89" break="no"/>tur per virtutem Eutrapeliae, cuius oppositum per 
+            <lb ed="#R" n="90"/>excesium est multiplex. 
+          </p>
+          <p xml:id="paqqap-a41954-d1e3033">
+            <lb ed="#R" n="91"/>Scilicet vitium, a quo dicitur quis homo iocus, qui 
+            <lb ed="#R" n="92"/>omnia conuertit in ludum, &amp; contumeliosus 
+            quan<lb ed="#R" n="93" break="no"/>tum ad modum pungitiuum. Sed scurrilitas, &amp; 
+            <lb ed="#R" n="94"/>turpiloquium sibi opponuntur quantum ad illibera 
+            <lb ed="#R" n="95"/>le verbum. 
+          </p>
+          <p xml:id="paqqap-a41954-d1e3046">
+            <lb ed="#R" n="96"/>Per defectum vero sibi opponitur vitium, a quo 
+            <lb ed="#R" n="97"/>dicitur quis agros, vel agrestis. 
+          </p>
+          <p xml:id="paqqap-a41954-d1e3053">
+            <lb ed="#R" n="98"/>Potest etiam quandoque quis deordinari per 
+            su<lb ed="#R" n="99" break="no"/>perfluum amorem sui, quem habet moderari 
+            vir<lb ed="#R" n="100" break="no"/>tus Faederis, cui opponitur vitium, a quo dicitur 
+            <lb ed="#R" n="101"/>quis sine federe, vel superfluus amator sui, vel qui 
+            <lb ed="#R" n="102"/>non diligit nisi recurue. 
+          </p>
+          <p xml:id="paqqap-a41954-d1e3066">
+            <lb ed="#R" n="103"/>Potest esse qui deordinari per motum etiam 
+            au<lb ed="#R" n="104" break="no"/>sus temerarij, quem modificat virtus 
+            timoratio<lb ed="#R" n="105" break="no"/>nis, a cuius opposito dicitur quis temerarius. Quem 
+            <lb ed="#R" n="106"/>admodum autem timoratio compescit motu. 
+            te<lb ed="#R" n="107" break="no"/>merarium circa quaecunque generaliter, ita Pudor 
+            <lb ed="#R" n="108"/>seu pudoratio circa erubiscilia significatur, cuius 
+            <lb ed="#R" n="109"/>oppositum inuerecundia seu frontositas dici potest. 
+          </p>
+          <p xml:id="paqqap-a41954-d1e3084">
+            <lb ed="#R" n="110"/>In appetitu quoque rationali, &amp; interiori 
+            con<lb ed="#R" n="111" break="no"/>tingit hominem sex modis deordinate moueri, 
+            <lb ed="#R" n="112"/>videlicet per appetitum sciendi, &amp; hunc 
+            mo<lb ed="#R" n="113" break="no"/>tum modificat virtus Studiositatis, cui opponitur 
+            <lb ed="#R" n="114"/>Curiositas. &amp; quandoque per appetitum habendi cir 
+            <lb ed="#R" n="115"/>ca quod modificat virtus Sutcientiae. Per 
+            secun<lb ed="#R" n="116" break="no"/>dum modum communem cui opponitur Cupiditas 
+            <lb ed="#R" n="117"/>vel auaritia, sed virtus Paupertatis circa idem 
+            <lb ed="#R" n="118"/>modificat per quandam supererogationem ex 
+            in<lb ed="#R" n="119" break="no"/>tentione fiuis alicuius supremi. 
+          </p>
+          <p xml:id="paqqap-a41954-d1e3108">
+            <lb ed="#R" n="120"/>Cum vero contingit deordinate moueri per appe 
+            <lb ed="#R" n="121"/>titum honoris, quem frenat virtus Hone statis, quasi 
+            <lb ed="#R" n="122"/>honoris debitus itatus, cuius oppositum per 
+            exces<lb ed="#R" n="123" break="no"/>sum est innominatum nomine proprio, sed vocatur 
+            <lb ed="#R" n="124"/>Philotomia, quod etiam est nomen huius virtutis. 
+          </p>
+          <p xml:id="paqqap-a41954-d1e3122">
+            <lb ed="#R" n="125"/>Per defectum vero opponitur Aphilotimia. 
+            <lb ed="#R" n="126"/>Quandoque vero contingit deordinari per 
+            mo<lb ed="#R" n="127" break="no"/>dum erectionis cuiusdam prouenientis, 
+            quamma<lb ed="#R" n="128" break="no"/>xime ex appetitu honori,, quem habet frenare 
+            vir<lb ed="#R" n="129" break="no"/>tus Humilitatis. Cuius oppositum est per defectum 
+            <lb ed="#R" n="130"/>iunominatum, sed per excellum multiplex ei vitium 
+            <lb ed="#R" n="131"/>opponitur. 
+          </p>
+          <p xml:id="paqqap-a41954-d1e3140">
+            <lb ed="#R" n="132"/>Scilicet superbia per excessum erectionis. Vana 
+            <lb ed="#R" n="133"/>gloria ꝑ excessum delectationis in honore habito, Ar 
+            <lb ed="#R" n="134"/>rogantia per excessum attributionis rei dignae honore 
+            <!--0137.xml-->
+            <pb ed="#P" n="137"/>
+            <cb ed="#R" n="a"/>
+            <lb ed="#R" n="1"/>honore, si fiat facto, vel verbo, vel signo.
+          </p>
+          <p xml:id="paqqap-a41954-d1e3158">
+            <lb ed="#R" n="2"/>Hipocrisis vero, si maxime consistat in exteriori 
+            <lb ed="#R" n="3"/>signo excessus simulationis. 
+          </p>
+          <p xml:id="paqqap-a41954-d1e3165">
+            <lb ed="#R" n="4"/>Praesumptio per excessum aestimationis, vel 
+            re<lb ed="#R" n="5" break="no"/>putationis, vel potius agnitionis rei honorabilis 
+            <lb ed="#R" n="6"/>existentis super vnam facultatem. Iactantia vero 
+            <lb ed="#R" n="7"/>per excessum diuulgationis. Singularitas per 
+            ex<lb ed="#R" n="8" break="no"/>cessum distinctionis. Ambitio per excessum 
+            osten<lb ed="#R" n="9" break="no"/>tationis. Vel potest dici, quod pompa pertinet ad 
+            <lb ed="#R" n="10"/>ingrossationem sufficientiarum per signa &amp; gestus. 
+            <lb ed="#R" n="11"/>Ostentatio vero ad delectationem quamcumque 
+            <lb ed="#R" n="12"/>etiam in parua. 
+          </p>
+          <p xml:id="paqqap-a41954-d1e3187">
+            <lb ed="#R" n="13"/>Quandoque etiam contingit deordinate 
+            moue<lb ed="#R" n="14" break="no"/>ri per appetitum triumphandi, qui modificatur 
+            <lb ed="#R" n="15"/>per virtutem Pacis &amp; concordiae, Cui opponitur 
+            Di<lb ed="#R" n="16" break="no"/>scordia quo ad animum. Rixa quo ad verbum, &amp; 
+            <lb ed="#R" n="17"/>Bellum quantum ad factum. 
+          </p>
+          <p xml:id="paqqap-a41954-d1e3200">
+            <lb ed="#R" n="18"/>Quandoque etiam contingit deordinate moueri 
+            <lb ed="#R" n="19"/>per appetitum, vel curam se superflue occupandi, 
+            <lb ed="#R" n="20"/>quem modificat virtus Tranquillitatis, cuius oppo 
+            <lb ed="#R" n="21"/>situm est mentis Euagatio, &amp; Inquietudo. 
+            <lb ed="#R" n="22"/>In his autem, quae praetendi solent in conuictu 
+            <lb ed="#R" n="23"/>exteriori, potest homo immoderate se habere quo 
+            <lb ed="#R" n="24"/>ad vultum, &amp; circa hoc modificat virtus, quae 
+            po<lb ed="#R" n="25" break="no"/>test dici Splendor faciei, &amp; eius oppositum 
+            Turbu<lb ed="#R" n="26" break="no"/>lentia 
+          </p>
+          <p xml:id="paqqap-a41954-d1e3223">
+            <lb ed="#R" n="27"/>Quandoque quo ad verbum, circa quod 
+            modi<lb ed="#R" n="28" break="no"/>ficat virtus Taciturnitatis, cui opponuntur 
+            pluri<lb ed="#R" n="29" break="no"/>ma per excessum, scilicet Loquacitas quo ad 
+            verbo<lb ed="#R" n="30" break="no"/>rum multitudinem, Garrulatio quo ad loquendi 
+            <lb ed="#R" n="31"/>acutiem, vnde ratione modi sumit motum a 
+            gar<lb ed="#R" n="32" break="no"/>ritu auium. Stultiloquium quo ad 
+            transgressio<lb ed="#R" n="33" break="no"/>nem rationis, ad quam pertinet regulare. 
+            Vanilo<lb ed="#R" n="34" break="no"/>quium vero quo ad assequutionem finis, ad quem 
+            <lb ed="#R" n="35"/>debet loquutio ordinari.
+          </p>
+          <p xml:id="paqqap-a41954-d1e3245">
+            <lb ed="#R" n="36"/>Per defectum vero sibi opponitur obmutescere, 
+            <lb ed="#R" n="37"/>quando esset necessarium, vel conueniens loqui. 
+            <lb ed="#R" n="38"/>Quandoque etiam contigit deordinari quo ad 
+            <lb ed="#R" n="39"/>habitum, vel vestitum circa quod modificat virtus 
+            <lb ed="#R" n="40"/>Ornatus. Cuius oppositum est innominatum, vel 
+            <lb ed="#R" n="41"/>circa istam materiam dici potest Curiositas, vel 
+            Ex<lb ed="#R" n="42" break="no"/>quisitio, vel magis proprie Singularitas. 
+          </p>
+          <p xml:id="paqqap-a41954-d1e3263">
+            <lb ed="#R" n="43"/>Quandoque autem contingit deordinari circa 
+            <lb ed="#R" n="44"/>incessum, vel gestum, circa quod habet 
+            modifica<lb ed="#R" n="45" break="no"/>re virtus, quae potest dici Compositio, per excessum 
+            <lb ed="#R" n="46"/>vero Dissolutio, vel superflua compositio.
+          </p>
+          <p xml:id="paqqap-a41954-d1e3274">
+            <lb ed="#R" n="47"/>Sic igitur patet, quomodo virtus descendat in 
+            <lb ed="#R" n="48"/>quatuor Cardinales tanquam in genera 
+            subalter<lb ed="#R" n="49" break="no"/>na comprehendendo multas virtutum species. 
+            <lb ed="#R" n="50"/>Quarum positae sunt multae cum vitijs eis oppositis, 
+            <lb ed="#R" n="51"/>secundum quod in dictis Phylosophorum, &amp; 
+            San<lb ed="#R" n="52" break="no"/>ctorum scripturae sacrae maxime de ipsis contingit 
+            <lb ed="#R" n="53"/>fieri mentionem.
+          </p>
+          <p xml:id="paqqap-a41954-d1e3292">
+            <lb ed="#R" n="54"/>Ad argumenta principalia dicendum
+          </p>
+          <p xml:id="paqqap-a41954-d1e3297">
+            <!-- missing line break -->Ad primum quidem; quod temperantia, &amp; 
+            for<lb ed="#R" n="55" break="no"/>titudo, quas condiuidit Phylosophus 2. Ethio. 
+            con<lb ed="#R" n="56" break="no"/>tra virtutes alias speciales, non sunt proprie 
+            vir<lb ed="#R" n="57" break="no"/>tutes Cardinales, imo nec de esse Cardinali in 
+            vir<lb ed="#R" n="58" break="no"/>tutibus Phylosophus mentionem facit. 
+          </p>
+          <p xml:id="paqqap-a41954-d1e3311">
+            <lb ed="#R" n="59"/>Ad secundum dicendum, quod modus tractandi 
+            <lb ed="#R" n="60"/>in scientia practica non oportet, quod sit adeo arti 
+            <lb ed="#R" n="61"/>ficialis in diuidendo, &amp; definiendo, sicut in scientia 
+            <lb ed="#R" n="62"/>speculatiua, cauendum est enim ne dum de 
+            operi<lb ed="#R" n="63" break="no"/>bus est sermo, operibus plura fiant, vt r. Ethic. 
+            <lb ed="#R" n="64"/>dicit Phylosophus, qui propter hoc in principio 
+            <lb ed="#R" n="65"/>secundi volens definire virtutem, excusans seia mo 
+            <lb ed="#R" n="66"/>do dofiniendi exquisito, dicit, quod non vt sciamus 
+            <lb ed="#R" n="67"/>scrutamur, quid est virtus, sed vt boni efficiamur, 
+            <!--0137.xml-->
+            <cb ed="#R" n="b"/>
+            <lb ed="#R" n="68"/>non curauit ergo Phylosophus de subtilissima 
+            diui<lb ed="#R" n="69" break="no"/>sione virtutis in primas differentias, sed neque 
+            de<lb ed="#R" n="70" break="no"/>enumeratione virtutum omnium, sed procedebat 
+            <lb ed="#R" n="71"/>figuraliter, &amp; modo exemplari, vt ipsemet dicit in 
+            <lb ed="#R" n="72"/>1. &amp; 2. Ethic. 
+          </p>
+          <p xml:id="paqqap-a41954-d1e3348">
+            <lb ed="#R" n="73"/>Ad tertium dicendum, quod non est verum 
+            spe<lb ed="#R" n="74" break="no"/>ciales virtutes ad inuicem connecti per modum 
+            <lb ed="#R" n="75"/>partium potentialium, &amp; totius, vt declaratum est 
+            <lb ed="#R" n="76"/>in corpore quaestionis.
+          </p>
+          <p xml:id="paqqap-a41954-d1e3359">
+            <lb ed="#R" n="77"/>Et si dicatur, quod partes potentiales sunt illae, 
+            <lb ed="#R" n="78"/>in quibus est aliqua ratio secundum prius, &amp; 
+            po<lb ed="#R" n="79" break="no"/>sterius, vt quia virtus animae per prius ostenditur 
+            <lb ed="#R" n="80"/>in corde, &amp; inde deriuatur in alia organa, &amp; in 
+            <lb ed="#R" n="81"/>membra: dicendum, quod ista non est ratio totius 
+            <lb ed="#R" n="82"/>potentialis ad partes, neque enim dicimus, quod 
+            <lb ed="#R" n="83"/>caetera organa sint partes potentiales cordis, Sed 
+            <lb ed="#R" n="84"/>nec partes potentiales animae. &amp; dato, quod essent, 
+            <lb ed="#R" n="85"/>non esset simile, quoniam anima secundum 
+            diuer<lb ed="#R" n="86" break="no"/>sas potentias diuersa organa perficit, quod non 
+            <lb ed="#R" n="87"/>est verum de ratione virtutis Cardinalis; vnde 
+            pa<lb ed="#R" n="88" break="no"/>tet, quod ratio, ista, per quam aliqui mouentur ad 
+            <lb ed="#R" n="89"/>ponendum, quod virtutes aliquae sint partes poten 
+            <lb ed="#R" n="90"/>tia les aliarum, efficaciter non concludit. 
+          </p>
+          <p xml:id="paqqap-a41954-d1e3392">
+            <lb ed="#R" n="91"/>Ad quartum dicendum, quod temperantia 
+            ge<lb ed="#R" n="92" break="no"/>neralis respicit vnam materiam generalem; ita 
+            <lb ed="#R" n="93"/>quod virtutes sub temperantia contentae respiciunt 
+            <lb ed="#R" n="94"/>speciales materias contentas sub illa generali: Tem. 
+            <lb ed="#R" n="95"/>perantia vero, quae est circa delectationes gustus, &amp; 
+            <lb ed="#R" n="96"/>tactus obtinuit nomen generale. Et idem tenendum 
+            <lb ed="#R" n="97"/>est de fortitudine, prudentia, &amp; iustitia, quod ex 
+            <lb ed="#R" n="98"/>superioribus patet. 
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

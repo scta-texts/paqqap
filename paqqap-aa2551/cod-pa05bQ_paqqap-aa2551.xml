@@ -1,0 +1,1054 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quodlibetum 1</title>
+        <author ref="#Aureoli">Petrus Aureolus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quodlibetum 1</title>
+          <date when="2022-12-14">December 14, 2022</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="R" n="cod-pa05bQ">Roma 1605, Quodlibeta</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2022-12-14" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#R" n="2"/>
+        <cb ed="#R" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="paqqap-aa2551"> <!-- q1 -->
+        <head xml:id="paqqap-aa2551-Hd1e102">Quodlibetum 1</head>
+        <head xml:id="paqqap-aa2551-Hd1e104" type="question-title">Utrum in aliqua re formalitas et realitas distinguantur</head>
+        <p xml:id="paqqap-aa2551-d1e107">
+          <lb ed="#R" n="28"/>LVODLJBEJVM 
+          <lb ed="#R" n="29"/>PRJMVM. 
+          <lb ed="#R" n="30"/>Vtrum in aliqua re formalitas, &amp; realitas 
+          <lb ed="#R" n="31"/>distinguantur.
+        </p>
+        <p xml:id="paqqap-aa2551-d1e118">
+          <lb ed="#R" n="32"/>PRIMO igitur 
+          quaereba<lb ed="#R" n="33" break="no"/>tur: vtrum inaliqua re for 
+          <lb ed="#R" n="34"/>malitas, &amp; realitas distin 
+          <lb ed="#R" n="35"/>guantur. Arguebatur, 
+          <lb ed="#R" n="36"/>quod sic. Illa enim 
+          non<lb ed="#R" n="37" break="no"/>sunt idem, quorum vnum 
+          <lb ed="#R" n="38"/>potest multiplicari 
+          reli<lb ed="#R" n="39" break="no"/>
+          <!-- line coord error -->
+          <lb ed="#R" n="40"/>ri possunt, re ipsa eadem remanente, quia 
+          secun<lb ed="#R" n="41" break="no"/>dum Philosophum 3. phys. contex. 22. Actio, &amp; pas 
+          <lb ed="#R" n="42"/>sio sunt idem realiter, &amp; quidditatiue differunt, &amp; 
+          <lb ed="#R" n="43"/>secundum rationes formales. Similiter etiam in 
+          <lb ed="#R" n="44"/>diuinis persectiones attributales sunt idem 
+          reali<lb ed="#R" n="45" break="no"/>ter. non tamen quidditatiue, &amp; secundum rationes 
+          <lb ed="#R" n="46"/>formales; alioquin nomina quae significant ipsas 
+          e<lb ed="#R" n="47" break="no"/>runt synonimu: ergo in re aliud est realitas, &amp; aliud 
+          <lb ed="#R" n="48"/>formalitas seu ratio quidditatiua. 
+        </p>
+        <p xml:id="paqqap-aa2551-d1e161">
+          <lb ed="#R" n="49"/>Sed in oppositum est, quod Philosophus 7. met. 
+          <lb ed="#R" n="50"/>cont. a0 dicit, quod quicquid est, idem est cum eo, 
+          <lb ed="#R" n="51"/>cuius est secundum rem: vnde dicit Commentator 
+          <!--0002.xml-->
+          <cb ed="#R" n="b"/>
+          <lb ed="#R" n="52"/>comm, 2oe quod Sogtes nil aliud est, quam 
+          anima<lb ed="#R" n="53" break="no"/>litas, Tratioma lipis, qui suntquidditasbius, ne 
+          <lb ed="#R" n="54"/>aimafitas, &amp; ractonalitis sunt aliud, di Sortq: 
+          <lb ed="#R" n="55"/>ergo quidditas, seu formalitas non est aliud quam 
+          <lb ed="#R" n="56"/>ipsa realitas. 
+        </p>
+        <p xml:id="paqqap-aa2551-d1e185">
+          <lb ed="#R" n="57"/>Responsio ad quaestionem
+        </p>
+        <p xml:id="paqqap-aa2551-d1e190">
+          <lb ed="#R" n="58"/>REspondeo hic primo ponetur vnropinio: 
+          se<lb ed="#R" n="59" break="no"/>cundo vero quid videtur, &amp; tertiodicetur ad 
+          <lb ed="#R" n="60"/>motiua opinionis. 
+        </p>
+        <div xml:id="paqqap-aa2551-Dd1e199">
+          <head xml:id="paqqap-aa2551-Hd1e201">Articulus 1</head>
+          <p xml:id="paqqap-aa2551-d1e203">
+            <lb ed="#R" n="61"/>Circa primum sciendum, quod fuit quorundam 
+            <lb ed="#R" n="62"/>opinio, Scot. in-a. sent. dist. 8. q. 4 quod in eadem re 
+            <lb ed="#R" n="63"/>simplici possunt esse plures formalitates distincta 
+            <lb ed="#R" n="64"/>ex natura rei: &amp; aliqui vocauerunt eas modos 
+            rea<lb ed="#R" n="65" break="no"/>les, aliqui rationes reales; aliqui intentiones; 
+            ali<lb ed="#R" n="66" break="no"/>qui quidditatiuas rationes, &amp; omnes idem 
+            expri<lb ed="#R" n="67" break="no"/>mere intendunt.
+          </p>
+          <p xml:id="paqqap-aa2551-d1e221">
+            <lb ed="#R" n="68"/>Haec autem opinio probari potest. Primo quidem 
+            <lb ed="#R" n="69"/>in generali, sic: Quandocunq. aliquid abstrabt ab 
+            <lb ed="#R" n="70"/>aliquo, &amp; ab eius opposito, non est idem cum 
+            eo<lb ed="#R" n="71" break="no"/>&amp; per consequens potest plurificari, alio non 
+            pluri<lb ed="#R" n="72" break="no"/>ficato. Idem enim non est indifferens ad seipsum, 
+            <lb ed="#R" n="73"/>&amp; ad eius oppositum, nec abstrahit a seipso: sed 
+            se<lb ed="#R" n="74" break="no"/>cundum Auic. 5. met. cap. 2. quidditas abstrahit ab 
+            <lb ed="#R" n="75"/>esse qui est actus essentiae, &amp; a non esse, vnde dicit, 
+            <lb ed="#R" n="76"/>quod equinitas non est aliud, nisi equinitas tantum, 
+            <lb ed="#R" n="77"/>ipsa enim ex se non est multa nec vnum ergo 
+            quid<lb ed="#R" n="78" break="no"/>ditas rei, &amp; actualitas realis ipsius non sunt 
+            pe<lb ed="#R" n="79" break="no"/>nitus idem, immo poterunt quidditates 
+            multipli<lb ed="#R" n="80" break="no"/>cari, &amp; tamen non habebunt nisi vnam existentiam 
+            <lb ed="#R" n="81"/>&amp; vnam realitatem. Et confirmetur, quia 
+            consue<lb ed="#R" n="82" break="no"/>tum est dici, quod esse, prout significat actum essen 
+            <lb ed="#R" n="83"/>tiae non est idem cum essentia, quod indicat 
+            defini<lb ed="#R" n="84" break="no"/>tiuo, quae exprimit, quid est esse rei.
+          </p>
+          <p xml:id="paqqap-aa2551-d1e260">
+            <lb ed="#R" n="85"/>Praeterea constat, quod de eadem re simplici pos 
+            <lb ed="#R" n="86"/>sunt haberi plures conceptus obiectiui iuxta illud 
+            <lb ed="#R" n="87"/>Commentatoris 1a. met comm. 39. dicentis, quod 
+            <lb ed="#R" n="88"/>intellectus natus est diuidere, quae sunt adunata in 
+            <lb ed="#R" n="89"/>esse, quae ergo ad quid terminantur, plures 
+            conce<lb ed="#R" n="90" break="no"/>ptus cum habentur de eadem re simplici, aut enim 
+            <lb ed="#R" n="91"/>ad idem penitus, aut ad aliud, &amp; aliud existens in 
+            <lb ed="#R" n="92"/>re, aut ad aliud, &amp; aliud factum per intellectum 
+            <lb ed="#R" n="93"/>Non primum, quia tunc fictitij essent illi conceptus, 
+            <lb ed="#R" n="94"/>&amp; vani, quibus non respondent res t ergo necesse 
+            <lb ed="#R" n="95"/>est ponere secundum, &amp; per consequens in eadem 
+            <lb ed="#R" n="96"/>re simplici est aliud &amp; aliud obiectum intellectus 
+            <lb ed="#R" n="97"/>formale: hoc autem appellatur intentio, siue 
+            quid<lb ed="#R" n="98" break="no"/>ditatiua ratio, siue ratio realis: ergo id quod prius. 
+          </p>
+          <p xml:id="paqqap-aa2551-d1e293">
+            <lb ed="#R" n="99"/>HICJN SPECJALJ 
+            <lb ed="#R" n="100"/>Primo agetur de transcendentibus.
+          </p>
+          <p xml:id="paqqap-aa2551-d1e301">
+            <lb ed="#R" n="101"/>SEcundo vero probabitur in speciali de 
+            rationi<lb ed="#R" n="102" break="no"/>bus transcendentalibus, in quibus vestigium con 
+            <lb ed="#R" n="103"/>sistit, scilicet de veritate, vnitate, &amp; bonitate. 
+            Con<lb ed="#R" n="104" break="no"/>stat enim, quod haec reperiuntur in qualibet 
+            re<lb ed="#R" n="105" break="no"/>quantumcumque simplici, nec differunt realiter; 
+            <lb ed="#R" n="106"/>tum quia procederetur in infinitum, quia qua 
+            li<lb ed="#R" n="107" break="no"/>bet de illis rebus esset vera, bona, &amp; vna. Et tunc 
+            <lb ed="#R" n="108"/>quaereretur, vtrum differrent sicut prius; &amp; si sic, 
+            es<lb ed="#R" n="109" break="no"/>set processus infinitus; si vero non, standum erat in 
+            <lb ed="#R" n="110"/>primis. Sed manifestum est, quod istae rationes, in quibus 
+            <lb ed="#R" n="111"/>consistit vestigium, etsi sunt idem re tamen 
+            distin<lb ed="#R" n="112" break="no"/>guuntur in illa quidditatiue, &amp; ex natura rei, alio- 
+            <!--0003.xml-->
+            <pb ed="#P" n="3"/>
+            <cb ed="#R" n="a"/>
+            <lb ed="#R" n="1"/>quin esset nugatio dicendo, Ens unum, &amp; verum, 
+            <lb ed="#R" n="2"/>bonum. Et rursum non pertinet ad realem scien⸗ 
+            <lb ed="#R" n="3"/>tiam, videlicet ad metaphisicam, quae non 
+            confide<lb ed="#R" n="4" break="no"/>rat secundas intentiones, sod veras rationes 
+            rea<lb ed="#R" n="5" break="no"/>les, tractar enim de passionibus entis. 
+            <lb ed="#R" n="6"/>Et iterum definiens. Vnum, in eius quidditatiua 
+            <lb ed="#R" n="7"/>ratione non ponit bonum, nec e conuerso. 
+            Con<lb ed="#R" n="8" break="no"/>stat etiam, quod sunt obiecta distinctarum 
+            po<lb ed="#R" n="9" break="no"/>centiaram intellectus, &amp; voluntatis, nec emane⸗ 
+            <lb ed="#R" n="10"/>ret etiam ritio vestigij in rebus circunducta conside ret etiam ratio vestigij in rebus circunducta conside 
+            <lb ed="#R" n="11"/>ratione intellectus, nifi ista ex natura rei different: 
+            <lb ed="#R" n="12"/>ergo distioctae rationes quidditatiuae vnius, vori, 
+            <lb ed="#R" n="13"/>boni sunt ex natura rei in eadem re simplici:
+          </p>
+          <p xml:id="paqqap-aa2551-d1e364">
+            <lb ed="#R" n="14"/>H IC JN SPECIALJ HIC JN SPECIALJ 
+            <lb ed="#R" n="15"/>de Attributis.
+          </p>
+          <p xml:id="paqqap-aa2551-d1e371">
+            <lb ed="#R" n="16"/>TErtio probatur idem de perfectionibus attribu. TErtio probatur idem de perfectionibus attribu. 
+            <lb ed="#R" n="17"/>Lxtalibus in diuinis: impossibile est, enim, quod. talibus in diuinis: impossibile est, enim, quod. 
+            <lb ed="#R" n="18"/>contradictoria verificentur de eodem: sed certum 
+            <lb ed="#R" n="19"/>est, quod contradictoria verificantur de 
+            volun<lb ed="#R" n="20" break="no"/>tate diuina, &amp; intellectu. vera &amp; mala cadunt sub 
+            <lb ed="#R" n="21"/>diuina intelligentia, non autem sub beneplacito 
+            <lb ed="#R" n="22"/>eius, quia non vult mala, nec potest habere 
+            pro<lb ed="#R" n="23" break="no"/>obiecto malum: Intellectus autem in diuinis inquã- 
+            <lb ed="#R" n="24"/>tum diuinus est, necessario intelligit mala, quia 
+            <lb ed="#R" n="25"/>haec sunt circundata operatione omni intellectus. 
+            <lb ed="#R" n="26"/>Igitur voluntas diuina, &amp; intellectus distingantur 
+            <lb ed="#R" n="27"/>fecundum suas rationes quidditatiuas ciroundata 
+            <lb ed="#R" n="28"/>omni intellectu apprehendente, &amp; cum conset, 
+            <lb ed="#R" n="29"/>quod non <sic>distinguntur</sic> realiter, alioquin esser 
+            ibi<lb ed="#R" n="30" break="no"/>dem compositio, restat, quod in eadem re 
+            simpli<lb ed="#R" n="31" break="no"/>ci sit multitudo realium rationum. 
+          </p>
+          <p xml:id="paqqap-aa2551-d1e410">
+            <lb ed="#R" n="32"/>Et si dicatur, quod ista contradictio tollitur 
+            <lb ed="#R" n="33"/>propter diuersa connotata, non valet, tum quia 
+            <lb ed="#R" n="34"/>eadem ratio est de illis connotatis, quia si A 
+            con<lb ed="#R" n="35" break="no"/>notat, &amp; B. non connotat, impossibile est, quod A. 
+            <lb ed="#R" n="36"/>&amp; B. sint idem, alias contradictoria haec, stilicet 
+            con<lb ed="#R" n="37" break="no"/>notare, &amp; non connotare dicerentur de eodem.
+          </p>
+          <p xml:id="paqqap-aa2551-d1e426">
+            <lb ed="#R" n="38"/>Et si voluntas aliquid connotat, quod non 
+            con<lb ed="#R" n="39" break="no"/>notat intellectus, &amp; hoc ex natura rei haberetur 
+            <lb ed="#R" n="40"/>propositum, quod ex natura rei inter se 
+            distingun<lb ed="#R" n="41" break="no"/>tur, alioquin sicut vnum connotat, sic &amp; reliquum 
+            <lb ed="#R" n="42"/>quod penitus idem ponitur, similiter connotabit: 
+            <lb ed="#R" n="43"/>tum quia dum Deus intelligit se, &amp; vult se, idem 
+            <lb ed="#R" n="44"/>est penitus connotatum, scilicet essentia sua, &amp; 
+            <lb ed="#R" n="45"/>saltem tunc intelligere, &amp; velle non distinguitur 
+            <lb ed="#R" n="46"/>penes connotata. 
+          </p>
+          <p xml:id="paqqap-aa2551-d1e448">
+            <lb ed="#R" n="47"/>Praeterea principia productionum realium 
+            ha<lb ed="#R" n="48" break="no"/>bentia oppositos modos principiandi non possunt 
+            <lb ed="#R" n="49"/>esse omnino idem, alioquin oppositi modi dicentur 
+            <lb ed="#R" n="50"/>de vno, &amp; eodem, quod impossibile est: Sed 
+            volun<lb ed="#R" n="51" break="no"/>tas diuina est principium spirandi Spiritum 
+            san<lb ed="#R" n="52" break="no"/>ctum, &amp; est principium liberum; Intellectus vero est 
+            <lb ed="#R" n="53"/>principium dicendi verbum, &amp; naturale non 
+            <lb ed="#R" n="54"/>liberum: ergo. 
+          </p>
+          <p xml:id="paqqap-aa2551-d1e469">
+            <lb ed="#R" n="55"/>Similiter etiam in ordine ad res extra, 
+            volun<lb ed="#R" n="56" break="no"/>tas diuina vult libere, &amp; tamen intellectus 
+            intelli<lb ed="#R" n="57" break="no"/>git necessitate naturae: ergo voluntas, &amp; 
+            intelle<lb ed="#R" n="58" break="no"/>ctus in diuinis, quamuis sint idem re, distinguntur 
+            <lb ed="#R" n="59"/>tamen reali ratione. 
+          </p>
+          <p xml:id="paqqap-aa2551-d1e482">
+            <lb ed="#R" n="60"/>Confirmatur, quia non magis filius posset dici 
+            <lb ed="#R" n="61"/>verbum in diuinis, quam spiritus sanctus, si eodem 
+            <lb ed="#R" n="62"/>modo ab eodem principio emanarent. 
+            <lb ed="#R" n="63"/>Quarto vero videtur, quod haec sit mens 
+            Philo<lb ed="#R" n="64" break="no"/>sophi 5. Ethic. vbi loquens de iustitia particulari, &amp; 
+            <lb ed="#R" n="65"/>legali, dicit, quod sunt idem, esse autem eorum non 
+            <!--0003.xml-->
+            <cb ed="#R" n="b"/>
+            <lb ed="#R" n="66"/>idem esse, scilicet quidditatiuum. Et idem dicis 
+            <lb ed="#R" n="67"/>in sexto de prudentia, prout est respectu suippsius⸗ 
+            <lb ed="#R" n="68"/>&amp; prout extenditur ad dirigendum alios uitiu 
+            <lb ed="#R" n="69"/>enim, quod est eadem prudontia, esse tamen nom 
+            <lb ed="#R" n="70"/>idem.
+          </p>
+          <p xml:id="paqqap-aa2551-d1e513">
+            <lb ed="#R" n="71"/>Similiter s physicorum comm 3. de actione, &amp; 
+            <lb ed="#R" n="72"/>passione: dipit, quod differunt rationo l: &amp; tamem 
+            <lb ed="#R" n="73"/>sunt idemmotus re. Commentator etiam 4 
+            mera<lb ed="#R" n="74" break="no"/>phisicae, dicit, quod ens, &amp; vnum significam eaa-- 
+            <lb ed="#R" n="75"/>dem esseatiam, modis diuersis, Et reprobat illom 
+            <lb ed="#R" n="76"/>qui non possunt intelligere differentiam 
+            intordi<lb ed="#R" n="77" break="no"/>ctiones significantes diuersas: dispositiones 
+            addi<lb ed="#R" n="78" break="no"/>tas: vni essentiae, &amp; eas, que significant eandem 
+            <lb ed="#R" n="79"/>essentiam diuersis modis: rEt 11. lib. comm. 
+            radi<lb ed="#R" n="80" break="no"/>cit, quod vita, &amp; caetera oquae sunt in Deo, funt 
+            <lb ed="#R" n="81"/>idem subiecto, &amp; duo secundum inodum i non quia: 
+            <lb ed="#R" n="82"/>significant idem omnibus modis sicut nomina ꝶdo 
+            <lb ed="#R" n="83"/>nima. Ex quo patet quod opurtet secundum eum 
+            po<lb ed="#R" n="84" break="no"/>nere modos seu rationes reales, quae hon sunt alia 
+            <lb ed="#R" n="85"/>natura, imo eadem essentia. 
+          </p>
+        </div>
+        <div xml:id="paqqap-aa2551-Dd1e549">
+          <head xml:id="paqqap-aa2551-Hd1e551">Articulus 2</head>
+          <head xml:id="paqqap-aa2551-Hd1e553" type="question-title">
+            Patet in generali, quod est contradictio 
+            in eadem re omnino simplici plures 
+            formalitates aut modos reales 
+            reperiri.
+          </head>
+          <p xml:id="paqqap-aa2551-d1e556">
+            <lb ed="#R" n="86"/>ARTICVLVS II. 
+            <lb ed="#R" n="87"/>Patet in generali, quod est contradictio. 
+            <lb ed="#R" n="88"/>in eadem re omnino simplici plures 
+            for<lb ed="#R" n="89" break="no"/>malitates aut modos reales 
+            <lb ed="#R" n="90"/>reperiri.
+          </p>
+          <p xml:id="paqqap-aa2551-d1e569">
+            <lb ed="#R" n="91"/>CIrca secundum ergo explicando in hac 
+            ima<lb ed="#R" n="92" break="no"/>teria, quid secandum veritatem dicendum 
+            <lb ed="#R" n="93"/>est, ponendae sunt quaedam conclusiones.
+          </p>
+          <p xml:id="paqqap-aa2551-d1e578">
+            <lb ed="#R" n="94"/>Prima quidem generalis, quod impossibile est 
+            <lb ed="#R" n="95"/>&amp; comradictio, quod in eadom re omnino 
+            simpli<lb ed="#R" n="96" break="no"/>ci fint plures modi, aut rationes reales, intentiones: 
+            <lb ed="#R" n="97"/>sorma litates, seu quidditates fiue quocunque 
+            no<lb ed="#R" n="98" break="no"/>mina cenfeantur quu proportionaliter: sibe plures, 
+            <lb ed="#R" n="99"/>res, &amp; essentiae. Quandocunque enim alia 
+            omni<lb ed="#R" n="100" break="no"/>no idem sunt, multiplicato vno de necessitate 
+            multi<lb ed="#R" n="101" break="no"/>plicatur &amp; reliquum: contradictio namque ost 
+            <lb ed="#R" n="102"/>ponere oppositum, quia tunc vnum, &amp; idem esset 
+            <lb ed="#R" n="103"/>plurificatum, &amp; non plurificatum, sed ista quatuor 
+            <lb ed="#R" n="104"/>idem sunt, aliquid, res, ens, &amp; essentia. Et de 
+            re<lb ed="#R" n="105" break="no"/>quidem, &amp; aliquid expresse dicit August. ait enim 
+            <lb ed="#R" n="106"/>quod nulla res est, penitus nihil est. &amp; Ansel. cap. 
+            <lb ed="#R" n="107"/>3. de incarnatione verbi dicit, quod solemus 
+            <lb ed="#R" n="108"/>rem dicere, quicquid aliquo modo dicimus esse 
+            <lb ed="#R" n="109"/>aliquid. Et Auicen. 1. metaph. suae comm. 5. dicit 
+            <lb ed="#R" n="110"/>quod aliquid, &amp; Ens, &amp; illud &amp; similia significant 
+            <lb ed="#R" n="111"/>eadem intentionem. Et philosophus 3. met. dicit 
+            <lb ed="#R" n="112"/>quod solum nihil effugit rationem Encis: quicquid 
+            <lb ed="#R" n="113"/>igitur aliquo modo est aliquid, oporter quod sit 
+            <lb ed="#R" n="114"/>Ens. 
+          </p>
+          <p xml:id="paqqap-aa2551-d1e627">
+            <lb ed="#R" n="115"/>De essentia vero, &amp; Ente scilicet, quod 
+            quic<lb ed="#R" n="116" break="no"/>quid est aliquid, aut Ens necessario sit essentia, Au 
+            <lb ed="#R" n="117"/>gust. dicit lib. 5. de Jrinit. cap. 3. ait enim quod 
+            si<lb ed="#R" n="118" break="no"/>cut ab eo, quod est sapere, dicta est sapientia, &amp; a 
+            <lb ed="#R" n="119"/>scire scientia, sic ab esle dicta est essentia. 
+            Impos<lb ed="#R" n="120" break="no"/>sibile autem est, quod aliquid sciat, &amp; non habeat 
+            <lb ed="#R" n="121"/>scientiam, &amp; aeque impossibile est, quod aliquo 
+            <lb ed="#R" n="122"/>modo modo quantumcunque minimum sit, &amp; non 
+            <lb ed="#R" n="123"/>habeat essentiam. Ansel. etiam de Casu diaboli 
+            <lb ed="#R" n="124"/>dicit: Sunima essentia, quae Deus est, non est nisi 
+            es<lb ed="#R" n="125" break="no"/>sentia. Cum ergo esse, quod est a Deo, sit, necesse 
+            <lb ed="#R" n="126"/>est omne quod est aliquid, essentiam esse. Et 
+            ibi<lb ed="#R" n="127" break="no"/>dem subdit, quod cum omne bonum sit essentia 
+            <lb ed="#R" n="128"/>&amp; omnis essentia bonum, nihil tantummodo, &amp; 
+            <lb ed="#R" n="129"/>non esse non sunt a Deo, a quo non est nisi bonum 
+            <lb ed="#R" n="130"/>&amp; essentia. Similiter ait, quod solae priuationes. 
+            <lb ed="#R" n="131"/>et negationes carent essentia. Et, omne, quod est 
+            <!--0004.xml-->
+            <pb ed="#P" n="4"/>
+            <cb ed="#R" n="a"/>
+            <lb ed="#R" n="1"/>aliquid positiuum, est essentia. Dicit quod sicut absē- 
+            <lb ed="#R" n="2"/>tia iustitiae nullam essentiam habet, ita iniustitia 
+            <lb ed="#R" n="3"/>nullum esse habet, &amp; ideirco non est aliquid, sed 
+            <lb ed="#R" n="4"/>nihil Ex quo patet, quod illud non est aliquid, 
+            <lb ed="#R" n="5"/>sed nihil, quod nullam essentiam habet. August. 
+            <lb ed="#R" n="6"/>do natura boni etiam dicit, quod modus, &amp; omne 
+            <lb ed="#R" n="7"/>quod est aliquid bonum naturale, qua est, &amp; 
+            <lb ed="#R" n="8"/>ita esse. Philosophus etiam contra Platonem 
+            repu<lb ed="#R" n="9" break="no"/>tat impossibile, quod essentia boni sit aliud a 
+            bo<lb ed="#R" n="10" break="no"/>no &amp; quod Ens sit aliud, &amp; essentia Entis. vbi 
+            di<lb ed="#R" n="11" break="no"/>cit Commentator com. 2. quod si Ens non est idem 
+            <lb ed="#R" n="12"/>cum sua essentia, &amp; vniuersaliter qui negat hoc, 
+            <lb ed="#R" n="13"/>negat per se notum nec est via ad disputandum 
+            <lb ed="#R" n="14"/>contra ipsum: igitur cum tales quidditates siue mo 
+            <lb ed="#R" n="15"/>di naturales, seu rationes formales sint aliquid 
+            <lb ed="#R" n="16"/>extra intellectum secundum sic ponentes 
+            necesse<lb ed="#R" n="17" break="no"/>ost, quod sint res essentiae, &amp; entitates quaedam 
+            <lb ed="#R" n="18"/>&amp; cum ponantur plures erunt plura aliqua, &amp; plu⸗ 
+            <lb ed="#R" n="19"/>res essentiae, sed ponebantur simpliciter vna res 
+            <lb ed="#R" n="20"/>igitur erunt vna res, plures, quod impossibile est 
+            <lb ed="#R" n="21"/>ponere. Ponere ergo plures rationes 
+            quiddita<lb ed="#R" n="22" break="no"/>tiuas; &amp; reales in eadem re, est ponere plures 
+            es<lb ed="#R" n="23" break="no"/>sentias aliquo modo. 
+          </p>
+          <p xml:id="paqqap-aa2551-d1e723">
+            <lb ed="#R" n="24"/>Et si dicatur, quod in Diuinis sunt tros personae, 
+            <lb ed="#R" n="25"/>tres res, nec tamen sunt tres essentiae: dicendum, 
+            <lb ed="#R" n="26"/>quod non suut tres diuinae essentiae, sed quaedam 
+            <lb ed="#R" n="27"/>proprietates relatiuae, sicut distinguntur realiter 
+            <lb ed="#R" n="28"/>relatiua, &amp; quaelibet est essentia diuina, sic etiam 
+            <lb ed="#R" n="29"/>sint entitates, &amp; essentiae relatiuae distinctae, 
+            impos<lb ed="#R" n="30" break="no"/>sibile est, &amp; tamen cum hoc sunt vna, &amp; 
+            commu<lb ed="#R" n="31" break="no"/>nis essentia diuinitatis. 
+          </p>
+          <p xml:id="paqqap-aa2551-d1e743">
+            <lb ed="#R" n="32"/>Praeterea, impossibile est propriam passionem 
+            <lb ed="#R" n="33"/>reperiri extra proprium subiectum, cum passio, 
+            <lb ed="#R" n="34"/>&amp; subiectum proprium conuertibilia sint, &amp; 
+            secun<lb ed="#R" n="35" break="no"/>dum quod ipsum, vt patet 1. poster. sed proprieta. 
+            <lb ed="#R" n="36"/>tes rei, &amp; essentiae, &amp; Entis insunt huiusmodi 
+            quid<lb ed="#R" n="37" break="no"/>ditatiuis rationibus, &amp; realibus modis, siue 
+            for<lb ed="#R" n="38" break="no"/>malibus, si ponantur. Est enim vna proprietas 
+            <lb ed="#R" n="39"/>essentiae, quod opponitur formaliter nihilitati; ens 
+            <lb ed="#R" n="40"/>quidem solũmodo opponitur nihilo, vnde sunt extre 
+            <lb ed="#R" n="41"/>ma contradictionis vnius Ens, &amp; nihil. Cum 
+            igi<lb ed="#R" n="42" break="no"/>tur isti modi distincti suis distinctis rationibus sint 
+            <lb ed="#R" n="43"/>extra nihil, &amp; opponantur nihilitati formaliter, 
+            <lb ed="#R" n="44"/>necesse est, quod infra Ens claudantur, &amp; quod 
+            <lb ed="#R" n="45"/>competat eis proprietas distinctarum essentiarum. 
+          </p>
+          <p xml:id="paqqap-aa2551-d1e776">
+            <lb ed="#R" n="46"/>Rursum: Vnum, &amp; multa sunt de proprietatibus 
+            <lb ed="#R" n="47"/>Entis, &amp; rei: istae autem rationes reales ponuntur 
+            <lb ed="#R" n="48"/>multae, &amp; per consequens quaelibet ponitur vna: 
+            <lb ed="#R" n="49"/>necesse est ergo quod cuilibet illarum distincte 
+            <lb ed="#R" n="50"/>competat ratio Entis, essentiae, &amp; rei. 
+          </p>
+          <p xml:id="paqqap-aa2551-d1e789">
+            <lb ed="#R" n="51"/>Et si dicatur, quod istae rationes formales non 
+            <lb ed="#R" n="52"/>sunt formaliter ens, sed sundamentaliter tantum, 
+            <lb ed="#R" n="53"/>nec tamen sequitur, quod sint formaliter nihil, 
+            si<lb ed="#R" n="54" break="no"/>cut nec superficies est formaliter alba, aut 
+            for<lb ed="#R" n="55" break="no"/>maliter non alba. Sed ista est concedenda, quod 
+            <lb ed="#R" n="56"/>non est formaliter alba, &amp; haec similiter, quod 
+            <lb ed="#R" n="57"/>huiusmodi rationes formales non sunt formaliter 
+            <lb ed="#R" n="58"/>ens, nec formaliter nihil: non valet quidem, tum 
+            <lb ed="#R" n="59"/>quia constat, quod sunt formaliter quid, cum sint 
+            <lb ed="#R" n="60"/>quidditates: ergo &amp; aliquid, cum quid &amp; aliquid 
+            <lb ed="#R" n="61"/>conuertantur: ergo &amp; ens, cum aliquid non sit 
+            am<lb ed="#R" n="62" break="no"/>bitus maioris, quam ens. Tum, quia ipsum nihil 
+            <lb ed="#R" n="63"/>opponitur enti, sicut pura negatio, non autem 
+            si<lb ed="#R" n="64" break="no"/>cut nomen infinitum, quale est non album. 
+            Ve<lb ed="#R" n="65" break="no"/>rum est enim, quod in talibus non est necesse 
+            prae<lb ed="#R" n="66" break="no"/>dicatum finitum vtpote album, aut eius 
+            opposi<lb ed="#R" n="67" break="no"/>tum per modum praedicati insiniti inesse omni 
+            su<lb ed="#R" n="68" break="no"/>biecto cum hac determinatione formaliter. Sed 
+            <!--0004.xml-->
+            <cb ed="#R" n="b"/>
+            <lb ed="#R" n="69"/>de ente, &amp; nihilo necesse est, quia ista non est 
+            sor<lb ed="#R" n="70" break="no"/>maliter nihil, aequipollet huic: est formaliter 
+            ali<lb ed="#R" n="71" break="no"/>quid, duae nanque negationes aequipollent vni affir 
+            <lb ed="#R" n="72"/>mationi. Vnde August. de natura boni deridens Ma 
+            <lb ed="#R" n="73"/>nichaeos dicentes, quod in illo verbo, sine ipso 
+            <lb ed="#R" n="74"/>factum est nihil, quia ipsum nihil in fine pofiium 
+            <lb ed="#R" n="75"/>est, significatur, quod ipsum sit factum, dicit, 
+            <lb ed="#R" n="76"/>quod nihil interest, siue praeponatur, siue 
+            postpo<lb ed="#R" n="77" break="no"/>natur, quia semper cum sit pura negatio, 
+            intelligi<lb ed="#R" n="78" break="no"/>tur ferri ad compositionem. Et ideo ista: modus 
+            <lb ed="#R" n="79"/>realis est formaliter nihil, aequipollet huic: non est 
+            <lb ed="#R" n="80"/>formaliter aliquid cum sit contradictio, quod pa⸗ 
+            <lb ed="#R" n="81"/>ri ratione vol sint formaliter aliquid, vel formali⸗ 
+            <lb ed="#R" n="82"/>ter nihil.
+          </p>
+          <p xml:id="paqqap-aa2551-d1e865">
+            <lb ed="#R" n="83"/>Praeterea: si istae rationes reales &amp; modi 
+            forma<lb ed="#R" n="84" break="no"/>les ponuntur distincti ex natura rei, aut illud, quo 
+            <lb ed="#R" n="85"/>formaliter sunt extra ihil, est ipsum 
+            fundamen<lb ed="#R" n="86" break="no"/>tum simpliciter indistinctum; aut ipsaemet 
+            forma<lb ed="#R" n="87" break="no"/>litates distinctae. Si detur secundum, vt pote, qupd 
+            <lb ed="#R" n="88"/>suis distinctis formalitatibus sunt extra nihil, &amp; bp 
+            <lb ed="#R" n="89"/>ponuntur formaliter veritati contradictorie, 
+            ha<lb ed="#R" n="90" break="no"/>beretur propositum, quod sunt formaliter ens, &amp; 
+            <lb ed="#R" n="91"/>per consequens res, &amp; essentia. Si vero detur 
+            pri<lb ed="#R" n="92" break="no"/>mum, scilicet, quod eadem sunt formaliter extra 
+            <lb ed="#R" n="93"/>nihil: igitur inquantum distincta remanent infra 
+            <lb ed="#R" n="94"/>nihil, &amp; per consequens eorum distinctio erit enum 
+            <lb ed="#R" n="95"/>nihil, &amp; ita nulla: relinquetur ergo quod sit impossi 
+            <lb ed="#R" n="96"/>bile plures modos reales, aut rationes 
+            quidditati<lb ed="#R" n="97" break="no"/>uas, &amp; formales ponere in eadem re, quin 
+            neces<lb ed="#R" n="98" break="no"/>sario ponantur in ea plures essentiae, &amp; plures rea 
+            <lb ed="#R" n="99"/>distinctae inter se. 
+          </p>
+          <p xml:id="paqqap-aa2551-d1e905">
+            <lb ed="#R" n="100"/>Secunda vero conclusio est specialis de ttanscen 
+            <lb ed="#R" n="101"/>dentibus in quibus consistit ratio vestigij, vt de 
+            ve<lb ed="#R" n="102" break="no"/>ritate, bonitate, &amp; vnitate, quod impossibile est 
+            <lb ed="#R" n="103"/>eas importare diuersos modos reales, aut rationes 
+            <lb ed="#R" n="104"/>formales distinctas in eadem re, imo vero 
+            ratio<lb ed="#R" n="105" break="no"/>nes positiuas existentes obiectiue in intellectu 
+            ad<lb ed="#R" n="106" break="no"/>ditas ipsi rei. &amp; vt facilior sit processus, probatur 
+            <lb ed="#R" n="107"/>manifeste de qualibet separatim. 
+          </p>
+          <p xml:id="paqqap-aa2551-d1e925">
+            <lb ed="#R" n="108"/>Si enim vnitas importaret rationem 
+            concepti<lb ed="#R" n="109" break="no"/>bilem positiuam distinctam ab illa re, quae est vna, 
+            <lb ed="#R" n="110"/>fiue in re extra, siue etiam in solo intellectu, 
+            se<lb ed="#R" n="111" break="no"/>queretur, quod aliquod esset vnum sine vnitate 
+            <lb ed="#R" n="112"/>&amp; quod procederetur in infinitum in rationibus 
+            <lb ed="#R" n="113"/>vnitatum hoc patet, quia ratio quam importat res 
+            <lb ed="#R" n="114"/>per te est aliqua positiue a ratione quam 
+            impor<lb ed="#R" n="115" break="no"/>tat vnitas, &amp; e conuerso: sunt ergo duae rationes 
+            <lb ed="#R" n="116"/>positiue distinctae: impossibile est autem, quod sint 
+            <lb ed="#R" n="117"/>duae, nisi quaelibet sit vna, cum numerus binarius 
+            <lb ed="#R" n="118"/>ex vnitatibus componatur: ergo ratio entis est 
+            <lb ed="#R" n="119"/>vna, vt distinguitur a ratione vnitatis, &amp; vt praescin 
+            <lb ed="#R" n="120"/>ditur ab ea, alias non erunt duae distinctae: erit 
+            er<lb ed="#R" n="121" break="no"/>go vna sine vnitate, &amp; intelligetur esse vna ab 
+            in<lb ed="#R" n="122" break="no"/>tellectu distinguente illam ab vnitate. 
+          </p>
+          <p xml:id="paqqap-aa2551-d1e960">
+            <lb ed="#R" n="123"/>Rursum quaeram de ratione entis, quae ponitur 
+            <lb ed="#R" n="124"/>vna, &amp; vna intelligitur, vt distinguitur a ratione vni 
+            <lb ed="#R" n="125"/>tatis, vtrum sit vna per rationem aliam a se 
+            po<lb ed="#R" n="126" break="no"/>sitiuam, aut non. Si sic, habetur propositum, stan 
+            <lb ed="#R" n="127"/>dum enim fuit in primo. Si vero non, iam 
+            habe<lb ed="#R" n="128" break="no"/>mus duas rationes vnitatis, distinctas a 
+            ratione<lb ed="#R" n="129" break="no"/>entitatis, &amp; sic sunt res rationes vna entitatis, &amp; 
+            <lb ed="#R" n="130"/>duae duarum vnitatum, quare quaelibet est vna 
+            il<lb ed="#R" n="131" break="no"/>larum trium, vt ab inuicem distinguntur. 
+            Quaere<lb ed="#R" n="132" break="no"/>tur igitur rursum de ratione entitatis, quae 
+            poni<lb ed="#R" n="133" break="no"/>tur tertia; vtrum sit vna per rationem positiuam 
+            <lb ed="#R" n="134"/>additam sicut prius. Vnde patet, quod 
+            procede<lb ed="#R" n="135" break="no"/>tur in infinitum, &amp; quod erunt plures vnitates in 
+            <lb ed="#R" n="136"/>quolibet vno; et quod erit aliquid vnum sine vni- 
+            <!--0005.xml-->
+            <pb ed="#P" n="5"/>
+            <cb ed="#R" n="a"/>
+            <lb ed="#R" n="1"/>tate; et quod postquam intellectus abstrahit 
+            ra<lb ed="#R" n="2" break="no"/>tionem vnitatis ab aliquo, adhuc intelligit illud 
+            <lb ed="#R" n="3"/>vnum: sed manifestum est, quod hoc totum est 
+            im<lb ed="#R" n="4" break="no"/>possibile: ergo ratio vnitatis non est aliquid 
+            posi<lb ed="#R" n="5" break="no"/>tiuum additum rationi entis, nec in re, nec in 
+            in<lb ed="#R" n="6" break="no"/>tellectu.
+          </p>
+          <p xml:id="paqqap-aa2551-d1e1012">
+            <lb ed="#R" n="7"/>Praeterea idem apparet de ratione veritatis: si 
+            <lb ed="#R" n="8"/>enim fuerit alia a quacunque ratione quae ponitur 
+            <lb ed="#R" n="9"/>vera, tunc intelligeret illas duas distinctas 
+            ratio<lb ed="#R" n="10" break="no"/>nes, &amp; per consequens quaelibet est vera, quia 
+            quic<lb ed="#R" n="11" break="no"/>quid intelligitur, est verum; &amp; per consequens 
+            ra<lb ed="#R" n="12" break="no"/>tio entis, a qua distinguitur veritas, cum moueat 
+            <lb ed="#R" n="13"/>intellectum per se, vt distinguitur contra rationem 
+            <lb ed="#R" n="14"/>veritatis, erit vera siue idem veritatis, quia vt 
+            di<lb ed="#R" n="15" break="no"/>stinguitur, &amp; ponit ibi numerum contra rationem 
+            <lb ed="#R" n="16"/>veritatis est vera, procedetur etiam in infinitum, 
+            <lb ed="#R" n="17"/>vt patet ex dictis. 
+          </p>
+          <p xml:id="paqqap-aa2551-d1e1038">
+            <lb ed="#R" n="18"/>Et idem potest deduci de ratione bonitatis, &amp; 
+            <lb ed="#R" n="19"/>de omni taliter transcendente, de quo verum est di 
+            <lb ed="#R" n="20"/>cere, quod conuertatur cum ente, sic quantumcũ- 
+            <lb ed="#R" n="21"/>que omne aliud excludat, illud tale transcendens 
+            <lb ed="#R" n="22"/>sibi habet attribui. 
+          </p>
+          <p xml:id="paqqap-aa2551-d1e1051">
+            <lb ed="#R" n="23"/>Praeterea: quandocunq. conceptus aliqui sumpti 
+            <lb ed="#R" n="24"/>generaliter, &amp; in communi non important aliquam 
+            <lb ed="#R" n="25"/>determinatam rationem principaliter, &amp; in recto, 
+            <lb ed="#R" n="26"/>sed tantum connotatiue, &amp; in obliquo, ad 
+            quan<lb ed="#R" n="27" break="no"/>cunque rationem applicentur coincident in illam 
+            <lb ed="#R" n="28"/>formaliter, absque hoc, quod addant rationem 
+            <lb ed="#R" n="29"/>aliquam, nisi tantum in obliquo. hoc patet, quia 
+            <lb ed="#R" n="30"/>da oppositum, quod dum applicantur ad aliquam 
+            <lb ed="#R" n="31"/>rationem specialem, addant in recto illi rationi 
+            <lb ed="#R" n="32"/>aliquam aliam rationem, necessario oportebit, 
+            <lb ed="#R" n="33"/>quod in vniuersali dicant illam rationem 
+            deter<lb ed="#R" n="34" break="no"/>minatam per modum communis. Et ideo ens dum 
+            <lb ed="#R" n="35"/>applicatur ad lapideitatem, vel humanitatem 
+            co<lb ed="#R" n="36" break="no"/>incidit in rationes illas, non addita aliqua ratione: 
+            <lb ed="#R" n="37"/>non enim entitas humanitatis addit rationem 
+            ali<lb ed="#R" n="38" break="no"/>quam ad humanitatem, sed verum, vnum, bonum, 
+            <lb ed="#R" n="39"/>sumpta generaliter, &amp; in communi nullam 
+            ratio<lb ed="#R" n="40" break="no"/>nem determinatam important principaliter, &amp; in 
+            <lb ed="#R" n="41"/>recto, sed tantummodo in obliquo. Vnum enim, si 
+            <lb ed="#R" n="42"/>debeat definiri, non est nisi aliquid indiuisum 
+            quod<lb ed="#R" n="43" break="no"/>cumque iit illud. Similiter vnitas est illud, quo fun 
+            <lb ed="#R" n="44"/>damentaliter aliquid est indiuisum, 
+            quodcunque<lb ed="#R" n="45" break="no"/>sit illud, &amp; quaecunque ratio sit. vnde patet, quod so 
+            <lb ed="#R" n="46"/>lum indiuisio haec ponitur extrinsece, nulla autem 
+            <lb ed="#R" n="47"/>ratio determinata cadit in isto conceptu, quae vel 
+            <lb ed="#R" n="48"/>sit causa indiuisionis, vel sit subiectum. immo hoc 
+            <lb ed="#R" n="49"/>est commune omni rationi, quaecunque sit illa, vt 
+            <lb ed="#R" n="50"/>seipsa sit sibi causa indiuisionis, vt patet per 
+            Com<lb ed="#R" n="51" break="no"/>mentatorem 4. met. com. 3. &amp; per rationem primo 
+            <lb ed="#R" n="52"/>inductam. Similiter etiam verum est illud, quod 
+            <lb ed="#R" n="53"/>est motiuum intellectus, vt communiter dicitur, &amp; 
+            <lb ed="#R" n="54"/>veritas est illud, quo mouens intellectum habet 
+            mo<lb ed="#R" n="55" break="no"/>uere: hic autem nihil exprimitur determinatum in 
+            <lb ed="#R" n="56"/>obliquo, in recto autem indeterminatus conceptus 
+            <lb ed="#R" n="57"/>entis tantummodo, quem importat illud quo, &amp; 
+            <lb ed="#R" n="58"/>illud quod. 
+          </p>
+          <p xml:id="paqqap-aa2551-d1e1133">
+            <lb ed="#R" n="59"/>Et idem est de bono, quod sic describitur 1. Ethi 
+            <lb ed="#R" n="60"/>cor: Bonum est illud, quod omnia appetunt, &amp; 
+            bo<lb ed="#R" n="61" break="no"/>nitas illud quo: igitur est verum, quod haec tria 
+            <lb ed="#R" n="62"/>applicata ad quamcumque entitatem coincidunt 
+            <lb ed="#R" n="63"/>in idem re, &amp; ratione principaliter, &amp; in recto, nec 
+            <lb ed="#R" n="64"/>addūt modum, aut rationem realem intrinsece, sed 
+            <lb ed="#R" n="65"/>tantum determinatum connotatum. vnde 
+            lapi<lb ed="#R" n="66" break="no"/>deitas in ratione lapideitatis est quaedam vnitas, 
+            <lb ed="#R" n="67"/>inquantum est sibi ipsi ratio indiuisionis, &amp; quaedam 
+            <lb ed="#R" n="68"/>vnitas, inquantum est ratio motiua intellectus, &amp; 
+            <!--0005.xml-->
+            <cb ed="#R" n="b"/>
+            <lb ed="#R" n="69"/>bonitas, inquantum est terminatiua appetitus. 
+            ea<lb ed="#R" n="70" break="no"/>dem erga ratio principaliter &amp; in recto 
+            importa<lb ed="#R" n="71" break="no"/>tur per entitatem lapidis, veritatem, vnitatem, &amp; 
+            <lb ed="#R" n="72"/>bonitatē, &amp; tota diuersitas est in extrinseco conno 
+            <lb ed="#R" n="73"/>tato, scilicet in indiuisione motione intellectus, &amp; 
+            <lb ed="#R" n="74"/>motione appetitus. &amp; haec est vera regula istorum 
+            <lb ed="#R" n="75"/>transcendentium, in quibus consistit vestigium, &amp; 
+            <lb ed="#R" n="76"/>prout accipiuntur generaliter, &amp; in communi, 
+            nul<lb ed="#R" n="77" break="no"/>lam determinatam rationem important in recto, 
+            <lb ed="#R" n="78"/>sed solum conceptum entis includunt, &amp; tota 
+            de<lb ed="#R" n="79" break="no"/>terminatio est in extrinseco &amp; connotato. Cum 
+            <lb ed="#R" n="80"/>autem applicantur ad rem aliquam, coincidunt in 
+            <lb ed="#R" n="81"/>illam re &amp; ratione in recto, &amp; principaliter, 
+            reti<lb ed="#R" n="82" break="no"/>nent autem semper definitionem in connotato. 
+          </p>
+          <p xml:id="paqqap-aa2551-d1e1192">
+            <lb ed="#R" n="83"/>Haec in speciali de attributis in diuinis.
+          </p>
+          <p xml:id="paqqap-aa2551-d1e1197">
+            <lb ed="#R" n="84"/>TErtia Conclusio est, &amp; specialis de attributis 
+            <lb ed="#R" n="85"/>in diuinis, quod non sunt rationes reales, nec 
+            <lb ed="#R" n="86"/>modi quidditatiui, seu formales distincti inter se. 
+            <lb ed="#R" n="87"/>&amp; ab ipsa essentia siue deitate, immo coincidunt 
+            <lb ed="#R" n="88"/>simpliciter in idem re, &amp; ratione, quia in ratione 
+            <lb ed="#R" n="89"/>Deitatis, &amp; solum differunt extrinsece, &amp; in conno 
+            <lb ed="#R" n="90"/>tatis. hoc autem patet ex intentione Sanctorum, di 
+            <lb ed="#R" n="91"/>cit enim Augustinus in libro de gaudijs electorum, 
+            <lb ed="#R" n="92"/>vel de triplici habitaculo, quod in patria iustis erit 
+            <lb ed="#R" n="93"/>manifestum, quomodo omnia, quae Dei sunt, vnum 
+            <lb ed="#R" n="94"/>in Deo sunt. Sapientia enim Dei non magis sapien 
+            <lb ed="#R" n="95"/>tia, quam veritas est, &amp; non magis veritas est 
+            veri<lb ed="#R" n="96" break="no"/>tas, quam sapientia, &amp; quam aeternitas, &amp; quam 
+            <lb ed="#R" n="97"/>caetera Dei omnia. Et non solum haec inter se eadem 
+            <lb ed="#R" n="98"/>sunt, sed non aliud, quam ipse Deus sunt. haec 
+            Au<lb ed="#R" n="99" break="no"/>gustinus. constat autem, quod si veritas, sapientia, 
+            <lb ed="#R" n="100"/>&amp; aeternitas, &amp; caetera attributa dicerent distinctas 
+            <lb ed="#R" n="101"/>formalitates, aut rationes, tunc sapientia magis 
+            <lb ed="#R" n="102"/>esset sapientia quam veritas, &amp; e conuerso, veritas 
+            <lb ed="#R" n="103"/>magis veritas quam sapientia: nam veritas esset 
+            <lb ed="#R" n="104"/>veritas formaliter, &amp; essentialiter, esset autem 
+            sa<lb ed="#R" n="105" break="no"/>pientia tantum realiter, &amp; non formaliter, quod 
+            <lb ed="#R" n="106"/>autem est aliquid formaliter &amp; realiter, est magis 
+            <lb ed="#R" n="107"/>ipsum, quam si fuerit tantum realiter, &amp; differat 
+            for<lb ed="#R" n="108" break="no"/>maliter, siue quidditatiue: ergo. Similiter Ansel. 
+            Mo<lb ed="#R" n="109" break="no"/>nol. c. 17. loquens de huiusmodi perfectionibus, 
+            di<lb ed="#R" n="110" break="no"/>cit, quod cum tot bona illa summa essentia sit, 
+            ne<lb ed="#R" n="111" break="no"/>cesse est, quod omnia illa, non plura: sed vnum sint, 
+            <lb ed="#R" n="112"/>cum enim dicitur iustitia, vel essentia, idem 
+            signifi<lb ed="#R" n="113" break="no"/>catur, ac si dicerent omnia alia: &amp; subdit. 
+            Quem<lb ed="#R" n="114" break="no"/>admodum itaque vnum est, quicquid de summa 
+            <lb ed="#R" n="115"/>essentia dicitur, ita vno modo, &amp; vna 
+            considera<lb ed="#R" n="116" break="no"/>tione est, illa enim summa essentia nullo modo sic 
+            <lb ed="#R" n="117"/>est aliquid, vt illud idem secundum alium modum, 
+            <lb ed="#R" n="118"/>aut secundum aliam considerationem sit, quia 
+            <lb ed="#R" n="119"/>quicquid aliquo modo essentialiter est hoc totum, 
+            <lb ed="#R" n="120"/>quod ipsa est. haec Ansel. Ex quibus patet, quod 
+            <lb ed="#R" n="121"/>perfectiones in diuinis non sunt alij, &amp; alij modi 
+            <lb ed="#R" n="122"/>reales, nec aliae quidditatiuae rationes, sed ipsamet 
+            <lb ed="#R" n="123"/>ratio Deitatis. 
+          </p>
+          <p xml:id="paqqap-aa2551-d1e1286">
+            <lb ed="#R" n="124"/>Praeterea: non minus intrinsece est Deitas 
+            sum<lb ed="#R" n="125" break="no"/>ma iustitia, aut summa sapientia quam qualitas 
+            il<lb ed="#R" n="126" break="no"/>la, quae est in mente sapientis sit sapientia alioquin 
+            <lb ed="#R" n="127"/>perfectiones simpliciter intimius inessent creaturis 
+            <lb ed="#R" n="128"/>quam Deitati, quod impossibile est: sed constat, 
+            <lb ed="#R" n="129"/>quod qualitas illa quae est in mente iusti, &amp; per suam 
+            <lb ed="#R" n="130"/>propriam &amp; specificam rationem est iustitia, &amp; non 
+            <lb ed="#R" n="131"/>per rationem aliquam additam, ex hoc solo, quod 
+            <lb ed="#R" n="132"/>est respectu iusti illud, quod reddit vnicuique, 
+            <lb ed="#R" n="133"/>quod suum esse. Similiter &amp; illa qualitas, quae est 
+            <lb ed="#R" n="134"/>in mente sapientis per suam specificam rationem, 
+            <!--0006.xml-->
+            <pb ed="#P" n="6"/>
+            <cb ed="#R" n="a"/>
+            <lb ed="#R" n="1"/>&amp; non per mo dum realem additum vere sapientia 
+            <lb ed="#R" n="2"/>est, ex hoc, quod est intellectui illud, quo 
+            verita<lb ed="#R" n="3" break="no"/>tes scientiales sibi lucent, &amp; apparent, sic multo for 
+            <lb ed="#R" n="4"/>tius Deitas ipsa per suam propriam rationem 
+            Dei<lb ed="#R" n="5" break="no"/>tatis erit iustitia, inquantum erit illud, quo Deus 
+            <lb ed="#R" n="6"/>reddit vnicuique, quod suum est. Et sapientia, 
+            in<lb ed="#R" n="7" break="no"/>quantum erit illud, quo lucent sibi, &amp; apparent 
+            <lb ed="#R" n="8"/>omnia, &amp; per consequens sola dicitur inter 
+            sa<lb ed="#R" n="9" break="no"/>pientiam, &amp; iustitiam in Deitatem, &amp; penes 
+            con<lb ed="#R" n="10" break="no"/>notata, quorum vnum est reddere vnicunque, quod 
+            <lb ed="#R" n="11"/>suum est; alterum vero omnia lucere seu apparere 
+            <lb ed="#R" n="12"/>in ratione, cum qua nulla erit distinctio, quia 
+            ip<lb ed="#R" n="13" break="no"/>sa est simplicissima ratio Deitatis, qua omnia 
+            ap<lb ed="#R" n="14" break="no"/>parent, &amp; qua redditur vnicuique quod suum est. 
+          </p>
+          <p xml:id="paqqap-aa2551-d1e1349">
+            <lb ed="#R" n="15"/>Confirmatur autem ex dico Ansel. Si enim 
+            per<lb ed="#R" n="16" break="no"/>fectiones istae essent modi reales, aut rationes aliae 
+            <lb ed="#R" n="17"/>quidditatiuae a ratione Deitatis, non 
+            praedicaren<lb ed="#R" n="18" break="no"/>tur quidditatiue &amp; formaliter de ipsa Deitate. 
+            An<lb ed="#R" n="19" break="no"/>sel. dicit, quod praedicantur quidditatiue: quod 
+            <lb ed="#R" n="20"/>n. respondetur ad interrogationem factam per quid, prae 
+            <lb ed="#R" n="21"/>dicatur in quid, vt patet 1. Topic. Dicit autem Ansel. 
+            <lb ed="#R" n="22"/>quod si quaeratur, quid sit summa essentia, nihil verius 
+            <lb ed="#R" n="23"/>respondetur quam, quod est iustitia summa, vita 
+            <lb ed="#R" n="24"/>summa, veritas summa, ratio, &amp; sic de alijs; ergo 
+            <lb ed="#R" n="25"/>non sunt modi reales siue quidditatiuae rationes, 
+            <lb ed="#R" n="26"/>imo ipsamet ratio Deitatis simpliciter. 
+          </p>
+          <p xml:id="paqqap-aa2551-d1e1378">
+            <lb ed="#R" n="27"/>Praeterea: quandocunque aliqua secundum suos 
+            <lb ed="#R" n="28"/>conceptus communes &amp; generales nullam 
+            deter<lb ed="#R" n="29" break="no"/>minatam rationem important principaliter, &amp; in 
+            <lb ed="#R" n="30"/>in recto, sed dicunt totum conceptum entis 
+            inde<lb ed="#R" n="31" break="no"/>terminate, &amp; sola determinatio est in connotato 
+            <lb ed="#R" n="32"/>extrinseco, si contingat illa applicari ad 
+            determi<lb ed="#R" n="33" break="no"/>natum aliquod necessario coincidunt in illud re, 
+            <lb ed="#R" n="34"/>&amp; ratione vt supra declaratum est, &amp; patet quod 
+            <lb ed="#R" n="35"/>conceptus entis dum applicatur ad hominem, 
+            in<lb ed="#R" n="36" break="no"/>cidit in rationem hominis, non enim entitas 
+            hu<lb ed="#R" n="37" break="no"/>mana, &amp; sua humanitas differunt ratione: sed 
+            per<lb ed="#R" n="38" break="no"/>fectiones actuales in genera li acceptae nullam 
+            de<lb ed="#R" n="39" break="no"/>terminatam rationem includunt principaliter, &amp; 
+            <lb ed="#R" n="40"/>in recto, sed indeterminate totum conceptum 
+            en<lb ed="#R" n="41" break="no"/>tis: extrinsece tamen, &amp; in obliquo important 
+            ali<lb ed="#R" n="42" break="no"/>quid determinatum. hoc autem patet, si dentur 
+            ge<lb ed="#R" n="43" break="no"/>nerales definitiones earum. Si enim definitur 
+            iu<lb ed="#R" n="44" break="no"/>stitia dices, quod est illud, quo redditur vnicuiq. 
+            <lb ed="#R" n="45"/>quod suum est, cum autem dico illud, quo, non explico 
+            ali<lb ed="#R" n="46" break="no"/>quam determinatam rationem, quia siue illud sue 
+            <lb ed="#R" n="47"/>rit qualitas sicut in creaturis, siue substantia, vt in 
+            <lb ed="#R" n="48"/>Deo, ipsum erit iustitia. imo si per impossibile 
+            po<lb ed="#R" n="49" break="no"/>neretur, quod anima iusti sine qualitate esset 
+            il<lb ed="#R" n="50" break="no"/>lud quo, tunc ipsa vere anima esset iustitia; imo 
+            <lb ed="#R" n="51"/>&amp; si per digitum aut per capillos inclinaretur 
+            iu<lb ed="#R" n="52" break="no"/>stus ad reddendum vnicuique, quod suum est, 
+            di<lb ed="#R" n="53" break="no"/>gitus vel capillus esset in eo iustitia. Et idem 
+            pa<lb ed="#R" n="54" break="no"/>tet de misericordia; est enim illud, quod miseri mi 
+            <lb ed="#R" n="55"/>seriae releuantur, &amp; idem de sapientia, cum dicit 
+            il<lb ed="#R" n="56" break="no"/>lud quo veritas obiectiue lucet, quod cunque sit 
+            il<lb ed="#R" n="57" break="no"/>lud, &amp; quaecunque ratio sit, nulla enim 
+            determi<lb ed="#R" n="58" break="no"/>natur: ergo persectiones huiusmodi, dum 
+            appli<lb ed="#R" n="59" break="no"/>cute nutut aut ut euntouse titut 
+            <lb ed="#R" n="60"/>&amp; in recto, &amp; differunt tantum in connotato. 
+          </p>
+          <p xml:id="paqqap-aa2551-d1e1455">
+            <lb ed="#R" n="61"/>Constat enim, quod Deus per rationem 
+            Deita<lb ed="#R" n="62" break="no"/>tis poteit reddere vnicuique, quod suum est, &amp; 
+            <lb ed="#R" n="63"/>per eandem miseri miserias releuare, &amp; per 
+            ean<lb ed="#R" n="64" break="no"/>dem omiia sibi lucent: per consequens ratio 
+            Dei<lb ed="#R" n="65" break="no"/>tatis esc illud, quod respectu omnium istorum: 
+            <lb ed="#R" n="66"/>nec oportet, quod induat modos aut rationes 
+            rea<lb ed="#R" n="67" break="no"/>les siue formalitates alias, vt sit illud quo respectu 
+            <!--0006.xml-->
+            <cb ed="#R" n="b"/>
+            <lb ed="#R" n="68"/>istorum: est i gitur nulla ratione intrinsece sibi 
+            ad<lb ed="#R" n="69" break="no"/>dita summa misericordia summa iustitia. 
+          </p>
+          <p xml:id="paqqap-aa2551-d1e1481">
+            <lb ed="#R" n="70"/>Ex quo patet, quod motiuum quorundam, quo 
+            <lb ed="#R" n="71"/>mouentur ad oppositum, falso innititur, assumunt 
+            <lb ed="#R" n="72"/>enim, quod rationes formales huiusmodi 
+            perfe<lb ed="#R" n="73" break="no"/>ctionum acceptae in generali differunt 
+            quidditati<lb ed="#R" n="74" break="no"/>ue etiam in Deo. Non est enim verum, quod 
+            se<lb ed="#R" n="75" break="no"/>cundum rationes generales differant quidditatiue 
+            <lb ed="#R" n="76"/>&amp; in recto, &amp; in conceptu principali, cum in 
+            defi<lb ed="#R" n="77" break="no"/>nitione cuiuslibet ponatur conceptus entis, 
+            abs<lb ed="#R" n="78" break="no"/>que vlla determinatione, nisi extrinsece, vt decla 
+            <lb ed="#R" n="79"/>ratum est. 
+          </p>
+          <p xml:id="paqqap-aa2551-d1e1505">
+            <lb ed="#R" n="80"/>Et si dicatur, quod imo videtur illud, quo, 
+            im<lb ed="#R" n="81" break="no"/>portare determinatam rationem, quia rationem 
+            <lb ed="#R" n="82"/>principij, non valet, quia ly, quo, se tenet ex parte 
+            <lb ed="#R" n="83"/>connotati, &amp; extrinseci, non enim iustitia in recto 
+            <lb ed="#R" n="84"/>&amp; formaliter est illud quo siue habitudo principij, 
+            <lb ed="#R" n="85"/>sed fundamentum. Patet etiam, quod 
+            incompe<lb ed="#R" n="86" break="no"/>tenter illud dicitur a quibusdam de rationibus 
+            <lb ed="#R" n="87"/>perfectionalibus, quod non repugnant perfectioni sim 
+            <lb ed="#R" n="88"/>pliciter, si ponantur plures tales rationes 
+            perficien<lb ed="#R" n="89" break="no"/>tes. hoc quidem verum non est, imo 
+            imperfectis<lb ed="#R" n="90" break="no"/>sima erit ratio Diuinitatis, si perficiatur per 
+            ratio<lb ed="#R" n="91" break="no"/>nes aliquas sicut &amp; imperfecta, &amp; re &amp; ratione si 
+            <lb ed="#R" n="92"/>omnes rationes coincidant principaliter, &amp; in 
+            re<lb ed="#R" n="93" break="no"/>cto in rem, &amp; in rationem simplicem Deitatis sola 
+            <lb ed="#R" n="94"/>distinctione extrinsece, &amp; in connotato. &amp; haec 
+            <lb ed="#R" n="95"/>est expressa sententia Magistri Sent. lib. 1. dist. 8. 
+            <lb ed="#R" n="96"/>&amp; dist. 45. 
+          </p>
+          <p xml:id="paqqap-aa2551-d1e1544">
+            <lb ed="#R" n="97"/>Nunc tertio dicendum ad motiua 
+            opi<lb ed="#R" n="98" break="no"/>nionis praecedentis. 
+          </p>
+          <p xml:id="paqqap-aa2551-d1e1551">
+            <lb ed="#R" n="99"/>AD primum quidem, quod essentia seu 
+            quid<lb ed="#R" n="100" break="no"/>ditas abstrahit ab esse secundum 
+            considera<lb ed="#R" n="101" break="no"/>tionem, sicut etiam &amp; ip summet esse potest 
+            con<lb ed="#R" n="102" break="no"/>cipi vt differenter se habens ad hoc, quod sit vel 
+            <lb ed="#R" n="103"/>non sit: potest enim dubitari non solum de essentia 
+            <lb ed="#R" n="104"/>rosae, vtrum nunc sit, vel non sit, sed eodem modo 
+            <lb ed="#R" n="105"/>de suo existere, vtrum nunc ponatur, vel non 
+            po<lb ed="#R" n="106" break="no"/>natur: non est verum ergo, quod plures 
+            quiddi<lb ed="#R" n="107" break="no"/>tates seu essentiae habere possint vnam realitatem 
+            <lb ed="#R" n="108"/>simpliciter, cum non differat quidditas, &amp; 
+            reali<lb ed="#R" n="109" break="no"/>tas, &amp; essentia vt ex superioribus patet. 
+          </p>
+          <p xml:id="paqqap-aa2551-d1e1577">
+            <lb ed="#R" n="110"/>Ad secundum dicendum, quod de eadem re 
+            sim<lb ed="#R" n="111" break="no"/>plici formantur plures conceptus, qui 
+            terminan<lb ed="#R" n="112" break="no"/>tur ad eandem rem, sed sicut conceptiones 
+            for<lb ed="#R" n="113" break="no"/>males existentes in intellectu sunt plures, sic illa 
+            <lb ed="#R" n="114"/>res in suo concipi possibile apparet plures, nec 
+            ta<lb ed="#R" n="115" break="no"/>men illa pluralitas est in re absente, sed in re vt 
+            <lb ed="#R" n="116"/>concepta siue in concipi. Sicut &amp; vna candela 
+            <lb ed="#R" n="117"/>apparet duae, dum eleuatur digito alter oculorum 
+            <lb ed="#R" n="118"/>propter duas visiones. 
+          </p>
+          <p xml:id="paqqap-aa2551-d1e1600">
+            <lb ed="#R" n="119"/>Et cum dicitur, quod alter conceptuum 
+            super<lb ed="#R" n="120" break="no"/>fluit, &amp; est fictitius, &amp; vanus, dicendum, quod 
+            <lb ed="#R" n="121"/>quia conceptiones actus vel actiuae, nec vanae sunt 
+            <lb ed="#R" n="122"/>nec superfluunt, quia de eadem re possent haberi 
+            <lb ed="#R" n="123"/>plures intellectiones differentes secundum magis 
+            <lb ed="#R" n="124"/>&amp; minus perfectum clarum, &amp; obscurum, 
+            confu<lb ed="#R" n="125" break="no"/>sum, &amp; determinatum, &amp; ideo nec ex parte rei 
+            <lb ed="#R" n="126"/>vanum est, aut superfluum habere huiusmodi 
+            di<lb ed="#R" n="127" break="no"/>uersitatem non quidem in se, sed in esse concepto 
+            <lb ed="#R" n="128"/>&amp; apparenti. 
+          </p>
+          <p xml:id="paqqap-aa2551-d1e1624">
+            <lb ed="#R" n="129"/>Haec in speciali ad motiua de 
+            transcen<lb ed="#R" n="130" break="no"/>dentibus. 
+          </p>
+          <p xml:id="paqqap-aa2551-d1e1631">
+            <lb ed="#R" n="131"/>AD tertium, quod inducitur pro 
+            transcen<lb ed="#R" n="132" break="no"/>dentibus, in quibus consistit ratio vestigij. 
+            <lb ed="#R" n="133"/>Dicendum, quod sicut non differunt realiter ab en 
+            <lb ed="#R" n="134"/>te, in quo sunt: sic nec differunt ratione intrinsece, 
+            <!--0007.xml-->
+            <pb ed="#P" n="7"/>
+            <cb ed="#R" n="a"/>
+            <lb ed="#R" n="1"/>&amp; in recto, sed tantum extrinsece, vt declaratum 
+            <lb ed="#R" n="2"/>est. Nec tamen erit nugatio, quia exteriora 
+            <lb ed="#R" n="3"/>connotata tollunt nugationem ab eo, quod 
+            ac<lb ed="#R" n="4" break="no"/>cidit enti indiuiso huic totalitati, quod sit ens 
+            mo<lb ed="#R" n="5" break="no"/>tiuum intellectus, &amp; ita vni accidit verum, &amp; 
+            si<lb ed="#R" n="6" break="no"/>militer enti, &amp; totum hoc est ratione connotati. 
+            Si<lb ed="#R" n="7" break="no"/>militer etiam realis scientia potest esse de talibus 
+            <lb ed="#R" n="8"/>conceptibus, qui lsic. in generali differunt, sicut 
+            <lb ed="#R" n="9"/>vnum &amp; verum, &amp; bonum, non quidem in recto; 
+            <lb ed="#R" n="10"/>sed in connotato, nec tales conceptus sunt 
+            secun<lb ed="#R" n="11" break="no"/>dae intentiones: non enim sunt conceptus fundati 
+            <lb ed="#R" n="12"/>super alios conceptus sicut conceptus generis, 
+            <lb ed="#R" n="13"/>&amp; speciei, similiter etiam definitiones veri &amp; boni 
+            <lb ed="#R" n="14"/>diuersae sunt propter connotata: nam quantum ad 
+            <lb ed="#R" n="15"/>illud, quod dicunt in recto, declaratum est supra, 
+            <lb ed="#R" n="16"/>quod nullam determinatam rationem important: 
+            <lb ed="#R" n="17"/>sed totum conceptum entis in sua determinatione, 
+            <lb ed="#R" n="18"/>qui tamen arctatur per vnum connotatum vt 
+            dica<lb ed="#R" n="19" break="no"/>tur verum, &amp; per aliud vt dicatur bonum. &amp; hoc 
+            <lb ed="#R" n="20"/>sufficit ad diuersitatem definitionum, &amp; ad 
+            tollen<lb ed="#R" n="21" break="no"/>dum nugationem, &amp; ad hoc, quod de ipsis sit 
+            rea<lb ed="#R" n="22" break="no"/>liter scientia. Similiter etiam intellectus, &amp; 
+            volun<lb ed="#R" n="23" break="no"/>tas ferri possunt in idem re &amp; ratione intrinsece, &amp; 
+            <lb ed="#R" n="24"/>in recto est veritas, &amp; bonitas, &amp; a motione 
+            volun<lb ed="#R" n="25" break="no"/>tatis. Similiter ratio vestigij, quam non potest 
+            effu<lb ed="#R" n="26" break="no"/>gere aliqua res, seuratio, euidenter concludit, 
+            <lb ed="#R" n="27"/>quod illa tria, in quibus vestigium consistit, 
+            coinci<lb ed="#R" n="28" break="no"/>dant in eadem vel omnem rem, &amp; rationem, &amp; per 
+            <lb ed="#R" n="29"/>consequens, quod sit ratio in recto, nec tolletur 
+            ve<lb ed="#R" n="30" break="no"/>stigium, dato quod intellectus non consideret: nam 
+            <lb ed="#R" n="31"/>apta nata est quae libet ratio mouere intellectum, 
+            <lb ed="#R" n="32"/>&amp; voluntatem, &amp; esse causa indiuisionis sibi ipsi ex 
+            <lb ed="#R" n="33"/>natura rei, siue intelligatur, siue non intelligatur, 
+            <lb ed="#R" n="34"/>&amp; per conse quens est vera, bona, &amp; vna 
+            circunscri<lb ed="#R" n="35" break="no"/>pto intellectu. 
+          </p>
+          <p xml:id="paqqap-aa2551-d1e1725">
+            <lb ed="#R" n="36"/>Haec in speciali ad motiua de attributis.
+          </p>
+          <p xml:id="paqqap-aa2551-d1e1730">
+            <lb ed="#R" n="37"/>AD quartum de attributis dicendum, quod 
+            af<lb ed="#R" n="38" break="no"/>Afirmatio, &amp; negatio de praedicato 
+            connotati<lb ed="#R" n="39" break="no"/>uo non exigit in subiecto distinctionem aliquam, 
+            <lb ed="#R" n="40"/>nisi tantum penes connotata, talia vero sunt omnia 
+            <lb ed="#R" n="41"/>praedicata, quae affirmantur in diuinis de vno attri 
+            <lb ed="#R" n="42"/>buto, &amp; negantur de altero. &amp; cum instatur 
+            con<lb ed="#R" n="43" break="no"/>tra ista connotata, quod si A. connotat, &amp; B, non 
+            <lb ed="#R" n="44"/>connotat: igitur a, &amp; b, non sunt idem: dicendum, 
+            <lb ed="#R" n="45"/>quod connotare non est agere, sed rationem 
+            ali<lb ed="#R" n="46" break="no"/>quam in recto cum aliqua in obliquo accipere: nunc 
+            <lb ed="#R" n="47"/>autem vna, &amp; eadem ratio, vtpote ratio Deitatis, 
+            <lb ed="#R" n="48"/>concipi potest absolute, &amp; potest accipi, vt omne, 
+            <lb ed="#R" n="49"/>quod est per eam, ponitur in esse prospecto, &amp; vt 
+            <lb ed="#R" n="50"/>per eam: redditur omnibus, quod suum est, &amp; quia 
+            <lb ed="#R" n="51"/>quicquid contingit intelligere, contingit 
+            significa<lb ed="#R" n="52" break="no"/>re dictionem exprimere, idcirco conceptui 
+            Deita<lb ed="#R" n="53" break="no"/>tis praeciso imponitur nomen, quod appellatur 
+            <lb ed="#R" n="54"/>Deitas: conceptui vero eiusdem Deitatis simul cum 
+            <lb ed="#R" n="55"/>isto extrinseco habere omnia in prospectu 
+            imponi<lb ed="#R" n="56" break="no"/>tur nomen intellectus: conceptui vero eiusdem 
+            <lb ed="#R" n="57"/>cum hoc extrinseco reddere vnicuique, quod suum 
+            <lb ed="#R" n="58"/>est, imponitur nomen iustitiae, &amp; sic de alijs 
+            attri<lb ed="#R" n="59" break="no"/>butis intelligendum est. 
+          </p>
+          <p xml:id="paqqap-aa2551-d1e1782">
+            <lb ed="#R" n="60"/>Cum ergo dicitur, quod aliquid connotat 
+            intel<lb ed="#R" n="61" break="no"/>lectus, quod non voluntas, sensus; est, quod 
+            Dei<lb ed="#R" n="62" break="no"/>tas, prout dicitur voluntas, accipitur cum aliquo 
+            <lb ed="#R" n="63"/>extrinseco, cum quo non accipitur, dum 
+            appella<lb ed="#R" n="64" break="no"/>tur intellectus, &amp; e conuerso: non ergo ponitur 
+            <lb ed="#R" n="65"/>contradictio, si vna, &amp; eadem ratio accepta cum 
+            <lb ed="#R" n="66"/>diuersis, &amp; cum hoc habens diuersa nomina, sub 
+            <!--0007.xml-->
+            <cb ed="#R" n="b"/>
+            <lb ed="#R" n="67"/>vno nomine connotat vnum, &amp; sub alio connotet 
+            <lb ed="#R" n="68"/>aliud. Quod autem additur sub diuina essentia 
+            <lb ed="#R" n="69"/>quod verum est Deum intelligere suam essentiam, 
+            <lb ed="#R" n="70"/>&amp; velle eam: dicendum, quod essentia non est ipsum 
+            <lb ed="#R" n="71"/>connotatum per intelligere praecise sumpta, sed vt 
+            <lb ed="#R" n="72"/>ponitur in apparenti esse, nil aliud est enim diuinam 
+            <lb ed="#R" n="73"/>essentiam a Deo intelligi, quam esse sibi praesentem 
+            <lb ed="#R" n="74"/>in esle apparente, &amp; idem est de esse volito; vnde 
+            <lb ed="#R" n="75"/>quia esse apparens, &amp; esse notum vel volitum aliud 
+            <lb ed="#R" n="76"/>est: idcirco intelligere, &amp; velle in Diuinis, dicunt 
+            <lb ed="#R" n="77"/>Deitatem sub alio, &amp; alio connotato: quia 
+            intel<lb ed="#R" n="78" break="no"/>ligere dicit eam, prout est illud, quo ponuntur 
+            om<lb ed="#R" n="79" break="no"/>nia sibi in prospectu siue bona, siue mala, siue essen 
+            <lb ed="#R" n="80"/>tia creata, siue essentia increata; sed velle dicit ean 
+            <lb ed="#R" n="81"/>dem non prout est illud, quo omnia ponuntur 
+            in<lb ed="#R" n="82" break="no"/>esse prospecto, sed in alio esse. 
+          </p>
+          <p xml:id="paqqap-aa2551-d1e1840">
+            <lb ed="#R" n="83"/>Ad quintum dicendum, quod falsum assumitur, 
+            <lb ed="#R" n="84"/>scilicet, quod intellectus &amp; voluntas sint principia 
+            <lb ed="#R" n="85"/>emanationum in diuinis: productiones enim non 
+            ha<lb ed="#R" n="86" break="no"/>bent elicitiua principia, sed sunt res a se, vt dicetur 
+            <lb ed="#R" n="87"/>in quaestione sequenti. 
+          </p>
+          <p xml:id="paqqap-aa2551-d1e1853">
+            <lb ed="#R" n="88"/>Rursum falsum assumitur, quod idem re, &amp; 
+            ra<lb ed="#R" n="89" break="no"/>tione possit esse principium productiuum alterius 
+            <lb ed="#R" n="90"/>rationis, sicut Sol generationis planctarum &amp; mine 
+            <lb ed="#R" n="91"/>ralium causa est per eandem rationem, vnde &amp; illi 
+            <lb ed="#R" n="92"/>qui innituntur rationi praedictae, dixerunt alibi, 
+            <lb ed="#R" n="93"/>quod potentiae animae non oportet vt 
+            distinguan<lb ed="#R" n="94" break="no"/>tur, quamuis anima sit principium operationum 
+            <lb ed="#R" n="95"/>alterius rationis: nec vident, vt aslerunt, 
+            necessita<lb ed="#R" n="96" break="no"/>tem ponendi distinctionem in potentijs animae 
+            pro<lb ed="#R" n="97" break="no"/>pter aliquam rationem: sed solum propter 
+            aucto<lb ed="#R" n="98" break="no"/>ritates.
+          </p>
+          <p xml:id="paqqap-aa2551-d1e1879">
+            <lb ed="#R" n="99"/>Rursus: si ratio praedicta concluderet, 
+            praedica<lb ed="#R" n="100" break="no"/>ret vtique inter principia productiua, non quidem 
+            <lb ed="#R" n="101"/>dictionem tantummodo formalem, immo realem; 
+            <lb ed="#R" n="102"/>quia productiones sunt distinctae realiter &amp; sunt ve 
+            <lb ed="#R" n="103"/>rae res, &amp; idcirco non possunt dependere a non re. 
+            <lb ed="#R" n="104"/>Vnde cum causa, vel lit nobilior effectu, vel aeque 
+            <lb ed="#R" n="105"/>nobilis, si distinctio principiorum sit causa distin 
+            <lb ed="#R" n="106"/>ctionis realium productionum, oportebit, quod sit 
+            <lb ed="#R" n="107"/>realis. cum vero additur, quod idem non potest 
+            <lb ed="#R" n="108"/>esse principium liberum, &amp; non liberum, verum 
+            <lb ed="#R" n="109"/>est in ordine ad eundem actum: nam liberum est 
+            <lb ed="#R" n="110"/>de praedicatis connotatiuis non absolutis: 
+            non<lb ed="#R" n="111" break="no"/>enim potentia dicitur ex alio libera, nisi quia 
+            libe<lb ed="#R" n="112" break="no"/>re potest in actum, non quia libertas sit modus 
+            <lb ed="#R" n="113"/>aliquis absolutus in ea, Verbum, &amp; Spiritus sanctus 
+            <lb ed="#R" n="114"/>in diuinis dicuntur differre ratione, &amp; quod vnum 
+            <lb ed="#R" n="115"/>emanat modo intellectus, reliquum modo 
+            volun<lb ed="#R" n="116" break="no"/>tatis, non propter elicitiua principia, sed propter 
+            <lb ed="#R" n="117"/>ipsas productiones inelicitas, quarum vna est 
+            di<lb ed="#R" n="118" break="no"/>cere, &amp; reliqua spirare, &amp; quae seipsis sormaliter 
+            <lb ed="#R" n="119"/>distinguuntur, sicut productio intelligibilis, &amp; 
+            vo<lb ed="#R" n="120" break="no"/>luntaria, &amp; liberalis, sicut alias dictum est. 
+          </p>
+          <p xml:id="paqqap-aa2551-d1e1929">
+            <lb ed="#R" n="121"/>Sed contra praedicta dicetur, quod huiusmodi 
+            <lb ed="#R" n="122"/>connotationes non videntur nisi quaedam 
+            relatio<lb ed="#R" n="123" break="no"/>nes, &amp; sic attributa erunt formaliter relatiua: 
+            di<lb ed="#R" n="124" break="no"/>cendum ergo ad hoc, quod sunt relatiua non 
+            se<lb ed="#R" n="125" break="no"/>cundum esse, sed secundum dici. Includent enim 
+            <lb ed="#R" n="126"/>veritatem in recto, in obliquo vero relationem 
+            <lb ed="#R" n="127"/>principij respectu diuersorum, quae quidem 
+            rela<lb ed="#R" n="128" break="no"/>tio importatur per dictionem illam, quo 
+            mise<lb ed="#R" n="129" break="no"/>ria releuatur, vel quo redditur vnicuique, quod 
+            <lb ed="#R" n="130"/>suum est. 
+          </p>
+          <p xml:id="paqqap-aa2551-d1e1953">
+            <lb ed="#R" n="131"/>Si dubitetur etiam, quod esse apparens, quod 
+            <lb ed="#R" n="132"/>per intelligere connotatur, &amp; esse volitum, quod 
+            <lb ed="#R" n="133"/>connotatur per velle, non videntur esse causa distin 
+            <lb ed="#R" n="134"/>guendi intellectionem &amp; volitionem, immo magis 
+            <!--0008.xml-->
+            <pb ed="#P" n="8"/>
+            <cb ed="#R" n="a"/>
+            <lb ed="#R" n="1"/>e contrario intelligendo, nam, quod dat obiecto, 
+            <lb ed="#R" n="2"/>quod, habeat esse intellectum, &amp; apparens, &amp; 
+            vo<lb ed="#R" n="3" break="no"/>lito, quod habeat esse volitum, quare si intentio, 
+            <lb ed="#R" n="4"/>&amp; volitio, &amp; intellectum intrinsece non differunt, 
+            <lb ed="#R" n="5"/>non different esse volitum, &amp; intellectum. 
+            Dicen<lb ed="#R" n="6" break="no"/>dum ad hoc, quod esse apparens, &amp; esse notum 
+            <lb ed="#R" n="7"/>seu esse latum per amorem, quod proprie 
+            conno<lb ed="#R" n="8" break="no"/>tatur per velle in diuinis non autem esse volitum, 
+            <lb ed="#R" n="9"/>nec esse intellectum exigunt quid intel lectionis, &amp; 
+            <lb ed="#R" n="10"/>volitionis, non distinctionem in ratione veritatis 
+            <lb ed="#R" n="11"/>absoluta, sed in ipso dicere, seu formare, quo obie 
+            <lb ed="#R" n="12"/>ctum capit esse apparens, &amp; in ipso spirare, seu 
+            da<lb ed="#R" n="13" break="no"/>re, quo capit esse latum, &amp; datum. Dicere autem, 
+            <lb ed="#R" n="14"/>&amp; spirare non pertinent intrinsece ad intelligere, 
+            <lb ed="#R" n="15"/>&amp; velle, &amp; idcirco diuersitas horum connotatorum 
+            <lb ed="#R" n="16"/>non reducitur ad distinctionem spirationis, &amp; 
+            di<lb ed="#R" n="17" break="no"/>ctionis, quae in diuinis seipsis realiter 
+            distinguun<lb ed="#R" n="18" break="no"/>tur. 
+          </p>
+          <p xml:id="paqqap-aa2551-d1e2010">
+            <lb ed="#R" n="19"/>Ad sextum dicendum, quod Philosophus dicit 
+            <lb ed="#R" n="20"/>Iustitiam legalem, &amp; omnem virtutem differre 
+            <lb ed="#R" n="21"/>in esse, hoc est in esse: Si virtus legalis sit distinctus 
+            <lb ed="#R" n="22"/>habitus ab omnibus virtutibus, tunc differt in esse, 
+            <lb ed="#R" n="23"/>hoc est connotatiue penes opera, vel quia respectum 
+            <lb ed="#R" n="24"/>alium connotat. Illud vero, quod dicit de politica, 
+            <lb ed="#R" n="25"/>&amp; prudentia, quod sunt idem habitus, sed differunt 
+            <lb ed="#R" n="26"/>in esse, intelligit, quod sunt idem habitus in 
+            gene<lb ed="#R" n="27" break="no"/>re, quae est recta ratio agibilium, tamen 
+            diffe<lb ed="#R" n="28" break="no"/>runt specifice, &amp; ita in esse quidditati uo: quia sunt 
+            <lb ed="#R" n="29"/>circa diuersa obiecta. Illud etiam, quod dicit de 
+            <lb ed="#R" n="30"/>actione, &amp; passione, &amp; motu Commentator 
+            expo<lb ed="#R" n="31" break="no"/>nit in 3. physic. quod sunt vnum subiecto, differunt 
+            <lb ed="#R" n="32"/>autem quidditatiue, &amp; essentialiter, sicut 
+            acciden<lb ed="#R" n="33" break="no"/>tia differunt essentialiter, quamuis sint idem 
+            subie<lb ed="#R" n="34" break="no"/>cto. Comment. vero in 4. metaph. cum dicit, quod 
+            <lb ed="#R" n="35"/>vnum, &amp; ens significant eadem connotata, sed 
+            di<lb ed="#R" n="36" break="no"/>uersis modis, exponens illum modum dicit, quod 
+            <lb ed="#R" n="37"/>non est aliud quam in diuinis, vnde ait, quod cum 
+            <lb ed="#R" n="38"/>dicitur hoc vnum, hoc nomen vnum significat in 
+            <lb ed="#R" n="39"/>eo negationem, quae est priuatio diuersitatis, non 
+            <lb ed="#R" n="40"/>intelligit autem, quod addat modum aliquem alium 
+            <lb ed="#R" n="41"/>positiuum. Cum vero ait, quod vnum &amp; vita in 
+            <lb ed="#R" n="42"/>diuinis significant idem subiecto, &amp; duo secundum 
+            <lb ed="#R" n="43"/>modum, ipse exponit, quod non intelligit per istam 
+            <lb ed="#R" n="44"/>dualitatem aliquam differentiam in esse, sed 
+            tan<lb ed="#R" n="45" break="no"/>tum in intellectu, &amp; hoc est penes connotata. 
+          </p>
+          <p xml:id="paqqap-aa2551-d1e2072">
+            <lb ed="#R" n="46"/>Ex praedictis igitur patet, quod omnis 
+            formali<lb ed="#R" n="47" break="no"/>tas extra intellectum est aliqua realitas &amp; aliqua 
+            <lb ed="#R" n="48"/>essentia, &amp; ita non differunt in aliqua re 
+            formali<lb ed="#R" n="49" break="no"/>tas, &amp; realitas, quod quaestio quaerebat: quidditas 
+            <lb ed="#R" n="50"/>tamen cum importet illud, quod per definitionem 
+            <lb ed="#R" n="51"/>signatur, differt quidem ab essentia in accidentibus, 
+            <lb ed="#R" n="52"/>siue in entibus per accidens, quia definiuntur per 
+            <lb ed="#R" n="53"/>additamenta. In subiectis vero quidditas, &amp; essen 
+            <lb ed="#R" n="54"/>tia omnino realiter idem sunt, quia non ponuntur 
+            <lb ed="#R" n="55"/>in definitionibus substantiarum nisi praedicta essen 
+            <lb ed="#R" n="56"/>tialia, &amp; istud totum patet ex 7. metaph. Quod 
+            au<lb ed="#R" n="57" break="no"/>tem Philosophus dicit, quod in solis separatis a 
+            <lb ed="#R" n="58"/>materia idem est, quod quid est, &amp; illud cuius est, 
+            <lb ed="#R" n="59"/>ibi comparat quidditatem non ad essentiam, sed 
+            <lb ed="#R" n="60"/>ad suppositum, quod quia in materialibus habet 
+            <lb ed="#R" n="61"/>annexa accidentia, idcirco differt ab essentia, in 
+            <lb ed="#R" n="62"/>materialibus vero non sic est. 
+          </p>
+          <p xml:id="paqqap-aa2551-d1e2111">
+            <lb ed="#R" n="63"/>Ad argumentum vero principale dicendum, 
+            <lb ed="#R" n="64"/>quod nunquam multiplicatur extra intellectum 
+            <lb ed="#R" n="65"/>formalitas, quin multiplicetur realitas. Et cum 
+            <lb ed="#R" n="66"/>additur, quod nomina attributalia erunt 
+            synoni<lb ed="#R" n="67" break="no"/>ma, nisi significent diuersas rationes reales, &amp; for- 
+            <!--0008.xml-->
+            <cb ed="#R" n="b"/>
+            <lb ed="#R" n="68"/>males in diuinis, dicendum, quod non est 
+            verumi<lb ed="#R" n="69" break="no"/>immo ad hoc tollendum sufficit, quod conceptus 
+            <lb ed="#R" n="70"/>attributales in generali accepti sibi mutuo accidāt 
+            <lb ed="#R" n="71"/>propter diuersa connotata: vnde quia accidit ei, 
+            <lb ed="#R" n="72"/>quo redditur vnicuique, quod suum est, quod 
+            <lb ed="#R" n="73"/>sit illud quo alterius miseria releuatur, in tantum, 
+            <lb ed="#R" n="74"/>quod separantur, &amp; reducuntur ad diuersas 
+            qua<lb ed="#R" n="75" break="no"/>litates in creaturis, idcirco misericordia, &amp; iustitia 
+            <lb ed="#R" n="76"/>non possunt dici synonima.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

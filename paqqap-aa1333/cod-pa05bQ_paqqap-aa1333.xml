@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Praefatio</title>
+        <author ref="#Aureoli">Petrus Aureolus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Praefatio</title>
+          <date when="2022-12-14">December 14, 2022</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="R" n="cod-pa05bQ">Roma 1605, Quodlibeta</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2022-12-14" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#R" n="1"/>
+        <cb ed="#R" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="paqqap-aa1333"> <!-- praefatio -->
+        <head xml:id="paqqap-aa1333-Hd1e102">Praefatio</head>
+        <p xml:id="paqqap-aa1333-d1e104"><!--0001.xml-->
+          <pb ed="#P" n="1"/>
+          <cb ed="#R" n="a"/>
+          <lb ed="#R" n="1"/>QVODLJBETA 
+          <lb ed="#R" n="2"/>FPETRJAVREOLJ 
+          <lb ed="#R" n="3"/>VERBERII 
+          <lb ed="#R" n="4"/>ORDINIS MINORVM 
+          <lb ed="#R" n="5"/>S. FRANCJSCI 
+          <lb ed="#R" n="6"/>ARCHJEPJSCOPJ AQVENSJS 
+          <lb ed="#R" n="7"/>S. R. E. CARD. DJGNJSSJMJ. 
+          <!--0001.xml-->
+          <cb ed="#R" n="b"/>
+          <lb ed="#R" n="8"/>PRAEFATIO.
+        </p>
+        <p xml:id="paqqap-aa1333-d1e134">
+          <!--0001.xml-->
+          <cb ed="#R" n="c"/>
+          <lb ed="#R" n="9"/>PROPOSVI in 
+          ani<lb ed="#R" n="10" break="no"/>mo meo quaerere, &amp; 
+          <lb ed="#R" n="11"/>inuestigare sapienter, 
+          <lb ed="#R" n="12"/>&amp; Augustinus lib. 2. 
+          <lb ed="#R" n="13"/>de libero arbitrio c. 3. 
+          <lb ed="#R" n="14"/>studiosum Theologum 
+          <lb ed="#R" n="15"/>ad inquirendum 
+          con<lb ed="#R" n="16" break="no"/>tinue Dei vultum, &amp; 
+          <lb ed="#R" n="17"/>eorum, quae per fidem tenemus, inuestigandum 
+          <lb ed="#R" n="18"/>profundum sub his verbis prouide 
+          exhorta<lb ed="#R" n="19" break="no"/>tur. Ipse, inquit, Dominus noster dictis, &amp; 
+          <lb ed="#R" n="20"/>factis, primo ad credendum hortatus est, quos 
+          <lb ed="#R" n="21"/>ad salutem vocauit; deinde iam credentibus 
+          <lb ed="#R" n="22"/>dixit: Quaerite, &amp; inuenietis. Quapropter Do 
+          <lb ed="#R" n="23"/>mini praeceptis obtemperantes, quaeramus 
+          in<lb ed="#R" n="24" break="no"/>stanter: quod enim hortante ipso quaerimus, 
+          <lb ed="#R" n="25"/>eo ipso demonstrante inueniemus, quantum 
+          <lb ed="#R" n="26"/>haec in hac vita, &amp; a nobis talibus inueniri 
+          <lb ed="#R" n="27"/>quaeunt. haec Augustinus. Igitur iuxta 
+          <lb ed="#R" n="28"/>exhortationem ipsius, &amp; praeceptum doctoris 
+          <lb ed="#R" n="29"/>praecipui Christi Jesu, &amp; propositum 
+          Sapien<lb ed="#R" n="30" break="no"/>tis, qui in verbis praemissis proposuisse se dicit 
+          <lb ed="#R" n="31"/>sapienter quaerere &amp; inuestigare, valeamus 
+          <lb ed="#R" n="32"/>&amp; nos aliquid vtile cum sobrietate, &amp; 
+          mode<lb ed="#R" n="33" break="no"/>ramine indagare. Circa determinationem 
+          quae<lb ed="#R" n="34" break="no"/>stionum de Quodlibetis nuper propositarum, 
+          <lb ed="#R" n="35"/>opitulante diuina gratia in hoc opere 
+          inten<lb ed="#R" n="36" break="no"/>dimus insudare. In qua quidem disputatione 
+          <lb ed="#R" n="37"/>de Quodlibetis sexdecim per ordinem 
+          diui<lb ed="#R" n="38" break="no"/>na ope tractabimus.
+        </p>
+        <p xml:id="paqqap-aa1333-d1e206">
+          <!--0001.xml-->
+          <cb ed="#R" n="d"/>
+          <lb ed="#R" n="39"/>Communia de Deo, &amp; creaturis. 
+          <lb ed="#R" n="40"/>Primo quaeretur: Vtrum in aliqua re 
+          forma<lb ed="#R" n="41" break="no"/>litas, &amp; realitas distinguantur. 
+          <lb ed="#R" n="42"/>Secundo, Vtrum actio agentis realiter 
+          dife<lb ed="#R" n="43" break="no"/>rat ab agente. 
+        </p>
+        <p xml:id="paqqap-aa1333-d1e225">
+          <lb ed="#R" n="44"/>Propria de Deo. 
+          <lb ed="#R" n="45"/>Tertio: Vtrum alius, &amp; aliu modus vedtatis, 
+          <lb ed="#R" n="46"/>vel indiuisionis tollat contradictiones, quae 
+          <lb ed="#R" n="47"/>videntur esse in diuinis. 
+          <lb ed="#R" n="48"/>Quarto: Vtrum sola distinctio secundum quid 
+          <lb ed="#R" n="49"/>vel eonuertibilitatis sufficiat ad tollendum, 
+          <lb ed="#R" n="50"/>non ponendo alium modum veritatis, seu 
+          <lb ed="#R" n="51"/>indiuisionis. 
+          <lb ed="#R" n="52"/>Quinto. Vtrum sola distinctio rationis sufficiat 
+          <lb ed="#R" n="53"/>non ponendo etiam alium modum 
+          verita<lb ed="#R" n="54" break="no"/>tis, seu indiuisionis.
+        </p>
+        <p xml:id="paqqap-aa1333-d1e251">
+          <lb ed="#R" n="55"/>De Anima Intellectiua. 
+          <lb ed="#R" n="56"/>Sexto: Vtrum anima intellectiua sit 
+          immedia<lb ed="#R" n="57" break="no"/>tum principium suarum operationum. 
+          <lb ed="#R" n="58"/>Septimo: Vtrum ponens in anima 
+          intellecti<lb ed="#R" n="59" break="no"/>ua duas realitates intrinsecas, quarum vna 
+          <lb ed="#R" n="60"/>sit potentialis in genere intelligibilium, &amp; 
+          <lb ed="#R" n="61"/>reliqua actualis, possit saluare, quod 
+          ani<lb ed="#R" n="62" break="no"/>ma sit forma corporis per essentiam.
+        </p>
+        <p xml:id="paqqap-aa1333-d1e271">
+          <lb ed="#R" n="63"/>De Anima Intellectiua beata. 
+          <lb ed="#R" n="64"/>Octauo: Vtrum ad visionem beatificam requi 
+          <lb ed="#R" n="65"/>ratur species distincta ab actu. 
+          <!--0002.xml-->
+          <pb ed="#P" n="2"/>
+          <cb ed="#R" n="a"/>
+          <lb ed="#R" n="1"/>Nono, vtrum advisionem beatificam 
+          requi<lb ed="#R" n="2" break="no"/>satur lumen gloriae hapituale qᷓsttinctum 
+          <lb ed="#R" n="3"/>s ab actu. t 
+          <lb ed="#R" n="4"/>Becno, urum videns diuinam essentiam 
+          ne<lb ed="#R" n="5" break="no"/>cessario videat, quicquid repraesentatur per 
+          <lb ed="#R" n="6"/>eam.
+        </p>
+        <p xml:id="paqqap-aa1333-d1e300">
+          <lb ed="#R" n="7"/>De habitibus Animae. 
+          <lb ed="#R" n="8"/>Vndecimo, vtrum virtus, in quantum virtus, 
+          <lb ed="#R" n="9"/>sit ens per accidens. 
+          <lb ed="#R" n="10"/>Duodecimo, vttum virtus moralis existens 
+          <lb ed="#R" n="11"/>circa vnam neturam habeat vnitatem 
+          for<lb ed="#R" n="12" break="no"/>mae simplicis, non constitutae ex multis. 
+          <lb ed="#R" n="13"/>Decimotertio, vtrum virtus moralis in 
+          appe<lb ed="#R" n="14" break="no"/>titu sensitiuo sit qualitas media 
+          essentiali<lb ed="#R" n="15" break="no"/>ter constituta ex habilitatibus, quae 
+          incli<lb ed="#R" n="16" break="no"/>nant ad passiones extremas. 
+          <lb ed="#R" n="17"/>Decimoquarto, vtrum virtus moralis 
+          diuida<lb ed="#R" n="18" break="no"/>tur in quatuor Cardinales, tanquam in 
+          ge<lb ed="#R" n="19" break="no"/>nera subalterna comprehendentia virtutes 
+          <lb ed="#R" n="20"/>omnes specifice distinctas. 
+          <lb ed="#R" n="21"/>Decimoquinto, vtrum speculatiuum, &amp; 
+          pra<lb ed="#R" n="22" break="no"/>cticum distinguantur penes esse &amp; non esse 
+          <lb ed="#R" n="23"/>actiuum principium in agente respectu sui 
+          <lb ed="#R" n="24"/>obiecti.
+        </p>
+        <p xml:id="paqqap-aa1333-d1e342">
+          <lb ed="#R" n="25"/>De formis miscibilium. 
+          <lb ed="#R" n="26"/>Decimosexto, vtrum formae miscibilium 
+          qua<lb ed="#R" n="27" break="no"/>litatum differant realiter a sua actualitate.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

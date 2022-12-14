@@ -1,0 +1,1452 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quodlibetum 10</title>
+        <author ref="#Aureoli">Petrus Aureolus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quodlibetum 10</title>
+          <date when="2022-12-14">December 14, 2022</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="R" n="cod-pa05bQ">Roma 1605, Quodlibeta</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2022-12-14" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#R" n="99"/>
+        <cb ed="#R" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="paqqap-a32246"> <!-- q10 -->
+        <head xml:id="paqqap-a32246-Hd1e102">Quodlibetum 10</head>
+        <head xml:id="paqqap-a32246-Hd1e104" type="question-title">
+          Utrum videns diuinam essentiam videat 
+          necessario, quicquid repraesentatur 
+          per eam.
+        </head>
+        <p xml:id="paqqap-a32246-d1e107">
+          <!--0099.xml-->
+          <pb ed="#P" n="99"/>
+          <cb ed="#R" n="a"/>
+          <lb ed="#R" n="1"/>QVODLJBETVM 
+          <lb ed="#R" n="2"/>DECJMVM. 
+          <lb ed="#R" n="3"/>Vtrum videns diuinam essentiam videat 
+          <lb ed="#R" n="4"/>necessario, quicquid repraesentatur 
+          <lb ed="#R" n="5"/>per eam.
+        </p>
+        <p xml:id="paqqap-a32246-d1e127">
+          <lb ed="#R" n="6"/>Decimo quaerebatur; Vtrum videns diuinam 
+          <lb ed="#R" n="7"/>essentiam videat necessario, quicquid reprae 
+          <lb ed="#R" n="8"/>sentatur per eam. &amp; videtur, quod non quia 
+          <lb ed="#R" n="9"/>quando aliquid potest concipi absolute, &amp; 
+          <lb ed="#R" n="10"/>comparate, potest concipi per prius 
+          absolu<lb ed="#R" n="11" break="no"/>te, quam comparate, quia conceptus 
+          abso<lb ed="#R" n="12" break="no"/>luti praecedit conceptum relatiui: sed 
+          diui<lb ed="#R" n="13" break="no"/>na essentia absolutissima est: igitur 
+          pote<lb ed="#R" n="14" break="no"/>rit concipi absque hoc, quod per eam 
+          ali<lb ed="#R" n="15" break="no"/>quid videatur.
+        </p>
+        <p xml:id="paqqap-a32246-d1e152">
+          <lb ed="#R" n="16"/>Sed in oppositum est, quia videns speculum 
+          <lb ed="#R" n="17"/>in repraesentando, necessario videt repraesen 
+          <lb ed="#R" n="18"/>tatum: sed diuina essentia est speculum, &amp; 
+          <lb ed="#R" n="19"/>exemplar in repraesentando verum respectu 
+          <lb ed="#R" n="20"/>omnium: igitur qui videt ipsam, necessario 
+          <lb ed="#R" n="21"/>videt omnia. 
+        </p>
+        <p xml:id="paqqap-a32246-d1e168">
+          <lb ed="#R" n="22"/>Responsio ad quaestionem.
+        </p>
+        <p xml:id="paqqap-a32246-d1e173">
+          <lb ed="#R" n="23"/>Ad quaestionem istam respondendo hoc 
+          ordi<lb ed="#R" n="24" break="no"/>ne procedetur. 
+          <lb ed="#R" n="25"/>Primo namque ponentur quaedam 
+          propositio<lb ed="#R" n="26" break="no"/>nes negatiuae ipsius. 
+          <lb ed="#R" n="27"/>Secundo ponetur quaedam propositio 
+          condi<lb ed="#R" n="28" break="no"/>tionalis. 
+          <lb ed="#R" n="29"/>Tertio inquiretur de veritate consequentis. 
+          <lb ed="#R" n="30"/>Quarto de veritate antecedentis. 
+        </p>
+        <div xml:id="paqqap-a32246-Dd1e193">
+          <head xml:id="paqqap-a32246-Hd1e195">Articulus 1</head>
+          <p xml:id="paqqap-a32246-d1e197">
+            <lb ed="#R" n="31"/>ARTJCVLVS I. 
+            <lb ed="#R" n="32"/>Contra opinionem Scoti. 
+          </p>
+          <p xml:id="paqqap-a32246-d1e204">
+            <lb ed="#R" n="33"/>CIrca primum pono propositiones 
+            <lb ed="#R" n="34"/>negatiuas. 
+          </p>
+          <p xml:id="paqqap-a32246-d1e211">
+            <lb ed="#R" n="35"/>Prima est haec, quod non est 
+            <lb ed="#R" n="36"/>maior necessitas, quod videns 
+            <lb ed="#R" n="37"/>diuinam essentiam videat rerum 
+            <lb ed="#R" n="38"/>omnium quidditates, quam 
+            <lb ed="#R" n="39"/>quod videat existentias: quod 
+            <lb ed="#R" n="40"/>dico, propter opinionem, quae ponit, quod videns 
+            <lb ed="#R" n="41"/>diuinam essentiam, necessario videt de omnibus 
+            <lb ed="#R" n="42"/>rebus quid sint, sed non necessario cognoscit, an 
+            <lb ed="#R" n="43"/>sint in effectu. Ratio istorum est, quia videns 
+            di<lb ed="#R" n="44" break="no"/>uinam essentiam videt omnia, quae naturaliter, &amp; 
+            <lb ed="#R" n="45"/>necessario repraesentat, non autem illa, quae 
+            reprae<lb ed="#R" n="46" break="no"/>sentat voluntarie, &amp; contingenter; talia enim ex 
+            <lb ed="#R" n="47"/>quo dependent a diuina voluntate, poterit Deus 
+            <lb ed="#R" n="48"/>facere cognosci a vidente, vel non cognosci. Sed 
+            <lb ed="#R" n="49"/>essentia repraesentat naturaliter, &amp; necessario 
+            om<lb ed="#R" n="50" break="no"/>nium quidditates, non autem repraesentat 
+            naturali<lb ed="#R" n="51" break="no"/>ter, vtrum sint, vel non sint, cum esse earum libere 
+            <lb ed="#R" n="52"/>dependeat a diuina voluntate: ergo videns diuinam 
+            <lb ed="#R" n="53"/>essentiam videbit neceslario omnium quidditates, 
+            <lb ed="#R" n="54"/>cum cognoscit de omnibus quid sint, sed non 
+            ne<lb ed="#R" n="55" break="no"/>cessario videbitur, an sint. 
+          </p>
+          <p xml:id="paqqap-a32246-d1e259">
+            <lb ed="#R" n="56"/>Confirmatur, quia visio diuinae essentiae, cum sit 
+            <lb ed="#R" n="57"/>beatifica, quietat humanum desiderium in videndo 
+            <lb ed="#R" n="58"/>&amp; sciendo: non quietaret autem nisi haberetur per 
+            <!--0099.xml-->
+            <cb ed="#R" n="b"/>
+            <lb ed="#R" n="59"/>ipsam cognitio omnium terum quidditatis, quae 
+            <lb ed="#R" n="60"/>est sola scientifica. Illa enim, quae est de rebus, an 
+            <lb ed="#R" n="61"/>sint, rel non sint, scientifica non est, et Philosophus 
+            <lb ed="#R" n="62"/>dicit 7. meth.
+          </p>
+          <p xml:id="paqqap-a32246-d1e282">
+            <lb ed="#R" n="63"/>Et iterum confirmatur, quia si ita ponatur, 
+            sal<lb ed="#R" n="64" break="no"/>uatur illuminacio inter bunus, &amp; reuelatio de 
+            fu<lb ed="#R" n="65" break="no"/>turis quantum ad existentias, &amp; cum hoc 
+            plenitu<lb ed="#R" n="66" break="no"/>do scientiae &amp; fatietas desiderij, quoad essentias.
+          </p>
+          <p xml:id="paqqap-a32246-d1e293">
+            <lb ed="#R" n="67"/>Sed his non obstantibus pofita propositio vera 
+            <lb ed="#R" n="68"/>est, illa namque videntur aeque necessario visa 
+            dini<lb ed="#R" n="69" break="no"/>na essentia, quae aequali immutabilitate, &amp; 
+            neces<lb ed="#R" n="70" break="no"/>sitate repraesentantur in ipsa: sed stante 
+            determina<lb ed="#R" n="71" break="no"/>tione diuinae voluntatis ad enistentiam, vel non 
+            <lb ed="#R" n="72"/>existentiam alicuius rei, diuina voluntas &amp; fua 
+            <lb ed="#R" n="73"/>determinatio aeque immutabilis est respectu 
+            effen<lb ed="#R" n="74" break="no"/>tiarum., sicut essentia respectu quidditatum: ergo 
+            <lb ed="#R" n="75"/>beatus aeque necessario videndo diuinam 
+            volunta<lb ed="#R" n="76" break="no"/>tero, &amp; eius determinationem cognoscit rerum 
+            <lb ed="#R" n="77"/>coxistentias, sicut videndo diuinam essentiam videt 
+            <lb ed="#R" n="78"/>quidditates. 
+          </p>
+          <p xml:id="paqqap-a32246-d1e322">
+            <lb ed="#R" n="79"/>Confirmatur, quia essentia, &amp; voluntas, &amp; 
+            intel<lb ed="#R" n="80" break="no"/>lectus, seu determinatio voluntatis idem in Deo 
+            <lb ed="#R" n="81"/>sunt, &amp; ideo sicut beatus totum videt repraesentatum 
+            <lb ed="#R" n="82"/>per essentiam, sic determinatum per voluntatem. 
+          </p>
+          <p xml:id="paqqap-a32246-d1e333">
+            <lb ed="#R" n="83"/>Praeterea: Aut Deus cognoscit rerum existentias 
+            <lb ed="#R" n="84"/>cognuscendo determinationem, &amp; nutum suae 
+            volun<lb ed="#R" n="85" break="no"/>tatis; aut cognoscit eas ex hoc, quod est earum 
+            <lb ed="#R" n="86"/>similitudo eminens, iexemplar, sicut &amp; 
+            quiddita<lb ed="#R" n="87" break="no"/>tum. Sed non potest primum, quia tunc non 
+            co<lb ed="#R" n="88" break="no"/>gnosceret mala, &amp; peccata, cum voluntas diuina, 
+            <lb ed="#R" n="89"/>non determinet voluntatem creatam ad 
+            peccan<lb ed="#R" n="90" break="no"/>dum, immo ipsa se praedeterminat. Vnde non 
+            se<lb ed="#R" n="91" break="no"/>habet voluntas diuina, nisi permissine, &amp; per 
+            con<lb ed="#R" n="92" break="no"/>sequens non potest Deus determinate 
+            cognoscere<lb ed="#R" n="93" break="no"/>per suam permissionem, ad quam partem se 
+            deter<lb ed="#R" n="94" break="no"/>minat creata voluntas, cum vtramque partem 
+            <lb ed="#R" n="95"/>contradictionis Deus permittat. 
+          </p>
+          <p xml:id="paqqap-a32246-d1e364">
+            <lb ed="#R" n="96"/>Rursum: si cognosceret Deus res esse, vel non 
+            es<lb ed="#R" n="97" break="no"/>se ex sola determinatione suae voluntatis, iam non 
+            <lb ed="#R" n="98"/>cognosceret rerum existentias in se, sed potius quasi 
+            <lb ed="#R" n="99"/>arguitiue ex earum causa. Et iterum: si cognoscit 
+            <lb ed="#R" n="100"/>Deus per hunc modum res esse, vel non esse, scilicet 
+            <lb ed="#R" n="101"/>cognoscendo nutum, &amp; determinationem suae 
+            vo<lb ed="#R" n="102" break="no"/>luntatis, cum beati videant diuinam essentiam cum 
+            <lb ed="#R" n="103"/>voluntate, &amp; quicquid est reale in Deo. oportebit, 
+            <lb ed="#R" n="104"/>quod videant res existere, vel non existere per illam 
+            <lb ed="#R" n="105"/>determinationem. Relinquitur ergo, quod Deus 
+            <lb ed="#R" n="106"/>videat existentias rerum, inquantum sua essentia 
+            <lb ed="#R" n="107"/>est similitudo eminens, &amp; exemplar non solum 
+            quid<lb ed="#R" n="108" break="no"/>ditatum, sed etiam existentiarum, &amp; per consequens 
+            <lb ed="#R" n="109"/>aequali necessitate vident existentias, sicut quiditates. 
+          </p>
+          <p xml:id="paqqap-a32246-d1e397">
+            <lb ed="#R" n="110"/>Et si dicatur, quod determinatio diuinae 
+            volun<lb ed="#R" n="111" break="no"/>tatis, etsi sit eadem realiter cum diuina essentia, 
+            <lb ed="#R" n="112"/>difffert tamen ratione, &amp; vt sic differens potest 
+            oc<lb ed="#R" n="113" break="no"/>cultari beatis: non valet. 
+          </p>
+          <p xml:id="paqqap-a32246-d1e409">
+            <lb ed="#R" n="114"/>Primo quidem, quia determinatio praedicta, prout 
+            <lb ed="#R" n="115"/>est causa existentiarum, est quid reale, alioquin ens 
+            <lb ed="#R" n="116"/>rationis fundatur in ente reali, ita quod cognito 
+            <lb ed="#R" n="117"/>illo ente reali intellectus potest assurgere ad ens 
+            <lb ed="#R" n="118"/>rationis, quod fundatur in eo, &amp; per consequens 
+            <lb ed="#R" n="119"/>beatus videns realitatem diuinitatis, &amp; eius volun 
+            <lb ed="#R" n="120"/>tatis assurgere poterit ad cognoscendum 
+            determi<lb ed="#R" n="121" break="no"/>nationem, quae dicitur sola ratione. Et iterum; 
+            <lb ed="#R" n="122"/>quomodo potest esse contingens determinatio 
+            vo<lb ed="#R" n="123" break="no"/>luntatis, &amp; per consequens latere intellectum 
+            bea<lb ed="#R" n="124" break="no"/>ti realitate importata per ipsam, scilicet diuinitate 
+            <lb ed="#R" n="125"/>existente necesse esse impossibile est videre. 
+          </p>
+          <p xml:id="paqqap-a32246-d1e438">
+            <lb ed="#R" n="126"/>Praeterea: Intentio est Augustini super Genes- 
+            <!--0100.xml-->
+            <pb ed="#P" n="100"/>
+            <cb ed="#R" n="a"/>
+            <lb ed="#R" n="1"/>cap. 28. &amp; 29. vbi loquitur de ista materia, quod 
+            <lb ed="#R" n="2"/>naugelebeati videntes res in cognitione matutina., 
+            <lb ed="#R" n="3"/>ac Dei, non in proprio genere cognitione 
+            vesperti<lb ed="#R" n="4" break="no"/>na non solum videbant quidditates, imo &amp; existentias.
+          </p>
+          <p xml:id="paqqap-a32246-d1e458">
+            <lb ed="#R" n="5"/>Vnde dicit, quod in ipso Dei verbo prius 
+            vide<lb ed="#R" n="6" break="no"/>ruat viuersam creaturam, in quo ( scilicet verbo) 
+            <lb ed="#R" n="7"/>ipsam non factam esse, sed fiendam fuisse 
+            cognoue<lb ed="#R" n="8" break="no"/>runt. Et subdit, quod prius videbant factam 
+            lu<lb ed="#R" n="9" break="no"/>cem, sicut Scriptura dicit: Facta est lux, non est: 
+            <lb ed="#R" n="10"/>iigitur verum quin videntes diuinam essentiam 
+            ae<lb ed="#R" n="11" break="no"/>que cognoscant rerum existentias, sicut &amp; 
+            quiddi<lb ed="#R" n="12" break="no"/>tates in Verbo.
+          </p>
+          <p xml:id="paqqap-a32246-d1e478">
+            <lb ed="#R" n="13"/>Ad rationem opinionis dicendum, quod licet 
+            <lb ed="#R" n="14"/>existentia creaturarum dependeat a diuina 
+            volun<lb ed="#R" n="15" break="no"/>tate, tamen aequali necessitate repraesentatur, sicut 
+            <lb ed="#R" n="16"/>&amp; quidditas. Si tamen Deus videt rerum 
+            existen<lb ed="#R" n="17" break="no"/>tias per essentiam suam, sicut videt eas 
+            cognoscen<lb ed="#R" n="18" break="no"/>do nutum, &amp; determinationem voluntatis suae, tunc 
+            <lb ed="#R" n="19"/>illa determinatione cognita ab obiecto aequali 
+            ne<lb ed="#R" n="20" break="no"/>cessitate repraesentatur praedicta existentia: ex nutu 
+            <lb ed="#R" n="21"/>ipsius voluntatis, &amp; ex ipsa determinatione.
+          </p>
+          <p xml:id="paqqap-a32246-d1e500">
+            <lb ed="#R" n="22"/>Ad confirmationem dicendum, quod humanum 
+            <lb ed="#R" n="23"/>desiderium non solum est ad sciendum rerum 
+            quid<lb ed="#R" n="24" break="no"/>ditates, immo &amp; existentias, sicut patet circa 
+            ru<lb ed="#R" n="25" break="no"/>mores, &amp; historias, &amp; futura: &amp; quod dicitur, quod 
+            <lb ed="#R" n="26"/>per hunc modum saluantur illuminationes, verum 
+            <lb ed="#R" n="27"/>est, si modus ostendetur possibilis. 
+          </p>
+          <p xml:id="paqqap-a32246-d1e516">
+            <lb ed="#R" n="28"/>Contra opinionem Henrici.
+          </p>
+          <p xml:id="paqqap-a32246-d1e522">
+            <lb ed="#R" n="29"/>SEcunda vero propositio est, quod non tollitur, 
+            <lb ed="#R" n="30"/>quin videns diuinam essentiam videat omnia, 
+            <lb ed="#R" n="31"/>ex hoc, quod essentia est speculum voluntarium in 
+            <lb ed="#R" n="32"/>repraesentando: quod dico propter opinionem vnam 
+            <lb ed="#R" n="33"/>quae hoc ponit. Si enim speculum corporale hoc 
+            <lb ed="#R" n="34"/>moueret ad visionem omnium aliorum 
+            repraesen<lb ed="#R" n="35" break="no"/>tatorum in ipso, posset etiam mouere ad visionem 
+            <lb ed="#R" n="36"/>quorumdam repraesentatorum, &amp; non omnium: sed 
+            <lb ed="#R" n="37"/>constat, quod diuina essentia libere mouet 
+            intelle<lb ed="#R" n="38" break="no"/>ctum beati, &amp; est speculum voluntarium; ergo 
+            po<lb ed="#R" n="39" break="no"/>terit mouere ad visionem aliorum, quae per ipsam 
+            <lb ed="#R" n="40"/>repraesentantur, ad visionem aliquorum, &amp; non 
+            ne<lb ed="#R" n="41" break="no"/>cessario omnium. 
+          </p>
+          <p xml:id="paqqap-a32246-d1e553">
+            <lb ed="#R" n="42"/>Confirmatur, quia essentia &amp; creatura sunt duo 
+            <lb ed="#R" n="43"/>obiecta: igitur non necessario vno viso videtur 
+            re<lb ed="#R" n="44" break="no"/>liquum. Et iterum: voluntas distincte potest ferri, 
+            <lb ed="#R" n="45"/>&amp; velle vnum, tollendo reliquum: quare &amp; 
+            intelle<lb ed="#R" n="46" break="no"/>ctus poterit, vt videtur. 
+          </p>
+          <p xml:id="paqqap-a32246-d1e566">
+            <lb ed="#R" n="47"/>Sed his non obstantibus praemissa propositio stat, 
+            <lb ed="#R" n="48"/>quia licet essentia diuina sit speculum voluntarium 
+            <lb ed="#R" n="49"/>libere mouens ad visionem sui, tamen postquam 
+            <lb ed="#R" n="50"/>videtur, non est liberum speculum in 
+            repraesentan<lb ed="#R" n="51" break="no"/>do creaturas. quod patet, quia eadem 
+            conditione<lb ed="#R" n="52" break="no"/>repraesentat, qua est exemplar, ars, &amp; Idaea, &amp; 
+            om<lb ed="#R" n="53" break="no"/>nia continens eminenter, hoc est causa 
+            repraesenta<lb ed="#R" n="54" break="no"/>tionis: sed diuina essentia necessitate naturae non 
+            <lb ed="#R" n="55"/>contingenter, &amp; libere est exemplar omnium, &amp; ars 
+            <lb ed="#R" n="56"/>repraesentatiua rationum viuentium, &amp; omnia 
+            emi<lb ed="#R" n="57" break="no"/>nenter existens: igitur non libere, sed necessitate 
+            <lb ed="#R" n="58"/>naturae repraesentat omnia, &amp; per hoc tollitur ratio 
+            <lb ed="#R" n="59"/>opinionis. 
+          </p>
+          <p xml:id="paqqap-a32246-d1e597">
+            <lb ed="#R" n="60"/>Praeterea: Quandocumq. aliquis vnus actus trã- 
+            <lb ed="#R" n="61"/>sit super duo obiecta, ordine quodam causalitatis, 
+            <lb ed="#R" n="62"/>quia per prius super vnum, &amp; posterius super aliud, 
+            <lb ed="#R" n="63"/>&amp; transitus super vnum est causa, quod transeat 
+            su<lb ed="#R" n="64" break="no"/>per aliud, quamdiu transitus super primum est 
+            ne<lb ed="#R" n="65" break="no"/>cessarius, tamdiu est necessarius transitus super 
+            se<lb ed="#R" n="66" break="no"/>cundum, quia effectus sequitur naturam causae, &amp; 
+            <lb ed="#R" n="67"/>vbi vnum propter aliud, vtrobique tantum vnum. 
+            <lb ed="#R" n="68"/>Sed actus, quo videtur Dei essentia, transit super es- 
+            <!--0100.xml-->
+            <cb ed="#R" n="b"/>
+            <lb ed="#R" n="69"/>sentiam per priu, &amp; fuper creaturas quidem per 
+            pp<lb ed="#R" n="70" break="no"/>sterius, &amp; ille transiius est causa istius; &amp; constat, 
+            <lb ed="#R" n="71"/>quod quamdiu videtur diuina essentia, transitus 
+            su<lb ed="#R" n="72" break="no"/>per esentiam es necelarius, &amp; immutabilis, quia 
+            <lb ed="#R" n="73"/>esse, quod est, quando est, necesse est esse: ergo quã- 
+            <lb ed="#R" n="74"/>diu videtur diuina essentia, necessarius, erit 
+            tranfi<lb ed="#R" n="75" break="no"/>tus eiusdem visionis super creaturas, &amp; per 
+            conse<lb ed="#R" n="76" break="no"/>quens pro tunc non est liberum spedulum essentia 
+            <lb ed="#R" n="77"/>in non repraesentando eas. Per hoc patet ad 
+            con<lb ed="#R" n="78" break="no"/>firmationes; procedunt enim de diuersis obiectis. 
+            <lb ed="#R" n="79"/>quae attingunt diuersis actibus, &amp; disparate, sic quod 
+            <lb ed="#R" n="80"/>transitus super vnum obiectum est causa, &amp; ratio 
+            <lb ed="#R" n="81"/>vt aliud attingatur.
+          </p>
+          <p xml:id="paqqap-a32246-d1e652">
+            <lb ed="#R" n="82"/>Tertia vero propositio est, quod non impeditur, 
+            <lb ed="#R" n="83"/>quin videns essentiam videat omnia ex hoo, quod 
+            <lb ed="#R" n="84"/>diuina essentia comprehenderetur. hoc dicitur 
+            pro<lb ed="#R" n="85" break="no"/>pter opinionē, quae dicit, quod quanto aliqua causa 
+            <lb ed="#R" n="86"/>perfectius videtur, tanto plures effectus in ipsa 
+            vi<lb ed="#R" n="87" break="no"/>deri possunt. Iste enim, qui habet intellectun 
+            eleua<lb ed="#R" n="88" break="no"/>tum, statim vno principio de monstratiuo proposito 
+            <lb ed="#R" n="89"/>multurum conclusionum cognitionem accipit, non 
+            <lb ed="#R" n="90"/>autem ille, qui rudis est, sed oporiet, quod ei singula 
+            <lb ed="#R" n="91"/>explanentur: Iste igitur potest in causa omuis 
+            can<lb ed="#R" n="92" break="no"/>sae effectus, &amp; rationes effectuum cognoscere, qui 
+            <lb ed="#R" n="93"/>causam totaliter comprehendit: sed manifestum est, 
+            <lb ed="#R" n="94"/>quod nullus intellectus creatus Deum totaliter 
+            con<lb ed="#R" n="95" break="no"/>prehendere potest: igitur nullus intellectus creatus 
+            <lb ed="#R" n="96"/>videndo diuinam essentiam omnia videt, quae Deus 
+            fa<lb ed="#R" n="97" break="no"/>cit, vel facere potest, hoc enim esset comprehendere 
+            <lb ed="#R" n="98"/>eius virtutem, quanto enim perfectius Deum 
+            vi<lb ed="#R" n="99" break="no"/>det aliquis intellectus, tanto plura cognoscit. 
+          </p>
+          <p xml:id="paqqap-a32246-d1e694">
+            <lb ed="#R" n="100"/>Sed his non obstantibus praemissa propositio 
+            ve<lb ed="#R" n="101" break="no"/>ra est. Si enim videns omnes effectus virtutis 
+            diui<lb ed="#R" n="102" break="no"/>nae comprehenderet diuinam essentiam, sequeretur, 
+            <lb ed="#R" n="103"/>quod videns infinitatem Dei intensiuam, multo for 
+            <lb ed="#R" n="104"/>tius comprehenderet eum, cum intensiua infinitas 
+            <lb ed="#R" n="105"/>sit perfectior &amp; interior infinitate extensiua 
+            effe<lb ed="#R" n="106" break="no"/>ctuum, imo &amp; causa illius: ex hoc enim Deus 
+            po<lb ed="#R" n="107" break="no"/>test communicare, &amp; repraesentare infinitos effectus 
+            <lb ed="#R" n="108"/>quia est infinitus intensiue. 
+          </p>
+          <p xml:id="paqqap-a32246-d1e717">
+            <lb ed="#R" n="109"/>Item sequeretur, quod videns duos effectus, 
+            per<lb ed="#R" n="110" break="no"/>sectius Deum cognosceret, quam videns vnum 
+            <lb ed="#R" n="111"/>solum. Et quanto plures, tanto magis 
+            cognosce<lb ed="#R" n="112" break="no"/>ret, &amp; per consequens in qualibet reuelatione quam 
+            <lb ed="#R" n="113"/>Deus facit beato, perfectius Deum videret, &amp; 
+            es<lb ed="#R" n="114" break="no"/>sentialis beatitudo eius intenderetur. Rursum 
+            se<lb ed="#R" n="115" break="no"/>queretur, quod videns vnam creaturam a Deo 
+            crea<lb ed="#R" n="116" break="no"/>ri, comprehenderet virtutis suae infinitatem, cum 
+            <lb ed="#R" n="117"/>creatio habeat pro causa solam virtutem infinitam. 
+            <lb ed="#R" n="118"/>Ad hoc Deus visus in quolibet gradu non esset 
+            exem<lb ed="#R" n="119" break="no"/>plar omnis creaturae, sed visus in minori esset exem 
+            <lb ed="#R" n="120"/>plar vnius visus in maiori alterius, &amp; sic non posset 
+            <lb ed="#R" n="121"/>Deus in quodlibet gradu reuelare ea, quae petitur, 
+            <lb ed="#R" n="122"/>nisi poneretur ipsum in beatitudinis gradu, quem ha 
+            <lb ed="#R" n="123"/>bet; ideo nec angelo inferioris ordinis, ea quae reue 
+            <lb ed="#R" n="124"/>lat superiori. Sed haec omnia inconuenientia sunt: igi 
+            <lb ed="#R" n="125"/>tur videns omnes effectus, qui subsunt, vel subesse 
+            pos<lb ed="#R" n="126" break="no"/>sunt diuinae voluntati, non comprehenderet essentiam Dei, 
+          </p>
+          <p xml:id="paqqap-a32246-d1e759">
+            <lb ed="#R" n="127"/>Confirmatur: quia omnes creaturae non adaequant 
+            <lb ed="#R" n="128"/>in essendo Dei infinitatem, quare nec si ponantur 
+            <lb ed="#R" n="129"/>omnes cognitae adaequabunt eius 
+            cognoscibilita<lb ed="#R" n="130" break="no"/>tem, &amp; per consequens non comprehendetur dato, 
+            <lb ed="#R" n="131"/>quod omnes cognoscantur
+          </p>
+          <p xml:id="paqqap-a32246-d1e772">
+            <!-- missing line break -->Et iterum comprehensio non attendetur penes, 
+            <lb ed="#R" n="132"/>hoc, quod omnia, quae sunt, vel relucent, cognoscan 
+            <lb ed="#R" n="133"/>tur, cum quilibet videns Deum videat existentiam &amp; 
+            <lb ed="#R" n="134"/>distinctionem trium personarum, &amp; quicquid est reale in 
+            <lb ed="#R" n="135"/>Deo cum simplex sit, &amp; per consequens comprehenderet. 
+            <!--0101.xml-->
+            <pb ed="#P" n="101"/>
+            <cb ed="#R" n="a"/>
+            <lb ed="#R" n="1"/>sed potius attenditur penes claritatem, &amp; gradum 
+            <lb ed="#R" n="2"/>vistonis, quia non in tanta claritate, &amp; tantum 
+            <lb ed="#R" n="3"/>videt quantum visibilis: non fequitur ergo, quod 
+            <lb ed="#R" n="4"/>videns Deum omnes eius effectus 
+            comprehende<lb ed="#R" n="5" break="no"/>ret, quia non infinito actu videret. 
+          </p>
+          <p xml:id="paqqap-a32246-d1e803">
+            <lb ed="#R" n="6"/>Ad moriuum opinionis dicendum, quod assumit 
+            <lb ed="#R" n="7"/>quod non est verum, scilicet, quod videns essentiam 
+            <lb ed="#R" n="8"/>per eam videat creaturas sub ea ratione, qua est 
+            <lb ed="#R" n="9"/>oausa efficiens, &amp; qua continentur in eius virtute; 
+            <lb ed="#R" n="10"/>non videt autem sic, sed potius tamquam per exē- 
+            <lb ed="#R" n="11"/>plar, &amp; ldeam i sub quoctimque autem gradu 
+            ri<lb ed="#R" n="12" break="no"/>deatursomnium est exemplar.
+          </p>
+          <p xml:id="paqqap-a32246-d1e821">
+            <lb ed="#R" n="13"/>Et iterum in argumento committitur fallacia 
+            <lb ed="#R" n="14"/>consequentis. Verum est enim, quod cognoscens 
+            <lb ed="#R" n="15"/>perfectius causam, potest eognoscere plures 
+            ene<lb ed="#R" n="16" break="no"/>dus/ vt cognoscens prineipium, potest in plures 
+            <lb ed="#R" n="17"/>condlusionos. Sed non fequitur e conuerso, quod 
+            <lb ed="#R" n="18"/>cognoseuns plures conelusiones: petfectius 
+            princi<lb ed="#R" n="19" break="no"/>pium cognoscat, aut plures effectus, perfectius 
+            eau<lb ed="#R" n="20" break="no"/>sam; euius ratio est, quia principium in quocum 
+            <lb ed="#R" n="21"/>que gradu cognitum elcausa omnium 
+            conclusio<lb ed="#R" n="22" break="no"/>num proportionaliter: tum quram vt perfectius 
+            co<lb ed="#R" n="23" break="no"/>gnirum est eausa cognitionum imperfectioris 
+            ea<lb ed="#R" n="24" break="no"/>rum; &amp; imperfectius cognitum imperfectioris: 
+            quan<lb ed="#R" n="25" break="no"/>to ergo quid videt dluinum essentiam perfectius 
+            <lb ed="#R" n="26"/>videt creaturas, &amp; a Deo sibi reuelantur ged Ron 
+            <lb ed="#R" n="27"/>lequitore conuerso, quia visa essentia in eodems 
+            <lb ed="#R" n="28"/>gradu possent plures reuelari, &amp; cognosci, quam 
+            <lb ed="#R" n="29"/>ante, &amp; per consequens omnes. 
+          </p>
+        </div>
+        <div xml:id="paqqap-a32246-Dd1e861">
+          <head xml:id="paqqap-a32246-Hd1e863">Articulus 2</head>
+          <p xml:id="paqqap-a32246-d1e865">
+            <lb ed="#R" n="30"/>ARTJCVEVS. IJ. 
+            <lb ed="#R" n="31"/>In quo propositio conditionalis ponitur.
+          </p>
+          <p xml:id="paqqap-a32246-d1e872">
+            <lb ed="#R" n="32"/>CIrca secundum pono vnam conditionalem 
+            <lb ed="#R" n="33"/>scilicet, quod si creaturae videntur in diuina 
+            <lb ed="#R" n="34"/>esentia, seu in verbo eadem visione, &amp; eodem 
+            <lb ed="#R" n="35"/>actu, quo videtur Verbum, ineuitabile est, 
+            quin<lb ed="#R" n="36" break="no"/>videns diuinam essentiam videat omnem creaturam, 
+            <lb ed="#R" n="37"/>nec poterit alternatim vidore nunc vnam, nune 
+            <lb ed="#R" n="38"/>aliam, sed qua ratione videt vnam, videt &amp; aliam, 
+            <lb ed="#R" n="39"/>&amp; per consequens omnes. 
+          </p>
+          <p xml:id="paqqap-a32246-d1e892">
+            <lb ed="#R" n="40"/>Hanc probo dupliciter. Primo sic: Omnis diuer 
+            <lb ed="#R" n="41"/>sitas, quae est circa obiecta in esse cognito, &amp; in 
+            <lb ed="#R" n="42"/>esse intentionali, reduci habet necessario ad 
+            diuer<lb ed="#R" n="43" break="no"/>sitatem in· actu cognitiuo secundum suum esse 
+            ta<lb ed="#R" n="44" break="no"/>le. hoc patet, quia esse intentionale nihil est in se, 
+            <lb ed="#R" n="45"/>sed totum suum esse est ex actu cognitiuo, &amp; ideo 
+            <lb ed="#R" n="46"/>est tantummodo ens rationis: impossibile est 
+            igi<lb ed="#R" n="47" break="no"/>tur, quod fiat de nouo esse intentionale, nisi per 
+            a<lb ed="#R" n="48" break="no"/>ctum reale cognitiuum; vel quod fiat variatio 
+            in<lb ed="#R" n="49" break="no"/>isto, nisi fiat in illu, alioquin esset per se ens &amp; in 
+            <lb ed="#R" n="50"/>se, &amp; per consequens esset ens reale, &amp; non 
+            ratio<lb ed="#R" n="51" break="no"/>nis tantum. 
+          </p>
+          <p xml:id="paqqap-a32246-d1e921">
+            <lb ed="#R" n="52"/>Et confirmatur, quia nulla actione potest 
+            attin<lb ed="#R" n="53" break="no"/>gi immediate, &amp; directe, sed attingitur tantum 
+            a<lb ed="#R" n="54" break="no"/>ctione praeattingente actus cognoscendi, ad cuius 
+            <lb ed="#R" n="55"/>positionem, vel variationem ponitur, &amp; variatur 
+            <lb ed="#R" n="56"/>esse cognitum, aut hoc vel illud cognitum ex tali-, 
+            <lb ed="#R" n="57"/>vel tali cognitione; a quo enim res habet vt sit, ab 
+            <lb ed="#R" n="58"/>eo habet, vt tale, vel tale sit, sed ad varietatem 
+            <lb ed="#R" n="59"/>actus visionis diuinae essentiae non potest reduci 
+            il<lb ed="#R" n="60" break="no"/>la varietas, vel diuersitas, qua nunc videtur sola 
+            <lb ed="#R" n="61"/>essentia sine creatura, nunc autem aliqua creatura; 
+            <lb ed="#R" n="62"/>fed nec illa, qua videtur nunc ista creatura, nunc 
+            <lb ed="#R" n="63"/>alia: ergo. 
+          </p>
+          <p xml:id="paqqap-a32246-d1e951">
+            <lb ed="#R" n="64"/>Sed nec illa, qua nunc videntur pauciores, nunc 
+            <lb ed="#R" n="65"/>plures: ergo necesse est, si illa visione, qua videtur 
+            <!--0101.xml-->
+            <cb ed="#R" n="b"/>
+            <lb ed="#R" n="66"/>diuina essentia, videtur ereatura, quod omnes erea 
+            <lb ed="#R" n="67"/>turae videantur. Quod autem ad varietatem 
+            bea<lb ed="#R" n="68" break="no"/>tificae visionis, qua videtur diuina essentia non 
+            pos<lb ed="#R" n="69" break="no"/>fet reduci ista diuersitas patee, quia vel 
+            reducere<lb ed="#R" n="70" break="no"/>tur ad diuerfitatem actus specificam, vel naturalem 
+            <lb ed="#R" n="71"/>in eodem gradu, vel ad intentionem, &amp; 
+            remissio<lb ed="#R" n="72" break="no"/>nem actus: non potest autem reduci ad diuersitaton 
+            <lb ed="#R" n="73"/>specificam, quasi actus, quo videtur diuina 
+            essen<lb ed="#R" n="74" break="no"/>tia nuns cum vna creatura, nunc cum alis, nunc 
+            <lb ed="#R" n="75"/>eum pluribus, nunc cum paucioribus, mede 
+            eume<lb ed="#R" n="76" break="no"/>creatura, ounc sine creatura, sicut alterius specreit 
+            <lb ed="#R" n="77"/>quia cum quilibet sit beatificus, sequeretur, quod 
+            <lb ed="#R" n="78"/>essent plures actus beatifici specie differentes, &amp; 
+            <lb ed="#R" n="79"/>quod in qualibet reuelatione variaretur beatus 
+            se<lb ed="#R" n="80" break="no"/>cundum speciem, &amp; fua beatitudo, &amp; esset beatus, 
+            <lb ed="#R" n="81"/>ficut Caieceon, quod est inconueniens. Nec potest 
+            <lb ed="#R" n="82"/>etiam reduci ad solam diuersitatem naturalem 
+            <lb ed="#R" n="83"/>mahente identitate specifiea, quia ex quofessent 
+            <lb ed="#R" n="84"/>eiusdem rationis, &amp; eiusdem gradus, haberent idem 
+            <lb ed="#R" n="85"/>oblectum, &amp; in eodem gradu, ac eodem numero, 
+            <lb ed="#R" n="86"/>&amp; ita non plures, nec pauciores creaturae 
+            attinge<lb ed="#R" n="87" break="no"/>rentur per vnum actum, quam per alium. Nec 
+            po<lb ed="#R" n="88" break="no"/>test reduei ad intentionem, &amp; remissionem: tum 
+            <lb ed="#R" n="89"/>quia in quocumque videatur diuina essentiam, 
+            suffi<lb ed="#R" n="90" break="no"/>Senter repraesentat omnem creaturam, eum sit exem 
+            <lb ed="#R" n="91"/>plar indiuisibile, quo totum attingitur, in 
+            quocun<lb ed="#R" n="92" break="no"/>que gradu claro, vel mihus claro cognoscatur: 
+            <lb ed="#R" n="93"/>Tum quia non posset Deus reuelare aliquid 
+            deno<lb ed="#R" n="94" break="no"/>uo, quin intenderet esseem itlem bearitudinem eius, 
+            <lb ed="#R" n="95"/>nec posset sibi manifostare tot creaturas, quot 
+            vi<lb ed="#R" n="96" break="no"/>det Petrus in Verbo, quando poneret tum in 
+            gra<lb ed="#R" n="97" break="no"/>du beatifito Petri, quod inconueni ens est: igitur 
+            <lb ed="#R" n="98"/>ad nullam diuersitatem actas visionis reduci 
+            po<lb ed="#R" n="99" break="no"/>test, quod nunc pauciores, nune plures creaturae in 
+            <lb ed="#R" n="100"/>diuina essentia cognoscantur: 
+          </p>
+          <p xml:id="paqqap-a32246-d1e1038">
+            <lb ed="#R" n="101"/>Sed forte dicetur, quod maior est falsa secandum 
+            <lb ed="#R" n="102"/>principia alias data; nam dictum est supra, quod 
+            <lb ed="#R" n="103"/>varietas actus intellectiui remanet, de non actu obie 
+            <lb ed="#R" n="104"/>ctum phantasiatur, &amp; cum non est ibi subiectum 
+            <lb ed="#R" n="105"/>secundum esse apparens, &amp; cognitum, &amp; 
+            intentio<lb ed="#R" n="106" break="no"/>nale per realitatem actus intellectiui, &amp; nullo reali 
+            <lb ed="#R" n="107"/>adueniente sola cogitatiua posita in actu 
+            cogitan<lb ed="#R" n="108" break="no"/>di phantasma obiectum vniuersale capit esse prius, 
+            <lb ed="#R" n="109"/>&amp; esse cognitum, &amp; intentionale per praedictam 
+            <lb ed="#R" n="110"/>realitatem apud intellectum; ergo varietas est 
+            in<lb ed="#R" n="111" break="no"/>esse cognito nulla varietate existente in actu 
+            secun<lb ed="#R" n="112" break="no"/>dum esse reale. 
+          </p>
+          <p xml:id="paqqap-a32246-d1e1067">
+            <lb ed="#R" n="113"/>Sed dicendum ad hoc, quod immo est varietas 
+            <lb ed="#R" n="114"/>in esse reali ipsius actus, vel secundum intrinsecam 
+            <lb ed="#R" n="115"/>remissionem, &amp; intensionem, quia ad praesentiam 
+            <lb ed="#R" n="116"/>phantasmatis coagentem similitudo obiecti, quae 
+            <lb ed="#R" n="117"/>essentialiter est actus, intenditur, &amp; perficitur: ad 
+            <lb ed="#R" n="118"/>absentiam vero phantasmatis ab eo imperficitur 
+            <lb ed="#R" n="119"/>&amp; remittitur, vt non sit sufficiens ad exprimendum 
+            <lb ed="#R" n="120"/>obiectum sub esse intentionali. &amp; apparenti 
+            expres<lb ed="#R" n="121" break="no"/>sibiliter. Vnde adeo debiliter exprimit, vt haec 
+            ani<lb ed="#R" n="122" break="no"/>ma non experiatur, sicut conuenit de recitante 
+            <lb ed="#R" n="123"/>psalmos memoriter, qui non experitur omnes 
+            di<lb ed="#R" n="124" break="no"/>ctiones eiusdem psalmi in suo prospectu poni. Et 
+            <lb ed="#R" n="125"/>est exemplum Augustini 14. de Trinit. cap. 6. Vel 
+            <lb ed="#R" n="126"/>haec varietas est secundum imperfectionem 
+            poten<lb ed="#R" n="127" break="no"/>tiae intellectiuae, quae cum sit infima in genere 
+            intel<lb ed="#R" n="128" break="no"/>ligentium, indiget concursu alterius potentiae 
+            co<lb ed="#R" n="129" break="no"/>gnitiuae tendentis circa idem subiectum, videlicet 
+            <lb ed="#R" n="130"/>imaginatiuae, siue cogitatiuae, quae communi 
+            nomi<lb ed="#R" n="131" break="no"/>ne dicuntur phantasia, &amp; ideo necesse est intelligen 
+            <lb ed="#R" n="132"/>tem phantasmata speculari: hoc autem locum non 
+            <lb ed="#R" n="133"/>habet in visione beatifica: ergo. 
+          </p>
+          <p xml:id="paqqap-a32246-d1e1115">
+            <!--0102.xml-->
+            <pb ed="#P" n="102"/>
+            <cb ed="#R" n="a"/>
+            <lb ed="#R" n="1"/>Secundo. probo eandem propositionem sic. 
+            Im<lb ed="#R" n="2" break="no"/>possibile est actum cognitiuum ad obiecta 
+            secun<lb ed="#R" n="3" break="no"/>daria aliter se habere, nisi aliter se habeat ad 
+            obie<lb ed="#R" n="4" break="no"/>ctum primum, quod est exemplar, &amp; ratio 
+            cogno<lb ed="#R" n="5" break="no"/>scendi. &amp; hoc patet, quia nulla est varietas in effectu, 
+            <lb ed="#R" n="6"/>quin habeat reduci ad causam, maxime in 
+            causali<lb ed="#R" n="7" break="no"/>tate formali, &amp; exemplari: sed sic est actus visionis, 
+            <lb ed="#R" n="8"/>quo videtur diuina essentia, &amp; tamem hoc non se habet 
+            <lb ed="#R" n="9"/>aliter ad obiectum primum, quod est exemplar, &amp; 
+            <lb ed="#R" n="10"/>ratio cognoscendi creaturas, si debeant videri nunc 
+            <lb ed="#R" n="11"/>plures, nunc pauciores, constat enim, quod non 
+            <lb ed="#R" n="12"/>potest se habere aliter ad diuinam essentiam, nisi 
+            <lb ed="#R" n="13"/>quia nunc intensius, nunc remissius feratur in eam, 
+            <lb ed="#R" n="14"/>vel quia nunc vnum, nunc aliud videat de ca 
+          </p>
+          <p xml:id="paqqap-a32246-d1e1154">
+            <lb ed="#R" n="15"/>Et primum non potest dari, quia oporierer acum 
+            <lb ed="#R" n="16"/>beatificum intendi, &amp; remitti, ex 
+            manifestatione<lb ed="#R" n="17" break="no"/>nunc plurium, nunc pauciorum creaturarum. Nec 
+            <lb ed="#R" n="18"/>potest dari secundum, cum in diuina essentia 
+            no<lb ed="#R" n="19" break="no"/>sit aliud &amp; aliud ipsa repraesentante.
+          </p>
+          <p xml:id="paqqap-a32246-d1e1167">
+            <lb ed="#R" n="20"/>Igitur nulla diuersitas est in actu diuinae essentia 
+            <lb ed="#R" n="21"/>quae est cognoscendi ratio, &amp; exemplar: ergo nec 
+            <lb ed="#R" n="22"/>circa creaturas poterit esse diuersitas, vt 
+            cogno<lb ed="#R" n="23" break="no"/>scantur nunc plures, nunc pauciores, &amp; per 
+            conse<lb ed="#R" n="24" break="no"/>quens cognoscuntur omnes.
+          </p>
+          <p xml:id="paqqap-a32246-d1e1181">
+            <lb ed="#R" n="25"/>Sed forte dicetur per interemptionem minoris? 
+            <lb ed="#R" n="26"/>quantum ad secundum membrum, nam rationes 
+            <lb ed="#R" n="27"/>Jdaeales sunt in diuina essentia quidam respectus 
+            ve<lb ed="#R" n="28" break="no"/>ri, &amp; reales ad creaturas possibiles fieri, nec est 
+            <lb ed="#R" n="29"/>ineonueniens, quod sit respectus realis ad non ens, 
+            <lb ed="#R" n="30"/>&amp; sine termino realiter existente. 
+          </p>
+          <p xml:id="paqqap-a32246-d1e1197">
+            <lb ed="#R" n="31"/>Sic igitur voluntas diuina facere potest; quod 
+            <lb ed="#R" n="32"/>beatus videns videat per illum actum nunc vnum 
+            <lb ed="#R" n="33"/>de illis respectibus realibus, qui sunt Jdeae, nunc 
+            <lb ed="#R" n="34"/>alium, &amp; per consequens videbit nunc vnam 
+            crea<lb ed="#R" n="35" break="no"/>turam, nunc aliam per rationes proprias Jdaeales, 
+            <lb ed="#R" n="36"/>&amp; hic est modus dicendi cuiusdam doctoris.
+          </p>
+          <p xml:id="paqqap-a32246-d1e1213">
+            <lb ed="#R" n="37"/>
+            <!-- line coord order error -->Qui quidem stare non potest.
+          </p>
+          <p xml:id="paqqap-a32246-d1e1220">
+            <lb ed="#R" n="38"/>
+            <!-- line coord order error -->Primo quidem in assumpto. Jmpossibile est 
+            e<lb ed="#R" n="39" break="no"/>nim, quod Jdaeae sint respectus realis Dei ad 
+            creatu<lb ed="#R" n="40" break="no"/>ras, &amp; quod relatio realis possit esse ad non ens 
+            si<lb ed="#R" n="41" break="no"/>ue absque termino realiter existente. Quod patet, 
+            <lb ed="#R" n="42"/>quia sicut res se habet ad definiri, &amp; intelligi, sic se 
+            <lb ed="#R" n="43"/>habet ad esse, saltem plura exigit secundum esse, 
+            <lb ed="#R" n="44"/>quam secundum definiri. Et quicquid exigit secun 
+            <lb ed="#R" n="45"/>dum definiri, &amp; intelligi, exigit secundum esse. Sed 
+            <lb ed="#R" n="46"/>impossibile est relationem definiri, aut intelligi 
+            <lb ed="#R" n="47"/>sine termino, nec significari; relatio enim non est 
+            <lb ed="#R" n="48"/>nisi ad aliquid, vt Philosophus dicit in 
+            praedicamen<lb ed="#R" n="49" break="no"/>tis, &amp; consistit in ad esse, vt Boetius dicit, nec est nisi 
+            <lb ed="#R" n="50"/>medium inter extrema, vt Commentator dicit 3. 
+            <lb ed="#R" n="51"/>physic. Et manifestum est, quod nullus potest 
+            in<lb ed="#R" n="52" break="no"/>telligere paternitatem sine filiatione, quia relatiua 
+            <lb ed="#R" n="53"/>sunt simul naturali intelligentia, &amp; qui cognoscit 
+            <lb ed="#R" n="54"/>definitiue vnum relatiuorum, de finitiue cognoscit 
+            <lb ed="#R" n="55"/>&amp; reliquum secundum regulas positas in 
+            praedica<lb ed="#R" n="56" break="no"/>mentis. Igitur sicut imposibile est relationem 
+            si<lb ed="#R" n="57" break="no"/>gnificari, quin terminus consignificetur, &amp; 
+            intelli<lb ed="#R" n="58" break="no"/>gi, quin cointelligatur terminus, multo fortius 
+            im<lb ed="#R" n="59" break="no"/>possibile est ipsam existere, quin terminus coexistat 
+          </p>
+          <p xml:id="paqqap-a32246-d1e1272">
+            <lb ed="#R" n="60"/>Praeterea: Jmpossibile est medium esse sine 
+            ex<lb ed="#R" n="61" break="no"/>tremis: relatio est medium &amp; habitudo, &amp; nihil 
+            a<lb ed="#R" n="62" break="no"/>liud: ergo quomodo poni poterit sine extremis? 
+          </p>
+          <p xml:id="paqqap-a32246-d1e1281">
+            <lb ed="#R" n="63"/>Et confirmatur: quia relatio sicut secundum 
+            ge<lb ed="#R" n="64" break="no"/>nus accidentis indiget subiecto, sic secundum 
+            ge<lb ed="#R" n="65" break="no"/>nus proprium indiget termino. Si ergo potest esse 
+            <lb ed="#R" n="66"/>sine termino, multo fortius sine fundamento, &amp; ita 
+            <lb ed="#R" n="67"/>poterit poni relatio subsistens sine sundamento, &amp; 
+            <lb ed="#R" n="68"/>termino. 
+          </p>
+          <p xml:id="paqqap-a32246-d1e1298">
+            <!--0102.xml-->
+            <cb ed="#R" n="b"/>
+            <lb ed="#R" n="69"/>Praeterea: Esse, quod non est ad aliud, est a se e 
+            <lb ed="#R" n="70"/>absolutum secundum diuisionem, quam ponit <ref xml:id="paqqap-a32246-Rd1e1308">
+              Au<lb ed="#R" n="71" break="no"/>gustinus 5. de Trinit.</ref> sed si relatio sit, &amp; terminus 
+            <lb ed="#R" n="72"/>sit nihil, &amp; non ens, calis relatio non est ad aliud, 
+            <lb ed="#R" n="73"/>quia si ad aliud esset, esset ad ens, cum alieras sit de 
+            <lb ed="#R" n="74"/>proprietatibus entis, videtur habere non ens, fiue 
+            <lb ed="#R" n="75"/>nihil pro termino in actu, non est habere terminum 
+            <lb ed="#R" n="76"/>in actu, &amp; secundum hoc relatio illa non erit ad 
+            <lb ed="#R" n="77"/>aliquid, immo ad non aliquid, cum ens, &amp; aliquid 
+            <lb ed="#R" n="78"/>conuertantur: igitur erit ad se in acto, &amp; per 
+            conso<lb ed="#R" n="79" break="no"/>quens absolutum in actu- 
+          </p>
+          <p xml:id="paqqap-a32246-d1e1332">
+            <lb ed="#R" n="80"/>Vnde non potest iuuari haec positio ex hoc, quod 
+            <lb ed="#R" n="81"/>terminus sit vel in potentia, vel secundum esse 
+            co<lb ed="#R" n="82" break="no"/>gnitum: tum quia ponens hoc respuit, dicis enim, 
+            <lb ed="#R" n="83"/>quod relatio eius, quod est ad finem ad ipsum fiuam, 
+            <lb ed="#R" n="84"/>vtpote actionis, quae inducit finem, non habet pro 
+            <lb ed="#R" n="85"/>termino ipsum finem, vt est ens in potentia, quia 
+            <lb ed="#R" n="86"/>vt sio non ordinatur actio in finem, sed potius 
+            in<lb ed="#R" n="87" break="no"/>tendit inducere finem in actu. Sed nec secundum 
+            <lb ed="#R" n="88"/>esso cognitum. Tum, quia si terminus relationis 
+            <lb ed="#R" n="89"/>est in potentia, vel in esse cognito, verum est, quod 
+            <lb ed="#R" n="90"/>relatio non est ad terminum nisi in potentia, &amp; 
+            in<lb ed="#R" n="91" break="no"/>esse cognito, &amp; per consequens non est ad aliud in 
+            <lb ed="#R" n="92"/>actu,. nec ad aliquid, nec erit actualis relatio, sed 
+            <lb ed="#R" n="93"/>potentialis, vel secundum rationem.
+          </p>
+          <p xml:id="paqqap-a32246-d1e1365">
+            <lb ed="#R" n="94"/>Praeterea: relatio Dei ad creaturam per modum 
+            <lb ed="#R" n="95"/>exemplaris, &amp; Idaeae est de tertio modo relatiuorum 
+            <lb ed="#R" n="96"/>per modum mensurae, &amp; mensurati: sed secundum 
+            <lb ed="#R" n="97"/>Philosophum, &amp; Commentatorem 5. meth. in 
+            ter<lb ed="#R" n="98" break="no"/>tio modo relatiuorum non est realis relatio ex par 
+            <lb ed="#R" n="99"/>te mensurae, sed ex parte mensurati, nec mensura 
+            <lb ed="#R" n="100"/>refertur ad mensuram, nisi ex hoc, quod 
+            mensura<lb ed="#R" n="101" break="no"/>tum ad mensuram refertur. 
+          </p>
+          <p xml:id="paqqap-a32246-d1e1385">
+            <lb ed="#R" n="102"/>Igitur respectus exemplaritatis, aut Jdaeales non 
+            <lb ed="#R" n="103"/>sunt reales in Deo: tum quia se tenent ex 
+            parte<lb ed="#R" n="104" break="no"/>mensurae: Tum quia creaturae mensuratae non 
+            pro<lb ed="#R" n="105" break="no"/>feruntur relatione reali ab aeterno, cum non 
+            habe<lb ed="#R" n="106" break="no"/>rent esse reale.
+          </p>
+          <p xml:id="paqqap-a32246-d1e1398">
+            <lb ed="#R" n="107"/>Secundo deficit in proposito, quia licet verum 
+            <lb ed="#R" n="108"/>esset Idaeas esse respectus reales, adhuc impossibile 
+            <lb ed="#R" n="109"/>esset poni, quod per actum visionis essentiae diuinae 
+            <lb ed="#R" n="110"/>nunc attingeretur vnus ex illis respectibus, nunc 
+            <lb ed="#R" n="111"/>alius, nisi fieret aliqua variatio realis in actu 
+            visio<lb ed="#R" n="112" break="no"/>nis. Et per idem potest excludi solutio, si daretur, 
+            <lb ed="#R" n="113"/>quod sunt respectus rationis. Impossibile est enim 
+            <lb ed="#R" n="114"/>quod in aliquo actu fit immutatio obiectiua, nisi 
+            <lb ed="#R" n="115"/>in eodem sit realis immutatio obiectiua, nisi 
+            in<lb ed="#R" n="116" break="no"/>eodem sit realis immutatio, &amp; entitatiua: sed dum 
+            <lb ed="#R" n="117"/>reuelatio fit creaturarum de nouo, non potest poni, 
+            <lb ed="#R" n="118"/>quod in actu visionis fiat realis immutatio, &amp; 
+            enti<lb ed="#R" n="119" break="no"/>tatiua: ergo non potest fieri, quod fiat obiectiua 
+            <lb ed="#R" n="120"/>vt videatur nunc vna Jdaea, nunc alia, 
+            qualescum<lb ed="#R" n="121" break="no"/>que respectus fuerint reales, vel rationis. 
+          </p>
+          <p xml:id="paqqap-a32246-d1e1433">
+            <lb ed="#R" n="122"/>Ex his etiam potest concludi veritas cuiusdam, 
+            <lb ed="#R" n="123"/>quod consueuit inquiri, scilicet, quod 
+            impossibile<lb ed="#R" n="124" break="no"/>est videri diuinam essentiam, quin videantur 
+            per<lb ed="#R" n="125" break="no"/>sonae, &amp; personales proprietates; quia si posset 
+            vi<lb ed="#R" n="126" break="no"/>deri essentia praecise sine proprietate, &amp; videri etiam 
+            <lb ed="#R" n="127"/>cum proprietate, sicut etiam hodie videtur, aut hoc 
+            <lb ed="#R" n="128"/>est per actus visionum eiusdem, &amp; eiusdem gradus, 
+            <lb ed="#R" n="129"/>aut per actus eiusdem speciei, &amp; alterius gradus, 
+            <lb ed="#R" n="130"/>aut per actus alterius speciei. Sed non potest dici, 
+            <lb ed="#R" n="131"/>quod per actus eiusdem speciei, &amp; eiusdem gradus, 
+            <lb ed="#R" n="132"/>quia erunt omnino eiusdem rationis tales actus, &amp; per 
+            <lb ed="#R" n="133"/>consequens habebunt idem obiectum, &amp; ita si vnus 
+            <lb ed="#R" n="134"/>attingit essentiam, cum proprietate, oportet, quod 
+            <lb ed="#R" n="135"/>reliquum attingat: Nec potest dici, quod actus 
+            eius<lb ed="#R" n="136" break="no"/>dem speciei, &amp; alterius gradus, quasi sit intensior 
+            <!--0103.xml-->
+            <pb ed="#P" n="103"/>
+            <cb ed="#R" n="a"/>
+            <lb ed="#R" n="1"/>actus, quo videtur essentia cum proprietate, quam 
+            <lb ed="#R" n="2"/>ille quo videtur sola essentia, quia secundum hoc 
+            <lb ed="#R" n="3"/>proprietates personales intendent actum 
+            beatifi<lb ed="#R" n="4" break="no"/>cum, nec esset essentia sola ratio beatitudinis, nec 
+            <lb ed="#R" n="5"/>esset fruendum, nec esset vnum tres personae in 
+            bea<lb ed="#R" n="6" break="no"/>tificando, &amp; per consequens nec in creando, cum 
+            <lb ed="#R" n="7"/>per eandem rationem Trinitas sit finis, &amp; causa 
+            <lb ed="#R" n="8"/>efficiens omnium. 
+          </p>
+          <p xml:id="paqqap-a32246-d1e1493">
+            <lb ed="#R" n="9"/>Nec potest dari tertium, scilicet quod actus illi 
+            <lb ed="#R" n="10"/>essont alterius speciei: constat enim, quod vterque 
+            <lb ed="#R" n="11"/>esset beatificus, cum vterque attingeret diuinam 
+            <lb ed="#R" n="12"/>essentiam, vnus cum proprietate parsonali, &amp; 
+            <lb ed="#R" n="13"/>alius sine, &amp; per consequens duplex esset beatitudo 
+            <lb ed="#R" n="14"/>formalis, yna, quae respicit essentiam praecise, &amp; alia⸗ 
+            <lb ed="#R" n="15"/>quae rospicit essentiam in persona, quod 
+            impossibi<lb ed="#R" n="16" break="no"/>le est. Igitur non potest dici, quod aliquo actu 
+            vi<lb ed="#R" n="17" break="no"/>deatur essemia, quin eodem videatur proprietas. 
+          </p>
+        </div>
+        <div xml:id="paqqap-a32246-Dd1e1516">
+          <head xml:id="paqqap-a32246-Hd1e1518">Articulus 3</head>
+          <p xml:id="paqqap-a32246-d1e1520">
+            <lb ed="#R" n="18"/>ARTJCVLVS JJJ 
+            <lb ed="#R" n="19"/>Vbi inquiritur de veritate consequenter praedicta 
+            <lb ed="#R" n="20"/>propositionis conditionalis. 
+          </p>
+          <p xml:id="paqqap-a32246-d1e1529">
+            <lb ed="#R" n="21"/>NVnc tertio videndum est consequenter 
+            de<lb ed="#R" n="22" break="no"/>Veritate praedictae conditionalis, an 
+            scili<lb ed="#R" n="23" break="no"/>cet videntes diuinam essentiam necessario videant 
+            <lb ed="#R" n="24"/>omnia. Circa quod Sancti videntur contraria 
+            <lb ed="#R" n="25"/>sentire. 
+          </p>
+          <p xml:id="paqqap-a32246-d1e1542">
+            <lb ed="#R" n="26"/>Videtur enim ex dictis Augustini, quod sic: 
+            Di<lb ed="#R" n="27" break="no"/>cit enim in libello de triplici habitaculo, quod in 
+            <lb ed="#R" n="28"/>visione illa, qua Deum videbimus, trina nascetur 
+            <lb ed="#R" n="29"/>scientia, idest hominis, qui cernit, &amp; Dei, qui 
+            cer<lb ed="#R" n="30" break="no"/>nitur, &amp; caeteri omnes omnia videbunt, &amp; 
+            intelli<lb ed="#R" n="31" break="no"/>gent; sicut enim per speculum trina nobis visio 
+            ad<lb ed="#R" n="32" break="no"/>ministratur, quia nos ipsos, &amp; ipsum speculum, &amp; 
+            <lb ed="#R" n="33"/>quicquid adest praesens videmus; sic per speculum 
+            <lb ed="#R" n="34"/>diuinae claritatis &amp; ipsum Deum, vt est videbimus 
+            <lb ed="#R" n="35"/>quantum possibile est cernere, &amp; nos ipsos, &amp; 
+            caete<lb ed="#R" n="36" break="no"/>ra vera scientia cognoscemus tunc, abdita 
+            creatu<lb ed="#R" n="37" break="no"/>rarum, etiam ipsius inferni videndo Deum 
+            videbi<lb ed="#R" n="38" break="no"/>mus. Et subdit: tunc manifestum erit iustis, 
+            quo<lb ed="#R" n="39" break="no"/>modo mundus erat in Deo, antequam in seipso 
+            es<lb ed="#R" n="40" break="no"/>set non mundus, sed Deus. haec Augustinus. Vbi 
+            vi<lb ed="#R" n="41" break="no"/>detur asserere, quod videns Deum videt mundum, 
+            <lb ed="#R" n="42"/>&amp; omnia abdita creaturarum etiam ipsius inferni. 
+          </p>
+          <p xml:id="paqqap-a32246-d1e1581">
+            <lb ed="#R" n="43"/>Praeterea: Augustinus super Genes. lib. 2. cap. 13. 
+            <lb ed="#R" n="44"/>loquens de angelis, &amp; beatis, quod non sicut nos ad 
+            <lb ed="#R" n="45"/>participandum sapientiam proficiebant, quia ex 
+            <lb ed="#R" n="46"/>quo sancti sunt ipsa aeternitate, sancta &amp; pia 
+            con<lb ed="#R" n="47" break="no"/>templatiue perfruuntur, atque in ista respicientes, 
+            <lb ed="#R" n="48"/>scilicet creaturas, secundum illud quod intellectus 
+            <lb ed="#R" n="49"/>videret, vel recte perfecta approbant, vel peccata 
+            <lb ed="#R" n="50"/>improbant. Vbi innuit, quod intellectus beatorum 
+            <lb ed="#R" n="51"/>in diuina scilicet essentia videt omnia, quae fiunt 
+            <lb ed="#R" n="52"/>etiam peccata. 
+          </p>
+          <p xml:id="paqqap-a32246-d1e1606">
+            <lb ed="#R" n="53"/>Praeterea: Quarto super Gen. cap. 29. dicit, quod 
+            <lb ed="#R" n="54"/>cum sancti angeli semper videant faciem Dei 
+            Ver<lb ed="#R" n="55" break="no"/>bo, quia eius vnigenito perfruantur, procul dubio 
+            <lb ed="#R" n="56"/>vniuersam creaturam in ipso Verbo Dei prius 
+            no<lb ed="#R" n="57" break="no"/>uerunt, in quo sunt, etiam omnium, quae 
+            tempora<lb ed="#R" n="58" break="no"/>liter facta sunt, aeternae rationes tamquam in eo per 
+            <lb ed="#R" n="59"/>quod facta sunt: igitur dicit expraesse, quod in 
+            ver<lb ed="#R" n="60" break="no"/>bo vident vniuersam creaturam. 
+          </p>
+          <p xml:id="paqqap-a32246-d1e1626">
+            <lb ed="#R" n="61"/>Praeterea: Gregorius 4. Dialog. huic sententiae 
+            <lb ed="#R" n="62"/>consonat in illo verbo vulgato quid est, quod non 
+            <lb ed="#R" n="63"/>videant, qui videntem omnia vident. 
+          </p>
+          <p xml:id="paqqap-a32246-d1e1635">
+            <lb ed="#R" n="64"/>Praeterea: Ad hoc est ratio manifesta. Assumo 
+            <lb ed="#R" n="65"/>enim ex alias declaratis ex dictis Sanctorum, &amp; Phi 
+            <!--0103.xml-->
+            <cb ed="#R" n="b"/>
+            <lb ed="#R" n="66"/>losophorum, &amp; ratione manifesta, quod Deus non 
+            <lb ed="#R" n="67"/>vna portio entitatis, sed est omnis entitas 
+            simplici<lb ed="#R" n="68" break="no"/>ter &amp; eminenter subsistens. Tunci Sicut se habet 
+            <lb ed="#R" n="69"/>esse ad esse, sic cognosci ad cognosci, ac cognoscere 
+            <lb ed="#R" n="70"/>ad cognoscere. Sed diuinitas est omnis entitas omi 
+            <lb ed="#R" n="71"/>nentor. Igitur Deitatequ cognoscere ost omnem 
+            <lb ed="#R" n="72"/>entitatem eminenter cognospere, &amp; por consequens 
+            <lb ed="#R" n="73"/>ipsam cognosci est omuem creaturam, immo 
+            omi<lb ed="#R" n="74" break="no"/>nenter, &amp; luminoso, ac matutino cognosci. 
+            <lb ed="#R" n="75"/>Confirmatur, quia Rhilosophus a2 metb. &amp; Con⸗ 
+            <lb ed="#R" n="76"/>meotator comm. 50. ibidem diciti quod Deus 
+            scien<lb ed="#R" n="77" break="no"/>do se scit omnia, quia ipse est natura antis 
+            simpli<lb ed="#R" n="78" break="no"/>oiter: pari ergo ratione videtur, quod quicumque 
+            <lb ed="#R" n="79"/>scit Deitatem, quae est omnis entitas eminenter, 
+            <lb ed="#R" n="80"/>quoxognoscat omnem entitatem, &amp; omnem crea 
+            <lb ed="#R" n="81"/>turam, quamuis modo eminenti.
+          </p>
+          <p xml:id="paqqap-a32246-d1e1681">
+            <lb ed="#R" n="82"/>Quod vero videntes diuinam essentiam non ex hoc 
+            <lb ed="#R" n="83"/>videant omnia, videtur auctoritate sacrae scripturae 
+            <lb ed="#R" n="84"/>ad Ephes. 3. vbi Apostolus ait, vt innorescat 
+            prin<lb ed="#R" n="85" break="no"/>cipibus, &amp; potentatibus in caelestibus per 
+            Eccle<lb ed="#R" n="86" break="no"/>siam multiformis sapientia Dei, vbi dicit Glos. Hie 
+            <lb ed="#R" n="87"/>ronymi mysterium incarnationis, &amp; passionis Chri 
+            <lb ed="#R" n="88"/>sti ad purum non intellexisse angelicas dignitates, 
+            <lb ed="#R" n="89"/>donec completum est, &amp; subdit; quod non sulum 
+            <lb ed="#R" n="90"/>Patriarchis, &amp; Prophetis, sed &amp; potentatibus 
+            cae<lb ed="#R" n="91" break="no"/>lestibus multiformis sapientia fuit per Ecclesiam 
+            <lb ed="#R" n="92"/>reuelata. Et glos. Ambrosij concordat, qui dicit, 
+            <lb ed="#R" n="93"/>quod multiplex est sapientia Dei multas species, &amp; 
+            <lb ed="#R" n="94"/>formas habens, quam principes, &amp; praesentates per 
+            <lb ed="#R" n="95"/>Ecclesiam cognouerunt. Sed haec vera non essent, si 
+            <lb ed="#R" n="96"/>videntes diuinam essentiam omnia viderent, 
+            igi<lb ed="#R" n="97" break="no"/>tur istud poni non potest. 
+          </p>
+          <p xml:id="paqqap-a32246-d1e1718">
+            <lb ed="#R" n="98"/>Praeterea: Augustino. super genes. c. 5 3. Loquens de 
+            <lb ed="#R" n="99"/>vifione rerum in verbo dicit, quod non mirum est, 
+            <lb ed="#R" n="100"/>si sanctis angelis suis prius Deus ostendebat, quod 
+            <lb ed="#R" n="101"/>erat deinceps creaturus; neque enim Dei intuitu 
+            <lb ed="#R" n="102"/>noscerent, nisi quantum ipse monstraret: quis enim 
+            <lb ed="#R" n="103"/>cognouit intellectum Domini, aut quis consiliarius 
+            <lb ed="#R" n="104"/>eius fuit, quoniam ex ipso, &amp; per ipsum, &amp; in ipso 
+            <lb ed="#R" n="105"/>sunt omnia: ex ipso ergo angeli discebant: igitur, 
+            <lb ed="#R" n="106"/>cum dicat expraesse, quod intellectum Dei non 
+            no<lb ed="#R" n="107" break="no"/>scerent, nisi quantum ipse monstraret, patet quod 
+            <lb ed="#R" n="108"/>non de necessitate omnia nouerant, sed tot, quot eis 
+            <lb ed="#R" n="109"/>monstrabat. 
+          </p>
+          <p xml:id="paqqap-a32246-d1e1747">
+            <lb ed="#R" n="110"/>Praeterea: Quod secundum doctrinam Dionysij 
+            <lb ed="#R" n="111"/>cap. 6. caelestis hierarchae: Angeli inferiores 
+            illumi<lb ed="#R" n="112" break="no"/>nantur a superioribus, &amp; purgantur a nescientia, 
+            <lb ed="#R" n="113"/>sed ipsi vident Deum per essentiam: ergo videnter 
+            <lb ed="#R" n="114"/>Deum non vident omnia praecipue futura 
+            contin<lb ed="#R" n="115" break="no"/>gentia, &amp; cogitationes occultas. 
+          </p>
+          <p xml:id="paqqap-a32246-d1e1764">
+            <lb ed="#R" n="116"/>Praeterea: Matth. 24. dicit glos. super illud. De 
+            <lb ed="#R" n="117"/>die autem illa nemo scit, neque angeli caelorum, 
+            <lb ed="#R" n="118"/>quod nulli sanctorum angelorum concessit 
+            noti<lb ed="#R" n="119" break="no"/>tiam huius dici, neque filio adoptiuo, idest, neque 
+            <lb ed="#R" n="120"/>vlli sanctorum. 
+          </p>
+          <p xml:id="paqqap-a32246-d1e1777">
+            <lb ed="#R" n="121"/>Praeterea <ref xml:id="paqqap-a32246-Rd1e1781">glos. ad Ephes. 3.</ref> super verbo superius 
+            <lb ed="#R" n="122"/>allegato reducens ad concordiam expositionem 
+            Au<lb ed="#R" n="123" break="no"/>gustini, qui videtur dicere, quod non debet 
+            intelli<lb ed="#R" n="124" break="no"/>gi, quod per essentiam innotuerit principibus, &amp; 
+            <lb ed="#R" n="125"/>potentatibus multiformis sapientia Dei, quia 
+            ip<lb ed="#R" n="126" break="no"/>sis a saeculis innotuit omnis creatura, &amp; per 
+            conse<lb ed="#R" n="127" break="no"/>quens debet sic fieri secundum illud verbum 
+            Apo<lb ed="#R" n="128" break="no"/>stoli, quod innotuit multiformis sapientia Dei per 
+            <lb ed="#R" n="129"/>Ecclesiam, idest, in Ecclesia sapientia, vtique 
+            ab<lb ed="#R" n="130" break="no"/>scondita in Deo a saeculis, sic tamen abscondita, vt 
+            <lb ed="#R" n="131"/>tamen cum hoc innotescat, hoc est innotesceret 
+            <lb ed="#R" n="132"/>principibus, &amp; potentatibus; vbi expraesse innuit, 
+            <lb ed="#R" n="133"/>quod sapientia Dei, quantumcumque abscondita, 
+            <!--0104.xml-->
+            <pb ed="#P" n="104"/>
+            <cb ed="#R" n="a"/>
+            <lb ed="#R" n="1"/>tnmon afigelis Deum vldentibus innotescir. euei 
+            <lb ed="#R" n="2"/>igitur hanc oxpositionem, &amp; illam Hierom &amp; 
+            Am<lb ed="#R" n="3" break="no"/>brosi qui videntur dicere, quod hoc mysterium 
+            <lb ed="#R" n="4"/>angeli ab Ecdlosia didicerunt, volens glosa concor 
+            <lb ed="#R" n="5"/>dare dicit Et ne videantur sibi contradicere in 
+            <lb ed="#R" n="6"/>praefatis sententijs sacuae paginae Doctores, ita 
+            po<lb ed="#R" n="7" break="no"/>eost determinaris quod dictum est, vt illis, qui 
+            ma<lb ed="#R" n="8" break="no"/>ioris dignitatis suur, &amp; per quorum ministertum 
+            <lb ed="#R" n="9"/>illa sunt nunciata, cognita fuerint ex parte, vtpote⸗ 
+            <lb ed="#R" n="10"/>sumiliaribus, &amp; nuncis. Illis vero, qui minoris 
+            <lb ed="#R" n="11"/>dignitatis sunt, incognita essent. Haec autem vera⸗ 
+            <lb ed="#R" n="12"/>nos essent, si qui libet videns diuinam essentiam 
+            <lb ed="#R" n="13"/>oumia de necessitate videret, &amp; omnem haberot 
+            <lb ed="#R" n="14"/>scientiam, sequeretur enim, quod quilibet beatus 
+            <lb ed="#R" n="15"/>haberet aequalem scientiam uum Christo, Sed hoc 
+            <lb ed="#R" n="16"/>est conueniens, quia scriptura attribuit istud 
+            ani<lb ed="#R" n="17" break="no"/>miae Christi pro priuilegio stngulari. Ad Coloss. 2. 
+            <lb ed="#R" n="18"/>dicens, in quo sunt omnes Thosauri sapientiae, &amp; 
+            <lb ed="#R" n="19"/>scientiae absconditi. Et super illud Apocal. 5. 
+            Di<lb ed="#R" n="20" break="no"/>gnus est agnus, qui occisus est, accipero virtutem, 
+            <lb ed="#R" n="21"/>&amp; diuinitatem, &amp; sapientiam, dicit glosa y: omnium 
+            <lb ed="#R" n="22"/>rerum scientiam: de quolibet autem bono 
+            pos<lb ed="#R" n="23" break="no"/>sent ista dici, si videns diuinam essentiam omnia 
+            <lb ed="#R" n="24"/>videret: ergo. 
+          </p>
+          <p xml:id="paqqap-a32246-d1e1868">
+            <lb ed="#R" n="25"/>Opinio propria. 
+          </p>
+          <p xml:id="paqqap-a32246-d1e1873">
+            <lb ed="#R" n="26"/>COncordando ergo dicta ista Sanctorum, quae 
+            <lb ed="#R" n="27"/>videntur mutuo dissonare, Sciendum est, 
+            <lb ed="#R" n="28"/>quod videndo diuinam essentiam videri omnia 
+            <lb ed="#R" n="29"/>eodem actu, intelligi potest tripliciter. 
+          </p>
+          <p xml:id="paqqap-a32246-d1e1884">
+            <lb ed="#R" n="30"/>Primo quidem formaliter, &amp; terminatiue, vt 
+            in<lb ed="#R" n="31" break="no"/>tuitus videntis essentiam terminetur tanquam in 
+            <lb ed="#R" n="32"/>obiecta secundaria relucentia, &amp; repraesentantia inipsa 
+            <lb ed="#R" n="33"/>ad omnem creaturam formaliter, &amp; quidditatiue, 
+            <lb ed="#R" n="34"/>&amp; sic impossibile est, quod videns diuinam 
+            essen<lb ed="#R" n="35" break="no"/>tiam omnia videat: tum quia beatus quiilibet scirot 
+            <lb ed="#R" n="36"/>Diem &amp; horam Judicij, &amp; aequaretur scientiae Chri 
+            <lb ed="#R" n="37"/>sti, &amp; periret omnis illuminatio angelorum, ne 
+            fuis<lb ed="#R" n="38" break="no"/>sent docti ab Ecclesia, sicut procedunt omnes 
+            au<lb ed="#R" n="39" break="no"/>ctoritates inductae pro secunda opinione. 
+          </p>
+          <p xml:id="paqqap-a32246-d1e1908">
+            <!-- missing line coord error -->Et confirmatur, quia si videns diuinam 
+            essen<lb ed="#R" n="40" break="no"/>tiam videret omnia tanquam obiecta secundaria, 
+            <lb ed="#R" n="41"/>ad quae aspectus suus formaliter terminaretur, 
+            <lb ed="#R" n="42"/>sequeretur, quod videret duo puneta se habentia 
+            <lb ed="#R" n="43"/>consequenter in linea. Viso enim puncto lineam 
+            <lb ed="#R" n="44"/>finiente aut terminaret aspectum suum ad aliquid 
+            <lb ed="#R" n="45"/>diuisibile post ipsum punctum, aut indiuisibile. 
+            <lb ed="#R" n="46"/>Si ad indiuisibile; sequeretur propositum, quod 
+            vi<lb ed="#R" n="47" break="no"/>deret punctum consequenter se habere ad 
+            pun<lb ed="#R" n="48" break="no"/>ctum 
+          </p>
+          <p xml:id="paqqap-a32246-d1e1933">
+            <lb ed="#R" n="49"/>Si vero ad diuisibile terminaret, iam non nosset 
+            <lb ed="#R" n="50"/>omnia actus, quia illud diuisibile habet duas 
+            par<lb ed="#R" n="51" break="no"/>tes, quae possunt distincte cognosci, ad quas nondum 
+            <lb ed="#R" n="52"/>distincte intuitum terminabat, ex quo in illo 
+            indi<lb ed="#R" n="53" break="no"/>uisibili sistebat. Sic similiter sequeretur, quod 
+            vi<lb ed="#R" n="54" break="no"/>deret continuum componi ex indiuisibilibus; si 
+            <lb ed="#R" n="55"/>enim nouit omnes partes continui terminando 
+            <lb ed="#R" n="56"/>aspectum ad eas, vt partes illae omnes, ad quas 
+            <lb ed="#R" n="57"/>suus intuitus terminaretur, sunt indiuisibiles, &amp; sic 
+            <lb ed="#R" n="58"/>videt continuum componi ex indiuisibilibus, &amp; 
+            <lb ed="#R" n="59"/>punctis. Similiter sequeretur, quod euacuaret 
+            om<lb ed="#R" n="60" break="no"/>nes species numerorum in actu ille, qui videt 
+            diui<lb ed="#R" n="61" break="no"/>nam essentiam, quod est contra naturam 
+            intrinse<lb ed="#R" n="62" break="no"/>cam ipsius numeri, de cuius ratione est, quod dum 
+            <lb ed="#R" n="63"/>vnum est in actu, reliquum sit in potentia: quia om 
+            <lb ed="#R" n="64"/>nis numerus est radix cubiti, vel quadrati, 
+            vnde<lb ed="#R" n="65" break="no"/>impossibile est euacuari processum numerorum, &amp; 
+            <!--0104.xml-->
+            <cb ed="#R" n="b"/>
+            <lb ed="#R" n="66"/>poni omnes i act, eum de ratione eiussitacto 
+            <lb ed="#R" n="67"/>permixtus potentiae.
+          </p>
+          <p xml:id="paqqap-a32246-d1e1981">
+            <lb ed="#R" n="68"/>Similiter sequeretur secundum illos, qui ponunt 
+            <lb ed="#R" n="69"/>xharitutem posse tugeri in infinitum, quod bentus 
+            <lb ed="#R" n="70"/>videret aliquam cheritatem infinitam in actu, 
+            <lb ed="#R" n="71"/>quod si cōcedatur, quod umnes, quas vidieūt sint. 
+            <lb ed="#R" n="72"/>tae, vlera omnus illas praeter fieri alia laut hō procū- 
+            <lb ed="#R" n="73"/>deretur in infinitum, aut illam non vident Peaius 
+            <lb ed="#R" n="74"/>oppositum est assumptum: Cum ergo impomioi le 
+            <lb ed="#R" n="75"/>sit, quod aliquis intellectus vere videat cōdiuisum 
+            <lb ed="#R" n="76"/>ex indiuisibilibus componi, uut duo puncta se 
+            ha<lb ed="#R" n="77" break="no"/>bentia consequenter, aut poni in actu, &amp; vuacuari 
+            <lb ed="#R" n="78"/>multitudinem numororum, aut ehanitattom liuistt. 
+            <lb ed="#R" n="79"/>tam siue aliam creaturam,. im possibile ast, qued 
+            <lb ed="#R" n="80"/>intuitus vldentis diuinum ese iinn ieien terpr 
+            <lb ed="#R" n="81"/>ad omnia formaliter, &amp; quiduitatiue tanqbam su i. 
+            <lb ed="#R" n="82"/>lucentiu, &amp; reprosentata in diuita ossentia: u rox 
+            <lb ed="#R" n="83"/>hac ratione cum pluribus alijs ostensum est in 
+            pri<lb ed="#R" n="84" break="no"/>mo, quod dee setiam duinus intuitus formaliter, &amp; 
+            <lb ed="#R" n="85"/>terminatiue attingit creaturas tanquam obiecta 
+            <lb ed="#R" n="86"/>secundaria, sed illud ad quod terminatu, 
+            estm<lb ed="#R" n="87" break="no"/>cum, &amp; simplex, videlicet sua essentla qua 
+            attin<lb ed="#R" n="88" break="no"/>cta vniuoce &amp; aequipollenter omnis creatura est 
+            <lb ed="#R" n="89"/>cognita. 
+          </p>
+          <p xml:id="paqqap-a32246-d1e2031">
+            <lb ed="#R" n="90"/>Secundo vero potest intelligi, quod videns 
+            diui<lb ed="#R" n="91" break="no"/>nam essentiam videat omnia, non quidem 
+            terini<lb ed="#R" n="92" break="no"/>natiue, &amp; formaliter, sed eminenter, &amp; contentipe, 
+            <lb ed="#R" n="93"/>&amp; sic vtique verum est, quod de necessitate omnia 
+            <lb ed="#R" n="94"/>videat: Illud enim, quod est omnia eminenter, &amp; 
+            <lb ed="#R" n="95"/>subsistenter, &amp; contentiue, impossibile est cognosci, 
+            <lb ed="#R" n="96"/>quin omnia sint cognita eminenter, &amp; contentiue; 
+            <lb ed="#R" n="97"/>quia illud est cognitum, quod est omnia isto 
+            mo<lb ed="#R" n="98" break="no"/>do: sed diuinitus non est portio entitatis, sed est 
+            <lb ed="#R" n="99"/>omnis entitas eminenter, &amp; contentiue per 
+            ino<lb ed="#R" n="100" break="no"/>dum exemplaris, vt alias declaratum est, &amp; 
+            Au<lb ed="#R" n="101" break="no"/>gustinus hoc dicit expraesse de triplici habitaculo 
+            <lb ed="#R" n="102"/>in supra allegata auctoritate, cum ait, quod 
+            mun<lb ed="#R" n="103" break="no"/>dus in Deo non est nisi Deus, per hoc innuens, quod 
+            <lb ed="#R" n="104"/>Deus est totus mundus eminenter, &amp; vniuersitas 
+            <lb ed="#R" n="105"/>rerum, imo non est aliud quam res, &amp; entitas 
+            vni<lb ed="#R" n="106" break="no"/>uersalis subsistens, &amp; super Gen. ad litteram dicit, 
+            <lb ed="#R" n="107"/>quod creatura in Deo non est nisi creatrix essentia, 
+            <lb ed="#R" n="108"/>&amp; per consequens essentia creatrix non est nisi om 
+            <lb ed="#R" n="109"/>nis entitas quaeuis subsistens, &amp; increata: igitur 
+            ne<lb ed="#R" n="110" break="no"/>cesse est, quod videns diuinam essentiam videat 
+            <lb ed="#R" n="111"/>eminenter, &amp; contentiue totum mundum, &amp; 
+            vni<lb ed="#R" n="112" break="no"/>uersam terram. Et quia creaturarum distinctio 
+            <lb ed="#R" n="113"/>est aliqua entitas, non solum videt emineter ipsas 
+            <lb ed="#R" n="114"/>creaturas, imo &amp; earum distinctiones, &amp; modos 
+            <lb ed="#R" n="115"/>&amp; formas, totum tamen modo eminenti, in 
+            quo<lb ed="#R" n="116" break="no"/>dam contentiuo. &amp; ad istum intellectum videtur 
+            <lb ed="#R" n="117"/>August. currere in auctoritatibus superius primo 
+            <lb ed="#R" n="118"/>loco inductis, quia in fine primae auctoritatis ait, 
+            <lb ed="#R" n="119"/>quod beatis manifestum erit, quomodo totus mun 
+            <lb ed="#R" n="120"/>dus in Deo erat, antequam fieret, &amp; quod non 
+            <lb ed="#R" n="121"/>aliud quam Deus erat. 
+          </p>
+          <p xml:id="paqqap-a32246-d1e2103">
+            <lb ed="#R" n="122"/>Super Genesim etiam vocat creaturas, quae 
+            vi<lb ed="#R" n="123" break="no"/>dentur in verbo lucere, &amp; rationes secundum quas 
+            <lb ed="#R" n="124"/>creaturae conditae sunt; per hoc innuens, quod 
+            hu<lb ed="#R" n="125" break="no"/>iusmodi creaturae non videntur in se formaliter, 
+            <lb ed="#R" n="126"/>sed in quodam eminenti. Sic etiam Greg. 
+            intelli<lb ed="#R" n="127" break="no"/>git cum ait: Quid est quod non videant, qui 
+            viden<lb ed="#R" n="128" break="no"/>tem omnia vident. 
+          </p>
+          <p xml:id="paqqap-a32246-d1e2121">
+            <lb ed="#R" n="129"/>Tertio potest intelligi, quod videns diuinam 
+            <lb ed="#R" n="130"/>essentiam sicut videt omnia eminenter, &amp; 
+            contenti<lb ed="#R" n="131" break="no"/>ue, sic ea videat aequipollenter, &amp; denominatiue, eo 
+            <lb ed="#R" n="132"/>modo quo dictum est in primo de diuino 
+            intelle<lb ed="#R" n="133" break="no"/>ctu: &amp; sic impossibile est, quod beatus, aut aliquis 
+            <!--0105.xml-->
+            <pb ed="#P" n="105"/>
+            <cb ed="#R" n="a"/>
+            <lb ed="#R" n="1"/>intellectus creatus aequi pollenter videat omnia 
+            <lb ed="#R" n="2"/>videndo diuinam essentiam. Haec autem 
+            aequipol<lb ed="#R" n="3" break="no"/>lentia artenditur penes tria. 
+          </p>
+          <p xml:id="paqqap-a32246-d1e2147">
+            <lb ed="#R" n="4"/>Primo quidem, quod diuinus intuitus 
+            termina<lb ed="#R" n="5" break="no"/>tus ad essentiam aeque est principium directiuum 
+            <lb ed="#R" n="6"/>diuinae omnipotentiae, in componendo, 
+            conser<lb ed="#R" n="7" break="no"/>uando, &amp; attingendo creaturas in proprio 
+            gene<lb ed="#R" n="8" break="no"/>re, &amp; propria forma, vt si suus intuitus haberet 
+            no<lb ed="#R" n="9" break="no"/>titiam vespertinam, &amp; terminaretur ad eas 
+            for<lb ed="#R" n="10" break="no"/>maliter. 
+          </p>
+          <p xml:id="paqqap-a32246-d1e2166">
+            <lb ed="#R" n="11"/>Secundo vero, quia ratione intuitus potest esse 
+            <lb ed="#R" n="12"/>principium directiuum eiusdem omnipotentiae ad 
+            <lb ed="#R" n="13"/>causandum intellectionem in mente rationalis 
+            crea<lb ed="#R" n="14" break="no"/>turae terminatam ad rem in propriam forma, &amp; 
+            <lb ed="#R" n="15"/>ita per suam notitiam potest Deus loqui 
+            rationa<lb ed="#R" n="16" break="no"/>libus creaturis de rebus in proprio genere, &amp; 
+            pro<lb ed="#R" n="17" break="no"/>pria forma. 
+          </p>
+          <p xml:id="paqqap-a32246-d1e2184">
+            <lb ed="#R" n="18"/>Tertio vero, quod iste intuitus multo 
+            perfectio<lb ed="#R" n="19" break="no"/>ri modo, &amp; distinctori attingit creaturas, quam si 
+            <lb ed="#R" n="20"/>esfet intuitus ad eas terminatus formaliter, &amp; ideo 
+            <lb ed="#R" n="21"/>intuitus ille continet virtualiter, &amp; aequipollenter 
+            <lb ed="#R" n="22"/>imo plusquam aequipollenter, quoniam eminenter 
+            <lb ed="#R" n="23"/>intuitus istos formales, quae ad res ipsas possent 
+            <lb ed="#R" n="24"/>formaliter terminari, &amp; est aeque distinctus. Vnde 
+            <lb ed="#R" n="25"/>non solum videt Deus creaturas &amp; earum 
+            distin<lb ed="#R" n="26" break="no"/>ctiones modo eminenti, imo videt distincte, &amp; per 
+            <lb ed="#R" n="27"/>consequens aequipollenter formalibus actibus. Per 
+            <lb ed="#R" n="28"/>oppositum autem intuitus videntis essentiam, &amp; 
+            <lb ed="#R" n="29"/>per consequem creaturas in intellectu creato, nec 
+            <lb ed="#R" n="30"/>habet primaqfaequi pollentiam, nec secundam 
+            <lb ed="#R" n="31"/>quia nec potest operari circa creaturas in nulla 
+            <lb ed="#R" n="32"/>propria, nec etiam loqui ille, qui sic intuetur, &amp; 
+            <lb ed="#R" n="33"/>totum hoc ortum habet ex tertio scilicet, quod 
+            <lb ed="#R" n="34"/>suus intuitus non est distinctiuus aequipollenter 
+            <lb ed="#R" n="35"/>omnium creaturarum, quamuis attingit ex parte 
+            <lb ed="#R" n="36"/>obiecti creaturas omnes, &amp; earum distinctiones in 
+            <lb ed="#R" n="37"/>quodam eminenti. Hoc autem potest declarari 
+            <lb ed="#R" n="38"/>exemplo &amp; ratione. 
+          </p>
+          <p xml:id="paqqap-a32246-d1e2232">
+            <lb ed="#R" n="39"/>Exemplo quidem materiali, si ponatur, quod 
+            <lb ed="#R" n="40"/>aliquis videat parietem, in quo sunt variae celaturae 
+            <lb ed="#R" n="41"/>cum actu obscuro, quod non distinguit, constat 
+            <lb ed="#R" n="42"/>quidem, quod iste videt omnes celaturas, quae 
+            di<lb ed="#R" n="43" break="no"/>stinctae sunt, &amp; distinctiones earum, non tamen 
+            vi<lb ed="#R" n="44" break="no"/>det distinctiue, &amp; per consequens non distinguit, 
+            <lb ed="#R" n="45"/>videt ergo distincta ex parte obiecti, non tamen 
+            <lb ed="#R" n="46"/>distinctiue propter defectum actus. Sic 
+            intelligen<lb ed="#R" n="47" break="no"/>dum, quod intellectus creatus videns diuinitatem, 
+            <lb ed="#R" n="48"/>quae est omnia eminenter, videt etiam omnia 
+            di<lb ed="#R" n="49" break="no"/>stincta, non tamen actu distinctiuo. Ratione autem 
+            <lb ed="#R" n="50"/>hoc patet, quia actus iste, qui aequipollet actibus 
+            <lb ed="#R" n="51"/>infinitis, est necessario infinitus, &amp; actus omnes 
+            <lb ed="#R" n="52"/>virtualiter continens, &amp; per consequens 
+            eminen<lb ed="#R" n="53" break="no"/>ter: Sed si actus ille, quo videns diuinam essentiam, 
+            <lb ed="#R" n="54"/>&amp; per consequens omnem entitatem, esset 
+            distin<lb ed="#R" n="55" break="no"/>ctiuus cuiuslibet entitatis, aequipolleret cuilibet 
+            <lb ed="#R" n="56"/>proprio actui, qui ad quamlibet entitatem 
+            termi<lb ed="#R" n="57" break="no"/>naretur formaliter, ex quo aeque distinctiue, &amp; 
+            <lb ed="#R" n="58"/>clare, imo clarius quamlibet entitatem attingeret 
+            <lb ed="#R" n="59"/>in quodam eminenti: ergo esset necessario 
+            infini<lb ed="#R" n="60" break="no"/>tus, qud est impossibile de quolibet actu creato. 
+          </p>
+          <p xml:id="paqqap-a32246-d1e2282">
+            <lb ed="#R" n="61"/>Causa autem istius est, quia aliud est distinctio 
+            <lb ed="#R" n="62"/>se tenens ex parte obiecti, ex quo non oritur, quod 
+            <lb ed="#R" n="63"/>actus sit formaliter distinctiuus, imo distincta 
+            indi<lb ed="#R" n="64" break="no"/>stincte possit attingere, &amp; aliud est distinctio se 
+            te<lb ed="#R" n="65" break="no"/>nens ex parte actus, quia quanto actus perfectior, 
+            <lb ed="#R" n="66"/>tanto magis erit distinctiuus. Sic igitur patet, quid 
+            <lb ed="#R" n="67"/>tenendum de consequente, quia videns diuinam 
+            <lb ed="#R" n="68"/>essentiam de necessitate videt omnia eminenter 
+            <!--0105.xml-->
+            <cb ed="#R" n="b"/>
+            <lb ed="#R" n="69"/>actu denominatiuo omnia attingente actinctu 
+            <lb ed="#R" n="70"/>quodam eminenti, imo etiam attingente 
+            distinctio<lb ed="#R" n="71" break="no"/>nes omnium, non tamen videt actu distinctino, 
+            <lb ed="#R" n="72"/>quod scilicet creaturas distinguat inter se, aut a 
+            di<lb ed="#R" n="73" break="no"/>uina essentia, &amp; propter hoc dicit Aug. 4. super 
+            <lb ed="#R" n="74"/>Gen. cap. 28. quod vespera primum Diei fit cogni 
+            <lb ed="#R" n="75"/>tione Angeli, qua cognoscit non se esse, quod Deus 
+            <lb ed="#R" n="76"/>est: Per hoc innuens, quod est alia cognitio qua 
+            <lb ed="#R" n="77"/>cognoscit se non esse, quod Deus est; hoc est quod 
+            <lb ed="#R" n="78"/>non distinguit se, &amp; caeteras creaturas quas videt, 
+            <lb ed="#R" n="79"/>nec inter se, nec a Deo. 
+          </p>
+        </div>
+        <div xml:id="paqqap-a32246-Dd1e2332">
+          <head xml:id="paqqap-a32246-Hd1e2334">Articulus 4</head>
+          <p xml:id="paqqap-a32246-d1e2336">
+            <lb ed="#R" n="80"/>ARTJCVLVS IV. 
+            <lb ed="#R" n="81"/>Quid tenendum sit de Antecedenti.
+          </p>
+          <p xml:id="paqqap-a32246-d1e2343">
+            <lb ed="#R" n="82"/>NJusauat u tuderntuns &amp; aut er fermes 
+            tu<lb ed="#R" n="83" break="no"/>tiam videat creaturas, aut alio distinctiue, &amp; 
+            visio<lb ed="#R" n="84" break="no"/>ne matutina. Vbi considerandum, quod creatura 
+            <lb ed="#R" n="85"/>potest cognosci actu terminato formaliter ad eam 
+            <lb ed="#R" n="86"/>in propria natura &amp; quidditatiua, dupliciter. 
+          </p>
+          <p xml:id="paqqap-a32246-d1e2356">
+            <lb ed="#R" n="87"/>Primo quidem per proprias causas, &amp; propria 
+            <lb ed="#R" n="88"/>principia, &amp; talis notitia quantum habetur clara, 
+            <lb ed="#R" n="89"/>dicitur vespertina, vel per diuinam essentiam 
+            tan<lb ed="#R" n="90" break="no"/>quam per causam exemplarem visam, &amp; cognitam 
+            <lb ed="#R" n="91"/>aliqua beatifica visione, ita vt sicut notitia 
+            princi<lb ed="#R" n="92" break="no"/>pij infert &amp; causat notitiam finis, &amp; notitia 
+            termi<lb ed="#R" n="93" break="no"/>norum notitiam principiorum, sic notitia 
+            Deita<lb ed="#R" n="94" break="no"/>tis, quae est cauia primaria, principalis, exemplaris 
+            <lb ed="#R" n="95"/>omnium quidditatum, &amp; omnium rerum, inferat 
+            <lb ed="#R" n="96"/>&amp; causet in intellectu vidente praedictam essentiam 
+            <lb ed="#R" n="97"/>notitiam alicuius rei: vt sic, prima voluntas 
+            exem<lb ed="#R" n="98" break="no"/>plaris sit causa notitiae veritatis exemplatae, &amp; talis 
+            <lb ed="#R" n="99"/>notitia multo eccellentior, &amp; clarior, quam illa, quae 
+            <lb ed="#R" n="100"/>habetur per proprias causas. Vnde sicut notitia 
+            <lb ed="#R" n="101"/>propter quid, &amp; qui scit propter, quid multo 
+            cla<lb ed="#R" n="102" break="no"/>rius scit quam qui nouit solum quia; sic qui nouit 
+            <lb ed="#R" n="103"/>solum quia, sic qui nouit vltimum propter quid 
+            <lb ed="#R" n="104"/>exemplare, propter quod res est, ita quod non 
+            re<lb ed="#R" n="105" break="no"/>stat amplius quaerere propter quid, sed ibi vltimate 
+            <lb ed="#R" n="106"/>quietatur, intellectus clarissime rem, &amp; 
+            luminose<lb ed="#R" n="107" break="no"/>cognoscit. Et ideo talis notitia appellatur 
+            ma<lb ed="#R" n="108" break="no"/>tutina 
+          </p>
+          <p xml:id="paqqap-a32246-d1e2406">
+            <lb ed="#R" n="109"/>Quod autem ista matutina cognitio sit alius 
+            <lb ed="#R" n="110"/>actus, innuit Augustinus a. cap. 13. super Genef. 
+            <lb ed="#R" n="111"/>ait enim, quod Angeli, ex quo facti sunt, ipsa 
+            aeter<lb ed="#R" n="112" break="no"/>nitate sancta, &amp; pia contemplatione pertruuntur, 
+            <lb ed="#R" n="113"/>atque inde ista respicientes secundum id quod 
+            in<lb ed="#R" n="114" break="no"/>tellectus videt, facta approbant. Vbi patet, quod 
+            <lb ed="#R" n="115"/>ponit duos aspectus; vnum beatae 
+            contempla<lb ed="#R" n="116" break="no"/>tionis in quae aeternitate perfruuntur; alium vero 
+            <lb ed="#R" n="117"/>creaturarum, cum dicit: inde ista respiciunt, &amp; 
+            se<lb ed="#R" n="118" break="no"/>cundum id quod interius vident, facta 
+            appro<lb ed="#R" n="119" break="no"/>bant, &amp; ibidem fubdit, quod ex ipso verbo prius 
+            <lb ed="#R" n="120"/>cognito, quod non esset, verum, nisi cognitio 
+            crea<lb ed="#R" n="121" break="no"/>turae esset alia a cognitione verbi, causata tamen 
+            <lb ed="#R" n="122"/>&amp; illata ab illo.
+          </p>
+          <p xml:id="paqqap-a32246-d1e2440">
+            <lb ed="#R" n="123"/>Paulo ante etiam in eodem capitae ponit haec 
+            ver<lb ed="#R" n="124" break="no"/>ba, Dei secundum sapientiam gemitam, deinde, facta 
+            <lb ed="#R" n="125"/>est in creatura spirituali, hoc est in cognitione 
+            An<lb ed="#R" n="126" break="no"/>gelorum secundum creatam in illis sapientiam 
+            <lb ed="#R" n="127"/>Deinde, coelum factum est, vt esset etiam ipsa coeli 
+            <lb ed="#R" n="128"/>creatura in genere proprio. Vbi manifeste ponit, 
+            <lb ed="#R" n="129"/>quod illa cognitio matutina secundum quam factum 
+            <lb ed="#R" n="130"/>est coelum in creatura spirituali, antequam fieret, &amp; 
+            <lb ed="#R" n="131"/>cognosceretur in proprio genere, est quaedam 
+            crea<lb ed="#R" n="132" break="no"/>ta sapientia a verbo deriuata.
+          </p>
+          <p xml:id="paqqap-a32246-d1e2464">
+            <!--0106.xml-->
+            <pb ed="#P" n="106"/>
+            <cb ed="#R" n="a"/>
+            <lb ed="#R" n="1"/>Ratione autem patet, quod si eodem actu &amp; 
+            <lb ed="#R" n="2"/>non alio videretur diuina essentia, &amp; creaturae in 
+            <lb ed="#R" n="3"/>ea, sequeretur, quod videns diuinam essentiam 
+            <lb ed="#R" n="4"/>omnia de necessitate videret dislinctiue, &amp; sub 
+            ra<lb ed="#R" n="5" break="no"/>tionibus proprijs, vt declaratum est articulo 
+            supe<lb ed="#R" n="6" break="no"/>riori. Sedhoc ostensum est esse impossibile in tertio: 
+            <lb ed="#R" n="7"/>igitur necesse est, quod aliquo actu cognoscat. Sed 
+            <lb ed="#R" n="8"/>contra praedicta sunt dubia. 
+          </p>
+          <p xml:id="paqqap-a32246-d1e2490">
+            <lb ed="#R" n="9"/>Primo quidem, quia secundum hoc non erunt 
+            <lb ed="#R" n="10"/>solum duae cognitiones, vna matutina, &amp; alia 
+            ve<lb ed="#R" n="11" break="no"/>spertina, sed erunt tres. 
+          </p>
+          <p xml:id="paqqap-a32246-d1e2499">
+            <lb ed="#R" n="12"/>Prima quidem visio diuinae essentiae, qua visa 
+            <lb ed="#R" n="13"/>noscuntur omnia eminenter, &amp; aequipollenter ex 
+            <lb ed="#R" n="14"/>parte obiecti, quamuis non eminenter, &amp; 
+            aequipol<lb ed="#R" n="15" break="no"/>lenter ex parte actus. 
+          </p>
+          <p xml:id="paqqap-a32246-d1e2510">
+            <lb ed="#R" n="16"/>Secunda vero notitia creaturae causata, &amp; illata 
+            <lb ed="#R" n="17"/>ex praecedenti notitia. 
+          </p>
+          <p xml:id="paqqap-a32246-d1e2517">
+            <lb ed="#R" n="18"/>Tertia verp notitia creaturae per propria 
+            prin<lb ed="#R" n="19" break="no"/>cipia contenta sub proprio genere, &amp; propria 
+            na<lb ed="#R" n="20" break="no"/>tura: sed Augustinus non ponit nisi duas notitias 
+            <lb ed="#R" n="21"/>vnam matutinam, &amp; alteram vespertinam: igitur 
+            <lb ed="#R" n="22"/>illud stare non potest. 
+          </p>
+          <p xml:id="paqqap-a32246-d1e2531">
+            <lb ed="#R" n="23"/>Praeterea: Eodem actu videtur speculum, &amp; ea 
+            <lb ed="#R" n="24"/>quae relucent in speculo: sed creaturae videntur, 
+            <lb ed="#R" n="25"/>quo videtur Verbum: ergo. 
+          </p>
+          <p xml:id="paqqap-a32246-d1e2540">
+            <lb ed="#R" n="26"/>Praeterea: Si non eodem actu videtur Verbum, &amp; 
+            <lb ed="#R" n="27"/>creatura, tunc non videbitur creatura in Verbo: sed 
+            <lb ed="#R" n="28"/>hoc est contra Augustinum vbique, vbicumque de 
+            <lb ed="#R" n="29"/>materia ista tractat. 
+          </p>
+          <p xml:id="paqqap-a32246-d1e2551">
+            <lb ed="#R" n="30"/>Primo praecipue super Gen. cap. 13. &amp; 4. in 
+            ca<lb ed="#R" n="31" break="no"/>pitulis multis &amp; a. de Ciuit. c. 7. Dei. In his enim 
+            <lb ed="#R" n="32"/>lucis ex intento tractat istam materiam: igitur 
+            il<lb ed="#R" n="33" break="no"/>lud quod prius. 
+          </p>
+          <p xml:id="paqqap-a32246-d1e2562">
+            <lb ed="#R" n="34"/>Praeterea: Aut ista notitia, quae est alia a 
+            vi<lb ed="#R" n="35" break="no"/>sione Verbi, attingit aliquo modo diutnam essentiam 
+            <lb ed="#R" n="36"/>obiectiue, aut nullo modo. Si nullo modo, poterit 
+            <lb ed="#R" n="37"/>Deus facere notitiam matutinam de creatura in 
+            <lb ed="#R" n="38"/>intellectu non bono, &amp; separare notitiam Verbi a 
+            <lb ed="#R" n="39"/>notitia creaturarum, &amp; e conuerso: sed hoc est 
+            in<lb ed="#R" n="40" break="no"/>conueniens, &amp; contra dicta Sanctorum: si vero 
+            at<lb ed="#R" n="41" break="no"/>tingit aliquo modo diuinam essentiam, beatifi:a 
+            <lb ed="#R" n="42"/>erit: igitur illud poni non potest. 
+          </p>
+          <p xml:id="paqqap-a32246-d1e2584">
+            <lb ed="#R" n="43"/>Praeterea: Si ex notitia diuinae essentiae infertur, 
+            <lb ed="#R" n="44"/>&amp; causatur notitia creaturae, aut hoc est de 
+            necessi<lb ed="#R" n="45" break="no"/>tate, &amp; per consequens redit prima difficultas, quod 
+            <lb ed="#R" n="46"/>videns diuinam essentiam ex hoc ipso causabuntur 
+            <lb ed="#R" n="47"/>in eo notitiae omnium creaturarum, immo &amp; 
+            infi<lb ed="#R" n="48" break="no"/>nitae notitiae in actu, quod est impossibile: Aut hoc 
+            <lb ed="#R" n="49"/>non est de necessitate, sed subest voluntati videntis. 
+            <lb ed="#R" n="50"/>Et sic, quilibet beatus poterit videre, quod volue. 
+            <lb ed="#R" n="51"/>rit, &amp; aequabitur ipsi Deo in notitia creaturarum. 
+            <lb ed="#R" n="52"/>Aut hoc subest voluntati Dei, &amp; tunc non est verum, 
+            <lb ed="#R" n="53"/>quod ex notitia Verbi, vel ex Verbo viso, aut extra 
+            <lb ed="#R" n="54"/>essentiam talis notitia inferatur, immo ex sola Dei 
+            <lb ed="#R" n="55"/>voluntate, &amp; per consequens non videntur 
+            crea<lb ed="#R" n="56" break="no"/>turae in Verbo, aut in essentia, nec ex Verbo, nec ex 
+            <lb ed="#R" n="57"/>essentia, sed ex sola Dei voluntate, sicut &amp; caetera, 
+            <lb ed="#R" n="58"/>quae Deus reuelat: sed constat hoc esse absonum: 
+            <lb ed="#R" n="59"/>igitur illud poni non potest. 
+          </p>
+          <p xml:id="paqqap-a32246-d1e2623">
+            <lb ed="#R" n="60"/>Sed his non obstantibus dicendum est illud, quod 
+            <lb ed="#R" n="61"/>prius, constat enim, quod alia est notitia, qua 
+            co<lb ed="#R" n="62" break="no"/>gnoscitur ars, ab illa, qua cognoscitur artificiatum 
+            <lb ed="#R" n="63"/>per artem. 
+          </p>
+          <p xml:id="paqqap-a32246-d1e2635">
+            <lb ed="#R" n="64"/>Sed <ref xml:id="paqqap-a32246-Rd1e2639">Augustinus 2. de Ciuit. Dei</ref>, dicit illam 
+            co<lb ed="#R" n="65" break="no"/>gnitionem, qua videtur creatura in diuina essentia, 
+            <lb ed="#R" n="66"/>tdt aunt tenut qetatenu t ie sut at 
+          </p>
+          <p xml:id="paqqap-a32246-d1e2646">
+            <lb ed="#R" n="67"/>Vnde sic dicit Augustinus: cognitio creaturae in 
+            <!--0106.xml-->
+            <cb ed="#R" n="b"/>
+            <lb ed="#R" n="68"/>seipsa magis clara est, vt ita dicam, quam cum Dei 
+            <lb ed="#R" n="69"/>sapientia cognoscitur, vel vt in arte, qua facta est, 
+            <lb ed="#R" n="70"/>&amp; ideo vespera congruentius dici potest. 
+          </p>
+          <p xml:id="paqqap-a32246-d1e2662">
+            <lb ed="#R" n="71"/>Non procedunt ergo instantiae
+          </p>
+          <p xml:id="paqqap-a32246-d1e2667">
+            <!-- missing line break -->Prima si quidem non: nam Augustinus expresse
+            <lb ed="#R" n="72"/>super Gen. cap. 3 3i ponit tres visiones sub his 
+            ver<lb ed="#R" n="73" break="no"/>bis. Jbi semper est dies in contemplatione 
+            incom<lb ed="#R" n="74" break="no"/>mutabilis virtutis, semper vespera in cognitione 
+            <lb ed="#R" n="75"/>creaturae in seipsa, semper mane ex hac cognitione 
+            <lb ed="#R" n="76"/>in laude Creatoris, &amp; inducit auctoritatem 
+            psal<lb ed="#R" n="77" break="no"/>mistae. Vespere, inquit, mane, &amp; meridie 
+            enarra<lb ed="#R" n="78" break="no"/>bo, &amp; enunciabo, &amp; exaudies vocem meam. 
+          </p>
+          <p xml:id="paqqap-a32246-d1e2687">
+            <lb ed="#R" n="79"/>Sic ergo secundum Augustinum visio beatifica 
+            in<lb ed="#R" n="80" break="no"/>commutabilis veritatis, qua visa, visa autem omnia 
+            <lb ed="#R" n="81"/>sunt eminenter, &amp; aequipollenter aequipollentia se 
+            <lb ed="#R" n="82"/>tenente ex parte obiecti, quamuis non ex 
+            parte<lb ed="#R" n="83" break="no"/>actus, &amp; modi cognoscendi est notitia meridiana, 
+            <lb ed="#R" n="84"/>seu diuina; notitia vero rei relatae ad priorem 
+            poti<lb ed="#R" n="85" break="no"/>tiam, immo per eam illatae dicitur matutina, quia 
+            <lb ed="#R" n="86"/>tunc per diuinam essentiam, tamquam per artem 
+            <lb ed="#R" n="87"/>&amp; rationem, &amp; exemplar, &amp; vltimum propter quid 
+            <lb ed="#R" n="88"/>creatura ipsa cognoscitur. 
+          </p>
+          <p xml:id="paqqap-a32246-d1e2711">
+            <lb ed="#R" n="89"/>Secunda etiam non procedit, nam speculum 
+            po<lb ed="#R" n="90" break="no"/>test intelligi repraesentare dupliciter. Vno quidem 
+            <lb ed="#R" n="91"/>modo per reflexionem, quia per ipsum obiectorum 
+            <lb ed="#R" n="92"/>similitudines reflectuntur ad visum, sicut patet in 
+            <lb ed="#R" n="93"/>speculo materiali. Et hoc modo forsitan verum 
+            <lb ed="#R" n="94"/>est, quod non eodem actu videtur speculum, &amp; 
+            il<lb ed="#R" n="95" break="no"/>lud cuius est speculum; forte enimpuo est verum, 
+            <lb ed="#R" n="96"/>cum alia sit species speculi, &amp; ali cies reflexa a 
+            <lb ed="#R" n="97"/>speculo, per quam res videtur, &amp; per consequens 
+            <lb ed="#R" n="98"/>alij sunt actus, quamuis sint simultanei.
+          </p>
+          <p xml:id="paqqap-a32246-d1e2736">
+            <lb ed="#R" n="99"/>Alio modo potest intelligi repraesentare per 
+            illa<lb ed="#R" n="100" break="no"/>tiuam rationem, &amp; expraessionem eo modo, quo 
+            <lb ed="#R" n="101"/>ars exprimit artificiatum, &amp; exemplar 
+            exemplati<lb ed="#R" n="102" break="no"/>ua, &amp; sic diuina essentia est speculum repraesentans, 
+            <lb ed="#R" n="103"/>idest, excitans, &amp; exprimens notitiam creaturarum. 
+            <lb ed="#R" n="104"/>Et sic non oportet, quod eadem notitia, qua 
+            vide<lb ed="#R" n="105" break="no"/>tur speculum, sed alia quauis simultanea. 
+            Vnde<lb ed="#R" n="106" break="no"/>sicut materiale speculum imprimit oculo visionem 
+            <lb ed="#R" n="107"/>obiecti speciem per reflexionem imprimendo 
+            in<lb ed="#R" n="108" break="no"/>ipsum, sic absque reflexione notitia diuinae 
+            essen<lb ed="#R" n="109" break="no"/>tiae exprimit, &amp; imprimit notitiam creaturae 
+            intel<lb ed="#R" n="110" break="no"/>lectui bonorum. 
+          </p>
+          <p xml:id="paqqap-a32246-d1e2765">
+            <lb ed="#R" n="111"/>Tertia etiam non procedit; quoniam sicut 
+            noti<lb ed="#R" n="112" break="no"/>tia conclusionis causatur ex notitia principiorum, 
+            <lb ed="#R" n="113"/>&amp; principiorum ex terminis, &amp; tamen possumus 
+            <lb ed="#R" n="114"/>dicere, quod conclusio cognoscatur in virtute prin 
+            <lb ed="#R" n="115"/>cipiorum &amp; in principiis, &amp; principia in terminis 
+            <lb ed="#R" n="116"/>&amp; ex terminis; sic &amp; artificialiter omne 
+            cognosci<lb ed="#R" n="117" break="no"/>tur per artem, &amp; in arte, &amp; effectus per causam, &amp; in 
+            <lb ed="#R" n="118"/>causa, &amp; ideo illa notitia creaturae, &amp; est ex Verbo, 
+            <lb ed="#R" n="119"/>&amp; etiam in Verbo. 
+          </p>
+          <p xml:id="paqqap-a32246-d1e2787">
+            <lb ed="#R" n="120"/>Quarta etiam non procedit. Ista namque 
+            noti<lb ed="#R" n="121" break="no"/>tia, licet non attingat obiectiue essentiam diuinam, 
+            <lb ed="#R" n="122"/>quia tunc esset beatifica, a notitia tamen intuitiua 
+            <lb ed="#R" n="123"/>diuinae essentiae dependet, &amp; effectiue, &amp; 
+            conserua<lb ed="#R" n="124" break="no"/>tiue secundum esse reale, obiectiue autem, &amp; 
+            secun<lb ed="#R" n="125" break="no"/>dum esse intentionale dependet a notitia principij; 
+            <lb ed="#R" n="126"/>secundum esse reale quidem effectiue, &amp; secundum 
+            <lb ed="#R" n="127"/>esse intentionale sibi innititur, tamquam enim quid 
+            <lb ed="#R" n="128"/>dicit propter quid. Quod ergo infertur, quod 
+            pote<lb ed="#R" n="129" break="no"/>rit Deus notitiam matutinam facere sine visione 
+            <lb ed="#R" n="130"/>essentiae, non tenet, sicut non potest notitiam 
+            con<lb ed="#R" n="131" break="no"/>clusionis facere cum ignorantia principij, nec actum 
+            <lb ed="#R" n="132"/>voluntatis sine actu intellectus propter 
+            connexio<lb ed="#R" n="133" break="no"/>nem obiectorum. &amp; ratio huius est, quia 
+            imposibi<lb ed="#R" n="134" break="no"/>le est, quod fiat notitia de aliqua re dicens pro 
+            <!--0107.xml-->
+            <pb ed="#P" n="107"/>
+            <cb ed="#R" n="a"/>
+            <lb ed="#R" n="1"/>pter quid, nisi includatur notitia ipsius propter 
+            <lb ed="#R" n="2"/>quid. Quia ergo notitia matutina dat propter, 
+            <lb ed="#R" n="3"/>quid respectu creaturae, propter quid inquam 
+            vlti<lb ed="#R" n="4" break="no"/>matum, &amp; exemplare, idcirco necesse est, quod 
+            <lb ed="#R" n="5"/>concurrat notitia illius exemplaris.
+          </p>
+          <p xml:id="paqqap-a32246-d1e2839">
+            <lb ed="#R" n="6"/>Vel forsitan posset dici, quod aliud membrum 
+            <lb ed="#R" n="7"/>est verum, scilicet quod notitia matutina attingit 
+            <lb ed="#R" n="8"/>essentiam diuinam, non quidem per modum 
+            prin<lb ed="#R" n="9" break="no"/>cipalis obiecti, sed per modum circunstantis 
+            pro<lb ed="#R" n="10" break="no"/>pter quid, sicut electio vnius actus existens 
+            artin<lb ed="#R" n="11" break="no"/>git id, quod est ad finem per modum obiecti 
+            prin<lb ed="#R" n="12" break="no"/>cipalis, finem autem tanquam causam, &amp; cuius gra 
+            <lb ed="#R" n="13"/>tia, &amp; sic est de notitia conclusionis, quia tran⸗ 
+            <lb ed="#R" n="14"/>sit super veritatem ipsius propter veritatem 
+            <lb ed="#R" n="15"/>principij. 
+          </p>
+          <p xml:id="paqqap-a32246-d1e2863">
+            <lb ed="#R" n="16"/>Et si dicatur, quod erit beatifica, haec notitia ma 
+            <lb ed="#R" n="17"/>tutina, ex quo aliquo modo attingit diuinam 
+            es<lb ed="#R" n="18" break="no"/>sentiam: dicendum, quod non, sicut nec actus quo 
+            <lb ed="#R" n="19"/>beatus videt se videre essentiam, beatificus, est licet 
+            <lb ed="#R" n="20"/>attingat necessario essentiam diuinam secundario. 
+            <lb ed="#R" n="21"/>&amp; tanquam causam, &amp; non principalirer. 
+          </p>
+          <p xml:id="paqqap-a32246-d1e2879">
+            <lb ed="#R" n="22"/>Quinta etiam non procedit, nam sicut notitia 
+            <lb ed="#R" n="23"/>conclusionis est effectiue a notitia principij, &amp; ab 
+            <lb ed="#R" n="24"/>intellectu agente, sic notitia matutina 
+            communi<lb ed="#R" n="25" break="no"/>catur a notitia verbis concurrente voluntate 
+            diui<lb ed="#R" n="26" break="no"/>na tanquam coagente. 
+          </p>
+          <p xml:id="paqqap-a32246-d1e2893">
+            <lb ed="#R" n="27"/>Et propter hoc est connexio obiectiua inter 
+            di<lb ed="#R" n="28" break="no"/>ninam essentiam visam, quaedat propter quid, &amp; 
+            <lb ed="#R" n="29"/>creaturam sic cognitam, quae est quoddam 
+            exem<lb ed="#R" n="30" break="no"/>platum, &amp; quoddam cognitum per modum quia. 
+            <lb ed="#R" n="31"/>Et secundum hoc patet, quomodo Christus 
+            cogno<lb ed="#R" n="32" break="no"/>scit omnia cognitione matutina, non quidem in 
+            <lb ed="#R" n="33"/>actu, sed virtualiter, videlicet quantum dinina 
+            vo<lb ed="#R" n="34" break="no"/>luntas determinat sibi afistere, ut ex notitia Verbi 
+            <lb ed="#R" n="35"/>inferat notitiam cuiuscunq. creaturae quantum. 
+            <lb ed="#R" n="36"/>cunq. occultae, &amp; suturae, quod non est concessum 
+            <lb ed="#R" n="37"/>alicui beatorum. 
+          </p>
+          <p xml:id="paqqap-a32246-d1e2919">
+            <lb ed="#R" n="38"/>Ad argumentum principale dicendum, quod 
+            essan<lb ed="#R" n="39" break="no"/>tia diuina non est necessarium speculum in 
+            reprae<lb ed="#R" n="40" break="no"/>sentando creaturas, imo voluntarium, 
+            communi<lb ed="#R" n="41" break="no"/>cat enim effectiue notitiam matutinam; Deus 
+            au<lb ed="#R" n="42" break="no"/>tem est agens liberum respectu omnis actionis ad 
+            <!-- missing line break -->extra.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

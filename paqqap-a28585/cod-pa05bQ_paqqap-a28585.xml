@@ -1,0 +1,1842 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quodlibetum 9</title>
+        <author ref="#Aureoli">Petrus Aureolus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quodlibetum 9</title>
+          <date when="2022-12-14">December 14, 2022</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="R" n="cod-pa05bQ">Roma 1605, Quodlibeta</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2022-12-14" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#R" n="88"/>
+        <cb ed="#R" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="paqqap-a28585"> <!-- q9 -->
+        <head xml:id="paqqap-a28585-Hd1e102">Quodlibetum 9</head>
+        <head xml:id="paqqap-a28585-Hd1e104" type="question-title">
+          Utrum ad visionem beatificam 
+          requiratur aliquis habitus, vel lumen creatum
+        </head>
+        <p xml:id="paqqap-a28585-d1e107">
+          <lb ed="#R" n="4"/>
+          <!-- line coord order error -->QVODLJBETVM 
+          <lb ed="#R" n="5"/>NONVM. 
+          <lb ed="#R" n="6"/>Vtrum ad visionem beatificam 
+          requira<lb ed="#R" n="7" break="no"/>tur aliquis habitus, vel lumen 
+          <lb ed="#R" n="8"/>creatum. 
+        </p>
+        <p xml:id="paqqap-a28585-d1e123">
+          <lb ed="#R" n="9"/>Nono quaerebatur; Vtrum ad visionem 
+          bea<lb ed="#R" n="10" break="no"/>tificam requiratur aliquis habitus vel 
+          lu<lb ed="#R" n="11" break="no"/>men creatum, &amp; videtur quod sic: Sicut 
+          <lb ed="#R" n="12"/>enim se habet naturale lumen ad 
+          cognitio<lb ed="#R" n="13" break="no"/>nem naturalem, sic lumen supernaturale 
+          <lb ed="#R" n="14"/>ad notitiam supernaturalem: sed ad 
+          co<lb ed="#R" n="15" break="no"/>gnitionem naturalem exigitur de 
+          necessi<lb ed="#R" n="16" break="no"/>tate lumen intellectus agentis, sicut patet 
+          <lb ed="#R" n="17"/>ex tertio de anima: igitur ad notitiam 
+          su<lb ed="#R" n="18" break="no"/>pernaturalem beatificam lumen 
+          superna<lb ed="#R" n="19" break="no"/>turale requiretur. 
+        </p>
+        <p xml:id="paqqap-a28585-d1e150">
+          <lb ed="#R" n="20"/>Sed in oppositum est, quia aut exigeretur 
+          pro<lb ed="#R" n="21" break="no"/>pter illustrationem, &amp; hoc non, quia lux 
+          <lb ed="#R" n="22"/>Deus intelligibilis est: per se autem 
+          luci<lb ed="#R" n="23" break="no"/>dum non indiget alio lumen, vt videatur, 
+          <lb ed="#R" n="24"/>sicut patet de sole: aut requireretur propter 
+          <lb ed="#R" n="25"/>eleuationem, &amp; hoc non; quia cum illud 
+          <lb ed="#R" n="26"/>lumen sit aliquid finitum, &amp; creatum, non 
+          <lb ed="#R" n="27"/>potest nostrum intellectum eleuare, quin 
+          <lb ed="#R" n="28"/>remaneat improportionatus diuinae 
+          essen<lb ed="#R" n="29" break="no"/>tiae, &amp; distans in infinitum. Aut exigeretur 
+          <lb ed="#R" n="30"/>propter dispositionem, vt scilicet 
+          dispone<lb ed="#R" n="31" break="no"/>ret intellectum ad suscipiendum actum bea 
+          <lb ed="#R" n="32"/>tificum, vel eliciendum: non potest autem 
+          <lb ed="#R" n="33"/>disponere ad suscipiendum, quia 
+          intelle<lb ed="#R" n="34" break="no"/>ctus possibilis dispositissimus est. Et Aug. 
+          <lb ed="#R" n="35"/>anima eo beatitudinis capax est ait: A quo 
+          <lb ed="#R" n="36"/>imago Trinitatis est. Nec potest disponere 
+          <lb ed="#R" n="37"/>ad eliciendum, quia intellectus possibilis 
+          <lb ed="#R" n="38"/>nullam actionem habet: sed omnis actio 
+          <lb ed="#R" n="39"/>pertinet ad agentem, vt innuit <ref xml:id="paqqap-a28585-Rd1e195">Comment. 
+            <lb ed="#R" n="40"/>3. de anima com. 32.</ref> Intellectus autem, agens 
+          <lb ed="#R" n="41"/>cuius est abstrahere, &amp; causare intellectas 
+          <lb ed="#R" n="42"/>intentiones, vt idem ait, nullum actum habet 
+          <lb ed="#R" n="43"/>circa beatificam visionem: igitur non 
+          vide<lb ed="#R" n="44" break="no"/>tur, quod aliquis habitus aut lumen 
+          neces<lb ed="#R" n="45" break="no"/>sario exigatur ad visionem beatificam. 
+        </p>
+        <p xml:id="paqqap-a28585-d1e212">
+          <lb ed="#R" n="46"/>Responsio ad quaestionem.
+        </p>
+        <p xml:id="paqqap-a28585-d1e217">
+          <lb ed="#R" n="47"/>Respondeo: hic primo ponam punctum 
+          quaestio<lb ed="#R" n="48" break="no"/>ni: secundo inquiram de lumine, quod 
+          exi<lb ed="#R" n="49" break="no"/>gitur ad intellectionem naturalem: Tertio 
+          <lb ed="#R" n="50"/>vero quam actiuitatem habet intellectus 
+          <!--0088.xml-->
+          <cb ed="#R" n="b"/>
+          <lb ed="#R" n="51"/>respectu visionis beatae. Et quarto de 
+          <lb ed="#R" n="52"/>quaesito? an lumen aliquod requiratur ad 
+          <lb ed="#R" n="53"/>visionem beatificam 
+        </p>
+        <div xml:id="paqqap-a28585-Dd1e239">
+          <head xml:id="paqqap-a28585-Hd1e241">Articulus 1</head>
+          <p xml:id="paqqap-a28585-d1e243">
+            <lb ed="#R" n="54"/>ARTJCVLVSI. 
+            <lb ed="#R" n="55"/>Vbi primo ponitur punctuc quaestionis 
+            tan<lb ed="#R" n="56" break="no"/>gendo aliorum opiniones. 
+          </p>
+          <p xml:id="paqqap-a28585-d1e252">
+            <lb ed="#R" n="57"/>CIRCA primum sciendum 
+            <lb ed="#R" n="58"/>quod quaestio est 
+            introdu<lb ed="#R" n="59" break="no"/>cta propter diuersos modos 
+            <lb ed="#R" n="60"/>dicendi in hac re. 
+          </p>
+          <p xml:id="paqqap-a28585-d1e263">
+            <lb ed="#R" n="61"/>Dixerunt namque 
+            aliqui<lb ed="#R" n="62" break="no"/>quod lumen exigitur in 
+            vi<lb ed="#R" n="63" break="no"/>sione beatifica ad 
+            eleuan<lb ed="#R" n="64" break="no"/>dum intellectum, &amp; 
+            vigo<lb ed="#R" n="65" break="no"/>randum, &amp; ponendum in quodam esse potestatiuo, 
+            <lb ed="#R" n="66"/>quia &amp; actus &amp; obiectum excedit facultatem 
+            na<lb ed="#R" n="67" break="no"/>turalem ipsius intellectus. 
+          </p>
+          <p xml:id="paqqap-a28585-d1e281">
+            <lb ed="#R" n="68"/>Et hoc probatur, quia quod non potest in minus, 
+            <lb ed="#R" n="69"/>non potest in maius: sed actus meritorius &amp; 
+            super<lb ed="#R" n="70" break="no"/>naturalis, cuiusmodi sunt credere sperare, &amp; 
+            dilige<lb ed="#R" n="71" break="no"/>re, dum sunt minoris perfectionis quam actus 
+            bea<lb ed="#R" n="72" break="no"/>tificus diuinae visionis, qui finis est omnium, &amp; 
+            il<lb ed="#R" n="73" break="no"/>los non potest natura sine dono eleuare, alias 
+            redi<lb ed="#R" n="74" break="no"/>ret error Pelagij, ergo multo minus in actum 
+            visio<lb ed="#R" n="75" break="no"/>nis beatae: 
+          </p>
+          <p xml:id="paqqap-a28585-d1e302">
+            <lb ed="#R" n="76"/>Praeterea voluntas beati indiget habitu 
+            cha<lb ed="#R" n="77" break="no"/>ritatis ad Deum diligendum: igitur eo etiam 
+            indi<lb ed="#R" n="78" break="no"/>get intellectus. 
+          </p>
+          <p xml:id="paqqap-a28585-d1e311">
+            <lb ed="#R" n="79"/>Alij vero dixerunt, quod ideo exigitur, ne Deus 
+            <lb ed="#R" n="80"/>necessitate naturae ab intellectu abstracto, &amp; 
+            sepa<lb ed="#R" n="81" break="no"/>rato a materia videatur, cum enim diuina essentia 
+            <lb ed="#R" n="82"/>moueat intellectum sibi proportionatum sicut &amp; 
+            <lb ed="#R" n="83"/>caetera intelligibilia nostrae naturae, quia ad 
+            quic<lb ed="#R" n="84" break="no"/>quid mouet essentia per rationem essentiae 
+            praeue<lb ed="#R" n="85" break="no"/>niendo voluntatem, necessario mouet, sequeretur, 
+            <lb ed="#R" n="86"/>quod si intellectus separatus non indigeret alio 
+            lu<lb ed="#R" n="87" break="no"/>mine ipsum proportionante, cum esset agens 
+            neces<lb ed="#R" n="88" break="no"/>sarium, &amp; intimissime praesens, &amp; passum 
+            dispo<lb ed="#R" n="89" break="no"/>situm, statim visio necessario sequeretur, &amp; ideo ne 
+            <lb ed="#R" n="90"/>cesse est dicere, quod exigitur aliquod lumen 
+            pro<lb ed="#R" n="91" break="no"/>portionans intellectum, quod a Deo libere, &amp; 
+            vo<lb ed="#R" n="92" break="no"/>luntarie datur, quo voluntati dato essentia diuina 
+            <lb ed="#R" n="93"/>per modum obiecti necessario mouet. 
+          </p>
+          <p xml:id="paqqap-a28585-d1e346">
+            <lb ed="#R" n="94"/>Alij vero dixerunt, quod nullus habitus aut 
+            lu<lb ed="#R" n="95" break="no"/>men exigitur necessario; aut enim exigeretur, vt 
+            di<lb ed="#R" n="96" break="no"/>sponeret ad suscipiendum actum, &amp; propter hoc 
+            <lb ed="#R" n="97"/>non, quia actus immediare suscipitur in potentia 
+            <lb ed="#R" n="98"/>&amp; non in habitu, vt patet de habitu 
+            praeueniente<lb ed="#R" n="99" break="no"/>habitum, qui eiusdem rationis est cum actu 
+            subse<lb ed="#R" n="100" break="no"/>quente. Si autem aliquis actus immediate perficit 
+            <lb ed="#R" n="101"/>intellectum, hoc maxime videtur de actu beatifico: 
+            <lb ed="#R" n="102"/>Aut exigeretur ad eliciendum actum, vt sic 
+            confor<lb ed="#R" n="103" break="no"/>taretur, &amp; poneretur in esse potestatiuo, nec 
+            pro<lb ed="#R" n="104" break="no"/>pter hoc tamen exigitur, quia Deus potest supplere 
+            <lb ed="#R" n="105"/>causalitatem cuiuscunque causae secundae in genere 
+            <lb ed="#R" n="106"/>efficientiae, &amp; ita coassistere intellectui ad 
+            eligen<lb ed="#R" n="107" break="no"/>dum supplendo vicem habitus, vel luminis 
+            cuius<lb ed="#R" n="108" break="no"/>cunque: ergo non apparet necessitas ponendi tale 
+            <lb ed="#R" n="109"/>lumen. Tamen dixerunt isti, quod quia nulla 
+            per<lb ed="#R" n="110" break="no"/>fectio debet ab intellectu beati negari, quae 
+            possi<lb ed="#R" n="111" break="no"/>bilis est, idcirco de facto est ibi habitus gloriae sine 
+            <lb ed="#R" n="112"/>lumine, quamuis non necessario exigitur.
+          </p>
+          <p xml:id="paqqap-a28585-d1e390">
+            <lb ed="#R" n="113"/>Dixerunt vero alij, quod est de facto, non est ibi 
+            <!--0089.xml-->
+            <pb ed="#P" n="89"/>
+            <cb ed="#R" n="a"/>
+            <lb ed="#R" n="1"/>lumen aliud nil vid ipsa clara, &amp; facunios quae 
+            <lb ed="#R" n="2"/>dicitur habitus ratione propriae permanentiae, &amp; 
+            <lb ed="#R" n="3"/>dicitur lumen ratione manifestationis obiecti, quia 
+            <lb ed="#R" n="4"/>manifestat essentiam diuinam, nec auctoritates 
+            co<lb ed="#R" n="5" break="no"/>gunt, vt aliud lumen in actu ponatur. Illud enim 
+            <lb ed="#R" n="6"/>quod dicitur impsal. 35. In lumine tuo videbimus 
+            <lb ed="#R" n="7"/>lumen, sic potest intelligi, quod in lumine, qui est 
+            <lb ed="#R" n="8"/>actus, lumem obiectinum videbimus, quod est Deus. 
+            <lb ed="#R" n="9"/>Illa etiam auctoritas Apocasip. 21. quod Ciultas 
+            <lb ed="#R" n="10"/>illa non eget sole, &amp; luna, sed claritas Dei 
+            illu<lb ed="#R" n="11" break="no"/>minabit eam, intelligitur de claritato actus 
+            bea<lb ed="#R" n="12" break="no"/>tifici, qua vniuersa ciuitas beatorum 
+            illumina<lb ed="#R" n="13" break="no"/>bitur. Et illa Isaiae sexto capite Hierusalem, 
+            non<lb ed="#R" n="14" break="no"/>erit tibi amplius sol ad lucendum, &amp; splendor 
+            lu<lb ed="#R" n="15" break="no"/>nae non illuminabit te, sed erit tibi Deus in lucem 
+            <lb ed="#R" n="16"/>sempiternam, intelligitur secundum glosam 
+            inter<lb ed="#R" n="17" break="no"/>linearem de visione Deitatis, &amp; ita non de habitu, 
+            <lb ed="#R" n="18"/>sed de actu.
+          </p>
+          <p xml:id="paqqap-a28585-d1e440">
+            <lb ed="#R" n="19"/>Et illa primo ad Timoth. luoem habitat 
+            inac<lb ed="#R" n="20" break="no"/>eesfibilem, quam nemo hominum vidit secundum 
+            <lb ed="#R" n="21"/>glosam Augustini exponitur, quod nemo eum 
+            <lb ed="#R" n="22"/>videt nisi ex dono eius: Actus autem, cum sit 
+            su<lb ed="#R" n="23" break="no"/>pernaturalis, est donum Dei. Similiter, &amp; illa 
+            pri<lb ed="#R" n="24" break="no"/>mae Ioannis 3. Similes ei erimus, quoniam 
+            vide<lb ed="#R" n="25" break="no"/>bimus eum sicuti est, non potest intelligi sicut 
+            <lb ed="#R" n="26"/>aliqui exponunt, quod exigatur habitus, vt faciat 
+            <lb ed="#R" n="27"/>istam similitudinem, quoniam expraesse auctori 
+            <lb ed="#R" n="28"/>tas dicit, quod visio facit eam: Illa eeiam 
+            Sal<lb ed="#R" n="29" break="no"/>uatoris Matthaei 5. Beati mundo corde quoniam 
+            <lb ed="#R" n="30"/>ipsi Deum videbunt, non cogit ponere talem 
+            <lb ed="#R" n="31"/>fiabitum, qui sit lumen gloriae, quiae istarcordis 
+            <lb ed="#R" n="32"/>munditia habet se per modum meriti, tui 
+            repro<lb ed="#R" n="33" break="no"/>mittitur visio Dei, tale autem lumen si 
+            iponere<lb ed="#R" n="34" break="no"/>tur, non esset principium merendi. Decretalis 
+            <lb ed="#R" n="35"/>etiam libri septimi cap. ad nostrum extra de 
+            haere<lb ed="#R" n="36" break="no"/>ticis, quae dicit inter alios errores errorem illum 
+            <lb ed="#R" n="37"/>qui ponit, quod anima rationalis per naturam 
+            <lb ed="#R" n="38"/>potest esse beata, quodque non indigemus 
+            luce<lb ed="#R" n="39" break="no"/>generali eleuante ad Deum videndum, &amp; beate 
+            <lb ed="#R" n="40"/>fruendum, non concludit habitum, quia sicut 
+            ha<lb ed="#R" n="41" break="no"/>bitus eleuat potentiam effectiue, sicut actus 
+            for<lb ed="#R" n="42" break="no"/>maliter eleuat. Vnde error est dicere, quod 
+            in<lb ed="#R" n="43" break="no"/>digeamus lumine idest actu supernaturali, &amp; quod 
+            <lb ed="#R" n="44"/>iste sit intellectus videtur ex principio articuli, 
+            <lb ed="#R" n="45"/>quia dicitur, quod anima rationalis potest 
+            esse<lb ed="#R" n="46" break="no"/>beata per naturam, hoc autem sufficienter 
+            ex<lb ed="#R" n="47" break="no"/>cluditur dato, quod non ponatur habitus, si actus 
+            <lb ed="#R" n="48"/>supernaturalis ponatur. Illa enim auctoritas 
+            Au<lb ed="#R" n="49" break="no"/>gusttini: Anima non nisi participatione diuini 
+            lu<lb ed="#R" n="50" break="no"/>minis est beata: intelligitur de lumine 
+            obiecti<lb ed="#R" n="51" break="no"/>uo, quod Deus est, qui participatur per actum. 
+            <lb ed="#R" n="52"/>Et vniuersaliter nulla auctoritas videtur ex suo 
+            <lb ed="#R" n="53"/>vero intellectu ponere habitum, vel lumen 
+            distin<lb ed="#R" n="54" break="no"/>ctum ab actu: quare cum Deus, &amp; natura nihil 
+            <lb ed="#R" n="55"/>faciant frustra, &amp; praecipue in statu illo 
+            perpe<lb ed="#R" n="56" break="no"/>tuo, &amp; finali, &amp; non appareat vlla necessitas aut 
+            <lb ed="#R" n="57"/>auctoritas qua debeat poni de facto negatur ab 
+            <lb ed="#R" n="58"/>istis omnis habitus, vel lumen gloriae praeter 
+            a<lb ed="#R" n="59" break="no"/>ctum
+          </p>
+          <p xml:id="paqqap-a28585-d1e531">
+            <lb ed="#R" n="60"/>Vt igitur appareat, quid est veritatis in isto 
+            quae<lb ed="#R" n="61" break="no"/>sito, mota est quaestio, &amp; hic est punctus 
+            inqui<lb ed="#R" n="62" break="no"/>rendus.
+          </p>
+        </div>
+        <div xml:id="paqqap-a28585-Dd1e541">
+          <head xml:id="paqqap-a28585-Hd1e543">Articulus 2</head>
+          <p xml:id="paqqap-a28585-d1e545">
+            <!--0089.xml-->
+            <cb ed="#R" n="b"/>
+            <lb ed="#R" n="63"/>ARTICVLVS II
+            <lb ed="#R" n="64"/>Contra opinionem Scoti, &amp; Thonl' opufeeniopri⸗ 
+            <lb ed="#R" n="65"/>mo, quod ommis ictiuitas cirelt fiui nt 
+            o<lb ed="#R" n="66" break="no"/>nem attribuendo est ageptiy -noz . 
+            <lb ed="#R" n="67"/>nulia potentia 
+          </p>
+          <p xml:id="paqqap-a28585-d1e563">
+            <lb ed="#R" n="68"/>m peca stcundum quaero, quomodo se habeat i. 
+            <lb ed="#R" n="69"/>st men naturale ad eognitionturimeutalems, 
+            <lb ed="#R" n="70"/>Ponendae sunt aliquae propositiones.
+          </p>
+          <p xml:id="paqqap-a28585-d1e572">
+            <lb ed="#R" n="71"/>Primia quidetrpiyuoortumnis actuastp? quie el 
+            <lb ed="#R" n="72"/>seirea inte llectionoerby ettibuenttam vshinieitet 
+            <lb ed="#R" n="73"/>agenti, &amp; nulla possibili, &amp; idcireo sonuis 
+            iee<lb ed="#R" n="74" break="no"/>appellatur luntae Phylopho tertitille anlurr 
+            di<lb ed="#R" n="75" break="no"/>citur, quod est labitus, vt lumens &amp; 
+            li<lb ed="#R" n="76" break="no"/>no 12. de Trinieaes cap Atimo, &amp; sirpluribus alijs 
+            <lb ed="#R" n="77"/>Tocis. 
+          </p>
+          <p xml:id="paqqap-a28585-d1e590">
+            <lb ed="#R" n="78"/>Hanc autem propositionem pono prooter illam 
+            <lb ed="#R" n="79"/>opitionem, qus vieit, quod intelled iia pomoilis 
+            <lb ed="#R" n="80"/>est passiuus in -recipitndo specieta iee tst actis 
+            <lb ed="#R" n="81"/>vna cum specie ad ipttneenionei aecipue iir. 
+            <lb ed="#R" n="82"/>componendo, diuidenido, &amp; iiucueuidi.
+          </p>
+          <p xml:id="paqqap-a28585-d1e604">
+            <lb ed="#R" n="83"/>Sed hoc non obstante /opposit prosontio vere 
+            <lb ed="#R" n="84"/>est, quod patet quia sicut se habet prima liiatefia 
+            <lb ed="#R" n="85"/>in genere sensibilium, lvt alias est probatum: i 
+            <lb ed="#R" n="86"/>prima materia eum careat omm actu, &amp; 
+            Hepura<lb ed="#R" n="87" break="no"/>potentia, nullam habet actiuitatem in genere sen. 
+            <lb ed="#R" n="88"/>sibilium, nec otiam coagit formae recepei 
+            tan<lb ed="#R" n="89" break="no"/>quam principhum-a gundi v igitur nec ipttellectus 
+            <lb ed="#R" n="90"/>possibilis habet aliquam actionem iiieitere intel. 
+            <lb ed="#R" n="91"/>ligibilium, nec coagit, sicut causa partialis recepta 
+            <lb ed="#R" n="92"/>specie ad inten iouem 
+          </p>
+          <p xml:id="paqqap-a28585-d1e628">
+            <lb ed="#R" n="93"/>Praeterea: qui omne dicit nihil excipit, sed 
+            Phy<lb ed="#R" n="94" break="no"/>losophus dicit, quod intellectus agens est quo est 
+            <lb ed="#R" n="95"/>omnia facere ? igitur &amp; intellectio, &amp; compositio, 
+            <lb ed="#R" n="96"/>&amp; dinisio, &amp; discursus intellectus agentis 
+            sumi<lb ed="#R" n="97" break="no"/>tur virtute actiuae, possibilis autem passiuae:. Vnde 
+            <lb ed="#R" n="98"/>&amp; Commentator 3. de anima, comment. 32. dicit, 
+            <lb ed="#R" n="99"/>quod actio intellectus possibilis non est actio, sed 
+            <lb ed="#R" n="100"/>pessib.
+          </p>
+          <p xml:id="paqqap-a28585-d1e648">
+            <lb ed="#R" n="101"/>Praeterea: si intellectus possibilis ageret ad 
+            intel<lb ed="#R" n="102" break="no"/>lectionem aut ad compositionem, &amp; diuisionem, 
+            <lb ed="#R" n="103"/>esset clare duo agentia scilicet virtute cuius 
+            spe<lb ed="#R" n="104" break="no"/>cies imprimitur) in possibili, &amp; illud virtute cuius 
+            <lb ed="#R" n="105"/>intelleetio mediante speeie gignitur, &amp; hoc est 
+            su<lb ed="#R" n="106" break="no"/>perﬂuum, &amp; contra dicta Phylosophorum, &amp; 
+            San<lb ed="#R" n="107" break="no"/>ctorum, qui non diuiserunt intellectum, nisi in istas 
+            <lb ed="#R" n="108"/>duas differentias in agentem scilicet, &amp; possibilem, 
+            <lb ed="#R" n="109"/>nec posuerunt duo agentia.
+          </p>
+          <p xml:id="paqqap-a28585-d1e670">
+            <lb ed="#R" n="110"/>Et iterum sequeretur, quod multo nobilius 
+            <lb ed="#R" n="111"/>agens, &amp; praestantius esset possibilis quam 
+            iste<lb ed="#R" n="112" break="no"/>qui appellatur agens, pro quanto ageret ad 
+            nobi<lb ed="#R" n="113" break="no"/>liorem effectum scilicet ad actum intelligendi: 
+            <lb ed="#R" n="114"/>Ille vero ad ignobiliorem, videlicet ad speciem, fed 
+            <lb ed="#R" n="115"/>haec sunt absona: igitur omnis actiuitas 
+            attribuen<lb ed="#R" n="116" break="no"/>da est agenti &amp; nullo modo possibili. Et hinc est, 
+            <lb ed="#R" n="117"/>quod appellatur lumen, solus autem intellectus 
+            <lb ed="#R" n="118"/>agens actiue manifestat, vt dictum est, &amp; ideo 
+            so<lb ed="#R" n="119" break="no"/>etiones septem. 
+          </p>
+          <p xml:id="paqqap-a28585-d1e694">
+            <lb ed="#R" n="120"/>Prima est quidem realis in intellectum 
+            possibi<lb ed="#R" n="121" break="no"/>lem, quia coagit phantasmati ad eductionem actus 
+            <lb ed="#R" n="122"/>vel speciei in ipsum possibilem. 
+          </p>
+          <p xml:id="paqqap-a28585-d1e703">
+            <lb ed="#R" n="123"/>Secunda vero est intentionalis respectu phantasmatis 
+            <lb ed="#R" n="124"/>lus dicitur lumen, possibilis vero non. 
+            <lb ed="#R" n="125"/>Secunda vero Propositio est, quod intellectus 
+            <lb ed="#R" n="126"/>agens habet, se actiue septem modis, &amp; habet a- 
+            <!--0090.xml-->
+            <pb ed="#P" n="90"/>
+            <cb ed="#R" n="a"/>
+            <lb ed="#R" n="1"/>quia illustrat, &amp; itradiat phantasmata, &amp; 
+            abstra<lb ed="#R" n="2" break="no"/>hendo quidditatom, &amp; faciemoouueee eam in phan 
+            <lb ed="#R" n="3"/>tasmate, quod est transferre rem de ordine 
+            parti<lb ed="#R" n="4" break="no"/>pularium in ominom voipersalium, 
+          </p>
+          <p xml:id="paqqap-a28585-d1e730">
+            <lb ed="#R" n="5"/>Tertia mato est respectu, primarum proposicionum. 
+            <lb ed="#R" n="6"/>quae tenem ex terminis instrumentaliter in virtute 
+            <lb ed="#R" n="7"/>luminis intellectus priucipaliter. 
+          </p>
+          <p xml:id="paqqap-a28585-d1e739">
+            <lb ed="#R" n="8"/>Quarta vero est respectu propositionum 
+            secun<lb ed="#R" n="9" break="no"/>decum, quae concluduotus ea primis, quae etiam 
+            <lb ed="#R" n="10"/>sunt, ea primis propositionibus instrumentaliter in 
+            <lb ed="#R" n="11"/>lumine agentis.
+          </p>
+          <p xml:id="paqqap-a28585-d1e750">
+            <lb ed="#R" n="12"/>Quinta uero rospectu propositionum neutrarum, 
+            <lb ed="#R" n="13"/>&amp; couraapipentium, vt quod adma sunt paria, vel 
+            <lb ed="#R" n="14"/>imaaiia 
+          </p>
+          <p xml:id="paqqap-a28585-d1e759">
+            <lb ed="#R" n="15"/>Sexta vero est causalitas exigitiua eo modo, quo 
+            <lb ed="#R" n="16"/>forma inmaterialibus exigitiue determinat, &amp; 
+            <lb ed="#R" n="17"/>largitur materia postremas perfectiones 
+            determi<lb ed="#R" n="18" break="no"/>nando ipsam ad certa accidentia, &amp; certos gradus 
+            <lb ed="#R" n="19"/>eorum: consimiliter enim virtutis intellectus agē- 
+            <lb ed="#R" n="20"/>ris, aiuarius est secundum diuorsas animas 
+            deter<lb ed="#R" n="21" break="no"/>mipat possibilem ad certum gradum actus 
+            specisi<lb ed="#R" n="22" break="no"/>cum, &amp; pumeralem, ve anima vna melius intelligat, 
+            <lb ed="#R" n="23"/>&amp; intellectionem altiorem secundum gradum 
+            vi<lb ed="#R" n="24" break="no"/>goris, intellecus agentis. 
+          </p>
+          <p xml:id="paqqap-a28585-d1e783">
+            <lb ed="#R" n="25"/>Septima est intellectualis respectu expressionis 
+            <lb ed="#R" n="26"/>per ipsum actum, actus enim non exprimit, nec 
+            fa<lb ed="#R" n="27" break="no"/>cit apparere obiectum ipsum praesentialiter 
+            exhi<lb ed="#R" n="28" break="no"/>bendo, nisi in lumine intellectus agentis, &amp; in 
+            vir<lb ed="#R" n="29" break="no"/>tute ipsius, vt quaedam obiecta praesentia, &amp; 
+            apparen<lb ed="#R" n="30" break="no"/>tia, sic spiritualis radius, qui procedit virtute 
+            ip<lb ed="#R" n="31" break="no"/>sius intellectus, &amp; actus. 
+          </p>
+          <p xml:id="paqqap-a28585-d1e801">
+            <lb ed="#R" n="32"/>Contra opinionem <name xml:id="paqqap-a28585-Nd1e805">Godofredi</name>.
+          </p>
+          <p xml:id="paqqap-a28585-d1e809">
+            <lb ed="#R" n="33"/>HAnc autem propositionem.
+          </p>
+          <p xml:id="paqqap-a28585-d1e814">
+            <lb ed="#R" n="34"/>Primo probo, quantum ad duas accidentali, 
+            <lb ed="#R" n="35"/>tates quarum prima realis, quia coagit phantasmati 
+            <lb ed="#R" n="36"/>ad impressionem speciei, siue differentis ab actu, siue 
+            <lb ed="#R" n="37"/>idem existentis in actu. 
+          </p>
+          <p xml:id="paqqap-a28585-d1e825">
+            <lb ed="#R" n="38"/>Secunda vero intentionalis fundatur super istam, 
+            <lb ed="#R" n="39"/>scilicet, quod statim in phantasmate lucet 
+            yniuer<lb ed="#R" n="40" break="no"/>sale repraesentatum per illum actum, &amp; haec dicitur, 
+            <lb ed="#R" n="41"/>irradiatio phantasmatis, vel illustratio. Est tamen 
+            <lb ed="#R" n="42"/>quaedam opinio, quae dicit, quod actio intellectus 
+            <lb ed="#R" n="43"/>agentis non est positiua, vnde nihil positiuum 
+            im<lb ed="#R" n="44" break="no"/>primit, nec in phantasma, nec in intellectum 
+            possi<lb ed="#R" n="45" break="no"/>bilem, sed solum priuatiua, &amp; sequestratiua, &amp; est 
+            <lb ed="#R" n="46"/>ad ipsum phantasma. Vnde dicit, quod sicut in 
+            la<lb ed="#R" n="47" break="no"/>cte coniungitur albedo dulcedini, &amp; caeteris 
+            acci<lb ed="#R" n="48" break="no"/>dentibus, ad praesentiam autem lucis statim sic 
+            mo<lb ed="#R" n="49" break="no"/>uet albedo, quod dulcedo non mouet, nec 
+            tamen<lb ed="#R" n="50" break="no"/>lux aliquid positiuum facit circa albedinem. Sic 
+            prae<lb ed="#R" n="51" break="no"/>sentia intellectus agentis facit, quod quidditas, 
+            <lb ed="#R" n="52"/>quae est in phantasmate, coniuncta conditionibus 
+            <lb ed="#R" n="53"/>particulantibus ita moueat intellectum, quod 
+            <lb ed="#R" n="54"/>conditiones particulantes non moueant, &amp; sic actio 
+            <lb ed="#R" n="55"/>intellectus agentis est solum sequestratiua, &amp; 
+            pri<lb ed="#R" n="56" break="no"/>uatiua, non quod aliquid imprimat in phantasma, 
+            <lb ed="#R" n="57"/>sed ad praesentiam eius statim lucet quidditas in
+            <lb ed="#R" n="58"/>phantasmate, &amp; illa mouet intellectum
+          </p>
+          <p xml:id="paqqap-a28585-d1e873">
+            <!-- missing linebreak -->Sed hoc non obstante dicendum, vt prius, ista enim 
+            <!-- missing linebreak -->opinio deficit in multis
+          </p>
+          <p xml:id="paqqap-a28585-d1e880">
+            <lb ed="#R" n="59"/>Primo quidem in hoc, quod actionem intellectus 
+            <lb ed="#R" n="60"/>ponit solum priuatiuam. <ref xml:id="paqqap-a28585-Rd1e886">Commen. enim 3. de ani. 
+              <lb ed="#R" n="61"/>com. 18.</ref> contra <name xml:id="paqqap-a28585-Nd1e891">Alpharabium</name>, &amp; Themis arguit, quod 
+            <lb ed="#R" n="62"/>si intellectus agens nullam realem actionem 
+            habe<lb ed="#R" n="63" break="no"/>ret, iam non eiset vere, &amp; realiter agens, sed tantum 
+            <lb ed="#R" n="64"/>similitudinarie, quod ipse habet pro inconueniem- 
+            <!--0090.xml-->
+            <cb ed="#R" n="b"/>
+            <lb ed="#R" n="65"/>ti sed iuxta istum modum ponendi, intellectiva 
+            a<lb ed="#R" n="66" break="no"/>gena nihil facis, apale, nec in iptellectu posibisia 
+            <lb ed="#R" n="67"/>in phaotasinarei igitur non erit vere, sed 
+            similitu<lb ed="#R" n="68" break="no"/>dinarie agens.
+          </p>
+          <p xml:id="paqqap-a28585-d1e914">
+            <lb ed="#R" n="69"/>Praeterea in 4 meth. dicit, quod agens non 
+            po<lb ed="#R" n="70" break="no"/>test prinare aliquid: actio enim agentis non est in 
+            <lb ed="#R" n="71"/>priuandomec facit priuationes: sed, secundum istum 
+            <lb ed="#R" n="72"/>modum intallestus agens nihil positiuum facit:
+            igi<lb ed="#R" n="73" break="no"/>rum non est vere agens.
+          </p>
+          <p xml:id="paqqap-a28585-d1e928">
+            <lb ed="#R" n="74"/>Praeterea, quando taenad iqua sunt idipsium realiter, 
+            <lb ed="#R" n="75"/>impossibibile est, quod ad praesentiam cuiuscunque 
+            <lb ed="#R" n="76"/>vnum agata quin &amp; reliquum, sicut, per oppositum 
+            <lb ed="#R" n="77"/>patet in exemplo illorum. Ideo enim 
+            albedine<lb ed="#R" n="78" break="no"/>mouente dulcedo non mouet, quia distinguuntur 
+            <lb ed="#R" n="79"/>realiter: sed quidditas in phantasmate non differt 
+            <lb ed="#R" n="80"/>roaliter ab hac quidditate non mouente: ergo. Et 
+            <lb ed="#R" n="81"/>confirmatur, quia nulla realis motio attribul 
+            po<lb ed="#R" n="82" break="no"/>test, nisi ei, quod habet esse reale. 
+          </p>
+          <p xml:id="paqqap-a28585-d1e950">
+            <lb ed="#R" n="83"/>Constat antem, quod quidditas in phantasmate, 
+            <lb ed="#R" n="84"/>non habet aliud esse reale, ab hac quidditate: ergo. 
+            <lb ed="#R" n="85"/>Et iterum cum ad praesentiam intellectus agentis 
+            <lb ed="#R" n="86"/>totum sit ita particulare realiter, sicut ante, ac si non 
+            <lb ed="#R" n="87"/>est, sequitur, quod sua actio non est solum 
+            separati<lb ed="#R" n="88" break="no"/>ua, immo vere productiua quidditas in esse reali, 
+            <lb ed="#R" n="89"/>(cuius oppositum dicunt) patet, quod 
+            particulare<lb ed="#R" n="90" break="no"/>mouebit primo, &amp; per se intellectum, &amp; ita erit 
+            in<lb ed="#R" n="91" break="no"/>tellectus de genere virtutis imaginatiuae, non erit 
+            <lb ed="#R" n="92"/>differentia inter vniuersale, &amp; indiuiduum, vt <ref xml:id="paqqap-a28585-Rd1e973">
+              Com<lb ed="#R" n="93" break="no"/>mentator comm. concludit 3. de anima.</ref>
+          </p>
+          <p xml:id="paqqap-a28585-d1e979">
+            <lb ed="#R" n="94"/>Praeterea <ref xml:id="paqqap-a28585-Rd1e983">ibidem dicit Commentator</ref>, quod actio 
+            <lb ed="#R" n="95"/>intellectus agentis est creare intentiones intellectas, 
+            <lb ed="#R" n="96"/>abstrahere enim intellectum, &amp; creare ipsum pe⸗ 
+            <lb ed="#R" n="97"/>tinet ad intellectum agentem: sed haec non essent 
+            <lb ed="#R" n="98"/>vera, si sola actio eius esset exhibere se praesentem, 
+            <lb ed="#R" n="99"/>phantasmati, sic quod ad eius praesentiam ipso nihil 
+            <lb ed="#R" n="100"/>agente, aliquid existens in phantasmate imprime, 
+            <lb ed="#R" n="101"/>ret acum, aut speciem in intellectu: igitur 
+            intelle<lb ed="#R" n="102" break="no"/>ctus agens vere coagit ad impressionem speciei, vel 
+            <lb ed="#R" n="103"/>acus, nec solum se exhibet phantasmati 
+            praesen<lb ed="#R" n="104" break="no"/>cem 
+          </p>
+          <p xml:id="paqqap-a28585-d1e1008">
+            <lb ed="#R" n="105"/>Secundo vero desicit in exemplo, quod accipit 
+            <lb ed="#R" n="106"/>de lumine, &amp; colore lactis, non enim sola luminis 
+            <lb ed="#R" n="107"/>sine hoc, quod aliquid aliud faciat, dat albedini, 
+            <lb ed="#R" n="108"/>quod moueat, facit enim, vel quia exhibet colores 
+            <lb ed="#R" n="109"/>de potentia ad actum, &amp; perficit eos in actu primo 
+            <lb ed="#R" n="110"/>secundum Auicen. vel quod est verius, quia coagit 
+            <lb ed="#R" n="111"/>colori ad mouendum: color enim adeo imperfectus 
+            <lb ed="#R" n="112"/>est, quod nisi coniungatur, &amp; misceatur sibi lumen, 
+            <lb ed="#R" n="113"/>non potest mouere visum, vnde quanto lux est 
+            ma<lb ed="#R" n="114" break="no"/>ior incidens super colorem, tanto color 
+            lumino<lb ed="#R" n="115" break="no"/>sior, &amp; clarior apparet; &amp; in tantum lux 
+            aliquan<lb ed="#R" n="116" break="no"/>do intenditur, quod totum constitutum ex 
+            colore<lb ed="#R" n="117" break="no"/>&amp; illa luce color alterius speciei iudicatur. 
+            Secun<lb ed="#R" n="118" break="no"/>dum hoc ergo intellectus agens concurret cum 
+            <lb ed="#R" n="119"/>phantasmate ad impressionem realem speciei, vel 
+            <lb ed="#R" n="120"/>actus in intellectum, &amp; non erit tantummodo 
+            <lb ed="#R" n="121"/>phantaimati assistens. 
+          </p>
+          <p xml:id="paqqap-a28585-d1e1047">
+            <lb ed="#R" n="122"/>Tertio deficit in eo, quod imaginatur, quod phã- 
+            <lb ed="#R" n="123"/>tasma ad praesentiam intellectus agentis exhibeat 
+            <lb ed="#R" n="124"/>vniuersale, &amp; repraesentet ipsum, quod non est 
+            ve<lb ed="#R" n="125" break="no"/>rum, sed facit actus in primo instanti factus in 
+            in<lb ed="#R" n="126" break="no"/>tellectu. Constat enim, quod impossibile est, aliquid 
+            <lb ed="#R" n="127"/>intentionaliter, &amp; obiectiue fieri, nisi facto reali 
+            <lb ed="#R" n="128"/>aliquo, &amp; formali, in quo sustentetur, &amp; ex cuius 
+            <lb ed="#R" n="129"/>demonstratione sit; alioquin non solum tale esset 
+            <lb ed="#R" n="130"/>intentionale, &amp; obiectum, immo reale, ex quo 
+            es<lb ed="#R" n="131" break="no"/>set per se terminus actionis: sed vniuersale, quod lu 
+            <lb ed="#R" n="132"/>cet in phantaimate, non habet essle nisi intentionale 
+            <!--0091.xml-->
+            <pb ed="#P" n="91"/>
+            <cb ed="#R" n="a"/>
+            <lb ed="#R" n="1"/>&amp; obiectiuum: ergo non est factum de nouo, nisi 
+            <lb ed="#R" n="2"/>quia aliquid reale, &amp; formale factum est in 
+            phan<lb ed="#R" n="3" break="no"/>tasmate. Tum quia positio ista absurda est, quod 
+            <lb ed="#R" n="4"/>intellectus nullam formam imprimit in 
+            phantas<lb ed="#R" n="5" break="no"/>mate. Tum quia omnis forma existens in 
+            phantas<lb ed="#R" n="6" break="no"/>mate materialis est, &amp; imprimit particulare. Tum 
+            <lb ed="#R" n="7"/>quia sequeretur, quod phantasia cognosceret 
+            vni<lb ed="#R" n="8" break="no"/>uersale, &amp; quod sibi vniuersale obijceretur, sicut 
+            <lb ed="#R" n="9"/>Auempace posuit, quod omnino absonum est, 
+            ne<lb ed="#R" n="10" break="no"/>cesse est igitur, quod illud reale, quod imprimit 
+            <lb ed="#R" n="11"/>vniuersale secundum esse obiectinum, &amp; 
+            intentio<lb ed="#R" n="12" break="no"/>nale in intellectu, sit factum, &amp; secundum hoc 
+            intel<lb ed="#R" n="13" break="no"/>lectus agens transfert de ordine, in ordinem 
+            me<lb ed="#R" n="14" break="no"/>diante intellectione, quam causat in intellectu 
+            pos<lb ed="#R" n="15" break="no"/>sibili, vna cum phantasmate, ex hoc enim statim 
+            lu<lb ed="#R" n="16" break="no"/>cet vniuersale virtute ipsius intellectionis. 
+            colli<lb ed="#R" n="17" break="no"/>gatum cum suo particulari, quod lucet in 
+            phantas<lb ed="#R" n="18" break="no"/>mate obiectiue, sicut speculamur naturam 
+            simplici<lb ed="#R" n="19" break="no"/>ter in lib. Periherm. 
+          </p>
+          <p xml:id="paqqap-a28585-d1e1121">
+            <lb ed="#R" n="20"/>Secundum hoc ergo patet duplex actiuitas 
+            in<lb ed="#R" n="21" break="no"/>tellectus agentis; Vna realis ipsius intellectionis. 
+            <lb ed="#R" n="22"/>Alia per modum sequelae intentionalis circa phan. 
+            <lb ed="#R" n="23"/>tasiam, in qua facit lucere vniuersale mediante 
+            in<lb ed="#R" n="24" break="no"/>tellectione creata. Et istud appellatur illustratio, 
+            <lb ed="#R" n="25"/>&amp; abstractio, &amp; translatio de ordine ad ordinem, 
+            <lb ed="#R" n="26"/>nec sufficit sola praesentia intellectus agentis ad 
+            <lb ed="#R" n="27"/>phantasma, &amp; quod eo praesente phantasma ipsam 
+            <lb ed="#R" n="28"/>intellectionem de toto imprimat: quoniam in 
+            vno<lb ed="#R" n="29" break="no"/>quoque genere illud, quod fit, fit ab ente in actu in 
+            <lb ed="#R" n="30"/>illo genere; phantasma autem non est in actu in ge 
+            <lb ed="#R" n="31"/>nere abstractorum, immo est sub ordine 
+            materia<lb ed="#R" n="32" break="no"/>lium, &amp; corporeorum, &amp; quantumcumque 
+            intelle<lb ed="#R" n="33" break="no"/>ctus agens assistat: igitur non sufficit ad imprimen 
+            <lb ed="#R" n="34"/>dum intellectionem ad faciendum intellectum in 
+            <lb ed="#R" n="35"/>actu nisi coagat positiue, &amp; realiter aliquid, quod 
+            <lb ed="#R" n="36"/>sit intellectus in actu, &amp; illud est intellectus agens. 
+          </p>
+          <p xml:id="paqqap-a28585-d1e1161">
+            <lb ed="#R" n="37"/>Et si diceretur, quod <ref xml:id="paqqap-a28585-Rd1e1165">Comment. in 3. de anima 
+              <lb ed="#R" n="38"/>com. 31.</ref> dicit, visus non mouetur a coloribus, nisi 
+            <lb ed="#R" n="39"/>luce praesente, ita intentiones imaginatae non 
+            mo<lb ed="#R" n="40" break="no"/>uent intellectum naturalem, nisi aliquo praesente, 
+            <lb ed="#R" n="41"/>qui sit intellectio in actu, &amp; secundum hoc nullam 
+            <lb ed="#R" n="42"/>actiuitatem videtur attribuere intellectui agenti, 
+            <lb ed="#R" n="43"/>nisi tantum praesentiae. Dicendum, quod immo ibi 
+            <lb ed="#R" n="44"/>expresse addit, &amp; de luce respectu colorum, quod 
+            <lb ed="#R" n="45"/>extrahit eos de potentia in actum, &amp; de intellectu 
+            <lb ed="#R" n="46"/>agente, quod facit intellectum &amp; possibilis recipit 
+            <lb ed="#R" n="47"/>ipsum, &amp; ita attribuit sibi naturam actiuam, &amp; 
+            <lb ed="#R" n="48"/>realem. 
+          </p>
+          <p xml:id="paqqap-a28585-d1e1193">
+            <lb ed="#R" n="49"/>Nunc de tertia, &amp; quarta actiuitate intellectus.
+          </p>
+          <p xml:id="paqqap-a28585-d1e1198">
+            <lb ed="#R" n="50"/>TErtia vero actiuitas intellectus agentis est 
+            re<lb ed="#R" n="51" break="no"/>spectu notitiae primarum propositionum, quam 
+            <lb ed="#R" n="52"/>causant termini instrumentaliter intellectus autem 
+            <lb ed="#R" n="53"/>agens principaliter. Quod enim termini 
+            exigan<lb ed="#R" n="54" break="no"/>tur, patet, quia eadem sunt principia essendi, &amp; 
+            co<lb ed="#R" n="55" break="no"/>gnoscendi: sed termini sunt causa inhaerentiae prae 
+            <lb ed="#R" n="56"/>dicati ad subiectum, cum relatio oriatur ex 
+            termi<lb ed="#R" n="57" break="no"/>nis: igitur &amp; concurrunt, vt causa in cognoscendo 
+            <lb ed="#R" n="58"/>huiusmodi compositionem, &amp; inhaerentiam. 
+          </p>
+          <p xml:id="paqqap-a28585-d1e1220">
+            <lb ed="#R" n="59"/>Quod vero intellectus agens requiratur, nec 
+            suf<lb ed="#R" n="60" break="no"/>ficiat notitia terminorum cum possibili, patet, quia 
+            <lb ed="#R" n="61"/>possibilis cum sit res pure potentialis nullam 
+            acti<lb ed="#R" n="62" break="no"/>uitatem confert ad notitiam terminorum. Sed constat, 
+            <lb ed="#R" n="63"/>quod ad generationem cuiuscumq. notitiae oportet, 
+            <lb ed="#R" n="64"/>quod concurrat aliquis vigor naturae intelligibilis 
+            <lb ed="#R" n="65"/>existentis in actu, quia secundum <ref xml:id="paqqap-a28585-Rd1e1237">Commentatorem 
+              <!--0091.xml-->
+              <cb ed="#R" n="b"/>
+              <lb ed="#R" n="66"/>3. de anima com. 31.</ref> nunquam perficitur 
+            aliqua<lb ed="#R" n="67" break="no"/>notitia nisi virtute alicuius, qui sit in actu: igitur 
+            <lb ed="#R" n="68"/>necesse est, quod cum terminis concurrat vigor 
+            in<lb ed="#R" n="69" break="no"/>tellectus agentis, qui solus est in actu. 
+          </p>
+          <p xml:id="paqqap-a28585-d1e1253">
+            <lb ed="#R" n="70"/>Quod vero se habeat principa liter intellectus 
+            a<lb ed="#R" n="71" break="no"/>gens, &amp; non solum instrumantaliter, patet, quia 
+            <lb ed="#R" n="72"/>quando ad aliquam actionem concurrunt duo, 
+            <lb ed="#R" n="73"/>vnum per modum vniuersalis agentis, &amp; aliud per 
+            <lb ed="#R" n="74"/>modum determinantis, &amp; quasi applicantis, 
+            illud<lb ed="#R" n="75" break="no"/>vniuersale se habet per modum perfectionis, &amp; 
+            prin<lb ed="#R" n="76" break="no"/>cipalis. Determinans autem quasi per modum 
+            <lb ed="#R" n="77"/>instrumenti &amp; minus principalis, sicut patet de 
+            so<lb ed="#R" n="78" break="no"/>le, &amp; quolibet agente particulari: sed intellectus 
+            <lb ed="#R" n="79"/>agens concurrit ad eandem notitiam primarum 
+            <lb ed="#R" n="80"/>propositionum tamquam agens vniuersale, quod 
+            <lb ed="#R" n="81"/>concurrit in plures alios effectus, termini vero 
+            qua<lb ed="#R" n="82" break="no"/>si determinant, &amp; applicant: igitur ipsa habent 
+            mo<lb ed="#R" n="83" break="no"/>dum instrumenti, &amp; illud modum agentis 
+            princi<lb ed="#R" n="84" break="no"/>palis. 
+          </p>
+          <p xml:id="paqqap-a28585-d1e1288">
+            <lb ed="#R" n="85"/>Quarta vero actiuitas est respectu conclusionum, 
+            <lb ed="#R" n="86"/>&amp; propositionum secundarum, quae deducuntur ex 
+            <lb ed="#R" n="87"/>principijs, quia respectu nocitiae earum concurrit 
+            <lb ed="#R" n="88"/>notitia praemissarum, vt causa instrumentalis, 
+            Intel<lb ed="#R" n="89" break="no"/>lectio vero agens vt causa principalis, &amp; haec est 
+            <lb ed="#R" n="90"/>mens Commentatoris quantum ad actiuitatem &amp; 
+            <lb ed="#R" n="91"/>tertiam, &amp; quartam. 
+          </p>
+          <p xml:id="paqqap-a28585-d1e1307">
+            <lb ed="#R" n="92"/>De tertia namque, quae est respectu primarum 
+            <lb ed="#R" n="93"/>propositionum dicit in libro de vigilia, &amp; 
+            som<lb ed="#R" n="94" break="no"/>no, quod primae proposiriones acquiruntur 
+            in<lb ed="#R" n="95" break="no"/>nobis per agens eiusdem generis, quia omne 
+            <lb ed="#R" n="96"/>quod exit de potentia in actum habet agens, 
+            <lb ed="#R" n="97"/>quod est de genere illius rei, quae exit in actum, &amp; 
+            <lb ed="#R" n="98"/>ideo necesse, vt faciens cognitionem sit intellectus 
+            <lb ed="#R" n="99"/>in actu: ille ergo intellectus dat principia 
+            vniuer<lb ed="#R" n="100" break="no"/>salia in rebus speculatiuis, cuius esse declaratum 
+            <lb ed="#R" n="101"/>est in lib. de anima 
+          </p>
+          <p xml:id="paqqap-a28585-d1e1331">
+            <lb ed="#R" n="102"/>De quarta vero actiuitate respectu secundarum 
+            <lb ed="#R" n="103"/>propositionum dicit in 3. de anima, quod cum 
+            de<lb ed="#R" n="104" break="no"/>claratum sit, quod intellecta habita a nobis natura 
+            <lb ed="#R" n="105"/>liter sibi ab aliquo, quod est intellectus liberatus a 
+            <lb ed="#R" n="106"/>materia, &amp; est intellectus agens: &amp; cum hoc fuit, 
+            <lb ed="#R" n="107"/>declaratum, quod intellecta habita a nobis a 
+            pri<lb ed="#R" n="108" break="no"/>mis propositionibus, aut sunt aliquod factum ex 
+            <lb ed="#R" n="109"/>propositionibus notis, &amp; intellectu agente. Non 
+            <lb ed="#R" n="110"/>enim possumus dicere, quod propositiones non 
+            ha<lb ed="#R" n="111" break="no"/>bent introitum in esse intellectorum acquisitorum: 
+            <lb ed="#R" n="112"/>nec etiam possumus dicere, quod ipsae solae sunt 
+            a<lb ed="#R" n="113" break="no"/>gentes ea, nam declaratum est agens esse vnum, 
+            ne<lb ed="#R" n="114" break="no"/>cesse est: ergo dicere, quod propositiones se habent 
+            <lb ed="#R" n="115"/>ad intellectum agentem aut quasi materia, aut quasi 
+            <lb ed="#R" n="116"/>instrumentum.
+          </p>
+          <p xml:id="paqqap-a28585-d1e1366">
+            <lb ed="#R" n="117"/>Ex his patet, quod non est vera opinio, quae 
+            di<lb ed="#R" n="118" break="no"/>cit, quod intellectus possibilis in virtute terminorum 
+            <lb ed="#R" n="119"/>causat notitiam primarum propositionum, &amp; in vir 
+            <lb ed="#R" n="120"/>tute illarum notitiam conclusionum, immo hoc 
+            <lb ed="#R" n="121"/>competit soli ipsi agenti, praesertim cum possibilis 
+            <lb ed="#R" n="122"/>sit res pure potentialis, vt saepe dictum est. 
+          </p>
+          <p xml:id="paqqap-a28585-d1e1382">
+            <lb ed="#R" n="123"/>De quinta actiuitate intellectus agentis.
+          </p>
+          <p xml:id="paqqap-a28585-d1e1387">
+            <lb ed="#R" n="124"/>QVinta vero actiuitas est respectu 
+            propositio<lb ed="#R" n="125" break="no"/>num neutrarum, cuiusmodi sunt, astra esse 
+            <lb ed="#R" n="126"/>paria, aut astra esse imparia, &amp; etiam respe 
+            <lb ed="#R" n="127"/>ctu propositionum falsarum. Istae enim non 
+            for<lb ed="#R" n="128" break="no"/>mantur virtute intellectus possibilis, in quo 
+            reci<lb ed="#R" n="129" break="no"/>piuntur, sed virtute agentis concurrentibus 
+            simili<lb ed="#R" n="130" break="no"/>tudinibus aliarum rerum: nam intellectus ex 
+            im<lb ed="#R" n="131" break="no"/>perio voluntatis aptus natus est facere assimilatio- 
+            <!--0092.xml-->
+            <pb ed="#P" n="92"/>
+            <cb ed="#R" n="a"/>
+            <lb ed="#R" n="1"/>nem secundum, quod <ref xml:id="paqqap-a28585-Rd1e1415">Com. com. 38.</ref> ait et 2. meth. 
+            <lb ed="#R" n="2"/>&amp; ideo in compositione, quam reperit inter 
+            po<lb ed="#R" n="3" break="no"/>mum, &amp; aurum potest causare modo 
+            similitudina<lb ed="#R" n="4" break="no"/>rio compositionem montis cum auro, &amp; sic concur 
+            <lb ed="#R" n="5"/>rit cum intellectu agente aliqua compositio similis 
+            <lb ed="#R" n="6"/>ad causandum falsam compositionem, vel nentram, 
+            <lb ed="#R" n="7"/>sicut concurrebat compositio primarum 
+            proposi<lb ed="#R" n="8" break="no"/>tionum ad causandum compositionem 
+            conclusio<lb ed="#R" n="9" break="no"/>num. Et sic docet Augustinus 11. de Trinit. cap. 8. 
+            <lb ed="#R" n="10"/>Aut enim vnum, vnum quippe solem memini, quia 
+            <lb ed="#R" n="11"/>sicut est, vnum vidi: si voluero autem, duos cogito, 
+            <lb ed="#R" n="12"/>aut tres, vel quot volo, &amp; si volo currentem, &amp; vbi 
+            <lb ed="#R" n="13"/>volo stantem. Vnum volo, &amp; aliud nolo, 
+            venien<lb ed="#R" n="14" break="no"/>tem quadrum mihi cogitare in promptu est, cum 
+            <lb ed="#R" n="15"/>rotundum meminerim, &amp; cuiuslibet coloris, cum 
+            <lb ed="#R" n="16"/>solem viridem nunquam viderim, atque ita vt 
+            so<lb ed="#R" n="17" break="no"/>lem, ita &amp; caetera. 
+          </p>
+          <p xml:id="paqqap-a28585-d1e1452">
+            <lb ed="#R" n="18"/>De sexta actiuitate.
+          </p>
+          <p xml:id="paqqap-a28585-d1e1458">
+            <lb ed="#R" n="19"/>SExta vero actiuitas, non est proprie actiuitas, 
+            <lb ed="#R" n="20"/>quia non est effectiua, sed potius exigitiua, eo 
+            <lb ed="#R" n="21"/>modo, quo dicimus, quod aequistantia 
+            paralello<lb ed="#R" n="22" break="no"/>rum facit, quod non concurrunt, &amp; forma agit 
+            di<lb ed="#R" n="23" break="no"/>spositiones, &amp; omnia accidentia in materia 
+            exigiti<lb ed="#R" n="24" break="no"/>ne: de qua actiuitate Comment. 4. caeli, &amp; mun. com. 
+            <lb ed="#R" n="25"/>2. ait, quod res aeternae non habent agens, nisi 
+            se<lb ed="#R" n="26" break="no"/>cundum similitudinem, &amp; si habent aliquid quasi 
+            <lb ed="#R" n="27"/>agens, non erit nisi inquantum est forma illi, &amp; cō- 
+            <lb ed="#R" n="28"/>seruans ipsum. Sic igitur accipiendo actiuitatem 
+            <lb ed="#R" n="29"/>exigitiuam, &amp; determinatiuam, dico, quod 
+            intelle<lb ed="#R" n="30" break="no"/>ctus agens, &amp; suus vigor determinat possibilem 
+            <lb ed="#R" n="31"/>ad omnes intellectiones, quas recipit, vt eas 
+            reci<lb ed="#R" n="32" break="no"/>piat sub certo, ita quod non potest intensior 
+            intel<lb ed="#R" n="33" break="no"/>lectio recipi, quam exigat gradus virtutis, &amp; 
+            vi<lb ed="#R" n="34" break="no"/>goris intellectus agentis primo perficientis 
+            possi<lb ed="#R" n="35" break="no"/>bilem. 
+          </p>
+          <p xml:id="paqqap-a28585-d1e1497">
+            <lb ed="#R" n="36"/>Hoc autem patet ratione sumpta a fimili: Sicut 
+            <lb ed="#R" n="37"/>enim se habet forma substantialis ad materiam, sic 
+            <lb ed="#R" n="38"/>suo modo intellecus agens ad intellectum 
+            possibi<lb ed="#R" n="39" break="no"/>lem: sed sic se habet forma substantialis ad 
+            mate<lb ed="#R" n="40" break="no"/>riam, quod licet possit indeterminate, &amp; 
+            indiffe<lb ed="#R" n="41" break="no"/>renter sub quocunque gradu recipere quodlibet 
+            <lb ed="#R" n="42"/>accidens secundum speciem, &amp; gradum 
+            causalita<lb ed="#R" n="43" break="no"/>tis, quae compossibilis est eidem materiae existenti 
+            <lb ed="#R" n="44"/>sub forma aeris, vel aquae, &amp; ideo 8. Physic. com. 
+            <lb ed="#R" n="45"/>32. ait, quod generans quantum dat de forma, 
+            tan<lb ed="#R" n="46" break="no"/>tum dat de accidentibus existentibus: forma 
+            igi<lb ed="#R" n="47" break="no"/>tur, &amp; vigor intellectus agentis determinabit 
+            pos<lb ed="#R" n="48" break="no"/>sibilem ad certum gradum specificum, &amp; ad certum 
+            <lb ed="#R" n="49"/>gradum infra eandem speciem respectu 
+            intellectio<lb ed="#R" n="50" break="no"/>num: &amp; sicut materia non perficitur per accidentia 
+            <lb ed="#R" n="51"/>propria, nisi quatenus primo perficitur per formam, 
+            <lb ed="#R" n="52"/>sic nec intellectus possibilis vnquam reciperet 
+            ali<lb ed="#R" n="53" break="no"/>quam intellectionem, nisi quatenus perficitur per 
+            <lb ed="#R" n="54"/>agentem. 
+          </p>
+          <p xml:id="paqqap-a28585-d1e1541">
+            <lb ed="#R" n="55"/>Praeterea idem patet per auctoritatem <ref xml:id="paqqap-a28585-Rd1e1545">
+              Commen<lb ed="#R" n="56" break="no"/>tatoris comm. 18. in 3. de anima</ref>, qui dicit, quod 
+            <lb ed="#R" n="57"/>respectus intellectus agentis ad intellectum 
+            possi<lb ed="#R" n="58" break="no"/>bilem est respectu lucis ad dyaphanum, 
+            quemad<lb ed="#R" n="59" break="no"/>modum enim lux est perfectio dyaphani, sic 
+            intel<lb ed="#R" n="60" break="no"/>lectus agens est perfectio mentis. Et 
+            quemadmo<lb ed="#R" n="61" break="no"/>dum dyaphanum non mouetur a colore, nec 
+            reci<lb ed="#R" n="62" break="no"/>pit eum, nisi quando lucet: ita intellectus 
+            mate<lb ed="#R" n="63" break="no"/>rialis non recipit intellecta, nisi secundum, quod 
+            <lb ed="#R" n="64"/>perficitur per intellectum agentem, &amp; illuminatur 
+            <lb ed="#R" n="65"/>per ipsum. 
+          </p>
+          <p xml:id="paqqap-a28585-d1e1570">
+            <lb ed="#R" n="66"/>Praeterea idem patet ratione fundata in expe- 
+            <!--0092.xml-->
+            <cb ed="#R" n="b"/>
+            <lb ed="#R" n="67"/>rientia. Si enim intellectus possibilis non 
+            deter<lb ed="#R" n="68" break="no"/>minaretur ad certum eradum intellectionum, quas 
+            <lb ed="#R" n="69"/>recipit ab ipso intellectu agonte, &amp; ex groma sun 
+            <lb ed="#R" n="70"/>virtutis, tunc sequeretur, quod habens intenectum 
+            <lb ed="#R" n="71"/>vigorosiorem, &amp; magis luminatum, &amp; tlarum, non 
+            <lb ed="#R" n="72"/>clarius intelligeret, quam habens minus clarum; 
+            <lb ed="#R" n="73"/>euius oppositum docet experientia, &amp; habet 
+            com<lb ed="#R" n="74" break="no"/>munis conceptio hominum; consuenimus enim 
+            di<lb ed="#R" n="75" break="no"/>cere, quod iste melius intelligit, qui habet lumen 
+            <lb ed="#R" n="76"/>fortius, &amp; clariorem intellectum: sed constat, quod 
+            <lb ed="#R" n="77"/>lumen, &amp; claritas non attribuuntur formaliter, nisi 
+            <lb ed="#R" n="78"/>agenti, qui est habitus, vt lumen socundum 
+            Philo<lb ed="#R" n="79" break="no"/>sophum, nec intellectus possibilis ex se vllum 
+            ha<lb ed="#R" n="80" break="no"/>bet vigorem, alioquin deberemus distinguere duo 
+            <lb ed="#R" n="81"/>lumina, vnum intellectus possibilis, &amp; aliud 
+            agen<lb ed="#R" n="82" break="no"/>tis: igitur illud, quod prius. 
+          </p>
+          <p xml:id="paqqap-a28585-d1e1614">
+            <lb ed="#R" n="83"/>De septima actiuitate.
+          </p>
+          <p xml:id="paqqap-a28585-d1e1619">
+            <lb ed="#R" n="84"/>SEptima vero actiuitas est magis methaphysica, 
+            <lb ed="#R" n="85"/>&amp; intentionalis, quam propria, &amp; realis, &amp; 
+            <lb ed="#R" n="86"/>quod sequitur praecedentem, scilicet, quod lumen, 
+            <lb ed="#R" n="87"/>&amp; vigor intellectus agentis excedit, &amp; cooperatur 
+            <lb ed="#R" n="88"/>actui ad expraesionem obiecti, &amp; ita quod actus, &amp; 
+            <lb ed="#R" n="89"/>vigor agentis concurrunt ad perfectam 
+            expraemo<lb ed="#R" n="90" break="no"/>nem, sicut consuetum est dici, quod intellectus 
+            vi<lb ed="#R" n="91" break="no"/>det in lumine, &amp; sub lumine accidentis. hoc autem 
+            <lb ed="#R" n="92"/>primo patet quidem exemplo. Nam sicut est 
+            de<lb ed="#R" n="93" break="no"/>visione sensitiua, quae fit per oculum, &amp; ex 
+            conse<lb ed="#R" n="94" break="no"/>quenti ad oculi dyaphanum, sic est de visione 
+            spi<lb ed="#R" n="95" break="no"/>rituali, quae fit per intellectum, &amp; luce 
+            connatu<lb ed="#R" n="96" break="no"/>rali intellectus agentis ad ipsum possibilem 
+            intel<lb ed="#R" n="97" break="no"/>lectum. Et haec similitudo patet ex his, quae dicit 
+            <lb ed="#R" n="98"/>Commentator 3. de anima, comm. 17. Sed 
+            perspe<lb ed="#R" n="99" break="no"/>ctiuus dicit lumen connaturalem oculi visioni con 
+            <lb ed="#R" n="100"/>ferre, ita ipsa visio est obscurior, cum lux 
+            connatu<lb ed="#R" n="101" break="no"/>ralis est debilior, &amp; minus illustrans, &amp; perficiens 
+            <lb ed="#R" n="102"/>oculi dyaphanum, &amp; hoc patet in caligantibus 
+            o<lb ed="#R" n="103" break="no"/>culis: igitur lumen intellectus agentis concurrens 
+            <lb ed="#R" n="104"/>cum actu reddit totum perfectius, &amp; quanto lumen 
+            <lb ed="#R" n="105"/>est maius, tanto totum constitutum est clarius.
+          </p>
+          <p xml:id="paqqap-a28585-d1e1670">
+            <lb ed="#R" n="106"/>Et hoc confirmatur experientia, quia habens 
+            <lb ed="#R" n="107"/>clariorem intellectum clarius videt, ex hoc, quod 
+            <lb ed="#R" n="108"/>claritas intellectus admiscetur cum actu. Sicut 
+            <lb ed="#R" n="109"/>enim lux existens in dyaphano clarificat colorem, 
+            <lb ed="#R" n="110"/>quia recipitur, non quod intendat, sed quia totum 
+            <lb ed="#R" n="111"/>constitutum est clarius; sic &amp; vigor intellectus 
+            a<lb ed="#R" n="112" break="no"/>gentis clarificat intentiones receptas. 
+          </p>
+          <p xml:id="paqqap-a28585-d1e1688">
+            <lb ed="#R" n="113"/>Praeterea idem patet a priori: 
+            Quandocunque<lb ed="#R" n="114" break="no"/>enim aliqua duo concurrunt ad aliquod tertium, 
+            <lb ed="#R" n="115"/>intensio alterius istorum facit ad illud tertium 
+            aug<lb ed="#R" n="116" break="no"/>mentandum: sed ad expraessionem obiecti in esse 
+            <lb ed="#R" n="117"/>intentionali, non sufficit similitudo obiecti, quia 
+            <lb ed="#R" n="118"/>cum iste actus vitalis sit, necesse est, quod fiat 
+            vir<lb ed="#R" n="119" break="no"/>tute alicuius, quod est vita in actu, cuiusmodi est 
+            <lb ed="#R" n="120"/>intellectus agens, &amp; non possibilis. Non sufficit 
+            <lb ed="#R" n="121"/>etiam intellectus agens, cum sit indeterminatum, 
+            <lb ed="#R" n="122"/>&amp; indifferenter se habens ad esse obiectum, &amp; 
+            <lb ed="#R" n="123"/>per consequens ista tria simul concurrunt ad 
+            a<lb ed="#R" n="124" break="no"/>gens similitudo obiecti, &amp; possibilis ad vnam 
+            per<lb ed="#R" n="125" break="no"/>fectam expraessionem obiecti; quod enim habeat 
+            <lb ed="#R" n="126"/>esse intentionale fit virtute intellectus agentis, qui 
+            <lb ed="#R" n="127"/>est vita in actu; quod vero determinatum, &amp; tale 
+            <lb ed="#R" n="128"/>sit, virtute similitudinis. Igitur intensio luminis, 
+            <lb ed="#R" n="129"/>&amp; vigoris intellectus agentis, facit ad hoc, quod 
+            <lb ed="#R" n="130"/>totus actus intellectus, &amp; perfecte constitutus ex 
+            <lb ed="#R" n="131"/>illis tribus exprimat perfectiori modo obiectum. 
+          </p>
+          <p xml:id="paqqap-a28585-d1e1732">
+            <lb ed="#R" n="132"/>Praeterea: haec est mens <ref xml:id="paqqap-a28585-Rd1e1736">Augustini 12. de Trinit. 
+              <!--0093.xml-->
+              <pb ed="#P" n="93"/>
+              <cb ed="#R" n="a"/>
+              <lb ed="#R" n="1"/>cap. 15.</ref> cum ait, quod natura rationalis sic est 
+            con<lb ed="#R" n="2" break="no"/>dita, vt videat in quadam luce sui generis 
+            incorpo<lb ed="#R" n="3" break="no"/>rea cuncta intelligibilia, quemadmodum oculis 
+            <lb ed="#R" n="4"/>carnis videt, quae in hac corporea luce 
+            circumia<lb ed="#R" n="5" break="no"/>cent. Ex quo sic potest argui. Si solum 
+            intelle<lb ed="#R" n="6" break="no"/>ctus agens causaret intellectionem, &amp; non 
+            concur<lb ed="#R" n="7" break="no"/>reret ad obiecti expressionem, sequeretur, quod 
+            <lb ed="#R" n="8"/>intellectus non videret, quicquid videt in hac luce, 
+            <lb ed="#R" n="9"/>nec sub hac luce, sed potius ab hac luce, sicut non 
+            <lb ed="#R" n="10"/>dicimus, quod terra germinet in sole, sed magis a 
+            <lb ed="#R" n="11"/>sole: sed secundum Augustinum mens 
+            intellectua<lb ed="#R" n="12" break="no"/>lis videt in luce incorporea fiut oculus in luce cor 
+            <lb ed="#R" n="13"/>porea: ergo conceditur, vt lumen intellectus agen 
+            <lb ed="#R" n="14"/>tis, vt in ipso, &amp; sub ipso videatur, &amp; exprimatur 
+            <lb ed="#R" n="15"/>obiectum. 
+          </p>
+          <p xml:id="paqqap-a28585-d1e1778">
+            <lb ed="#R" n="16"/>Praeterea ad hoc est auctoritas <ref xml:id="paqqap-a28585-Rd1e1782">Commentatoris 
+              <lb ed="#R" n="17"/>3. de anima, comm. 49.</ref> dicit enim, quod intellectus 
+            <lb ed="#R" n="18"/>agens perficit intellecta speculatiua, quas vocat 
+            <lb ed="#R" n="19"/>intellectiones, &amp; est quasi forma in eis; &amp; 
+            conclu<lb ed="#R" n="20" break="no"/>dit, quod intellectus, qui est in nobis in actu, est 
+            <lb ed="#R" n="21"/>compositus necessario ex intellectis speculatiuis, &amp; 
+            <lb ed="#R" n="22"/>intellectu agente. 
+          </p>
+          <p xml:id="paqqap-a28585-d1e1799">
+            <lb ed="#R" n="23"/>Et si dicatur, quod intellectus agens non 
+            vide<lb ed="#R" n="24" break="no"/>tur concurrere per modum integrantis ad 
+            intelle<lb ed="#R" n="25" break="no"/>ctionem, quia secundum hoc intelligeret sicut 
+            pos<lb ed="#R" n="26" break="no"/>sibilis. Dicendum secundum veritatem, &amp; mentem 
+            <lb ed="#R" n="27"/>Augustini, &amp; Commentatoris, quod ad 
+            integrita<lb ed="#R" n="28" break="no"/>tem intellectionis concurrunt illa possibile per 
+            mo<lb ed="#R" n="29" break="no"/>dum recipientis, &amp; similitudo rei, quae est formalis 
+            <lb ed="#R" n="30"/>in actu per modum exprimentis obiectum, &amp; vigor 
+            <lb ed="#R" n="31"/>intellectus agentis per modum eius, in cuius 
+            virtu<lb ed="#R" n="32" break="no"/>te exprimitur, sicut particulare agens dicitur 
+            age<lb ed="#R" n="33" break="no"/>re in virtute agentis vniuersalis. 
+          </p>
+          <p xml:id="paqqap-a28585-d1e1825">
+            <lb ed="#R" n="34"/>Quod enim requiratur intellectus possibilis 
+            pa<lb ed="#R" n="35" break="no"/>tet, quia constat, quod Deus posset facere 
+            qualita<lb ed="#R" n="36" break="no"/>tem, quae est visio beatifica sine intellectu possibili, 
+            <lb ed="#R" n="37"/>&amp; tunc quaero, an illa qualitas esset perfecte visio, &amp; 
+            <lb ed="#R" n="38"/>comprehensio diuinae essentiae, aut non. Sed non 
+            <lb ed="#R" n="39"/>potest dari primum, quia tunc qualitas illa esset 
+            <lb ed="#R" n="40"/>perfecta visio, &amp; comprehensio diuinae essentiae. Si 
+            <lb ed="#R" n="41"/>non potest dari principium, quia tunc qualitas illa 
+            <lb ed="#R" n="42"/>esset perfecte beatitudo, &amp; per consequens esset 
+            <lb ed="#R" n="43"/>beata per essentiam. Sicut Augustinus dicit, quod 
+            <lb ed="#R" n="44"/>candor est candidus 7. de Trinit. cap. 9. Aliquid 
+            <lb ed="#R" n="45"/>autem esse beatum, quod non sit naturae intellectua 
+            <lb ed="#R" n="46"/>lis, &amp; imago Trinitatis, ac quaedam vita, erroneum 
+            <lb ed="#R" n="47"/>est: ergo necesse est dicere, quod illa qualitas non 
+            <lb ed="#R" n="48"/>est perfecte visio, &amp; compraehensio obiecti ab 
+            intel<lb ed="#R" n="49" break="no"/>lectu possibili separata. Et per consequens infra 
+            <lb ed="#R" n="50"/>complementum actus cogniti concluditur 
+            possi<lb ed="#R" n="51" break="no"/>bilis. 
+          </p>
+          <p xml:id="paqqap-a28585-d1e1868">
+            <lb ed="#R" n="52"/>Quod vero includatur agens, patet, quia 
+            impos<lb ed="#R" n="53" break="no"/>sibile est poni aliquam cognitionem, quin habeat 
+            <lb ed="#R" n="54"/>certam claritatem, &amp; vigorem, vnde vnus 
+            intelle<lb ed="#R" n="55" break="no"/>ctus alteri comparatus aut vigorosius, &amp; clarius 
+            <lb ed="#R" n="56"/>aut per minus clare, aut aequaliter, attingit 
+            obie<lb ed="#R" n="57" break="no"/>ctum, si vterque idem intelligat: quod non esset 
+            ve<lb ed="#R" n="58" break="no"/>rum, si intellectus cognitiuus non includeret 
+            clari<lb ed="#R" n="59" break="no"/>tatem intellectus agentis. Vnde sicut dyaphanum 
+            <lb ed="#R" n="60"/>oculi non recipit visionem, si careat luce 
+            connatu<lb ed="#R" n="61" break="no"/>rali, nec dyaphanum colores perficit; sic nec 
+            intel<lb ed="#R" n="62" break="no"/>lectus possibilis habet actum cognitiuum, quin 
+            ne<lb ed="#R" n="63" break="no"/>cessario immisceatur claritas agentis actui illi. 
+            <lb ed="#R" n="64"/>Quod intellectus agens, quantum ad istas actiones 
+            <lb ed="#R" n="65"/>potest in nobis per visum, &amp; exercitium augeri. Et 
+            <lb ed="#R" n="66"/>hoc patet auctoritate, &amp; experientia. Dicit enim 
+            <lb ed="#R" n="67"/>Apostol. ad Hebr. 5. quod perfectior est solidus 
+            ci<lb ed="#R" n="68" break="no"/>bus, qui pro ipsa consuetudine exercitatos habent 
+            <!--0093.xml-->
+            <cb ed="#R" n="b"/>
+            <lb ed="#R" n="69"/>sensus, ad discretionem boni, &amp; mali, Phylosophus 
+            <lb ed="#R" n="70"/>etiam dicit loquens de senioribus, quod propter 
+            <lb ed="#R" n="71"/>experientiam habent vsum; De iuuenibus autem 
+            <lb ed="#R" n="72"/>dicit, quod non fiet prius Philosophus, vel sapiens, 
+            <lb ed="#R" n="73"/>quia horum principia ex experientia fiunt &amp; 7. Eth. 
+            <lb ed="#R" n="74"/>ait, quod addiscentes a principio complectuntur 
+            <lb ed="#R" n="75"/>quidem sermonem, sciunt autem nequaquam, opor 
+            <lb ed="#R" n="76"/>tet enim connasci; hoc autem tempore indiget. 
+            <lb ed="#R" n="77"/>Commentator, autem in 3. de ani. com. 33. dicit, quod 
+            <lb ed="#R" n="78"/>vsus, &amp; exercitium sunt causa eius. Quod apparet 
+            <lb ed="#R" n="79"/>de potentia intellectus, quae est in nobis ad 
+            abstra<lb ed="#R" n="80" break="no"/>hendum, &amp; intellectus materialis ad recipiendum 
+            <lb ed="#R" n="81"/>sunt duae causae propter habitum existentem, quod 
+            <lb ed="#R" n="82"/>quanto homo plus proficit in studendo, tanto 
+            sub<lb ed="#R" n="83" break="no"/>tilius, &amp; amplius potest abstrahere, &amp; de 
+            ordine<lb ed="#R" n="84" break="no"/>in ordinem transferre, &amp; ex propositionibus 
+            cor<lb ed="#R" n="85" break="no"/>relationes deducere, &amp; quantum ad actum vltimum 
+            <lb ed="#R" n="86"/>experitur se clarius easdem res prius cognitas 
+            per<lb ed="#R" n="87" break="no"/>fectius, &amp; vigorosius exprimere, &amp; in prospectu 
+            <lb ed="#R" n="88"/>mentis habere.
+          </p>
+          <p xml:id="paqqap-a28585-d1e1955">
+            <lb ed="#R" n="89"/>Non potest dici, quod hoc proueniat ex 
+            parte<lb ed="#R" n="90" break="no"/>imaginis, &amp; non intellectus: Tum quia per hoc 
+            <lb ed="#R" n="91"/>probat Philosophus abstractiones intellectus, quod 
+            <lb ed="#R" n="92"/>post magnum intelligibile potentius est ad alia 
+            in<lb ed="#R" n="93" break="no"/>telligendum, cuius oppositum dicit de omni 
+            orga<lb ed="#R" n="94" break="no"/>nica potentia: Tum quia in quibus dominatur ima 
+            <lb ed="#R" n="95"/>ginatio tamquam fortis, &amp; vehemens, in illis 
+            mi<lb ed="#R" n="96" break="no"/>nus est de vigore, de quo nunc loquimur, immo 
+            <lb ed="#R" n="97"/>illi, qui maxime sunt abstractiui, &amp; clare 
+            cogno<lb ed="#R" n="98" break="no"/>scentes virtutem, minus habent imaginationem 
+            <lb ed="#R" n="99"/>intensam. Commentator etiam expraesse dicit 
+            pri<lb ed="#R" n="100" break="no"/>mo physic. comm. 5. quod in infantibus a 
+            princi<lb ed="#R" n="101" break="no"/>pio magis est debilis intellectus, deinde vigoratur, 
+            <lb ed="#R" n="102"/>dum discrepat patrem inter caeteros viros. Non 
+            <lb ed="#R" n="103"/>potest etiam dici, quod hoc sit ex parte intellectus 
+            <lb ed="#R" n="104"/>possibilis, scilicet vigoratiuus ad abstrahendum 
+            <lb ed="#R" n="105"/>&amp; deducendum conclusiones; tum quia vt saepe 
+            di<lb ed="#R" n="106" break="no"/>ctum dispositissimus est ad suscipiendam 
+            intentio<lb ed="#R" n="107" break="no"/>nes intellectas, cum sit pura potentia, sicut materia 
+            <lb ed="#R" n="108"/>prima: tum quia haec proueniunt ex maiori lumine 
+            <lb ed="#R" n="109"/>intellectus, &amp; actiuitate, &amp; vigore, quae nullo 
+            mo<lb ed="#R" n="110" break="no"/>do attribuuntur intellectui possibili, sed agenti. 
+            <lb ed="#R" n="111"/>Restat ergo, quod vigor intellectus agentis 
+            exi<lb ed="#R" n="112" break="no"/>stentis in nobis per vsum, &amp; exercitium 
+            inten<lb ed="#R" n="113" break="no"/>datur. 
+          </p>
+          <p xml:id="paqqap-a28585-d1e2012">
+            <lb ed="#R" n="114"/>Quod vigoratio intellectus necessario est, quod fiat 
+            <lb ed="#R" n="115"/>per aliquid positiuum immanens per 
+            <lb ed="#R" n="116"/>exercitium generatum.
+          </p>
+          <p xml:id="paqqap-a28585-d1e2021">
+            <lb ed="#R" n="117"/>QVarta propositio est, quod talis vigoratio 
+            ne<lb ed="#R" n="118" break="no"/>cesse est, quod fiat per aliquid positiuum 
+            im<lb ed="#R" n="119" break="no"/>manens ex huius exercitio generatum. Et hoc 
+            <lb ed="#R" n="120"/>satis patet, quia quod est productionis terminus, 
+            <lb ed="#R" n="121"/>oportet, quod sit aliquod positiuum: sed ex vsu, &amp; 
+            <lb ed="#R" n="122"/>frequentia actuum tale quiddam generatur, quod 
+            ab<lb ed="#R" n="123" break="no"/>euntibus actibus reddat intellectum potentiorem: 
+            <lb ed="#R" n="124"/>igitur est aliquid permanens positiuum. 
+            Impossi<lb ed="#R" n="125" break="no"/>bile est enim, quod aliquid transeat de 
+            contradi<lb ed="#R" n="126" break="no"/>ctorio in contradictorium, de non potente in 
+            po<lb ed="#R" n="127" break="no"/>tens, nisi per aliquod positiuum, quia ab eo 
+            reali<lb ed="#R" n="128" break="no"/>ter separatur, cum a principio, vt videmus insit, &amp; 
+            <lb ed="#R" n="129"/>tamen illud non statin a principio adest. 
+          </p>
+          <p xml:id="paqqap-a28585-d1e2052">
+            <lb ed="#R" n="130"/>Secundum, quia est alterius rationis ab 
+            intelle<lb ed="#R" n="131" break="no"/>ctu, tum quia si esset eiusdem rationis, intenderet 
+            <lb ed="#R" n="132"/>potentiam intrinsece: potentia autem non 
+            inten<lb ed="#R" n="133" break="no"/>ditur, nec remittitur in essentia sua; tum quia vnus 
+            <lb ed="#R" n="134"/>est intellectus respeciu omnium obiectorum, &amp; ta- 
+            <!--0094.xml-->
+            <pb ed="#P" n="94"/>
+            <cb ed="#R" n="a"/>
+            <lb ed="#R" n="1"/>men ista respectu diuersorum diuersa sunt; habent 
+            <lb ed="#R" n="2"/>enim aliqui intellectum valde potentem in vna 
+            <lb ed="#R" n="3"/>materia, &amp; tamen non in alia. 
+          </p>
+          <p xml:id="paqqap-a28585-d1e2078">
+            <lb ed="#R" n="4"/>Tertium est, quod illud tale potest dici lumen 
+            <lb ed="#R" n="5"/>quia aliquam causalitatem habet respectu 
+            manife<lb ed="#R" n="6" break="no"/>stationis, &amp; notitiae, sicut dictum est. 
+          </p>
+          <p xml:id="paqqap-a28585-d1e2088">
+            <lb ed="#R" n="7"/>Quartum, quia illud tale potest nominari 
+            vir<lb ed="#R" n="8" break="no"/>tus intellectus, seu habitus, quia disponit 
+            intelle<lb ed="#R" n="9" break="no"/>ctum ad optimum, &amp; eius actum reddit bonum 
+            <lb ed="#R" n="10"/>quid virtuti, vt patet 7. physic. &amp; secundo, ac 
+            sex<lb ed="#R" n="11" break="no"/>to ethic. 
+          </p>
+          <p xml:id="paqqap-a28585-d1e2101">
+            <lb ed="#R" n="12"/>Quintum, quod huiusmodi habitus dici potest 
+            <lb ed="#R" n="13"/>eleuans, &amp; quodammodo confortans, &amp; in esse 
+            prae<lb ed="#R" n="14" break="no"/>sentatiuo constituens, inquantum intellectus 
+            ante<lb ed="#R" n="15" break="no"/>huius vigorem per consuetudinem, &amp; exercitium 
+            <lb ed="#R" n="16"/>acquisitum (sicut probatum est) non poterat in 
+            ali<lb ed="#R" n="17" break="no"/>qua, in qua postinodum potest, vt experientia 
+            do<lb ed="#R" n="18" break="no"/>cet, &amp; ex auctoritatibus patuit.
+          </p>
+          <p xml:id="paqqap-a28585-d1e2119">
+            <lb ed="#R" n="19"/>Sextum est, quod illa res talis est qualitas &amp; ha 
+            <lb ed="#R" n="20"/>bitus, vt lumen proportionalis intellectus agenti in 
+            <lb ed="#R" n="21"/>genere intelligibilium. Sicut enim lux corporea 
+            <lb ed="#R" n="22"/>est quaedam res, quae actiue facit ad notitiam 
+            sensi<lb ed="#R" n="23" break="no"/>tiuam, &amp; manifestationem, &amp; ideo appellatur 
+            lu<lb ed="#R" n="24" break="no"/>men, ita, quod hoc facit ad notitiam intellectiuam, 
+            <lb ed="#R" n="25"/>dicetur lumen incorporeum, &amp; intellectuale.
+          </p>
+          <p xml:id="paqqap-a28585-d1e2137">
+            <lb ed="#R" n="26"/>Septimum est, quod est obiectiue in intellectu 
+            <lb ed="#R" n="27"/>possibili, &amp; non in agente, qui est substantia actu 
+            <lb ed="#R" n="28"/>ens, nihilominus agens dicitur vigorari, sicut 
+            lu<lb ed="#R" n="29" break="no"/>mina existentia in eodem dyaphano vnam 
+            lumino<lb ed="#R" n="30" break="no"/>sitatem vigorosiorem constituunt, &amp; similiter lux, 
+            <lb ed="#R" n="31"/>&amp; color, quamuis vnum lumen non sit subiectiue 
+            <lb ed="#R" n="32"/>in altero, sed ambo in dyaphano. 
+          </p>
+          <p xml:id="paqqap-a28585-d1e2155">
+            <lb ed="#R" n="33"/>Et si quaeratur, ad quam veritatem conueniunt 
+            <lb ed="#R" n="34"/>intellectus agens, &amp; haec realitas, aut etiam duo 
+            <lb ed="#R" n="35"/>lumina in dyaphano: dicendum, quod ad veritatem 
+            <lb ed="#R" n="36"/>ho mogeneitatis, non quia sint eiusdem generis, 
+            <lb ed="#R" n="37"/>sed quia sunt eiusdem rationis saltem secundum 
+            <lb ed="#R" n="38"/>proportionem. haec autem homogeneitas non est 
+            <lb ed="#R" n="39"/>vera vnitas contingentis, qualis est in forma 
+            inten<lb ed="#R" n="40" break="no"/>sa, vtpote in albedine, dum intenditur; immo stat 
+            <lb ed="#R" n="41"/>cum discretione quiddita iua, vt Dyonis. dicit in 
+            <lb ed="#R" n="42"/>lib. de diuinis nominibus. 
+          </p>
+        </div>
+        <div xml:id="paqqap-a28585-Dd1e2180">
+          <head xml:id="paqqap-a28585-Hd1e2182">Articulus 3</head>
+          <p xml:id="paqqap-a28585-d1e2184">
+            <lb ed="#R" n="43"/>ARTJCVLVS III. 
+            <lb ed="#R" n="44"/>An lumen diuinae essentiae cooperetur in visionem 
+            <lb ed="#R" n="45"/>contra opinionem dicentium, quod requiritur, 
+            <lb ed="#R" n="46"/>quod intellectus agens cooperetur ad 
+            <lb ed="#R" n="47"/>causandum visionem 
+            <lb ed="#R" n="48"/>beatificam. 
+          </p>
+          <p xml:id="paqqap-a28585-d1e2200">
+            <lb ed="#R" n="49"/>CIrca tertium vero ponendae sunt tres 
+            proposi<lb ed="#R" n="50" break="no"/>tiones. 
+          </p>
+          <p xml:id="paqqap-a28585-d1e2207">
+            <lb ed="#R" n="51"/>Prima quidem, quod non exigitur lumem ad hoc, 
+            <lb ed="#R" n="52"/>vt illo mediante intellectus agens cooperetur 
+            di<lb ed="#R" n="53" break="no"/>uinae essentiae in causando beatificam visionem, vt 
+            <lb ed="#R" n="54"/>opinio quaedam dicit: Quia illud, quod est 
+            intelle<lb ed="#R" n="55" break="no"/>cium in actu, &amp; nullo modo intelligibile in 
+            poten<lb ed="#R" n="56" break="no"/>tie, potest de se sufficienter causare intellectionem 
+            <lb ed="#R" n="57"/>in intellectu absque hoc, quod aliquid sibi 
+            coope<lb ed="#R" n="58" break="no"/>retur. Propter hoc enim ponitur agens cooperari 
+            <lb ed="#R" n="59"/>phantasmati, quia phantasma est intelligibile in po 
+            <lb ed="#R" n="60"/>tentia, &amp; non intelligibile in actu. Vnde 
+            Commen<lb ed="#R" n="61" break="no"/>tator 3. de anima, comm. 38. dicit, quod si 
+            vniuer<lb ed="#R" n="62" break="no"/>salia essent extra animam, sicut posuit Plato, non 
+            in<lb ed="#R" n="63" break="no"/>digeremus intellectu agente, neq; esset aliqua neces 
+            <lb ed="#R" n="64"/>sitas in ponendo ipsum. Videmus etiam, quod ca- 
+            <!--0094.xml-->
+            <cb ed="#R" n="b"/>
+            <lb ed="#R" n="65"/>lidum in actu potest generare calorem absque 
+            ali<lb ed="#R" n="66" break="no"/>quo coagente, &amp; sensibile sensationem: sed 
+            con<lb ed="#R" n="67" break="no"/>stat, quod Deus non est intelligibile in potentia3. 
+            <lb ed="#R" n="68"/>immo est intelligibilis summe in actu: ergo potest 
+            <lb ed="#R" n="69"/>sui intellectionem causare in potentia, absque 
+            hoc<lb ed="#R" n="70" break="no"/>quod cooperetur sibi intellectus agens. 
+          </p>
+          <p xml:id="paqqap-a28585-d1e2257">
+            <lb ed="#R" n="71"/>Praeterea: Actio intellectus agentis est principalis, 
+            <lb ed="#R" n="72"/>phantasmatis autem instrumentalis: aut igitur 
+            in<lb ed="#R" n="73" break="no"/>visione beatifica agens intellectus est principalis, &amp;. 
+            <lb ed="#R" n="74"/>essentia minus principalis, seu instrumentalis; aut 
+            <lb ed="#R" n="75"/>e conuerso. 
+          </p>
+          <p xml:id="paqqap-a28585-d1e2271">
+            <lb ed="#R" n="76"/>Sed non potest dici primum, quia tunc homo ex 
+            <lb ed="#R" n="77"/>puris naturalibus principaliter beatificaretur. Nec 
+            <lb ed="#R" n="78"/>potest dari secundum, quia tunc variaretur 
+            actiui<lb ed="#R" n="79" break="no"/>tas agentis, &amp; fieret de agente principali agens 
+            in<lb ed="#R" n="80" break="no"/>strumentale: igitur nullo modo causat visionem 
+            <lb ed="#R" n="81"/>beatificam.
+          </p>
+          <p xml:id="paqqap-a28585-d1e2287">
+            <lb ed="#R" n="82"/>Praeterea: Jllud, quod habet mere, &amp; totaliter 
+            ra<lb ed="#R" n="83" break="no"/>tionem redditi pro merito, debet esse totaliter 
+            ef<lb ed="#R" n="84" break="no"/>fectiue a praemiante, &amp; nullo modo praemium 
+            reci<lb ed="#R" n="85" break="no"/>pienti; vel si detur oppositum, non habebit ex toto 
+            <lb ed="#R" n="86"/>rationem praemij, sed partialiter tantum: sed 
+            con<lb ed="#R" n="87" break="no"/>stat, quod visio beatifica est totaliter merces, &amp; 
+            <lb ed="#R" n="88"/>praemium, quod pro praemio redditur: ergo ex 
+            to<lb ed="#R" n="89" break="no"/>to est a Deo praemiante.
+          </p>
+          <p xml:id="paqqap-a28585-d1e2307">
+            <lb ed="#R" n="90"/>Et confirmatur per illud Philosophi 10. ethic. Si 
+            <lb ed="#R" n="91"/>aliquod est donum donorum hominibus rationale 
+            <lb ed="#R" n="92"/>&amp; felicitatem Dei datum esse maxime humanorum 
+            <lb ed="#R" n="93"/>quanto optimum.
+          </p>
+          <p xml:id="paqqap-a28585-d1e2318">
+            <lb ed="#R" n="94"/>Praeterea: Jllud, quod habet summum, &amp; infimum 
+            <lb ed="#R" n="95"/>in virtute, videtur habere quodlibet medium: sed 
+            <lb ed="#R" n="96"/>constat, quod intellectus agens habet in virtute 
+            in<lb ed="#R" n="97" break="no"/>tellectiones rerum materialium, quae sunt infimae: 
+            <lb ed="#R" n="98"/>ergo si habet in virtute visionem beatificam, quae 
+            <lb ed="#R" n="99"/>summa est inter intellectiones, sequitur, quod 
+            ha<lb ed="#R" n="100" break="no"/>bebit in virtute omnes intellectiones omnium crea 
+            <lb ed="#R" n="101"/>turarum possibilium, dato, quod sint infinitae 
+            pos<lb ed="#R" n="102" break="no"/>sibiles secundum opinionem multorum, &amp; 
+            secun<lb ed="#R" n="103" break="no"/>dum hoc erit infinitas in virtute. 
+          </p>
+          <p xml:id="paqqap-a28585-d1e2342">
+            <lb ed="#R" n="104"/>Praeterea: Quandocunque in aliquo genere 
+            inue<lb ed="#R" n="105" break="no"/>nitur aliquid ignobilius excedens facultatem natu 
+            <lb ed="#R" n="106"/>rae videtur, quod nobilissimum in illo genere multo 
+            <lb ed="#R" n="107"/>fortius excedit: sed inter ea, quae spectant ad 
+            in<lb ed="#R" n="108" break="no"/>tellectum, reperiuntur quaedam, quae naturam 
+            exce<lb ed="#R" n="109" break="no"/>dunt, nec sunt in virtute intellectus agentis aliquo 
+            <lb ed="#R" n="110"/>modo, vt donum fidei, vel habitus, &amp; sapientiae, &amp; 
+            <lb ed="#R" n="111"/>intellectus, constat autem, quod ista ignobiliora 
+            <lb ed="#R" n="112"/>sunt, quam actus visionis beatae: igitur visio 
+            bea<lb ed="#R" n="113" break="no"/>tifica nullo modo continetur in virtute intellectus
+            <lb ed="#R" n="114"/>
+            <!-- line coord order error -->agentis. 
+          </p>
+          <p xml:id="paqqap-a28585-d1e2370">
+            <lb ed="#R" n="115"/>Quod intellectus agens nullum habet de alijs 
+            <lb ed="#R" n="116"/>quatuor attingentibus in visione 
+            <lb ed="#R" n="117"/>beata 
+          </p>
+          <p xml:id="paqqap-a28585-d1e2380">
+            <lb ed="#R" n="118"/>SEcunda vero propositio est, quod nec habet 
+            a<lb ed="#R" n="119" break="no"/>lias quatuor actiuitates intellectus agens; In 
+            <lb ed="#R" n="120"/>prima. Quod patet, quia secundam non habet 
+            scili<lb ed="#R" n="121" break="no"/>cet, quod transferat de ordine in ordinem faciendo 
+            <lb ed="#R" n="122"/>de intelligibile in actu, quod erat irradiare 
+            phan<lb ed="#R" n="123" break="no"/>ta sma, quia consat, quod Deus non videtur 
+            in<lb ed="#R" n="124" break="no"/>phantasmate, &amp; est summe intelligibile in actu, &amp; 
+            <lb ed="#R" n="125"/>est in actu de ordine entium abstractorum. 
+          </p>
+          <p xml:id="paqqap-a28585-d1e2400">
+            <lb ed="#R" n="126"/>Tertiam vero actiuitatem, &amp; quartam, videlicet 
+            <lb ed="#R" n="127"/>formare propositiones pasiiuas ex terminis, aut 
+            <lb ed="#R" n="128"/>conclusiones ex propositionibus primis non habet 
+            <lb ed="#R" n="129"/>intellectus agens in illa visione, quia secundum <ref xml:id="paqqap-a28585-Rd1e2410">
+              Au<lb ed="#R" n="130" break="no"/>guitinum 15. de Trinit. cap. 16.</ref> in illa visione non- 
+            <!--0095.xml-->
+            <pb ed="#P" n="95"/>
+            <cb ed="#R" n="a"/>
+            <lb ed="#R" n="1"/>erunt volubiles nostrae cogitationes ab alijs in alia 
+            <lb ed="#R" n="2"/>euntes, atque redeuntes. Sed omnem nostram 
+            <lb ed="#R" n="3"/>scientiam simul vno aspectu videbimus, vnde 
+            con<lb ed="#R" n="4" break="no"/>stat, quod actus visionis actiuae est vnicus simplex, 
+            <lb ed="#R" n="5"/>&amp; permansiuus. Vbi autem est operatio intellectus 
+            <lb ed="#R" n="6"/>agentis ad formationem principiorum ex 
+            termi<lb ed="#R" n="7" break="no"/>uis, &amp; conclusionum ex principijs oportet esse 
+            di<lb ed="#R" n="8" break="no"/>uersos actus. 
+          </p>
+          <p xml:id="paqqap-a28585-d1e2440">
+            <lb ed="#R" n="9"/>Quinta etiam non habet formare, videlicet 
+            pro<lb ed="#R" n="10" break="no"/>positiones falsas, &amp; neutras, cum ibi sit nullus 
+            er<lb ed="#R" n="11" break="no"/>ror, quia secundum Augustinum beatitudo est 
+            gau<lb ed="#R" n="12" break="no"/>dium de veritate.
+          </p>
+          <p xml:id="paqqap-a28585-d1e2451">
+            <lb ed="#R" n="13"/>Quod sexta, &amp; septima actiuitas intellectus 
+            <lb ed="#R" n="14"/>habet locum in visione beata. 
+          </p>
+          <p xml:id="paqqap-a28585-d1e2458">
+            <lb ed="#R" n="15"/>TErtia vero propositio est, quod sexta, &amp; 
+            fepti<lb ed="#R" n="16" break="no"/>ma actiuitas intellectus agentis habet locum 
+            <lb ed="#R" n="17"/>in prima respectu possibilis intellectus, &amp; respectu 
+            <lb ed="#R" n="18"/>visionis beatae, &amp; hoc apparet. 
+          </p>
+          <p xml:id="paqqap-a28585-d1e2469">
+            <lb ed="#R" n="19"/>Primo quidem simul de ambabus, &amp; secundum 
+            <lb ed="#R" n="20"/>Philosophum 1. &amp; 10. ethic. Felicitas consistit in 
+            <lb ed="#R" n="21"/>optima operatione, optimae potentiae, &amp; per 
+            conse<lb ed="#R" n="22" break="no"/>quens ad actum beatificum concurrit actus 
+            perfe<lb ed="#R" n="23" break="no"/>ctior potentiae perfectioris. Sed constat, quod 
+            in<lb ed="#R" n="24" break="no"/>tellectus agens praestantior est, &amp; nobilior, quam 
+            <lb ed="#R" n="25"/>intellectus possibilis. 
+          </p>
+          <p xml:id="paqqap-a28585-d1e2488">
+            <lb ed="#R" n="26"/>Primae autem quinque oppositiones supponunt 
+            <lb ed="#R" n="27"/>imperfectionem, quia quod obiectum sit 
+            materia<lb ed="#R" n="28" break="no"/>le, &amp; intelligibile in potentia, &amp; quod videatur in 
+            <lb ed="#R" n="29"/>phantasmate, &amp; quod intellectus discurrat, &amp; 
+            ha<lb ed="#R" n="30" break="no"/>beat cogitationes volubiles, &amp; per consequens 
+            <lb ed="#R" n="31"/>omnes illae operationes sunt in fieri, &amp; in via, istae 
+            <lb ed="#R" n="32"/>autem duae sunt in facto esse, determinare scilicet, 
+            <lb ed="#R" n="33"/>intellecum possibilem ad susceptionem intellectio 
+            <lb ed="#R" n="34"/>nis in gradu certo specifico, &amp; naturali, &amp; 
+            concur<lb ed="#R" n="35" break="no"/>rere ad actum cognitum per modum cuiusdam 
+            <lb ed="#R" n="36"/>integrantis, &amp; perficientis ipsum eo modo, quo 
+            su<lb ed="#R" n="37" break="no"/>pra declaratum est. Igitur intellectus agens secun 
+            <lb ed="#R" n="38"/>dum hos duos modos actiuitatis concurrit ad actum 
+            <lb ed="#R" n="39"/>bearificum.
+          </p>
+          <p xml:id="paqqap-a28585-d1e2521">
+            <lb ed="#R" n="40"/>Secundo: Idem patet in spirituali de b, 
+            actiui<lb ed="#R" n="41" break="no"/>tate, quia sicut se habet, dyaphanum oculi ad lucem 
+            <lb ed="#R" n="42"/>connaturalem, &amp; prima materia ad formam 
+            sub<lb ed="#R" n="43" break="no"/>stantialem, sic se habet, intellectus possibilis ad cla 
+            <lb ed="#R" n="44"/>ritatem naturalem, quae non est aliud, quam 
+            reali<lb ed="#R" n="45" break="no"/>tas intellectus agentis, qui solus lumen est, &amp; 
+            vi<lb ed="#R" n="46" break="no"/>gor, &amp; claritas animae nostrae alioquin essent plura 
+            <lb ed="#R" n="47"/>lumina, &amp; plura agentia, vt in superioribus est 
+            de<lb ed="#R" n="48" break="no"/>ductum. Sed dyaphanum oculi, si priuetur luce 
+            <lb ed="#R" n="49"/>connaturali, nullo modo potest recipere visionem, 
+            <lb ed="#R" n="50"/>sicut patet in habentibus oculos caligantes. 
+            Simi<lb ed="#R" n="51" break="no"/>liter &amp; materia prima non recipit formas 
+            acciden<lb ed="#R" n="52" break="no"/>tales, nisi prius perficiatur per formam 
+            substantia<lb ed="#R" n="53" break="no"/>lem: ergo nec intellectus possibilis potest recipere 
+            <lb ed="#R" n="54"/>aliquam visionem etiam beatam in prima, nisi 
+            qute<lb ed="#R" n="55" break="no"/>nus perficitur per agentem. Vnde si careret anima 
+            <lb ed="#R" n="56"/>claritate, &amp; lumine intellectus agentis possibilis 
+            <lb ed="#R" n="57"/>caligaret, vt non posset recipere visionem, sicut nec 
+            <lb ed="#R" n="58"/>dyaphanum recipit colores, nisi perficiatur per lucem. 
+          </p>
+          <p xml:id="paqqap-a28585-d1e2565">
+            <lb ed="#R" n="59"/>Secundo vero patet idem de septima actiuitate, 
+            <lb ed="#R" n="60"/>quia quando aliquid est de integritate, &amp; 
+            constitu<lb ed="#R" n="61" break="no"/>tione cuiuslibet speciei, siue indiuidui sub illo 
+            ge<lb ed="#R" n="62" break="no"/>nere, &amp; hoc patet ex 12. meth. quia si a, in 
+            vniuer<lb ed="#R" n="63" break="no"/>sali constituit b, &amp; hoc a; in particulari erit 
+            princi<lb ed="#R" n="64" break="no"/>pium huius b. Sed probatum est supra ex dicto 
+            <lb ed="#R" n="65"/>Augustini, &amp; Commentatoris, in 3. de aninia, quod 
+            <lb ed="#R" n="66"/>intellectus agens concurrit, &amp; integrat perfectum 
+            <!--0095.xml-->
+            <cb ed="#R" n="b"/>
+            <lb ed="#R" n="67"/>actum intellectus. Nam Augustinus dicit, quod 
+            <lb ed="#R" n="68"/>in luce illa incorporea videmus. Et 
+            Commenta<lb ed="#R" n="69" break="no"/>tor, quod intellectus, qui est in nobis est 
+            composi<lb ed="#R" n="70" break="no"/>tus ex intellectu agente. &amp; intellectis speculatiuis, 
+            <lb ed="#R" n="71"/>&amp; intentionibus quibus speculamur: ergo nulla 
+            <lb ed="#R" n="72"/>est intellectio etiam visio beata, in qua non 
+            ingre<lb ed="#R" n="73" break="no"/>diatur claritas intellectus agentis per modum con 
+            <lb ed="#R" n="74"/>currentis, &amp; integrantis.
+          </p>
+          <p xml:id="paqqap-a28585-d1e2607">
+            <lb ed="#R" n="75"/>Circa quartum an scilicet vltra intellectum 
+            pos<lb ed="#R" n="76" break="no"/>sibilem receptiuum, &amp; intellectum agentem, &amp; 
+            a<lb ed="#R" n="77" break="no"/>cum visionis, quod est quoddam lumen 
+            inattin<lb ed="#R" n="78" break="no"/>gibile ex puris naturalibus, &amp; per consequens 
+            ele<lb ed="#R" n="79" break="no"/>uans potentiam ad obiectum, pono aliquas 
+            pro<lb ed="#R" n="80" break="no"/>positiones. 
+          </p>
+          <p xml:id="paqqap-a28585-d1e2623">
+            <lb ed="#R" n="81"/>Prima quidem, quod non exigitur, vt necessitas 
+            <lb ed="#R" n="82"/>Deum videndi ex puris naturalibus euiretur, sicut 
+            <lb ed="#R" n="83"/>ponit quaedam opinio, quae posita est supra, &amp; 
+            ra<lb ed="#R" n="84" break="no"/>tio eius motiua. 
+          </p>
+          <p xml:id="paqqap-a28585-d1e2634">
+            <lb ed="#R" n="85"/>Hanc autem propositionem probo assumendo, 
+            <lb ed="#R" n="86"/>quod diuina essentia, quantumcumque praesens 
+            in<lb ed="#R" n="87" break="no"/>tellectui vltimate disposito, vel ex puris 
+            naturali<lb ed="#R" n="88" break="no"/>bus, vel per habitum quemcumque adhuc non 
+            ne<lb ed="#R" n="89" break="no"/>cessario causat visionem in illum intellectum: Nihil 
+            <lb ed="#R" n="90"/>enim perfectionis competit alicui obiecto 
+            intelli<lb ed="#R" n="91" break="no"/>gibili, quod diuinae essentiae debeat denegari. Sed 
+            <lb ed="#R" n="92"/>secundum doctrinam Scripturae &amp; Sanctorum, &amp; co 
+            <lb ed="#R" n="93"/>gitationes cordis quantumcumque praesentes 
+            rea<lb ed="#R" n="94" break="no"/>liter intellectui alicuius angeli vltimate disposito. 
+            <lb ed="#R" n="95"/>&amp; cognoscere potenti, non tamen necessario mouent 
+            <lb ed="#R" n="96"/>intellectum illum, immo subsunt voluntati cogitan 
+            <lb ed="#R" n="97"/>tis. Vnde dicit Gregorius in moral. quod angeli 
+            <lb ed="#R" n="98"/>celant conceptus suos alteri angelo sola voluntate 
+            <lb ed="#R" n="99"/>suspendente impressionem, quam cogitatio 
+            face<lb ed="#R" n="100" break="no"/>ret, Per quod patet, quod cogitationes non de 
+            <lb ed="#R" n="101"/>necessitate mouent intellectum, sed ex imperio 
+            vo<lb ed="#R" n="102" break="no"/>luntatis. Igitur, &amp; Deus sua voluntate poterit 
+            ce<lb ed="#R" n="103" break="no"/>lare suam essentiam intellectui, quantumcumque 
+            <lb ed="#R" n="104"/>disposito, vel ex naturalibus, vel per habitum, cum 
+            <lb ed="#R" n="105"/>sit perfectionis libere mouere, vel non mouere. 
+          </p>
+          <p xml:id="paqqap-a28585-d1e2683">
+            <lb ed="#R" n="106"/>Praeterea: Quicquid agit ad extra, contingenter 
+            <lb ed="#R" n="107"/>agit, &amp; libere, nec necessitatur ex aliqua 
+            dispositio<lb ed="#R" n="108" break="no"/>ne existente in passo; nullus enim diceret, quod 
+            <lb ed="#R" n="109"/>Deus necessitetur ad infundendum animam 
+            vlti<lb ed="#R" n="110" break="no"/>mate disposito ipso corpore. Et confirmatur, quia 
+            <lb ed="#R" n="111"/>nulla natura profuit necessario a Deo: sed visio 
+            <lb ed="#R" n="112"/>beatifica est quaedam creatura, &amp; eius productio 
+            <lb ed="#R" n="113"/>est actio ad extra: Igitur quacumque dispositione 
+            <lb ed="#R" n="114"/>quantumcumque vltimate existente in anima, diui 
+            <lb ed="#R" n="115"/>na essentia contingenter poterit causare, vel non 
+            <lb ed="#R" n="116"/>causare sui visionem. 
+          </p>
+          <p xml:id="paqqap-a28585-d1e2709">
+            <lb ed="#R" n="117"/>Praeterea: Deus potest facere, quicquid non 
+            im<lb ed="#R" n="118" break="no"/>plicat condictionem per suam omnipotentem 
+            vo<lb ed="#R" n="119" break="no"/>luntatem: sed lumen existere in anima, aut animam 
+            <lb ed="#R" n="120"/>esse vltimate dispositam ad visionem, visionem 
+            au<lb ed="#R" n="121" break="no"/>tem in illa non existere, nullam implicat 
+            contra<lb ed="#R" n="122" break="no"/>dictionem, cum sint duae formae abstractae, nec etiam 
+            <lb ed="#R" n="123"/>Deum esse praesentem realiter intellectui vltimate 
+            <lb ed="#R" n="124"/>disposito, &amp; tamen non esse praesentem per actualem 
+            <lb ed="#R" n="125"/>cognitionem, nullam implicat contradictionem. 
+            <lb ed="#R" n="126"/>Igitur Deus hoc poterit facere. 
+          </p>
+          <p xml:id="paqqap-a28585-d1e2733">
+            <lb ed="#R" n="127"/>Ad motiuum autem supra positum dicendum. 
+            <lb ed="#R" n="128"/>quod illa propositio: Agens perfectum intime 
+            prae<lb ed="#R" n="129" break="no"/>sens passo vltimate disposito, de necessitate 
+            indu<lb ed="#R" n="130" break="no"/>cit effectum; veritatem habet in potentijs 
+            natura<lb ed="#R" n="131" break="no"/>libus, non autem in rationalibus, immo ad hoc 
+            exi<lb ed="#R" n="132" break="no"/>gitur determinatio voluntatis, vt patet ex 9. meth. 
+            <lb ed="#R" n="133"/>nunc autem circa diuina non causat Dei visionem 
+            <lb ed="#R" n="134"/>necessitate naturae, sed mere contingenter, quia 
+            <!--0096.xml-->
+            <pb ed="#P" n="96"/>
+            <cb ed="#R" n="a"/>
+            <lb ed="#R" n="1"/>cuiuscumque ad extra Deus est principium, &amp; 
+            cau<lb ed="#R" n="2" break="no"/>sa, hoc est per suam voluntatem, quae libera est, &amp; 
+            <lb ed="#R" n="3"/>contingens, iuxta illud prophetae: Omnia quaecun 
+            <lb ed="#R" n="4"/>que voluit, Deus fecit. Et cum additur, quod 
+            vir<lb ed="#R" n="5" break="no"/>tus diuina praeuenit voluntatem in mouendo 
+            intel<lb ed="#R" n="6" break="no"/>lectum, dicendum est, quod non est verum, primae 
+            <lb ed="#R" n="7"/>ad Thim. 6. immo propter hoc dicitur lucem 
+            habi<lb ed="#R" n="8" break="no"/>tare inaccessibilem, quia ex solo dono eius, &amp; ex 
+            <lb ed="#R" n="9"/>sola voluntate ad eum acceditur, &amp; nulla alia 
+            vir<lb ed="#R" n="10" break="no"/>tute creata. 
+          </p>
+          <p xml:id="paqqap-a28585-d1e2781">
+            <lb ed="#R" n="11"/>Vnde omni creatura posita in intellectu, &amp; 
+            om<lb ed="#R" n="12" break="no"/>ni habitu, adhuc non posset accedi ad eum, nisi 
+            ip<lb ed="#R" n="13" break="no"/>se vellet, &amp; sic exponit glosa in eodem loco, quae 
+            <lb ed="#R" n="14"/>sumitur ab August. lib. de videndo Deum ad 
+            Pau<lb ed="#R" n="15" break="no"/>linam. 
+          </p>
+          <p xml:id="paqqap-a28585-d1e2794">
+            <lb ed="#R" n="16"/>Cum vero additur, quod obiectum intellectus, 
+            <lb ed="#R" n="17"/>&amp; agens perfectum obiectum necessario monet: 
+            di<lb ed="#R" n="18" break="no"/>cendum, quod verum est de obiectis aliquibus, 
+            ali<lb ed="#R" n="19" break="no"/>qua vero mouent contingenter, &amp; subsunt 
+            volunta<lb ed="#R" n="20" break="no"/>ti, sicut patet de cogitationibus occultis secundum 
+            <lb ed="#R" n="21"/>Greg. &amp; scripturam, &amp; multo fortius diuina volun 
+            <lb ed="#R" n="22"/>tas, quae inaccessibilis est, habet istam 
+            conditio<lb ed="#R" n="23" break="no"/>nem 
+          </p>
+          <p xml:id="paqqap-a28585-d1e2814">
+            <lb ed="#R" n="24"/>Contra opinionem Thomae prima parte.\
+          </p>
+          <p xml:id="paqqap-a28585-d1e2820">
+            <lb ed="#R" n="25"/>SEcunda vero propositio est, quod non exigitur 
+            <lb ed="#R" n="26"/>habitus ad vigorandum intellectum possibilem, 
+            <lb ed="#R" n="27"/>vt suscipiat beatificam visionem, aut ad ipsum 
+            ele<lb ed="#R" n="28" break="no"/>uandum, aut ponendum in esse potestatiuo, vt 
+            pos<lb ed="#R" n="29" break="no"/>sit suscipere, contra opinionem primam superius 
+            <lb ed="#R" n="30"/>recitatam. Et hoc quidem patet, quia illud non 
+            in<lb ed="#R" n="31" break="no"/>diget vigoratione respectu alicuius obiecti, quod 
+            <lb ed="#R" n="32"/>ab illo obiecto passione obiectiua, non patitur, pro 
+            <lb ed="#R" n="33"/>pter hoc enim oculus noctuae indiget vigoratione 
+            <lb ed="#R" n="34"/>si deberet aspicere solem, quia obrueretur, &amp; 
+            ali<lb ed="#R" n="35" break="no"/>quid obijceretur a substantia eius ratione suae 
+            ma<lb ed="#R" n="36" break="no"/>terialitatis, &amp; passibilitatis: sed constat, quod 
+            in<lb ed="#R" n="37" break="no"/>tellectus possibilis non patitur passione obiectiua, 
+            <lb ed="#R" n="38"/>cum sit immaterialis ab obiecto quocumq. etiam a 
+            <lb ed="#R" n="39"/>diuina essentia, immo magis perficitur. Igitur non 
+            <lb ed="#R" n="40"/>indiget vigoratione ad hoc, quod essentiam intuea 
+            <lb ed="#R" n="41"/>tur. Et confirmatur 3. de anima intellectus post ma 
+            <lb ed="#R" n="42"/>xima intelligibilia, non minus intelligit minora, 
+            <lb ed="#R" n="43"/>immo magis.
+          </p>
+          <p xml:id="paqqap-a28585-d1e2864">
+            <lb ed="#R" n="44"/>Praeterea: Sic se habet materia prima in genere 
+            <lb ed="#R" n="45"/>sensibilium: sed nullus diceret, quod materia 
+            pri<lb ed="#R" n="46" break="no"/>ma indigeat vigorari, cum nullum vigorem intrin 
+            <lb ed="#R" n="47"/>fece habeat, sed sit pura potentia praecipue 
+            respe<lb ed="#R" n="48" break="no"/>ctu formae nobilissimae, quae est anima rationalis, 
+            <lb ed="#R" n="49"/>secundum sic opinantes, immo eam immediate 
+            su<lb ed="#R" n="50" break="no"/>scipit: igitur, &amp; intellectus possibilis immediate su 
+            <lb ed="#R" n="51"/>scipere nobilissimum actum, ad quem est in 
+            poten<lb ed="#R" n="52" break="no"/>tia, visionem scilicet essentiae diuinae, nec interius 
+            <lb ed="#R" n="53"/>vigorabitur cum sit potentia pura. 
+          </p>
+          <p xml:id="paqqap-a28585-d1e2888">
+            <lb ed="#R" n="54"/>Praeterea: Aut lumen illud eleuaret, &amp; vigoraret 
+            <lb ed="#R" n="55"/>intellectum possibilem, tanquam dispositio medians 
+            <lb ed="#R" n="56"/>inter potentiam, &amp; actum in recipiendo, sicut mediat 
+            <lb ed="#R" n="57"/>superficies inter corpus, &amp; colorem, quia proprium 
+            <lb ed="#R" n="58"/>est superficiei primo loco colorari, &amp; mediante ea 
+            <lb ed="#R" n="59"/>inest corpori; aut sicut dispositio mediat inter 
+            po<lb ed="#R" n="60" break="no"/>tentiam, &amp; actum agens in patiendo, sicut mediat 
+            <lb ed="#R" n="61"/>mollities inter ceram, &amp; sigillum, non enim mediat 
+            <lb ed="#R" n="62"/>inter ceram, &amp; figuram, quasi figura primo insit 
+            <lb ed="#R" n="63"/>molliciei, sed inter ceram, &amp; sigillum, quia nec 
+            si<lb ed="#R" n="64" break="no"/>giilum posset figuram imprimere, nec cera pati, 
+            <lb ed="#R" n="65"/>nisi ratione molliciei. Sed non potest dici, quod 
+            <lb ed="#R" n="66"/>requiratur talis habitus propter primum, Tum, 
+            <!--0096.xml-->
+            <cb ed="#R" n="b"/>
+            <lb ed="#R" n="67"/>quia actus visionis primo inesset illi habitui, &amp; per 
+            <lb ed="#R" n="68"/>consequens esset primo boatus, &amp; non separaretur 
+            <lb ed="#R" n="69"/>ab intellectu, &amp; remaneret beatus, sicut superficies 
+            <lb ed="#R" n="70"/>colorata. Tum quia actus beatificus immediate 
+            <lb ed="#R" n="71"/>perficit intellectum, &amp; voluntatem, in quibus 
+            con<lb ed="#R" n="72" break="no"/>sistit imago Trinitatis, quia ex hoc, quod anima 
+            <lb ed="#R" n="73"/>est imago Dei beatitudinis, particeps esse 
+            potest<lb ed="#R" n="74" break="no"/>tum quia nullus actus immediatius perficit 
+            intelle<lb ed="#R" n="75" break="no"/>ctum, quam visio essentiae diuinae; praecipue eum 
+            <lb ed="#R" n="76"/>intellectus possibilis sit susceptiuum immediatum 
+            <lb ed="#R" n="77"/>omnis actus. 
+          </p>
+          <p xml:id="paqqap-a28585-d1e2947">
+            <lb ed="#R" n="78"/>Non potest etiam dari secundum, tum quia tale 
+            <lb ed="#R" n="79"/>medium non requiritur propter defectum agentis, 
+            <lb ed="#R" n="80"/>vnde Deus in creatura posset imprimere omnem 
+            <lb ed="#R" n="81"/>figuram: nec indiget mollicie, tum quia Deus 
+            im<lb ed="#R" n="82" break="no"/>mediate potest intellectui imprimere quicquid 
+            in<lb ed="#R" n="83" break="no"/>tellectus immediate potest recipere; immediate 
+            <lb ed="#R" n="84"/>autem potest recipere visionem sicut probatum est: 
+            <lb ed="#R" n="85"/>ergo non requiritur lumen ad eleuandum, vel 
+            vi<lb ed="#R" n="86" break="no"/>gorandum intellectum possibilem. 
+          </p>
+          <p xml:id="paqqap-a28585-d1e2969">
+            <lb ed="#R" n="87"/>Quod lumen gloriae absolute ponitur.
+          </p>
+          <p xml:id="paqqap-a28585-d1e2974">
+            <lb ed="#R" n="88"/>TErtia vero propositio est, quod lumen gloriae 
+            <lb ed="#R" n="89"/>Lponendum est directe quidem, &amp; formaliter 
+            <lb ed="#R" n="90"/>propter intellectum agentem, consecutiue vero, &amp; 
+            <lb ed="#R" n="91"/>redundatiue est propter intellectum possibilem. 
+          </p>
+          <p xml:id="paqqap-a28585-d1e2986">
+            <lb ed="#R" n="92"/>Et prima quidem pars propositionis patet, quia 
+            <lb ed="#R" n="93"/>constat, quod lumen gloriae non ponitur, nisi ad 
+            ele<lb ed="#R" n="94" break="no"/>uandum, &amp; vigorandum, &amp; ampliandum lumen 
+            <lb ed="#R" n="95"/>connaturale, quod est defectuosum, secundum quod 
+            <lb ed="#R" n="96"/>
+            <ref xml:id="paqqap-a28585-Rd1e2999">Decretal. definiuit lib. 7. cap. ad nostrum de 
+              haere<lb ed="#R" n="97" break="no"/>ticis</ref>: sed nullum lumen naturale est in intellectu, 
+            <lb ed="#R" n="98"/>nisi lumen intellectus agentis, alioquin si 
+            intelle<lb ed="#R" n="99" break="no"/>ctus possibi lis habeat claritatem per se, &amp; non sit 
+            <lb ed="#R" n="100"/>omnis claritas eius naturalis ex parte agentis, 
+            se<lb ed="#R" n="101" break="no"/>quitur, quod sunt in nobis duo lumina, &amp; superfluit 
+            <lb ed="#R" n="102"/>alterum, quia sufficit vnum, vnde intellectus 
+            pos<lb ed="#R" n="103" break="no"/>sibilis solum habet recipere. Sed vigor, &amp; claritas, 
+            <lb ed="#R" n="104"/>secundum quam recipit, est intellectus agens: 
+            Jgi<lb ed="#R" n="105" break="no"/>tur lumen gloriae ponendum est per se &amp; directe ex 
+            <lb ed="#R" n="106"/>parte luminis intellectus agentis, cuius delectum 
+            <lb ed="#R" n="107"/>supplet. 
+          </p>
+          <p xml:id="paqqap-a28585-d1e3026">
+            <lb ed="#R" n="108"/>Praeterea: Lux illa incorporea, in qua &amp; sub qua 
+            <lb ed="#R" n="109"/>secundum Augustinum mens rationalis videt 
+            quic<lb ed="#R" n="110" break="no"/>quid videt, oportet, quod sit lux vitalis per 
+            essen<lb ed="#R" n="111" break="no"/>tiam, vtpote intellectus in actu, vel saltem 
+            reduci<lb ed="#R" n="112" break="no"/>bile aliquo modo ad istam lucem; non enim potest 
+            <lb ed="#R" n="113"/>haberet per se aliqua qualitas non vitalis introitum 
+            <lb ed="#R" n="114"/>ad actum vitalem per modum clarificantis, &amp; 
+            illu<lb ed="#R" n="115" break="no"/>minantis, nisi per hoc, quod reducitur ad illud 
+            lu<lb ed="#R" n="116" break="no"/>men, quod est per essentiam vita. Et est exemplum 
+            <lb ed="#R" n="117"/>ad hoc, quod figura nullam causalitatem habet per 
+            <lb ed="#R" n="118"/>se super actum penetrandi, nisi quatenus est 
+            dispo<lb ed="#R" n="119" break="no"/>sitio ferri, quod penetrat: sed constat, quod lumen 
+            <lb ed="#R" n="120"/>gloriae est lux incorporea quaedam, in qua &amp; sub 
+            <lb ed="#R" n="121"/>qua videtur diuina essentia, nec tamen est lux 
+            vita<lb ed="#R" n="122" break="no"/>lis per essentiam: igitur necesse est, quod 
+            reduca<lb ed="#R" n="123" break="no"/>tur ad illud, quod est claritas intellectualis per 
+            es<lb ed="#R" n="124" break="no"/>sentiam, &amp; illud est intellectus agens, vt 
+            declara<lb ed="#R" n="125" break="no"/>tum est. 
+          </p>
+          <p xml:id="paqqap-a28585-d1e3068">
+            <lb ed="#R" n="126"/>Praeterea: Quando aliquid constituitur sufficien 
+            <lb ed="#R" n="127"/>ter ex tribus, si ponitur aliquid ad intelligendum, 
+            <lb ed="#R" n="128"/>poni debet ex parte illius sub cuius habitudine 
+            in<lb ed="#R" n="129" break="no"/>trat. Exemplum est ad hoc de domo, ad quam cō- 
+            <lb ed="#R" n="130"/>currunt paries, fundamentum, &amp; tectum. Si quis 
+            au<lb ed="#R" n="131" break="no"/>tem vellet domum ampliare ex parte tecti, non 
+            ad<lb ed="#R" n="132" break="no"/>deret ex parte fundamenti. Sed consat ex supe- 
+            <!--0097.xml-->
+            <pb ed="#P" n="97"/>
+            <cb ed="#R" n="a"/>
+            <lb ed="#R" n="1"/>rioribus, quod ad actum cognoscendi concurrit 
+            in<lb ed="#R" n="2" break="no"/>tellectus possibilis, &amp; qualitas accidentalis 
+            reprae<lb ed="#R" n="3" break="no"/>sentatiua obiecti, que communi nomine dicitur actus 
+            <lb ed="#R" n="4"/>&amp; claritas, aut vigor spiritualis ipsius auimae, quae 
+            <lb ed="#R" n="5"/>non est aliud, quaur intellectus possibilis receptiue, 
+            <lb ed="#R" n="6"/>qualitas vero asimilatiue, &amp; repraesentatiue clari, 
+            <lb ed="#R" n="7"/>tas vero agentis quasi directiue, &amp; illustratiue, quia 
+            <lb ed="#R" n="8"/>in illa cernitur obiectum, Constat enim, quod 
+            lu<lb ed="#R" n="9" break="no"/>men gloriae ponitur ad actum beatificum 
+            concur<lb ed="#R" n="10" break="no"/>rere sub ista habitudine, vt scilicet in eo, &amp; sub eo 
+            <lb ed="#R" n="11"/>videatur obiectum: igitur reduci habet ad 
+            clarita<lb ed="#R" n="12" break="no"/>tem intellectus agentis per se, &amp; directe.
+          </p>
+          <p xml:id="paqqap-a28585-d1e3118">
+            <lb ed="#R" n="13"/>Secunda vero pars propositionis patet, quia quã- 
+            <lb ed="#R" n="14"/>do aliquid est perfectio alicuius, aut ampliatio eius 
+            <lb ed="#R" n="15"/>necesse est, quod concomitariue, &amp; consecutiue sit 
+            <lb ed="#R" n="16"/>ampliacio effectus formalis illius in subiecto, 
+            in<lb ed="#R" n="17" break="no"/>quo recipitur, vt quia lux est in dyaphano 
+            subiecti<lb ed="#R" n="18" break="no"/>ue, si luci solari addatur lux lunaris in dyaphano, 
+            <lb ed="#R" n="19"/>quamnis lux vna intendat aliam per se, &amp; directe 
+            <lb ed="#R" n="20"/>tamen dy aphanum erit luminosius consecutiue, &amp; 
+            <lb ed="#R" n="21"/>participatiue. Sed declaratum est, quod intellectus 
+            <lb ed="#R" n="22"/>agens est perfectio possibilis, &amp; actus in eo, cum 
+            <lb ed="#R" n="23"/>non sit nisi claritas &amp; vigor intelligibilis: ergo 
+            lu<lb ed="#R" n="24" break="no"/>men gloriae, quod ponitur ad intelligendum, &amp; 
+            am<lb ed="#R" n="25" break="no"/>pliandum claritatem agentis, participatiue in 
+            pos<lb ed="#R" n="26" break="no"/>sibilem redundabit. Vnde intellectus possibilis 
+            di<lb ed="#R" n="27" break="no"/>citur clarus, &amp; vigorosus claritate, &amp; vigore, qui 
+            <lb ed="#R" n="28"/>est agens, dyaphanum dicitur clarum claritate, quae 
+            <lb ed="#R" n="29"/>dicitur lux corporea: cum ergo vigoratur claritas 
+            <lb ed="#R" n="30"/>naturalis per lumen gloria, sequitur, quod 
+            possibi<lb ed="#R" n="31" break="no"/>lis particpatiue sit clarior, &amp; luminosios rquam 
+            <lb ed="#R" n="32"/>ante esset.
+          </p>
+          <p xml:id="paqqap-a28585-d1e3164">
+            <lb ed="#R" n="33"/>Ambe etiam partes: propositionis. smab patunt 
+            <lb ed="#R" n="34"/>exemplo oculi corporalis, qui quando caligas 
+            in<lb ed="#R" n="35" break="no"/>diget illustrari, si debet videre aliquem colorem; 
+            <lb ed="#R" n="36"/>constat enim, quod talis illustratio esset propter 
+            <lb ed="#R" n="37"/>defectum connaturalis claritatis, &amp; ideo 
+            ponere<lb ed="#R" n="38" break="no"/>directe ad illam vigorandum, &amp; tamen participa. 
+            <lb ed="#R" n="39"/>tiue dyaphanum oculi esset vigorosius, &amp; magis 
+            il<lb ed="#R" n="40" break="no"/>luminatum. 
+          </p>
+          <p xml:id="paqqap-a28585-d1e3184">
+            <lb ed="#R" n="41"/>Sed hic occurunt quaedam dubia.
+          </p>
+          <p xml:id="paqqap-a28585-d1e3190">
+            <lb ed="#R" n="42"/>Primum quidem, quod intellectus agens, cum sit 
+            <lb ed="#R" n="43"/>actus, non potest esse subiectum alicuius accidentis: 
+            <lb ed="#R" n="44"/>sed tale lumen est accidens: ergo non erit in agente, 
+            <lb ed="#R" n="45"/>sed in possibile subiectiue, &amp; per consequens ponitur 
+            <lb ed="#R" n="46"/>ex parte possibilis, &amp; non ex parte agentis. 
+          </p>
+          <p xml:id="paqqap-a28585-d1e3203">
+            <lb ed="#R" n="47"/>Et confirmatur per illud Aug. 83. quaest. quaestione 
+            <lb ed="#R" n="48"/>de Idaeis, quae est 40. dicit enim, quod anima 
+            ratio<lb ed="#R" n="49" break="no"/>nalis quanto charitate Deo adhaeserit, tanto ab eo 
+            <lb ed="#R" n="50"/>lumine intellectuali superiusa rationes cernit 
+            ex<lb ed="#R" n="51" break="no"/>tremas, quibus beatissima fit. 
+          </p>
+          <p xml:id="paqqap-a28585-d1e3216">
+            <lb ed="#R" n="52"/>Secundum vero dubium est, quia impossibile est 
+            <lb ed="#R" n="53"/>lumen intellectus agentis intendi, nisi intendatur 
+            <lb ed="#R" n="54"/>natura, cum non differat esse agentis a suo lumine: 
+            <lb ed="#R" n="55"/>sed constat, quod lumen gloriae non intendit essen 
+            <lb ed="#R" n="56"/>tiam, &amp; naturam ipsius animae; ergo non intendit 
+            <lb ed="#R" n="57"/>lumen intellectus agentis. 
+          </p>
+          <p xml:id="paqqap-a28585-d1e3232">
+            <lb ed="#R" n="58"/>Et confirmatur, quia intentio fit per aliquid, quod 
+            <lb ed="#R" n="59"/>sit eiusdem rationis: sed lumen gloriae, cum sit 
+            acci<lb ed="#R" n="60" break="no"/>dens, non est eiusdem rationis cum lumine 
+            intelle<lb ed="#R" n="61" break="no"/>ctus agentis: ergo illud non intendit, praecipue cum
+            <!-- missing line break-->non sit forma per essentiam vitalis.
+          </p>
+          <p xml:id="paqqap-a28585-d1e3245">
+            <!-- missing line break-->Ad primum istorum dicendum, quod lumen 
+            glo<lb ed="#R" n="62" break="no"/>riae non est subiectiue in agente, sed in eo, in quo est 
+            <lb ed="#R" n="63"/>agens, scilicet in possibili, sicut &amp; in omni augmen 
+            <lb ed="#R" n="64"/>to formarum, pars quae intendit formam, non est 
+            <lb ed="#R" n="65"/>subiectiue in partibus praecedentibus, nec etiam 
+            <lb ed="#R" n="66"/>duo lumina sunt subiectiue vnum in altero, sed am- 
+            <!--0097.xml-->
+            <cb ed="#R" n="b"/>
+            <lb ed="#R" n="67"/>bo in dyaphano, &amp; tamen hoc non obstante totum 
+            <lb ed="#R" n="68"/>constitutum est luminosum. Quamuis igitur lumen 
+            <lb ed="#R" n="69"/>gloriae ponatur propter claritatem agentis ad 
+            ip<lb ed="#R" n="70" break="no"/>sum, scilicet ampliandum, &amp; vigorandum, non 
+            ta<lb ed="#R" n="71" break="no"/>men ponitur in eo subiectiue, sed ambo sunt in 
+            pos<lb ed="#R" n="72" break="no"/>sibili. 
+          </p>
+          <p xml:id="paqqap-a28585-d1e3278">
+            <lb ed="#R" n="73"/>Ad auctoritatem vero Augustini dicendum, quod 
+            <lb ed="#R" n="74"/>non est ad propositum, tum quia non loquitur 
+            de<lb ed="#R" n="75" break="no"/>lumine habitu, sed de lumine actu, tum quia nihil 
+            <lb ed="#R" n="76"/>determinat de possibili, aut agente propter quem 
+            <lb ed="#R" n="77"/>eorum ponatur, sed dicit, quod anima sumine 
+            in<lb ed="#R" n="78" break="no"/>tellectuali superfunditur, agens autem &amp; possibilis 
+            <lb ed="#R" n="79"/>vterque est aliquid ipsius animae. Tum quia dato, 
+            <lb ed="#R" n="80"/>quod diceret intellectum possibilem superfundi illo 
+            <lb ed="#R" n="81"/>lumine subiectiuo, sicut dyaphanum super funditur 
+            <lb ed="#R" n="82"/>luce, non propter hoc sequeretur, quin hoc esset 
+            <lb ed="#R" n="83"/>propter de foctum claritatis naturalis agentis, qua 
+            <lb ed="#R" n="84"/>non sufficienter superfunditur, &amp; per consequens 
+            <lb ed="#R" n="85"/>exigeretur ad vigorandum, &amp; intendendum 
+            clari<lb ed="#R" n="86" break="no"/>ratem praedictam.
+          </p>
+          <p xml:id="paqqap-a28585-d1e3312">
+            <lb ed="#R" n="87"/>Ad secundum dicendum, quod lumen gloriae non 
+            <lb ed="#R" n="88"/>intendit essentiam, aut naturam intellectus agentis, 
+            <lb ed="#R" n="89"/>nec est talis intentio proprie dicta, qualis est in for 
+            <lb ed="#R" n="90"/>mis; intendit igitur solum per modum dispositionis 
+            <lb ed="#R" n="91"/>nullam causalitatem per se habentis, 
+          </p>
+          <p xml:id="paqqap-a28585-d1e3325">
+            <lb ed="#R" n="92"/>Exemplum de primo; Sicut duo tractores dicun 
+            <lb ed="#R" n="93"/>tur se vigorare in ordine ad tractum nauis, 
+            quia<lb ed="#R" n="94" break="no"/>vigor nullius per se sufficit, &amp; sic lumen gloriae- &amp; 
+            <lb ed="#R" n="95"/>claritas agentis necessario exiguntur, vt duo 
+            par<lb ed="#R" n="96" break="no"/>tialia integrantia vnam perfectam claritatem, &amp; 
+            <lb ed="#R" n="97"/>luminositatem respectu actus beatifici. 
+            <lb ed="#R" n="98"/>Exemplum de secundo est in acumine styli; 
+            con<lb ed="#R" n="99" break="no"/>stat enim quod acumen, cum sit figura de quarta 
+            <lb ed="#R" n="100"/>specie qualitatis, nullam habet actiuitatem 
+            respe<lb ed="#R" n="101" break="no"/>ctu actus penetrandi, nisi quatenus est dispositio du 
+            <lb ed="#R" n="102"/>riciei ferri. Vnde quamuis acuties non sit 
+            subiecti<lb ed="#R" n="103" break="no"/>ue in duritie, nec etiam illam intendat: tum quia 
+            <lb ed="#R" n="104"/>ambo sunt dispositio ferri, durities intenditur in 
+            <lb ed="#R" n="105"/>virtute, penetrandi, vt stylus acutior sit multo 
+            ma<lb ed="#R" n="106" break="no"/>gis penetratiuus, quam obtusus sit; sic in 
+            proposi<lb ed="#R" n="107" break="no"/>to, lumen gloriae non intendit essentialiter 
+            clarita<lb ed="#R" n="108" break="no"/>tem agentis, nec est in ea subiectiue, sed nec 
+            dire<lb ed="#R" n="109" break="no"/>cte se extendendo, quasi habeat per se, &amp; distincte 
+            <lb ed="#R" n="110"/>super ipsum causalitatem; sed attingit actum 
+            re<lb ed="#R" n="111" break="no"/>ductiue, quia reducitur ad claritatem naturalem 
+            <lb ed="#R" n="112"/>agentis dispositione, sicut dictum est de 
+            acutie<lb ed="#R" n="113" break="no"/>respectu duritiei in stylo. hic autem vltimus modus 
+            <lb ed="#R" n="114"/>dicendi est rationabilior, &amp; magis verus. 
+          </p>
+          <p xml:id="paqqap-a28585-d1e3377">
+            <lb ed="#R" n="115"/>Quod lumen gloria necesse est ponere distinctum 
+            <lb ed="#R" n="116"/>ab actu, quamuis sit difficile rationem 
+            <lb ed="#R" n="117"/>cogentem inuenire.
+          </p>
+          <p xml:id="paqqap-a28585-d1e3386">
+            <!-- missing line coord -->QVarta propositio est, quod necesse est ponere
+            <lb ed="#R" n="118"/>lumen gloriae distinctum ab actu propter 
+            de<lb ed="#R" n="119" break="no"/>finitionem essentiae, quia ibi non distorte potest 
+            il<lb ed="#R" n="120" break="no"/>lud exponi, quod Decretalis dicit, vt allegatum est 
+            <lb ed="#R" n="121"/>supra, scilicet, quod non indigemus lumine gloriae 
+            <lb ed="#R" n="122"/>eleuante ad Deum videndum, &amp; beate fruendum 
+            <lb ed="#R" n="123"/>erroneum est dicere. Videtur etiam 
+            quodammo<lb ed="#R" n="124" break="no"/>do communis animi conceptio, quod anima nostra 
+            <lb ed="#R" n="125"/>respectu diuinae essentiae caliget, sicut oculus 
+            no<lb ed="#R" n="126" break="no"/>ctuae respectu luminis solaris, &amp; per consequens, 
+            <lb ed="#R" n="127"/>sicut oculus noctuae indigeret vigoratione, si 
+            debe<lb ed="#R" n="128" break="no"/>ret solem intueri, sic videtur esse de nostro 
+            intelle<lb ed="#R" n="129" break="no"/>ctu; licet ergo tale lumen tenendum sit, rationem 
+            <lb ed="#R" n="130"/>nihilominus cogentem inuenire difficile est. 
+          </p>
+          <p xml:id="paqqap-a28585-d1e3419">
+            <lb ed="#R" n="131"/>Potest tamen illud persuaderi a priori, &amp; a mi- 
+            <!--0098.xml-->
+            <pb ed="#P" n="98"/>
+            <cb ed="#R" n="a"/>
+            <lb ed="#R" n="1"/>nori. A minori. S illudi quod minus videtur ines 
+            <lb ed="#R" n="2"/>se, inest, &amp; illud, quod magis: sed minus videtur 
+            <lb ed="#R" n="3"/>quod intellectus non indigeret vigorari respectu 
+            <lb ed="#R" n="4"/>euiuslibet alterius intelligibilis quanticumq. 
+            gra<lb ed="#R" n="5" break="no"/>dus sit, quam respectu essemtiae diuinae, &amp; respectu 
+            <lb ed="#R" n="6"/>cuiuscumque gradus ipsius actus, quam respectu 
+            <lb ed="#R" n="7"/>gradus specifici, quem habet visio beatainam 
+            diui<lb ed="#R" n="8" break="no"/>na essentia magis excedit nitelectum, quam 
+            quod<lb ed="#R" n="9" break="no"/>cumque aliud iutelligibile? Gradus etiam 
+            speciss<lb ed="#R" n="10" break="no"/>cus vrsionis diuinae excedit quemcumque gradum 
+            <lb ed="#R" n="11"/>specificum, aut naturalem eniuscumque actus, quo 
+            <lb ed="#R" n="12"/>cognoscantur intelligibilia omnia alia a diuina 
+            <lb ed="#R" n="13"/>essentia. manifestum est autem, quod intellectus 
+            <lb ed="#R" n="14"/>non fufficit ad omnia intelligibilia, nisi vigoretur, 
+            <lb ed="#R" n="15"/>&amp; habituetur per exercitium, &amp; acquisitionem y vt 
+            <lb ed="#R" n="16"/>declaratum est supra Articulo stcundo. Et quicquid 
+            <lb ed="#R" n="17"/>sit de omnt intelligibili, saltem non potest 
+            pertinge<lb ed="#R" n="18" break="no"/>re gradum cognitionis llius, alioquin quilibet, &amp; 
+            <lb ed="#R" n="19"/>quantuicunq. habens infiinu iteellectum, aeque 
+            <lb ed="#R" n="20"/>clare in lumine naturali intelligeret omnem veri. 
+            <lb ed="#R" n="21"/>tatem, sicut ille, qui haberet eleuatum intellectum; 
+            <lb ed="#R" n="22"/>&amp; aeque clare etiam statim a principio intelligeret, 
+            <lb ed="#R" n="23"/>sicut post yigorationem per consuetudinem, &amp; 
+            iu<lb ed="#R" n="24" break="no"/>stum tempus acquisitum, quod manifeste falsum 
+            <lb ed="#R" n="25"/>est: ergo minus poterit intellecus suo lumine 
+            na<lb ed="#R" n="26" break="no"/>turali atingere gradum speciffeum visionis 
+            diui<lb ed="#R" n="27" break="no"/>nae, nisi vigoretur, vel per acquisitionem, vel per 
+            <lb ed="#R" n="28"/>informationem: talis autem vigor acquiri non 
+            po<lb ed="#R" n="29" break="no"/>test e puris naturalibus, quia obiectum 
+            medianti<lb ed="#R" n="30" break="no"/>bus actibus derelinquit talem vigorem, ad actum 
+            <lb ed="#R" n="31"/>autem beatifitum non attingit natura, sed est ab 
+            <lb ed="#R" n="32"/>obiecto: relinquitur ergo, quod vigor intellectus sit 
+            <lb ed="#R" n="33"/>per infusionem, &amp; claritatem diuinae essentiae, quae 
+            <lb ed="#R" n="34"/>quicquid agit aliquid extra, libere agit. 
+          </p>
+          <p xml:id="paqqap-a28585-d1e3504">
+            <lb ed="#R" n="35"/>A priori vero pater idem, quia actus cognoscen 
+            <lb ed="#R" n="36"/>di perficitur per claritatem luminis intellectus, &amp; 
+            <lb ed="#R" n="37"/>quanto actus est perfectior, tanto proportionabilitor 
+            <lb ed="#R" n="38"/>requiritur claritas maior: sed actus beatificae 
+            vi<lb ed="#R" n="39" break="no"/>sionis tantae perfectionis est, quod ad ipsum 
+            non<lb ed="#R" n="40" break="no"/>attingit; natura enim excedit specifice omnem 
+            a<lb ed="#R" n="41" break="no"/>ctum possibilem factum per intellectum respectu 
+            <lb ed="#R" n="42"/>cuiuscumque alterius obiecti naturalis haec 
+            clari<lb ed="#R" n="43" break="no"/>tas proportionalis debet excedere omnem aliam 
+            <lb ed="#R" n="44"/>claritatem: sed claritas posibilis per naturam, in 
+            <lb ed="#R" n="45"/>quocumque intellectu adaequatur: igitur necesse 
+            <lb ed="#R" n="46"/>est dare claritatem excedentem omnem claritatem 
+            <lb ed="#R" n="47"/>naturae, quae sit proportionabilis actui &amp; obiecto. 
+          </p>
+          <p xml:id="paqqap-a28585-d1e3536">
+            <lb ed="#R" n="48"/>Sed hic occurrunt dubia.
+          </p>
+          <p xml:id="paqqap-a28585-d1e3541">
+            <lb ed="#R" n="49"/>Primum quidem, quod quemcumque vigorem 
+            <lb ed="#R" n="50"/>potest Deus dare per aliquod reale accidens, 
+            vide<lb ed="#R" n="51" break="no"/>tur, quod possit dare intellectui alicui per essentiam. 
+            <lb ed="#R" n="52"/>Vnde illum gradum vigoris, quem posset dare 
+            ocu<lb ed="#R" n="53" break="no"/>lo noctuae per qualitatem superadditam ad 
+            viden<lb ed="#R" n="54" break="no"/>dum rotam, solum dedit oculo aquilae per suam 
+            na<lb ed="#R" n="55" break="no"/>turam: poterit igitur facere aliquem intellectum, 
+            <lb ed="#R" n="56"/>qui habebit per essentiam claritatem tantam, quan 
+            <lb ed="#R" n="57"/>tam habet intellectus inferior, cum lumine gloriae 
+            <lb ed="#R" n="58"/>superaddito, &amp; sic talis intellectus non indigebit 
+            <lb ed="#R" n="59"/>lumine gloriae. 
+          </p>
+          <p xml:id="paqqap-a28585-d1e3567">
+            <lb ed="#R" n="60"/>Secundum dubium est, quod illam claritatem, 
+            <lb ed="#R" n="61"/>in qua deficit intellectus in naturalibus 
+            constitu<lb ed="#R" n="62" break="no"/>tus, videtur, quod possit supplere perfectio actus 
+            <lb ed="#R" n="63"/>beatifici, &amp; claritas sua. 
+          </p>
+          <p xml:id="paqqap-a28585-d1e3578">
+            <lb ed="#R" n="64"/>Tertium dubium est, quia Deus potest immedia 
+            <lb ed="#R" n="65"/>te facere, quicquid facit mediante causa secunda: 
+            <lb ed="#R" n="66"/>sed mediante claritate luminis gloriae facit, quod 
+            <lb ed="#R" n="67"/>intellectus videt Deum: ergo immediate poterit 
+            <lb ed="#R" n="68"/>fieri illa.
+          </p>
+          <p xml:id="paqqap-a28585-d1e3591">
+            <!--0098.xml-->
+            <cb ed="#R" n="b"/>
+            <lb ed="#R" n="69"/>Quartum dubium est, quis aanmoudecea 
+            <lb ed="#R" n="70"/>aticui accidentalis, potest ieterius ei comnatiia 
+            <lb ed="#R" n="71"/>lls, vt ealditas, quae est Ieutalis nqui c 
+            ou<lb ed="#R" n="72" break="no"/>naturalis est ignii poteritergo Deus fuetenn glorit 
+            <lb ed="#R" n="73"/>alicui intelectui connaturalem fcere, &amp; por Eom 
+            <lb ed="#R" n="74"/>quens inellectus ille viaeuit Deum i Iuiee 
+            <lb ed="#R" n="75"/>naturali.
+          </p>
+          <p xml:id="paqqap-a28585-d1e3613">
+            <lb ed="#R" n="76"/>Ad primum Morum dicendum, quod enaricu 
+            <lb ed="#R" n="77"/>habitus habet rationenr determinatisi ilappre 
+            <lb ed="#R" n="78"/>priantis imectum in ordine ad obie duomiurvnat 
+            <lb ed="#R" n="79"/>respectu diuersorum obiectorum diuerse stuno 
+            vigo<lb ed="#R" n="80" break="no"/>rationes per consuetudinem acquisite, vt patet, 
+            olu<lb ed="#R" n="81" break="no"/>ritas autem intellectus essentialis indeooninata 
+            <lb ed="#R" n="82"/>est respectu omnis obiecti, fitut &amp; inteHHocims igeni, 
+            <lb ed="#R" n="83"/>&amp; ideo nulla elaritas fubstantialis intellectus agoa 
+            <lb ed="#R" n="84"/>tis posset supplere vitem luminis gloria, prbeu, 
+            <lb ed="#R" n="85"/>quod lumen gloriae haber vigorem appropriatum 
+            <lb ed="#R" n="86"/>&amp; proportionatum proporeione appropriationis, 
+            <lb ed="#R" n="87"/>sed est quiddam indifferens: &amp; ideo propoiuu illa 
+            <lb ed="#R" n="88"/>non est vera, quod quicquid elaritatis, &amp; vigoris 
+            <lb ed="#R" n="89"/>inest intellectui per claritatem additam, possesibi 
+            <lb ed="#R" n="90"/>inesse per essentiam, quia non est vigor appropriatus, 
+            <lb ed="#R" n="91"/>&amp; proportionatus oblecto proportiono 
+            mppo<lb ed="#R" n="92" break="no"/>priationis. 
+          </p>
+          <p xml:id="paqqap-a28585-d1e3653">
+            <lb ed="#R" n="93"/>Ad secundum ditendum, quod actus nod habiet 
+            <lb ed="#R" n="94"/>claritatem intellectualem proprie ) sod ipsum 
+            ha<lb ed="#R" n="95" break="no"/>bet et intellectu agente, vt sape dictum ost. 
+            <lb ed="#R" n="96"/>Vnde per fectio actus non debet dici olaritas, &amp; 
+            <lb ed="#R" n="97"/>propter hoc supplere non potest claritatum illum, 
+            <lb ed="#R" n="98"/>quae exigitur ox parte inteneem agentis. 
+          </p>
+          <p xml:id="paqqap-a28585-d1e3669">
+            <lb ed="#R" n="99"/>Ad tertium dicendum, qued claritas luminis non 
+            <lb ed="#R" n="100"/>ingreditur actum beatificae visionis permodums 
+            <lb ed="#R" n="101"/>oaise effectiuae, quam iutus potest supplere, A sed 
+            <lb ed="#R" n="102"/>potius permodum cuiusdam causae integramis &amp; 
+            <lb ed="#R" n="103"/>constituemtis vnum perfectum, vt deolarasimo est⸗ 
+            <lb ed="#R" n="104"/>hoc autem Deus supplero non potest immediate, 
+            <lb ed="#R" n="105"/>cum nullius possit esse pars, am constitutiuum. sicut 
+            <lb ed="#R" n="106"/>etiam videmus in simili, quod claritatem illam, 
+            <lb ed="#R" n="107"/>quae consurgit ex radio lunae, &amp; stellae in apre, Deus 
+            <lb ed="#R" n="108"/>non potest supplere, tenendo scilicet vicem 
+            alte<lb ed="#R" n="109" break="no"/>rius radij, quasi ex Deo, &amp; alio radio claritas illa 
+            <lb ed="#R" n="110"/>consurgeret. 
+          </p>
+          <p xml:id="paqqap-a28585-d1e3698">
+            <lb ed="#R" n="111"/>Ad quartum dicendum, quod naturale dicitur 
+            <lb ed="#R" n="112"/>dupliciter. 
+          </p>
+          <p xml:id="paqqap-a28585-d1e3705">
+            <lb ed="#R" n="113"/>Primo quidem, quod inest ab origine, &amp; sic non 
+            <lb ed="#R" n="114"/>prohibet lumen glorie posse esse connaturale alieui 
+            <lb ed="#R" n="115"/>animae, sicut est animae Christi. 
+          </p>
+          <p xml:id="paqqap-a28585-d1e3714">
+            <lb ed="#R" n="116"/>Secundo vero connaturale dicitur illud, quod 
+            <lb ed="#R" n="117"/>oritur extra a principi naturae, &amp; tamquam 
+            pro<lb ed="#R" n="118" break="no"/>prietas naturam consequens, &amp; sic non potest 
+            lu<lb ed="#R" n="119" break="no"/>men gloriae esse alicui connaturale; immo semper 
+            <lb ed="#R" n="120"/>est accidens separabile, &amp; commune, &amp; non 
+            pro<lb ed="#R" n="121" break="no"/>prium alicui creaturae. 
+          </p>
+          <p xml:id="paqqap-a28585-d1e3730">
+            <lb ed="#R" n="122"/>Ad argumentum principale dicendum, quod 
+            lu<lb ed="#R" n="123" break="no"/>men gloriae exigitur ad proportionandum claritatem 
+            <lb ed="#R" n="124"/>intellectus agentis ad actum beatificum, &amp;obiectum: 
+            <lb ed="#R" n="125"/>cum additur, quod lumen, cum sit infinitum, nullam 
+            <lb ed="#R" n="126"/>proportionem potest facere. Dicendum, quod 
+            pro<lb ed="#R" n="127" break="no"/>portio duplex est; quaedam quidem aequalitatis, &amp; 
+            <lb ed="#R" n="128"/>commensurationis, &amp; sic nihil creatum potest 
+            pro<lb ed="#R" n="129" break="no"/>portionari essentiae diuinae; quaedam vero 
+            appro<lb ed="#R" n="130" break="no"/>priationis, &amp; sic actus proportionatur obiecto, &amp; 
+            <lb ed="#R" n="131"/>lumen actui, &amp; obiecto: lumen igitur gloriae est 
+            <lb ed="#R" n="132"/>quidam vigor approprians, &amp; proportionans 
+            intel<lb ed="#R" n="133" break="no"/>lectum ad actum beatificum, &amp; obiectum.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

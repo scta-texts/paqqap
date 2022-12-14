@@ -1,0 +1,789 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quodlibetum 13</title>
+        <author ref="#Aureoli">Petrus Aureolus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quodlibetum 13</title>
+          <date when="2022-12-14">December 14, 2022</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="R" n="cod-pa05bQ">Roma 1605, Quodlibeta</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2022-12-14" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#R" n="123"/>
+        <cb ed="#R" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="paqqap-a40469"> <!-- q13 -->
+        <head xml:id="paqqap-a40469-Hd1e102">Quodlibetum 13</head>
+        <head xml:id="paqqap-a40469-Hd1e104" type="question-title">
+          Utrum virtus moralis in appetitu 
+          sensitiuo sit qualitas media essentialiter 
+          constituta ex habilitatibus, quae inclinant 
+          ad passiones extremas. 
+        </head>
+        <p xml:id="paqqap-a40469-d1e107">
+          <lb ed="#R" n="76"/>QVODLJDEJVM 
+          <lb ed="#R" n="77"/>DECJMVMTERTJVM.
+        </p>
+        <p xml:id="paqqap-a40469-d1e114">
+          <lb ed="#R" n="78"/>Vtrum Virtus Moralis in appetitu 
+          sensiti<lb ed="#R" n="79" break="no"/>uo sit qualitas media essentialiter 
+          con<lb ed="#R" n="80" break="no"/>stituta ex habilitatibus, quae inclinant 
+          <lb ed="#R" n="81"/>ad passiones extremas. 
+        </p>
+        <p xml:id="paqqap-a40469-d1e126">
+          <lb ed="#R" n="82"/>Tertiodecimo quaerebatur: Vtrum virtus 
+          mo<lb ed="#R" n="83" break="no"/>ralis in appetitu sensitiuo sit qualitas 
+          me<lb ed="#R" n="84" break="no"/>dia essentialiter constituta ex habilitatibus 
+          <lb ed="#R" n="85"/>quae inclinant ad passiones extremas. Et 
+          <lb ed="#R" n="86"/>arguitur, quod nonsics Nulla forma media 
+          <lb ed="#R" n="87"/>constituitur essentialiter ex extremis: 
+          igi<lb ed="#R" n="88" break="no"/>tur virtus non est qualitas media 
+          essentiali<lb ed="#R" n="89" break="no"/>ter constituta ex habilitatibus extremis, quae 
+          <lb ed="#R" n="90"/>inclinant ad passiones. Consequentia patet, 
+          <lb ed="#R" n="91"/>antecedens probatur dupliciter: Primo sic: 
+          <lb ed="#R" n="92"/>Constituentia, &amp; constituta sunt eiusdem 
+          <lb ed="#R" n="93"/>speciei, nam constituentia non sunt in 
+          ge<lb ed="#R" n="94" break="no"/>nere, nec in specie, nisi per reductionem ad 
+          <lb ed="#R" n="95"/>constitutum sicut patet de materia, &amp; 
+          for<lb ed="#R" n="96" break="no"/>ma: sed extrema non sunt eiusdem speciei 
+          <lb ed="#R" n="97"/>cum medio, imo alterius: ergo non possunt 
+          <lb ed="#R" n="98"/>constituere essentialiter medium, vtpote 
+          al<lb ed="#R" n="99" break="no"/>bedo, &amp; nigredo colorem rubeum. Secundo: 
+          <lb ed="#R" n="100"/>Aut remanent ibi in esse remisso, aut in esse 
+          <lb ed="#R" n="101"/>intenso: sed non in gradu intenso, quia 
+          <lb ed="#R" n="102"/>contraria mutuo se expellunt, &amp; sunt 
+          in<lb ed="#R" n="103" break="no"/>compossibilia in gradu intenso: nec in 
+          gra<lb ed="#R" n="104" break="no"/>du remisso, quia contrarietas fundatur 
+          su<lb ed="#R" n="105" break="no"/>per naturam specificam, contraria namque 
+          <lb ed="#R" n="106"/>secundum rationes specificas opponuntur, 
+          <lb ed="#R" n="107"/>&amp; per consequens in gradu quocumque 
+          <lb ed="#R" n="108"/>remisso opponuntur: igitur extrema 
+          con<lb ed="#R" n="109" break="no"/>traria essentialiter non constituunt formam 
+          <lb ed="#R" n="110"/>mediam. 
+        </p>
+        <p xml:id="paqqap-a40469-d1e191">
+          <lb ed="#R" n="111"/>Sed in oppositum arguitur: Opposito enti 
+          me<lb ed="#R" n="112" break="no"/>diante medium constituitur. ex extremis: 
+          <lb ed="#R" n="113"/>igitur virtus, quae es qualitas media inter 
+          <lb ed="#R" n="114"/>habilitates inclinandes ad extremas 
+          pas<lb ed="#R" n="115" break="no"/>siones, constituetur iessentialiter ex ipsis. 
+          <lb ed="#R" n="116"/>Consequentia patet. Antecedens probatur 
+          <lb ed="#R" n="117"/>dupliciter. 
+        </p>
+        <p xml:id="paqqap-a40469-d1e209">
+          <lb ed="#R" n="118"/>Primo sic: <ref xml:id="paqqap-a40469-Rd1e213">Commentator secundo. physic 
+            <lb ed="#R" n="119"/>com. 56.</ref> ait, quod extrema sunt in medio, 
+          <!--0124.xml-->
+          <pb ed="#P" n="124"/>
+          <cb ed="#R" n="a"/>
+          <lb ed="#R" n="1"/>non in pura potentia, sicut in prima, sed 
+          <lb ed="#R" n="2"/>medio modo inter purum actum, &amp; puram 
+          <lb ed="#R" n="3"/>potentiam: igitur extrema essentialiter fori 
+          <lb ed="#R" n="4"/>mam mediam constituunt.
+        </p>
+        <p xml:id="paqqap-a40469-d1e234">
+          <lb ed="#R" n="5"/>Secundo sic: Omne, quod mouetur, par, 
+          <lb ed="#R" n="6"/>tim est in termino a quo, &amp; partim in 
+          ter<lb ed="#R" n="7" break="no"/>mino ad quem 6. physic. sed ab vno 
+          ex<lb ed="#R" n="8" break="no"/>tremo contrarietatis in aliud est vnus 
+          mo<lb ed="#R" n="9" break="no"/>tus continuus transeundo per medium 7. 
+          <lb ed="#R" n="10"/>meth. ergo subiectum existens in forma 
+          <lb ed="#R" n="11"/>partim habet de vtroq. extremorum, quod 
+          <lb ed="#R" n="12"/>non esset verum, nisi forma media 
+          compo<lb ed="#R" n="13" break="no"/>neretur essentialiter ex extremis. 
+        </p>
+        <p xml:id="paqqap-a40469-d1e256">
+          <lb ed="#R" n="14"/>Responsio ad quaestionem. 
+        </p>
+        <p xml:id="paqqap-a40469-d1e261">
+          <lb ed="#R" n="15"/>Respondeo: in ista quaestione duplex est 
+          in<lb ed="#R" n="16" break="no"/>quisitio. 
+        </p>
+        <p xml:id="paqqap-a40469-d1e269">
+          <lb ed="#R" n="17"/>Prima quidem specialis ad hanc materiam, 
+          <lb ed="#R" n="18"/>scilicet: vtrum virtus moralis in appetitu 
+          <lb ed="#R" n="19"/>sensitiuo, sit forma media inter habilitates, 
+          <lb ed="#R" n="20"/>quae inclinant ad passiones extremas, sic 
+          <lb ed="#R" n="21"/>quod sit eiusdem generis, &amp; eiusdem 
+          coor<lb ed="#R" n="22" break="no"/>dinationis cum illis, sicut rubeum medium 
+          <lb ed="#R" n="23"/>est inter album, &amp; nigrum. 
+        </p>
+        <p xml:id="paqqap-a40469-d1e287">
+          <lb ed="#R" n="24"/>Secunda vero inquisitio est magis generalis, 
+          <lb ed="#R" n="25"/>supposito scilicet, quod sit forma media, 
+          <lb ed="#R" n="26"/>sicut pallidus color, an constituatur 
+          essen<lb ed="#R" n="27" break="no"/>tialiter ex habilitatibus extremis: &amp; hoc 
+          <lb ed="#R" n="28"/>est quaerere: quomodo formae, quae sunt 
+          ex<lb ed="#R" n="29" break="no"/>tremitates contrarietatis, ingrediuntur 
+          for<lb ed="#R" n="30" break="no"/>mam mediam, &amp; constituunt eam. &amp; 
+          se<lb ed="#R" n="31" break="no"/>cundum hoc in ista quaestione.
+        </p>
+        <p xml:id="paqqap-a40469-d1e307">
+          <lb ed="#R" n="32"/>Primo inquiretur, an virtus sit qualitas media 
+          <lb ed="#R" n="33"/>inter habilitates inclinantes ad passiones 
+          <lb ed="#R" n="34"/>extremas eiusdem coordinationis cum eis. 
+        </p>
+        <p xml:id="paqqap-a40469-d1e316">
+          <lb ed="#R" n="35"/>Secundo an omnis forma media constituatur 
+          <lb ed="#R" n="36"/>essentialiter ex formis extremis, &amp; per 
+          con<lb ed="#R" n="37" break="no"/>sequens apparebit, quomodo virtus ex 
+          ha<lb ed="#R" n="38" break="no"/>bilitatibus extremis constituitur. 
+        </p>
+        <p xml:id="paqqap-a40469-d1e327">
+          <lb ed="#R" n="39"/>Tertio vero inquiretur, an talis qualitas 
+          me<lb ed="#R" n="40" break="no"/>dia possit inesse alicui naturaliter, &amp; sicut 
+          <lb ed="#R" n="41"/>habilitates extremae insunt. 
+        </p>
+        <div xml:id="paqqap-a40469-Dd1e336">
+          <head xml:id="paqqap-a40469-Hd1e338">Articulus 1</head>
+          <p xml:id="paqqap-a40469-d1e340">
+            <lb ed="#R" n="42"/>ARTICVLVS I. 
+            <lb ed="#R" n="43"/>Quod in appetitu sensitiuo est qualitas media 
+            <lb ed="#R" n="44"/>&amp; coordinationis eum extremis 
+            <lb ed="#R" n="45"/>constituentibus. 
+          </p>
+          <p xml:id="paqqap-a40469-d1e351">
+            <lb ed="#R" n="46"/>CIRCA primum ergo 
+            <lb ed="#R" n="47"/>est sciendum, quod in 
+            <lb ed="#R" n="48"/>appetitu sensitiuo sunt 
+            <lb ed="#R" n="49"/>quaedam habilitates, &amp; 
+            <lb ed="#R" n="50"/>idone itates naturaliter 
+            <lb ed="#R" n="51"/>insitae ex complexione 
+            <lb ed="#R" n="52"/>prouenientes, sunt etiam 
+            <lb ed="#R" n="53"/>uando que ex 
+            assuefa<lb ed="#R" n="54" break="no"/>ctione: hoc autem per 
+            <lb ed="#R" n="55"/>experientiam patet, &amp; 
+            <lb ed="#R" n="56"/>per auctoritatem.
+          </p>
+          <p xml:id="paqqap-a40469-d1e377">
+            <!--0124.xml-->
+            <cb ed="#R" n="b"/>
+            <lb ed="#R" n="57"/>Experientia quidem docet, quod sunt aliqui 
+            ho<lb ed="#R" n="58" break="no"/>mines iracundi, &amp; ex complexione sua proni ad 
+            <lb ed="#R" n="59"/>iram, &amp; aliqui timidi; aliqui audaces, &amp; sic 
+            de<lb ed="#R" n="60" break="no"/>alijs. Consuetudo etiam facit in ratione, 
+            pronita<lb ed="#R" n="61" break="no"/>tem, cum altera natura sit 7. Ethic. 
+          </p>
+          <p xml:id="paqqap-a40469-d1e395">
+            <lb ed="#R" n="62"/>Auctoritas vero scripturae docet Genes. 8. 
+            sen<lb ed="#R" n="63" break="no"/>sus, &amp; cogitatio humani cordis proni sunt ad 
+            ma<lb ed="#R" n="64" break="no"/>lum, &amp;c. &amp; de habilitate ad passiones laudabiles 
+            <lb ed="#R" n="65"/>testatur Job 31. ab infantia creuit mecum 
+            misera<lb ed="#R" n="66" break="no"/>tio, &amp; ab vtero matris meae egressa est mecum. Et 
+            <lb ed="#R" n="67"/>Philosophus etiam 2. Ethic. dicit, quod potentia 
+            <lb ed="#R" n="68"/>sunt secundum quas possibiles passionum dicimur, 
+            <lb ed="#R" n="69"/>puta secundum quas potes irasci, vel contristari, 
+            <lb ed="#R" n="70"/>vel misereri, &amp; dicit idem Eustatius in commento; 
+            <lb ed="#R" n="71"/>est igitur inquisitionis nostrae punctus, an 
+            habili<lb ed="#R" n="72" break="no"/>tas illa ad passiones moderatas secundum rationem. 
+            <lb ed="#R" n="73"/>quae dicitur esse virtus, sit eiusdem 
+            coordinatio<lb ed="#R" n="74" break="no"/>nis cum habilitatibus illis, quae inclinant ad passio 
+            <lb ed="#R" n="75"/>nes extremas, ita quod sit habilitas media, sicut 
+            <lb ed="#R" n="76"/>color rubeus inter album, &amp; nigrum. 
+            <lb ed="#R" n="77"/>Nunc igitur ponenda est conclusio intenta, &amp; 
+            <lb ed="#R" n="78"/>affirmatiua, scilicet, quod inclinatio, quae est 
+            vir<lb ed="#R" n="79" break="no"/>tus in appetitu sensitiuo est qualitas media, &amp; 
+            ha<lb ed="#R" n="80" break="no"/>bilitas media inter extremas habilitates eiusdem 
+            <lb ed="#R" n="81"/>generis, &amp; eiusdem coordinationis cum eis, sicut 
+            <lb ed="#R" n="82"/>color rubeus, &amp; c. 
+          </p>
+          <p xml:id="paqqap-a40469-d1e444">
+            <lb ed="#R" n="83"/>Sed vt magis elucescat, ostendo. 
+          </p>
+          <p xml:id="paqqap-a40469-d1e449">
+            <lb ed="#R" n="84"/>Primo hoc esse impossibile: qualitates enim, quae 
+            <lb ed="#R" n="85"/>sunt eiusdem coordinationis, &amp; se habent sicut me 
+            <lb ed="#R" n="86"/>dium, &amp; extrema, sunt eiusdem generis propinqui: 
+            <lb ed="#R" n="87"/>medium enim inter contraria, &amp; ipsa contraria 
+            <lb ed="#R" n="88"/>sunt in eodem genere, 10. meth. vnde rubedo, 
+            al<lb ed="#R" n="89" break="no"/>bedo, &amp; nigredo sunt eiusdem generis propinqui, 
+            <lb ed="#R" n="90"/>scilicet coloris, sed constat, quod habilitates, quae 
+            <lb ed="#R" n="91"/>inclinant adextremas passiones sunt de secunda 
+            <lb ed="#R" n="92"/>specie qualitatis, sunt enim potentiae secundum 
+            <lb ed="#R" n="93"/>quas possumus faciliter, &amp; difficiliter, vt patet a. 
+            <lb ed="#R" n="94"/>Ethic. ex dico Philosophi, &amp; Eustachij: virtus 
+            au<lb ed="#R" n="95" break="no"/>tem non est in secunda specie qualitatis, sed in 
+            pri<lb ed="#R" n="96" break="no"/>ma, virtutes enim sunt secundum quas nos 
+            bene<lb ed="#R" n="97" break="no"/>habemus circa passiones: ergo virtus non potest 
+            <lb ed="#R" n="98"/>esse qualitas media constituta inter extremas 
+            ha<lb ed="#R" n="99" break="no"/>bilitates, sicut aliquid eiusdem generis, &amp; 
+            coor<lb ed="#R" n="100" break="no"/>dinationis. 
+          </p>
+          <p xml:id="paqqap-a40469-d1e488">
+            <lb ed="#R" n="101"/>Secundo sic: Habilitas media inter habilitates, 
+            <lb ed="#R" n="102"/>quae inclinant ad passiones extremas semper 
+            incli<lb ed="#R" n="103" break="no"/>nant ad medium rei, ad passiones scilicet 
+            existen<lb ed="#R" n="104" break="no"/>tes in medio secundum rem passionum extremarum, 
+            <lb ed="#R" n="105"/>numquam autem inclinat ad extremas passiones, 
+            <lb ed="#R" n="106"/>secundum, rem: quod patet: tum quia actus 
+            proportio<lb ed="#R" n="107" break="no"/>nantur suo principio, &amp; per consequens habilitas 
+            <lb ed="#R" n="108"/>media secundum rem non inclinabit nisi ad 
+            passio<lb ed="#R" n="109" break="no"/>nes medias secundum rem: tum quia videmus, quod 
+            <lb ed="#R" n="110"/>tepidum non calefacit in summo, nec infrigidat, 
+            <lb ed="#R" n="111"/>sed medio modo semper immutat, nec rubeum 
+            <lb ed="#R" n="112"/>congregat, aut disgregat in extremo, sed semper 
+            <lb ed="#R" n="113"/>medio modo mouet. Nunc autem virtus in 
+            appe<lb ed="#R" n="114" break="no"/>titu sensitiuo existens non inclinat ad medium rei, 
+            <lb ed="#R" n="115"/>sed ad medium rationis, quod aliquando 
+            contin<lb ed="#R" n="116" break="no"/>git esse extremum secundum rem: quia secundum 
+            <lb ed="#R" n="117"/>rectam rationem decet aliquando hominem 
+            mul<lb ed="#R" n="118" break="no"/>tum irasci, aliquando parum, aliquando nihil, &amp; 
+            <lb ed="#R" n="119"/>vniuersaliter tam extremum, quam medium 
+            se<lb ed="#R" n="120" break="no"/>cundum rem in passionibus secundum diuersa 
+            tem<lb ed="#R" n="121" break="no"/>pora, fines, &amp; causas prudens determinat 
+            eligen<lb ed="#R" n="122" break="no"/>dum, ac per consequens virtus obedientialis, quae 
+            <lb ed="#R" n="123"/>est in appetitu sensitiuo sequens medium, &amp; 
+            indiui<lb ed="#R" n="124" break="no"/>duum rationis, aliquando inclinat ad extremas 
+            <!--0125.xml-->
+            <pb ed="#P" n="125"/>
+            <cb ed="#R" n="a"/>
+            <lb ed="#R" n="1"/>passioner feuudum rem cergo habilituis qui est 
+            <lb ed="#R" n="2"/>media inter habilitates inclinames ad extremas 
+            <lb ed="#R" n="3"/>pasfiumes, non potest esse rirtus, nec e codanersus 
+            <lb ed="#R" n="4"/>Tertio sic: Inclin atio, qus est aeintus, ac quiritur 
+            <lb ed="#R" n="5"/>ex actibus, &amp; assuefactione, vt patet a. Erhic. fed 
+            <lb ed="#R" n="6"/>habilitas acquisita ex actibus non est eiusdem 
+            co<lb ed="#R" n="7" break="no"/>ordinationis, nec generis eiusdem cum 
+            habilitati<lb ed="#R" n="8" break="no"/>bus illis naturalibus, quae ad extremas pasfiones 
+            <lb ed="#R" n="9"/>inclinant: nam ea, quae insunt a natura, &amp; ea, quae 
+            <lb ed="#R" n="10"/>insunt ex consuetudine, non sunt eiusdem originis, 
+            <lb ed="#R" n="11"/>vt uidetur, virtus non est habilitas media inter 
+            ex<lb ed="#R" n="12" break="no"/>tremas habilitates, aut ciusdam coordinationis 
+            <lb ed="#R" n="13"/>cum eis.
+          </p>
+          <p xml:id="paqqap-a40469-d1e577">
+            <lb ed="#R" n="14"/>Quarto sic: Virtus est qualitas media intur 
+            ma<lb ed="#R" n="15" break="no"/>litias extremas, qui sunt habitus vitiosam: sed 
+            habi<lb ed="#R" n="16" break="no"/>litates, quae sunt ad passiones extremas, non sunt 
+            <lb ed="#R" n="17"/>malitiae, nec habitus vitiosi, cum tales habilitates 
+            <lb ed="#R" n="18"/>a natura non possent inesse, &amp; quibusdam insunt, 
+            <lb ed="#R" n="19"/>malitiae autem nou insunt a natura, vt patet a. Ech. 
+            <lb ed="#R" n="20"/>In his enim, quae a natura insunt, nec laudamur, nec 
+            <lb ed="#R" n="21"/>vituperamur, vt dicitur in tertio: ergo virtus non 
+            <lb ed="#R" n="22"/>potest esse habilitas media inter habilitatos 
+            extre<lb ed="#R" n="23" break="no"/>mas. &amp; c. 
+          </p>
+          <p xml:id="paqqap-a40469-d1e601">
+            <lb ed="#R" n="24"/>Sed his non obstantibus dicendum est illud, quod 
+            <lb ed="#R" n="25"/>prius, quod potest multipliciter declarati. 
+            <lb ed="#R" n="26"/>Primo sicr Illa qualitas, qua est sanitas 
+            appeti<lb ed="#R" n="27" break="no"/>tus, media est inter habilitates inclinantes ad 
+            pas<lb ed="#R" n="28" break="no"/>siones extremas, tales namque habilitates sunt 
+            ae<lb ed="#R" n="29" break="no"/>gritudines nostri appetitus. quod euidenter docet 
+            <lb ed="#R" n="30"/>Apostolus ad Rom. 7. qui cum in huiusmodi 
+            incli<lb ed="#R" n="31" break="no"/>nationes quas vocat legem membrorum repugnan 
+            <lb ed="#R" n="32"/>tem legi mentis nostrae, &amp; quas etiam vocat, habitans 
+            <lb ed="#R" n="33"/>in carne peccatum, &amp; malum, diu inquisiuisset, in 
+            <lb ed="#R" n="34"/>sine capituli concludit: Infoelix homo, quis me 
+            li<lb ed="#R" n="35" break="no"/>berabis de corpore mortis, per hoc innuens, quod 
+            <lb ed="#R" n="36"/>pronitates istae sunt aegritudines, quae inducunt ad 
+            <lb ed="#R" n="37"/>mortem. &amp; in fine capituli sexti dicit humanum 
+            <lb ed="#R" n="38"/>dico propter infirmitatem carnis nostrae, carnem 
+            <lb ed="#R" n="39"/>dicens infirmam propter habilitates, quibus 
+            incli<lb ed="#R" n="40" break="no"/>namur ad passiones extremas: nunc autem sanitas 
+            <lb ed="#R" n="41"/>semper est medium inter aegritudines, &amp; eiusdem 
+            <lb ed="#R" n="42"/>coordinationis cum eis; fieut patet, quod sunitas 
+            <lb ed="#R" n="43"/>corporalis consistit in media proportione 
+            humo<lb ed="#R" n="44" break="no"/>rum, exitus autem ab illa proportione in maius, 
+            <lb ed="#R" n="45"/>vel minus, &amp; ad diuersas extremitates sunt aegritu 
+            <lb ed="#R" n="46"/>dines. Sed constat, quod virtutes sunt sanitates 
+            no<lb ed="#R" n="47" break="no"/>stri appetitus. Vnde Isaias cap. 58. cum loquere⸗ 
+            <lb ed="#R" n="48"/>tuo de virtutibus, &amp; operationibus virtuosis, &amp; 
+            di<lb ed="#R" n="49" break="no"/>eeret: Dissolue colligationes impietatis, dimitte 
+            <lb ed="#R" n="50"/>eos, qui confracti sunt, liberos, frange esurienti 
+            <lb ed="#R" n="51"/>panem tium, concludit in fine, tunc erumpet quasi 
+            <lb ed="#R" n="52"/>mone lumen tuum, &amp; sanitas tua citius orietur: Peo 
+            <lb ed="#R" n="53"/>hoc ostendens, quod virtutes, quae acquiruntur ex 
+            <lb ed="#R" n="54"/>actibus sunt lumen, &amp; sanitas appetitus. 
+            Philoso<lb ed="#R" n="55" break="no"/>phus etiam 2. Ethic. dicit, quod virtutes medicinae 
+            <lb ed="#R" n="56"/>sunt: ergo virtutes sunt qualitates, medicinae, &amp; 
+            <lb ed="#R" n="57"/>habilitates moderatae existentes inter passiones 
+            <lb ed="#R" n="58"/>extremas. 
+          </p>
+          <p xml:id="paqqap-a40469-d1e679">
+            <lb ed="#R" n="59"/>Secundo sic: Illa qualitas, in qua non est 
+            directe<lb ed="#R" n="60" break="no"/>acquisitio, sed dicitur acquiri ex intentione vnius 
+            <lb ed="#R" n="61"/>extremae qualitatis, &amp; remissione alterius, est per 
+            <lb ed="#R" n="62"/>necessitatem media inter illa; sicut patet, quod ex 
+            <lb ed="#R" n="63"/>remissione vnius humoris, &amp; diminutione, &amp; inten 
+            <lb ed="#R" n="64"/>sione alterius statim sequitur qualitas media, quae 
+            <lb ed="#R" n="65"/>est sanitas, &amp; propter hoc in sanitatem non est 
+            di<lb ed="#R" n="66" break="no"/>recte motus, vt patet 7. physic: sed secundum Philo. 
+            <lb ed="#R" n="67"/>sophum ibidem in virtutes morales non est direce 
+            <lb ed="#R" n="68"/>motus, sed acquiruntur transmutatione facta niros 
+            <!--0125.xml-->
+            <cb ed="#R" n="b"/>
+            <lb ed="#R" n="69"/>passiones, per hoc, quod vna passio diminuitur, &amp; 
+            <lb ed="#R" n="70"/>alia intenditur. Vbi dicit Commentator om. I9. 
+            <lb ed="#R" n="71"/>quod virtus fit a rebus alteratis: virtus enim nod 
+            <lb ed="#R" n="72"/>est prohibitio virtuosi a receptione pasionum 
+            cor<lb ed="#R" n="73" break="no"/>poralium, aut est receptio modo terminato, &amp; 
+            quo<lb ed="#R" n="74" break="no"/>modoeumque nocesse fuerit est, vt se quatur 
+            passio<lb ed="#R" n="75" break="no"/>nem. &amp; subdit: Si autem virtutes fuerint mediae 
+            in<lb ed="#R" n="76" break="no"/>passione, sicut est verum, manifestum est, quod 
+            se<lb ed="#R" n="77" break="no"/>quatur alterationem ipsa, est passio, corruptibilis erit 
+            <lb ed="#R" n="78"/>per alterationem: &amp; concludit, quodi existentia 
+            <lb ed="#R" n="79"/>virturis perfectae necessario sequatur passionum al 
+            <lb ed="#R" n="80"/>terationem: ergo virtus non est aliud, quam 
+            quae<lb ed="#R" n="81" break="no"/>dam qualitas medians inter habilitates extremas 
+            <lb ed="#R" n="82"/>inclinantes ad passiones.
+          </p>
+          <p xml:id="paqqap-a40469-d1e739">
+            <lb ed="#R" n="83"/>Tertio sic: Illa sunt in eodem genere, &amp; 
+            contra<lb ed="#R" n="84" break="no"/>ria, quae eidem subiecto vicissim insunt, &amp; mutuo 
+            <lb ed="#R" n="85"/>se expellunt, &amp; in eodem subiecto incompossibilia 
+            <lb ed="#R" n="86"/>sunt. hoc patet, quia talia necessario sunt 
+            contra<lb ed="#R" n="87" break="no"/>ria ex definitione contrariorum, contraria autem 
+            <lb ed="#R" n="88"/>suut in eodem genere, vt patet ro. meth. sed 
+            habi<lb ed="#R" n="89" break="no"/>litates extremae, &amp; virtus sunt in eodem subiecto, 
+            <lb ed="#R" n="90"/>&amp; vicitim scilicet in appetitu sensitiuo, &amp; mutuo 
+          </p>
+          <p xml:id="paqqap-a40469-d1e759">
+            <lb ed="#R" n="91"/>se expellunt, nam in appetitu virtuoso non possunt 
+            <lb ed="#R" n="92"/>osse inclinationes, &amp; pronitates ad extrema, 
+            alio<lb ed="#R" n="93" break="no"/>quin temperatus posset esse incontinens; posset enim 
+            <lb ed="#R" n="94"/>habore inclinationem contrariam habitui 
+            tempe<lb ed="#R" n="95" break="no"/>rantiae, quod est omnino impossibile: ergo nocesse 
+            <lb ed="#R" n="96"/>est, quod virtus, &amp; habilitates extremae sint in 
+            eo<lb ed="#R" n="97" break="no"/>dem genere, &amp; in eadem coordinatione sicut 
+            for<lb ed="#R" n="98" break="no"/>mae contraria: constat autem, quod non sunt 
+            con<lb ed="#R" n="99" break="no"/>trariae, sicut extrema contrarietatis, immo ralis 
+            <lb ed="#R" n="100"/>est contrarietas ipsorum habituum, qui sunt ad 
+            ex<lb ed="#R" n="101" break="no"/>tremas passiones: relinquitur ergo, quod sint 
+            con<lb ed="#R" n="102" break="no"/>traria, sicut medium contrariatur extremis. 
+          </p>
+          <p xml:id="paqqap-a40469-d1e788">
+            <lb ed="#R" n="103"/>Quarto sic, &amp; est confirmatio praecedentis, 
+            Im<lb ed="#R" n="104" break="no"/>possibile est inter duas qualitates, quae sunt 
+            extre<lb ed="#R" n="105" break="no"/>ma contrarietatis infra aliquod genus, reperiri nisi 
+            <lb ed="#R" n="106"/>vnam mediam qualitatem inaequari statim ad illas 
+            <lb ed="#R" n="107"/>quamuis enim inter albedinem, &amp; nigredinem 
+            pos<lb ed="#R" n="108" break="no"/>sent esse diuersi colores medij fecundum diuersos 
+            <lb ed="#R" n="109"/>gradus distantiae, in eodem tamen gradu est 
+            im<lb ed="#R" n="110" break="no"/>possibile, quod reperiatur, nisi vna species coloris: 
+            <lb ed="#R" n="111"/>sed inter habilitates extremas inclinantes ad 
+            pas<lb ed="#R" n="112" break="no"/>sion s reperitur virtus, vt tenens medium inclinan 
+            <lb ed="#R" n="113"/>do, constat autem, quod habilitas media inter 
+            ha<lb ed="#R" n="114" break="no"/>bilitates extremas tenet etiam medium 
+            inclinan<lb ed="#R" n="115" break="no"/>do: ergo non potest poni, quod virtus, &amp; illa habij 
+            <lb ed="#R" n="116"/>litas sint duae res, aut duae qualitates, alioquin 
+            e<lb ed="#R" n="117" break="no"/>runt duo media inaequalia, &amp; extrema contraria, 
+            <lb ed="#R" n="118"/>quod est impossibile. 
+          </p>
+          <p xml:id="paqqap-a40469-d1e825">
+            <lb ed="#R" n="119"/>Si dicatur, quod medium, ad quod incliuat 
+            vir<lb ed="#R" n="120" break="no"/>tus, &amp; talis habilitas, non est idem; quod alterum 
+            <lb ed="#R" n="121"/>est medium rei, &amp; alterum medium rationis, 
+            non<lb ed="#R" n="122" break="no"/>valet: quia medium rationis, quod accipitur secun 
+            <lb ed="#R" n="123"/>dum debitas circumstantias, quando videlicet opor 
+            <lb ed="#R" n="124"/>tet, &amp; sicut &amp; quantum, est aliqualiter medium 
+            se<lb ed="#R" n="125" break="no"/>cundum rem: nam habilitates extremae inclinant 
+            <lb ed="#R" n="126"/>ad passiones, &amp; quando non oportet, &amp; plusquam 
+            <lb ed="#R" n="127"/>oportet. Et ita patet, quod habilitas media inclinat 
+            <lb ed="#R" n="128"/>ad idem medium, ad quod extrema, cum 
+            habilita<lb ed="#R" n="129" break="no"/>tes extremae inclinando exeant a medio virtutis. 
+          </p>
+          <p xml:id="paqqap-a40469-d1e851">
+            <lb ed="#R" n="130"/>Quinto sic: virtus generatur in appetitu 
+            sensiti<lb ed="#R" n="131" break="no"/>uo ex passionibus mediis recta ratioue regulatis, 
+            <lb ed="#R" n="132"/>vt patet 7. physic. &amp; 2. Ethic. Sed constat, quod 
+            <lb ed="#R" n="133"/>passiones huiusmodi regulate, &amp; ad medium 
+            reda<lb ed="#R" n="134" break="no"/>ctae extremas habilitates diminuunt, &amp; mediam 
+            <lb ed="#R" n="135"/>habititatem inducunt; quod ex actibus similibus 
+            <lb ed="#R" n="136"/>dispositiones similes relinquuatur in subiector ex 
+            <!--0126.xml-->
+            <pb ed="#P" n="126"/>
+            <cb ed="#R" n="a"/>
+            <lb ed="#R" n="1"/>extremis quidem extremae, &amp; ex medijs mediae: 
+            <lb ed="#R" n="2"/>ergo habilitas media, quae generatur ex 
+            pasioni<lb ed="#R" n="3" break="no"/>bus medijs in appetitu sensitiuo, non erit aliud, quam 
+            <lb ed="#R" n="4"/>virtus exponens, &amp; inclinans postmodum appeti⸗ 
+            <lb ed="#R" n="5"/>tum ad consimiles passiones. 
+          </p>
+          <p xml:id="paqqap-a40469-d1e886">
+            <lb ed="#R" n="6"/>Non procedunt ergo rationes, quibus probatur 
+            <lb ed="#R" n="7"/>oppositum. 
+          </p>
+          <p xml:id="paqqap-a40469-d1e894">
+            <lb ed="#R" n="8"/>Prima siquidem non, quoniam nihil prohibet eã- 
+            <lb ed="#R" n="9"/>dem qualitatem secundum rem in diuersis 
+            specie<lb ed="#R" n="10" break="no"/>bus, secundum aliam, &amp; aliam rationem, vt decla 
+            <lb ed="#R" n="11"/>ratur in quastione de practico, &amp; speculatiuo, &amp; in 
+            <lb ed="#R" n="12"/>illa, qua quaeritur, an virtus sit ens per accidens. 
+            <lb ed="#R" n="13"/>Vnde huiusmodi habilitates possunt considerari 
+            ab<lb ed="#R" n="14" break="no"/>solute, prout sunt quaedam formae, &amp; passiones exi 
+            <lb ed="#R" n="15"/>stentes subiectine in appetitu, &amp; sic nihil prohibet 
+            <lb ed="#R" n="16"/>eas poni in tertia specie qualitatis, sicut &amp; actus 
+            <lb ed="#R" n="17"/>earum, quae proprie appellantur passiones: vel pos- 
+          </p>
+          <p xml:id="paqqap-a40469-d1e918">
+            <lb ed="#R" n="18"/>sent considerari, prout induunt conceptum copula 
+            <lb ed="#R" n="19"/>tum respectui principij ad facile patiendum, vel 
+            fa<lb ed="#R" n="20" break="no"/>ciendum, &amp; sic ponuntur in secunda specie, &amp; appel 
+            <lb ed="#R" n="21"/>lantur potentiae, quia secundum eas faciliter, vel 
+            <lb ed="#R" n="22"/>difficulter appetitus potest moueri, vt patet a. Eth. 
+            <lb ed="#R" n="23"/>Vel possunt considerari, vt induunt conceptum 
+            co<lb ed="#R" n="24" break="no"/>pulatum respectui congruentiae, vel incongruentis 
+            <lb ed="#R" n="25"/>ad rectam rationem, vt scilicet sunt principium 
+            <lb ed="#R" n="26"/>actus secundum bene, vel male, &amp; sic pertinent ad 
+            <lb ed="#R" n="27"/>primam speciem qualitatis. habilitas igitur media 
+            <lb ed="#R" n="28"/>proportionaliter est in eodem genere qualitatis ad 
+            <lb ed="#R" n="29"/>habilitates extremas secundum triplicem 
+            conside<lb ed="#R" n="30" break="no"/>rationem praedictam.
+          </p>
+          <p xml:id="paqqap-a40469-d1e949">
+            <lb ed="#R" n="31"/>Secunda etiam non procedit: habilitates enim 
+            <lb ed="#R" n="32"/>istae, cum sint in appetitu senfitiuo, qui mouetur ab 
+            <lb ed="#R" n="33"/>obiecto, non elicit actum suum actiue, oportet esse 
+            <lb ed="#R" n="34"/>dispositiones inclinantes non quidem actiue, sed 
+            <lb ed="#R" n="35"/>tantum passiue, eo modo, quo leuitas in sphaera 
+            <lb ed="#R" n="36"/>inclinat ipsam ad facile mouendum: nunc autem 
+            <lb ed="#R" n="37"/>sic est, quod medium facillime trahitur ad 
+            extre<lb ed="#R" n="38" break="no"/>ma, &amp; ideo appetitus, qui existens sub 
+            habilitate<lb ed="#R" n="39" break="no"/>extrema ad iram cum difficultate mitesceret, &amp; 
+            <lb ed="#R" n="40"/>traheretur ad virtutem, &amp; similiter e conuerso 
+            exi<lb ed="#R" n="41" break="no"/>stens sub habilitate media faciliter traheretur ad 
+            <lb ed="#R" n="42"/>vtrumque. Et ratio huius est medium; &amp; si 
+            sepa<lb ed="#R" n="43" break="no"/>retur in actu ab vtroque extremorum, tamen vtrũ- 
+            <lb ed="#R" n="44"/>que est in virtute, &amp; quanto magis reducitur ad 
+            <lb ed="#R" n="45"/>medium, tanto facilius trahetur ad extremum. 
+            <lb ed="#R" n="46"/>Videmus enim, quod medium, quod non habet 
+            <lb ed="#R" n="47"/>sensibilem actum, nec calefacit sensibiliter, aut 
+            pa<lb ed="#R" n="48" break="no"/>rum mouet.
+          </p>
+          <p xml:id="paqqap-a40469-d1e991">
+            <lb ed="#R" n="49"/>Ad propositum ergo dicendum, quod habilitas 
+            <lb ed="#R" n="50"/>media existens in appetitu sensitiuo diponit ipsum 
+            <lb ed="#R" n="51"/>vt faciliter trahatur ad extrema passionum, &amp; ad 
+            <lb ed="#R" n="52"/>quemcumque gradum, prout erit a ratione 
+            dicta<lb ed="#R" n="53" break="no"/>tum, &amp; in hoc consistit medium rationis, non incli 
+            <lb ed="#R" n="54"/>nat autem sensibiliter, aut motum facit ad aliquem 
+            <lb ed="#R" n="55"/>gradum passionis, sed quanto se habet magis 
+            in<lb ed="#R" n="56" break="no"/>differenter, &amp; quanto dispositio illa magis 
+            consi<lb ed="#R" n="57" break="no"/>stit in medio, tanto appetitus est magis obediens 
+            <lb ed="#R" n="58"/>rationi, &amp; minus rebellans; propter quod talis 
+            ha<lb ed="#R" n="59" break="no"/>bilitas est virtus obedientialis secundum Commen 
+            <lb ed="#R" n="60"/>tatorem 1. Ethic. in fine. &amp; propter huius 
+            seque<lb ed="#R" n="61" break="no"/>strationem appetitus a rebellione, quam facit haec 
+            <lb ed="#R" n="62"/>qualitas, Stoici putauerunt virtutem esse 
+            impossi<lb ed="#R" n="63" break="no"/>bilem, non est autem secundum magis mediocritas 
+            <lb ed="#R" n="64"/>vt supra visum est ex dicto Commentatoris com. 19. 
+          </p>
+          <p xml:id="paqqap-a40469-d1e1028">
+            <lb ed="#R" n="65"/>Non procedit etiam tertia: quia modi acquiren 
+            <lb ed="#R" n="66"/>di non diuersificant speciem, vnde non est 
+            inconue<lb ed="#R" n="67" break="no"/>niens qualitatem illam, quae acquiritur ex 
+            consue<lb ed="#R" n="68" break="no"/>tudine esse eiusdem generis, &amp; coordinationis cum 
+            <!--0126.xml-->
+            <cb ed="#R" n="b"/>
+            <lb ed="#R" n="69"/>habi litatibus illis extremis, quae insero homi 
+            <lb ed="#R" n="70"/>a uatura praecipue quid confuetudo ust altema 
+            mttu<lb ed="#R" n="71" break="no"/>ra ex 7 Ethic. Et quia actus, qui sequuntue 
+            intuli<lb ed="#R" n="72" break="no"/>tates, sunt apti nati intendere habilitateriium; aut 
+            <lb ed="#R" n="73"/>diminuere, sicut apparet in iracundis naturaliter, 
+            <lb ed="#R" n="74"/>qui finnt iracundiores, vel minus iracundi ex assue 
+            <lb ed="#R" n="75"/>factione. 
+          </p>
+          <p xml:id="paqqap-a40469-d1e1059">
+            <lb ed="#R" n="76"/>Non procedit etiam quarta; nam habilitater 
+            <lb ed="#R" n="77"/>extremae non habent rationem habitus vitiosis hisi 
+            <lb ed="#R" n="78"/>prout induunt conceptum copulatum respectui 
+            in<lb ed="#R" n="79" break="no"/>congruentiae ad rectam rationem: licet. ergo siut 
+            <lb ed="#R" n="80"/>quaedam vitia naturalia, prout insunt anatura, &amp; 
+            <lb ed="#R" n="81"/>rationem praeueniunt, non tamen sunt vitia 
+            mor<lb ed="#R" n="82" break="no"/>talia, nisi prout accedit consensus rationis.
+          </p>
+          <p xml:id="paqqap-a40469-d1e1078">
+            <lb ed="#R" n="83"/>Et consimiliter dicendum de habilitate media, 
+            <lb ed="#R" n="84"/>quod si aliquis habet eam a natura, non erit rirtus 
+            <lb ed="#R" n="85"/>principalis siue moralis, sed tantum naturalis; 
+            ad<lb ed="#R" n="86" break="no"/>ueniente tamen vsu, &amp; concordia rationis efficitur 
+            <lb ed="#R" n="87"/>virtus moralis, vt Philosophus dicit 6. Ethic. &amp; 
+            a<lb ed="#R" n="88" break="no"/>magnorum moral. &amp; magis infra patebit, &amp; ita 
+            con<lb ed="#R" n="89" break="no"/>formiter habilitates extremae sunt malitiae 
+            morales<lb ed="#R" n="90" break="no"/>aut vitia, nec alia habilitas media est virtus 
+            mora<lb ed="#R" n="91" break="no"/>lis, seu naturalis. 
+          </p>
+        </div>
+        <div xml:id="paqqap-a40469-Dd1e1102">
+          <head xml:id="paqqap-a40469-Hd1e1104">Articulus 2</head>
+          <p xml:id="paqqap-a40469-d1e1106">
+            <lb ed="#R" n="92"/>ARTICVLVS II. 
+            <lb ed="#R" n="93"/>Qualiter se habent extremae habilitates in cirtute, 
+            <lb ed="#R" n="94"/>Ad quae mediat inter eas.
+          </p>
+          <p xml:id="paqqap-a40469-d1e1115">
+            <lb ed="#R" n="95"/>Jrca secundum vero, an scilicet, ista qualitas 
+            <lb ed="#R" n="96"/>media concipiat aliquid de realitatibus 
+            ex<lb ed="#R" n="97" break="no"/>tremarum habilitatum, non quidem in actu, &amp; 
+            di<lb ed="#R" n="98" break="no"/>stincte in aliquo gradu, sed in virtute, &amp; amota 
+            di<lb ed="#R" n="99" break="no"/>stinctione; sicut &amp; caterae formae mediae dicuntur 
+            <lb ed="#R" n="100"/>conflari, &amp; constitui ex extremis, patet, quid 
+            dicen<lb ed="#R" n="101" break="no"/>dum ex quaestione infra posita de formis miscibili⸗- 
+            <lb ed="#R" n="102"/>bus, qualiter iunt in mixto. 
+          </p>
+        </div>
+        <div xml:id="paqqap-a40469-Dd1e1136">
+          <head xml:id="paqqap-a40469-Hd1e1138">Articulus 3</head>
+          <p xml:id="paqqap-a40469-d1e1140">
+            <lb ed="#R" n="103"/>ARTJCVLVSIII. 
+            <lb ed="#R" n="104"/>An uirtus moralis posset transire in uirtutem 
+            <lb ed="#R" n="105"/>moralem.
+          </p>
+          <p xml:id="paqqap-a40469-d1e1149">
+            <lb ed="#R" n="106"/>CIrca tertium vero: an scilicet, talis qualitas, vel 
+            <lb ed="#R" n="107"/>Ahabilitas media possit inesse a natura, &amp; dato 
+            <lb ed="#R" n="108"/>quod insit, an induat rationem virtutis moralis, 
+            ad<lb ed="#R" n="109" break="no"/>ueniente sola prudentia, &amp; rectitudine rationis, nul 
+            <lb ed="#R" n="110"/>la alia mutatione facta in ea, vel facta aditione, vel 
+            <lb ed="#R" n="111"/>diminutione ex consuetudine, si contingat illam decli 
+            <lb ed="#R" n="112"/>nare ad alterum extremorum, &amp; nullo modo aliqua ha 
+            <lb ed="#R" n="113"/>bilitas, quae insit a natura, possit fieri virtus, dubium est.
+          </p>
+          <p xml:id="paqqap-a40469-d1e1169">
+            <lb ed="#R" n="114"/>Videtur enim, quod realitas virtutis totaliter 
+            ge<lb ed="#R" n="115" break="no"/>neretur ex actibus, &amp; nihil, quod insit a natura, trã- 
+            <lb ed="#R" n="116"/>seat in virtutem, quia diuersa efficientia, &amp; diuersae 
+            <lb ed="#R" n="117"/>causae inducunt diuersos effectus: sed natura, &amp; 
+            con<lb ed="#R" n="118" break="no"/>suetudo sunt diuersae causae, &amp; alterius rationis: 
+            er<lb ed="#R" n="119" break="no"/>go realitates habituum, quae per consuetudiuem 
+            ac<lb ed="#R" n="120" break="no"/>quiruntur, &amp; sunt alterius rationis a quibuscumque 
+            <lb ed="#R" n="121"/>realitatibus, quae insunt a natura: non igitur 
+            man<lb ed="#R" n="122" break="no"/>suetudo, ac liberalitas naturalis, quae inest 
+            aliqui<lb ed="#R" n="123" break="no"/>bus hominibus, a tota completione potest transire 
+            <lb ed="#R" n="124"/>in mansuetudinem, aut liberalitatem moralem, fed 
+            <lb ed="#R" n="125"/>differunt omnino realiter. 
+          </p>
+          <p xml:id="paqqap-a40469-d1e1198">
+            <lb ed="#R" n="126"/>Praeterea: inclinationes distinguuntur penes for 
+            <lb ed="#R" n="127"/>males rationes eorum, ad quae inclinant: sed 
+            man<lb ed="#R" n="128" break="no"/>suetudo, clementia, &amp; liberalitas complexionalis 
+            <lb ed="#R" n="129"/>inclinant ad actus, quatenus sunt delectabiles secun 
+            <lb ed="#R" n="130"/>dum complexionem, &amp; appetitum, &amp; sensitiuam 
+            <lb ed="#R" n="131"/>apprehensionem; virtutes autem morales, quae sunt 
+            <lb ed="#R" n="132"/>mansuetudo, clementia, liberalitas, inclinant ad actus 
+            <lb ed="#R" n="133"/>prout sunt delectabiles secundum rectam rationem; 
+            <!--0127.xml-->
+            <pb ed="#P" n="127"/>
+            <cb ed="#R" n="a"/>
+            <lb ed="#R" n="1"/>inclitati autem ad aliquid, prout est conneniens ra 
+            <lb ed="#R" n="2"/>tioni, &amp; inclinari ad idem, prout est- conueniens 
+            <lb ed="#R" n="3"/>sensui, &amp; complexioni, est formaliter diuersum, 
+            <lb ed="#R" n="4"/>q alterius rationis: igitur nullo mondo haec 
+            inclina<lb ed="#R" n="5" break="no"/>tio, &amp; illa possent esse idem realiter. 
+            <lb ed="#R" n="6"/>Praeterea: Indiuisiones oppositae non ineidunt in 
+            <lb ed="#R" n="7"/>idem realiter: sed liberalitas complexionalis 
+            op<lb ed="#R" n="8" break="no"/>ponitur liberalitati morali, quando enim recta 
+            ra<lb ed="#R" n="9" break="no"/>tio dictat non dandum, &amp; moralis liberalitas inclinat 
+            <lb ed="#R" n="10"/>per consequens ad non dandum, &amp; tamen 
+            quan<lb ed="#R" n="11" break="no"/>tum est ex complexione, &amp; ex assuefactione, 
+            vi<lb ed="#R" n="12" break="no"/>dentur realiter differre hae duae liberalitates, &amp; 
+            <lb ed="#R" n="13"/>per consequens naturalis habilitas non fit virtus 
+            <lb ed="#R" n="14"/>moralis.
+          </p>
+          <p xml:id="paqqap-a40469-d1e1256">
+            <lb ed="#R" n="15"/>Sed istis non obstantibus dicendum cum 
+            Phy<lb ed="#R" n="16" break="no"/>losopho, quod habilitates mediae naturales induunt 
+            <lb ed="#R" n="17"/>rationem virtutis sola prudentia, &amp; solo vsu 
+            acqui<lb ed="#R" n="18" break="no"/>sito in intellectu: habilitates etiam extremae per 
+            di<lb ed="#R" n="19" break="no"/>minutionem, &amp; additionem ad medium reductae 
+            <lb ed="#R" n="20"/>induunt etiam rationem virtutis moralis, per hoc 
+            <lb ed="#R" n="21"/>quod efficiuntur congruentes rectae rationi. haec 
+            <lb ed="#R" n="22"/>autem est mens Phylosophi in 2. moral. qui sic 
+            di<lb ed="#R" n="23" break="no"/>cit, non sicut putant aliqui ratio dux est, &amp; 
+            prin<lb ed="#R" n="24" break="no"/>cipium virtutis, sed magis passiones; oportet enim 
+            <lb ed="#R" n="25"/>ad bonum quendam motum irrationalem primum 
+            <lb ed="#R" n="26"/>fieri, deinde rationem fecundum posterius 
+            fuper<lb ed="#R" n="27" break="no"/>uenientem esse discernentem. Videbit autem vtique 
+            <lb ed="#R" n="28"/>quis hoc ex prauis absque ratione viuentibus. In 
+            <lb ed="#R" n="29"/>his enim absque ratione fiunt motus passionum, 
+            <lb ed="#R" n="30"/>ad bonum prius, deinde ratio posterius 
+            superue<lb ed="#R" n="31" break="no"/>niens, &amp; connumerator existens facit operari 
+            bo<lb ed="#R" n="32" break="no"/>pa, propter quod magis principium videtur. ad 
+            <lb ed="#R" n="33"/>virtutem passio bene disposita quam ratio. hoc 
+            <lb ed="#R" n="34"/>Phylosophus. Ex quibus patet, quod illa 
+            melina<lb ed="#R" n="35" break="no"/>tio, quae est ad bonum absque ratione, in prauis 
+            <lb ed="#R" n="36"/>soeundum ipsum fit virtus moralis sola ratione, &amp; 
+            <lb ed="#R" n="37"/>prudentia superuemente por modum cuiusdam 
+            <lb ed="#R" n="38"/>copnumeratoris, &amp; dirigentis.
+          </p>
+          <p xml:id="paqqap-a40469-d1e1311">
+            <lb ed="#R" n="39"/>Similiter idem patet ex 6. Ethic. vbi mouet hanc 
+            <lb ed="#R" n="40"/>quaestionem: ait enim, quod omnibus videntur 
+            in<lb ed="#R" n="41" break="no"/>existere virtutes aliqualiter a natura; etehim iusti, 
+            <lb ed="#R" n="42"/>&amp; temperati &amp; fortes, &amp; alia habemus confestim 
+            <lb ed="#R" n="43"/>a natiuitate. &amp; infra. Si autem accipiat 
+            intelle<lb ed="#R" n="44" break="no"/>ctum in operari, differt, habitus enim similis 
+            exi<lb ed="#R" n="45" break="no"/>stens tunc erit proprie virtus, &amp; conensudis quod, 
+            <lb ed="#R" n="46"/>cum sint duae virtutes, vna naturalis, &amp; alia 
+            prin<lb ed="#R" n="47" break="no"/>cipalis fiue moralis, moralis non fit sine 
+            pruden<lb ed="#R" n="48" break="no"/>tia. Ex quo patet, quod est de mente sua, quod 
+            <lb ed="#R" n="49"/>virtus naturalis solo intellectu adueniente, 
+            tan<lb ed="#R" n="50" break="no"/>quam directore, &amp; connumeratore efficitur 
+            vir<lb ed="#R" n="51" break="no"/>
+            <!-- line coord error -->
+            <lb ed="#R" n="52"/>tus moralis. 
+          </p>
+          <p xml:id="paqqap-a40469-d1e1346">
+            <lb ed="#R" n="53"/>Ratione etiam idem patet. Est enim punctus 
+            <lb ed="#R" n="54"/>Inquisitionis, an habilitas media possit esse 
+            imme<lb ed="#R" n="55" break="no"/>diatum fundamentum partiale eo modo, quo dictum 
+            <lb ed="#R" n="56"/>est in quaestione praecedenti respectu congruentiae 
+            <lb ed="#R" n="57"/>ad rectam rationem, vel exigatur aliqua alia 
+            rea<lb ed="#R" n="58" break="no"/>litas absoluta acquisita ex actibus, super qua 
+            fun<lb ed="#R" n="59" break="no"/>detur talis respectus, &amp; sic intelligendo; dicendum, 
+            <lb ed="#R" n="60"/>quod talis habilitas media, si insit alicui a natura, 
+            <lb ed="#R" n="61"/>solo vsu adueniente in intellectu, aut habilitas 
+            incli<lb ed="#R" n="62" break="no"/>natione acquisita per consuetudinem in voluntate 
+            <lb ed="#R" n="63"/>induit rationem virtutis, aut saltem transibit per 
+            <lb ed="#R" n="64"/>intensionem, vel remissionem, si declinet ad 
+            al<lb ed="#R" n="65" break="no"/>terum extremorum. Hoc autem patet, quia si 
+            re<lb ed="#R" n="66" break="no"/>quireretur alia qualitas, &amp; habilitas media in 
+            ap<lb ed="#R" n="67" break="no"/>petitu distincta a priori, aut oporteret poni aliam 
+            <lb ed="#R" n="68"/>propter modum acquirendi, quia illa secunda 
+            na<lb ed="#R" n="69" break="no"/>tura, ista vero ex actibus, aut propter modum obe- 
+            <!--0127.xml-->
+            <cb ed="#R" n="b"/>
+            <lb ed="#R" n="70"/>diendi, quia seilicet illa facit obedire appetitum 
+            <lb ed="#R" n="71"/>apprehensioni naturali, hac autem apprehensioni 
+            <lb ed="#R" n="72"/>rationali, aut post discursum.
+          </p>
+          <p xml:id="paqqap-a40469-d1e1396">
+            <lb ed="#R" n="73"/>Sed primum non impedit, tum quia modus 
+            <lb ed="#R" n="74"/>inexistendi a natura, vel per acquisitionem, non 
+            va<lb ed="#R" n="75" break="no"/>riat speciem, quia consuetudo est altera natura; 
+            <lb ed="#R" n="76"/>tum quia actus procedentes ex habilitate naturali 
+            <lb ed="#R" n="77"/>prioremshabilitatem intendunt, &amp; constat quod 
+            <lb ed="#R" n="78"/>Vrtutem generant: ergo habilitas prior sit virtus. 
+          </p>
+          <p xml:id="paqqap-a40469-d1e1412">
+            <lb ed="#R" n="79"/>Secundum etiam non impedit, quia 
+            apprehen<lb ed="#R" n="80" break="no"/>sio intellectus componentis, qui non mouer, 
+            eius<lb ed="#R" n="81" break="no"/>dem rationis est in mouendo, siue insit intellectui 
+            <lb ed="#R" n="82"/>practico, subito, &amp; sine consilio, siue insit eidem per 
+            <lb ed="#R" n="83"/>consisium, &amp; discursum, sicut patet 3. Ethic. quod 
+            <lb ed="#R" n="84"/>virtus maxime apparet in repentinis; &amp; ita eadem 
+            <lb ed="#R" n="85"/>habilitas, quae reddebat appetitum obedientem 
+            <lb ed="#R" n="86"/>operationi intellectus practici discursiue, &amp; 
+            iudi<lb ed="#R" n="87" break="no"/>cio conciliatiuo. Et ideo Phylosophus dicit, quod 
+            <lb ed="#R" n="88"/>ratio superueniens sit connumerator passionis: 
+            er<lb ed="#R" n="89" break="no"/>go non apparet, quare habilitas naturalis non 
+            pos<lb ed="#R" n="90" break="no"/>sit transire in rationem virtutis.
+          </p>
+          <p xml:id="paqqap-a40469-d1e1441">
+            <lb ed="#R" n="91"/>Confirmatur, tum quia habilitates extremae 
+            in<lb ed="#R" n="92" break="no"/>duunt rationem vitij adueniente consensu 
+            habi<lb ed="#R" n="93" break="no"/>tuato in voluntate, &amp; iudicio imprudentiae in 
+            in<lb ed="#R" n="94" break="no"/>tellectu. Tum quia ostensum est supra, quod 
+            vir<lb ed="#R" n="95" break="no"/>tus est habilitas media inter habilitates 
+            extretna<lb ed="#R" n="96" break="no"/>rum passionum, &amp; per consequens sicut illae 
+            pos<lb ed="#R" n="97" break="no"/>sunt induere rationem incongruentiae, &amp; transire 
+            <lb ed="#R" n="98"/>in rationem vitij, sic &amp; habilitas media, si insit a 
+            <lb ed="#R" n="99"/>natura, rationem virtutis.
+          </p>
+          <p xml:id="paqqap-a40469-d1e1464">
+            <lb ed="#R" n="100"/>Et iterum sequeretur, quod in eodem appetitu 
+            <lb ed="#R" n="101"/>essent duae habilitates mediae aeque distantes ab 
+            <lb ed="#R" n="102"/>cidem extremis, quod ostensum est supra 
+            impossi<lb ed="#R" n="103" break="no"/>bile fore.
+          </p>
+          <p xml:id="paqqap-a40469-d1e1475">
+            <lb ed="#R" n="104"/>Non procedunt etiam rationes superius 
+            in<lb ed="#R" n="105" break="no"/>ductae.
+          </p>
+          <p xml:id="paqqap-a40469-d1e1482">
+            <lb ed="#R" n="106"/>Prima quidem Ratio, non, quia in habilitatibus 
+            <lb ed="#R" n="107"/>&amp; actibus est reciprocatio, nam habilitates sunt 
+            <lb ed="#R" n="108"/>principium actuum, &amp; actus ipsi qualitates 
+            habi<lb ed="#R" n="109" break="no"/>ntates generant, &amp; intendunt, &amp; quia habilitates, 
+            <lb ed="#R" n="110"/>quae in sunt a natura ad consimiles actus, inclinant 
+            <lb ed="#R" n="111"/>illis ex quibus fit, imo in quibus consistit 
+            consue<lb ed="#R" n="112" break="no"/>tudo. Idcirco consuetudo ipsa habilitatem 
+            eius<lb ed="#R" n="113" break="no"/>dem rationis potest causare cum illa habilitate, 
+            <lb ed="#R" n="114"/>quae est a natura. 
+          </p>
+          <p xml:id="paqqap-a40469-d1e1504">
+            <lb ed="#R" n="115"/>Ad secundam dicendum, quod habilitas 
+            natu<lb ed="#R" n="116" break="no"/>ralis inelitut ad actum sub rutione boni congruen 
+            <lb ed="#R" n="117"/>tis naturae hominis secundum dictamen intellecus 
+            <lb ed="#R" n="118"/>practici, quo mouet appetitum sine discursu siue, 
+            <lb ed="#R" n="119"/>consilio, virtus vero ad idem iudicandum post 
+            <lb ed="#R" n="120"/>consilium, &amp; discursum: &amp; ita patet, quod bonum 
+            <lb ed="#R" n="121"/>rationis vnum, &amp; idem est, quia discursus primus, 
+            <lb ed="#R" n="122"/>vel non primus non facit varlationem, dum tamen 
+            <lb ed="#R" n="123"/>in fine sit idem iudicatum. 
+          </p>
+          <p xml:id="paqqap-a40469-d1e1526">
+            <lb ed="#R" n="124"/>Ad tertiam dicendum, quod inclinatio gatura 
+            <lb ed="#R" n="125"/>lis pro tanto est inclinationi virtutum opposita 
+            <lb ed="#R" n="126"/>pro quanto declinat ad alterum extremum, &amp; 
+            pro<lb ed="#R" n="127" break="no"/>pter hoc talis non est perfecte media, &amp; ideo si 
+            pe<lb ed="#R" n="128" break="no"/>beat induere rationem virtutis, oportet quod per 
+            <lb ed="#R" n="129"/>actus consuetudinis naturalis, ad medium 
+            redu<lb ed="#R" n="130" break="no"/>catur. 
+          </p>
+          <p xml:id="paqqap-a40469-d1e1544">
+            <lb ed="#R" n="131"/>Ad argumenta principalia dicendum. 
+          </p>
+          <p xml:id="paqqap-a40469-d1e1550">
+            <lb ed="#R" n="132"/>Ad primum quidem, quod habilitates extremae 
+            <lb ed="#R" n="133"/>&amp; virtus sunt in eadem specie, eo modo quo supra 
+            <lb ed="#R" n="134"/>dictum est. 
+          </p>
+          <p xml:id="paqqap-a40469-d1e1559">
+            <lb ed="#R" n="135"/>Ad secundum dicendum, quod extrema non 
+            re<lb ed="#R" n="136" break="no"/>manent in forma media in actu aliquo intenso, vel 
+            <lb ed="#R" n="137"/>remisso, sed secundum aliquid realitatis suae, amis- 
+            <!--0128.xml-->
+            <pb ed="#P" n="128"/>
+            <cb ed="#R" n="a"/>
+            <lb ed="#R" n="1"/>sa terminatione, v ditfaratur in quistionadi⸗ 
+            <lb ed="#R" n="2"/>sormis miscibilibus, vnde sunt ibi in vinure sius 
+            <lb ed="#R" n="3"/>in esse medio inter purum acum, &amp; puraur 
+            poten<lb ed="#R" n="4" break="no"/>tem, vt declaratur ibidem. 
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

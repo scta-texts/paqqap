@@ -1,0 +1,1056 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quodlibetum 16</title>
+        <author ref="#Aureoli">Petrus Aureolus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quodlibetum 16</title>
+          <date when="2022-12-14">December 14, 2022</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="R" n="cod-pa05bQ">Roma 1605, Quodlibeta</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2022-12-14" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#R" n="149"/>
+        <cb ed="#R" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="paqqap-a49181"> <!-- q16 -->
+        <head xml:id="paqqap-a49181-Hd1e102">Quodlibetum 16</head>
+        <head xml:id="paqqap-a49181-Hd1e104" type="question-title">
+          Utrum formae miscibilium qualitatatum differant realiter a sua actualitate.
+        </head>
+        <p xml:id="paqqap-a49181-d1e107">
+          <lb ed="#R" n="52"/>QVODLJBETVM 
+          <lb ed="#R" n="53"/>DECJMVMSEXTVM. 
+          <lb ed="#R" n="54"/>Vtrum formae miscibilium 
+          qualita<lb ed="#R" n="55" break="no"/>tatum differant realiter a sua 
+          <lb ed="#R" n="56"/>actualitate. 
+        </p>
+        <p xml:id="paqqap-a49181-d1e120">
+          <lb ed="#R" n="57"/>Sextodecimo quaerebatur: vtrum formae 
+          mi<lb ed="#R" n="58" break="no"/>scibilium qualitatum differant realiter a 
+          <!--0149.xml-->
+          <cb ed="#R" n="b"/>
+          <lb ed="#R" n="59"/>sua actualitate. Et arguebatur, quod sic, quia 
+          <lb ed="#R" n="60"/>quae sunt realiter seperabilia realiter 
+          diffe<lb ed="#R" n="61" break="no"/>runt: sed formae miscibilium qualitatum, &amp; 
+          <lb ed="#R" n="62"/>etiam formae elementarae separantur 
+          reali<lb ed="#R" n="63" break="no"/>ter a suis actualitatibus, quia secundum 
+          <lb ed="#R" n="64"/>suas realitates aliquo modo remanent in 
+          <lb ed="#R" n="65"/>forma mixta, alioquin non essent clementa; 
+          <lb ed="#R" n="66"/>nec mixta componerentur ex eis, sed nihil 
+          <lb ed="#R" n="67"/>remaneret de ipsis, constat autem 
+          quomo<lb ed="#R" n="68" break="no"/>do non manent in actualitatibus suis, quia 
+          <lb ed="#R" n="69"/>ex pluribus actu impossibile est, quod 
+          <lb ed="#R" n="70"/>fiat vnum vt dicitur 7. metaphisicae: forma 
+          <lb ed="#R" n="71"/>vero est vna qualitas, &amp; vna forma: ergo 
+          <lb ed="#R" n="72"/>actualitas formarum miscibilium differt a 
+          <lb ed="#R" n="73"/>formalitate ipsarum.
+        </p>
+        <p xml:id="paqqap-a49181-d1e165">
+          <lb ed="#R" n="74"/>Sed in oppositum videtur, quod 
+          vbicun<lb ed="#R" n="75" break="no"/>que realitas differt ab actualitate, tunc illa 
+          <lb ed="#R" n="76"/>realitas est potentialis, &amp; per consequens 
+          <lb ed="#R" n="77"/>illud est compositum ex re potentiali, &amp; ex 
+          <lb ed="#R" n="78"/>ex re actuali, &amp; ita ex materia, &amp; forma, 
+          <lb ed="#R" n="79"/>sed qualitates miscibiles aut formae elemen 
+          <lb ed="#R" n="80"/>tares constat, quod sunt purae formae non 
+          <lb ed="#R" n="81"/>compositae ex materia, &amp; forma, alioquin 
+          <lb ed="#R" n="82"/>formae esset forma, &amp; procederetur in 
+          infi<lb ed="#R" n="83" break="no"/>nitum: ergo in ipsis non differt realiter 
+          actua<lb ed="#R" n="84" break="no"/>litas, &amp; realitas. 
+        </p>
+        <p xml:id="paqqap-a49181-d1e191">
+          <lb ed="#R" n="85"/>Responsio ad quaestionem. 
+        </p>
+        <p xml:id="paqqap-a49181-d1e196">
+          <lb ed="#R" n="86"/>Responsio primo hic, quod ostendetur, quod 
+          <lb ed="#R" n="87"/>formae miscibiles quaecunque siue 
+          substan<lb ed="#R" n="88" break="no"/>tiales siue accidentales cuiusmodi sunt qua 
+          <lb ed="#R" n="89"/>litates necessario manent secundum aliquid 
+          <lb ed="#R" n="90"/>sui reale in forma mixta, &amp; media 
+          constitu<lb ed="#R" n="91" break="no"/>ta ex ipsis.
+        </p>
+        <p xml:id="paqqap-a49181-d1e212">
+          <lb ed="#R" n="92"/>Secundo vero ostendetur, quod nullo 
+          mo<lb ed="#R" n="93" break="no"/>do manent in ea secundum totam realitatem 
+          <lb ed="#R" n="94"/>integram in aliquo gradu nec intenso, nec 
+          <lb ed="#R" n="95"/>remisso, ita quod susceptio magis, &amp; 
+          mi<lb ed="#R" n="96" break="no"/>nus in formis non est causa, quod possint 
+          <lb ed="#R" n="97"/>misceri.
+        </p>
+        <p xml:id="paqqap-a49181-d1e228">
+          <lb ed="#R" n="98"/>Tertio ostendetur, quod idcirco possunt 
+          mi<lb ed="#R" n="99" break="no"/>sceri, quia possunt frangi quantum ad 
+          ali<lb ed="#R" n="100" break="no"/>quid sui reale, quod dat nomen, &amp; 
+          defini<lb ed="#R" n="101" break="no"/>tionem, &amp; terminationem, &amp; remanere 
+          <lb ed="#R" n="102"/>secundum aliquid sui reale, quod caret 
+          ter<lb ed="#R" n="103" break="no"/>minationem &amp; nomine, ac ratione formae. 
+          <lb ed="#R" n="104"/>Ex hoc patebit, quid dicendum ad 
+          quaestio<lb ed="#R" n="105" break="no"/>nem. &amp; dissoluentur quaedam dubia.
+        </p>
+        <div xml:id="paqqap-a49181-Dd1e248">
+          <head xml:id="paqqap-a49181-Hd1e250">Articulus 1</head>
+          <p xml:id="paqqap-a49181-d1e252">
+            <lb ed="#R" n="106"/>ARTICVLVS I. 
+            <lb ed="#R" n="107"/>Quod formae miscibiles necessario seeundum 
+            ali<lb ed="#R" n="108" break="no"/>quid cui maneant in mixto, &amp; non 
+            so<lb ed="#R" n="109" break="no"/>lum in virtute. 
+          </p>
+          <p xml:id="paqqap-a49181-d1e263">
+            <!-- missing line break-->CIRCA primum ergo ponenda est conclusio
+            <lb ed="#R" n="110"/>intenta scilicet, quod aliquid reale, quod 
+            <lb ed="#R" n="111"/>fuit realis pars formae miscibilis, est postmodum 
+            <!--0150.xml-->
+            <pb ed="#P" n="150"/>
+            <cb ed="#R" n="a"/>
+            <lb ed="#R" n="1"/>pars formae.
+          </p>
+          <p xml:id="paqqap-a49181-d1e281">
+            <lb ed="#R" n="2"/>Vbi sciendum, quod aliqui dicere voluerunt 
+            for<lb ed="#R" n="3" break="no"/>mas miscibiles nullo modo remanere in forma 
+            <lb ed="#R" n="4"/>media resultante, &amp; conﬂata ex ipsis nisi 
+            tan<lb ed="#R" n="5" break="no"/>tum in virtute, non intelligendo per remanere in 
+            <lb ed="#R" n="6"/>virtute, quod remaneant secundum aliquid fui 
+            rea<lb ed="#R" n="7" break="no"/>le, quod fuerit pars formae miscibilis remanet 
+            in<lb ed="#R" n="8" break="no"/>forma mixta secundum eos.
+          </p>
+          <p xml:id="paqqap-a49181-d1e299">
+            <lb ed="#R" n="9"/>Sed hoc stare non potest, quod apparet 
+            ducen<lb ed="#R" n="10" break="no"/>do ad impossibile, &amp; etiam oslensiue, ex quo proba 
+            <lb ed="#R" n="11"/>tur affirmatiua conclusio. 
+          </p>
+          <p xml:id="paqqap-a49181-d1e309">
+            <lb ed="#R" n="12"/>Primo quidem ducendo ad impossibile. Quod 
+            <lb ed="#R" n="13"/>si formae miscibiles non maneant in fornia mixta 
+            <lb ed="#R" n="14"/>secundum aliquid sui reale, tolluntur physicae 
+            de<lb ed="#R" n="15" break="no"/>finitiones datae de ista materia: nec non quod 
+            pro<lb ed="#R" n="16" break="no"/>positiones ac omnes animi conce tiones. 
+            Definitio<lb ed="#R" n="17" break="no"/>nes quidem tam elementi quam elementati, quam 
+            <lb ed="#R" n="18"/>mixtionis, quam resolutionis. Definitur enim 
+            <lb ed="#R" n="19"/>a Philosopho elementum, quod est illud ex quo res 
+            <lb ed="#R" n="20"/>componitur primo, &amp; est in eo, quod exponens 
+            Con<lb ed="#R" n="21" break="no"/>mentator dicit, quod per hoc, quod dixit, est in 
+            <lb ed="#R" n="22"/>eo, excluditur elementum, quod transmutatur cum 
+            <lb ed="#R" n="23"/>aliquid generatur ex eo, sicut cum caro generatur 
+            <lb ed="#R" n="24"/>ex sanguine, tunc enim sanguine non remanebit 
+            <lb ed="#R" n="25"/>pars carnis: ergo ex opposito elementum, quod 
+            <lb ed="#R" n="26"/>ibi definitur, remanet pars elementati, &amp; non 
+            trans<lb ed="#R" n="27" break="no"/>mutatur seu corrumpitur secundum esse pertinens 
+            <lb ed="#R" n="28"/>ad suam realitatem. Dicit etiam ibidem 
+            Com<lb ed="#R" n="29" break="no"/>mentator exponens illam particulam; ex quo com 
+            <lb ed="#R" n="30"/>ponitur res primo, quod notanter dicitur, res 
+            pri<lb ed="#R" n="31" break="no"/>mo, vt excludatur illud ex quo componitur res 
+            <lb ed="#R" n="32"/>secundo. 
+          </p>
+          <p xml:id="paqqap-a49181-d1e357">
+            <lb ed="#R" n="33"/>Quaerendum ergo quam habitudinem 
+            impor<lb ed="#R" n="34" break="no"/>tat ly, ex, cum dicitur, ex quo componitur res, aut 
+            <lb ed="#R" n="35"/>enim efficientis, &amp; sic qualitates miscibiles erunt 
+            <lb ed="#R" n="36"/>effectiua causa respectu formae mixti, nullum 
+            au<lb ed="#R" n="37" break="no"/>tem dicitur misceri ex suis efficientibus nec 
+            com<lb ed="#R" n="38" break="no"/>poni: aut dicit habitudinem termini a quo qui 
+            ex<lb ed="#R" n="39" break="no"/>cluditur, sicut dicitur ex se animal, &amp; hoc quidem 
+            <lb ed="#R" n="40"/>excludit ibi Commentator, vnde relinquitur, quod 
+            <lb ed="#R" n="41"/>dicat habitudinem partis, &amp; materiae, &amp; ita 
+            secun<lb ed="#R" n="42" break="no"/>dum aliquid maner. 
+          </p>
+          <p xml:id="paqqap-a49181-d1e381">
+            <lb ed="#R" n="43"/>Et confirmatur, quia dicit ibi Commentator, 
+            <lb ed="#R" n="44"/>quod elementum est de causis intrinsecis, &amp; non 
+            <lb ed="#R" n="45"/>de extrinsecis, si autem corrumpitur secundum 
+            <lb ed="#R" n="46"/>omnem sui realitatem, esset extrinseca formae 
+            mix<lb ed="#R" n="47" break="no"/>tae, nullo modo intrinseca. 
+          </p>
+          <p xml:id="paqqap-a49181-d1e394">
+            <lb ed="#R" n="48"/>Definit etiam primo de generatione mixtionem Philo 
+            <lb ed="#R" n="49"/>sophus, quod est miscibilium alteratorum vnio alteratorum 
+            <lb ed="#R" n="50"/>vero ait, non corruptorum totaliter, quia tunc 
+            <lb ed="#R" n="51"/>non effermixtio. vnde 3. coeli &amp; mun. dicit 
+            Com<lb ed="#R" n="52" break="no"/>mentator, quod illud quod generationem alterius 
+            <lb ed="#R" n="53"/>ingreditur, corrumpitur secundum totum, non enim 
+            <lb ed="#R" n="54"/>elementum est illud, quod inuenitur pars 
+            elemen<lb ed="#R" n="55" break="no"/>tati. hoc Commenta tor. 
+          </p>
+          <p xml:id="paqqap-a49181-d1e414">
+            <lb ed="#R" n="56"/>Dicit autem alterorum vnio, quia vbi non est 
+            <lb ed="#R" n="57"/>vnio, non est mixtio. Impossibilis est autem vnio 
+            <lb ed="#R" n="58"/>sine vnibilibus. 
+          </p>
+          <p xml:id="paqqap-a49181-d1e423">
+            <lb ed="#R" n="59"/>Et si dicatur, quod intelligitur vnio, idest 
+            conti<lb ed="#R" n="60" break="no"/>nentia; forma namque mixti dicitur miscibilia 
+            <lb ed="#R" n="61"/>vnitiue continere, sicut anima intellectiua 
+            vegeta<lb ed="#R" n="62" break="no"/>tiuam, &amp; sensitiuam continet, aut sol ista 
+            inferio<lb ed="#R" n="63" break="no"/>ra, non valet, cum manisestum sit, quod anima 
+            <lb ed="#R" n="64"/>non est mixta ex alijs animabus, neq. sol ex his, quae 
+            <lb ed="#R" n="65"/>continet in virtute. 
+          </p>
+          <p xml:id="paqqap-a49181-d1e442">
+            <lb ed="#R" n="66"/>Definit etiam <quote xml:id="paqqap-a49181-Qd1e446">Commentator 3. de coeli &amp; mundo </quote>
+            <lb ed="#R" n="67"/>elementatum, quod est illud, quod dissoluitur 
+            es<lb ed="#R" n="68" break="no"/>sentialiter in aliud. Vnde dicit, quod opposita est 
+            <!--0150.xml-->
+            <cb ed="#R" n="b"/>
+            <lb ed="#R" n="69"/>definitio elementi, &amp; elementati. Definit 
+            etiam<lb ed="#R" n="70" break="no"/>resolutionem, &amp; dissolutionem, quod est illud, 
+            <lb ed="#R" n="71"/>quod debetur composito: omne enim compositum 
+            <lb ed="#R" n="72"/>dissoluitur in illa, ex quibus componitur, 
+            quare<lb ed="#R" n="73" break="no"/>cum ner dissolutionem elementati mixtum 
+            essen<lb ed="#R" n="74" break="no"/>tialiter dissoluatur in elementae, oporter, quod ex 
+            <lb ed="#R" n="75"/>ipsis aliquo modo essentialiter com onatur, per de 
+            <lb ed="#R" n="76"/>finitionem resolutionis, quod non esset verum 
+            <lb ed="#R" n="77"/>si nullo modo remanerent secundum aliquid sui 
+            <lb ed="#R" n="78"/>reale. 
+          </p>
+          <p xml:id="paqqap-a49181-d1e479">
+            <lb ed="#R" n="79"/>Propositiones etiam phisicae tolluntur, &amp; illa 
+            <lb ed="#R" n="80"/>quidem quae ponitur primo de generatione: esemon 
+            <lb ed="#R" n="81"/>ta nec totaliter corrumpuntur, nec totaliter 
+            ma<lb ed="#R" n="82" break="no"/>nent: &amp; illa quae ponitur ibidem: quod mixtum 
+            <lb ed="#R" n="83"/>non est miscibilium totalis corruptio, sed vnio, &amp; 
+            <lb ed="#R" n="84"/>quae ponitur ibidem, quod elementa sunt in miato 
+            <lb ed="#R" n="85"/>non in potentia sicut in prima materia, sed in 
+            vir<lb ed="#R" n="86" break="no"/>tute. &amp; illa Commentatoris 1. physic. comm. 56. 
+            <lb ed="#R" n="87"/>quae dicit quod elementa sunt in mixto non quidem 
+            <lb ed="#R" n="88"/>in pura potentia sicut prima materia, nec in actu 
+            <lb ed="#R" n="89"/>uro siue perfectione vltima, sed medio modo inter 
+            <lb ed="#R" n="90"/>puram potentiam &amp; vltimam perfectionem. Et illa 
+            <lb ed="#R" n="91"/>quae ponitur a Commentatore 11. metaph. comm. 
+            <lb ed="#R" n="92"/>22. Vera mixtio est vt mixta alterentur 
+            admanen<lb ed="#R" n="93" break="no"/>do, nec fiat ex eis forma media, verbi gratia forma 
+            <lb ed="#R" n="94"/>oximellis, quod fit ex melle &amp; aceto. 
+            <lb ed="#R" n="95"/>Communes autem animi conceptiones tolluntur; 
+            <lb ed="#R" n="96"/>quia Commentator dicit 7. metaph. comm. 23. 
+            ma<lb ed="#R" n="97" break="no"/>nifestum est per se, quod media componuntur ex 
+            <lb ed="#R" n="98"/>partibus contrarijs, &amp; ex hoc, quod sunt media, 
+            <lb ed="#R" n="99"/>&amp; ex hoc quod primo ad illa transmutantur 
+            con<lb ed="#R" n="100" break="no"/>traria, &amp; illud subdit, quod composita ex duobus 
+            <lb ed="#R" n="101"/>habent ex altero illorum minus, &amp; ex altero 
+            ma<lb ed="#R" n="102" break="no"/>gis. Est etiam per se notum, quod quaelibet pars 
+            <lb ed="#R" n="103"/>mixti resoluitur in miscibilia, &amp; quod mixtum 
+            <lb ed="#R" n="104"/>nutritur ex mixto, &amp; non ex puro elemento, &amp; 
+            sim<lb ed="#R" n="105" break="no"/>plici. Et per se concessum est, quod ex 
+            miscibili<lb ed="#R" n="106" break="no"/>bus resultat forma media tanquam conflata: &amp; 
+            <lb ed="#R" n="107"/>quod in ea miscibilia franguntur. quae vera non 
+            es<lb ed="#R" n="108" break="no"/>sent, nisi secundum aliquod reale elementa 
+            ma<lb ed="#R" n="109" break="no"/>nerent.
+          </p>
+          <p xml:id="paqqap-a49181-d1e549">
+            <lb ed="#R" n="110"/>Constat autem, quod omnia ista negare, &amp; 
+            tol<lb ed="#R" n="111" break="no"/>lere inconueniens est, &amp; omnino absurdum. 
+          </p>
+          <p xml:id="paqqap-a49181-d1e556">
+            <lb ed="#R" n="112"/>Secundo vero principaliter idem patet ostensiue 
+            <lb ed="#R" n="113"/>Sicut enim dicit Philosophus 1. de generatione, 
+            <lb ed="#R" n="114"/>&amp; <ref xml:id="paqqap-a49181-Rd1e564">Commentator ibidem</ref>, &amp; experientia docet; 
+            mi<lb ed="#R" n="115" break="no"/>scibilia ex quibus resultat forma, oportet esse 
+            mu<lb ed="#R" n="116" break="no"/>tuo actiua, &amp; passiua: quae enim non agunt, &amp; 
+            pa<lb ed="#R" n="117" break="no"/>tiuntur ad inuicem, misceri non possunt. Constat 
+            <lb ed="#R" n="118"/>autem, quod fiuirtus alterius dominetur, intantum 
+            <lb ed="#R" n="119"/>quod alterum corrumpat, iam non est mixrio, sed 
+            <lb ed="#R" n="120"/>corrumpentis augmentatio, &amp; corrupti totalis 
+            <lb ed="#R" n="121"/>so lutio, vt si gutta vini ponatur in mille 
+            ampho<lb ed="#R" n="122" break="no"/>ris aquae: oportet ergo vt sic virtutes actiuae 
+            mi<lb ed="#R" n="123" break="no"/>scibilium proportionentur, vt non totaliter alterum 
+            <lb ed="#R" n="124"/>vincat alterum, sed mutuo corrumpant se 
+            secun<lb ed="#R" n="125" break="no"/>dum aliquid, donec frangantur ad inuicem, &amp; fiat 
+            <lb ed="#R" n="126"/>ex ipsis media forma. 
+          </p>
+          <p xml:id="paqqap-a49181-d1e593">
+            <lb ed="#R" n="127"/>Ex his ergo potest ostensiua ratio sic sormari: 
+            <lb ed="#R" n="128"/>Quandocunque aliqua sic mutuo agunt &amp; 
+            patiun<lb ed="#R" n="129" break="no"/>tur ad inuicem, quod neutrum vincit totaliter, 
+            <lb ed="#R" n="130"/>nec vtrumque simpliciter vincitur, sed quodlibet 
+            <lb ed="#R" n="131"/>secundum aliquid vincit, secundum aliquid 
+            vinci<lb ed="#R" n="132" break="no"/>tur ac corrumpitur, tunc quodlibet illorum 
+            secun<lb ed="#R" n="133" break="no"/>dum aliquid manet, quod fuit realiter in eo, nam 
+            <lb ed="#R" n="134"/>si secundum nihil manet, sequitur, quod vtrumq. cor 
+            <lb ed="#R" n="135"/>rũpatur totaliter, &amp; vincatur: sed probatum est, &amp; quod 
+            <lb ed="#R" n="136"/>et notum est, remaneat quodlibet secundum aliquid 
+            <!--0151.xml-->
+            <pb ed="#P" n="151"/>
+            <cb ed="#R" n="a"/>
+            <lb ed="#R" n="1"/>sui reale, &amp; non totaliter corrũpatur: ergo. Maior, 
+            <lb ed="#R" n="2"/>&amp; minor istius rationis tenent ex terminis, &amp; ideo 
+            <lb ed="#R" n="3"/>conclufio est certa. 
+          </p>
+          <p xml:id="paqqap-a49181-d1e630">
+            <lb ed="#R" n="4"/>Ex his patet, quod euasiones quorundam in hac 
+            <lb ed="#R" n="5"/>materia friuolae sunt. 
+          </p>
+          <p xml:id="paqqap-a49181-d1e638">
+            <lb ed="#R" n="6"/>Ad illud, quod inductum est definitione 
+            mixtio<lb ed="#R" n="7" break="no"/>nis, quod est miscibilium alteratorum vnio, dicere 
+            <lb ed="#R" n="8"/>volunt, quod mixtio aliquando accipitur pro 
+            al<lb ed="#R" n="9" break="no"/>teratione procedente ad generationem formae mix 
+            <lb ed="#R" n="10"/>tae, &amp; sic procedit illa definitio: aliquando pro 
+            ter<lb ed="#R" n="11" break="no"/>mino illius mixtionis, &amp; tunc est forma vna 
+            sim<lb ed="#R" n="12" break="no"/>plex, quae continet elementa praecedentia in virtute 
+            <lb ed="#R" n="13"/>naturae, sic procedit distinctio. 
+          </p>
+          <p xml:id="paqqap-a49181-d1e658">
+            <lb ed="#R" n="14"/>Ad illud vero, quod dicitur elementa remanere 
+            <lb ed="#R" n="15"/>non in pura potentia sicut in prima materia: sed vir 
+            <lb ed="#R" n="16"/>tualiter, etiam dicunt, quod ob hoc dicuntur 
+            ma<lb ed="#R" n="17" break="no"/>nere in virtute, quia potest forma mixti agere 
+            con<lb ed="#R" n="18" break="no"/>similiter miscibilibus formis, sicut qualitas carnis 
+            <lb ed="#R" n="19"/>icitur media inter humidum, &amp; sic assimilatur 
+            sic<lb ed="#R" n="20" break="no"/>co, nec in tantum resistit vt siceum, &amp; ita videtur 
+            <lb ed="#R" n="21"/>consistere in quodam medio. 
+          </p>
+          <p xml:id="paqqap-a49181-d1e678">
+            <lb ed="#R" n="22"/>Ad illud vero de compositione volunt etiam 
+            di<lb ed="#R" n="23" break="no"/>care, quod est compositum secundum rationem 
+            <lb ed="#R" n="24"/>&amp; similitudinem, &amp; haec continentia formalis non 
+            <lb ed="#R" n="25"/>virtualis, sicut sol continet inferiores effectus. Sed 
+            <lb ed="#R" n="26"/>neque pure potentialis, sicut materia continet 
+            <lb ed="#R" n="27"/>sormas.
+          </p>
+          <p xml:id="paqqap-a49181-d1e694">
+            <lb ed="#R" n="28"/>Ad illud vero, quod dicitur de actione mutua 
+            <lb ed="#R" n="29"/>miscibilium, &amp; passione ad inuicem, etiam dicunt, 
+            <lb ed="#R" n="30"/>quod miscibilium qualitates agunt, &amp; patiuntur 
+            <lb ed="#R" n="31"/>ad inuicem, &amp; franguntur, donec ad medium 
+            re<lb ed="#R" n="32" break="no"/>ducantur, sed formae substantiales totaliter corrum 
+            <lb ed="#R" n="33"/>puntur. Sed Euasiones praedictae non valent.
+          </p>
+          <p xml:id="paqqap-a49181-d1e710">
+            <lb ed="#R" n="34"/>Prima siquidem non, quia si Philosophus 
+            defini<lb ed="#R" n="35" break="no"/>ret alterationem primam, quae disponit ad formam 
+            <lb ed="#R" n="36"/>mixti, &amp; tunc definitio esset falsa. Non enim 
+            altera<lb ed="#R" n="37" break="no"/>io illa est miscibilium alteratorum vnio, sed 
+            ma<lb ed="#R" n="38" break="no"/>gis asteratio miscibilium vnibilium, vnde patet, 
+            <lb ed="#R" n="39"/>quod haec definitio supponit miscibilia esse 
+            altera<lb ed="#R" n="40" break="no"/>ta, &amp; per consequens datur de generatione 
+            instan<lb ed="#R" n="41" break="no"/>tanea formae mixti, quae sequitur primam 
+            altera<lb ed="#R" n="42" break="no"/>tionem,, &amp; miscibilia alterata, non autem 
+            corru<lb ed="#R" n="43" break="no"/>pta; vel de ipsamet forma mixti, quae non sunt nisi 
+            <lb ed="#R" n="44"/>quaedam vnitas miscibilium alteratorum.
+          </p>
+          <p xml:id="paqqap-a49181-d1e736">
+            <lb ed="#R" n="45"/>Secunda etiam euasio non procedit, quia si 
+            mi<lb ed="#R" n="46" break="no"/>scibilia contineri non esset aliud nisi formam 
+            me<lb ed="#R" n="47" break="no"/>diam in virtute, &amp; actione assimilari vtrique 
+            ex<lb ed="#R" n="48" break="no"/>tremorum, &amp; participare in agendo aliquid 
+            simi<lb ed="#R" n="49" break="no"/>le actionibus eorum, tunc aer, &amp; aqua, quae sunt 
+            <lb ed="#R" n="50"/>media elementa, &amp; nec sunt simpliciter grauia 
+            <lb ed="#R" n="51"/>nec fimpliciter leuia, &amp; assimilantur graui per com 
+            <lb ed="#R" n="52"/>parationem ad ignem, leui vero per comparationem 
+            <lb ed="#R" n="53"/>ad terram, essent mixta ex igne, &amp; terra: vnde isto 
+            <lb ed="#R" n="54"/>modo per modum medij continent virtualiter ignem 
+            <lb ed="#R" n="55"/>&amp; terram, vt patet 4. de cael. &amp; mundo, sed 
+            mani<lb ed="#R" n="56" break="no"/>festum est, quod non mixta: ergo illa continentia 
+            <lb ed="#R" n="57"/>virtualiter non est illa, secundum quam elementa 
+            <lb ed="#R" n="58"/>continentur in virtute in forma mixti.
+          </p>
+          <p xml:id="paqqap-a49181-d1e770">
+            <lb ed="#R" n="59"/>Tertia etiam non procedit, quia si formalis com 
+            <lb ed="#R" n="60"/>positio secundum rationem esset illa, quae sufficit 
+            <lb ed="#R" n="61"/>ad compositionem formae mixtae, sequeretur, quod 
+            <lb ed="#R" n="62"/>anima rationalis esset nunc mixta anegatiuo, &amp; 
+            <lb ed="#R" n="63"/>sensitiuo, cum contineat vtrumque formaliter dif 
+            <lb ed="#R" n="64"/>ferens sola ratione: fed nullus ponit eam mixtam 
+            <lb ed="#R" n="65"/>pro eo, quod non continet illas secundum aliquas 
+            <lb ed="#R" n="66"/>realitates ipsam constituentes: igitar illa 
+            compo<lb ed="#R" n="67" break="no"/>sitio rationis non sufficit ad compositionem, 
+            secun<lb ed="#R" n="68" break="no"/>dum quam miscibilia mixta componunt.
+          </p>
+          <p xml:id="paqqap-a49181-d1e794">
+            <!--0151.xml-->
+            <cb ed="#R" n="b"/>
+            <lb ed="#R" n="69"/>Et confirmatur, quia secundum hoc elementa 
+            <lb ed="#R" n="70"/>non essent causae intrinsecae, nec partes elementati, 
+            <lb ed="#R" n="71"/>sed potius extrinsecae, cuius oppositum <ref xml:id="paqqap-a49181-Rd1e807">
+              Commen<lb ed="#R" n="72" break="no"/>tator dicit 5. met. com. 4.</ref>
+          </p>
+          <p xml:id="paqqap-a49181-d1e813">
+            <lb ed="#R" n="73"/>Quarta quoque non valet immo confirmat 
+            op<lb ed="#R" n="74" break="no"/>positum: quandocunque enim aliquod frangitur, &amp; 
+            <lb ed="#R" n="75"/>manet in esse fracto, necessario secundum aliquid 
+            <lb ed="#R" n="76"/>manet, quod habuit ante, quamuis aliquid eius. 
+            <lb ed="#R" n="77"/>complens, &amp; terminans alteratum sit seu 
+            corrup<lb ed="#R" n="78" break="no"/>tum. hoc enim interest inter frangi, &amp; adnihilari 
+            <lb ed="#R" n="79"/>seu corrũpi, quod illud, de quo non manet aliquid, 
+            <lb ed="#R" n="80"/>corrumpi dicitur siue adnihilari, non autem 
+            <lb ed="#R" n="81"/>frangi, alioquin vnum elementum frangeretur 
+            in<lb ed="#R" n="82" break="no"/>aliud, &amp; quod adnihilaretur, frangeretur in forma 
+            <lb ed="#R" n="83"/>mixti, de necessitate secundum aliquid sui manet, &amp; 
+            <lb ed="#R" n="84"/>secundum aliquid corrumpitur. 
+          </p>
+          <p xml:id="paqqap-a49181-d1e842">
+            <lb ed="#R" n="85"/>Notandum ergo quod veritatem istam 
+            negan<lb ed="#R" n="86" break="no"/>tes, negando affirmant; dicunt enim, quod 
+            misci<lb ed="#R" n="87" break="no"/>bilia franguntur in formam mixti, &amp; in eam 
+            con<lb ed="#R" n="88" break="no"/>funduntur, &amp; quod sunt causa mixti resultatiue: hoc 
+            <lb ed="#R" n="89"/>autem ex terminis concludunt, quod secundum 
+            <lb ed="#R" n="90"/>aliquod sui reale remaneant, nam &amp; resultans 
+            <lb ed="#R" n="91"/>constituitur ex aliquo eorum, ex quibus resultat 
+            <lb ed="#R" n="92"/>nisi forte resultaret tantummodo effectiue. 
+          </p>
+          <p xml:id="paqqap-a49181-d1e862">
+            <lb ed="#R" n="93"/>Similiter sic dicentes concedunt, quod 
+            elemen<lb ed="#R" n="94" break="no"/>ta remaneant virtualiter, nec sunt in pura potentia 
+            <lb ed="#R" n="95"/>sicut in prima materia, nec in virtute tantum 
+            acti<lb ed="#R" n="96" break="no"/>ua sicut homo, &amp; planta sunt in virtute actiua 
+            <lb ed="#R" n="97"/>solis, sed vere formaliter, nec tamen 
+            secun<lb ed="#R" n="98" break="no"/>dum rationem tantum, quia vegetatiuum &amp; 
+            sensiti<lb ed="#R" n="99" break="no"/>uum sunt in anima, quae tamen ex ipsis non eit 
+            mix<lb ed="#R" n="100" break="no"/>ta; nec consimiliter tantum sine participatione, quia 
+            <lb ed="#R" n="101"/>si anima rationalis esset mixta ex formis 
+            abstra<lb ed="#R" n="102" break="no"/>ctis, &amp; ex formis materialibus, cum sit quasi media 
+            <lb ed="#R" n="103"/>&amp; assimiletur vtrisque quare haec virtualis 
+            conti<lb ed="#R" n="104" break="no"/>nentia, secundum quam dicunt miscibilia 
+            rema<lb ed="#R" n="105" break="no"/>nere in mixto, necesse est, quod reducatur ad 
+            mo<lb ed="#R" n="106" break="no"/>dum quo partes continentur xirtualiter in 
+            consti<lb ed="#R" n="107" break="no"/>tuto exels, &amp; sic elementa secundum aliquid sui 
+            <lb ed="#R" n="108"/>constituunt formam mixti, 
+          </p>
+        </div>
+        <div xml:id="paqqap-a49181-Dd1e901">
+          <head xml:id="paqqap-a49181-Hd1e903">Articulus 2</head>
+          <p xml:id="paqqap-a49181-d1e905">
+            <lb ed="#R" n="109"/>ARTJCVLVS II. 
+            <lb ed="#R" n="110"/>Quod miscibilia secundum suam 
+            integrita<lb ed="#R" n="111" break="no"/>tem nec intense nec remisse manent in 
+            <lb ed="#R" n="112"/>mixto.
+            
+            <lb ed="#R" n="113"/>CIrca secundum vero ponenda est conclufio 
+            in<lb ed="#R" n="114" break="no"/>tenta, scilicet, quod impossibile est formam 
+            <lb ed="#R" n="115"/>secundum suam integritatem manere in aliquo gra 
+            <lb ed="#R" n="116"/>du nec intenso nec remisso. Vbi considerandum 
+            <lb ed="#R" n="117"/>quod opinio contraria praecedenti ponens se in 
+            al<lb ed="#R" n="118" break="no"/>toro extremo dicit, quod quia formae miscibiles 
+            <lb ed="#R" n="119"/>necessitate manent secundum aliquid sui reale, vt 
+            <lb ed="#R" n="120"/>iam probatum est, &amp; quia quodlibet reale 
+            perti<lb ed="#R" n="121" break="no"/>nens ad formam miscibilis imaginantur rationem, 
+            <lb ed="#R" n="122"/>&amp; speciem formae miscibilis in aliquo gradu 
+            inten<lb ed="#R" n="123" break="no"/>so vel remisso participare. Jmpossibile autem est 
+            <lb ed="#R" n="124"/>quod maneat in gradu intenso, idcirco declinat 
+            <lb ed="#R" n="125"/>ad hoc, quod realitates formarum miscibilium ex 
+            <lb ed="#R" n="126"/>quibus constituitur forma mixta participant 
+            ra<lb ed="#R" n="127" break="no"/>tiones proprias in gradu remisso. &amp; secundum hoc 
+            <lb ed="#R" n="128"/>formae elementorum secundum ipsos suscipiunt ma 
+            <lb ed="#R" n="129"/>gis &amp; minus sicut, &amp; qualitates, &amp; putant istam 
+            <lb ed="#R" n="130"/>tu isse mentem Philosophi, &amp; Commentatoris pro 
+            <lb ed="#R" n="131"/>eo quod Commentator dicit 3. coel. mun. de 
+            for<lb ed="#R" n="132" break="no"/>mis elementaribus, quod possunt suscipere magis, 
+            <lb ed="#R" n="133"/>&amp; miuus quam mediae existentes inter formas 
+            <!--0152.xml-->
+            <pb ed="#P" n="152"/>
+            <cb ed="#R" n="a"/>
+            <lb ed="#R" n="1"/>substantiales, &amp; accidentales. 
+          </p>
+          <p xml:id="paqqap-a49181-d1e970">
+            <lb ed="#R" n="2"/>Sed haec primo stare non potest. Vnde probo con 
+            <lb ed="#R" n="3"/>clusionem oppositam ratione ostensiua, &amp; ratione 
+            <lb ed="#R" n="4"/>ducente ad impossibile, &amp; ex intentione philosophi 
+            <lb ed="#R" n="5"/>&amp; Commentatoris. 
+          </p>
+          <p xml:id="paqqap-a49181-d1e981">
+            <lb ed="#R" n="6"/>Primo ergo ostensiuesic, Impossibile est 
+            contra<lb ed="#R" n="7" break="no"/>ria simul esse in eodem subiecto quamdiu manet 
+            <lb ed="#R" n="8"/>formalis ratio contrarietatis inter ea, alioquin 
+            re<lb ed="#R" n="9" break="no"/>maneret definitiua sine contradictione, 
+            contrarie<lb ed="#R" n="10" break="no"/>tas scilicet sine definitione qua dicitur, quod 
+            con<lb ed="#R" n="11" break="no"/>traria sunt, quae vicisim in sunt, &amp; mutuo se 
+            ex<lb ed="#R" n="12" break="no"/>pelluat, &amp; formaliter repugnat, &amp; oppositionem 
+            <lb ed="#R" n="13"/>contradictoriam includunt, vt patet 1o. metaph. 
+            <lb ed="#R" n="14"/>sed formae sunt contrariae non solum in gradu sum. 
+            <lb ed="#R" n="15"/>mo, immo &amp; gradu remisso, &amp; in quocunque 
+            gra<lb ed="#R" n="16" break="no"/>du in quo saluantur specificae rationes formarum 
+            <lb ed="#R" n="17"/>natura specificae differentiae secundum suas ra 
+            tio<lb ed="#R" n="18" break="no"/>nes habent contrarietatem, immo differentiae ipsae 
+            <lb ed="#R" n="19"/>sunt contrarietas infra genus vt patet 1o. metaph. 
+            <lb ed="#R" n="20"/>ergo in nullo gradu quantuncumque minimo 
+            albe<lb ed="#R" n="21" break="no"/>do &amp; nigredo possunt esse simul in medio colore 
+            <lb ed="#R" n="22"/>nec aliquae formae miscibiles. 
+          </p>
+          <p xml:id="paqqap-a49181-d1e1020">
+            <lb ed="#R" n="23"/>Confirmatur, quia eadem est potentia duorum 
+            <lb ed="#R" n="24"/>contrariorum 10. metaph. in quocunque gradu 
+            su<lb ed="#R" n="25" break="no"/>mantur quantumlibet minimo, &amp; ita sequeretur 
+            <lb ed="#R" n="26"/>quod duo actus essent simul in eadem potentia, 
+            <lb ed="#R" n="27"/>quod est contra Commentatorem primo trac. 
+            de<lb ed="#R" n="28" break="no"/>substantia orbis. 
+          </p>
+          <p xml:id="paqqap-a49181-d1e1037">
+            <lb ed="#R" n="29"/>Secundo vero patet idem ducendo ad 
+            impossi<lb ed="#R" n="30" break="no"/>bile, nam &amp; plura communiter essent simul, quia 
+            <lb ed="#R" n="31"/>quatuor elementa in aliquo gradu, nec forma mix 
+            <lb ed="#R" n="32"/>ti esset vna natura, imino quatuor naturae quatuor 
+            <lb ed="#R" n="33"/>species, quatuor supposita, quatuor quantitates, &amp; 
+            <lb ed="#R" n="34"/>vnus aceruus, &amp; esset caro vna parua terra, &amp; 
+            pa<lb ed="#R" n="35" break="no"/>ruus ignis, &amp; multa alia absona, igitur 
+            impossibi<lb ed="#R" n="36" break="no"/>le est, quod istud participet rationem specificam 
+            <lb ed="#R" n="37"/>formae miscibilis, etiam in gradu quantumcunque 
+            <lb ed="#R" n="38"/>minimo, &amp; remisso, quod remanere de ea dicitur 
+            <lb ed="#R" n="39"/>in forma mixta, &amp; constituere eam. 
+          </p>
+          <p xml:id="paqqap-a49181-d1e1063">
+            <lb ed="#R" n="40"/>Confirmatur quia aeque parum rubedo est 
+            albe<lb ed="#R" n="41" break="no"/>do remissa sicut intensa, aut etiam est in summo 
+            in<lb ed="#R" n="42" break="no"/>tensa: sed est omnino aliud. 
+          </p>
+          <p xml:id="paqqap-a49181-d1e1072">
+            <lb ed="#R" n="43"/>Tertio patet, quod haec est intentio Philosophi 
+            <lb ed="#R" n="44"/>&amp; Commentatoris si enim remanerent in aliquo 
+            <lb ed="#R" n="45"/>gradu etiam minimo, ipsi autem dicunt, quod in 
+            nul<lb ed="#R" n="46" break="no"/>o actu mangnt sed tantum in potentia, quamuis non 
+            <lb ed="#R" n="47"/>sit tanta sicut in prima materia, quia secunum aliquid 
+            <lb ed="#R" n="48"/>manent, &amp; in speciali patet quod haec est mens Comm. 
+            <lb ed="#R" n="49"/>arguit. n. contra in 3. cael. &amp; mun. quod si elementa rema 
+            <lb ed="#R" n="50"/>nent in actu in composito, sequitur magnum impos 
+            <lb ed="#R" n="51"/>sibile scilicet, quod mixtum non erit vna forma, 
+            <lb ed="#R" n="52"/>nisi sicut dicimus res contiguas esse vnas, non secun 
+            <lb ed="#R" n="53"/>dum formam, &amp; secundum contactum: igitur non 
+            <lb ed="#R" n="54"/>fuit de intentione eorum quod realitas, quae 
+            ma<lb ed="#R" n="55" break="no"/>net de forma miscibili in mixto participet in 
+            ali<lb ed="#R" n="56" break="no"/>quo gradu rationem specificam formae 
+            commisci<lb ed="#R" n="57" break="no"/>bilis. Jmmo 6. physicorum comm. 32. expresse, 
+            <lb ed="#R" n="58"/>quod pallidum non differt ab albo secundum 
+            <lb ed="#R" n="59"/>magis, &amp; minus sed secundum formam, &amp; 
+            quali<lb ed="#R" n="60" break="no"/>tatem, &amp; idem est de alijs medijs coloribus. 
+          </p>
+          <p xml:id="paqqap-a49181-d1e1114">
+            <lb ed="#R" n="61"/>Ex quo etiam patet, quod quidam reprobantes 
+            <lb ed="#R" n="62"/>in hoc sententiam Auerrois, non vadunt ad mentem 
+            <lb ed="#R" n="63"/>eius, quia intellexit, quod susceptiuum magis, &amp; 
+            <lb ed="#R" n="64"/>minus proprie dicta sit causa, quod aliquae formae 
+            <lb ed="#R" n="65"/>possint misceri, cum non possunt misceri magis in 
+            <lb ed="#R" n="66"/>gradu remisso, quam in gradu intenso. Sed 
+            acce<lb ed="#R" n="67" break="no"/>pit diuisionem in maius, &amp; minus pro fractione siue 
+            <lb ed="#R" n="68"/>corruptisne alicuius realitatis, quae habet ratio- 
+            <!--0152.xml-->
+            <cb ed="#R" n="b"/>
+            <lb ed="#R" n="69"/>nem terminationis &amp; dantis nomen, &amp; definitio⸗ 
+            <lb ed="#R" n="70"/>nem, ac specificam rationem, qua detracta, etsi 
+            re<lb ed="#R" n="71" break="no"/>maneat aliquid formae miscibilis, non tamen 
+            par<lb ed="#R" n="72" break="no"/>ticipat rationem formae etiam in gradu minimo: 
+            <lb ed="#R" n="73"/>non intellexit etiam, quod formae elementares sint 
+            <lb ed="#R" n="74"/>medium inter formam substantialem &amp; 
+            accidenta<lb ed="#R" n="75" break="no"/>lem, loquendo essentialiter, quasi sint aliquid, quod 
+            <lb ed="#R" n="76"/>nec est substantia nec accidens; Sed retulit istud 
+            <lb ed="#R" n="77"/>medium ad posse diuidi, &amp; corrumpi, sed aliquan 
+            <lb ed="#R" n="78"/>do terminans quo corrupto sorma dicitur fracta in 
+            <lb ed="#R" n="79"/>quo conueniunt formae elementares cum 
+            qualita<lb ed="#R" n="80" break="no"/>tibus miscibilibus, &amp; hoc totum patet 3. caeli &amp; 
+            <lb ed="#R" n="81"/>mundi commento praedicto. 
+          </p>
+        </div>
+        <div xml:id="paqqap-a49181-Dd1e1167">
+          <head xml:id="paqqap-a49181-Hd1e1169">Articulus 3</head>
+          <p xml:id="paqqap-a49181-d1e1171">
+            <lb ed="#R" n="82"/>ARTJCVLVS III. 
+            <lb ed="#R" n="83"/>Quod ideo formae miscibiles possunt misceri quia 
+            <lb ed="#R" n="84"/>possunt secundum aliquid sui frangi, quod 
+            <lb ed="#R" n="85"/>est eorum terminatio, &amp; secundum 
+            <lb ed="#R" n="86"/>quid manere, quia fiunt 
+            reali<lb ed="#R" n="87" break="no"/>tas terminata, &amp; datur 
+            <lb ed="#R" n="88"/>modus. 
+          </p>
+          <p xml:id="paqqap-a49181-d1e1189">
+            <lb ed="#R" n="89"/>CIrca tertium vero ponenda est conclusio inten 
+            <lb ed="#R" n="90"/>ta, &amp; est, quod idcirco formae miscibiles 
+            pos<lb ed="#R" n="91" break="no"/>sunt commisceri, quia corrumpi possunt 
+            secun<lb ed="#R" n="92" break="no"/>dum aliquid sui. a quo vna cum praecedentibus 
+            su<lb ed="#R" n="93" break="no"/>mitur ratio specifica, &amp; formalis in actu, 
+            possunt<lb ed="#R" n="94" break="no"/>que remanere secundum aliquid sui reale, &amp; 
+            ita<lb ed="#R" n="95" break="no"/>remanebit aliquid formae, &amp; tamen non ipsa 
+            for<lb ed="#R" n="96" break="no"/>ma in aliquo gradu, Et quia hoc est difficilis 
+            ima<lb ed="#R" n="97" break="no"/>ginationis, idcirco posita sunt exempla, vt innitatur 
+            <lb ed="#R" n="98"/>imaginatio. 
+          </p>
+          <p xml:id="paqqap-a49181-d1e1213">
+            <lb ed="#R" n="99"/>Primum ergo exemplum est de linea circulari, 
+            <lb ed="#R" n="100"/>constat enim, quod &amp; vna, forma, &amp; vna figura 
+            <lb ed="#R" n="101"/>adeo simplex sicut albedo vel color, &amp; tamen in et 
+            <lb ed="#R" n="102"/>est accipere aliquid, quod simul iunctum 
+            praece<lb ed="#R" n="103" break="no"/>dentibus dat rationem specificam, &amp; a quo 
+            sumi<lb ed="#R" n="104" break="no"/>tur differentia specifica circularitatis in actu, illud 
+            <lb ed="#R" n="105"/>est gradus ille curuitatis qui facit aquidistantiam 
+            <lb ed="#R" n="106"/>a centro, sic quod illo posito omnes lineae directe 
+            <lb ed="#R" n="107"/>ductae a centro vsque ad circumferentiam sunt 
+            ae<lb ed="#R" n="108" break="no"/>quales. Constat etiam, quod ibi est pars aliqua 
+            <lb ed="#R" n="109"/>curuitatis, quae ablata vltimata parte, de qua iam 
+            <lb ed="#R" n="110"/>dictum, nullo modo remanet forma circuli in actu 
+            <lb ed="#R" n="111"/>sed statim transit in formam aliam. Sicut patet 
+            <lb ed="#R" n="112"/>cum linea circularis incipit aperiri, &amp; rectificari, 
+            <lb ed="#R" n="113"/>amota namque illa parte curuitatis, quae faciebat 
+            <lb ed="#R" n="114"/>aequidistantiam, iam non remanet circularitas, nec 
+            <lb ed="#R" n="115"/>tamen potest dici quin remanet aliquid curuitatis 
+            <lb ed="#R" n="116"/>circuli, non de partibus qualitatis, cuiusmodi 
+            <lb ed="#R" n="117"/>sunt curuitas, aut aliquid arcus. manentibus enim 
+            <lb ed="#R" n="118"/>omnibus partibus quantitatis a linea circulari 
+            in<lb ed="#R" n="119" break="no"/>cipiat aperiri tollitur illud circularitatis, quod ne 
+            <lb ed="#R" n="120"/>cessario exigebatur ad rationem specificam 
+            circu<lb ed="#R" n="121" break="no"/>culi, non tamen dici potest quin remaneat etiam 
+            <lb ed="#R" n="122"/>aliqui d circularitatis, quae praefuit; alioquin 
+            in<lb ed="#R" n="123" break="no"/>prima aperitione linea circularis transiret per 
+            infi<lb ed="#R" n="124" break="no"/>nitas curuitates distinctas, &amp; non esset vnus 
+            mo<lb ed="#R" n="125" break="no"/>tus continuus, dum linea circularis rectificaretur. 
+          </p>
+          <p xml:id="paqqap-a49181-d1e1274">
+            <lb ed="#R" n="126"/>Secundum exemplum est de sono syllabae, &amp; 
+            so<lb ed="#R" n="127" break="no"/>nis litterarum; constat enim, quod soni litterarum 
+            <lb ed="#R" n="128"/>sunt vera elementa, &amp; vera mixtione qualitatiua 
+            <lb ed="#R" n="129"/>miscendo in sono syllabae, vt Philosophus dicit 
+            5<lb ed="#R" n="130" break="no"/>metaph. &amp; 7. &amp; 1. de generatione &amp; Commentator 
+            <lb ed="#R" n="131"/>ibidem. vnde &amp; nomen elementi appropriatur 
+            lit<lb ed="#R" n="132" break="no"/>teris, vt dicantur elementa sonorum: Constat 
+            au<lb ed="#R" n="133" break="no"/>tem, quod in sono huius syllabae, ba, frangatur ali- 
+            <!--0153.xml-->
+            <pb ed="#P" n="153"/>
+            <cb ed="#R" n="a"/>
+            <lb ed="#R" n="1"/>quid pertinens ad sonum de. b. scilicet illud, quod 
+            <lb ed="#R" n="2"/>attingitur in vltimo termino prolationis, dum 
+            di<lb ed="#R" n="3" break="no"/>stincte profertur similiter, &amp; aliquid ad sonum de 
+            <lb ed="#R" n="4"/>a:pertinens. nam, quod attingitur in principio 
+            di<lb ed="#R" n="5" break="no"/>stinctae prolationis, ita vt sit verum dicere, quod 
+            <lb ed="#R" n="6"/>sonus de ba, nec est b. nec est a, profertur enim 
+            syl<lb ed="#R" n="7" break="no"/>laba vnica prolatione, &amp; vniformi de principio 
+            <lb ed="#R" n="8"/>temporis vsque ad finem vt Priscianus dicit, alio 
+            <lb ed="#R" n="9"/>quin si duabus prolationibus, iam esset oratio, 
+            <lb ed="#R" n="10"/>quare in toto tempore prolationis est vnus sonus 
+            <lb ed="#R" n="11"/>mixtus, in quo remanet aliquid de sono litterae 
+            <lb ed="#R" n="12"/>vtriusque, &amp; aliquid tollitur, alioquin 
+            distincte<lb ed="#R" n="13" break="no"/>&amp; discrete proferretur. Sonus ergo litterae, cum sit 
+            <lb ed="#R" n="14"/>vna qualitas simpliciter habens aliquid, potest tolli 
+            <lb ed="#R" n="15"/>&amp; remanebit sonus finitus non habens rationem 
+            <lb ed="#R" n="16"/>specificam prioris soni. &amp; hoc exemplo 
+            maxime<lb ed="#R" n="17" break="no"/>nititur Philosophus vbique, &amp; Commentator eius, 
+            <lb ed="#R" n="18"/>quia est ita accommodum ad propositum.
+          </p>
+          <p xml:id="paqqap-a49181-d1e1340">
+            <lb ed="#R" n="19"/>Tertium exemplum, quod magis est 
+            manufa<lb ed="#R" n="20" break="no"/>ctio, potest induci in hoc, quod ex partibus 
+            possu<lb ed="#R" n="21" break="no"/>mus colligere, quid sciendum in vniuersali, &amp; 
+            id<lb ed="#R" n="22" break="no"/>circo Philosophus reprobat principia Platonis in 
+            <lb ed="#R" n="23"/>rebus vniuersalibus, quia in applicatione ad 
+            par<lb ed="#R" n="24" break="no"/>ticularia per illa principia non potest reddi causa 
+            <lb ed="#R" n="25"/>de apparentibus, non enim per numeros potest 
+            <lb ed="#R" n="26"/>reddi causa de accidentalitatibus vniuersalibus, &amp; 
+            <lb ed="#R" n="27"/>alijs varietatibus, quae apparent in rebus 
+            parti<lb ed="#R" n="28" break="no"/>cularibus.
+          </p>
+          <p xml:id="paqqap-a49181-d1e1364">
+            <lb ed="#R" n="29"/>Nunc autem tractantes de diuersis mixtis, &amp; 
+            di<lb ed="#R" n="30" break="no"/>uersis gradibus mixtionum in speciali necessario 
+            <lb ed="#R" n="31"/>habent recurrere ad principium istud vt dicant, 
+            <lb ed="#R" n="32"/>quod hoc mixtum differt ab illo pro eo, quod 
+            ter<lb ed="#R" n="33" break="no"/>reum bene miscetur cum aqueo, &amp; igneo &amp; acreo 
+            <lb ed="#R" n="34"/>commi xtione tali vel tali, &amp; quod est hic plus 
+            de<lb ed="#R" n="35" break="no"/>terreo, &amp; ibi plus de acreol. &amp; sic assignant 
+            ra<lb ed="#R" n="36" break="no"/>tiones propriorum accidentium, &amp; propriarum 
+            <lb ed="#R" n="37"/>naturarum in carne, osse, lapidibus, &amp; metallis: 
+            nun<lb ed="#R" n="38" break="no"/>quam antem dicunt, quod sit plus de terra vel 
+            de<lb ed="#R" n="39" break="no"/>igne, sed de terreo, &amp; igneo, per hoc innuentes, 
+            <lb ed="#R" n="40"/>quod communis animi conceptio est, quod 
+            rema<lb ed="#R" n="41" break="no"/>net ibi aliquid, quod praefuit in terra, quod 
+            ap<lb ed="#R" n="42" break="no"/>pellatur terreum, &amp; ramen non remanet ipsa terra 
+            <lb ed="#R" n="43"/>nec eius complementum. 
+          </p>
+          <p xml:id="paqqap-a49181-d1e1399">
+            <lb ed="#R" n="44"/>Nunc conclusio probanda est auctoritatibus, &amp; 
+            <lb ed="#R" n="45"/>ratione. 
+          </p>
+          <p xml:id="paqqap-a49181-d1e1406">
+            <lb ed="#R" n="46"/>Primo sic. Si in forma, miscibili in 
+            actumix<lb ed="#R" n="47" break="no"/>tionis non frangeretur aliquid eius reale aliquo 
+            <lb ed="#R" n="48"/>etiam: remanente, non esset verum verbum 
+            Philoso<lb ed="#R" n="49" break="no"/>phi r. de generatione, cum dicit, quod miscibilia 
+            <lb ed="#R" n="50"/>noncorrumpuntur secundum totum, sed 
+            alteran<lb ed="#R" n="51" break="no"/>tur secundum aliquid, quo ablato miscibile 
+            amit<lb ed="#R" n="52" break="no"/>tit specificam rationem, &amp; ideo dicitur alterari, 
+            <lb ed="#R" n="53"/>idest alterius rationis fieri; necetiam esset verum 
+            ver<lb ed="#R" n="54" break="no"/>bum Commentatoris 3. de caelo, &amp; mundo, cuius 
+            <lb ed="#R" n="55"/>verba sunt haec: si remanerent formae elementorum 
+            <lb ed="#R" n="56"/>quas recipiunt, necesse est quod nullum ens 
+            diuer<lb ed="#R" n="57" break="no"/>sum ab eis in forma substantiali generaretur ex 
+            ip<lb ed="#R" n="58" break="no"/>sis. Et ideo necesse est cum ex eis generetur vna 
+            <lb ed="#R" n="59"/>forma mixta, vt corrumpantur formae eorum 
+            se<lb ed="#R" n="60" break="no"/>cundum medietatem, quoniam si corrumperentur 
+            <lb ed="#R" n="61"/>secundum totum, prima materia reciperet primo 
+            <lb ed="#R" n="62"/>&amp; essentialiter omnes formas compositorum 
+            me<lb ed="#R" n="63" break="no"/>diantibus istis corporibus hoc ille. Ex quo patet 
+            <lb ed="#R" n="64"/>quod si secundum medietatem corrumpunitur, &amp; 
+            <lb ed="#R" n="65"/>non secundum totum, &amp; tamen non remanent in 
+            <lb ed="#R" n="66"/>actu, quod oportet dicere aliquid reale exoludi, ex 
+            <lb ed="#R" n="67"/>quo praecedenti resultabat forma 
+            elementa<lb ed="#R" n="68" break="no"/>Similiter non esset verum verbum eiusdem. <ref xml:id="paqqap-a49181-Rd1e1458">Com 
+              <!--0153.xml-->
+              <cb ed="#R" n="b"/>
+              <lb ed="#R" n="69"/>mentatoris 1. physic.</ref> cum dicit, quod miscibilia 
+            <lb ed="#R" n="70"/>sunt in media forma, non in pura potentia, nec in 
+            <lb ed="#R" n="71"/>vltima perfectione sua, sed medio modo, innuens, 
+            <lb ed="#R" n="72"/>quod ablatum est aliquid quo dempto non manent 
+            <lb ed="#R" n="73"/>in suo actu, &amp; in sua perfectione, &amp; tamen aliquid 
+            <lb ed="#R" n="74"/>derelictum est, propter quod plus sunt in pura 
+            po<lb ed="#R" n="75" break="no"/>tentia. 
+          </p>
+          <p xml:id="paqqap-a49181-d1e1481">
+            <lb ed="#R" n="76"/>Similiter non esset verum verbum eiusdem in fi. 
+            <lb ed="#R" n="77"/>ne primi de generatio. cum ait, quod vera miatio 
+            <lb ed="#R" n="78"/>non est secundum partes quantitatis, sed secundum 
+            <lb ed="#R" n="79"/>partes vnius qualitatis. Vnde paulo ante ait, quod 
+            <lb ed="#R" n="80"/>vera mixtio quaerit vniformem euentum in 
+            vtro<lb ed="#R" n="81" break="no"/>que miscibilium, quia si vtrumque corrumperetur 
+            <lb ed="#R" n="82"/>non possent inueniri, nec etiam admisceri. haec 
+            <lb ed="#R" n="83"/>ille. in quibus expraesse dicit, quod in vera mixtione 
+            <lb ed="#R" n="84"/>quae est secundum qualitatem, &amp; formam, necesse 
+            <lb ed="#R" n="85"/>est, quod aliquae partes formarum miscibilium⸗ 
+            <lb ed="#R" n="86"/>corrumpantur, quibus corruptis reliquae 
+            remanen<lb ed="#R" n="87" break="no"/>tes amittunt rationem sorme praecedentis, &amp; 
+            <lb ed="#R" n="88"/>diam formam conssituunt. 
+          </p>
+          <p xml:id="paqqap-a49181-d1e1512">
+            <lb ed="#R" n="89"/>Sed <sic>aasurdum</sic>, &amp; friuolum est dicere, quod tam 
+            <lb ed="#R" n="90"/>praeclari Philosophi qui sic naturas rerum 
+            diligen<lb ed="#R" n="91" break="no"/>ter exquisierunt, aut falsum dixerint, aut 
+            impro<lb ed="#R" n="92" break="no"/>prie loquuti, fuerint in haec materia. algitur prae. 
+            <lb ed="#R" n="93"/>dicta fractio formarum miscibilium est tenenda. 
+          </p>
+          <p xml:id="paqqap-a49181-d1e1529">
+            <lb ed="#R" n="94"/>Secundo idem apparet ratione demonstratiua, 
+            <lb ed="#R" n="95"/>quia verba praedicta fundantur in principis per 
+            se<lb ed="#R" n="96" break="no"/>notis, quorum vnum est, quod non sunt miscibi⸗ 
+            <lb ed="#R" n="97"/>lia primo, quae non sunt miscibilia actiua, &amp; 
+            passi<lb ed="#R" n="98" break="no"/>ua, &amp; addo primo propter mixtionem albedinis, 
+            <lb ed="#R" n="99"/>&amp; nigredinis, &amp; secundarum qualitatum, quae 
+            <lb ed="#R" n="100"/>non suntactiuae, &amp; passiuae, sed earum mixtio non 
+            <lb ed="#R" n="101"/>est prima sed sequitur mixtionem qualitatum 
+            pri<lb ed="#R" n="102" break="no"/>marum actiuarum, &amp; passiuarum. 
+          </p>
+          <p xml:id="paqqap-a49181-d1e1551">
+            <lb ed="#R" n="103"/>Secundum principium quod si ex mutua actione 
+            <lb ed="#R" n="104"/>alterum totaliter corrumpatur, &amp; alterum vincat 
+            <lb ed="#R" n="105"/>nulla est mixtio, sed alterius generatio. 
+          </p>
+          <p xml:id="paqqap-a49181-d1e1560">
+            <lb ed="#R" n="106"/>Tertium vero est, quod si vtrumque totaliter 
+            <lb ed="#R" n="107"/>corrumpatur, ita vt nihil de ipsis remaneat, aut 
+            <lb ed="#R" n="108"/>non est nec fit de ipsis aliqua mixtio cum sit 
+            con<lb ed="#R" n="109" break="no"/>tradictio ponere mixtionem sine miscibili aliquo. 
+          </p>
+          <p xml:id="paqqap-a49181-d1e1571">
+            <lb ed="#R" n="110"/>Quartum est, quod vtrumque maneat 
+            secnn<lb ed="#R" n="111" break="no"/>dum suam specificam rationem etiam in minimo 
+            <lb ed="#R" n="112"/>gradu, nunquam fit ex eis aliqua vna species, nec 
+            <lb ed="#R" n="113"/>forma vna, sed est aceruus formarum, haec autem om 
+            <lb ed="#R" n="114"/>nia sunt per se nota, &amp; ideo necesse est ex ipsis 
+            con<lb ed="#R" n="115" break="no"/>cludi quintum scilicet, quod in vtroque 
+            miscibi<lb ed="#R" n="116" break="no"/>lium aliquid corrumpitur, quo ablato non 
+            rema<lb ed="#R" n="117" break="no"/>net specifica ratio cum aliquid mance, quoa en in 
+            <lb ed="#R" n="118"/>tentum nostrum, &amp; conclusio supposita ad 
+            pro<lb ed="#R" n="119" break="no"/>bandum. 
+          </p>
+        </div>
+        <div xml:id="paqqap-a49181-Dd1e1596">
+          <head xml:id="paqqap-a49181-Hd1e1598">Articulus 4</head>
+          <p xml:id="paqqap-a49181-d1e1600">
+            <lb ed="#R" n="120"/>ARTICVLVS IIII. 
+            <lb ed="#R" n="121"/>Qualiter specificata formarum miscibilium 
+            dif<lb ed="#R" n="122" break="no"/>ferunt a sua realitate. 
+          </p>
+          <p xml:id="paqqap-a49181-d1e1609">
+            <lb ed="#R" n="123"/>NVnc quarto, &amp; vltimo patet, quid dicendum 
+            <lb ed="#R" n="124"/>ad formam quaestionis.
+          </p>
+          <p xml:id="paqqap-a49181-d1e1616">
+            <lb ed="#R" n="125"/>Sciendum enim, quod omnes. formae miscibiles 
+            <lb ed="#R" n="126"/>consistunt in quadam latitudine partium. sic, quod 
+            <lb ed="#R" n="127"/>altera detracta iam non manet specifica ratio ilbius 
+            <lb ed="#R" n="128"/>formae, quia super toto conoursu, &amp; 
+            integritate<lb ed="#R" n="129" break="no"/>illarum partium sundatur specifica differentia, et 
+            <lb ed="#R" n="130"/>respectus illius formae. Ideo Commentator a. 
+            de<lb ed="#R" n="131" break="no"/>generatione, quod elementa in mixto non sunt 
+            se<lb ed="#R" n="132" break="no"/>cundum partes in quantitate, sed secundum partes 
+            <lb ed="#R" n="133"/>in qualitate, et subdit, quod medium cum hoc- 
+            <!--0154.xml-->
+            <pb ed="#P" n="154"/>
+            <cb ed="#R" n="a"/>
+            <lb ed="#R" n="1"/>quod declinat ad alterum contrariorum, habent 
+            <lb ed="#R" n="2"/>aliquam latitudinem: hoc autem est commune, 
+            <lb ed="#R" n="3"/>tam sormis elementaribus, &amp; substantialibus quae 
+            <lb ed="#R" n="4"/>possunt misceri, quam etiam accidentalibus. Si 
+            <lb ed="#R" n="5"/>quae autem sunt, quae consistant in indiuisibili 
+            sim<lb ed="#R" n="6" break="no"/>pliciter, tales misceri non possunt, &amp; ideo figurae 
+            <lb ed="#R" n="7"/>misceri non possunt, nec etiam animae quamuis 
+            <lb ed="#R" n="8"/>semina arborum &amp; animalium possint misceri, &amp; 
+            <lb ed="#R" n="9"/>fiant ex eis corpora media secundum Philosophum 
+            <lb ed="#R" n="10"/>7. metaph. comm. 28. &amp; Commentatorem ibidem: 
+            <lb ed="#R" n="11"/>formae autem accidentales habent vnum speciale 
+            <lb ed="#R" n="12"/>vltra formas substantiales quia suscipiunt magis, 
+            <lb ed="#R" n="13"/>&amp; minus, scilicet quod posita tota illa 
+            latitudine<lb ed="#R" n="14" break="no"/>partium in cuius integritate consistit ratio speciũ- 
+            <lb ed="#R" n="15"/>ca &amp; differentia formalis, adhuc potest eis fieri 
+            <lb ed="#R" n="16"/>additio partium, quae, quia adueniunt formae in 
+            <lb ed="#R" n="17"/>actu extrahenti, tamen sunt eiusdem latitudinis. 
+            Jd<lb ed="#R" n="18" break="no"/>circo priorem formam actualtiorem, &amp; perfectiorem 
+            <lb ed="#R" n="19"/>reddunt. formis autem elementaribus exquisito ad quo 
+            <lb ed="#R" n="20"/>est integritas illius latitudinis impossibile est, quod 
+            <lb ed="#R" n="21"/>fiat additio partium ad eandem latitudinem 
+            per<lb ed="#R" n="22" break="no"/>tinens, nam adueniens pars esset accidens, &amp; per 
+            <lb ed="#R" n="23"/>consequens alterius conditionis. 
+          </p>
+          <p xml:id="paqqap-a49181-d1e1694">
+            <lb ed="#R" n="24"/>Quaerenti ergo: an actualitas siue formalitas 
+            <lb ed="#R" n="25"/>specifica formae miscibilis differat a realitate 
+            for<lb ed="#R" n="26" break="no"/>mae, dicendum quod non a tota latitudine 
+            reali<lb ed="#R" n="27" break="no"/>tatum in quarum concursu consistit ratio formae, 
+            <lb ed="#R" n="28"/>sed ab altera illarum realitatum differt sicut 
+            to<lb ed="#R" n="29" break="no"/>tum, &amp; integrum a parte in qua non saluatur 
+            to<lb ed="#R" n="30" break="no"/>talitas, &amp; per consequens nec forma. 
+          </p>
+          <p xml:id="paqqap-a49181-d1e1713">
+            <lb ed="#R" n="31"/>Primum quidem, quia forma in simplici esse con 
+            <lb ed="#R" n="32"/>sistit secundum auctorem 6. princip. scilicet, fi in 
+            <lb ed="#R" n="33"/>forma elementari sit aliquid, &amp; aliquid, erit ens, &amp; 
+            <lb ed="#R" n="34"/>ens essentia, &amp; essentia res, &amp; res secundum 
+            praede<lb ed="#R" n="35" break="no"/>terminata in quaestione prima supra Et ita forma 
+            <lb ed="#R" n="36"/>erit composita ex principalibus essentij, igitur 
+            il<lb ed="#R" n="37" break="no"/>lud poni non potest.
+          </p>
+          <p xml:id="paqqap-a49181-d1e1731">
+            <lb ed="#R" n="38"/>Secundum vero quia differentia specifica in 
+            in<lb ed="#R" n="39" break="no"/>diuisibili consistit, quia species sunt sicut numori: 
+            <lb ed="#R" n="40"/>igitur non potest fundari super concursu 
+            realita<lb ed="#R" n="41" break="no"/>tum &amp; essentiarum, sed prima realitas dabit 
+            spe<lb ed="#R" n="42" break="no"/>ciem, &amp; caeterae intendent, &amp; perfi ient, vt videtur. 
+          </p>
+          <p xml:id="paqqap-a49181-d1e1744">
+            <lb ed="#R" n="43"/>Tertium: quia non minor difficultas est, 
+            quomo<lb ed="#R" n="44" break="no"/>do possunt misceri rea litates remanentes cum sint 
+            <lb ed="#R" n="45"/>indiuisibiles actuales, quam de tota forma. 
+          </p>
+          <p xml:id="paqqap-a49181-d1e1753">
+            <lb ed="#R" n="46"/>Quartum: quia secundum hoc forma 
+            eiementa<lb ed="#R" n="47" break="no"/>ris erit mixta, cum constet ex multis realitatibus 
+            <lb ed="#R" n="48"/>sicut &amp; forma media. 
+          </p>
+          <p xml:id="paqqap-a49181-d1e1762">
+            <lb ed="#R" n="49"/>Vltimum vero de formis accidentalibus, quae 
+            <lb ed="#R" n="50"/>suscipiunt magis &amp; minus, quaerendum est enim 
+            <lb ed="#R" n="51"/>de latitudint partium, quibus forma intenditur, an 
+            <lb ed="#R" n="52"/>sint eiusdem conditionis cum partibus illis quibus 
+            <lb ed="#R" n="53"/>non intenditur, sed tantum ex ipsis consurgit 
+            res<lb ed="#R" n="54" break="no"/>pectus formae, ita quod formaliter est ipsa forma: 
+            <lb ed="#R" n="55"/>aut ergo sunt partes eiusdem conditionis; aut 
+            alte<lb ed="#R" n="56" break="no"/>riuS. Si ciusdem, sequitur, quod potentiae ita 
+            in<lb ed="#R" n="57" break="no"/>tendent sicut &amp; istae, &amp; e conuerso. Si vero 
+            alte<lb ed="#R" n="58" break="no"/>rius, conitituetur ergo vna res ex duplici 
+            ordine<lb ed="#R" n="59" break="no"/>partium, immo erunt duae totalitates, &amp; duae res 
+            <lb ed="#R" n="60"/>totales alterius rationis, ex quo partes alterius 
+            <lb ed="#R" n="61"/>rationis sunt.
+          </p>
+          <p xml:id="paqqap-a49181-d1e1793">
+            <lb ed="#R" n="62"/>Sed his non obstantibus dicendum est, sicut prius; 
+            <lb ed="#R" n="63"/>nec instantiae istae procedunt. 
+          </p>
+          <p xml:id="paqqap-a49181-d1e1801">
+            <lb ed="#R" n="64"/>Prima siquidem non, concedendum namque quod 
+            <lb ed="#R" n="65"/>realitates illae, &amp; integritas est torma 
+            elementa<lb ed="#R" n="66" break="no"/>ris, sicut aliquid fert, ita &amp; res essentiae sunt &amp; 
+            ta<lb ed="#R" n="67" break="no"/>les vtique res, &amp; essentiae, qualia aliqua sunt, &amp; 
+            <lb ed="#R" n="68"/>ioco ucut sunt aliquid partiale indistinctum in actu, 
+            <!--0154.xml-->
+            <cb ed="#R" n="b"/>
+            <lb ed="#R" n="69"/>eorum tamen totalitas estminus actus indistinctdsp 
+            <lb ed="#R" n="70"/>sic sunt partiales osentiae indistincae in actu3 
+            yuu<lb ed="#R" n="71" break="no"/>rum rotalitas est unac ilentia integra in actu oub 
+            <lb ed="#R" n="72"/>nino indiuisa, &amp; hoc sufficit ad simplicitatem 
+            fur<lb ed="#R" n="73" break="no"/>mae, vt scilicet non condituatur ex realicatibu 
+          </p>
+          <p xml:id="paqqap-a49181-d1e1829">
+            <lb ed="#R" n="74"/>rum vna sit potentia, &amp; reliqua actus. Sod quod 
+            <lb ed="#R" n="75"/>habeat latitudinem quandam partium indistingui 
+            <lb ed="#R" n="76"/>bilium in actu, &amp; re, &amp; intellectu, quorum con⸗ 
+            <lb ed="#R" n="77"/>cursus indiuisus formam efficiat, nil prohibet, 
+            im<lb ed="#R" n="78" break="no"/>mo necesse est, vt patet ex rationibus inductis , &amp;o 
+            <lb ed="#R" n="79"/>ex Aictis Philosophi &amp; Commentatoris. &amp; est exũ- 
+            <lb ed="#R" n="80"/>psum ad hoc de forma circularitatis, quae simplem 
+            <lb ed="#R" n="81"/>est; curuitas autem sua totalis habet intra se purr. 
+            <lb ed="#R" n="82"/>tes curuitatis quod patet dum aperitur linea 
+            ciren<lb ed="#R" n="83" break="no"/>laris, &amp; incipit rectificari, non enim de nono 
+            cun<lb ed="#R" n="84" break="no"/>tinue inducuntur curuitates totales quae non fumae 
+            <lb ed="#R" n="85"/>partialiter in curuitate circulari. Exemplum 
+            <lb ed="#R" n="86"/>etiam de sono vnius littera, a quo nascente sono al 
+            <lb ed="#R" n="87"/>terius litterae demitur aliqu id, quod pertinebatiad 
+            <lb ed="#R" n="88"/>integritatem sonitus, &amp; remanet aliquid nec camen 
+            <lb ed="#R" n="89"/>remanet ipse sonus qui consistebat in totalita 
+            <lb ed="#R" n="90"/>te.
+          </p>
+          <p xml:id="paqqap-a49181-d1e1868">
+            <lb ed="#R" n="91"/>Et per idem patet ad secundam instantiam, quias 
+            <lb ed="#R" n="92"/>specifica ratio circuli non accipitur a partibus our 
+            <lb ed="#R" n="93"/>uitatis praecedentibus in linea curna, donec 
+            adue<lb ed="#R" n="94" break="no"/>niat vltimum curuitatis, qua posita est 
+            aeqmidi<lb ed="#R" n="95" break="no"/>stantia a centro secundum lineas rectas ducibiles 
+            <lb ed="#R" n="96"/>a linea curua, &amp; puncto eius, vsque in centrum 
+            <lb ed="#R" n="97"/>&amp; idem est de de sono heterae qui non habet 
+            caelo<lb ed="#R" n="98" break="no"/>nem specificam talis soni, donec veniat 
+            vhimum<lb ed="#R" n="99" break="no"/>percussionis, &amp; prolationis discretae, quod qnin a 
+            <lb ed="#R" n="100"/>tollitur, cum miscentur tono alterius litterae, 
+            no<lb ed="#R" n="101" break="no"/>cessario tollitur specifica ratio soni litteralis, &amp; fin 
+            <lb ed="#R" n="102"/>vnus sonus medius, &amp; mixtus ipsius syllabae: &amp; sic 
+            <lb ed="#R" n="103"/>intelligendum est de partibus terreis, &amp; 
+            aqueis<lb ed="#R" n="104" break="no"/>quia ratio specifica terrae vol aquae non sumitun 
+            <lb ed="#R" n="105"/>ex cursu &amp; totalitate illarum partium, quarum 
+            <lb ed="#R" n="106"/>latitudo concurrit ad formam terrae: quocirca 
+            ab<lb ed="#R" n="107" break="no"/>lata aliqua ex illis partibus aufertur rotatiras; &amp; 
+            <lb ed="#R" n="108"/>ratio specifica terrae seu aquae. Propter quod inon 
+            <lb ed="#R" n="109"/>conceditur, quod caro sit mixta ex terra &amp; igne 
+            <lb ed="#R" n="110"/>esset enim ignis vel terra, sed est mixta ex aqueo 
+            <lb ed="#R" n="111"/>&amp; terreo, nec propter hoc tamen est, quod ratio 
+            <lb ed="#R" n="112"/>specifica in indiuisibili consistat, quia totalitas rea 
+            <lb ed="#R" n="113"/>lium partium indiuisibilis est, &amp; vna parte 
+            nemo<lb ed="#R" n="114" break="no"/>ta totaliter remouetur, &amp; quantum ad hoc formae 
+            <lb ed="#R" n="115"/>sunt, sicut numeri.
+          </p>
+          <p xml:id="paqqap-a49181-d1e1925">
+            <lb ed="#R" n="116"/>Non procedit etiam tertia: assumit enim duo 
+            <lb ed="#R" n="117"/>falsa. Primum quidem, quod illae indiuisibiles sint du 
+            <lb ed="#R" n="118"/>actu sicut forma, non sunt autem distinguibiles ali 
+            <lb ed="#R" n="119"/>quo modo in actu realiter, &amp; idcirco non possunt 
+            <lb ed="#R" n="120"/>reperiri solitariae, sed semper sunt sic virtualiter 
+            <lb ed="#R" n="121"/>partes alicuius formiae: propter quod dum tollitur 
+            <lb ed="#R" n="122"/>totalitas formae, cuius erant partes, necesse est, quod 
+            <lb ed="#R" n="123"/>fiant actualiter partes alicuius alterius formae, quod 
+            <lb ed="#R" n="124"/>fit aduenientibus partibus, quae consimiliter 
+            se<lb ed="#R" n="125" break="no"/>habuerunt ad forma oppositam, &amp; sic ex vtrisque 
+            <lb ed="#R" n="126"/>cum neutrae sint distinctae in actu, consurget vha to 
+            <lb ed="#R" n="127"/>talitas, a qua sumitur differentia specifica, quae ned 
+            <lb ed="#R" n="128"/>erit prima forma, cuius illae fuerunt partes; nec 
+            e<lb ed="#R" n="129" break="no"/>tiam secunda, cuius istae fuerant. Sed erit 
+            for<lb ed="#R" n="130" break="no"/>ma media ex vtriusque formae partibus constitnta 
+            <lb ed="#R" n="131"/>&amp; conflata, sicut patet dum a sono litterae b. 
+            tol<lb ed="#R" n="132" break="no"/>litur vltimum, in quo sumitur prolatio, 
+            refiduum<lb ed="#R" n="133" break="no"/>per se proferri non potest, vt ibi sistat proferens, 
+            <lb ed="#R" n="134"/>sed sub eadem prolatione connectit aliquid de 
+            fo<lb ed="#R" n="135" break="no"/>no ipsius a, amoto aliquo, a quo inciperet 
+            profe<lb ed="#R" n="136" break="no"/>reus, a, si distincte proferret. Vnde aliter venit ad 
+            <!--0155.xml-->
+            <pb ed="#P" n="155"/>
+            <cb ed="#R" n="a"/>
+            <lb ed="#R" n="1"/>istum sonum medium sonus de. b. quia tollitur rea 
+            <lb ed="#R" n="2"/>litas, quae se tenet ex parte finis prolationis, aliter 
+            <lb ed="#R" n="3"/>autem sonus de A, quia illud quod de eo tollitur, 
+            <lb ed="#R" n="4"/>tenet se ex parte principij prolationis, &amp; manet, 
+            <lb ed="#R" n="5"/>quod se tener ex parte finis, nihilominus vtraq. abla 
+            <lb ed="#R" n="6"/>tio sufficit ad tollendum rationem specificam 
+            so<lb ed="#R" n="7" break="no"/>ni, &amp; consurgit alius sonus ex realitatibus 
+            vtrius<lb ed="#R" n="8" break="no"/>que dimissis, &amp; patet quomodo faciunt vnum 
+            so<lb ed="#R" n="9" break="no"/>num simpliciter, cuius formalis ratio consistit in to 
+            <lb ed="#R" n="10"/>talitate constituta ex aliquo remanente de 
+            so<lb ed="#R" n="11" break="no"/>no vtroque. Semper autem illa realitas, quae se 
+            te<lb ed="#R" n="12" break="no"/>net ex parte termini, actualior est quam illa, quae 
+            <lb ed="#R" n="13"/>se tenet ex parte principij, quia actus terminat, &amp; 
+            <lb ed="#R" n="14"/>distinguit: &amp; hinc est, quod in omnibus 
+            miscibili<lb ed="#R" n="15" break="no"/>bus siue substantialibus siue accidentalibus 
+            sem<lb ed="#R" n="16" break="no"/>per alterum miscibilium magis est quam reliquum 
+            <lb ed="#R" n="17"/>vt dicit Philos. 10. met. &amp; ibid. Comment. com. 23. 
+          </p>
+          <p xml:id="paqqap-a49181-d1e2016">
+            <lb ed="#R" n="18"/>Quod autem dictum est de sonis, intelligendum 
+            <lb ed="#R" n="19"/>est de alijs qualitatibus, nam potest frangi vel ex 
+            <lb ed="#R" n="20"/>parte partium, quae se tenent ex parte, in quo 
+            fini<lb ed="#R" n="21" break="no"/>tur earum generatio, vel ex parte partium quae se 
+            <lb ed="#R" n="22"/>tenent ex parte principij vnde incipit. 
+          </p>
+          <p xml:id="paqqap-a49181-d1e2029">
+            <lb ed="#R" n="23"/>Non procedit etiam quarta, quia pro tanto 
+            for<lb ed="#R" n="24" break="no"/>ma media dicitur mixta, quia partes ad eam 
+            con<lb ed="#R" n="25" break="no"/>currentes non sunt vnius conditionis, immo 
+            fue<lb ed="#R" n="26" break="no"/>runt partes formarum alterius soni, quod non est 
+            <lb ed="#R" n="27"/>fic de partibus formae simplicis, &amp; hoc notorium 
+            <lb ed="#R" n="28"/>est in sonis litterarum. 
+          </p>
+          <p xml:id="paqqap-a49181-d1e2046">
+            <lb ed="#R" n="29"/>Non valet etiam vltima, nam etiam in formis ac 
+            <lb ed="#R" n="30"/>cidentalibus vt pote in curuitate circulari 
+            vi<lb ed="#R" n="31" break="no"/>demus, quod adueniente vltima, quod est 
+            sum<lb ed="#R" n="32" break="no"/>mum curuitatis, sic claudatur specifica ratio ex 
+            <lb ed="#R" n="33"/>totalitate partium omnium curuitatis, quod non 
+            <!--0155.xml-->
+            <cb ed="#R" n="b"/>
+            <lb ed="#R" n="34"/>potest circulus vlterius extendi, nec etiam 
+            remit<lb ed="#R" n="35" break="no"/>ti, quia si tollitur vltimum, quod iam remanet, amit 
+            <lb ed="#R" n="36"/>tit rationem speciei. Et sic est intelligendum de formis 
+            <lb ed="#R" n="37"/>substantialibus elementorum. In sono enim litterae 
+            <lb ed="#R" n="38"/>videmus quod vltimum, quod attingitur in fine 
+            <lb ed="#R" n="39"/>prolationis intenditur, &amp; suscipit magis &amp; minus. 
+          </p>
+          <p xml:id="paqqap-a49181-d1e2077">
+            <lb ed="#R" n="40"/>Dico ergo, quod partes istae sic sunt vnius 
+            ordi<lb ed="#R" n="41" break="no"/>nis, quod partes intendentes &amp; remittentes 
+            suppo<lb ed="#R" n="42" break="no"/>nunt integritatem partium specificatam rationem 
+            <lb ed="#R" n="43"/>constituentium omnino praecedere, ita vt si debeat 
+            <lb ed="#R" n="44"/>fieri corruptio talis formae, oportet, quod sit remis 
+            <lb ed="#R" n="45"/>sio omnium partium vsque ad vltimum, in quo cum 
+            <lb ed="#R" n="46"/>praecedentibus stat. ratio specifica illius formae, &amp; 
+            <lb ed="#R" n="47"/>subintrant illae partes per mixtionem, specificam 
+            ra<lb ed="#R" n="48" break="no"/>tionem formae alterius cum partibus formae 
+            con<lb ed="#R" n="49" break="no"/>trariae. &amp; hinc est, quod vnus motus continuus est 
+            <lb ed="#R" n="50"/>de contrario in contrarium transeundo per modium 
+            <lb ed="#R" n="51"/>vt patet 10. metaph. non est igitur multitudo 
+            ista<lb ed="#R" n="52" break="no"/>rum partium disparata, vt constituantur diuersa 
+            <lb ed="#R" n="53"/>tota, sed sub vno ordine prioris &amp; posterioris se 
+            ha<lb ed="#R" n="54" break="no"/>bent vt constituant vnam formam. 
+          </p>
+          <p xml:id="paqqap-a49181-d1e2112">
+            <lb ed="#R" n="55"/>Ad argumentum in oppositum dicendum, quod 
+            <lb ed="#R" n="56"/>pars vltima non est actu, sic quod partes 
+            praeceden<lb ed="#R" n="57" break="no"/>tes sint potentiae quae actuentur per ipsam, nam 
+            ra<lb ed="#R" n="58" break="no"/>tio specifica non sumitur praecise ab aliqua prima 
+            <lb ed="#R" n="59"/>vel vltima, sed a totalite &amp; integritate ipsarum. 
+            <lb ed="#R" n="60"/>Et propter hoc forma non constituitur ex forma 
+            <lb ed="#R" n="61"/>&amp; materia sicut assumebatur, sed ex realitatibus 
+            <lb ed="#R" n="62"/>partialiter integrantibus rationem specificam, &amp; 
+            <lb ed="#R" n="63"/>formalem, quae quidem fiunt vnum non per 
+            acer<lb ed="#R" n="64" break="no"/>uum aut aggregationem sed per qualitatiuam 
+            in<lb ed="#R" n="65" break="no"/>diuisionē, sicut partes contiuui suo modo sunt vna 
+            <lb ed="#R" n="66"/>quantitas indiuisa in actu. 
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

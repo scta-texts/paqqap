@@ -1,0 +1,1280 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quodlibetum 12</title>
+        <author ref="#Aureoli">Petrus Aureolus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quodlibetum 12</title>
+          <date when="2022-12-14">December 14, 2022</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="R" n="cod-pa05bQ">Roma 1605, Quodlibeta</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2022-12-14" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#R" n="116"/>
+        <cb ed="#R" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="paqqap-a37990"> <!-- q12 -->
+        <head xml:id="paqqap-a37990-Hd1e102">Quodlibetum 12</head>
+        <head xml:id="paqqap-a37990-Hd1e104" type="question-title">
+          Utrum virtus moralis consistens circa 
+          unam materiam habeat 
+          uniuersitatem formae simplicis non 
+          constitutae ex multis
+        </head>
+        <p xml:id="paqqap-a37990-d1e107">
+          <lb ed="#R" n="11"/>QVODLJBETVM 
+          <lb ed="#R" n="12"/>DVODECJMVM. 
+        </p>
+        <p xml:id="paqqap-a37990-d1e114">
+          <lb ed="#R" n="13"/>Vtrum virtus moralis consistens circa 
+          <lb ed="#R" n="14"/>vnam materiam habeat 
+          vniuersita<lb ed="#R" n="15" break="no"/>tem formae simplicis non 
+          con<lb ed="#R" n="16" break="no"/>stitutae ex multis. 
+        </p>
+        <p xml:id="paqqap-a37990-d1e126">
+          <lb ed="#R" n="17"/>Duodecimo quaerebatur: Vtrum virtus 
+          mora<lb ed="#R" n="18" break="no"/>lis consistens circa vnam materiam habeat 
+          <lb ed="#R" n="19"/>vnitatem formae simplicis non constitutae 
+          <lb ed="#R" n="20"/>ex multis. Et arguitur, quod sic: Quia 
+          for<lb ed="#R" n="21" break="no"/>ma est compositioni contingens simplici, &amp; 
+          <lb ed="#R" n="22"/>inuariabili essentia consistens, vt dicit 
+          au<lb ed="#R" n="23" break="no"/>ctor sex principiorum. Sed virtus est forma 
+          <lb ed="#R" n="24"/>quaedam, cum sit qualitas de prima specie: 
+          <lb ed="#R" n="25"/>igitur inuariabili essentia consistit. 
+        </p>
+        <p xml:id="paqqap-a37990-d1e148">
+          <lb ed="#R" n="26"/>Item: Ex pluribus accidentibus in actu 
+          impos<lb ed="#R" n="27" break="no"/>sibile est fieri vnum simpliciter vnitate 
+          exa<lb ed="#R" n="28" break="no"/>cta ad rem, quae ponitur in praedicamento, 
+          <lb ed="#R" n="29"/>alioquin aceruus esset in praedicamento, vt 
+          <lb ed="#R" n="30"/>alias, vnde album non est in genere 
+          pro<lb ed="#R" n="31" break="no"/>pter duo significare secundum Philosophum 
+          <lb ed="#R" n="32"/>2. Topic. forma autem &amp; actus idem sunt: 
+          <lb ed="#R" n="33"/>igitur virtus non est res constituta ex 
+          pluri<lb ed="#R" n="34" break="no"/>bus formis, &amp; per consequens, nec ex 
+          plu<lb ed="#R" n="35" break="no"/>ribus qualitatibus partialibus. 
+        </p>
+        <p xml:id="paqqap-a37990-d1e172">
+          <lb ed="#R" n="36"/>Contra: quando aliqua ita se habent, quod 
+          <lb ed="#R" n="37"/>oppositum vnius stat cum altero, 
+          impossi<lb ed="#R" n="38" break="no"/>bile illa idem esse realiter, alioquin posset 
+          <lb ed="#R" n="39"/>aliquid stare simul cum opposito sui. Sed 
+          <lb ed="#R" n="40"/>inclinatio ad bene, &amp; male circa 
+          mate<lb ed="#R" n="41" break="no"/>riam temperantiae non sunt idem realiter, 
+          <lb ed="#R" n="42"/>&amp; tamen ambae concurrunt ad 
+          integrita<lb ed="#R" n="43" break="no"/>tem virtutis temperantiae: ergo virtus 
+          tem<lb ed="#R" n="44" break="no"/>perantiae est quoddam constitutum ex 
+          <lb ed="#R" n="45"/>multis.
+        </p>
+        <p xml:id="paqqap-a37990-d1e196">
+          <lb ed="#R" n="46"/>Item: habitus intellectualis, puta scientia 
+          re<lb ed="#R" n="47" break="no"/>spectu obiecti eiusdem non habet vnitatem 
+          <lb ed="#R" n="48"/>sormae simplicis, immo integratur ex 
+          habi<lb ed="#R" n="49" break="no"/>tibus pluribus partibus secundum diuersas 
+          <lb ed="#R" n="50"/>conclusiones, quod patet: tum quia 
+          diuer<lb ed="#R" n="51" break="no"/>sis demonstrationibus istae notitiae 
+          acqui<lb ed="#R" n="52" break="no"/>runtur, &amp; intenduntur: tum quia notitia 
+          <lb ed="#R" n="53"/>vnius conclusionis stat cum ignorantia al- 
+          <!--0116.xml-->
+          <cb ed="#R" n="b"/>
+          <lb ed="#R" n="54"/>terius, immo cum errore circa aliam: sed 
+          <lb ed="#R" n="55"/>non minus simplex est intellectus, quam 
+          <lb ed="#R" n="56"/>appetitus: igitur virtus moralis non, est 
+          <lb ed="#R" n="57"/>res pure simplex, sed quid constitutum ex 
+          <lb ed="#R" n="58"/>multis. 
+        </p>
+        <p xml:id="paqqap-a37990-d1e231">
+          <lb ed="#R" n="59"/>Responsio ad quaestionem. 
+        </p>
+        <p xml:id="paqqap-a37990-d1e236">
+          <lb ed="#R" n="60"/>Respondeo: hic Primo ponetur punctum 
+          que<lb ed="#R" n="61" break="no"/>stionis. 
+          <lb ed="#R" n="62"/>Secundo conclusiones intentae. 
+          <lb ed="#R" n="63"/>Quarto soluam argumenta. 
+        </p>
+        <div xml:id="paqqap-a37990-Dd1e248">
+          <head xml:id="paqqap-a37990-Hd1e250">Articulus 1</head>
+          <p xml:id="paqqap-a37990-d1e252">
+            <lb ed="#R" n="64"/>ARTJCVLVS I 
+            <lb ed="#R" n="65"/>In quo punctus tangitur intellectus quaestionis. 
+          </p>
+          <p xml:id="paqqap-a37990-d1e259">
+            <lb ed="#R" n="66"/>CIRCA primum scien⸗ 
+            <lb ed="#R" n="67"/>dum est, quod quaestio 
+            <lb ed="#R" n="68"/>potest currere ad 
+            quat<lb ed="#R" n="69" break="no"/>tuor intellectus secundum 
+            <lb ed="#R" n="70"/>diuersitatem partium ex 
+            <lb ed="#R" n="71"/>quibus potest intelligi, 
+            <lb ed="#R" n="72"/>quod constituatur virtus 
+            <lb ed="#R" n="73"/>quia vel potest inquiri 
+            <lb ed="#R" n="74"/>de partibus 
+            perfectiona<lb ed="#R" n="75" break="no"/>libus intendentibus 
+            vir<lb ed="#R" n="76" break="no"/>tutem, &amp; tunc esset quaestio de materia, de modo 
+            <lb ed="#R" n="77"/>sui augmenti, an fiat per aduentum alicuius 
+            rea<lb ed="#R" n="78" break="no"/>litatis, quae remaneat cum priori, vel totaliter 
+            cor<lb ed="#R" n="79" break="no"/>rumpatur. 
+          </p>
+          <p xml:id="paqqap-a37990-d1e292">
+            <lb ed="#R" n="80"/>Et si per aduentum realitatis, an illa realitas fit 
+            <lb ed="#R" n="81"/>pars participans formaliter, &amp; praecise naturam 
+            <lb ed="#R" n="82"/>formae, fic, quod sit aptum natum esse vnum 
+            indi<lb ed="#R" n="83" break="no"/>uiduum eiuidem speciei; vel sit res impraecisa, quae 
+            <lb ed="#R" n="84"/>nec participet rationem illius formae, sed ex ipsa 
+            <lb ed="#R" n="85"/>cum praecedenti constituatur intensius indiuiduum 
+            <lb ed="#R" n="86"/>talis formae. In isto igitur primo intellectu 
+            non<lb ed="#R" n="87" break="no"/>currit quaestio quo ad praesens, sed de hoc erit alias 
+            <lb ed="#R" n="88"/>quaestio specialis. 
+          </p>
+          <p xml:id="paqqap-a37990-d1e314">
+            <lb ed="#R" n="89"/>Secundo potest intelligi de partibus 
+            essentiali<lb ed="#R" n="90" break="no"/>bus, an scilicet virtus sit aliquod constitutum ex 
+            <lb ed="#R" n="91"/>absoluto, &amp; respectu, qua litercumque constituatur. 
+          </p>
+          <p xml:id="paqqap-a37990-d1e324">
+            <lb ed="#R" n="92"/>Vel potest tertio intelligi de partibus fund amen 
+            <lb ed="#R" n="93"/>talibus in diuersis potentijs, an scilicet ad vnam 
+            <lb ed="#R" n="94"/>virtutem moralem concurrant essentialiter 
+            habi<lb ed="#R" n="95" break="no"/>tualis inclinatio in voluntate, &amp; inclinatio alia in 
+            <lb ed="#R" n="96"/>appetitu sensitiuo, ex quibus vna virtus moralis 
+            in<lb ed="#R" n="97" break="no"/>tegretur. 
+          </p>
+          <p xml:id="paqqap-a37990-d1e340">
+            <lb ed="#R" n="98"/>Vel potest quarto intelligi de partibus 
+            funda<lb ed="#R" n="99" break="no"/>mentibus in eadem potentia, an scilicet in 
+            appeti<lb ed="#R" n="100" break="no"/>tu sensitiuo, aut in voluntate sint inclinationes 
+            par<lb ed="#R" n="101" break="no"/>tibiles circa eandem materiam distinctae cum 
+            ra<lb ed="#R" n="102" break="no"/>tione circumstantiarum, &amp; quanti &amp; qualis, &amp; 
+            simi<lb ed="#R" n="103" break="no"/>lium. Et in istis inquisitionibus stat intellectus, &amp; 
+            <lb ed="#R" n="104"/>punctus quaestionis, quamuis posset addi quaestio 
+            <lb ed="#R" n="105"/>de partibus constituentibus per modum 
+            mixtio<lb ed="#R" n="106" break="no"/>nis, an scilicet virtus moralis in appetitu sensitiuo 
+            <lb ed="#R" n="107"/>sit quaedam qualitas media conflata ex 
+            habilitati<lb ed="#R" n="108" break="no"/>bus, seu idoneitatibus extremis, quae hominem 
+            <lb ed="#R" n="109"/>inclinant ad extrema passionum, ex talibus inquam 
+            <lb ed="#R" n="110"/>inclinationibus reductis ad medium eo modo, quo 
+            <lb ed="#R" n="111"/>rubedo, &amp; alij colores medij conﬂantur ex 
+            termi<lb ed="#R" n="112" break="no"/>nis, &amp; in isto intellectu procedit quaestio sequens, 
+          </p>
+          <p xml:id="paqqap-a37990-d1e375">
+            <lb ed="#R" n="113"/>Est autem considerandum, quod quaestio de plu- 
+            <!--0117.xml-->
+            <pb ed="#P" n="117"/>
+            <cb ed="#R" n="a"/>
+            <lb ed="#R" n="1"/>ribus formis, an constituant vnam formam, potest 
+            <lb ed="#R" n="2"/>quidem esse rationalis, &amp; valde irrationalis 
+            secun<lb ed="#R" n="3" break="no"/>dum diuersitatem sormarum. Si enim sit sermo 
+            <lb ed="#R" n="4"/>secundum esse naturae, tunc ridiculosa esset 
+            quae<lb ed="#R" n="5" break="no"/>stio, patet enim ex pluribus manentibus. distinctis 
+            <lb ed="#R" n="6"/>impossibile esse constitui vnam formam, seu 
+            essen<lb ed="#R" n="7" break="no"/>tiam, quia actus distinguit, &amp; separat 7. meth. &amp; 9. 
+            <lb ed="#R" n="8"/>Sed si sit sermo secundum esse moris, tunc 
+            rationa<lb ed="#R" n="9" break="no"/>lis est: nam multa, quae sunt multa secundum esse 
+            <lb ed="#R" n="10"/>naturae, possent concurrere ad aliquod vnum secun 
+            <lb ed="#R" n="11"/>dum esse moris, vel bene esse alicuius. Quod patet: 
+            <lb ed="#R" n="12"/>tum quia multi humores, &amp; per consequens multae 
+            <lb ed="#R" n="13"/>qualitates concurrunt ad conseruandum vnam 
+            sa<lb ed="#R" n="14" break="no"/>nitatem, &amp; multae qualitates, vtpote color, figura 
+            <lb ed="#R" n="15"/>ad vnam pulchritudinem: tum etiam quia multa 
+            <lb ed="#R" n="16"/>membra, &amp; multae partes, seu qualitates earum 
+            <lb ed="#R" n="17"/>ad eandem pulchritudinem concurrunt: tum quia 
+            <lb ed="#R" n="18"/>multae qualitates constituunt vnam potentiam, seu 
+            <lb ed="#R" n="19"/>idoneitatem, &amp; de secunda specie qualitatis, 
+            vtpo<lb ed="#R" n="20" break="no"/>te pugillatoriam, vel cursoriam, &amp; vniuersaliter 
+            <lb ed="#R" n="21"/>tota prima species, &amp; secunda qualitatis, habet 
+            <lb ed="#R" n="22"/>vnitatem non absolutam quidem secundum esse 
+            <lb ed="#R" n="23"/>naturae, sed esse moris, seu esse relatum, vt infra 
+            pa<lb ed="#R" n="24" break="no"/>tebit. Qualitates igitur de tertia, &amp; quarta specie 
+            <lb ed="#R" n="25"/>non est dubium, quod non possunt ex multis 
+            ma<lb ed="#R" n="26" break="no"/>nentibus distinctis constitui. Sed de prima, &amp; 
+            se<lb ed="#R" n="27" break="no"/>cunda specie non sic apparet, &amp; idcirco rationalis 
+            <lb ed="#R" n="28"/>est inquisitio de hoc. 
+          </p>
+        </div>
+        <div xml:id="paqqap-a37990-Dd1e448">
+          <head xml:id="paqqap-a37990-Hd1e450">Articulus 2</head>
+          <p xml:id="paqqap-a37990-d1e452">
+            <lb ed="#R" n="29"/>ARTJCVLVS <sic>III</sic>. 
+            <lb ed="#R" n="30"/>Et ostenditur primo, quod virtus moralis 
+            con<lb ed="#R" n="31" break="no"/>stituitur ex principalibus 
+            inclinatio<lb ed="#R" n="32" break="no"/>nibus existentibus in 
+            diuer<lb ed="#R" n="33" break="no"/>sis potentij. 
+          </p>
+          <p xml:id="paqqap-a37990-d1e468">
+            <lb ed="#R" n="34"/>TVNC igitur ponendae sunt conclusiones 
+            in<lb ed="#R" n="35" break="no"/>tentae. 
+          </p>
+          <p xml:id="paqqap-a37990-d1e475">
+            <lb ed="#R" n="36"/>Prima quidem est, quod virtus moralis 
+            consti<lb ed="#R" n="37" break="no"/>tuitur ex pluribus inclinationibus fundantibus 
+            <lb ed="#R" n="38"/>vnam conformitatem respectu materiae, 
+            inclina<lb ed="#R" n="39" break="no"/>tionibus quibus existentibus in duabus potentijs, 
+            <lb ed="#R" n="40"/>scilicet in voluntate, &amp; aliam in appetitu sensitiuo. 
+            <lb ed="#R" n="41"/>hanc probo multiplici ratione. 
+          </p>
+          <p xml:id="paqqap-a37990-d1e491">
+            <lb ed="#R" n="42"/>Primo sic: Non sunt duae virtutes in homine 
+            <lb ed="#R" n="43"/>morales respectu eiusdem materiae: sed si 
+            inclina<lb ed="#R" n="44" break="no"/>tio illa, quae est in voluntate, &amp; illa, quae est in 
+            ap<lb ed="#R" n="45" break="no"/>petito sensitiuo non constituerent vnam virtutem 
+            <lb ed="#R" n="46"/>moralem indiuisibilem, sic quod ista sine illa non 
+            <lb ed="#R" n="47"/>esset virtus, nec e conuerso, sequeretur, quod duae 
+            <lb ed="#R" n="48"/>virtutes morales in homine essent respectu eiusdem 
+            <lb ed="#R" n="49"/>materiae, quaelibet enim de istis inclinationibus 
+            es<lb ed="#R" n="50" break="no"/>set distincta virtus moralis per se: nam quaelibet 
+            <lb ed="#R" n="51"/>esset habitus immediate consistens, &amp; inclinans 
+            se<lb ed="#R" n="52" break="no"/>cundum determinationem rectae rationis, &amp; in 
+            po<lb ed="#R" n="53" break="no"/>testate videtur consistens: ergo necesse est, quod 
+            <lb ed="#R" n="54"/>istae duae inclinationes concurrant ad rationem 
+            <lb ed="#R" n="55"/>vnius modi visibilis virtutis moralis. 
+          </p>
+          <p xml:id="paqqap-a37990-d1e525">
+            <lb ed="#R" n="56"/>Sed forte dices, quod in voluntate nulla est 
+            incli<lb ed="#R" n="57" break="no"/>natio haec virtus moralis pro eo, quod non est 
+            <lb ed="#R" n="58"/>subiecta passionibus, nec contra tendit, vel conten 
+            <lb ed="#R" n="59"/>dit rationi, &amp; ideo non indiget virtute, vt 
+            Philoso<lb ed="#R" n="60" break="no"/>phus innuit 1. politicorum. 
+          </p>
+          <p xml:id="paqqap-a37990-d1e538">
+            <lb ed="#R" n="61"/>Sed hoc stare non potest, non enim magis 
+            resi<lb ed="#R" n="62" break="no"/>stit rationi voluntas respectu operabilium, in 
+            qui<lb ed="#R" n="63" break="no"/>bus est iustitia, quam respectu passionum in 
+            quali<lb ed="#R" n="64" break="no"/>bet sunt aliae virtutes. Sed secundum Philosophum 
+            <lb ed="#R" n="65"/>5. Ethic. respectu operabilium oportet ponere in 
+            <!--0117.xml-->
+            <cb ed="#R" n="b"/>
+            <lb ed="#R" n="66"/>voluntate virtutem iustitiae, dicit enim, quod talem 
+            <lb ed="#R" n="67"/>habitum volumus dicere iustitiam, a quo volumus 
+            <lb ed="#R" n="68"/>iusta, &amp; iusta operamur, &amp; per consequens in 
+            vo<lb ed="#R" n="69" break="no"/>luntate est iustitia, qua volumus iusta: igitur 
+            re<lb ed="#R" n="70" break="no"/>spectus omnis alterius materiae est virtuosa 
+            incli<lb ed="#R" n="71" break="no"/>natio in voluntate. 
+          </p>
+          <p xml:id="paqqap-a37990-d1e569">
+            <lb ed="#R" n="72"/>Praeterea: Non minus sunt efficaces actus volun 
+            <lb ed="#R" n="73"/>tatis ad generandum habitum in ea per assuesactio 
+            <lb ed="#R" n="74"/>nem, quam intellectus actus, vel appetitus: sed ex 
+            <lb ed="#R" n="75"/>actibus intellectus delinquitur in ipso habitus, &amp; 
+            <lb ed="#R" n="76"/>similiter de actibus appetitus: ergo ex actibus 
+            vo<lb ed="#R" n="77" break="no"/>luntatis delinquitur in ea inclinatio virtuosa. 
+          </p>
+          <p xml:id="paqqap-a37990-d1e585">
+            <lb ed="#R" n="78"/>Et confirmatur, quia nec intellectus resistit obie 
+            <lb ed="#R" n="79"/>cto, &amp; multo minus quam voluntas rationi. 
+          </p>
+          <p xml:id="paqqap-a37990-d1e592">
+            <lb ed="#R" n="80"/>Praeterea: Non est minor resistentia ad rationem 
+            <lb ed="#R" n="81"/>illa, quae oritur ex libertate, &amp; dominio, quam quod 
+            <lb ed="#R" n="82"/>oritur ex passione: quod patet ex hoc, quod contra 
+            <lb ed="#R" n="83"/>passiones potest hoc per dominium, &amp; clectionem 
+            <lb ed="#R" n="84"/>moueri; sed in voluntate, &amp; ex voluntate oritur 
+            li<lb ed="#R" n="85" break="no"/>bertas, &amp; dominium actuum humanorum, est enim 
+            <lb ed="#R" n="86"/>dominus verus, vt dicit Commentator 9. meth. 
+            <lb ed="#R" n="87"/>igitur in voluntate oportet ponere habitum firman 
+            <lb ed="#R" n="88"/>tem cum ratione. 
+          </p>
+          <p xml:id="paqqap-a37990-d1e614">
+            <lb ed="#R" n="89"/>Praeterea: In omni eo, quod est rationale non 
+            <lb ed="#R" n="90"/>quidem per essentiam, sed per participationem, 
+            <lb ed="#R" n="91"/>necesse est ponere virtutem obedientialem, quae 
+            di<lb ed="#R" n="92" break="no"/>citur moralis, vt patet per Philosophum r. Ethic. 
+            <lb ed="#R" n="93"/>in fine. vbi dicit Auer. quod virtus prima sui 
+            diui<lb ed="#R" n="94" break="no"/>sione in suas partes diuiditur, quarum vna est 
+            in<lb ed="#R" n="95" break="no"/>tellectualis, &amp; est apprehensiua, altera vero 
+            obe<lb ed="#R" n="96" break="no"/>dientialis, &amp; est virtus moralis; sed constat, quod 
+            <lb ed="#R" n="97"/>voluntas non est idem per essentiam, nec virtus 
+            se<lb ed="#R" n="98" break="no"/>cundum veram definitionem 2. &amp; 7. Ethic. Item 
+            con<lb ed="#R" n="99" break="no"/>stat, quod omnis virtus vel est corporalis, vel 
+            mo<lb ed="#R" n="100" break="no"/>ralis, vel intellectualis, quia de pluribus non fit 
+            <lb ed="#R" n="101"/>mentio in illo septimo: cum igitur ista inclinatio 
+            <lb ed="#R" n="102"/>non sit pure virtus corporalis, nec etiam 
+            intelle<lb ed="#R" n="103" break="no"/>ctualis, necesse est dicere, quod includatur 
+            essentia<lb ed="#R" n="104" break="no"/>liter in morali. 
+          </p>
+          <p xml:id="paqqap-a37990-d1e652">
+            <lb ed="#R" n="105"/>Tertio forte dicetur, quod non est inconueniens 
+            <lb ed="#R" n="106"/>vtramque inclinationem esse virtutem moralem 
+            <lb ed="#R" n="107"/>per se &amp; distincte, &amp; ita erunt duae virtutes 
+            mora<lb ed="#R" n="108" break="no"/>les respectu eiuidem materiae. 
+          </p>
+          <p xml:id="paqqap-a37990-d1e663">
+            <lb ed="#R" n="109"/>Sed istud stare non potest: tum quia Philosophus 
+            <lb ed="#R" n="110"/>non agit de duplici fortitudine, &amp; duplicij 
+            tempe<lb ed="#R" n="111" break="no"/>rantia: tum quia carens altera non dicitur 
+            absolu<lb ed="#R" n="112" break="no"/>te temperatus; propter quod patet, quod vna sine 
+            <lb ed="#R" n="113"/>altera non sufficit ad virtutem, sicut nec tectum 
+            <lb ed="#R" n="114"/>sine parietibus sufficit ad domum: est igitur vna 
+            <lb ed="#R" n="115"/>virtus ex his duabus inclinationibus indiuisibiliter 
+            <lb ed="#R" n="116"/>constituta, sicut domus indiuisibiliter constituitur 
+            <lb ed="#R" n="117"/>ex pariete, fundamento, &amp; tecto. 
+          </p>
+          <p xml:id="paqqap-a37990-d1e685">
+            <lb ed="#R" n="118"/>Tertio principaliter arguo sic: Vnus est perfe. 
+            <lb ed="#R" n="119"/>ctibilis per virtutem in ordine ad vnam materiam; 
+            <lb ed="#R" n="120"/>quod paret, quia circa rationalem materiam sunt 
+            <lb ed="#R" n="121"/>duo modi se habendi hominem secundum quod 
+            <lb ed="#R" n="122"/>homo, vnus vt bene se habeat secundum rationem, 
+            <lb ed="#R" n="123"/>&amp; per essentiam in cogitando, &amp; in disponendo de 
+            <lb ed="#R" n="124"/>materia ista; alius vero, vt bene se habeat in 
+            obe<lb ed="#R" n="125" break="no"/>diendo rectae rationi circa illam: nunc autem si 
+            ap<lb ed="#R" n="126" break="no"/>petitus non habet in se obedientialem virtutem, 
+            <lb ed="#R" n="127"/>numquam bene obedit voluntati, nec etiam e 
+            con<lb ed="#R" n="128" break="no"/>uerso voluntas ei, quia appetitus trahit appetitum, 
+            <lb ed="#R" n="129"/>sicut rota trahit rotam, vt dicitur tertio de anima, 
+            <lb ed="#R" n="130"/>&amp; ob hoc dicitur Daniel. 14. Concupiscentia 
+            sub<lb ed="#R" n="131" break="no"/>uertit cor tuum, &amp; 1. Jacob. 1. Vnusquisque 
+            <lb ed="#R" n="132"/>tentatur a concupiscentia sua attractus, &amp; illectus; 
+            <lb ed="#R" n="133"/>ex quo patet, quod bonum rationis, quod consillit 
+            <!--0118.xml-->
+            <pb ed="#P" n="118"/>
+            <cb ed="#R" n="a"/>
+            <lb ed="#R" n="1"/>in obediendo suasioni rationis, non autem in 
+            cogi<lb ed="#R" n="2" break="no"/>tando, hoc vtique bonum non est perfecte in 
+            homi<lb ed="#R" n="3" break="no"/>ne secundum, alterum appetitum sine altero, &amp; per 
+            <lb ed="#R" n="4"/>consequens est vnum perfectibile hoc secundum 
+            <lb ed="#R" n="5"/>vrrumque appetitum per virtutem obedientialem: 
+            <lb ed="#R" n="6"/>igitur necesse est, quod sit virtus vna obedientialis, 
+            <lb ed="#R" n="7"/>&amp; per consequens moralis in homine secundum 
+            <lb ed="#R" n="8"/>vtrumque appetitum. 
+          </p>
+          <p xml:id="paqqap-a37990-d1e746">
+            <lb ed="#R" n="9"/>Et confirmatur per simile de sanitate, ad quam 
+            <lb ed="#R" n="10"/>concurrunt in vno membro dispositiones bonae 
+            <lb ed="#R" n="11"/>omnium partium illius membri, si debeat dici 
+            <lb ed="#R" n="12"/>sanum; &amp; similiter, si debeat dici pulchrum, 
+            opor<lb ed="#R" n="13" break="no"/>tet, quod multa occurrant in eodem membro secun 
+            <lb ed="#R" n="14"/>dum diuersas partes eius, vtpote nasi, oculorum, 
+            <lb ed="#R" n="15"/>labiorum in vultu. Et ratio huius est, quia 
+            mem<lb ed="#R" n="16" break="no"/>brum habet rationem vnius sanabilis, aut vnius. 
+            <lb ed="#R" n="17"/>susceptibilis respectu pulchritudinis, quamuis 
+            ha<lb ed="#R" n="18" break="no"/>beat plures partes, &amp; idem est de toto homine quã- 
+            <lb ed="#R" n="19"/>tum ad esse obedibile rationi secundum vtrumque 
+            <lb ed="#R" n="20"/>appetitum. 
+          </p>
+          <p xml:id="paqqap-a37990-d1e775">
+            <lb ed="#R" n="21"/>Tertio principaliter ad eandem conclusionem sic 
+            <lb ed="#R" n="22"/>illae inclinationes essentialiter ad pertinet vnam vir 
+            <lb ed="#R" n="23"/>tutem moralem, a quibus actus virtuosus circa materiam. 
+            <lb ed="#R" n="24"/>aliquam coelicitiue dependet sub ratione, qua 
+            <lb ed="#R" n="25"/>virtuosus: quod patet ex definitione virtutis, quia 
+            <lb ed="#R" n="26"/>habentem perficit, &amp; opus eius bonum reddit, 
+            ha<lb ed="#R" n="27" break="no"/>bitus enim dicitur virtuosus, quia inclinat ad actum, 
+            <lb ed="#R" n="28"/>&amp; idcirco omnes inclinationes, quae exiguntur ad 
+            <lb ed="#R" n="29"/>actum vnum virtuosum sunt vnus habitus 
+            virtuo<lb ed="#R" n="30" break="no"/>sus: sed circumstantiae, quibus actus redditur 
+            vir<lb ed="#R" n="31" break="no"/>tuosus, impossibile est, quod insint actui ex vna 
+            <lb ed="#R" n="32"/>tellectione sola alterius appetitus: non enim actus 
+            <lb ed="#R" n="33"/>elicitur delectabiliter, si appetitus sensitiuus caret 
+            <lb ed="#R" n="34"/>obedientiali inclinatione, nec firmiter, quia homi 
+            <lb ed="#R" n="35"/>nes in repentinis magis mouent motu ipsius 
+            appeti<lb ed="#R" n="36" break="no"/>tus, ex sola autem inclinatione appetitus sensitiui, 
+            <lb ed="#R" n="37"/>qui voluntas sit inclinatiua, etiam non haec 
+            oriun<lb ed="#R" n="38" break="no"/>tur, &amp; tamen islae sunt circumstantiae secundum quas 
+            <lb ed="#R" n="39"/>actus elicitur delectabiliter, prompte, faciliter ex 
+            <lb ed="#R" n="40"/>2. Ethic. &amp; 2. Corinth. 9. repentine, vt patet ex 2. &amp; 
+            <lb ed="#R" n="41"/>3. Ethic. Vnde de liberali dicit Apostolus: Non ex 
+            <lb ed="#R" n="42"/>tristitia, aut ex necessitate, hilarem enim datorem 
+            <lb ed="#R" n="43"/>diligit Deus, &amp; Eccles. 1S. Fi i in bonis non des 
+            que<lb ed="#R" n="44" break="no"/>relam, &amp; in omni non des tristitiam: ergo 
+            inclina<lb ed="#R" n="45" break="no"/>tio vtriusque appetitus essentialiter concurrit ad 
+            <lb ed="#R" n="46"/>rationem vnius virtutis indiuisibilis moralis. 
+          </p>
+          <p xml:id="paqqap-a37990-d1e834">
+            <lb ed="#R" n="47"/>Et confirmatur, quia ad rationem vnius 
+            indiui<lb ed="#R" n="48" break="no"/>sibilis syllogismi tot propositiones essentialiter 
+            con<lb ed="#R" n="49" break="no"/>currunt, quot sunt necessariae ad inferendam 
+            con<lb ed="#R" n="50" break="no"/>clusionem, non plures, nec pauciores, vtpote 
+            ma<lb ed="#R" n="51" break="no"/>ior &amp; minor. 
+          </p>
+          <p xml:id="paqqap-a37990-d1e848">
+            <lb ed="#R" n="52"/>Et ratio huius est, quia forma, &amp; vnitas 
+            syllogis<lb ed="#R" n="53" break="no"/>mi accipitur vnius principij illatiui conclusionis: 
+            <lb ed="#R" n="54"/>quare cum virtus sit habitus illatiuus actus 
+            virtuo<lb ed="#R" n="55" break="no"/>si inquantum virtuosus est, &amp; ex hoc solo habeat 
+            <lb ed="#R" n="56"/>re lationem virtutis, tot inclinationes concurrunt 
+            <lb ed="#R" n="57"/>ad eam, quot exiguntur ad inferendas 
+            circumslan<lb ed="#R" n="58" break="no"/>tias virtuosas in actu. 
+          </p>
+          <p xml:id="paqqap-a37990-d1e866">
+            <lb ed="#R" n="59"/>Quarto principaliter sic secundum, quod 
+            dedu<lb ed="#R" n="60" break="no"/>cit Philosophus 2. Ethic. Virtutes vere sunt 
+            dele<lb ed="#R" n="61" break="no"/>ctationes &amp; tristitiae moderatae circa passiones, vbi 
+            <lb ed="#R" n="62"/>dicit Commentator, quod virtutes existunt in 
+            ac<lb ed="#R" n="63" break="no"/>cidentibus, &amp; passionibus: omnem autem 
+            operatio<lb ed="#R" n="64" break="no"/>nem, &amp; pallionem sequitur delectatio, &amp; 
+            contrista<lb ed="#R" n="65" break="no"/>tO, &amp; propter hoc oportet, vt virtus sit circa 
+            dele<lb ed="#R" n="66" break="no"/>cta tiones, &amp; trist tias scilicet, vt ambae, 
+            delectatio<lb ed="#R" n="67" break="no"/>nes, &amp; tristitiae sint secundum quod oportet: Illa 
+            <lb ed="#R" n="68"/>igitur concurrunt ad rationem vnius virtutis respe- 
+            <!--0118.xml-->
+            <cb ed="#R" n="b"/>
+            <lb ed="#R" n="69"/>ctu alicuius materiae, quae necessario concurrunt 
+            <lb ed="#R" n="70"/>ad vnum delectari, aut tristani secundum, quod 
+            <lb ed="#R" n="71"/>oportet circatillam matetiamased ioclinatio vtrius 
+            <lb ed="#R" n="72"/>que appetitus concurrit: si enim fuerit tristitia 
+            <lb ed="#R" n="73"/>in altero minuitur delectatio, aut tollitur ab 
+            alte<lb ed="#R" n="74" break="no"/>ro, &amp; e conuerso, expellit enim delectatio tristitiam, 
+            <lb ed="#R" n="75"/>&amp; quae contraria, &amp; quae contingens si sit fortis 7. 
+            <lb ed="#R" n="76"/>Ethic. ergo inclinationes vtriusque appetitus 
+            in<lb ed="#R" n="77" break="no"/>diuisibiliter concurrunt ad vnam rationem 
+            mora<lb ed="#R" n="78" break="no"/>lis virtutis. 
+          </p>
+          <p xml:id="paqqap-a37990-d1e916">
+            <lb ed="#R" n="79"/>Quinto principaliter sic: Illud quo dempto ab 
+            <lb ed="#R" n="80"/>aliquo toto non manet ratio totius essentialiter 
+            <lb ed="#R" n="81"/>concurrit ad illud totum, &amp; ideo cor, &amp; cerebrum 
+            <lb ed="#R" n="82"/>est de integritate essentiali hominis, non autem 
+            di<lb ed="#R" n="83" break="no"/>gitus, quia impossibile est manere hominem illis 
+            <lb ed="#R" n="84"/>demptis, sicut manere potest digito absciso: sed 
+            re<lb ed="#R" n="85" break="no"/>mota inclinatione habitus sensitiui conformis 
+            re<lb ed="#R" n="86" break="no"/>ctae rationi non remanet virtuosus, vt patet in 
+            con<lb ed="#R" n="87" break="no"/>tinente: remota etiam habituali electione, &amp; 
+            habi<lb ed="#R" n="88" break="no"/>tuali proposito, iam non remanet virtuosus, vt 
+            pa<lb ed="#R" n="89" break="no"/>tet in illo, qui prius temperatus existens amittat 
+            <lb ed="#R" n="90"/>voluntatem, vel propositum, quia constat, quod 
+            <lb ed="#R" n="91"/>non est virtuosus: igitur vtraque inclinatio 
+            essen<lb ed="#R" n="92" break="no"/>tialiter exigitur ad moralem virtutem. 
+          </p>
+          <p xml:id="paqqap-a37990-d1e949">
+            <lb ed="#R" n="93"/>Quod in eodem etiam appetitu concurrunt plures 
+            <lb ed="#R" n="94"/>partiales inclinationes ad constitutionem 
+            <lb ed="#R" n="95"/>vnius virtutis. 
+          </p>
+          <p xml:id="paqqap-a37990-d1e958">
+            <lb ed="#R" n="96"/>SEcunda Conclusio est, quod in eadem 
+            poten<lb ed="#R" n="97" break="no"/>tia, vtpote in appetitu sensitiuo, plures 
+            incli<lb ed="#R" n="98" break="no"/>nationes partiales concurrunt ad constitutionem 
+            <lb ed="#R" n="99"/>vnius virtutis, quae natura habet latitudinem, &amp; 
+            <lb ed="#R" n="100"/>difficultatem diuersam. hoc autem patet. 
+          </p>
+          <p xml:id="paqqap-a37990-d1e971">
+            <lb ed="#R" n="101"/>Primo quidem sic· quia ex disparatis assuefactioni 
+            <lb ed="#R" n="102"/>bus, &amp; alterius rationis causantur disparatae 
+            incli<lb ed="#R" n="103" break="no"/>nationes habituales; sicut enim ex diuersis demon 
+            <lb ed="#R" n="104"/>strationibus causantur diuersae notitiae habituales 
+            <lb ed="#R" n="105"/>in intellectu, sic ex diuersis assuefactionibus causan 
+            <lb ed="#R" n="106"/>tur diuersae inclinationes morales. Sic in materia 
+            <lb ed="#R" n="107"/>habente latitudinem, &amp; variam difficultatem sunt 
+            <lb ed="#R" n="108"/>disparatae assuefactiones. In matetia namque tem 
+            <lb ed="#R" n="109"/>perantiae potest se quis assuefacere circa vnum 
+            ge<lb ed="#R" n="110" break="no"/>nus cibi, vel potus secundum rectam rationem; nec 
+            <lb ed="#R" n="111"/>ex hoc assuefaciet se circa vnum aliud genus, quod 
+            <lb ed="#R" n="112"/>est forsan delicatius. &amp; maioris difficultatis est 
+            be<lb ed="#R" n="113" break="no"/>ne se habere circa illud; ergo ex huiusmodi 
+            assue<lb ed="#R" n="114" break="no"/>factionibus diuersae inclinationes partiales causan 
+            <lb ed="#R" n="115"/>tur: hae autem inclinationes ad vnam perfectam 
+            tem<lb ed="#R" n="116" break="no"/>perantiam exiguntur circa materiam totam: 
+            igi<lb ed="#R" n="117" break="no"/>tur in vna potentia concurrunt multae 
+            inclinatio<lb ed="#R" n="118" break="no"/>nes ad constitutionem vnius virtutis. 
+          </p>
+          <p xml:id="paqqap-a37990-d1e1014">
+            <lb ed="#R" n="119"/>Secundo sic: Istae inclinationes non sunt eaedem, 
+            <lb ed="#R" n="120"/>quae sic se habent, quod generatio vnius non est 
+            ge<lb ed="#R" n="121" break="no"/>neratio alterius, nec corruptio, similiter nec 
+            inten<lb ed="#R" n="122" break="no"/>sio, nec diminutio: sed sic est de huiusmodi 
+            incli<lb ed="#R" n="123" break="no"/>nationibus, quae respiciunt infra materiam 
+            haben<lb ed="#R" n="124" break="no"/>tem latitudinem obiecta diuersarum difficultatum. 
+            <lb ed="#R" n="125"/>Non enim oportet, quod inclinatio circa vnum 
+            ge<lb ed="#R" n="126" break="no"/>neretur generata inclinatione cirça aliud, immo 
+            <lb ed="#R" n="127"/>aliquis remanet sobrius circa vnum cibum, &amp; tamen 
+            <lb ed="#R" n="128"/>circa alium non erit ita sobrius. Poterit etiam 
+            in<lb ed="#R" n="129" break="no"/>touts u&amp; toun- 
+          </p>
+          <p xml:id="paqqap-a37990-d1e1040">
+            <lb ed="#R" n="130"/>Tertio sic: Virtutes sunt medicinae, &amp; sanitates 
+            <lb ed="#R" n="131"/>verae, vt patet 2. Ethic. &amp; Prouerb. 4. dicitur, quod 
+            <lb ed="#R" n="132"/>vita sunt inuenientibus eas, &amp; vniuersae cordis 
+            sa<lb ed="#R" n="133" break="no"/>nitas: Cum igitur sanitas sit medium inter aegritu. 
+            <!--0119.xml-->
+            <pb ed="#P" n="119"/>
+            <cb ed="#R" n="a"/>
+            <!--coumn order error -->
+            <lb ed="#R" n="1"/>dinales passiones, necesse est, vt secundum 
+            varieta<lb ed="#R" n="2" break="no"/>tem huiusmodi aegritudinalium multiplicentur 
+            in<lb ed="#R" n="3" break="no"/>clinationes mediae seruatiuae, sed secundum 
+            Philo<lb ed="#R" n="4" break="no"/>sophum 3. Ethic. in diuersis hominibus sunt 
+            diuer<lb ed="#R" n="5" break="no"/>sae concupiscentiae circa cibos, &amp; potus, &amp; hoc 
+            ex<lb ed="#R" n="6" break="no"/>perientia docet: igitur inclinationes debitae 
+            sanan<lb ed="#R" n="7" break="no"/>tes superfluas concupiscentias, oportet quod sint 
+            <lb ed="#R" n="8"/>diuersae, &amp; tamen concurrant ad vnam virtutem 
+            <lb ed="#R" n="9"/>quia non dicitur simpliciter temperatus circa 
+            ci<lb ed="#R" n="10" break="no"/>bum, qui habet inclinationem debitam ad vnum, 
+            <lb ed="#R" n="11"/>immoderatam vero ad alium.
+          </p>
+          <p xml:id="paqqap-a37990-d1e1084">
+            <lb ed="#R" n="12"/>Quarto sic: Sicut se habet diuersa difficultas, 
+            <lb ed="#R" n="13"/>in quali, &amp; in quanto ad diuersam inclinationem, 
+            <lb ed="#R" n="14"/>sic &amp; diuersa difficultas in alio, &amp; alio quali: sed in 
+            <lb ed="#R" n="15"/>materia temperantiae pro eo, quod in quali &amp; quan 
+            <lb ed="#R" n="16"/>to est alia, &amp; alia difficultas, vnus enim delectatur 
+            <lb ed="#R" n="17"/>in repletione, &amp; alter in delicatione, non curans 
+            <lb ed="#R" n="18"/>de quanto: idcirco alia est inclinatio in bene, sed 
+            <lb ed="#R" n="19"/>quantum ad illam, quae est in bene secundum 
+            qua<lb ed="#R" n="20" break="no"/>le. Vnde Gregorius in moral. dicit, &amp; habetur de 
+          </p>
+          <p xml:id="paqqap-a37990-d1e1106">
+            <lb ed="#R" n="21"/>Consecrat. distict. 5. quod aliquando, &amp; qualitas 
+            <lb ed="#R" n="22"/>ciborum, &amp; tempus congruit, sed in ipsa 
+            quantita<lb ed="#R" n="23" break="no"/>te su nendi mensuram refectionis vitium gulae 
+            ex<lb ed="#R" n="24" break="no"/>ceeit: ergo vbi est alia, &amp; alia difficultas in alio, &amp; 
+            <lb ed="#R" n="25"/>alio quali circa eandem materiam, necesse est 
+            po<lb ed="#R" n="26" break="no"/>nere diuersam inclinationem, quae ad vnam 
+            virtu<lb ed="#R" n="27" break="no"/>tem concurrat. &amp; confirmatur, quia virtus est de 
+            <lb ed="#R" n="28"/>bono, &amp; difficili, vt dicitur 2. Ethic. &amp; ideo alia, &amp; 
+            <lb ed="#R" n="29"/>alia difficultas quandam alietatem ponit circa con 
+            <lb ed="#R" n="30"/>currentiam ad virtutem. 
+            <lb ed="#R" n="31"/>Quod non tenet diuersas inclinationes concurrere 
+          </p>
+          <p xml:id="paqqap-a37990-d1e1132">
+            <lb ed="#R" n="32"/>ad conttitutionem vnius virtutis, si circa 
+          </p>
+          <p xml:id="paqqap-a37990-d1e1137">
+            <lb ed="#R" n="33"/>naturam illius virtutis non sit alia 
+          </p>
+          <p xml:id="paqqap-a37990-d1e1143">
+            <lb ed="#R" n="34"/>&amp; alia difficultas. 
+            <lb ed="#R" n="35"/>r Ertia Conclusio est, quod vbi in vna materia 
+          </p>
+          <p xml:id="paqqap-a37990-d1e1150">
+            <lb ed="#R" n="36"/>non est alia, &amp; alia difficultas, vel circa quan 
+            <lb ed="#R" n="37"/>tum, &amp; quale, vel circa aliud &amp; aliud quale, ibi 
+            <lb ed="#R" n="38"/>non oportet diuersas inclinationes concurrere, 
+            <lb ed="#R" n="39"/>immo vna inclinatio simplex sufficit ad quantum, 
+            <lb ed="#R" n="40"/>&amp; quale, &amp; ad aliud &amp; aliud quale, si tamen hoc 
+            re<lb ed="#R" n="41" break="no"/>periri contingat, quia quasi in omni materia 
+            vir<lb ed="#R" n="42" break="no"/>tuosa videtur, quod possit haec veritas reperiri. 
+          </p>
+          <p xml:id="paqqap-a37990-d1e1168">
+            <lb ed="#R" n="43"/>Conclusio autem ista probatur ex opposito 
+            ra<lb ed="#R" n="44" break="no"/>tionibus oppositis illis rationibus, quibus secunda 
+            <lb ed="#R" n="45"/>Conclusio est probata. 
+            <lb ed="#R" n="46"/>Quaenam cireumstantia circa eundem actum uir- 
+          </p>
+          <p xml:id="paqqap-a37990-d1e1179">
+            <lb ed="#R" n="47"/>tuosum requirunt diuersas incli- 
+          </p>
+          <p xml:id="paqqap-a37990-d1e1184">
+            <lb ed="#R" n="48"/>nationes, &amp; quae non. 
+            <lb ed="#R" n="49"/>Varta &amp; vltima Conclusio est, ad videndum 
+            <lb ed="#R" n="50"/>Ade varijs circumsttantiis, quae circa actum 
+          </p>
+          <p xml:id="paqqap-a37990-d1e1193">
+            <lb ed="#R" n="51"/>- virtuosum concurrunt, quae sunt exigentes 
+            <lb ed="#R" n="52"/>diuersas inclinationes, &amp; quae non. 
+          </p>
+          <p xml:id="paqqap-a37990-d1e1201">
+            <lb ed="#R" n="53"/>Vbi sciendum, quod circumstantiae huiusmodi 
+            <lb ed="#R" n="54"/>quaedam sunt, quae circa materiam virtuosam actus 
+            <lb ed="#R" n="55"/>exigunt disparatas, &amp; diuersas assuefactiones, 
+            quae<lb ed="#R" n="56" break="no"/>dam vero sunt, quae necessario concurrunt in vno 
+            <lb ed="#R" n="57"/>simplici actu virtuoso. Et primae quidem sunt quan 
+            <lb ed="#R" n="58"/>tum in materia, aut quale, aliud &amp; aliud, aut 
+            tem<lb ed="#R" n="59" break="no"/>pus aliud &amp; aliud, aut persona alia &amp; alia. Potest 
+            <lb ed="#R" n="60"/>enim actus virtuosus elici circa materiam tantam 
+            <lb ed="#R" n="61"/>&amp; tali tempore respectu talis personae; &amp; si contin 
+            <lb ed="#R" n="62"/>gat, quod in istis sit alia difficultas, necessario erit 
+            <lb ed="#R" n="63"/>alia, &amp; alia inclinatio, nec assuefactio actuum, &amp; 
+            <lb ed="#R" n="64"/>frequentia circa materiam vno modo circumstan- 
+            <!--0119.xml-->
+            <cb ed="#R" n="b"/>
+            <lb ed="#R" n="65"/>tiatonam causat inclinationem circa materiam alio 
+            <lb ed="#R" n="66"/>modo circumstantionatam, ex hoc, quod disi milec 
+            <lb ed="#R" n="67"/>sunt tales materiae ratione difficultatum. &amp; hins 
+            <lb ed="#R" n="68"/>est, quod temperatus in potu vini communis non 
+            <lb ed="#R" n="69"/>oportet, quod sit temperatus in potu vini 
+            verna<lb ed="#R" n="70" break="no"/>chini. Si vero non, alia &amp; alia difficultas ratione 
+            <lb ed="#R" n="71"/>similitudinis, non oportet, quod sint diuersae 
+            incli<lb ed="#R" n="72" break="no"/>nationes, &amp; ideo non oportet, quod semper 
+            diuer<lb ed="#R" n="73" break="no"/>sorum qualium, aut temporis diuersi ponantur 
+            di<lb ed="#R" n="74" break="no"/>uersae inclinationes virtuosae, nisi sit diuersa 
+            diffi<lb ed="#R" n="75" break="no"/>cultas, aut diuersa inclinatio ad propositum. 
+          </p>
+          <p xml:id="paqqap-a37990-d1e1258">
+            <lb ed="#R" n="76"/>Aliae vero circumstantiae, quae necessario concur 
+            <lb ed="#R" n="77"/>runt ad actum quemlibet simplicem virtuosum, sunt 
+            <lb ed="#R" n="78"/>finis &amp; quale in actu, scilicet gradus actus tantus, 
+            <lb ed="#R" n="79"/>vel tantus, &amp; huiusmodi circumstantiae non exigunt 
+            <lb ed="#R" n="80"/>diuersas inclinationes. Cuius ratio, quia actus per 
+            <lb ed="#R" n="81"/>sui frequentiam, &amp; assuefactionem conformem 
+            in<lb ed="#R" n="82" break="no"/>clinationi, quarum est vnus actus cum omnibus 
+            <lb ed="#R" n="83"/>circumstantijs, quae concurrunt de necessitate ad 
+            <lb ed="#R" n="84"/>ipsum, vnam simplicem inclinationem causabit; 
+            <lb ed="#R" n="85"/>nunc autem actus, &amp; gradus non sunt dinstinctae 
+            <lb ed="#R" n="86"/>res cum forma intensa, &amp; remissa sint eadem 
+            in<lb ed="#R" n="87" break="no"/>numero. 
+          </p>
+          <p xml:id="paqqap-a37990-d1e1287">
+            <lb ed="#R" n="88"/>Similiter etiam idem actus transit super finem, 
+            <lb ed="#R" n="89"/>&amp; super illud, quod est ad finem, cum non sunt 
+            di<lb ed="#R" n="90" break="no"/>ueria obiecta formalia; nam illud, quod est ad finem, 
+            <lb ed="#R" n="91"/>non attingitur ab actu propter se, sed propter finem: 
+            <lb ed="#R" n="92"/>relinquitur ergo quod vna inclinatio simplex 
+            sem<lb ed="#R" n="93" break="no"/>per sit ad actum, &amp; gradum actus, &amp; finem ipsius 
+            <lb ed="#R" n="94"/>actus, &amp; similiter ad facultatem delectantem, &amp; 
+            <lb ed="#R" n="95"/>promptitudinem actus. &amp; sic patet, quaenam 
+            circum<lb ed="#R" n="96" break="no"/>stantiae infra eandem materiam exigant inclinatio 
+            <lb ed="#R" n="97"/>nes diuersas varias partiales, &amp; quae non requirunt. 
+          </p>
+        </div>
+        <div xml:id="paqqap-a37990-Dd1e1312">
+          <head xml:id="paqqap-a37990-Hd1e1314">Articulus 3</head>
+          <p xml:id="paqqap-a37990-d1e1316">
+            <lb ed="#R" n="98"/>ARTJCVLVS III. 
+            <lb ed="#R" n="99"/>In quo tanguntur difficultates accurrentes 
+            <lb ed="#R" n="100"/>contra praedicta. 
+          </p>
+          <p xml:id="paqqap-a37990-d1e1325">
+            <lb ed="#R" n="101"/>NVnc tertio inducendae sunt difficultates 
+            quae<lb ed="#R" n="102" break="no"/>dam circa praedictas Conclusiones. Videtur 
+            <lb ed="#R" n="103"/>namque. 
+          </p>
+          <p xml:id="paqqap-a37990-d1e1334">
+            <lb ed="#R" n="104"/>Primo, quod sit impossibile plures inclinationes 
+            <lb ed="#R" n="105"/>siue in eadem potentia siue in pluribus existentes 
+            <lb ed="#R" n="106"/>concurrere ad constitutionem vnius virtutis. 
+            Vir<lb ed="#R" n="107" break="no"/>tus namque habens specificam vnitatem, cum 
+            po<lb ed="#R" n="108" break="no"/>natur in prima specie qualitatis, si constituitur ex 
+            <lb ed="#R" n="109"/>istis inclinationibus, vel est aliquid absolutum 
+            con<lb ed="#R" n="110" break="no"/>stitutum ex istis inclinationibus per modum 
+            cu<lb ed="#R" n="111" break="no"/>iusdam tertiae rei resultantis ex ipsis, vel est 
+            tan<lb ed="#R" n="112" break="no"/>tummodo illa multa inter se aggregata, &amp; haben. 
+            <lb ed="#R" n="113"/>tia tantummodo vnitatem originis, &amp; 
+            aggregatio<lb ed="#R" n="114" break="no"/>nis: sed non potest dici, quod sit aliqua tertia res 
+            <lb ed="#R" n="115"/>ex istis inclinationibus constituta: tum quia 
+            incli<lb ed="#R" n="116" break="no"/>nationes illae ponunturin diuersis potentijs: tum quia 
+            <lb ed="#R" n="117"/>vna non est alterius actus, sed quaelibet est actus: 
+            <lb ed="#R" n="118"/>tum quia quaelibet videtur vnum distinctum 
+            indi<lb ed="#R" n="119" break="no"/>uiduum ab alio in genere habitus, &amp; per consequens 
+            <lb ed="#R" n="120"/>non potest constituere vnum habitum, nec vnam 
+            <lb ed="#R" n="121"/>rem simplicem, quae sit virtus. Nec potest dici 
+            se<lb ed="#R" n="122" break="no"/>cundum, quia vnitas alicui non sufficit ad 
+            specifi<lb ed="#R" n="123" break="no"/>cam vnitatem vnius qualitatis, similiter nec 
+            vni<lb ed="#R" n="124" break="no"/>tas originis, cum talis sit in toto vniuerso: igitur 
+            <lb ed="#R" n="125"/>impossibile est, quod diuersae inclinationes 
+            concur<lb ed="#R" n="126" break="no"/>rant ad constitationem virtutis vnius. 
+          </p>
+          <p xml:id="paqqap-a37990-d1e1386">
+            <lb ed="#R" n="127"/>Si dicatur, quod illae inclinationes sunt vnum 
+            <lb ed="#R" n="128"/>fundamentum congruentiae, &amp; propter hoc habent 
+            <lb ed="#R" n="129"/>vnitatem virtutis.
+          </p>
+          <p xml:id="paqqap-a37990-d1e1396">
+            <!--0120.xml-->
+            <pb ed="#P" n="120"/>
+            <cb ed="#R" n="a"/>
+            <lb ed="#R" n="1"/>Contra, quia relationes numerantur ex 
+            sunda<lb ed="#R" n="2" break="no"/>mentis propinquis: sed inclinationes sunt 
+            propin<lb ed="#R" n="3" break="no"/>qua fundamenta istius congruentiae: ergo erunt 
+            tot<lb ed="#R" n="4" break="no"/>congruentiae, quot inclinationes, &amp; ita tam 
+            secun<lb ed="#R" n="5" break="no"/>dum esse naturae, quam secundum esse moris 
+            vide<lb ed="#R" n="6" break="no"/>tur, quod virtus nullam habeat vnitatem. 
+          </p>
+          <p xml:id="paqqap-a37990-d1e1418">
+            <lb ed="#R" n="7"/>Secundo videtur in specialil, quod sit 
+            impossi<lb ed="#R" n="8" break="no"/>bile de duabus inclinationibus, quarum vna est in 
+            <lb ed="#R" n="9"/>voluntate, &amp; alia in appetitu sensitiuo, sicut enim 
+            <lb ed="#R" n="10"/>se habet potentia ad potentiam, sic habitus ad ha 
+            <lb ed="#R" n="11"/>bitum: sed voluntas &amp; appetitus non possunt 
+            con<lb ed="#R" n="12" break="no"/>stituere vnam virtutem: ergo. 
+          </p>
+          <p xml:id="paqqap-a37990-d1e1434">
+            <lb ed="#R" n="13"/>Praeterea: Magis conueniunt voluntas &amp; 
+            intelle<lb ed="#R" n="14" break="no"/>ctus, quam voluntas, &amp; appetitus: sed prudentia, 
+            <lb ed="#R" n="15"/>quae est in intellectu respectu vnius moralis 
+            mate<lb ed="#R" n="16" break="no"/>riae, nullo modo est eadem virtus cum inclinatione, 
+            <lb ed="#R" n="17"/>quae est in voluntate ad eandem materiam, aut cum 
+            <lb ed="#R" n="18"/>ista, quae est in appetitu: ergo inclinatio, quae est in 
+            <lb ed="#R" n="19"/>voluntate, &amp; illa, quae est in appetitu constituent 
+            <lb ed="#R" n="20"/>vnam virtutem. 
+          </p>
+          <p xml:id="paqqap-a37990-d1e1454">
+            <lb ed="#R" n="21"/>Et confirmatur: tum quia pari ratione dicetur, 
+            <lb ed="#R" n="22"/>quod omnes inclinationes in quibuscumque poten 
+            <lb ed="#R" n="23"/>tijs ponantur circa vnam materiam, constituent 
+            <lb ed="#R" n="24"/>vnam virtutem, &amp; ita in potentia executiua &amp; in 
+            <lb ed="#R" n="25"/>appetitu exteriori, &amp; appetitu interiori, &amp; in 
+            volun<lb ed="#R" n="26" break="no"/>tate, &amp; intellectu erit vna virtus moralis, quia 
+            in<lb ed="#R" n="27" break="no"/>omnibus sunt inclinationes circa vnam materiam: 
+            <lb ed="#R" n="28"/>tum etiam quia omnes inclinationes, quae sunt 
+            cir<lb ed="#R" n="29" break="no"/>ca diuersas materias morales, videntur 
+            respicere<lb ed="#R" n="30" break="no"/>hominem, sicut vnum perfectibile, &amp; per 
+            conse<lb ed="#R" n="31" break="no"/>quens constituent vnam virtutem, quod est 
+            ab<lb ed="#R" n="32" break="no"/>surdum. 
+          </p>
+          <p xml:id="paqqap-a37990-d1e1483">
+            <lb ed="#R" n="33"/>Tertio videtur, quod sit impossibile de 
+            inclina<lb ed="#R" n="34" break="no"/>tionibus in eadem potentia circa eandem materiam 
+            <lb ed="#R" n="35"/>diuersae inclinationes, stante enim eodem formali 
+            <lb ed="#R" n="36"/>obiecto, &amp; eadem potentia impossihile est 
+            inclina<lb ed="#R" n="37" break="no"/>tiones multiplicari, cum non multiplicentur, nisi 
+            <lb ed="#R" n="38"/>penes potentiam, &amp; obiectum. 
+          </p>
+          <p xml:id="paqqap-a37990-d1e1499">
+            <lb ed="#R" n="39"/>Et confirmatur: quia materia ista, quae habet 
+            <lb ed="#R" n="40"/>latitudinem obiectorum, &amp; varietatem 
+            difficusta<lb ed="#R" n="41" break="no"/>tum, non est plene vna materia, cum diuersificentur 
+            <lb ed="#R" n="42"/>rationes obiectiuae, quae faciunt difficultates. 
+          </p>
+          <p xml:id="paqqap-a37990-d1e1511">
+            <lb ed="#R" n="43"/>Et iterum confirmatur, quod lobrietas ponitur 
+            <lb ed="#R" n="44"/>distincta virtus ab ipsa temperantia ratione 
+            spe<lb ed="#R" n="45" break="no"/>cialis difficultatis, quae est in potu, &amp; similiter 
+            ma<lb ed="#R" n="46" break="no"/>gnificentia differt in quanto, &amp; magnitudine a 
+            li<lb ed="#R" n="47" break="no"/>beralitate, &amp; magnanimitas ab omni alia virtute. 
+            <lb ed="#R" n="48"/>operatur enim magnanimus ex 4. Ethic. magna in 
+            <lb ed="#R" n="49"/>qualibet virtute: ergo inclinationes diuersae, 
+            qua<lb ed="#R" n="50" break="no"/>rum diuersitas prouenit, ex alia &amp; alia 
+            difficulta<lb ed="#R" n="51" break="no"/>te, non concurrunt ad vnam virtutem. 
+          </p>
+          <p xml:id="paqqap-a37990-d1e1533">
+            <lb ed="#R" n="52"/>Quarto videtur, quod dato, quod inclinationes 
+            <lb ed="#R" n="53"/>multae concurrunt ad vnam virtutem, vnam 
+            scili<lb ed="#R" n="54" break="no"/>cet in voluntate, &amp; aliam in appetitu, non tamen 
+            <lb ed="#R" n="55"/>iste concursus est per se, sed per accidens: quando 
+            <lb ed="#R" n="56"/>enim aliqua per se, &amp; essentialiter vniuntur, &amp; 
+            exi<lb ed="#R" n="57" break="no"/>guntur ad constitutionem alicuius altero dempto 
+            <lb ed="#R" n="58"/>non manent: sed in anima separata remanent 
+            vir<lb ed="#R" n="59" break="no"/>tutes, in qua tamen non manent inclinationes 
+            ap<lb ed="#R" n="60" break="no"/>petitus sensitiui, sed tantummodo voluntatis: 
+            er<lb ed="#R" n="61" break="no"/>go ad essentiam virtutis moralis non facit per se 
+            <lb ed="#R" n="62"/>vtraque inclinatio.
+          </p>
+        </div>
+        <div xml:id="paqqap-a37990-Dd1e1560">
+          <head xml:id="paqqap-a37990-Hd1e1562">Articulus 4</head>
+          <p xml:id="paqqap-a37990-d1e1564">
+            <!--0120.xml-->
+            <cb ed="#R" n="b"/>
+            <lb ed="#R" n="63"/>ARTJCVLVS JV. 
+            <lb ed="#R" n="64"/>In quo soluuntur difficultates praemissae.
+          </p>
+          <p xml:id="paqqap-a37990-d1e1575">
+            <lb ed="#R" n="65"/>NVnc quarto dicendum est ad istas 
+            difficulta<lb ed="#R" n="66" break="no"/>tes, &amp; ad Euidentiam primae difficultatis 
+            <lb ed="#R" n="67"/>es considerandum, quod inter modos vnitatis 
+            po<lb ed="#R" n="68" break="no"/>sitos a Philosopho 5. meth. vnus est vnitas totali⸗ 
+            <lb ed="#R" n="69"/>tatis, qui quidem modus distinguitur ab 
+            vnitate<lb ed="#R" n="70" break="no"/>continuationis, &amp; ab vnitate simplicitatis. Vnde 
+            <lb ed="#R" n="71"/>C mmentator comm. II. ibidem dicit, quod 
+            dif<lb ed="#R" n="72" break="no"/>ferentia inter vnum secundum continuationem, &amp; 
+            <lb ed="#R" n="73"/>vnum secundum totum est, quia vnum secundum 
+            <lb ed="#R" n="74"/>totum &amp; persectionem non dicitur esse vnum per con 
+            <lb ed="#R" n="75"/>tinuationem partium, sed per suam formam, quia 
+            <lb ed="#R" n="76"/>nihil diminuitur ab eo: v. g. Socular dicitur unum 
+            <lb ed="#R" n="77"/>per suam formam completam non per 
+            continua<lb ed="#R" n="78" break="no"/>tionem partium: ex quo patet, quod quando 
+            plu<lb ed="#R" n="79" break="no"/>ra concurrunt ad aliquod vnum, dato, quod non 
+            <lb ed="#R" n="80"/>sint habentia vnitatem simplicitis, vel 
+            continuita<lb ed="#R" n="81" break="no"/>tis, habent tamen vnitatem totalitatis, sic quod 
+            <lb ed="#R" n="82"/>ista totalitas in indiuisibili consistit: ita quod non 
+            <lb ed="#R" n="83"/>potest fieri additio, vel diminutio, quin mutetur 
+            <lb ed="#R" n="84"/>nomen, &amp; definitio: haec autem vnitas non est acer 
+            <lb ed="#R" n="85"/>uus, &amp; sufficit ad vnitatem aliquarum specierum 
+            di<lb ed="#R" n="86" break="no"/>recte ordinabilium in praedicamento. Oratio 
+            nam<lb ed="#R" n="87" break="no"/>que, quae est mensura districta syllabae longae, vel 
+            <lb ed="#R" n="88"/>breuis, non habet vnitatem, nisi totalitatis, &amp; 
+            ta<lb ed="#R" n="89" break="no"/>men ponitur species quantitatis, &amp; idem est de 
+            nu<lb ed="#R" n="90" break="no"/>mero. Similiter etiam syllogismus habet vnitatem 
+            <lb ed="#R" n="91"/>cuiusdam, quia consistit ex duabus 
+            propositioni<lb ed="#R" n="92" break="no"/>bus, nec principalibus, nec paucioribus, &amp; 
+            secun<lb ed="#R" n="93" break="no"/>dum hoc in proposito inclinationes istae, quarum 
+            <lb ed="#R" n="94"/>vna est in voluntate, &amp; alia in appetitu, concurrunt 
+            <lb ed="#R" n="95"/>ad vnam totalem inclinationem perfectam, &amp; ad 
+            <lb ed="#R" n="96"/>vnam totalem congruentiam ad rectam rationem, 
+            <lb ed="#R" n="97"/>&amp; ad vnum totale bene esse, &amp; quale esse secundum 
+            <lb ed="#R" n="98"/>bene.
+          </p>
+          <p xml:id="paqqap-a37990-d1e1651">
+            <lb ed="#R" n="99"/>Ad formam igitur difficultatis dicendum, quod 
+            <lb ed="#R" n="100"/>istae duae partiales inclinationes concurrunt ad 
+            vni<lb ed="#R" n="101" break="no"/>tatem specificam, sic, quod vna sine altera non 
+            ha<lb ed="#R" n="102" break="no"/>bet nomen, nec definitionem illius speciei 
+            quali<lb ed="#R" n="103" break="no"/>tatis, quae dicitur virtus. &amp; cum additur, quae vel 
+            <lb ed="#R" n="104"/>ex istis sit res tertia aliqua constituta, vel remanet 
+            <lb ed="#R" n="105"/>solus aceruus, &amp; multitudo; dicendum, quod 
+            ter<lb ed="#R" n="106" break="no"/>tiam rem fieri potest intelligi, vel per modum mix 
+            <lb ed="#R" n="107"/>tionis, sic, quod fiat vna res indiuisa conflata ex 
+            <lb ed="#R" n="108"/>ipsis constituentibus non remanentibus in actu, &amp; 
+            <lb ed="#R" n="109"/>distincte, sed tantum in potentia, sicut elementa 
+            <lb ed="#R" n="110"/>in mixto, sic impossibile est, quod ex istis 
+            inclina<lb ed="#R" n="111" break="no"/>tionibus particularibus fiat vna res secunda, quae 
+            <lb ed="#R" n="112"/>sit virtus. Vel quae potest intelligi ista res tertia ha 
+            <lb ed="#R" n="113"/>bens vnitatem solius totalitatis constituentis 
+            re<lb ed="#R" n="114" break="no"/>manentibus actu distinctis, sicut dictum est de ora 
+            <lb ed="#R" n="115"/>tione, quae est mensura discreta in probatione, &amp; 
+            <lb ed="#R" n="116"/>sic concedendum est, quod constituitur res tertia, 
+            <lb ed="#R" n="117"/>quae est virtus. 
+          </p>
+          <p xml:id="paqqap-a37990-d1e1695">
+            <lb ed="#R" n="118"/>Et cum additur, quod talis totalitas videtur 
+            a<lb ed="#R" n="119" break="no"/>ceruus, dicitur, quod non est verum. Vnitas 
+            nam<lb ed="#R" n="120" break="no"/>que totalitatis consistit in ratione cuiusdam 
+            inde<lb ed="#R" n="121" break="no"/>finitatis, quia in hoc potest serri additio, vel 
+            di<lb ed="#R" n="122" break="no"/>minutio, vt patet per Commentatorem 5. meth. vt 
+            <lb ed="#R" n="123"/>supra. Vnde si diminuitur vna pars non habetur; 
+            <lb ed="#R" n="124"/>aut si additur, habetur aliud totum; ratio autem 
+            <lb ed="#R" n="125"/>acerui non consistit in indiuisibili, immo aceruus, 
+            <lb ed="#R" n="126"/>vt aceruus formaliter non importat vnitatem, sed 
+            <lb ed="#R" n="127"/>potius multitudinem, &amp; aggregationem.
+          </p>
+          <p xml:id="paqqap-a37990-d1e1720">
+            <!--0121.xml-->
+            <pb ed="#P" n="121"/>
+            <cb ed="#R" n="a"/>
+            <lb ed="#R" n="1"/>Et cum additur, quod pari ratione totum vniuer 
+            <lb ed="#R" n="2"/>sum poterit poni vna species, vel in vno 
+            determina<lb ed="#R" n="3" break="no"/>to praedicamento, cum habeat vnitatem originis, &amp; 
+            <lb ed="#R" n="4"/>totalitatis; dicendum, quod non est verum, 
+            distin<lb ed="#R" n="5" break="no"/>ctio enim praedicamentorum specierum sub 
+            praedi<lb ed="#R" n="6" break="no"/>camentis accipitur penes alium, &amp; alium modum 
+            <lb ed="#R" n="7"/>praedicandi, vt Symplicius super praedicamenta, &amp; 
+            <lb ed="#R" n="8"/>Philosophus innuit in praedicamentis, &amp; 5. 
+            Metha<lb ed="#R" n="9" break="no"/>physices cum ait, quod incomplexorum aliud significat 
+            <lb ed="#R" n="10"/>quid, aliud quale, &amp;c. constat autem, quod illud, 
+            <lb ed="#R" n="11"/>quod significat quid &amp; quale: quantumcumque 
+            <lb ed="#R" n="12"/>ergo aliqua plura sint simpliciter vnum indiuisibile 
+            <lb ed="#R" n="13"/>in vno modo praedicandi: vt v. g. in vno indiuisibili 
+            <lb ed="#R" n="14"/>quali, sic, quod vnum sine altero nullatenus sufficit, 
+            <lb ed="#R" n="15"/>tunc illa duo concurrunt ad vnam specificam 
+            qua<lb ed="#R" n="16" break="no"/>litate, sicut patet, quod color, figura, &amp; magnitudo 
+            <lb ed="#R" n="17"/>concurrunt ad vnam qua lificationem faciei 
+            secun<lb ed="#R" n="18" break="no"/>dum esse pulchrum, quia interroganti qualis est 
+            fa<lb ed="#R" n="19" break="no"/>cieis? non potest responderi, quod pulchra, nisi 
+            om<lb ed="#R" n="20" break="no"/>nia ista concurrant. quare sic est de istis duabus incli 
+            <lb ed="#R" n="21"/>nationibus respectu esse virtuosi, quod respondetur 
+            <lb ed="#R" n="22"/>ad interrogationem vnam factam per quale de 
+            vtra<lb ed="#R" n="23" break="no"/>que, cum respondetur virtuosum, idcirco 
+            concur<lb ed="#R" n="24" break="no"/>runt ad vnam specificam qualitatem, quae dicitur 
+            <lb ed="#R" n="25"/>pulchritudo, non est autem sic de toto vniuerso 
+            re<lb ed="#R" n="26" break="no"/>spectu vnius modi praedicandi, &amp; ideo, vt sic non 
+            <lb ed="#R" n="27"/>oportet, quod sit aliqua res specifica in vno 
+            praedi<lb ed="#R" n="28" break="no"/>camento. 
+          </p>
+          <p xml:id="paqqap-a37990-d1e1790">
+            <lb ed="#R" n="29"/>Est autem hic attendendum, quod omnes 
+            quali<lb ed="#R" n="30" break="no"/>tates, quae sunt in prima specie, &amp; secunda, sunt etiam 
+            <lb ed="#R" n="31"/>in tertia specie, vel in quarta, vel in p̃dicamento alio. 
+          </p>
+          <p xml:id="paqqap-a37990-d1e1799">
+            <lb ed="#R" n="32"/>In prima quidem secundum, quod concurrunt ad 
+            <lb ed="#R" n="33"/>vnum indiuisibile quale esse secundum bene, vel 
+            ma<lb ed="#R" n="34" break="no"/>le, haec est formalis ratio primae speciei secundum 
+            <lb ed="#R" n="35"/>Symplicium in praedicamentis, &amp; Philosophum, &amp; 
+            <lb ed="#R" n="36"/>Commentatorem 2. Ethic. 
+          </p>
+          <p xml:id="paqqap-a37990-d1e1812">
+            <lb ed="#R" n="37"/>In secunda vero specie qualitatis sunt secundum, 
+            <lb ed="#R" n="38"/>quod concurrunt ad vnum indiuisibile quale esse 
+            <lb ed="#R" n="39"/>secundum facile, vel difficile, pati, vel agere, haec 
+            <lb ed="#R" n="40"/>enim est formalis ratio secundae speciei. 
+          </p>
+          <p xml:id="paqqap-a37990-d1e1823">
+            <lb ed="#R" n="41"/>In tertia vero, &amp; quarta sunt secundum esse 
+            na<lb ed="#R" n="42" break="no"/>turae, &amp; realitatem absolutam, sic, quod omnes 
+            qua<lb ed="#R" n="43" break="no"/>litates in esse naturae absolutae vel sunt qualitates 
+            <lb ed="#R" n="44"/>in quantitate, &amp; sic consurgit ratio formalis tertiae 
+            <lb ed="#R" n="45"/>speciei, quamuis enim nominetur passio, vel 
+            passi<lb ed="#R" n="46" break="no"/>bilis qualitas, ibi tamen accipitur passio pro omni 
+            <lb ed="#R" n="47"/>forma recepta secundum Symplicium in 
+            praedica<lb ed="#R" n="48" break="no"/>mentis, vnde habitus, &amp; dispositiones sunt in tertia 
+            <lb ed="#R" n="49"/>specie qualitatis vero sunt: Prout formae informantes 
+            <lb ed="#R" n="50"/>secundum rationem indiuisibilem virtutis, in qua 
+            <lb ed="#R" n="51"/>specie sunt secundum quod sunt distinctae res in se, 
+            <lb ed="#R" n="52"/>dicendum, quod sunt in tertia specie qualitatis, nec 
+            <lb ed="#R" n="53"/>vt sic oportet, quod sint eiusdem speciei 
+            specialissi<lb ed="#R" n="54" break="no"/>mae, &amp; per consequens, nec vna per se qualitas. Si 
+            <lb ed="#R" n="55"/>vero quaeratur de ipsis, prout ad vnum indiuisibile 
+            <lb ed="#R" n="56"/>quale esse concurrunt secundum bene, sic sunt in 
+            <lb ed="#R" n="57"/>prima specie, &amp; vna qualitas indiuisibilis in prima 
+            <lb ed="#R" n="58"/>specie habens vnum nomen, &amp; vnam definitionem. 
+          </p>
+          <p xml:id="paqqap-a37990-d1e1865">
+            <lb ed="#R" n="59"/>Ex istis autem patet duplex differentia inter 
+            pri<lb ed="#R" n="60" break="no"/>mam, &amp; secundam speciem qualitatis ex vna parte, 
+            <lb ed="#R" n="61"/>&amp; tertiam, &amp; quartam ex alia. 
+          </p>
+          <p xml:id="paqqap-a37990-d1e1875">
+            <lb ed="#R" n="62"/>Prima quidem differentia, quod tertia, &amp; quarta 
+            <lb ed="#R" n="63"/>species dicuntur secundum esse naturae absolutae, &amp; 
+            <lb ed="#R" n="64"/>qualitates, quae assignantur in eis, ponuntur in ipsis 
+            <lb ed="#R" n="65"/>secundum esse naturae absolutae. 
+          </p>
+          <p xml:id="paqqap-a37990-d1e1886">
+            <lb ed="#R" n="66"/>In prima vero, &amp; secunda ponuntur, prout 
+            con<lb ed="#R" n="67" break="no"/>currunt ad vnum esse bene, vel male, &amp; secundum 
+            <!--0121.xml-->
+            <cb ed="#R" n="b"/>
+            <lb ed="#R" n="68"/>vnum esse facile, vel difficile, vel agere, vel pati, &amp; 
+            <lb ed="#R" n="69"/>idcirco hae duae species sunt relatiuae secundum dici 
+            <lb ed="#R" n="70"/>vt dictum est quaestione praecedenti. 
+          </p>
+          <p xml:id="paqqap-a37990-d1e1904">
+            <lb ed="#R" n="71"/>Secunda vero differentia est, quia communis 
+            qua<lb ed="#R" n="72" break="no"/>litas vna in tertia specie, vel in quarta habet 
+            vnita<lb ed="#R" n="73" break="no"/>tem formae non constitutae ex multis distinctis 
+            qua<lb ed="#R" n="74" break="no"/>litatibus, quae vt sunt in alia specie, sunt multae, &amp; 
+            <lb ed="#R" n="75"/>distinctae secundum tamen rationem primae speciei 
+            <lb ed="#R" n="76"/>erunt vna indiuisibilis qualitas, dans vnum 
+            indiui<lb ed="#R" n="77" break="no"/>sibile pati faciliter, vel difficiliter. &amp; ideo 
+            decipiun<lb ed="#R" n="78" break="no"/>tur, qui vnitatem primae, vel secundae speciei 
+            aesti<lb ed="#R" n="79" break="no"/>mant, &amp; mensurant secundum vnitatem tertiae, vel 
+            <lb ed="#R" n="80"/>quartae; quae enim sunt possibiles qualitates in 
+            ter<lb ed="#R" n="81" break="no"/>tia, vel quarta, conuenit non non esse nisi vnam qua 
+            <lb ed="#R" n="82"/>litatem indiuisibilem in secunda, vel prima, &amp; hoc 
+            <lb ed="#R" n="83"/>totum patet ex processu Symplicij super 
+            praedica<lb ed="#R" n="84" break="no"/>menta, &amp; ex his, quae superius dicta sunt. 
+          </p>
+          <p xml:id="paqqap-a37990-d1e1937">
+            <lb ed="#R" n="85"/>Ad instantiam vero, per quam probatur, quod 
+            <lb ed="#R" n="86"/>non sit vna conformitas fundata super plures incli 
+            <lb ed="#R" n="87"/>nationes, pro eo, quod relatio multiplicatur 
+            secun<lb ed="#R" n="88" break="no"/>dum immediata fundamenta, &amp; per consequens 
+            e<lb ed="#R" n="89" break="no"/>runt plura bene esse, sicut plures conformitates: 
+            di<lb ed="#R" n="90" break="no"/>cendum, quod ad plurificationem conformitatum, 
+            <lb ed="#R" n="91"/>siue congruitatum partialium distinctarum bene 
+            <lb ed="#R" n="92"/>sufficit distinctio inclinationum, quae sunt proxima 
+            <lb ed="#R" n="93"/>fundamenta, nihilominus istae partiales 
+            congruita<lb ed="#R" n="94" break="no"/>tes vniuntur per se, &amp; non per accidens, &amp; illud 
+            to<lb ed="#R" n="95" break="no"/>tum vniuocum est vna perfecta congruentia: habent 
+            <lb ed="#R" n="96"/>autem, quod per se vniantur, &amp; non per accidens ex 
+            <lb ed="#R" n="97"/>vnitate termini indiuisibilis vtriusque nam congruem 
+            <lb ed="#R" n="98"/>tia habet pro termino habente in ordine ad actum 
+            <lb ed="#R" n="99"/>definitionem virtutis; nunc autem nulla de 
+            inclina<lb ed="#R" n="100" break="no"/>tionibus per se supradicta inclinat ad actum 
+            con<lb ed="#R" n="101" break="no"/>gruentem sine altera, quia, vt probatum est supra 
+            <lb ed="#R" n="102"/>numquam actus elicitur virtuose, nisi vtraque incli 
+            <lb ed="#R" n="103"/>natio concurrat. Secundum hoc igitur numquam 
+            <lb ed="#R" n="104"/>actus virtuosus congruentiam terminat vnius incli 
+            <lb ed="#R" n="105"/>nationis, nisi simul cum hac terminet congruentiam 
+            <lb ed="#R" n="106"/>alterius inclinationis, quapropter per se termino 
+            <lb ed="#R" n="107"/>vnius congruentiae clauditur, quod sit alterius 
+            con<lb ed="#R" n="108" break="no"/>gruentiae. sicut autem se habet terminus ad 
+            termi<lb ed="#R" n="109" break="no"/>num, sic relatio ad relationem; vnde in 
+            relationi<lb ed="#R" n="110" break="no"/>bus, quae sunt ad eundem terminum per accidens, 
+            <lb ed="#R" n="111"/>vtpote duae similitudines duorum alborum ad 
+            ter<lb ed="#R" n="112" break="no"/>tium coalbum, vna relatio accidit alteri, quia &amp; idem 
+            <lb ed="#R" n="113"/>terminus, quamuis sit terminus vtriusque, accidit 
+            <lb ed="#R" n="114"/>tamen sibi, vt terminat vnam similitudinem aliam 
+            <lb ed="#R" n="115"/>terminare. In relationibus vero, quae habent eundem 
+            <lb ed="#R" n="116"/>terminum per se, vt plures tractores partiales vnum 
+            <lb ed="#R" n="117"/>tractum nauis, &amp; pater, &amp; mater vnum filium, necesse 
+            <lb ed="#R" n="118"/>est, quod relationes illae vniantur per se ad 
+            consti<lb ed="#R" n="119" break="no"/>tuendam vnam perfectam relationem in illa specie. 
+            <lb ed="#R" n="120"/>Et ideo plura trahentes nauem in trahendo sunt 
+            v<lb ed="#R" n="121" break="no"/>nus tractor, &amp; pater &amp; mater vnum perfectum 
+            prin<lb ed="#R" n="122" break="no"/>cipium filij. Sic igitur in proposito, istae duae congrui 
+            <lb ed="#R" n="123"/>tates partiales, quae super duas partiales inclinatio 
+            <lb ed="#R" n="124"/>nes fundantur, constituunt vnam per se congruentiam 
+            <lb ed="#R" n="125"/>cum ex alia parte respondet vna simplex 
+            congruen<lb ed="#R" n="126" break="no"/>tia in actu, sicut relationi perfecti principij 
+            consti<lb ed="#R" n="127" break="no"/>tuti ex paternitate, &amp; maternitate vna filiatio 
+            cor<lb ed="#R" n="128" break="no"/>respondet: &amp; hinc dicitur, quod nec vna inclinatio 
+            <lb ed="#R" n="129"/>sine alia fundat inclinationem congruentiae etiam 
+            <lb ed="#R" n="130"/>partialis, non quidem, quod ambae sundent eandem 
+            <lb ed="#R" n="131"/>partialem congruentiam, sed quia vna fundat suam 
+            <lb ed="#R" n="132"/>&amp; hoc oritur ex vnitate per se tripliciter, vt patet in 
+            <lb ed="#R" n="133"/>praedictis exemplis. Et sic ad rationem vnius perfecti 
+            <lb ed="#R" n="134"/>bene, &amp; ideo vniuntur istae duae inclinationes per se, 
+            <!--0122.xml-->
+            <pb ed="#P" n="122"/>
+            <cb ed="#R" n="a"/>
+            <lb ed="#R" n="1"/>in dando vnum esse bene, &amp; per consequens vnum 
+            <lb ed="#R" n="2"/>sunt in prima specie.
+          </p>
+          <p xml:id="paqqap-a37990-d1e2059">
+            <lb ed="#R" n="3"/>Ad euidentiam vero secundae difficultatis 
+            scien<lb ed="#R" n="4" break="no"/>dum, quod cum bonum habet propositum, constat 
+            <lb ed="#R" n="5"/>inesse rationale secundum diuisionem perfectionis 
+            <lb ed="#R" n="6"/>rationalis oportet, quod accipiatur diuisio boni 
+            <lb ed="#R" n="7"/>humani. Est autem quaedam perfectio rationalis 
+            <lb ed="#R" n="8"/>ex hoc, quod disponit ad actum, quae est rationati 
+            <lb ed="#R" n="9"/>per essentiam; alia vero ex hoc, quod disponit ad 
+            <lb ed="#R" n="10"/>rationati per conformitatem, &amp; obedientiam. 
+            Vn<lb ed="#R" n="11" break="no"/>de duplex est rationalis perfectio, quaedam quidem 
+            <lb ed="#R" n="12"/>cognoscitiua essentialiter, quaedam vero obeditiua 
+            <lb ed="#R" n="13"/>&amp; totum hoc patet I. Ethic. sic igitur 
+            impossibi<lb ed="#R" n="14" break="no"/>le est, quod concurrant ad vnum bonum humanum 
+            <lb ed="#R" n="15"/>istae duae perfectiones, quae sunt duae primae differen 
+            <lb ed="#R" n="16"/>tiae, quae distinguunt bonum hominis. In homine 
+            <lb ed="#R" n="17"/>vero sunt duo, quae sunt apta nata recipere 
+            perfe<lb ed="#R" n="18" break="no"/>ctionem obedientialem, voluntas scilicet, &amp; 
+            appe<lb ed="#R" n="19" break="no"/>titus, &amp; in obediendo sic adunantur, quod 
+            impossi<lb ed="#R" n="20" break="no"/>bile est vnum esse in perfecta obedientia rationis 
+            <lb ed="#R" n="21"/>reliquo existente rebelli. Et ideo concurrunt in 
+            <lb ed="#R" n="22"/>ratione vnius apti nati obedire, propter quod 
+            in<lb ed="#R" n="23" break="no"/>clinationes vtriusque constituunt vnum bonum ra 
+            <lb ed="#R" n="24"/>tionis in esse obedientiali. 
+          </p>
+          <p xml:id="paqqap-a37990-d1e2109">
+            <lb ed="#R" n="25"/>Ad primam igitur instantiam huius difficultatis 
+            <lb ed="#R" n="26"/>dicendum, quod non est simile de potentijs, &amp; 
+            per<lb ed="#R" n="27" break="no"/>fectionibus, nisi tantum in esse perfectibili, quam. 
+            <lb ed="#R" n="28"/>uis autem voluntas, &amp; appetitus non sint vna poten 
+            <lb ed="#R" n="29"/>tia, in ratione tamen perfecti obedientialis rationi 
+            <lb ed="#R" n="30"/>sunt vnum perfectibile, vt dicum est, &amp; ideo 
+            incli<lb ed="#R" n="31" break="no"/>nationes vtriusque constituent vnam 
+            obedientia<lb ed="#R" n="32" break="no"/>lem perfectionem.
+          </p>
+          <p xml:id="paqqap-a37990-d1e2130">
+            <lb ed="#R" n="33"/>Ad secundum dicendum, quod prudentia in 
+            in<lb ed="#R" n="34" break="no"/>tellectu est honum rationis quasi quaedam perfectio 
+            <lb ed="#R" n="35"/>totalis per essentiam, virtus vero moralis est 
+            tan<lb ed="#R" n="36" break="no"/>tummodo rationalis per obedientiam: propter quod 
+            <lb ed="#R" n="37"/>Auerroes semper vocat virtutes morales, virtutes 
+            <lb ed="#R" n="38"/>obedientiales: &amp; ita patet, quod sunt perfectiones 
+            <lb ed="#R" n="39"/>diuersi generis, &amp; bonum rationis diuersimode: 
+            <lb ed="#R" n="40"/>propter quod non concurrunt ad vnum 
+            indiuisibi<lb ed="#R" n="41" break="no"/>le quale etiam secundum bene humanum. 
+          </p>
+          <p xml:id="paqqap-a37990-d1e2152">
+            <lb ed="#R" n="42"/>Sed inclinationes quarum vna est in voluntate, 
+            <lb ed="#R" n="43"/>alia in appetitu sensitiuo concurrunt ad vnum 
+            ple<lb ed="#R" n="44" break="no"/>ne obedire, vnde sicut non concurrit ad sanitatem 
+            <lb ed="#R" n="45"/>constitutione media, quae dirigit ad sanitatem, nec 
+            <lb ed="#R" n="46"/>ad pulchritudinem speculum, licet per ipsum quis 
+            <lb ed="#R" n="47"/>dirigatur ad faciem ornandam: sic nec prudentia 
+            <lb ed="#R" n="48"/>concurrit ad virtutem moralem, quamuis sit 
+            prae<lb ed="#R" n="49" break="no"/>cipua, &amp; directiua respectu cius. 
+          </p>
+          <p xml:id="paqqap-a37990-d1e2172">
+            <lb ed="#R" n="50"/>Ad primam confirmationem dicendum, quod 
+            <lb ed="#R" n="51"/>potentia motiua non est obediens immediate 
+            ra<lb ed="#R" n="52" break="no"/>tioni, sed mediante voluntate, &amp; appetitu, quae 
+            <lb ed="#R" n="53"/>mouent, &amp; determinant potentiam executiuam 
+            <lb ed="#R" n="54"/>ad agere; &amp; ideo non est capax virtutis 
+            obedien<lb ed="#R" n="55" break="no"/>tialis respectu rationis. 
+          </p>
+          <p xml:id="paqqap-a37990-d1e2188">
+            <lb ed="#R" n="56"/>Ratio namque mouet per modum finis, &amp; cuius 
+            <lb ed="#R" n="57"/>gratia, vt dicitur 6. Ethic. &amp; ideo non mouet nisi 
+            <lb ed="#R" n="58"/>per modum obiecti: mouet igitur voluntatem, &amp; 
+            <lb ed="#R" n="59"/>appetitum obiectiue, &amp; idcirco in eis ponitur 
+            vir<lb ed="#R" n="60" break="no"/>tus obedientialis respectu rationis, non autem in 
+            <lb ed="#R" n="61"/>potentia exccutiua, quae non mouetur obicctiue, 
+            <lb ed="#R" n="62"/>nec criam in appetitu exteriori. 
+          </p>
+          <p xml:id="paqqap-a37990-d1e2206">
+            <lb ed="#R" n="63"/>Et si dicatur, quod nec etiam ratio mouet 
+            appe<lb ed="#R" n="64" break="no"/>titum interiorem, sed tantum virtus cogitatiua, 
+            <lb ed="#R" n="65"/>dcendum, quod ratio particularis mouet 
+            appeti<lb ed="#R" n="66" break="no"/>tum sensitiuum, siue illa sit cogitatiua virtus, vt ali 
+            <lb ed="#R" n="67"/>quious visum cit, siue spectet ad intellectum; inten- 
+            <!--0122.xml-->
+            <cb ed="#R" n="b"/>
+            <lb ed="#R" n="68"/>tiones enim particulares mouent appetitum. 
+          </p>
+          <p xml:id="paqqap-a37990-d1e2226">
+            <lb ed="#R" n="69"/>Ad secundam confirmationem dicendum, quod 
+            <lb ed="#R" n="70"/>licet omnes virtutes morales sint connexae ratione 
+            <lb ed="#R" n="71"/>vnius prudentiae, non tamen connectuntur in 
+            vni<lb ed="#R" n="72" break="no"/>co actu simplici virtuoso, sicut connectuntur volun 
+            <lb ed="#R" n="73"/>tas, &amp; appetitus respectu vnius determinatae 
+            ma<lb ed="#R" n="74" break="no"/>teriae, &amp; idcirco hae duae inclinationes concurrunt 
+            <lb ed="#R" n="75"/>ad vnam per se rationem virtutis indiuisibilis, non 
+            <lb ed="#R" n="76"/>autem inclinationes virtuosae, quae sunt respectu 
+            <lb ed="#R" n="77"/>omnium moralium rerum. 
+          </p>
+          <p xml:id="paqqap-a37990-d1e2249">
+            <lb ed="#R" n="78"/>Et si dicatur, quod vnus actus vnius virtutis 
+            <lb ed="#R" n="79"/>non elicitur firmiter, vtpote iustitiae, nisi coassistat 
+            <lb ed="#R" n="80"/>alia virtus, scilicet castitas, quia vero castus 
+            ratio<lb ed="#R" n="81" break="no"/>ne pulchritudinis posset a iustitia deuiare: 
+            dicen<lb ed="#R" n="82" break="no"/>dum, quod iuuat vtique remouendo prohibens, 
+            <lb ed="#R" n="83"/>non autem elicitiue per se. Ex hoc patet ad 
+            confir<lb ed="#R" n="84" break="no"/>mationem qua dicebatur, quod homo est vnum 
+            <lb ed="#R" n="85"/>perfectibile per omnes actus omnium moralium 
+            <lb ed="#R" n="86"/>virtutũ; non est enim in hoc per se vnitas, sed magis 
+            <lb ed="#R" n="87"/>connexio per modum remouentis omne prohibens. 
+          </p>
+          <p xml:id="paqqap-a37990-d1e2273">
+            <lb ed="#R" n="88"/>Ad euidentiam difficultatis tertiae sciendum, quod 
+            <lb ed="#R" n="89"/>vnitas materiae moralis aliquando compatitur 
+            ali<lb ed="#R" n="90" break="no"/>quam diuersitatem intra se, quae tamen diuersitas 
+            <lb ed="#R" n="91"/>non omnino est alterius speciei, &amp; alterius 
+            ratio<lb ed="#R" n="92" break="no"/>nis; sicut infra albedinem sunt diuersi gradus 
+            ma<lb ed="#R" n="93" break="no"/>nente eadem specie, &amp; per hunc modum infra 
+            de<lb ed="#R" n="94" break="no"/>lectabile secundum gustum reperiri potest aliquid 
+            <lb ed="#R" n="95"/>delectabilius alio, sicut qualitas vnius potus, aut 
+            <lb ed="#R" n="96"/>vnius cibi, magis autem, &amp; minus non diuersificant 
+            <lb ed="#R" n="97"/>speciem, vt dicitur 1. Topic. quare totum remanet 
+            <lb ed="#R" n="98"/>infra vnam materiam specifice, &amp; per consequens 
+            <lb ed="#R" n="99"/>est vna virtus moralis. 
+          </p>
+          <p xml:id="paqqap-a37990-d1e2302">
+            <lb ed="#R" n="100"/>Ad formam igitur dicendum, quod 
+            inclinatio<lb ed="#R" n="101" break="no"/>nes variantur in potentia secundum diuersitatem, 
+            <lb ed="#R" n="102"/>quam cooperatur latitudo vnius materiae moralis 
+            <lb ed="#R" n="103"/>specifice, vt praedictum est. 
+          </p>
+          <p xml:id="paqqap-a37990-d1e2313">
+            <lb ed="#R" n="104"/>Ad primam confirmationem dicendum per idem. 
+            <lb ed="#R" n="105"/>Verum est, quod non est vna materia omnino 
+            gra<lb ed="#R" n="106" break="no"/>dualiter, est tamen vna specisice. 
+          </p>
+          <p xml:id="paqqap-a37990-d1e2322">
+            <lb ed="#R" n="107"/>Ad secundam dicendum, quod delectabile 
+            in<lb ed="#R" n="108" break="no"/>cibo, &amp; potu sunt alterius rationis, delectatio 
+            qui<lb ed="#R" n="109" break="no"/>dem potus est per frigidum, &amp; humidum 
+            expellen<lb ed="#R" n="110" break="no"/>do indigentiam, quae oritur ex calido, &amp; sicco, quae 
+            <lb ed="#R" n="111"/>est tristitia siue delectatio sitis. Delectatio vero 
+            <lb ed="#R" n="112"/>cibi est per calidum &amp; siccum, &amp; repletionem in. 
+            <lb ed="#R" n="113"/>digentiae, sunt enim istae delectationes naturae 
+            indi<lb ed="#R" n="114" break="no"/>gentis, vt patet 7. Ethic. Sicut igitur sitis &amp; esuries 
+            <lb ed="#R" n="115"/>sunt duae tristitiae, &amp; duo appetitus; sic delectatio 
+            <lb ed="#R" n="116"/>cibi, &amp; potus sunt alterius rationis specificae, &amp; 
+            <lb ed="#R" n="117"/>ideo distinguunt virtutes duas sub temperantia 
+            <lb ed="#R" n="118"/>quare vna dici potest Parsimonia, siue parcitas 
+            <lb ed="#R" n="119"/>respectu cibi, altera vero sobrietas. Vel 
+            dicen<lb ed="#R" n="120" break="no"/>dum, quod quia in ebrietate est specialis 
+            deformi<lb ed="#R" n="121" break="no"/>tas, ideo sobrietas sibi opposita habet 
+            pulchritudi<lb ed="#R" n="122" break="no"/>nem specialem, &amp; est distincta. 
+          </p>
+          <p xml:id="paqqap-a37990-d1e2359">
+            <lb ed="#R" n="123"/>Ad tertiam dicendum, quod non quaecumque 
+            <lb ed="#R" n="124"/>magnitudo distinguit magnificentiam a 
+            liberalita<lb ed="#R" n="125" break="no"/>te, sed illa, quae facit materiam alterius rationis; 
+            <lb ed="#R" n="126"/>facit autem magnitudo materiam alterius 
+            ratio<lb ed="#R" n="127" break="no"/>nis, quando inducit alium finem, &amp; alterius 
+            ratio<lb ed="#R" n="128" break="no"/>nis, sic autem est de magnifico, &amp; liberali, nam 
+            <lb ed="#R" n="129"/>liberalis non intendit nisi bonum rationis, quod 
+            <lb ed="#R" n="130"/>lucet in communicatione bonorum suorum ad 
+            al<lb ed="#R" n="131" break="no"/>terum, magnificus autem intendit bonum 
+            ratio<lb ed="#R" n="132" break="no"/>nis, quod consistit directe in magnitudine, &amp; ideo 
+            <lb ed="#R" n="133"/>intendit, per se, &amp; directe magnitudinem, 
+            quocir<lb ed="#R" n="134" break="no"/>ca obiectiua ratio diuersificatur.
+          </p>
+          <p xml:id="paqqap-a37990-d1e2389">
+            <!--0123.xml-->
+            <pb ed="#P" n="123"/>
+            <cb ed="#R" n="a"/>
+            <lb ed="#R" n="1"/>In proposito vero, quando aliquis fertur per 
+            vir<lb ed="#R" n="2" break="no"/>tutem in difficile, &amp; magis difficile, illa 
+            magnitu<lb ed="#R" n="3" break="no"/>do non est ratio obiectiua per se, sed est 
+            annera<lb ed="#R" n="4" break="no"/>circumstantia, &amp; ideo non variat obiectum. 
+          </p>
+          <p xml:id="paqqap-a37990-d1e2407">
+            <lb ed="#R" n="5"/>Ad Euidentiam vero difficultatis vltimae 
+            scien<lb ed="#R" n="6" break="no"/>dum, quod perfectio debet perfectionari 
+            perfecti<lb ed="#R" n="7" break="no"/>bili: sicut ergo anima separata non est homo 
+            per<lb ed="#R" n="8" break="no"/>fecte, sed est pars hominis, sic inclinatio remanens 
+            <lb ed="#R" n="9"/>in anima separata in voluntate non est 
+            perfecte<lb ed="#R" n="10" break="no"/>virtus moralis humana, sed est pars ipsius, &amp; per 
+            <lb ed="#R" n="11"/>hoc patet, quod inclinationes, quae constituunt 
+            <lb ed="#R" n="12"/>virtutem moralem humanam, inquantum humana 
+            <lb ed="#R" n="13"/>est, non vniuntur per accidens, immo per se; &amp; ideo 
+            <lb ed="#R" n="14"/>instantia non procedit. 
+          </p>
+          <p xml:id="paqqap-a37990-d1e2431">
+            <lb ed="#R" n="15"/>Nunc vltimo concludi potest ex praecedentibus 
+            <lb ed="#R" n="16"/>solutio cuiusdam quaestionis antiquae, qua 
+            consue<lb ed="#R" n="17" break="no"/>tum est quaeri. 
+          </p>
+          <p xml:id="paqqap-a37990-d1e2440">
+            <lb ed="#R" n="18"/>Vtrum Virtutes Morales sint subiectiue in volun 
+            <lb ed="#R" n="19"/>tate, vel in appetitu sensitiuo: quibusdam 
+            dicenti<lb ed="#R" n="20" break="no"/>bus, quod in voluntate per essentiam, &amp; in 
+            appe<lb ed="#R" n="21" break="no"/>titu sensitiuo per redundantiam: quibusdam vero 
+            <lb ed="#R" n="22"/>dicentibus, quod omnes sunt in appetitu tensitiuo 
+            <lb ed="#R" n="23"/>per essentiam, nec oportet ponere, quod sint in 
+            <lb ed="#R" n="24"/>voluntate. Dicendum tamen ex praecedentibus, 
+            <lb ed="#R" n="25"/>quod per essentiam omnis virtus moralis socundum 
+            <lb ed="#R" n="26"/>aliquid sui est in voluntate, &amp; secundum aliquid 
+            <lb ed="#R" n="27"/>sui in appe:itu, vel quod vna virtus obedientialis 
+            <lb ed="#R" n="28"/>constituitur in esse indiuisibili virtutis ex 
+            inclina<lb ed="#R" n="29" break="no"/>tionibus existentibus hic &amp; ibi. Sicut vna 
+            pulchri<lb ed="#R" n="30" break="no"/>tudo faciei constitultur ex debita figura nasi, labio 
+            <lb ed="#R" n="31"/>rum, oculorum, &amp; varietate colorum. &amp; hinc est, 
+            <lb ed="#R" n="32"/>quod Philosophus 3. Ethic. dicit, quod in 
+            morali<lb ed="#R" n="33" break="no"/>bus magis pensatur electio, quam exterior 
+            opera<lb ed="#R" n="34" break="no"/>tio; per hoc innuens, quod ad virtutem moralem 
+            <lb ed="#R" n="35"/>requiritur perfectio potentiae elicitiuae. &amp; in 
+            secun<lb ed="#R" n="36" break="no"/>do dicit, quod omnis virtus est circa delectationem, 
+            <lb ed="#R" n="37"/>&amp; tristitiam, &amp; quod signum generati habitus est 
+            <lb ed="#R" n="38"/>delectatio superueniens operationibus; per hoc 
+            <lb ed="#R" n="39"/>innuens, quod ad essentiam virtutis moralis 
+            perti<lb ed="#R" n="40" break="no"/>net inclinatio appetitus, sine qua non prouenit 
+            de<lb ed="#R" n="41" break="no"/>lectatio in operationibus. Hinc est etiam, quod in 
+            <lb ed="#R" n="42"/>fine primi virtutem moralem ponit in eo, quod est 
+            <lb ed="#R" n="43"/>rationale per participationem; hoc est, in omni 
+            <lb ed="#R" n="44"/>potentia, quae non est essentialiter cognitiua, &amp; 
+            ta<lb ed="#R" n="45" break="no"/>men mouetur a cognitione, quod vtique conuenit 
+            <lb ed="#R" n="46"/>vtrique appetitui. Vnde &amp; Commentator non 
+            ali<lb ed="#R" n="47" break="no"/>ter nominat ibidem virtutem moralem, quam obe 
+            <lb ed="#R" n="48"/>dientialem. Si etiam dicatur, quod Philosophus 
+            <lb ed="#R" n="49"/>ponit in tertio temperantiam in concupiscibili, &amp; 
+            <lb ed="#R" n="50"/>fortitudinem in irascibili, quasi praecise sint in 
+            ap<lb ed="#R" n="51" break="no"/>petitu sensitiuo, &amp; non in voluntate: dicendum, 
+            <lb ed="#R" n="52"/>quod vtrique commune est esse in voluntate, nec 
+            <lb ed="#R" n="53"/>ex parte voluntatis attenditur differentia, quoniam 
+            <lb ed="#R" n="54"/>sicut vna est in ea, sic &amp; reliqua, ex parte vero 
+            ap<lb ed="#R" n="55" break="no"/>petitus est differentia, quia vna est in appetitu 
+            con<lb ed="#R" n="56" break="no"/>cupiscibili, &amp; alia in irascibili. Et hoc voluit 
+            Phi<lb ed="#R" n="57" break="no"/>losophus notare, non autem excludere illam 
+            sim<lb ed="#R" n="58" break="no"/>pliciter a voluntate. &amp; haec de quaestione sufficiat. 
+          </p>
+          <p xml:id="paqqap-a37990-d1e2531">
+            <lb ed="#R" n="59"/>Ad primum in oppositum dicendum, quod 
+            au<lb ed="#R" n="60" break="no"/>ctor sex principiorum definiendo formam respexit 
+            <lb ed="#R" n="61"/>ad genus natura, &amp; sic verum est, quod nulla vna 
+            <lb ed="#R" n="62"/>forma constituitur ex pluribus formis distinctis.
+          </p>
+          <p xml:id="paqqap-a37990-d1e2542">
+            <lb ed="#R" n="63"/>Dicendum etiam, quod istae plures 
+            inclinatio<lb ed="#R" n="64" break="no"/>nes, etsi sint plures in esse naturae, videndo tamen 
+            <lb ed="#R" n="65"/>quale esse secundum bene sunt vnum indiuisibile, 
+            <lb ed="#R" n="66"/>&amp; per consequens sic sunt vna qualitas 
+            indiuisibi<lb ed="#R" n="67" break="no"/>lis in prima specie qualitatis: omnis enim qualitas 
+            <lb ed="#R" n="68"/>iu illa specie, in qua ponitur, oportet, quod sit vna 
+            <!--0123.xml-->
+            <cb ed="#R" n="b"/>
+            <lb ed="#R" n="69"/>qualitas illo modo vnitatis, quem illa species 
+            exi<lb ed="#R" n="70" break="no"/>git, &amp; per idem patet ad secundum; non enim ex 
+            <lb ed="#R" n="71"/>pluribus actibus fieri potest vna forma in esse natu 
+            <lb ed="#R" n="72"/>rae, sed quin possit indiuidi in dando esse quale 
+            se<lb ed="#R" n="73" break="no"/>cundum bene, non est verum; hoc autem sufficit ad 
+            <lb ed="#R" n="74"/>vnitatem qualitatis in prima specie, vt dictum est 
+            <lb ed="#R" n="75"/>faepes 
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

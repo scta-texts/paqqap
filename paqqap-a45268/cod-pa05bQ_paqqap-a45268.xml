@@ -1,0 +1,1977 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quodlibetum 15</title>
+        <author ref="#Aureoli">Petrus Aureolus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quodlibetum 15</title>
+          <date when="2022-12-14">December 14, 2022</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="R" n="cod-pa05bQ">Roma 1605, Quodlibeta</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2022-12-14" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#R" n="137"/>
+        <cb ed="#R" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="paqqap-a45268"> <!-- q15 -->
+        <head xml:id="paqqap-a45268-Hd1e102">Quodlibetum 15</head>
+        <head xml:id="paqqap-a45268-Hd1e104" type="question-title">
+          Utrum speculatiuum, et practicum 
+          distinguantur penes esse, et non esse 
+          actiuum principium in 
+          agente respectu sui obiecti.
+        </head>
+        <p xml:id="paqqap-a45268-d1e107">
+          <lb ed="#R" n="99"/>QVODLJBETVM 
+          <lb ed="#R" n="100"/>DECJMVMQVJNTVM.
+        </p>
+        <p xml:id="paqqap-a45268-d1e114">
+          <lb ed="#R" n="101"/>Vtrum speculatiuum, &amp; practicum 
+          di<lb ed="#R" n="102" break="no"/>stinguantur penes esse, &amp; non esse 
+          <lb ed="#R" n="103"/>actiuum principium in 
+          agen<lb ed="#R" n="104" break="no"/>te respectu sui obiecti. 
+        </p>
+        <p xml:id="paqqap-a45268-d1e126">
+          <lb ed="#R" n="105"/>Quintodecimo quaerebatur: Vtrum 
+          specula<lb ed="#R" n="106" break="no"/>tiuum, &amp; practicum distinguantur penes 
+          <lb ed="#R" n="107"/>esse &amp; non esse actiuum principium in agen 
+          <lb ed="#R" n="108"/>te respectu sui obiecti.
+        </p>
+        <p xml:id="paqqap-a45268-d1e137">
+          <lb ed="#R" n="109"/>Et videtur, quod non, quia distinctio practici 
+          <lb ed="#R" n="110"/>&amp; speculatiui sumitur penes illud, quod 
+          <lb ed="#R" n="111"/>habitus per se respicit. Nam speculatiuum 
+          <lb ed="#R" n="112"/>&amp; practicum, vel sunt differentiae specificae 
+          <lb ed="#R" n="113"/>habituum, &amp; sic competunt eis per se primo 
+          <lb ed="#R" n="114"/>modo, vel sunt proprietates, &amp; propriae 
+          pas<lb ed="#R" n="115" break="no"/>siones, &amp; sic competunt eis per se secundo 
+          <lb ed="#R" n="116"/>modo, semper tamen per se: sed habitus 
+          re<lb ed="#R" n="117" break="no"/>spicit per se obiectum, non autem 
+          scien<lb ed="#R" n="118" break="no"/>tem. Vnde <ref xml:id="paqqap-a45268-Rd1e160">Commentator 5. meth. com. 
+            <lb ed="#R" n="119"/>6.</ref> dicit, quod si scientia referretur ad 
+          <lb ed="#R" n="120"/>scibilitatem, diceretur bis: ergo penes obie 
+          <lb ed="#R" n="121"/>cta speculatiuum &amp; practicum 
+          distinguen<lb ed="#R" n="122" break="no"/>tur, &amp; non penes esse actiuum principium 
+          <lb ed="#R" n="123"/>in agente, &amp; non esse.
+        </p>
+        <p xml:id="paqqap-a45268-d1e175">
+          <!--0138.xml-->
+          <pb ed="#P" n="138"/>
+          <cb ed="#R" n="a"/>
+          <lb ed="#R" n="1"/>Praeterea: Si omne principium actiuum in 
+          scien<lb ed="#R" n="2" break="no"/>te facit scientiam practicam, sequeretur, 
+          <lb ed="#R" n="3"/>quod omnis scientia, &amp; habitus omnis 
+          pra<lb ed="#R" n="4" break="no"/>cticus esset. hoc patet, quia omnis habitus 
+          <lb ed="#R" n="5"/>scientificus est principium elicitiuum 
+          pro<lb ed="#R" n="6" break="no"/>prij actus scientifici in intellectu scientis, sed 
+          <lb ed="#R" n="7"/>omnem habitum scientificum esse practicum 
+          <lb ed="#R" n="8"/>falsum est, vt patet 2. &amp; o. meth. vbi 
+          negati<lb ed="#R" n="9" break="no"/>ue dicitur, quod sapientia non est practica: 
+          <lb ed="#R" n="10"/>ergo distinctio practici, &amp; speculatiui non 
+          <lb ed="#R" n="11"/>accipitur penes esse, vel non esse in sciente 
+          <lb ed="#R" n="12"/>principium actiuum. 
+        </p>
+        <p xml:id="paqqap-a45268-d1e210">
+          <lb ed="#R" n="13"/>Sed contra: Habitus speculatiuus differt a 
+          pra<lb ed="#R" n="14" break="no"/>ctico per esse practicum, &amp; non practicum: sed 
+          <lb ed="#R" n="15"/>practicum idem est, quod actiuum 
+          princi<lb ed="#R" n="16" break="no"/>pium, quia praxis graece, operatio latine: 
+          <lb ed="#R" n="17"/>igitur penes esse actiuum principium, &amp; non 
+          <lb ed="#R" n="18"/>esse distinguuntur habitus practicus, &amp; 
+          spe<lb ed="#R" n="19" break="no"/>culatiuus. 
+        </p>
+        <p xml:id="paqqap-a45268-d1e228">
+          <lb ed="#R" n="20"/>Responsio ad quaestionem
+        </p>
+        <p xml:id="paqqap-a45268-d1e233">
+          <lb ed="#R" n="21"/>Respondeo hic: Primo ponetur punctus 
+          quae<lb ed="#R" n="22" break="no"/>stionis cum difficultatibus suis. 
+          <lb ed="#R" n="23"/>Secundo dicetur ad quaestionem. 
+          <lb ed="#R" n="24"/>Tertio ad difficultates. 
+        </p>
+        <div xml:id="paqqap-a45268-Dd1e245">
+          <head xml:id="paqqap-a45268-Hd1e247">Articulus 1</head>
+          <p xml:id="paqqap-a45268-d1e249">
+            <lb ed="#R" n="25"/>ARTICVLVS I. 
+            <lb ed="#R" n="26"/>Vbi inducuntur multae difficultates secundum 
+            <lb ed="#R" n="27"/>Thomam Anglicum, vt punctus patat 
+            <lb ed="#R" n="28"/>quaestionis. 
+          </p>
+          <p xml:id="paqqap-a45268-d1e260">
+            <lb ed="#R" n="29"/>CIRCA primum sciendum, quod 
+            <lb ed="#R" n="30"/>punctus quaestionis patet ex 
+            duo<lb ed="#R" n="31" break="no"/>bus.
+          </p>
+          <p xml:id="paqqap-a45268-d1e269">
+            <lb ed="#R" n="32"/>Primo quidem ex hoc, quod 
+            Phi<lb ed="#R" n="33" break="no"/>losophus 6. meth. definiens 
+            scien<lb ed="#R" n="34" break="no"/>tiam practicam dicit, quod est 
+            il<lb ed="#R" n="35" break="no"/>la, quae habet in faciente principium rei scitae, aut 
+            <lb ed="#R" n="36"/>intellectum, aut artem, aut potentiam quandam, 
+            <lb ed="#R" n="37"/>aut phrenesim, &amp; voluntatem. Speculatiua vero 
+            <lb ed="#R" n="38"/>siue theorica, quae non habet tale principium in 
+            <lb ed="#R" n="39"/>sciente. Et tamen dicunt aliqui, quod ex textu 
+            <lb ed="#R" n="40"/>Phylosophi habentur duae vniuersales affirmatiuae. 
+          </p>
+          <p xml:id="paqqap-a45268-d1e291">
+            <lb ed="#R" n="41"/>Prima est, quod omnis habitus practicus est de 
+            <lb ed="#R" n="42"/>operabili a nobis: sed conuersae istarum 
+            vniuersa<lb ed="#R" n="43" break="no"/>les haberi non possunt, sed particulares, nisi quis 
+            <lb ed="#R" n="44"/>velit vniuersalem affirmatiuam conuertere simpli 
+            <lb ed="#R" n="45"/>citer. Vnde non habetur ista, quod omnis habitus, 
+            <lb ed="#R" n="46"/>qui est de operabili a nobis, sit practicus, sed 
+            qui<lb ed="#R" n="47" break="no"/>dam, nec quod omnis speculatiuus sit de non 
+            ope<lb ed="#R" n="48" break="no"/>rabili a nobis, sed quidam; &amp; secundum hoc non 
+            <lb ed="#R" n="49"/>distinguitur practicum a speculatiuo per esse 
+            de<lb ed="#R" n="50" break="no"/>operabili, &amp; non operabili, vel per esse, &amp; non essse 
+            <lb ed="#R" n="51"/>principium actiuum sui obiecti. 
+          </p>
+          <p xml:id="paqqap-a45268-d1e318">
+            <lb ed="#R" n="52"/>Secunda vero ex hoc, quod non est quaestio de 
+            vo<lb ed="#R" n="53" break="no"/>calibus, sed de primis differentijs diuisiuis habitus 
+            <lb ed="#R" n="54"/>intellectualis, quocumque nomine appellentur, siue 
+            <lb ed="#R" n="55"/>vna dicatur speculatiua, reliqua practica; siue vna 
+            <lb ed="#R" n="56"/>dicatur a, reliqua b. Vnde quaeslio est metaphysica 
+            <lb ed="#R" n="57"/>non gramatica, &amp; de vsu vocabulorum: &amp; sic 
+            intel<lb ed="#R" n="58" break="no"/>lecta quaestione est difficile ponere, quod habitus 
+            <lb ed="#R" n="59"/>intellectualis induat rationem practici, per hoc, 
+            <lb ed="#R" n="60"/>quod est esse principium actiuum, &amp; speculatiuum 
+            <lb ed="#R" n="61"/>per hoc, quod non est principium, vel penes esse 
+            <lb ed="#R" n="62"/>de obiecto operabili a nobis, &amp; non operabili. Et 
+            <lb ed="#R" n="63"/>sunt circa hoc multae difficultates.
+          </p>
+          <p xml:id="paqqap-a45268-d1e347">
+            <!--0138.xml-->
+            <cb ed="#R" n="b"/>
+            <lb ed="#R" n="64"/>Prima quidem, quod nullum absolutum in sua 
+            <lb ed="#R" n="65"/>constituitur, aut ab alio effentialiter distin 
+            <lb ed="#R" n="66"/>per respectum, quia differentia debet esse eiusdem 
+            <lb ed="#R" n="67"/>generis cum constituto, vt in genere absoluti 
+            diffe<lb ed="#R" n="68" break="no"/>rentia debet esse absoluta: sed habitus 
+            intellectua<lb ed="#R" n="69" break="no"/>lis est qualitas absoluta, esse autem principiom 
+            <lb ed="#R" n="70"/>actiuum importat habitudinem principij, &amp; respectus: 
+            <lb ed="#R" n="71"/>ergo habitus intellectualis non diuidetur 
+            esfentia<lb ed="#R" n="72" break="no"/>liter, &amp; per se per esse principium actinum, &amp; per 
+            <lb ed="#R" n="73"/>consequens speculatiuum, &amp; practicum, quae distin 
+            <lb ed="#R" n="74"/>guunt essentialiter habitum, non sumuntur penes ista- 
+          </p>
+          <p xml:id="paqqap-a45268-d1e378">
+            <lb ed="#R" n="75"/>Si dicatur, quod non distinguitur per respectum 
+            <lb ed="#R" n="76"/>sed per copulationem ad huiusmodi respectum 
+            <lb ed="#R" n="77"/>Contra: Jllud copulari aut est aliquid: aut nihil, si 
+            <lb ed="#R" n="78"/>nihil, non potest alicui esse speculatinum: si aliquid 
+            <lb ed="#R" n="79"/>aut est ipsum absolutum, quia tunc eo 
+            maneme<lb ed="#R" n="80" break="no"/>semper maneret ipsum copulari, quod falsum esta 
+            <lb ed="#R" n="81"/>nec respectus, quia vt dictum est, illud non das esse 
+            <lb ed="#R" n="82"/>specificum alicui absoluto; nec medium, quia nul, 
+            <lb ed="#R" n="83"/>lum est, &amp; si esset, tunc habitus practicus, &amp; omnis 
+            <lb ed="#R" n="84"/>virtus esset ens per accidens constitutum ex absa⸗ 
+            <lb ed="#R" n="85"/>luto, &amp; illo medio inter absolutum, &amp; ipsum 
+            respe<lb ed="#R" n="86" break="no"/>ctum suum scilicet copulari: igitur per copulari ad 
+            <lb ed="#R" n="87"/>respectum non constituitur habitus practicus, nec 
+            <lb ed="#R" n="88"/>aliqua virtus. 
+          </p>
+          <p xml:id="paqqap-a45268-d1e411">
+            <lb ed="#R" n="89"/>Amplius ista copulatio aut dicit rem simplicem 
+            <lb ed="#R" n="90"/>qualitatis, aut aliquid aliud. Sed non primum 
+            <lb ed="#R" n="91"/>quia tunc omnis qualitas esset copulata: ergo 
+            ali<lb ed="#R" n="92" break="no"/>quid aliud, &amp; per consequens erit ens per accidems 
+            <lb ed="#R" n="93"/>congregatum ex qualitate, &amp; aliquo alio alterius 
+            <lb ed="#R" n="94"/>generis.
+          </p>
+          <p xml:id="paqqap-a45268-d1e427">
+            <lb ed="#R" n="95"/>Praeterea: Nihil est in specie, nisi per differentiam 
+            <lb ed="#R" n="96"/>essentialem praedicantem per se de illo in primo 
+            <lb ed="#R" n="97"/>modo dicendi per se: hoc patet, quia genus &amp; 
+            diffe<lb ed="#R" n="98" break="no"/>rentia praedicantur per se primo modo: sed ista 
+            co<lb ed="#R" n="99" break="no"/>pulatio non competit rei per se primo modo, nec 
+            <lb ed="#R" n="100"/>de ipsa praedicatur, quia potest separari ab 
+            absolu<lb ed="#R" n="101" break="no"/>to virtutis, &amp; habitus practici, vt saepe dictum est: 
+            <lb ed="#R" n="102"/>ergo oportet dare aliquid intrinsecum aliud a 
+            co<lb ed="#R" n="103" break="no"/>pulari, per quod qualitas, quae est virtus, a vitio 
+            <lb ed="#R" n="104"/>distinguatur, &amp; per quod fit in specie, &amp; similiter 
+            <lb ed="#R" n="105"/>qualitas, qui est habitus practicus. 
+          </p>
+          <p xml:id="paqqap-a45268-d1e453">
+            <lb ed="#R" n="106"/>Secunda difficultas est, quia si practicum, &amp; 
+            spe<lb ed="#R" n="107" break="no"/>culatiuum differrent per esse principium actiuum, 
+            <lb ed="#R" n="108"/>sequeretur, quod commune habitus specie, &amp; forte 
+            <lb ed="#R" n="109"/>numero possent esse practicus &amp; speculatiuus: hoc 
+            <lb ed="#R" n="110"/>est impossibile, cum vel sint differentiae essentiales 
+            <lb ed="#R" n="111"/>constituentes diuersas species, vel saltem proprietates 
+            <lb ed="#R" n="112"/>diuersas species consequentes: ergo non potest 
+            po<lb ed="#R" n="113" break="no"/>ni, quod penes illud distinguantur. 
+          </p>
+          <p xml:id="paqqap-a45268-d1e474">
+            <lb ed="#R" n="114"/>Maior patet, quia habitus libri Ethic. eiusdem. 
+            <lb ed="#R" n="115"/>speciei est in mente Angeli, &amp; in mente hominis, cum 
+            <lb ed="#R" n="116"/>sit de obiecto eodem: ibi autem non est principium 
+            <lb ed="#R" n="117"/>actiuum, quia angelus non est capax moralium actuum 
+            <lb ed="#R" n="118"/>vel habituum. In nobis autem est actiuum 
+            princi<lb ed="#R" n="119" break="no"/>pium, &amp; per consequens ibi speculatiuus, hic 
+            pra<lb ed="#R" n="120" break="no"/>cticus. Similiter idem numero habitus moralis 
+            <lb ed="#R" n="121"/>scientiae, qui fuit in mente angeli, posset poni in 
+            men<lb ed="#R" n="122" break="no"/>te mea, &amp; esset tunc practicus in me propter 
+            prin<lb ed="#R" n="123" break="no"/>cipium actiuum, qui prius in angelo fuerat 
+            specu<lb ed="#R" n="124" break="no"/>latiuus. Similiter si habenti scientiam de rosa Deus 
+            <lb ed="#R" n="125"/>infunderet potentiam producendi rosam, esset 
+            pra<lb ed="#R" n="126" break="no"/>ctica scientia rosae, quae prius fuit speculatiua, &amp; per 
+            <lb ed="#R" n="127"/>consequens erunt differentiae accidentales. 
+          </p>
+          <p xml:id="paqqap-a45268-d1e507">
+            <lb ed="#R" n="128"/>Tertia difficultas est, quod secundum hoc Medicina 
+            <lb ed="#R" n="129"/>de sanitate non erit practica, sed illa sola, quae est via 
+            <lb ed="#R" n="130"/>ad sanitatem, non enim medicus per habitum 
+            medici<lb ed="#R" n="131" break="no"/>nae est principium, &amp; causa sanitatis principaliter, sed 
+            <!--0139.xml-->
+            <pb ed="#P" n="139"/>
+            <cb ed="#R" n="a"/>
+            <lb ed="#R" n="1"/>solum dispositiue, confortat. n. naturam, vt subtrahēdo 
+            <lb ed="#R" n="2"/>humorem superfluum, vel qualitatem naturae adiuuando, 
+            <lb ed="#R" n="3"/>&amp; sic natura confortata sanitatem inducit, vnde tota 
+            <lb ed="#R" n="4"/>operatio medicinae completa est ante inductionem 
+            <lb ed="#R" n="5"/>sanitatis, &amp; per consequens etiam medicina est prin 
+            <lb ed="#R" n="6"/>cipium actiuum respectu viae ad sanitatem, sed non 
+            <lb ed="#R" n="7"/>respectu sanitatis. &amp; haec est mens Philos. 7. meth. 
+            <lb ed="#R" n="8"/>&amp; Commentat. comm. 33. ibidem: igitur 
+            medici<lb ed="#R" n="9" break="no"/>na, quae est de sanitate est speculatiua non practica 
+            <lb ed="#R" n="10"/>secundum istam viam, cuius oppositum est 
+            commu<lb ed="#R" n="11" break="no"/>niter concessum, &amp; idem potest argui de alchimia 
+            <lb ed="#R" n="12"/>respectu metalli. 
+          </p>
+          <p xml:id="paqqap-a45268-d1e551">
+            <lb ed="#R" n="13"/>Quarta difficultas est: si ratio practici consistit in 
+            <lb ed="#R" n="14"/>esse actiuum principium respectu obiecti, sequetur, 
+            <lb ed="#R" n="15"/>quod Deus habet practicam scientiam de omnibus 
+            <lb ed="#R" n="16"/>creaturis, nam scientia sua, causa est omnium 
+            re<lb ed="#R" n="17" break="no"/>rum Commentator 12. meth. com. 50. sed hoc est 
+            <lb ed="#R" n="18"/>falsum, nam hoc ponens dimittit Aristotelem 
+            in<lb ed="#R" n="19" break="no"/>contradictione, qui arguit 6. meth. quod scientia 
+            <lb ed="#R" n="20"/>naturalis non est actiua, nec factiua ex hoc medio, 
+            <lb ed="#R" n="21"/>quia est de ente habente in se principium motus, &amp; 
+            <lb ed="#R" n="22"/>quietis. 
+          </p>
+          <p xml:id="paqqap-a45268-d1e575">
+            <lb ed="#R" n="23"/>Sic igitur scientia Dei, quam habet de 
+            creatu<lb ed="#R" n="24" break="no"/>ris, non erit actiua, neque factiua, ex hoc medio, 
+            <lb ed="#R" n="25"/>quia est de ente habente in se principium motus, 
+            <lb ed="#R" n="26"/>&amp; quietis. 
+          </p>
+          <p xml:id="paqqap-a45268-d1e586">
+            <lb ed="#R" n="27"/>Vel ratio Philosophi nulla est, &amp; remanet in con 
+            <lb ed="#R" n="28"/>tradictione: igitur practici ratio non consistit in 
+            <lb ed="#R" n="29"/>esse principium actiuum respectu obiecti. 
+          </p>
+          <p xml:id="paqqap-a45268-d1e595">
+            <lb ed="#R" n="30"/>Quinta difficultas: quia in differentia practici, 
+            <lb ed="#R" n="31"/>&amp; speculatiui, vtendum est illis regulis, quae a 
+            prae<lb ed="#R" n="32" break="no"/>cipuis Philosophis de hac materia dicuntur, cum 
+            <lb ed="#R" n="33"/>ipsi horum vocabulorum fuerint inuentores: Sed 
+            <lb ed="#R" n="34"/>cum haec propositio in nullo codice reperiatur nec 
+            <lb ed="#R" n="35"/>Philosophi, nec Commentatoris, aut alicuius 
+            alte<lb ed="#R" n="36" break="no"/>rius, quod practicus habitus sit ille, qui est 
+            princi<lb ed="#R" n="37" break="no"/>pium actiuum respectu sui obiecti, quod est de 
+            ope<lb ed="#R" n="38" break="no"/>rabili a nobis, cum nullum habitum, nisi moralem 
+            <lb ed="#R" n="39"/>&amp; artem Philosophus ponat non practicum: igitur 
+            <lb ed="#R" n="40"/>illa non videtur esse vera distinctio. 
+          </p>
+          <p xml:id="paqqap-a45268-d1e622">
+            <lb ed="#R" n="41"/>Sexta difficultas, quia secundum hoc Theologia 
+            <lb ed="#R" n="42"/>nostra non erit scientia practica, sed speculatiua, 
+            <lb ed="#R" n="43"/>quia non est actiuum principium sui obiecti; non 
+            <lb ed="#R" n="44"/>enim Deus est aliquod operabile a nobis. 
+          </p>
+          <p xml:id="paqqap-a45268-d1e633">
+            <lb ed="#R" n="45"/>Sed alias dictum est, quod Theologia est 
+            practi<lb ed="#R" n="46" break="no"/>ca: ergo illa propositio non est vera, quod ratio 
+            <lb ed="#R" n="47"/>practici in actiuitate consistat, vel in essse de obiecto 
+            <lb ed="#R" n="48"/>operabili a nobis. 
+          </p>
+          <p xml:id="paqqap-a45268-d1e644">
+            <lb ed="#R" n="49"/>Confirmatur dupliciter, quod Theologia non⸗ 
+            <lb ed="#R" n="50"/>sit practica, sed speculatiua. 
+          </p>
+          <p xml:id="paqqap-a45268-d1e651">
+            <lb ed="#R" n="51"/>Primo quidem, quia Philosophus, sic arguit 6. 
+            <lb ed="#R" n="52"/>meth. methaphisica est circa quoddam ens 
+            immo<lb ed="#R" n="53" break="no"/>bile, &amp; sempiternum: igitur est speculatiua, sed 
+            <lb ed="#R" n="54"/>Theologia est de Deo ente summo, immobili, &amp; 
+            <lb ed="#R" n="55"/>sempiterno; ergo est speculatiua, vel ratio 
+            Philo<lb ed="#R" n="56" break="no"/>sophi est nulla. 
+          </p>
+          <p xml:id="paqqap-a45268-d1e667">
+            <lb ed="#R" n="57"/>Secundo sic: si Theologia esset practica, propter 
+            <lb ed="#R" n="58"/>hoc poneretur, quia ordinatur ad actum 
+            volunta<lb ed="#R" n="59" break="no"/>tis, qui est diligere, &amp; sperare, sed actus isti non 
+            <lb ed="#R" n="60"/>pertinent ad praxim: immo sunt speculatiui: ergo 
+            <lb ed="#R" n="61"/>non est specifica. Minor probatur dupliciter. 
+          </p>
+          <p xml:id="paqqap-a45268-d1e680">
+            <lb ed="#R" n="62"/>Primo quidem, quia per omnes rationes quibus 
+            <lb ed="#R" n="63"/>Aristoteles probat 10. Ethic. quod foelicitas sit 
+            vi<lb ed="#R" n="64" break="no"/>ta speculatiua, probari potest, quod dilectio Dei 
+            <lb ed="#R" n="65"/>sit actus speculatiuus. Probat enim ex hoc, quod 
+            <lb ed="#R" n="66"/>est operatio hominis inquantum homo, &amp; 
+            commu<lb ed="#R" n="67" break="no"/>nissima, &amp; optima operatio delectationi summae 
+            <!--0139.xml-->
+            <cb ed="#R" n="b"/>
+            <lb ed="#R" n="68"/>permixta, per se eligibilis, in vacatione consistens: 
+            <lb ed="#R" n="69"/>igitur spectat ad vitam speculatiuam. 
+          </p>
+          <p xml:id="paqqap-a45268-d1e705">
+            <lb ed="#R" n="70"/>Item secundo: Omnis actus practicus cadit sub 
+            <lb ed="#R" n="71"/>electione, &amp; reducitur sub aliqua virtute morali. 
+          </p>
+          <p xml:id="paqqap-a45268-d1e712">
+            <lb ed="#R" n="72"/>Septima difficultas est, quod secundum hoc 
+            lo<lb ed="#R" n="73" break="no"/>gica est practica, cum sit de operatiuo a nobis, quia 
+            <lb ed="#R" n="74"/>de syllogismo vel ente rationis, &amp; habet rationem 
+            <lb ed="#R" n="75"/>actiui principij respectu sui obiecti secundum ipsam: 
+            <lb ed="#R" n="76"/>esse practicam impossibile est: ergo, &amp;c. Quod enim 
+            <lb ed="#R" n="77"/>impossibile sit practicam esse, patet.
+          </p>
+          <p xml:id="paqqap-a45268-d1e728">
+            <lb ed="#R" n="78"/>Primo quidem, quia ille habitus, cuius omnis 
+            a<lb ed="#R" n="79" break="no"/>ctus formaliter est speculatiuus, impossibile est, 
+            <lb ed="#R" n="80"/>quod sit practicus: sed omnis actus logici est 
+            spe<lb ed="#R" n="81" break="no"/>culatiuus formaliter, siue sit docens, siue vtens; 
+            <lb ed="#R" n="82"/>actus enim docentis est speculari veritates 
+            circa<lb ed="#R" n="83" break="no"/>syllogismum, &amp; suum obiectum, vtentis vero 
+            di<lb ed="#R" n="84" break="no"/>rigere ad speculationem veritatis: Constat autem, 
+            <lb ed="#R" n="85"/>quod tale dirigere est speculari, nec est actus 
+            pra<lb ed="#R" n="86" break="no"/>cticus, alioquin omnes libri natura les erunt 
+            pra<lb ed="#R" n="87" break="no"/>ctici, quia vnus dirigit ad alterum, vt 7. physic. ad 
+            <lb ed="#R" n="88"/>8. &amp; omnes simul ad medium, vt dicit 
+            Commenta<lb ed="#R" n="89" break="no"/>tor Jbidem, &amp; alibi: ergo &amp; dirigere ipsius logicae 
+            <lb ed="#R" n="90"/>erit actus speculatiuus non practicus. 
+          </p>
+          <p xml:id="paqqap-a45268-d1e759">
+            <lb ed="#R" n="91"/>Confirmatur, quia alias sic arguebatur: Omnis 
+            <lb ed="#R" n="92"/>actus intellectus est intelligere, certitudo est actus 
+            <lb ed="#R" n="93"/>intellectus: ergo est quoddam intelligere. 
+            Asimi<lb ed="#R" n="94" break="no"/>li; Cuius dirigere sit actus intellectus, erit quoddam 
+            <lb ed="#R" n="95"/>speculari, &amp; intelligere, cum etiam directio logicae 
+            <lb ed="#R" n="96"/>non sit nisi quaedam certitudo, qua quis cognoscit 
+            <lb ed="#R" n="97"/>se scientifice procedere, patet, quod illa directio 
+            <lb ed="#R" n="98"/>erit actus speculatiuus. 
+          </p>
+          <p xml:id="paqqap-a45268-d1e779">
+            <lb ed="#R" n="99"/>Secundo: Sic loquendum est de logica, sicut 
+            prae<lb ed="#R" n="100" break="no"/>cipui Philosophi sunt locuti: sed multi ponunt eam 
+            <lb ed="#R" n="101"/>practicam; sed potius Symplicius in principio 
+            <lb ed="#R" n="102"/>praedicamentorum posuit eam organicam, 
+            quia<lb ed="#R" n="103" break="no"/>immediate per se est adminiculatiua ad omne 
+            sci<lb ed="#R" n="104" break="no"/>re, &amp; per consequens organica reducitur ad 
+            spe<lb ed="#R" n="105" break="no"/>culatiuam, &amp; hoc idem dicit Alpharabius; est enim 
+            <lb ed="#R" n="106"/>inquit: organica: ergo non potest poni practica. 
+          </p>
+          <p xml:id="paqqap-a45268-d1e799">
+            <lb ed="#R" n="107"/>Octaua difficultas est, quod secundum hoc vix 
+            <lb ed="#R" n="108"/>poterit euitari, quin omnis scientia sit practica etiam 
+            <lb ed="#R" n="109"/>Mathematicat&amp; Methaphisicae, quia omnes sunt 
+            a<lb ed="#R" n="110" break="no"/>ctiuae dirigsndo, methaphisica enim dirigit omnes 
+            <lb ed="#R" n="111"/>scientias, principia earum definiendo, &amp; 
+            quiddi<lb ed="#R" n="112" break="no"/>tatem cniuslibet subiecti inuestigando; 
+            Mathema<lb ed="#R" n="113" break="no"/>tica autem agit directiue, &amp; respectu Astrologiae, &amp; 
+            <lb ed="#R" n="114"/>resppctu Perspectuae, &amp; respectu altitudinem, vnde 
+            <lb ed="#R" n="115"/>machinatiua, &amp; mechanica ditiguntur a 
+            Geome<lb ed="#R" n="116" break="no"/>tria. Immo in Aegypto per altitudinem Nili, qui 
+            <lb ed="#R" n="117"/>irrigat totam terram, vt sciretur proportio Nili ad 
+            <lb ed="#R" n="118"/>quamlibet partem terrae Aegypti, primo 
+            Geome<lb ed="#R" n="119" break="no"/>tria inuenta est: &amp; ad hoc multum iuuat. Similiter 
+            <lb ed="#R" n="120"/>Astrologia dirigit Medicinam, &amp; Nauticam, vt 
+            pa<lb ed="#R" n="121" break="no"/>tet primo posteriorum: ergo omnes erunt 
+            practi<lb ed="#R" n="122" break="no"/>cae, quod inconueniens est. 
+          </p>
+          <p xml:id="paqqap-a45268-d1e837">
+            <lb ed="#R" n="123"/>Nona difficultas est; quia magis videtur 
+            distin<lb ed="#R" n="124" break="no"/>ctio practici, &amp; speculatiui a fine accipi, quam ab 
+            <lb ed="#R" n="125"/>obiecto: tum quia tam habitus, quam obiectum 
+            <lb ed="#R" n="126"/>ordinantur ad finem, tanquam ad actiuam causam 
+            <lb ed="#R" n="127"/>suam: tum quia accipitur habitus practicus, vt bo 
+            <lb ed="#R" n="128"/>ni fiamus 2. Ethic. ex fine autem boni sumus, non 
+            <lb ed="#R" n="129"/>ex obiecto: ergo magis ex fine distinctio horum su 
+            <lb ed="#R" n="130"/>mitur, quam ex obiecto, &amp; per consequens non ex 
+            <lb ed="#R" n="131"/>hoc, quod est esse de operabili, &amp; non operabili; nec 
+            <lb ed="#R" n="132"/>ex hoc, quod est esse principium actiuum sui 
+            obie<lb ed="#R" n="133" break="no"/>cti, vel non esse. 
+          </p>
+          <p xml:id="paqqap-a45268-d1e863">
+            <lb ed="#R" n="134"/>Decima difficultas est, quia scientia non dicitur 
+            <!--0140.xml-->
+            <pb ed="#P" n="140"/>
+            <cb ed="#R" n="a"/>
+            <lb ed="#R" n="1"/>practica ab intriuseca actiuitate, sed a praxi, quam 
+            <lb ed="#R" n="2"/>dirigit quadam denominatione extrinseca: sed actus 
+            <lb ed="#R" n="3"/>intellectus nullus ponit prax im, immo nec electio 
+            <lb ed="#R" n="4"/>actus voluntatis est praxis: ergo quod supra. 
+          </p>
+        </div>
+        <div xml:id="paqqap-a45268-Dd1e884">
+          <head xml:id="paqqap-a45268-Hd1e886">Articulus 2</head>
+          <p xml:id="paqqap-a45268-d1e888">
+            <lb ed="#R" n="5"/>ARTICVLVS II. 
+            <lb ed="#R" n="6"/>Vbi primo ostenditur, quali actiuitate 
+            distin<lb ed="#R" n="7" break="no"/>guitur habitus practicus a 
+            <lb ed="#R" n="8"/>speculatiuo. 
+          </p>
+          <p xml:id="paqqap-a45268-d1e899">
+            <lb ed="#R" n="9"/>REspondeo nunc ad quaestionem. &amp; pono duo 
+            <lb ed="#R" n="10"/>notabilia.
+          </p>
+          <p xml:id="paqqap-a45268-d1e906">
+            <lb ed="#R" n="11"/>Primum quidem, quod habitum scientificum 
+            es<lb ed="#R" n="12" break="no"/>se principium actiuum intelligi potest tripliciter. 
+          </p>
+          <p xml:id="paqqap-a45268-d1e913">
+            <lb ed="#R" n="13"/>Primo quidem elicitiue formaliter, &amp; sic omnis 
+            <lb ed="#R" n="14"/>habitus scientificus est actiuus, quia est formalis 
+            <lb ed="#R" n="15"/>ratio eliciendi actum in intellectu scientis; 
+            habiti<lb ed="#R" n="16" break="no"/>bus enim vtimur cum volumus, &amp; quo nemo 
+            ma<lb ed="#R" n="17" break="no"/>le vtitur secundum Augustinum. 
+          </p>
+          <p xml:id="paqqap-a45268-d1e927">
+            <lb ed="#R" n="18"/>Secundo coelicitiue, &amp; instrumentaliter, &amp; sic 
+            om<lb ed="#R" n="19" break="no"/>nis scientia, quae tradit alteri principia, vel 
+            propo<lb ed="#R" n="20" break="no"/>sitiones aliquas, coagit illi, &amp; dirigit coelicitiue 
+            in<lb ed="#R" n="21" break="no"/>strumentaliter conclusiones, vt <ref xml:id="paqqap-a45268-Rd1e937">Commentator 
+              di<lb ed="#R" n="22" break="no"/>cit 3. de anima com. 32.</ref>
+          </p>
+          <p xml:id="paqqap-a45268-d1e943">
+            <lb ed="#R" n="23"/>Tertio vero elicitiue formaliter, nec 
+            instrumen<lb ed="#R" n="24" break="no"/>taliter, nec aliquo modo elicitiue, sed per modum 
+            <lb ed="#R" n="25"/>formae praeconceptae, &amp; exemplariter, ad cuius 
+            imi<lb ed="#R" n="26" break="no"/>tationem aliquid fit; eo modo, quo ars scribendi 
+            <lb ed="#R" n="27"/>coagit manui scribentis litteras, non quidē, quod 
+            <lb ed="#R" n="28"/>sit ratio eliciendi, nec instrumentum, sed forma 
+            <lb ed="#R" n="29"/>exemplaris, &amp; directiua, ad cuius similitudinem 
+            <lb ed="#R" n="30"/>praeconceptam fit littera. 
+          </p>
+          <p xml:id="paqqap-a45268-d1e963">
+            <lb ed="#R" n="31"/>Primo modo non accipitur hic actiuitas 
+            habi<lb ed="#R" n="32" break="no"/>tus, quia secundum hoc omnes essent practici, cum 
+            <lb ed="#R" n="33"/>sint intellectui ratio eliciendi actum intellectus, 
+            <lb ed="#R" n="34"/>quantumcumque speculatiuum, &amp; hoc modo etiam 
+            <lb ed="#R" n="35"/>omnis actus est principium actiuum, a quo 
+            dere<lb ed="#R" n="36" break="no"/>linquitur habitus, vt patet 2. Ethic. 
+          </p>
+          <p xml:id="paqqap-a45268-d1e979">
+            <lb ed="#R" n="37"/>Secundo modo etiam non sumitur hic actiuitas 
+            <lb ed="#R" n="38"/>habitus, quia tunc scientiae subalternantes, quae 
+            <lb ed="#R" n="39"/>tradunt propositiones primas alijs, essent practicae, 
+            <lb ed="#R" n="40"/>vt Geometria, Astrologiae Perspectiuae: Atithmetica 
+            <lb ed="#R" n="41"/>mathematicae, &amp; machinatiuae. &amp; septem libri phy 
+            <lb ed="#R" n="42"/>sic. essent practici, quia actiuitatem directiuam 
+            re<lb ed="#R" n="43" break="no"/>spectu s. libri. actiuitatem inquam 
+            instrumentali<lb ed="#R" n="44" break="no"/>ter coelicitiuam. Sed quia propositiones sunt 
+            in<lb ed="#R" n="45" break="no"/>strumenta respectu notitiae conclusionis, sic etiam 
+            me<lb ed="#R" n="46" break="no"/>thaphis. tradens alijs prima principia esset practica. 
+            <lb ed="#R" n="47"/>Accipitur ergo tertio modo actiuitas per modum 
+            <lb ed="#R" n="48"/>formae praeconceptae, &amp; directiuae exemplaris, quo 
+            <lb ed="#R" n="49"/>regulariter eliciens, &amp; ad cuius imitationem facit, 
+            <lb ed="#R" n="50"/>quod facit. Et sic accipiendo principium actiuum, 
+            <lb ed="#R" n="51"/>dico, quod habitus induit rationem practici ex 
+            <lb ed="#R" n="52"/>hoc, quod est actiuus per modum formae 
+            praecon<lb ed="#R" n="53" break="no"/>ceptae exemplaris, &amp; regulae, ad cuius imitationem 
+            <lb ed="#R" n="54"/>habens habitum agit, vt scriptor ad imitationem 
+            <lb ed="#R" n="55"/>litterae, quae est in anima, scribit enim b, vel a, &amp; 
+            <lb ed="#R" n="56"/>domificator ad formam exemplarem domus in ani 
+            <lb ed="#R" n="57"/>ma format domum in materia, &amp; medicus ad 
+            for<lb ed="#R" n="58" break="no"/>mam sanitatis, &amp; totius processus regulas sanitatis 
+            <lb ed="#R" n="59"/>inducit, &amp; logicus ad formam syllogisini 
+            praecon<lb ed="#R" n="60" break="no"/>cepti in anima, &amp; regulas debitas, modos, &amp; 
+            con<lb ed="#R" n="61" break="no"/>iugationes vtiles, postea in omni data materia 
+            for<lb ed="#R" n="62" break="no"/>mat syllogismos. 
+          </p>
+          <p xml:id="paqqap-a45268-d1e1038">
+            <lb ed="#R" n="63"/>Secundum, quod noto hic, est quod quilibet habitus, 
+            <lb ed="#R" n="64"/>ex uc ipso- quod est de opera a nabis, sit 
+            neces<lb ed="#R" n="65" break="no"/>sario actiuum principium iliius eperabilis per mo- 
+            <!--0140.xml-->
+            <cb ed="#R" n="b"/>
+            <lb ed="#R" n="66"/>dum formet exemplaris, &amp; regulae praeconcepen, &amp; 
+            <lb ed="#R" n="67"/>e conuerso. Si est actiuum principium, necessario 
+            <lb ed="#R" n="68"/>illud est operabile: tum quia distinctio formalis 
+            <lb ed="#R" n="69"/>intrinseca est necessario extrinseca, operabilitus au 
+            <lb ed="#R" n="70"/>tem passiua obiecti extrinseca est habitui, actiuitas 
+            <lb ed="#R" n="71"/>vero habitus est intrinseca sibi. Idcirco quamuis 
+            di<lb ed="#R" n="72" break="no"/>stingnatur sufficienter extrinsece habitus practicus 
+            <lb ed="#R" n="73"/>a speculatiuo per hoc, quod est de operabili a 
+            no<lb ed="#R" n="74" break="no"/>his, tamen intrinsece dicitur practicus ab 
+            actiui<lb ed="#R" n="75" break="no"/>tate intrinseca exemplari, quam habet.
+          </p>
+          <p xml:id="paqqap-a45268-d1e1073">
+            <lb ed="#R" n="76"/>Quod habitus practicus, &amp; speculatiuus 
+            essentia<lb ed="#R" n="77" break="no"/>liter distinguuntur per esse &amp; non esse 
+            <lb ed="#R" n="78"/>principium actiuum exteriore 
+            re<lb ed="#R" n="79" break="no"/>spectu sui obiecti. 
+          </p>
+          <p xml:id="paqqap-a45268-d1e1085">
+            <lb ed="#R" n="80"/>HIs praemissis pono propositionem intentam 
+            <lb ed="#R" n="81"/>L scilicet, quod habitus ex hoc formaliter est 
+            <lb ed="#R" n="82"/>practicus, quod habet rationem principij actiui 
+            <lb ed="#R" n="83"/>per modum formae exemplaris, &amp; regule praecon. 
+            <lb ed="#R" n="84"/>ceptae in ordine ad suum obiectum, &amp; hoc est 
+            habi<lb ed="#R" n="85" break="no"/>tum habere obiectum operabile a se, e conuerso au 
+            <lb ed="#R" n="86"/>tem habitus, qui non habet est pure speculatiuus.
+          </p>
+          <p xml:id="paqqap-a45268-d1e1103">
+            <lb ed="#R" n="87"/>Hoc probo dupliciter.
+          </p>
+          <p xml:id="paqqap-a45268-d1e1108">
+            <lb ed="#R" n="88"/>Primo ratione, quae innititur auctoritati 
+            Philo<lb ed="#R" n="89" break="no"/>sophi, sic. Oratio non solum dans quid definiti, sed 
+            <lb ed="#R" n="90"/>causam &amp; propter quid, continet differentium 
+            con<lb ed="#R" n="91" break="no"/>stitutiuam definiti <ref xml:id="paqqap-a45268-Rd1e1118">Commentator 7. meth. com. 
+              <lb ed="#R" n="92"/>43.</ref> sed Philosophus ponit istam rationem 6. meth. 
+            <lb ed="#R" n="93"/>scientia factiua est in faciente principium 
+            intelle<lb ed="#R" n="94" break="no"/>ctus, vel ars, vel potentia quaedam actiua, vel phre 
+            <lb ed="#R" n="95"/>nesis. Et haec ratio non solum dicit, quod sit 
+            scien<lb ed="#R" n="96" break="no"/>tia actiua, vel factiua in quas diuiditur practica, 
+            <lb ed="#R" n="97"/>sed dat propter quid aliqua scientia est practioa, &amp; 
+            <lb ed="#R" n="98"/>aliqua speculatiua, &amp; dat causam quare differunt: 
+            <lb ed="#R" n="99"/>ergo haec ratio continet differentiam constituentem 
+            <lb ed="#R" n="100"/>practicum, &amp; diuidentem a speculatiuo: hic autem 
+            <lb ed="#R" n="101"/>non accipitur illud, quod commune est actiuae, &amp; 
+            <lb ed="#R" n="102"/>factiuae, ponitur esse principium in sciente: relinquitur 
+            <lb ed="#R" n="103"/>ergo, quod esse principium actiui obiecti sit differentia 
+            <lb ed="#R" n="104"/>constitutiua practici, &amp; dlstinctiua a speculatiuo.
+          </p>
+          <p xml:id="paqqap-a45268-d1e1150">
+            <lb ed="#R" n="105"/>Minor patet per expositionem <ref xml:id="paqqap-a45268-Rd1e1154">Commentatoris 
+              <lb ed="#R" n="106"/>comm. 1. ibidem 6. meth.</ref> dicit enim, quod 
+            Philo<lb ed="#R" n="107" break="no"/>sophus dat causam, quare scientia naturalis non est 
+            <lb ed="#R" n="108"/>operatiua, sicut scientiae aliae; propter hoc, quod 
+            <lb ed="#R" n="109"/>operatiuae sunt respectu eorum, quae habent causam 
+            <lb ed="#R" n="110"/>in nobis intellectum, vel artem, vel voluntatem, &amp; 
+            <lb ed="#R" n="111"/>tunc deducit causam sic: Diuersitas entium 
+            scito<lb ed="#R" n="112" break="no"/>rum est causa diuersitatis scientiarum; quia 
+            secan<lb ed="#R" n="113" break="no"/>tur scientiae sicut res: sed entia, quorum principium 
+            <lb ed="#R" n="114"/>est in nobis, quae cadunt in voluntate, &amp; 
+            potesta<lb ed="#R" n="115" break="no"/>te nostra, sunt alia ab entibus, quorum principium 
+            <lb ed="#R" n="116"/>est natura non ens: ergo diuersa sunt scientiae, haec 
+            <lb ed="#R" n="117"/>operatiua, illa speculatiua: concludit ergo, quod 
+            <lb ed="#R" n="118"/>causa, quod haec scientia est operatiua, &amp; pracica 
+            <lb ed="#R" n="119"/>illa speculatiua, est, quod entia quaedam habent 
+            <lb ed="#R" n="120"/>nos &amp; voluntatem nostram pro principio, quaedam 
+            <lb ed="#R" n="121"/>non, &amp; per consequens differentia constituens, &amp; 
+            <lb ed="#R" n="122"/>distinguens practicum erit esse principium sui 
+            en<lb ed="#R" n="123" break="no"/>tis subiecti. 
+          </p>
+          <p xml:id="paqqap-a45268-d1e1197">
+            <lb ed="#R" n="124"/>Haec autem sunt verba sua: Intendebat 
+            Aristote<lb ed="#R" n="125" break="no"/>les propter hoc, quod illa, quorum principium est 
+            <lb ed="#R" n="126"/>voluntas, sunt alia ab illis, quorum principium est 
+            <lb ed="#R" n="127"/>natura, &amp; quod scientiae sunt diuersae, &amp; loquitur 
+            <lb ed="#R" n="128"/>ibi de diuersitate practici, &amp; speculatiui. 
+          </p>
+          <p xml:id="paqqap-a45268-d1e1210">
+            <lb ed="#R" n="129"/>Confirmatur ex hoc, quod dicit paulo ante, quod 
+            <lb ed="#R" n="130"/>artificiatum, &amp; voluntarium sunt idem in forma, 
+            <lb ed="#R" n="131"/>idest secundum rationem: ergo omne ens volunta- 
+            <!--0141.xml-->
+            <pb ed="#P" n="141"/>
+            <cb ed="#R" n="a"/>
+            <lb ed="#R" n="1"/>rium, &amp; cuius factio est in nostra potestate, est 
+            ar<lb ed="#R" n="2" break="no"/>tificiale, &amp; per consequens tale ens pertinet ad 
+            ha<lb ed="#R" n="3" break="no"/>bitum, qui est ars, &amp; habitus practicus, quia ibi 
+            <lb ed="#R" n="4"/>vocat artem habitum distinctum a speculatiuo. 
+          </p>
+          <p xml:id="paqqap-a45268-d1e1235">
+            <lb ed="#R" n="5"/>Confirmatur secundo, quia ibidem subdit, quod 
+            <lb ed="#R" n="6"/>omnes cogitationes agentes secundum quid non 
+            <lb ed="#R" n="7"/>simpliciter, cum scientia in eis non sit nisi propter 
+            <lb ed="#R" n="8"/>opus: &amp; per istum sermonem videtur dare differen 
+            <lb ed="#R" n="9"/>tiam inter scientias operatiuas, &amp; speculatiuas, ex 
+            <lb ed="#R" n="10"/>quo sicut omnes scientiae, quae sunt de operabili a 
+            <lb ed="#R" n="11"/>nobis arguunt, &amp; cogitant propter opera 1. Ethic. 
+            <lb ed="#R" n="12"/>sed omnes, quae non arguunt simpliciter, sed secun 
+            <lb ed="#R" n="13"/>dum quid &amp; propter opera, sunt practicae, vt dicitur 
+            <lb ed="#R" n="14"/>hic: ergo ex duabus propositionibus, quarum vna 
+            <lb ed="#R" n="15"/>est hic, reliqua 1. Ethic. concluditur, quod omnis 
+            <lb ed="#R" n="16"/>scientia, quae est de operalibili, est practica, &amp; ideo 
+            <lb ed="#R" n="17"/>dicitur practica. 
+          </p>
+          <p xml:id="paqqap-a45268-d1e1266">
+            <lb ed="#R" n="18"/>Confirmatur tertio, quia 6. Ethic. dans causam, 
+            <lb ed="#R" n="19"/>quod aliquae scientiae sunt speculatiuae aliquae 
+            pra<lb ed="#R" n="20" break="no"/>cticae, sic ait, quod quaedam est ratio, quae 
+            appre<lb ed="#R" n="21" break="no"/>hendit entia, quorum causas impossibile est esse in 
+            <lb ed="#R" n="22"/>nobis, &amp; sunt illa, quae non est possibile esse nisi a 
+            <lb ed="#R" n="23"/>causis suis naturalibus. Et quaedam est ratio, quae 
+            <lb ed="#R" n="24"/>apprehendit entia, quorum causas possibile est esse 
+            <lb ed="#R" n="25"/>in nobis, &amp; ista sunt quorum causas possibile est. 
+            <lb ed="#R" n="26"/>esse praeterquam naturales. Sequitur: idcirco opor 
+            <lb ed="#R" n="27"/>tet, quod nomen scientiae dicatur de eis, sed in mo 
+            <lb ed="#R" n="28"/>do proportionalitatis, &amp; assimilationis. 
+            Apprehen<lb ed="#R" n="29" break="no"/>sio enim, quae appropriatur entibus, quorum 
+            prin<lb ed="#R" n="30" break="no"/>cipia non sunt in nobis, nominatur scientia 
+            specu<lb ed="#R" n="31" break="no"/>latiua; &amp; apprehensio, quae appropriatur entibus, 
+            <lb ed="#R" n="32"/>quorum causa est in nobis nominatur cogitatiua 
+            <lb ed="#R" n="33"/>operatiua: &amp; vtitur quidem homo cogitatione ope 
+            <lb ed="#R" n="34"/>ratiua in rebus, quas possibile est esse a voluntate. 
+            <lb ed="#R" n="35"/>Sic ergo manifesta est minor, quod causam 
+            distin<lb ed="#R" n="36" break="no"/>ctionis scientiae practicae, &amp; speculatiuae assignant 
+            <lb ed="#R" n="37"/>Philosophus &amp; Commentator, ex hoc, quod 
+            practi<lb ed="#R" n="38" break="no"/>ca est de ente, cuius principium est in nobis; 
+            spe<lb ed="#R" n="39" break="no"/>culatiua de illo, cuius principium nullo modo est in 
+            <lb ed="#R" n="40"/>nobis. 
+          </p>
+          <p xml:id="paqqap-a45268-d1e1318">
+            <lb ed="#R" n="41"/>Ex his patet, quod non solum a Philosopho 
+            ha<lb ed="#R" n="42" break="no"/>betur, quod omnis scientia practica est de 
+            operabi<lb ed="#R" n="43" break="no"/>li a nobis, immo &amp; sua conuersa, quod omnis, quae 
+            <lb ed="#R" n="44"/>est de operabili a nobis, est practica, cum sit 
+            desini<lb ed="#R" n="45" break="no"/>tio dans quid, &amp; propter quid, &amp; per consequens 
+            <lb ed="#R" n="46"/>potest conuerti vniuersalis affirmatiua ratione ma 
+            <lb ed="#R" n="47"/>teriae, sicut vbicumque definitio praedicatur de 
+            de<lb ed="#R" n="48" break="no"/>finito. Et est mirum, quod istos codices non legerat 
+            <lb ed="#R" n="49"/>qui dixit, quod conuersa in nullo codice inuenitur, 
+            <lb ed="#R" n="50"/>cum expresse Commentator dicat, quod apprehen 
+            <lb ed="#R" n="51"/>sio, quae est in entibus quorum causa est in nobis aest 
+            <lb ed="#R" n="52"/>operatiua dans causam, quare scientia practica 
+            di<lb ed="#R" n="53" break="no"/>uersatur a speculatiua. 
+          </p>
+          <p xml:id="paqqap-a45268-d1e1349">
+            <lb ed="#R" n="54"/>Secundo probo idem a priori, nam ratio, quam 
+            <lb ed="#R" n="55"/>significat nomen, est sua definitio 4. meth. sed ratio 
+            <lb ed="#R" n="56"/>nominis practici idem quod actiuum, &amp; operatiuum, 
+            <lb ed="#R" n="57"/>vt patet ex vsu omnium Philosophorum. 
+            Vnde<lb ed="#R" n="58" break="no"/>Philosophus 1. meth. probans, quod meth. non est 
+            <lb ed="#R" n="59"/>practica, non aliud dicit, nisi quod non est actiua, 
+            <lb ed="#R" n="60"/>idem intelligens per actiuum, &amp; practicum. In 
+            <lb ed="#R" n="61"/>6. etiam meth. actiuam, &amp; factiuam vocat 
+            practi<lb ed="#R" n="62" break="no"/>cam. Vbique etiam Commentator vocat scientiam 
+            <lb ed="#R" n="63"/>operatiuam, nec vtitur hoc nomine, vel hoc 
+            voca<lb ed="#R" n="64" break="no"/>bulo practico. Vnde in 6. meth. comm. 1. dicit, 
+            <lb ed="#R" n="65"/>quod cogitationes sunt agentes, &amp; operantes, &amp; 
+            <lb ed="#R" n="66"/>secundo cum diuidit scientiam operatiuam contra 
+            <lb ed="#R" n="67"/>speculatiuam com. 3. Vocabulum etiam praxis in 
+            <lb ed="#R" n="68"/>graeco idem est, quod operatio in latino, &amp; breui- 
+            <!--0141.xml-->
+            <cb ed="#R" n="b"/>
+            <lb ed="#R" n="69"/>ter idem est, quod quaerere, quid sit illud, quo 
+            for<lb ed="#R" n="70" break="no"/>maliter habitus scientificus habet, quod sit operans, 
+            <lb ed="#R" n="71"/>&amp; agens, &amp; quaerere, quo formaliter sit practicus, 
+            <lb ed="#R" n="72"/>nisi quod vnum quaeritur in graeco, reliquum 
+            in<lb ed="#R" n="73" break="no"/>latino. 
+          </p>
+          <p xml:id="paqqap-a45268-d1e1399">
+            <lb ed="#R" n="74"/>Sed constat, quod habitus scientificus ex hoc 
+            di<lb ed="#R" n="75" break="no"/>citur formaliter operari, &amp; agere, quod est causa 
+            <lb ed="#R" n="76"/>per modum formae exemplaris, &amp; regulae 
+            praecon<lb ed="#R" n="77" break="no"/>ceptae: iste enim est proprius agendi artis, vt 
+            Au<lb ed="#R" n="78" break="no"/>gustinus dicit de cognitione verae vitae, ait enim, 
+            <lb ed="#R" n="79"/>quod cum artifex domum facere cogitat, iam 
+            do<lb ed="#R" n="80" break="no"/>mus in ipsa arte, quam postmodum manus exequem 
+            <lb ed="#R" n="81"/>do aedificat ad illius exemplar. Idem dicit 
+            Philo<lb ed="#R" n="82" break="no"/>sophus 7. meth. &amp; <quote xml:id="paqqap-a45268-Qd1e1420">Commentator com. 23. ibidem</quote>, 
+            <lb ed="#R" n="83"/>Ait enim, quod domus, quae est in materia, aut 
+            sa<lb ed="#R" n="84" break="no"/>nitas, sit a forma domus, vel sanitatis existente in 
+            <lb ed="#R" n="85"/>anima. 
+          </p>
+          <p xml:id="paqqap-a45268-d1e1430">
+            <lb ed="#R" n="86"/>Constat autem, quod non sit elicitiue, sed 
+            tan<lb ed="#R" n="87" break="no"/>tum directiue, per modum exemplaris &amp; regulae 
+            <lb ed="#R" n="88"/>praeconceptae: ergo habitus induit rationem 
+            pra<lb ed="#R" n="89" break="no"/>ctici, ex hoc, quod vltra suum speculari habet 
+            cau<lb ed="#R" n="90" break="no"/>salitatem per modum formae exemplaris 
+            praecon<lb ed="#R" n="91" break="no"/>ceptae regulae.
+            
+            <lb ed="#R" n="92"/>Confirmatur, quia ex hoc habet omnes 
+            condi<lb ed="#R" n="93" break="no"/>tiones, quae attribuuntur practico, &amp; quantum ad 
+            <lb ed="#R" n="94"/>finem, &amp; quantum ad obiectum, &amp; quantum ad 
+            pro<lb ed="#R" n="95" break="no"/>cedendi modum. 
+          </p>
+          <p xml:id="paqqap-a45268-d1e1455">
+            <lb ed="#R" n="96"/>Si dicatur, quod tunc habitus practicus magis 
+            <lb ed="#R" n="97"/>erit in secunda specie qualitatis, quia secundum 
+            <lb ed="#R" n="98"/>dicta videtur, quod ponatur potentia &amp; principium, 
+            <lb ed="#R" n="99"/>&amp; sic non est in secunda specie: dicendum, quod non, 
+            <lb ed="#R" n="100"/>quia illa potentia, quae ponitur in specie secunda, 
+            <lb ed="#R" n="101"/>est elicitiua, haec autem actiuitas est, solum 
+            dire<lb ed="#R" n="102" break="no"/>ctiua per modum formae exemplaris, &amp; regulae prae 
+            <lb ed="#R" n="103"/>conceptae: ideo, &amp; c. 
+          </p>
+          <p xml:id="paqqap-a45268-d1e1475">
+            <lb ed="#R" n="104"/>Si dicatur vlterius, quod actiuitas elicitiua est 
+            <lb ed="#R" n="105"/>verior actiuitas, quam exemplaris, &amp; per consequens 
+            <lb ed="#R" n="106"/>magis debent dici practici ex hoc, quod agunt 
+            eli<lb ed="#R" n="107" break="no"/>citiue formaliter, &amp; instrumentaliter, &amp; ita omnis 
+            <lb ed="#R" n="108"/>habitus cum sit principium eliciendi actum 
+            scien<lb ed="#R" n="109" break="no"/>tificum, erit practicus, &amp; scientificus, quae 
+            prae<lb ed="#R" n="110" break="no"/>bent alijs propositiones, quae sunt instrumenta 
+            in<lb ed="#R" n="111" break="no"/>tellectus agentis, ad deueniendum in notitiam con 
+            <lb ed="#R" n="112"/>clusionis, erunt maxime practicae. 
+          </p>
+          <p xml:id="paqqap-a45268-d1e1497">
+            <lb ed="#R" n="113"/>Dicendum ad hoc, quod agere elicitiue, non 
+            <lb ed="#R" n="114"/>est proprium notitiae, aut habitus scientifici, hoc 
+            <lb ed="#R" n="115"/>enim in rebus alijs reperitur, nam calor est 
+            princi<lb ed="#R" n="116" break="no"/>pium eliciendi calorem, &amp; instrumentum 
+            generan<lb ed="#R" n="117" break="no"/>di carnem: causalitas autem exemplaris, &amp; agere 
+            <lb ed="#R" n="118"/>directiue per modum formae, &amp; regulae 
+            praeconce<lb ed="#R" n="119" break="no"/>ptae, proprium est notitiae, &amp; habitus cognitiui 
+            ni<lb ed="#R" n="120" break="no"/>hil imitetur exemplaris nisi cognoscens, &amp; ad illud 
+            <lb ed="#R" n="121"/>aspiciens, &amp; quia habitus cognitiui, si 
+            distinguun<lb ed="#R" n="122" break="no"/>tur, oportet, quod eorum distinctio ab eo, quod 
+            <lb ed="#R" n="123"/>est in eis proprium, assumatur, idcirco actiuitas 
+            il<lb ed="#R" n="124" break="no"/>la, qua dicitur habitus practicus distinctus a 
+            specu<lb ed="#R" n="125" break="no"/>latiuo, debet esse actiuitas exemplaris &amp; 
+            praecon<lb ed="#R" n="126" break="no"/>ceptae regulae. 
+          </p>
+          <p xml:id="paqqap-a45268-d1e1530">
+            <lb ed="#R" n="127"/>Si dicatur vlterius, quod haec actiuitas non 
+            dif<lb ed="#R" n="128" break="no"/>fert ab illa saltem actiuitas propositionis vniuersa 
+            <lb ed="#R" n="129"/>lis respectu conclusionis, videtur enim 
+            dirigere<lb ed="#R" n="130" break="no"/>in eam exemplariter, &amp; sic scientia subalternans 
+            <lb ed="#R" n="131"/>erit practica. Dicendum, quod immo manifeste 
+            <lb ed="#R" n="132"/>differunt, nam in actiuitate exemplari totum fit a 
+            <lb ed="#R" n="133"/>toto, immo forma facta &amp; forma exemplaris sunt 
+            <lb ed="#R" n="134"/>idem in forma, vt Philosophus dicit 7. meth. de 
+            <lb ed="#R" n="135"/>dono in materia, &amp; domo in anima; nunc autem 
+            <lb ed="#R" n="136"/>conclusio est a propositione vniuersali tamquam a 
+            <!--0142.xml-->
+            <pb ed="#P" n="142"/>
+            <cb ed="#R" n="a"/>
+            <lb ed="#R" n="1"/>causa partiali; nec sunt idem informa, nec aliquis 
+            <lb ed="#R" n="2"/>potest conc e dere, quod propositiones sint 
+            exem<lb ed="#R" n="3" break="no"/>plar conclufionis. 
+          </p>
+          <p xml:id="paqqap-a45268-d1e1567">
+            <lb ed="#R" n="4"/>Si dicatur vlterius, quod ista causalitas 
+            exem<lb ed="#R" n="5" break="no"/>plaris non videtur sufficere, nisi sit ad operationem 
+            <lb ed="#R" n="6"/>alterius potentiae, non valet: tum quia est definitio 
+            <lb ed="#R" n="7"/>dicens propter quid, vt dictum est in 
+            praecedenti<lb ed="#R" n="8" break="no"/>bus: tum quia eiusdem rationis est causalitas 
+            exem<lb ed="#R" n="9" break="no"/>plaris cum alĳs: Tum quia operatiua est, &amp; 
+            acti<lb ed="#R" n="10" break="no"/>ua. Sic ergo haec causalitas exemplaris fundata 
+            <lb ed="#R" n="11"/>super actum intellectus facit illum actum practicum 
+            <lb ed="#R" n="12"/>&amp; actiuum, &amp; similiter habitum. &amp; hoc necosse 
+            ha<lb ed="#R" n="13" break="no"/>bet dicere, qui ponit, quod ratio practici consistit 
+            <lb ed="#R" n="14"/>in duplici respectu aptitudinali prioritatis, &amp; 
+            con<lb ed="#R" n="15" break="no"/>formitatis, hoc enim est esse causam exemplarem, 
+            <lb ed="#R" n="16"/>scilicet, quod sit res prior aliqua alia cui illa 
+            de<lb ed="#R" n="17" break="no"/>beat conformari, &amp; quam habeat imitari. 
+          </p>
+          <p xml:id="paqqap-a45268-d1e1600">
+            <lb ed="#R" n="18"/>Ex praedictis ergo potest inferri, quod virtus 
+            in<lb ed="#R" n="19" break="no"/>tellectualis practica importat notitiam 
+            copulati<lb ed="#R" n="20" break="no"/>nam respectu principij actiui, &amp; directiui per 
+            mo<lb ed="#R" n="21" break="no"/>dum regulae praeconceptae, &amp; formae exemplaris. 
+            <lb ed="#R" n="22"/>Speculatiua vero importat notitiam carentem 
+            <lb ed="#R" n="23"/>isto respectu. Dico autem respectum directiui prin 
+            <lb ed="#R" n="24"/>cipij, &amp;c. vt excludatur actiuitas elicitiua, quia si 
+            <lb ed="#R" n="25"/>illa etiam faceret practicum, omnis habitus esset 
+            <lb ed="#R" n="26"/>practicus respectu actus, &amp; actus respectu habitus, 
+            <lb ed="#R" n="27"/>&amp; habitus principiorum respectu conclusionis, &amp; 
+            <lb ed="#R" n="28"/>notitia vniuersalis respectu particularis, &amp; omnes 
+            <lb ed="#R" n="29"/>scientiae, quae alteri praebent principia, vel 
+            propo<lb ed="#R" n="30" break="no"/>sitiones, vel quae detendunt principia aliorum: non 
+            <lb ed="#R" n="31"/>sunt autem, quia dirigunt per modum 
+            praeconce<lb ed="#R" n="32" break="no"/>ptae naturae &amp; formae exemplaris, quae actiuitas est 
+            <lb ed="#R" n="33"/>propria notitiae, &amp; facit eam pracicam, directio 
+            <lb ed="#R" n="34"/>autem &amp; actiuitas quaecumque alia, sicut sunt 
+            prae<lb ed="#R" n="35" break="no"/>dictae, reducuntur ad instrumenta, &amp; elicitiuam 
+            <lb ed="#R" n="36"/>Vnde Commentator 3. de anima commento 
+            <lb ed="#R" n="37"/>dicit, quod propositiones sunt inttrumentum 
+            re<lb ed="#R" n="38" break="no"/>spectu conclusionum, &amp; intellectus agens est 
+            prin<lb ed="#R" n="39" break="no"/>cipale actiuum. quod igitur practica notitia 
+            im<lb ed="#R" n="40" break="no"/>portet notitiam copulatam respectu talis 
+            actiui<lb ed="#R" n="41" break="no"/>ratis, probatur per regulam Philosophi 7. meth. vbi 
+            <lb ed="#R" n="42"/>ponit duplex genus accidentis, &amp; ponit exemplum 
+            <lb ed="#R" n="43"/>de qualitate, &amp; ponit accidens simplex sicut 
+            albe<lb ed="#R" n="44" break="no"/>do, &amp; copulatum sicut simitas. Copulatorum 
+            au<lb ed="#R" n="45" break="no"/>tem quaedam copulantur determinatis subiectis, 
+            <lb ed="#R" n="46"/>sine quibus secundum Philosophum &amp; Commenta 
+            <lb ed="#R" n="47"/>torem ibidem comm. 17. non possent intelligi, nec 
+            <lb ed="#R" n="48"/>signari, nec definiri, &amp; c. Quaedam copulantur 
+            de<lb ed="#R" n="49" break="no"/>terminatis respectibus, sine quibus etiam non 
+            pos<lb ed="#R" n="50" break="no"/>sunt definiri, &amp; c. vt dictum est in quaeitione: Vtrum 
+            <lb ed="#R" n="51"/>virtus sit ens per accidens. 
+          </p>
+          <p xml:id="paqqap-a45268-d1e1677">
+            <lb ed="#R" n="52"/>Ex hoc sic arguitur: qualitates copulatae, vel 
+            di<lb ed="#R" n="53" break="no"/>cuntur copulari, sine quibus non possunt 
+            significa<lb ed="#R" n="54" break="no"/>ri, &amp; sic simitas sine naie, masculinitas sine 
+            anima<lb ed="#R" n="55" break="no"/>li, sed notitia practica est huiusmodi respectu talis 
+            <lb ed="#R" n="56"/>actiuitatis: ergo, &amp; c. 
+          </p>
+          <p xml:id="paqqap-a45268-d1e1690">
+            <lb ed="#R" n="57"/>Minor patet ex significatione, quia practicum grae 
+            <lb ed="#R" n="58"/>ce, operatiuum latine. De desinitione etiam 
+            ap<lb ed="#R" n="59" break="no"/>paret per Philosophum 6. meth. qui scientiam ope 
+            <lb ed="#R" n="60"/>ratiuam definiens dicit, quod est rerum, quae 
+            ha<lb ed="#R" n="61" break="no"/>bent in sciente principium intellectiuum, vel artem, 
+            <lb ed="#R" n="62"/>aut potentiam quandam, vt Commentator omnes 
+            <lb ed="#R" n="63"/>cogitationes agentes, &amp; operantes arguentes non 
+            <lb ed="#R" n="64"/>simpliciter, sed solum propter opus. &amp; haec est 
+            dis<lb ed="#R" n="65" break="no"/>ferentia inter scientias speculatiuas vbi vocat scien 
+            <lb ed="#R" n="66"/>tias practicas agentes, &amp; arguentes propter opus, 
+            <lb ed="#R" n="67"/>&amp; per consequens important secundum eum noti- 
+            <!--0142.xml-->
+            <cb ed="#R" n="b"/>
+            <lb ed="#R" n="68"/>tiam copulatiuam respectui principij agentis per 
+            <lb ed="#R" n="69"/>modum regulae, &amp; formae praeconceptae. 
+          </p>
+        </div>
+        <div xml:id="paqqap-a45268-Dd1e1726">
+          <head xml:id="paqqap-a45268-Hd1e1728">Articulus 3</head>
+          <p xml:id="paqqap-a45268-d1e1730">
+            <lb ed="#R" n="70"/>ARTICVLVS III. 
+            <lb ed="#R" n="71"/>Vbi respondetur ad difficultates superius 
+            addu<lb ed="#R" n="72" break="no"/>ctas articulo primo non per solam copulatione 
+            <lb ed="#R" n="73"/>ad respectum possint omnes 
+            <lb ed="#R" n="74"/>variari. 
+          </p>
+          <p xml:id="paqqap-a45268-d1e1743">
+            <lb ed="#R" n="75"/>NVnc tertio dicendum ad difficultates, &amp; ad 
+            <lb ed="#R" n="76"/>euidentiam primae considerandum, quod 
+            <lb ed="#R" n="77"/>qualitates de prima specie, siue sint virtutes 
+            mora<lb ed="#R" n="78" break="no"/>les, siue intellectuales sunt (vt statim dictum est) 
+            <lb ed="#R" n="79"/>copulatae respectui congruentiae; &amp; ideo habitus 
+            <lb ed="#R" n="80"/>practicus dicitur huiusmodi per copulationem ad 
+            <lb ed="#R" n="81"/>respectum principij actiui per modum causae exem 
+            <lb ed="#R" n="82"/>plaris: non quod sit aliquod congregatum ex 
+            ab<lb ed="#R" n="83" break="no"/>soluto, &amp; illo respectu, quia tunc esset ens per 
+            ac<lb ed="#R" n="84" break="no"/>cidens, nec quia dicat praecisum absolutum, quia 
+            <lb ed="#R" n="85"/>tunc esset speculatiuus: sed quia dicit illud, quod 
+            <lb ed="#R" n="86"/>est principium exemplare ex sua natura tamquam 
+            <lb ed="#R" n="87"/>illud, quod est fundamentum copulatum respectui. 
+            <lb ed="#R" n="88"/>Cum ergo primo arguitur, quod istud copulari vel. 
+            <lb ed="#R" n="89"/>est nihil, vel ipsum absolutum, vel respectus, vel 
+            <lb ed="#R" n="90"/>medium inter absolutum, &amp; respectum; dicendum, 
+            <lb ed="#R" n="91"/>quod arguitur ab insufficienti, &amp; omittuntur duo 
+            <lb ed="#R" n="92"/>membra, quare debent vltra assumi quaedam; vel 
+            <lb ed="#R" n="93"/>est aliquod tertium constitutum ex absoluto, &amp; 
+            re<lb ed="#R" n="94" break="no"/>spectu sicut simile, vel pater; vel est vtrumque sine 
+            <lb ed="#R" n="95"/>medio, vnum quidem in recto, &amp; reliquum 
+            in<lb ed="#R" n="96" break="no"/>obliquo, &amp; hoc importat esse copulatum, vt in 
+            <lb ed="#R" n="97"/>quaestione de virtute dictum est, quod 
+            copula<lb ed="#R" n="98" break="no"/>ri non est nihil, nec est absolutum praecise 
+            sum<lb ed="#R" n="99" break="no"/>ptum, nec respectus, nec medium, sed est 
+            absolu<lb ed="#R" n="100" break="no"/>tum, vt sub respectu, de quo constat, quod non est 
+            <lb ed="#R" n="101"/>purus respectus, nec purum absolutum, nec medium, 
+            <lb ed="#R" n="102"/>nec nihil, quia haec propositio ex terminis apparet 
+            <lb ed="#R" n="103"/>falsa, aut medium inter ista, sed est sundamentum 
+            <lb ed="#R" n="104"/>a respectu non praecisum. 
+          </p>
+          <p xml:id="paqqap-a45268-d1e1811">
+            <lb ed="#R" n="105"/>Cum vero arguitur secundo de ista copulatione, 
+            <lb ed="#R" n="106"/>an dicat rem simplicem qualitatis, aut aliquid: 
+            di<lb ed="#R" n="107" break="no"/>cendum est, quod per rem simplicem qualitatis 
+            <lb ed="#R" n="108"/>aut intelligitur vniuersalis conceptus praedicamen 
+            <lb ed="#R" n="109"/>ti qualitatis, &amp; tunc ista copulatio non addit rem, 
+            <lb ed="#R" n="110"/>sed conceptum differentialem. Suppono enim 
+            <lb ed="#R" n="111"/>quod genus, &amp; diferentia maxime in qualitatibus 
+            <lb ed="#R" n="112"/>non dicunt diuersam rem. 
+          </p>
+          <p xml:id="paqqap-a45268-d1e1831">
+            <lb ed="#R" n="113"/>Et cum infertur, quod omnis qualitas erit 
+            co<lb ed="#R" n="114" break="no"/>pulata: consequentia est nulla, non enim sequitur, 
+            <lb ed="#R" n="115"/>si animal, &amp; rationale dicunt eandem rem: ergo 
+            <lb ed="#R" n="116"/>omne animal est rationale: vel si corporeum non 
+            <lb ed="#R" n="117"/>addit rem ad substantiam: ergo omnis substantia 
+            <lb ed="#R" n="118"/>est corporea, patet, quod non sequitur, genus enim 
+            <lb ed="#R" n="119"/>in suo conceptu claudit rem vtriusque differentiae: 
+            <lb ed="#R" n="120"/>sic, quod neutra addit ad conceptum generis rem, 
+            <lb ed="#R" n="121"/>sed alium conceptum. 
+          </p>
+          <p xml:id="paqqap-a45268-d1e1854">
+            <lb ed="#R" n="122"/>Aut intelligitur per rem simplicem qualitatis 
+            <lb ed="#R" n="123"/>determinata qualitas, vtpote albedo, quae in 
+            vir<lb ed="#R" n="124" break="no"/>tute respectu congruentiae copulatur. Et si sic; 
+            di<lb ed="#R" n="125" break="no"/>cendum, quod licet qualitas copulata dicatur 
+            sim<lb ed="#R" n="126" break="no"/>plex qualitas, prout simplicitas opponitur compo 
+            <lb ed="#R" n="127"/>sitioni, non tamen est simplex, prout opponitur 
+            <lb ed="#R" n="128"/>copulationi. Exemplum: symitas est qualitas non 
+            <lb ed="#R" n="129"/>composita, &amp; tamen est copulata non simpliciter, 
+            <lb ed="#R" n="130"/>vt Phylosophus dicit 7. meth. Quid igitur addit 
+            <lb ed="#R" n="131"/>copulatio ad qualitatem; dicendum, quod non rem 
+            <!--0143.xml-->
+            <pb ed="#P" n="143"/>
+            <cb ed="#R" n="a"/>
+            <lb ed="#R" n="1"/>in recto, sed solum in obliquo addit rem respectus, 
+            <lb ed="#R" n="2"/>quae additio totaliter variat conceptum. Nam 
+            <lb ed="#R" n="3"/>conceptus claudens duo, vnum in recto, reliquum 
+            <lb ed="#R" n="4"/>in obliquo, est omnino alius, immo oppositus cō- 
+            <lb ed="#R" n="5"/>ceptui praescindenti alterum ab altero, nec propter 
+            <lb ed="#R" n="6"/>hoc, quod omnis qualitas sit copulata, nam 
+            huius<lb ed="#R" n="7" break="no"/>modi qualitati ex natura sua competit, quod in 
+            <lb ed="#R" n="8"/>oculo respectui incongruentiae copuletur, in 
+            den<lb ed="#R" n="9" break="no"/>te vero respectui congruentiae. Vnde ex natura dē. 
+            <lb ed="#R" n="10"/>tis, oculi, &amp; albedinis oritur, quod albedo 
+            oppo<lb ed="#R" n="11" break="no"/>sitis rebus copuletur, nec hoc competit omni 
+            alte<lb ed="#R" n="12" break="no"/>ri qualitati, non enim omnes sunt eiusdem 
+            na<lb ed="#R" n="13" break="no"/>turae, vt dictum est. 
+          </p>
+          <p xml:id="paqqap-a45268-d1e1913">
+            <lb ed="#R" n="14"/>Si dicatur, quod symitas vltra rationem 
+            conca<lb ed="#R" n="15" break="no"/>uitatis claudit in se aliquam differentiam 
+            intrinse<lb ed="#R" n="16" break="no"/>cam, per quam appropriatur sibi nasus &amp; ipsum 
+            <lb ed="#R" n="17"/>connotat. 
+          </p>
+          <p xml:id="paqqap-a45268-d1e1924">
+            <lb ed="#R" n="18"/>Et pari ratione diceretur, quod virtus haberet 
+            <lb ed="#R" n="19"/>aliquid intrinsecum, per quod notaret incongruen 
+            <lb ed="#R" n="20"/>tiam, &amp; per consequens eadem qualitas non potest 
+            <lb ed="#R" n="21"/>esse virtus, &amp; vitium, &amp; nec virtus, nec vitium 
+            <lb ed="#R" n="22"/>immo differrent penes aliquid intrinsecum additum 
+            <lb ed="#R" n="23"/>rationi qualitatis. Vnde albedo, quae est virtus 
+            vi<lb ed="#R" n="24" break="no"/>detur habere aliquid intrinsecum vltra rationem 
+            <lb ed="#R" n="25"/>albedinis, per quod congruit denti, &amp; in oculo 
+            vi<lb ed="#R" n="26" break="no"/>detur habere aliquid intrinsecum vltra rationem 
+            <lb ed="#R" n="27"/>albedinis; per quod incongruit, &amp; est vitium in 
+            ip<lb ed="#R" n="28" break="no"/>so, vt sic non sit eadem qualitas virtus in vno, &amp; 
+            vi<lb ed="#R" n="29" break="no"/>tium in alio. 
+          </p>
+          <p xml:id="paqqap-a45268-d1e1953">
+            <lb ed="#R" n="30"/>Si vtique sic dicatur non valet, quia constat, quod 
+            <lb ed="#R" n="31"/>albedo per suam differentiam specificam, quae est 
+            <lb ed="#R" n="32"/>esse disgregatiuum congruit denti, &amp; incongruit ocu 
+            <lb ed="#R" n="33"/>lo. Vnde eiusdem speciei est albedo, &amp; in dente, &amp; in 
+            o<lb ed="#R" n="34" break="no"/>culo nec est aliqua differentia intrinseca realis 
+            addi<lb ed="#R" n="35" break="no"/>ta: immo si Deus sua omnipotentia albedinem 
+            <lb ed="#R" n="36"/>eandem, quae fuit in numero in dente separaret, &amp; 
+            <lb ed="#R" n="37"/>imprimeret oculo haberet maculae rationem, &amp; 
+            <lb ed="#R" n="38"/>vitij. 
+          </p>
+          <p xml:id="paqqap-a45268-d1e1975">
+            <lb ed="#R" n="39"/>Est ergo sciendum, quod qualitatum, quae ex 
+            <lb ed="#R" n="40"/>natura sua habent, quod copulentur determinato 
+            <lb ed="#R" n="41"/>subiecto, non possunt in alio subiecto reperiri, vt 
+            <lb ed="#R" n="42"/>symitas ex intrinseco suo habet, quod non 
+            reperia<lb ed="#R" n="43" break="no"/>tur nisi in naso. Illae vero, quae copulantur 
+            respe<lb ed="#R" n="44" break="no"/>ctibus, quaedam sunt, quae non possunt in proprio 
+            <lb ed="#R" n="45"/>subiecto reperiri cui congruunt, vel incongruunt, 
+            <lb ed="#R" n="46"/>sicut patet de scientia, &amp; errore, quia non reperiun 
+            <lb ed="#R" n="47"/>tur nisi in virtute cognitiua. 
+          </p>
+          <p xml:id="paqqap-a45268-d1e1997">
+            <lb ed="#R" n="48"/>Quaedam vero sunt, quae possunt reperiri, &amp; in 
+            <lb ed="#R" n="49"/>subiecto cui ex natura sua congruunt, &amp; in subiecto 
+            <lb ed="#R" n="50"/>cui ex natura sua incongruunt, &amp; in subiecto, ad 
+            <lb ed="#R" n="51"/>quod indifferenter se habent, quia nec congruunt, 
+            <lb ed="#R" n="52"/>nec incongruunt, &amp; talis est albedo, quae ex natura 
+            <lb ed="#R" n="53"/>sua congruit denti, incongruit oculo, &amp; nec 
+            con<lb ed="#R" n="54" break="no"/>gruit, nec incongruit ligno. Quae ergo non possunt 
+            <lb ed="#R" n="55"/>reperiri nisi in subiecto cui congruunt, vel 
+            incon<lb ed="#R" n="56" break="no"/>gruunt, illae sunt semper eaedem respectibus 
+            copu<lb ed="#R" n="57" break="no"/>latae sicut error, &amp; scientia, iustitia, &amp; iniustitia, &amp; 
+            <lb ed="#R" n="58"/>ideo semper sunt in prima specie qualitatis, &amp; 
+            de<lb ed="#R" n="59" break="no"/>terminate virtus, vel vitium, quae non sunt aptae 
+            <lb ed="#R" n="60"/>natae reperiri, nec in subiecto cui congruunt, nec 
+            <lb ed="#R" n="61"/>in illo cui ingruunt, nec in illo ad quod 
+            indifferen<lb ed="#R" n="62" break="no"/>ter se habent, copulantur, nunc incongruentiae, &amp; 
+            <lb ed="#R" n="63"/>tunc habent rationem vitij, nunc vero nec isti, nec 
+            <lb ed="#R" n="64"/>illi, &amp; sic accipiuntur, &amp; nec sunt virtus, nec in 
+            pri<lb ed="#R" n="65" break="no"/>ma specie qualitatis, sed potius in tertia, sicut 
+            de<lb ed="#R" n="66" break="no"/>albedine patet. Concedendum est ergo, quod 
+            al<lb ed="#R" n="67" break="no"/>bedo ex natura sua propria habet, &amp; ex suo intrin- 
+            <!--0143.xml-->
+            <cb ed="#R" n="b"/>
+            <lb ed="#R" n="68"/>seco, quod copuletur nunc respectui congruentiae, 
+            <lb ed="#R" n="69"/>ud opposito, nunc vero nec illi nec isti 
+            secun<lb ed="#R" n="70" break="no"/>dum diuersitatem subiectorum, sicut &amp; symitas ex 
+            <lb ed="#R" n="71"/>natura sua habet, quod copuletur vni tantum 
+            sci<lb ed="#R" n="72" break="no"/>licet nato. 
+          </p>
+          <p xml:id="paqqap-a45268-d1e2059">
+            <lb ed="#R" n="73"/>Cum vero tertio arguitur, qpod vnumquodque 
+            <lb ed="#R" n="74"/>reperitur in specie per differentiam praedicantem 
+            <lb ed="#R" n="75"/>In primo modo dicendi de qualitate. Dicendum 
+            <lb ed="#R" n="76"/>quod imma iste conceptus qualitas copulata est dif 
+            <lb ed="#R" n="77"/>ferentia diuidens per se rationem qualitatis 
+            praedi<lb ed="#R" n="78" break="no"/>nutalis, &amp; per se constituens speciem sub ea 
+            de<lb ed="#R" n="79" break="no"/>lendo vsque deueniat ad complexionem cum 
+            <lb ed="#R" n="80"/>aicta congruentiae, &amp; sic constituit speciem 
+            vir<lb ed="#R" n="81" break="no"/>t, &amp; vlterius vt copulatur huic determinatae 
+            con<lb ed="#R" n="82" break="no"/>genentiae constituit rationem virtutis huius.
+          </p>
+          <p xml:id="paqqap-a45268-d1e2083">
+            <lb ed="#R" n="83"/>Ad culus euidentiam assumo duo.
+          </p>
+          <p xml:id="paqqap-a45268-d1e2088">
+            <lb ed="#R" n="84"/>Primum, quod ad hoc, quod aliquid sit in 
+            diuer<lb ed="#R" n="85" break="no"/>sis generibus aut diuersis speciebus infra idem 
+            ge<lb ed="#R" n="86" break="no"/>nus non oportet, quod sit diuersa res, sed sufficit, 
+            <lb ed="#R" n="87"/>quod possit facere diuersos conceptus 
+            quidditati<lb ed="#R" n="88" break="no"/>uos non quidem distinctos extra intellectum 
+            for<lb ed="#R" n="89" break="no"/>maliter, &amp; in actu, sed solum in intellectu, sic, quod 
+            <lb ed="#R" n="90"/>vna res extra intelloctum existens indistincta 
+            mo<lb ed="#R" n="91" break="no"/>ueat ad istos quidditatiuos conceptus. Quod enim 
+            <lb ed="#R" n="92"/>sit necesse, quod sint res distinctae patet per 
+            Augu<lb ed="#R" n="93" break="no"/>stinum in suis cathegorijs qui in hoc probat 
+            sen<lb ed="#R" n="94" break="no"/>tentiam Aristotelis, diceus quod ipse Aristoteles 
+            <lb ed="#R" n="95"/>magnus ingenio huic commixtioni consensit, ac di 
+            <lb ed="#R" n="96"/>xit posse contingere, nec impertinens esse, quod 
+            <lb ed="#R" n="97"/>vna res duarum cathegoriarum vocabulo 
+            conclu<lb ed="#R" n="98" break="no"/>cludatur. Jdem patet per Symplicium in 
+            praedica<lb ed="#R" n="99" break="no"/>mentis. Commentator etiam 7. physic. com. 20. dat 
+            <lb ed="#R" n="100"/>causam. quare tacuit Aristoteles secundam speciem 
+            <lb ed="#R" n="101"/>qualitatis, cum probat, quod in solam tertiam 
+            spe<lb ed="#R" n="102" break="no"/>ciem est motus, &amp; quod naturalis potentia &amp; 
+            im<lb ed="#R" n="103" break="no"/>potentia sunt formae, &amp; materiae substantiales, quia 
+            <lb ed="#R" n="104"/>res agunt per suas formas, &amp; patiuatur per 
+            mate<lb ed="#R" n="105" break="no"/>rias. &amp; in hoc approbat sententiam Alexandri vbi 
+            <lb ed="#R" n="106"/>expresse dicit, quod formae, quae vel sunt vel 
+            sub<lb ed="#R" n="107" break="no"/>stantiales vel de tertia specie qualitatis sunt in 
+            se<lb ed="#R" n="108" break="no"/>cunda prout dicuntur naturales potentiae. 
+            Philo<lb ed="#R" n="109" break="no"/>sophus etiam in praedicamentis ponit in prima spe 
+            <lb ed="#R" n="110"/>cie calorem, qui tamen est in tertia, quod exponens 
+            <lb ed="#R" n="111"/>Symplicius dicit, quod eadem qualitas potest esse 
+            <lb ed="#R" n="112"/>habitus, &amp; ita in prima specie, &amp; potest esse passio 
+            <lb ed="#R" n="113"/>vel passibilis qualitas, &amp; ita in 3. specie. quod vero 
+            <lb ed="#R" n="114"/>oporteat talem rem prout est in diuersis speciebus 
+            <lb ed="#R" n="115"/>resolui in diuersos conceptus quidditatiuos patet, 
+            <lb ed="#R" n="116"/>quod aliter diuersorum generum, &amp; non sub 
+            alter<lb ed="#R" n="117" break="no"/>natim positorum non possunt esse diuersae species, 
+            <lb ed="#R" n="118"/>&amp; differentiae nec secundum rem; cum probatum 
+            <lb ed="#R" n="119"/>sit, quod eandem rem in diuersis speciebus esse 
+            <lb ed="#R" n="120"/>possit nec secundum rationem, cum tu ponas, quod 
+            <lb ed="#R" n="121"/>de illa re non formantur diuersi conceptus 
+            quiddi<lb ed="#R" n="122" break="no"/>tatiui, vnde cum distinctae species necessario per 
+            <lb ed="#R" n="123"/>differentias distinguantur oportet illas differentias 
+            <lb ed="#R" n="124"/>esse, vel diuersas res, vel diuersos conceptus. Quod 
+            <lb ed="#R" n="125"/>vero haec diuerfitas sufficiat patet auctoritate Sym 
+            <lb ed="#R" n="126"/>plicij qui dicit super praedicamenta, quod 
+            possibi<lb ed="#R" n="127" break="no"/>le est idem referri ad aliud praedicamentum, 
+            redu<lb ed="#R" n="128" break="no"/>centibus nobis singula vel ad diuersitater significa 
+            <lb ed="#R" n="129"/>torum vel ad differentiam conceptuum, vel ad diuer 
+            <lb ed="#R" n="130"/>sum caractherem. Patet etiam idem per Dam. in lo 
+            <lb ed="#R" n="131"/>gica c. 33. qui ait. dicimus igitur quandoq. 
+            possibi<lb ed="#R" n="132" break="no"/>le esse eandem rem secundum aliam, &amp; aliam 
+            in<lb ed="#R" n="133" break="no"/>tentionem sub aliud, &amp; aliud praedicamentum redu 
+            <lb ed="#R" n="134"/>ci. Et idem patet ratione, quia diuersi conceptus 
+            <!--0144.xml-->
+            <pb ed="#P" n="144"/>
+            <cb ed="#R" n="a"/>
+            <lb ed="#R" n="1"/>quidditatiui disparati sufficienter daenaeua 
+            <lb ed="#R" n="2"/>ditatiue talis: autem differentia est sptueese pa 
+            <lb ed="#R" n="3"/>tet 4. met. &amp; per consequens res, quae est, illorum 
+            <lb ed="#R" n="4"/>duplex conceptus, est duplex specifice, &amp; sic potest 
+            <lb ed="#R" n="5"/>esse in duobus generibus; &amp; duobus 
+            praedica<lb ed="#R" n="6" break="no"/>mentis. 
+          </p>
+          <p xml:id="paqqap-a45268-d1e2221">
+            <lb ed="#R" n="7"/>Secundo assumo, quod res albedinis habet ex na 
+            <lb ed="#R" n="8"/>tura sua, vt possit induere rationem 
+            diuersorum<lb ed="#R" n="9" break="no"/>conceptuum specificorum, &amp; quidditatiuorurhuc 
+            <lb ed="#R" n="10"/>patet diuidendo qualitatem copulatam deteniaa 
+            <lb ed="#R" n="11"/>tae habitudini, &amp; non cōpulatam, &amp; simplicem, &amp;- 
+            <lb ed="#R" n="12"/>praecisam ad habitudine omni, qualitatem vero bopu 
+            <lb ed="#R" n="13"/>latam respectui congruentiae vel incongruentie, itfer 
+            <lb ed="#R" n="14"/>est habitus prima species qualitatis, secundina 
+            <lb ed="#R" n="15"/>quam dicitur aliquid bene se habere vel male vt 
+            pa<lb ed="#R" n="16" break="no"/>tet a. Ethic. 
+          </p>
+          <p xml:id="paqqap-a45268-d1e2245">
+            <lb ed="#R" n="17"/>Et in qualitatem copulatam respectui principij 
+            <lb ed="#R" n="18"/>actiui vel passiui, &amp; sic est sceunda spocies naturalis 
+            <lb ed="#R" n="19"/>potentia vel impotentia aliquid facile faciendi vel 
+            <lb ed="#R" n="20"/>patiendi. Non copulatam vero sed simplicem 
+            in<lb ed="#R" n="21" break="no"/>qualitatem qualificantem substantiam ratione for 
+            <lb ed="#R" n="22"/>mae, &amp; sic est qualitas, quae est passio seu affectio ter 
+            <lb ed="#R" n="23"/>tia species: vel ratione materiaequantae, &amp; sic quar 
+            <lb ed="#R" n="24"/>ta species in figura. 
+          </p>
+          <p xml:id="paqqap-a45268-d1e2265">
+            <lb ed="#R" n="25"/>Hi autem conceptus quatuor sunt differentiales 
+            <lb ed="#R" n="26"/>respectu conceptus qualitatis praedicamentalis, 
+            <lb ed="#R" n="27"/>quod probo. Quod per se variat, &amp; diuidit 
+            ratio<lb ed="#R" n="28" break="no"/>nem generis est differentia eius, hoc patet de 
+            ala<lb ed="#R" n="29" break="no"/>to, &amp; non alato quod non sunt differentiae pedis sed bipes, 
+            <lb ed="#R" n="30"/>&amp; quadrupes variant pedalitatem. Sed ratio 
+            peda<lb ed="#R" n="31" break="no"/>litatis est, quod ex hoc est ens entis per modum qua 
+            <lb ed="#R" n="32"/>litatis, &amp; disponentis, vt dicitur 4. metaph. &amp; ideo 
+            <lb ed="#R" n="33"/>describitur in praedicamentis qualitas secundum, 
+            <lb ed="#R" n="34"/>quam quales dicimur. Igitur, quae variant 
+            qualifi<lb ed="#R" n="35" break="no"/>cationem sunt per se differentiae qualitatis, sed 
+            ta<lb ed="#R" n="36" break="no"/>lis est qualitas copulatata respectui congruentiae, 
+            <lb ed="#R" n="37"/>vel incongruentiae, &amp; respectui potentie, vel impotem 
+            <lb ed="#R" n="38"/>tiae, &amp; qualitas non copulata, quia si qualitas 
+            exi<lb ed="#R" n="39" break="no"/>stat in aliquo, &amp; non congruat nec incongruat, &amp; 
+            <lb ed="#R" n="40"/>interrogetur quale est hoc, non potest responderi 
+            <lb ed="#R" n="41"/>bene vel male. Si vero congruat potest 
+            responde<lb ed="#R" n="42" break="no"/>ri bene; si vero incongruat, male: ergo notum 
+            <lb ed="#R" n="43"/>est, quod sunt conceptus differentiales. &amp; cum 
+            <lb ed="#R" n="44"/>differentia per se diuisiua generis sit constitutiua 
+            <lb ed="#R" n="45"/>speciei secundum Porphyrium, &amp; ingrediatur quid 
+            <lb ed="#R" n="46"/>ditatiuam definitionem, manifeste patet, quod illi 
+            <lb ed="#R" n="47"/>conceptus specifici sunt etiam quidditatiui in 
+            ge<lb ed="#R" n="48" break="no"/>nere qualitatis. Subdiuidatur ergo qualitas 
+            copu<lb ed="#R" n="49" break="no"/>lata congruentiae in copulatam congruentiae 
+            ani<lb ed="#R" n="50" break="no"/>mae, &amp; sic est virtus animae, &amp; corporis, &amp; sic est pul 
+            <lb ed="#R" n="51"/>chritudo, &amp; hoc quia quaedam est qualitas 
+            copu<lb ed="#R" n="52" break="no"/>lata congruentiae dentis, quaedam oculi, prima est 
+            <lb ed="#R" n="53"/>pulchritudo dentis, secunda oculi. 
+          </p>
+          <p xml:id="paqqap-a45268-d1e2331">
+            <lb ed="#R" n="54"/>Et sic omnes isti conceptus quidditatiui sunt, &amp; 
+            <lb ed="#R" n="55"/>specifici. Primus est qualitas copulata respectui 
+            con<lb ed="#R" n="56" break="no"/>gruentiae animae. Secundus qualitas copulata respe 
+            <lb ed="#R" n="57"/>ctui congruentiae corporis. Tertius qualitas 
+            copu<lb ed="#R" n="58" break="no"/>lata respectui congruentiae oculi. Quartus qualitas 
+            <lb ed="#R" n="59"/>copulata respectui congruentiae dentis. Vnde si de 
+            <lb ed="#R" n="60"/>finias pulchritudinem dentis, dicitur, quod quali 
+            <lb ed="#R" n="61"/>tas copulata congruentiae dentis. 
+          </p>
+          <p xml:id="paqqap-a45268-d1e2351">
+            <lb ed="#R" n="62"/>Huic autem conceptui accidit res quaecunque 
+            <lb ed="#R" n="63"/>sit, dum tamen congruat denti est pulchritudo. 
+          </p>
+          <p xml:id="paqqap-a45268-d1e2358">
+            <lb ed="#R" n="64"/>Similiter qualitas, quae est affectio simpliciter, 
+            <lb ed="#R" n="65"/>diuiditur in illam, quae est de facili mobilis, &amp; ista 
+            <lb ed="#R" n="66"/>est passibilis qualitas, &amp; de difficili, haec est passio. 
+            <lb ed="#R" n="67"/>Et hac in iiam-quae infert paslionem visui, &amp; illam 
+            <lb ed="#R" n="68"/>quae alijs seusibus. Illa vero, quae visui, dicitur co- 
+            <!--0144.xml-->
+            <cb ed="#R" n="b"/>
+            <lb ed="#R" n="69"/>lor. Et sabdiuiditur in illam, quae infert visui ilmr 
+            <lb ed="#R" n="70"/>gando, &amp; est albedo, vel congregando, &amp; haec est 
+            ui<lb ed="#R" n="71" break="no"/>gredo, vel modo medio vt palledo:
+          </p>
+          <p xml:id="paqqap-a45268-d1e2382">
+            <lb ed="#R" n="72"/>Ad propositum ergo quia haec res, quae est 
+            al<lb ed="#R" n="73" break="no"/>bedo, induit duos conceptus quidditatiuos sibi mu 
+            <lb ed="#R" n="74"/>tuo accidentales sub qualitate contentos, nam 
+            in<lb ed="#R" n="75" break="no"/>duit conceptum quidditatiuum sub qualitate 
+            co<lb ed="#R" n="76" break="no"/>pulata contentioni. Est enim qualitas 
+            copulata<lb ed="#R" n="77" break="no"/>respectui congruentiae dentis, &amp; pulchritudo eius, 
+            <lb ed="#R" n="78"/>&amp; inquit conceptum alium sub affectione 
+            conten<lb ed="#R" n="79" break="no"/>tum? Ideo eadem res secundum differentiam 
+            con<lb ed="#R" n="80" break="no"/>ceptuum, vt ait Symplicius, vel secundum aliam, &amp; 
+            <lb ed="#R" n="81"/>aliam intentionem vt dicit Damascenus, est in dua 
+            <lb ed="#R" n="82"/>bus speciebus qualitatis. 
+          </p>
+          <p xml:id="paqqap-a45268-d1e2408">
+            <lb ed="#R" n="83"/>Ad formam ergo argumenti cum dicitur, quod vnum 
+            <lb ed="#R" n="84"/>quodque aest in specie per differentiam praedicantem 
+            <lb ed="#R" n="85"/>per se primo modo: dicepdum, quod verum est. Es 
+            <lb ed="#R" n="86"/>radditur, quod de albedine non praedicaturper. 
+            <lb ed="#R" n="87"/>se copulatio, dicendum, quod res albedinis potest 
+            <lb ed="#R" n="88"/>abcipi tripliciter, vel vt induit conceptum 
+            affectio<lb ed="#R" n="89" break="no"/>nis immobilis simpliciter sumptae, &amp; sic accidit 
+            si<lb ed="#R" n="90" break="no"/>bijpsi, vt inducat conceptum pulchritudinis. Vel 
+            <lb ed="#R" n="91"/>potest accipi, vt induit conceptum pulchritudinis, 
+            <lb ed="#R" n="92"/>&amp; sic accidit sibi ipsi esse sub conceptu affectionis 
+            <lb ed="#R" n="93"/>copulatam. Ergo qualitas praedicatur per se 
+            promo<lb ed="#R" n="94" break="no"/>do de albedine vt est pulchritudo dentis, sed per acci 
+            <lb ed="#R" n="95"/>dens, vt est passio. Et cum additur, quod separatur 
+            <lb ed="#R" n="96"/>copulatio ab albedine, verum est vt est res simul, 
+            <lb ed="#R" n="97"/>sub disparato conceptu, non tamen vt sub isto 
+            con<lb ed="#R" n="98" break="no"/>ceptu, sed vt virtus vel pulchritudo dentis. Immo 
+            <lb ed="#R" n="99"/>interroganti quid est polchritudo dentis? 
+            Responde<lb ed="#R" n="100" break="no"/>bitur, quod qualitas congruens denti. 
+            <lb ed="#R" n="101"/>Quomodo propter solam imaginationem 
+            substan<lb ed="#R" n="102" break="no"/>tiae vel habitus potest fieri de 
+            practi<lb ed="#R" n="103" break="no"/>co speculatiuus. 
+          </p>
+          <p xml:id="paqqap-a45268-d1e2456">
+            <lb ed="#R" n="104"/>AD secundam difficultatem dicendum, quod 
+            <lb ed="#R" n="105"/>quia eadem res potest inducere rationem 
+            <lb ed="#R" n="106"/>actiui per modum exemplaris formae, &amp; non 
+            ratio<lb ed="#R" n="107" break="no"/>nem propter diuersitatem subiecti, &amp; ideo non est 
+            <lb ed="#R" n="108"/>inconueniens, quod idem habitus specie vel 
+            nu<lb ed="#R" n="109" break="no"/>mero sit sub diuersis speciebus, quia induit 
+            diuer<lb ed="#R" n="110" break="no"/>sos conceptus specificos quidditatiuos. vnde mora 
+            <lb ed="#R" n="111"/>lis, quae est in angelo, non est qualitas copulata 
+            res<lb ed="#R" n="112" break="no"/>pectui principij exemplariter dirigendis sed in 
+            no<lb ed="#R" n="113" break="no"/>bis, ideo in angelo non est practicus habitus, sed 
+            <lb ed="#R" n="114"/>in nobis. 
+          </p>
+          <p xml:id="paqqap-a45268-d1e2483">
+            <lb ed="#R" n="115"/>Similiter si Deus infunderet potentiam rosae pro 
+            <lb ed="#R" n="116"/>ductiuam in nobis, statim scientia rosae indueret 
+            <lb ed="#R" n="117"/>rationem exemplaris causae, &amp; dirigentis per 
+            mo<lb ed="#R" n="118" break="no"/>dum formae, &amp; regulae praeconceptae: eandem 
+            au<lb ed="#R" n="119" break="no"/>tem rem sub diuersis quidditatiuis conceptibus 
+            es<lb ed="#R" n="120" break="no"/>se in diuersis speciebus, quia inducit diuersos 
+            con<lb ed="#R" n="121" break="no"/>ceptus specificos, &amp; quidditatiuos possibile est, 
+            <lb ed="#R" n="122"/>vnde moralis non est qualitas copulata respectui 
+            <lb ed="#R" n="123"/>principij exemplariter dirigentis, sed in nobis, ideo 
+            <lb ed="#R" n="124"/>in angelo non est practicus habitus, sed in nobis. 
+          </p>
+          <p xml:id="paqqap-a45268-d1e2507">
+            <lb ed="#R" n="125"/>Similiter si Deus infunderet potentiam rosae pro 
+            <lb ed="#R" n="126"/>ductiuam nobis, statim scientia rosae indueret 
+            ra<lb ed="#R" n="127" break="no"/>tionem exemplaris causae, &amp; dirigentis per 
+            mo<lb ed="#R" n="128" break="no"/>dum formae, &amp; regulae praeconceptae, eandem 
+            au<lb ed="#R" n="129" break="no"/>tem rem sub diuersis quidditatiuis conceptibus es 
+            <lb ed="#R" n="130"/>se in diuersis generibus generalissimis, non est 
+            in<lb ed="#R" n="131" break="no"/>conueniens quanto minus in diuersis speciebus. 
+          </p>
+          <p xml:id="paqqap-a45268-d1e2525">
+            <lb ed="#R" n="132"/>Sed dicunt aliqui, quod moralis in angelo est 
+            <lb ed="#R" n="133"/>practica, &amp; quod scientia rosae in nobis esset 
+            spe<lb ed="#R" n="134" break="no"/>culatiua dato, quod Deus per possibile, vel 
+            incom<lb ed="#R" n="135" break="no"/>possibile infunderet nobis potentiam productiuam 
+            <!--0145.xml-->
+            <pb ed="#P" n="145"/>
+            <cb ed="#R" n="a"/>
+            <lb ed="#R" n="1"/>rosae in nobis esset speculatiua, dato, quod Deus per 
+            <lb ed="#R" n="2"/>possibile vel incompossibile infunderet nobis 
+            op<lb ed="#R" n="3" break="no"/>bis potentiam productiuam rosae, &amp; ideo verum 
+            <lb ed="#R" n="4"/>est, quod moralis est de ente, cuius principium non 
+            <lb ed="#R" n="5"/>est natura, sed voluntas: Scientia vero rosae est 
+            <lb ed="#R" n="6"/>de ente, cuius principium est natura. Ideo in 
+            quocun<lb ed="#R" n="7" break="no"/>que intellectu ponantur, illa est practica, haec, 
+            spe<lb ed="#R" n="8" break="no"/>culatiua. 
+          </p>
+          <p xml:id="paqqap-a45268-d1e2560">
+            <lb ed="#R" n="9"/>Sed istud stare non potest, nam cuicunque 
+            com<lb ed="#R" n="10" break="no"/>petit definitio non solum simplex, sed dans 
+            cau<lb ed="#R" n="11" break="no"/>sam definiti, ei competit ratio definiti: sed 
+            practi<lb ed="#R" n="12" break="no"/>ca est de ente, cuius principium est in sciente 
+            intel<lb ed="#R" n="13" break="no"/>lectus, vel ars non voluntas, speculatiua vero cuius 
+            <lb ed="#R" n="14"/>principium est solum intellectu: non constat autem 
+            <lb ed="#R" n="15"/>quod respectu moralium habituum, &amp; actus non est 
+            <lb ed="#R" n="16"/>principium in Angelo, respectu autem rosae esset in 
+            no<lb ed="#R" n="17" break="no"/>bis si haberemus productiuam: ergo cum haec 
+            defi<lb ed="#R" n="18" break="no"/>nitio det causam, quare iste habitus sit practicus in 
+            <lb ed="#R" n="19"/>intellectu, ille speculatiuus, sequitur intentum, quod 
+            <lb ed="#R" n="20"/>in Angelo moralis est speculatiuus, productiuus ve 
+            <lb ed="#R" n="21"/>ro rosae esset in nobis practicus. 
+          </p>
+          <p xml:id="paqqap-a45268-d1e2591">
+            <lb ed="#R" n="22"/>Confirmatur, quia intellectus noster non magis 
+            <lb ed="#R" n="23"/>habet ex sui nobilitate speculares habitus, quam 
+            <lb ed="#R" n="24"/>angelicus: sed secundum Commentatorem 2. Eth. 
+            <lb ed="#R" n="25"/>habitus existens in nostro intellectu, ex hoc ipso, 
+            <lb ed="#R" n="26"/>quod est de non operabili a nobis, est practicus, igi 
+            <lb ed="#R" n="27"/>tur multo fortius erit hoc de intellectu Angeli. 
+          </p>
+          <p xml:id="paqqap-a45268-d1e2607">
+            <lb ed="#R" n="28"/>Praeterea: Morali existenti in mente Angeli com 
+            <lb ed="#R" n="29"/>petunt conditiones speculatiui, quia operationem 
+            <lb ed="#R" n="30"/>habet intellectualem competentem Angelo, &amp; 
+            con<lb ed="#R" n="31" break="no"/>tinua est, &amp; delectabilis, &amp; eligibilis propter 
+            se<lb ed="#R" n="32" break="no"/>&amp; in vacatione consistit: ergo ex medio, quo isti 
+            <lb ed="#R" n="33"/>probant diligere Deum esse speculatiuum, potest pro 
+            <lb ed="#R" n="34"/>bari, quod moralis in Angelo sit speculatiua: nec 
+            <lb ed="#R" n="35"/>video, quod facere sigillum sit practicum, nisi 
+            pro<lb ed="#R" n="36" break="no"/>ducere rosam esset in nobis practicum, si 
+            poten<lb ed="#R" n="37" break="no"/>tiam haberemus.
+          </p>
+          <p xml:id="paqqap-a45268-d1e2632">
+            <lb ed="#R" n="38"/>Quomodo propter solam directionem in 
+            applican<lb ed="#R" n="39" break="no"/>do actiua passiuis, medicina est 
+            pro<lb ed="#R" n="40" break="no"/>ctica, sicut quicunque alius 
+            <lb ed="#R" n="41"/>habitus. 
+          </p>
+          <p xml:id="paqqap-a45268-d1e2643">
+            <lb ed="#R" n="42"/>AD tertiam difficultatem dicendum. Concedo 
+            <lb ed="#R" n="43"/>quod medicina, quae est de sanitate, est practi 
+            <lb ed="#R" n="44"/>ca, non solum de via, quod patet, quia si propter 
+            <lb ed="#R" n="45"/>hoc non est practica, quia medicus non attingit 
+            <lb ed="#R" n="46"/>sanitatem per modum agentis principalis, sed 
+            ap<lb ed="#R" n="47" break="no"/>plicantis actiua passiuis, secundum hoc aliqua 
+            <lb ed="#R" n="48"/>scientia erit practica, quia nullus artifex attingit 
+            <lb ed="#R" n="49"/>vt patet, quia sigillator, vel comburens domum 
+            <lb ed="#R" n="50"/>vel aedificans, solum applicat per motum localem 
+            <lb ed="#R" n="51"/>sigillum cerae, &amp; tunc sua naturali duritie sigillum 
+            <lb ed="#R" n="52"/>causat figuram. Similiter ignis sua naturali 
+            pro<lb ed="#R" n="53" break="no"/>prietate comburit domum, &amp; aedificans per motum 
+            <lb ed="#R" n="54"/>localem eleuat lapidem super lapidem, &amp; ex hoc 
+            <lb ed="#R" n="55"/>fit figura. 
+          </p>
+          <p xml:id="paqqap-a45268-d1e2676">
+            <lb ed="#R" n="56"/>Vnde potest sic argui. Artifex non inducens prin 
+            <lb ed="#R" n="57"/>cipaliter formas, sed per modum applicantis 
+            <lb ed="#R" n="58"/>actiua passiuis, habet nihilominus respectu illius 
+            <lb ed="#R" n="59"/>formae veram rationem artificis, &amp; sua scientia 
+            <lb ed="#R" n="60"/>veram rationem practicae artis: talis est medicus 
+            <lb ed="#R" n="61"/>respectu sanitatis: ergo medicina respectu sanitatis 
+            <lb ed="#R" n="62"/>est practica. 
+          </p>
+          <p xml:id="paqqap-a45268-d1e2694">
+            <lb ed="#R" n="63"/>Confirmatur, quia nec ratione viae seu 
+            disposi<lb ed="#R" n="64" break="no"/>tionis qualis est naturae confirmatio, vel purgatio 
+            <lb ed="#R" n="65"/>humoris superfllui, vel in frigiditatem vel in cale- 
+            <!--0145.xml-->
+            <cb ed="#R" n="b"/>
+            <lb ed="#R" n="66"/>factionem habet medicus caliditatem nisi applican 
+            <lb ed="#R" n="67"/>do actiua passiuis, vt res naturales habentes hanc 
+            <lb ed="#R" n="68"/>proprietatem: ergo nec medicina respectu istorum 
+            <lb ed="#R" n="69"/>erit practica, cuius oppositum isti volunt; vel si erunt 
+            <lb ed="#R" n="70"/>pari ratione, respectu sanitatis. 
+          </p>
+          <p xml:id="paqqap-a45268-d1e2718">
+            <lb ed="#R" n="71"/>Praeterea: Philosophus 7, metaph. expresse dicit, 
+            <lb ed="#R" n="72"/>quod sanitatis quaedam est a casu, quaedam a 
+            na<lb ed="#R" n="73" break="no"/>tura, quaedam ab arte, aliqua vero sunt tantum ab 
+            <lb ed="#R" n="74"/>arte vt domus, quae nec a natura, &amp; ibidem ait, 
+            <lb ed="#R" n="75"/>quod definitio sanitatis, quae est in anima, est causa 
+            <lb ed="#R" n="76"/>sanitatis in materia, &amp; Commeutator per totum 
+            <lb ed="#R" n="77"/>comm. 23. idem asserit. 
+          </p>
+          <p xml:id="paqqap-a45268-d1e2736">
+            <lb ed="#R" n="78"/>Sed respondetur, quod verum est, in via est 
+            cau<lb ed="#R" n="79" break="no"/>sa non autem formae sanitatis, sed ipsa natura. 
+            <lb ed="#R" n="80"/>Haec autem responsio non valet, quia nec 
+            dispo<lb ed="#R" n="81" break="no"/>sitionis ad sanitatem, nec sanitatis est causa 
+            medi<lb ed="#R" n="82" break="no"/>cus principaliter, sed ipsa natura est causa 
+            vtrius<lb ed="#R" n="83" break="no"/>que, sed medicus sicut minister sicut applicans 
+            <lb ed="#R" n="84"/>actiua passiuis, &amp; hoc sufficit ad hoc, quod 
+            scien<lb ed="#R" n="85" break="no"/>tia, quae erat de sanitate, sit practica. Est enim 
+            <lb ed="#R" n="86"/>forma exemplaris, &amp; regula praeconcepta, qua me 
+            <lb ed="#R" n="87"/>dicus dirigitur applicando actiua passiuis, &amp; ita 
+            <lb ed="#R" n="88"/>in causando vere ipsam sanitatem: Non enim solus 
+            <lb ed="#R" n="89"/>ignis dicitur comburere, sed applicans ignem 
+            do<lb ed="#R" n="90" break="no"/>mui dicitur incendere, &amp; nec solum natura dicitur 
+            <lb ed="#R" n="91"/>sanare, &amp; medicus confirmare immo aeque sanat 
+            <lb ed="#R" n="92"/>sicut conportat applicando actiua passiuis, vt 
+            di<lb ed="#R" n="93" break="no"/>ctum est. 
+          </p>
+          <p xml:id="paqqap-a45268-d1e2774">
+            <lb ed="#R" n="94"/>Ad quartam difficultatem dicendum, quod scien 
+            <lb ed="#R" n="95"/>tia Dei de creaturis non est practica, eo modo quo 
+            <lb ed="#R" n="96"/>prudentia est practica, sed eo modo quo ars est 
+            <lb ed="#R" n="97"/>prudentia, nam determinat agentem ad agendum, 
+            <lb ed="#R" n="98"/>&amp; praestat sibi modum quo agat sicut oportet, quan 
+            <lb ed="#R" n="99"/>do oportet, cuius gratia, &amp; sic de alijs 
+            circun<lb ed="#R" n="100" break="no"/>stantijs. Deus autem non sic determinatur ad 
+            pro<lb ed="#R" n="101" break="no"/>ductionem creaturarum ab intellectu suo, sed habet 
+            <lb ed="#R" n="102"/>in libertate voluntatis producere quando vult: ars 
+            <lb ed="#R" n="103"/>vero non determinat agentem ad agere, &amp; modum 
+            <lb ed="#R" n="104"/>agendi, sed solum ad modum, &amp; formam operis, 
+            <lb ed="#R" n="105"/>ideo 6. Ethic. dicit Philosoohus, quod in arte 
+            pec<lb ed="#R" n="106" break="no"/>cans voluntarie eligibilior est, quam inuoluntarie, 
+            <lb ed="#R" n="107"/>signum est enim, quod bene sit secundum modum, 
+            <lb ed="#R" n="108"/>&amp; formam operis. Jmprudentia autem non sic: ergo 
+            <lb ed="#R" n="109"/>Dei scientia, quam habet de creaturis, non dubium 
+            <lb ed="#R" n="110"/>quod praescribit, &amp; determinat formam operis, 
+            <lb ed="#R" n="111"/>quia alia ratione conditus est homo, alia leo. Sed 
+            <lb ed="#R" n="112"/>idem dici potest, quod de idaeis. Et si vult Deus 
+            <lb ed="#R" n="113"/>hominem producere, oportet quod ipsum 
+            produ<lb ed="#R" n="114" break="no"/>cat constitutum ex anima rationali, &amp; corpore 
+            <lb ed="#R" n="115"/>&amp;animal rationale mortale. Et ideo Augustinus di 
+            <lb ed="#R" n="116"/>cit de verbo, quod est ars plena rationum 
+            viuen<lb ed="#R" n="117" break="no"/>tium 6. de Trinit. Et Philosophus vocat artem 
+            di<lb ed="#R" n="118" break="no"/>uinam, quae est eorum quae generantur in natura 16. 
+            <lb ed="#R" n="119"/>de animalibus, &amp; Commentator sic allegat II. 
+            <lb ed="#R" n="120"/>metaph. Et tamen additur, quod dicens 
+            medici<lb ed="#R" n="121" break="no"/>nam, aut scientiam Dei de creaturis practicam, 
+            <lb ed="#R" n="122"/>dimittit Philosophum in contradictione, qui ait 
+            <lb ed="#R" n="123"/>scientiam rerum, quarum principium est intra, esse 
+            <lb ed="#R" n="124"/>speculatiuam. 
+          </p>
+          <p xml:id="paqqap-a45268-d1e2844">
+            <lb ed="#R" n="125"/>Dicendum, quod rerum quaedam sunt, quae 
+            <lb ed="#R" n="126"/>habent principium intra tantum; quaedam, quae 
+            <lb ed="#R" n="127"/>in sciente tantum, quaedam quae in vtroque. Quae 
+            <lb ed="#R" n="128"/>in sciente tantum, earum scientia est semper practi 
+            <lb ed="#R" n="129"/>ca, quae intra tantum, earum scientia est tantum 
+            <lb ed="#R" n="130"/>speculatiua. Quae in vtroque, respectu illius 
+            intel<lb ed="#R" n="131" break="no"/>lectus in quo habent principium, est practica, 
+            re<lb ed="#R" n="132" break="no"/>spectu alterius, in quo non habent, sed sumit ab 
+            in<lb ed="#R" n="133" break="no"/>tus, est speculatiua: sic igitur habere suae factionis 
+            <!--0146.xml-->
+            <pb ed="#P" n="146"/>
+            <cb ed="#R" n="a"/>
+            <lb ed="#R" n="1"/>principium intra se, non est sufficiens medium ad 
+            <lb ed="#R" n="2"/>concludendum scientiam esse speculatiuam non 
+            <lb ed="#R" n="3"/>practicam, nisi addatur intra se tantum solum, &amp; 
+            <lb ed="#R" n="4"/>praecise, vel respectu illius, in quo non habet 
+            prin<lb ed="#R" n="5" break="no"/>cipium. 
+          </p>
+          <p xml:id="paqqap-a45268-d1e2883">
+            <lb ed="#R" n="6"/>Quod haec sit mens Philosophi, patet, quia cum 
+            <lb ed="#R" n="7"/>dixit, quod scientia phisica non est actiua, est enim 
+            <lb ed="#R" n="8"/>circa talem substantiam, quae habet principium 
+            <lb ed="#R" n="9"/>motus, &amp; quietis, statim videns, quod hoc 
+            me<lb ed="#R" n="10" break="no"/>dium non sufficiebat nisi adderetur tantum sic, 
+            <lb ed="#R" n="11"/>quod non in nobis cum hoc haberet principium, 
+            <lb ed="#R" n="12"/>subiungit, quod factiuarum principium est in 
+            no<lb ed="#R" n="13" break="no"/>bis intellectus &amp; voluntas, non in nobis est 
+            princi<lb ed="#R" n="14" break="no"/>pium naturalium. Propter hoc etiam in septimo ait 
+            <lb ed="#R" n="15"/>quod sanitas quaodoque est a natura, quandoque 
+            <lb ed="#R" n="16"/>ab arte, innuens, quod habens principium intra 
+            <lb ed="#R" n="17"/>adhuc cadit sub scientia practica, &amp; arte, si tamen 
+            <lb ed="#R" n="18"/>cum hoc, quod est a natura habeat etiam 
+            princi<lb ed="#R" n="19" break="no"/>pium in sciente. Propter hoc etiam Commentator 
+            <lb ed="#R" n="20"/>in 6. Ethic. dicit, quod quae impossibile est esse a 
+            <lb ed="#R" n="21"/>nobis, &amp; illa, quae non possibile est esse nisi a 
+            cau<lb ed="#R" n="22" break="no"/>sis suis naturalibus, pertinent ad scientiam 
+            specula<lb ed="#R" n="23" break="no"/>tiuam. Illa vero, quae impossibile est esse 
+            praeter<lb ed="#R" n="24" break="no"/>quam a causis naturalibus suis pertinent ad practi 
+            <lb ed="#R" n="25"/>cam: per hoc expresse docens, quod dato, quod sint 
+            <lb ed="#R" n="26"/>a natura, si cum hoc possibile est esse a nobis, erit 
+            <lb ed="#R" n="27"/>scientia nostra de ipsis practica, &amp; ratio huius 
+            <lb ed="#R" n="28"/>est, quia manente causa manet effectus. Sed, quod 
+            <lb ed="#R" n="29"/>scientia de re sit pracica, est quia habet res illa 
+            <lb ed="#R" n="30"/>principium in sciente, quomodocunque, nec 
+            mi<lb ed="#R" n="31" break="no"/>nus habet ex hoc quod cum hoc habere potest 
+            in<lb ed="#R" n="32" break="no"/>se, immo hoc accidit: igitur aeque ostendit practica 
+            <lb ed="#R" n="33"/>ac si tantum haberet causam rerum, quae in aliquo 
+            <lb ed="#R" n="34"/>impeditur, propter hoc quod creaturae habent cau 
+            <lb ed="#R" n="35"/>sam in se. 
+          </p>
+          <p xml:id="paqqap-a45268-d1e2951">
+            <lb ed="#R" n="36"/>Quomodo conuincuntur in sufficientes qui cir 
+            <lb ed="#R" n="37"/>ca materiam de practico, &amp; 
+            specn<lb ed="#R" n="38" break="no"/>latiuo dicunt se 
+            peni<lb ed="#R" n="39" break="no"/>tus conformari di 
+            <lb ed="#R" n="40"/>ctis Philoso. 
+            <lb ed="#R" n="41"/>phorum. 
+          </p>
+          <p xml:id="paqqap-a45268-d1e2967">
+            <lb ed="#R" n="42"/>AD quintam difficultatem dicendum, quod 
+            <lb ed="#R" n="43"/>mirum est, quod ponens hanc 
+            propositio<lb ed="#R" n="44" break="no"/>nem in materia practici, &amp; speculatiui, nihil vult 
+            <lb ed="#R" n="45"/>dicere, nisi quod dixerunt Philosophi, quod in 
+            eo<lb ed="#R" n="46" break="no"/>rum codicibus legitur, post modum dicat, quod 
+            <lb ed="#R" n="47"/>auieere Peun, s&amp; tiate est actus speculatiuus, 
+          </p>
+          <p xml:id="paqqap-a45268-d1e2983">
+            <lb ed="#R" n="48"/>Item, quod aliquis habitus speculatiuus 
+            ope<lb ed="#R" n="49" break="no"/>retur, et faciat suum obiectum, cum nec hoc le-- 
+            <lb ed="#R" n="50"/>gatur. 
+          </p>
+          <p xml:id="paqqap-a45268-d1e2993">
+            <lb ed="#R" n="51"/>Item tertio, quod medicina de sanitate sit 
+            spe<lb ed="#R" n="52" break="no"/>culatiua, &amp; illa, quae est de via ad sanitatem vt de 
+            <lb ed="#R" n="53"/>confortatione naturae sit practica, quasi alia sit me 
+            <lb ed="#R" n="54"/>dicina de sanitate, alia de dispositione ad ipsam, cum 
+            <lb ed="#R" n="55"/>nec hoc legatur.
+          </p>
+          <p xml:id="paqqap-a45268-d1e3006">
+            <lb ed="#R" n="56"/>Item quarto quod electio non sit praxis cum 
+            <lb ed="#R" n="57"/>Philosophus dicat, quod actiuarum principium 
+            <lb ed="#R" n="58"/>est voluntas siue electio. Et quod eligibile, &amp; 
+            agi<lb ed="#R" n="59" break="no"/>bile siue practicum commune 6. met. 
+          </p>
+          <p xml:id="paqqap-a45268-d1e3017">
+            <lb ed="#R" n="60"/>Item quinto, quod electio sit aliud ab imperio, 
+            <lb ed="#R" n="61"/>cum 9. met. dicat Philosophus, quod verus 
+            Do<lb ed="#R" n="62" break="no"/>minus, &amp; mouens vltimate in potentijs 
+            rationa<lb ed="#R" n="63" break="no"/>libus sit vniuersaliter veritas siue electio. 
+          </p>
+          <p xml:id="paqqap-a45268-d1e3028">
+            <lb ed="#R" n="64"/>Item sexto, quod non inueniatur haec propositio, 
+            <lb ed="#R" n="65"/>quod omnis scientia de operabili a nobis, quod 
+            <!--0146.xml-->
+            <cb ed="#R" n="b"/>
+            <lb ed="#R" n="66"/>potest fieri praeterquam a causis suis naturalibus 
+            <lb ed="#R" n="67"/>est practica, cum hoc expresse dicat Philosophus 
+            <lb ed="#R" n="68"/>6. Ethic. &amp; Commentator. 
+          </p>
+          <p xml:id="paqqap-a45268-d1e3046">
+            <lb ed="#R" n="69"/>Item, quod nulla practita sit nisi moralis vel 
+            <lb ed="#R" n="70"/>factiua, cum tamen Philosophus Rethoricam vel 
+            <lb ed="#R" n="71"/>Poeticam, &amp; ipsemet concedit, &amp; tamen moralis 
+            <lb ed="#R" n="72"/>non est, immo scientia distincta, nec est etiam scien 
+            <lb ed="#R" n="73"/>tia factiua. Ideo dicendum, quod haec propositio 
+            <lb ed="#R" n="74"/>quod scilicet practica sit omnis, quae est de obiecto 
+            <lb ed="#R" n="75"/>cuius causa est, &amp; principium in agendo, expresse 
+            <lb ed="#R" n="76"/>habetur in locis, vbi allegatum est. 
+          </p>
+          <p xml:id="paqqap-a45268-d1e3066">
+            <lb ed="#R" n="77"/>Quomodo Theologia uere est scientia practica eo 
+            <lb ed="#R" n="78"/>quod directiua respectu actionum, quibus 
+            <lb ed="#R" n="79"/>Deus attingitur, cuiusmodi est 
+            dilige<lb ed="#R" n="80" break="no"/>re, quod mello modo debet dici 
+            <lb ed="#R" n="81"/>speculatiuum. 
+          </p>
+          <p xml:id="paqqap-a45268-d1e3080">
+            <lb ed="#R" n="82"/>AD sextam difficultatem de Theologia 
+            dicen<lb ed="#R" n="83" break="no"/>A dum, quod ipsa est practica, quod probo 
+            <lb ed="#R" n="84"/>vnica ratione. Illa scientia est practica, quae est de 
+            <lb ed="#R" n="85"/>genere quod attingitur a sciente, non per solum 
+            <lb ed="#R" n="86"/>speculari, sed per operationem aliam, quam 
+            scien<lb ed="#R" n="87" break="no"/>tia dirigit per modum formae exemplaris, &amp; cuius si 
+            <lb ed="#R" n="88"/>nis non est veritas sed aliquid aliud: hoc patet, quia 
+            <lb ed="#R" n="89"/>obiectum non solum speculabile, sed alia 
+            operatio<lb ed="#R" n="90" break="no"/>ne operabile.
+          </p>
+          <p xml:id="paqqap-a45268-d1e3102">
+            <lb ed="#R" n="91"/>Item Philosophus 2. met. ait, finis speculatiuae 
+            <lb ed="#R" n="92"/>veritas. 
+          </p>
+          <p xml:id="paqqap-a45268-d1e3109">
+            <lb ed="#R" n="93"/>Item I. metaphysicae scientia speculatiua est 
+            pro<lb ed="#R" n="94" break="no"/>pter scire tantum, &amp; fugam ignorantiae. 
+          </p>
+          <p xml:id="paqqap-a45268-d1e3116">
+            <lb ed="#R" n="95"/>Item 1. Ethic. aliter Geometria inquirit rectam 
+            <lb ed="#R" n="96"/>aliter artifex vel mechanicus; hoc enim in quantum 
+            <lb ed="#R" n="97"/>vtile ad opus, hoc autem quid vel quale quid specu 
+            <lb ed="#R" n="98"/>lator est veri. 
+          </p>
+          <p xml:id="paqqap-a45268-d1e3127">
+            <lb ed="#R" n="99"/>Sed constat, quod Theologus attingit Deum 
+            <lb ed="#R" n="100"/>alia operatione quam per solum speculari, &amp; 
+            dili<lb ed="#R" n="101" break="no"/>gere, &amp; hanc operationem per solum speculari, &amp; 
+            <lb ed="#R" n="102"/>dil igere, &amp; hanc operationem per modum formae 
+            <lb ed="#R" n="103"/>ex re theologica dirigit, &amp; est eius finis, non autem 
+            <lb ed="#R" n="104"/>speculatio: hoc autem patet auctoritate Apostoli 
+            <lb ed="#R" n="105"/>prima ad Thimot. primo: Finis praecepti est 
+            chari<lb ed="#R" n="106" break="no"/>tas de corde puro, &amp; conscientia bona, &amp; fide non 
+            <lb ed="#R" n="107"/>ficta. &amp; Augustinus in ser. de laude charitatis. ille 
+            <lb ed="#R" n="108"/>habet quicquid latet, &amp; patet in diuinis 
+            sermoni<lb ed="#R" n="109" break="no"/>bus, qui charitatem tenet in moribus. Et 
+            Salua<lb ed="#R" n="110" break="no"/>tor dicit, quod in praecepto de dilectione Dei 
+            pen<lb ed="#R" n="111" break="no"/>det lex, &amp; prophetae: ergo scientia Theologie est 
+            <lb ed="#R" n="112"/>practica. 
+          </p>
+          <p xml:id="paqqap-a45268-d1e3160">
+            <lb ed="#R" n="113"/>Ad primum dicendum quod immobile non accipitur 
+            <lb ed="#R" n="114"/>stricte pro priuatione motus proprie dicti, qui est 
+            <lb ed="#R" n="115"/>actus imperfecti, moralis enim Philosophia 
+            non<lb ed="#R" n="116" break="no"/>esset practica, non est enim de immobili 
+            proprie<lb ed="#R" n="117" break="no"/>dicto, nam ad delectationem, &amp; tristitiam non est 
+            <lb ed="#R" n="118"/>motus, cum sint operationes acquisibiles in S. vt 
+            <lb ed="#R" n="119"/>patet 7. &amp; 10. Ethic. circa ipsas autem versatur 
+            to<lb ed="#R" n="120" break="no"/>tum morale negotium, vt dicitur in secundo: 
+            Acci<lb ed="#R" n="121" break="no"/>pitur ergo hoc obiectum immobile; quod non est 
+            <lb ed="#R" n="122"/>de operatione aliqua a nobis attingibile, vel 
+            tran<lb ed="#R" n="123" break="no"/>seunte vel immanente nisi sola intellectione, &amp; quia 
+            <lb ed="#R" n="124"/>metaphisica est de Deo vt est immobile per hunc 
+            <lb ed="#R" n="125"/>modunt, quia non vt attingibilis est per 
+            opera<lb ed="#R" n="126" break="no"/>tionem amoris, sed solum per intellectionem: non 
+            <lb ed="#R" n="127"/>enim metaphysica praescribit modum, quo debet 
+            <lb ed="#R" n="128"/>Deus diligi &amp; virtutibus coli, ideo est pura 
+            specu<lb ed="#R" n="129" break="no"/>latiua: Theologia vero nostra, quoniam est de Deo 
+            <lb ed="#R" n="130"/>vt attingitur per aliam operationem ab intellectio 
+            <lb ed="#R" n="131"/>ne, cum non sit nisi quaedam forma, &amp; regula nos 
+            <!--0147.xml-->
+            <pb ed="#P" n="147"/>
+            <cb ed="#R" n="a"/>
+            <lb ed="#R" n="1"/>dirigens, &amp; modum praescribens quo Deus 
+            attin<lb ed="#R" n="2" break="no"/>gatur per charitatem, &amp; virtutibus colatur, &amp; 
+            om<lb ed="#R" n="3" break="no"/>nia, quae decerminat, propter ista assumit; vt 
+            pro<lb ed="#R" n="4" break="no"/>batum est auctoritatibus Christi, Apostoli, &amp; 
+            Au<lb ed="#R" n="5" break="no"/>gustim, manifestum est, quod non est de Deo vt est 
+            <lb ed="#R" n="6"/>immortalis, vel potius vt est inoperabilis, &amp; per 
+            <lb ed="#R" n="7"/>confequens practica remanebit, nec ratio 
+            Philoso<lb ed="#R" n="8" break="no"/>phi istud impedit.
+          </p>
+          <p xml:id="paqqap-a45268-d1e3229">
+            <lb ed="#R" n="9"/>Ad secundum medium dicendum quod numquam 
+            <lb ed="#R" n="10"/>diligere fuit nec est speculari; sicut nec intelligere, 
+            <lb ed="#R" n="11"/>aut cognoscere: nam speculatio, &amp; cognitio idem 
+            <lb ed="#R" n="12"/>sunt, vnde nullo modo diligere, aut sperare sunt a 
+            <lb ed="#R" n="13"/>ctus speculatiui, sicut nec actus visiui aut auditiui. 
+          </p>
+          <p xml:id="paqqap-a45268-d1e3242">
+            <lb ed="#R" n="14"/>Et cum probatur, quod istae sex conditiones, 
+            <lb ed="#R" n="15"/>quas ponit Philosophus de speculatiua felicitate 
+            <lb ed="#R" n="16"/>competunt actibus diligendi, &amp; speranni, 
+            diceu<lb ed="#R" n="17" break="no"/>dum, quod illa propositio non conuertitur 
+            simpli<lb ed="#R" n="18" break="no"/>citer, quod esse non potest nisi in conuertibilibus, 
+            <lb ed="#R" n="19"/>&amp; adaequatis, nunc autem istae conditiones non ad 
+            <lb ed="#R" n="20"/>aequant rationem speculationis, quia potest definire 
+            <lb ed="#R" n="21"/>iud, quod est formale, scilicet esse actiuum 
+            cogni<lb ed="#R" n="22" break="no"/>tiuum.
+          </p>
+          <p xml:id="paqqap-a45268-d1e3264">
+            <lb ed="#R" n="23"/>Cum vero additur, quod dilectio Dei non cadit 
+            <lb ed="#R" n="24"/>sub electione, nec reducitur sub aliqua virtute 
+            mo<lb ed="#R" n="25" break="no"/>ruli, dicendum quod immo cum sit actus 
+            charita<lb ed="#R" n="26" break="no"/>tis: habens autem charitatem elicitiue vtitur 
+            cha<lb ed="#R" n="27" break="no"/>ntate. Dilecio etium Dei, quae ex puris naturulibus 
+            <lb ed="#R" n="28"/>potest haberi, reducitur ad virtutem motalem, quia 
+            <lb ed="#R" n="29"/>Philosophus 8. Ethic. tractat de amicitia, quae est 
+            <lb ed="#R" n="30"/>fecundum analogiam, &amp; est respectu Dei 
+            secun<lb ed="#R" n="31" break="no"/>dunt eum. nec verum quod Philosophus posuerit 
+            <lb ed="#R" n="32"/>aliquas virtutes morales in ordine ad Deum. Dioit 
+            <lb ed="#R" n="33"/>enim 4. Ethi c quod magnificentia maxime 
+            atton<lb ed="#R" n="34" break="no"/>ditur in samptibus sacrificiorum, quae sunt ad 
+            <lb ed="#R" n="35"/>Deum, agit etiam de cultu, &amp; latria in 7. politicae, 
+            <lb ed="#R" n="36"/>&amp; de voto in secundo teconomicae. &amp; isti sunt accus 
+            <lb ed="#R" n="37"/>religlonis, quae ponitur virtus moralis. 
+          </p>
+          <p xml:id="paqqap-a45268-d1e3299">
+            <lb ed="#R" n="38"/>Quomodo necesurio logita es habitus vere 
+            <lb ed="#R" n="39"/>practicus.
+          </p>
+          <p xml:id="paqqap-a45268-d1e3306">
+            <lb ed="#R" n="40"/>AD septimam difficultatem dicendum, quod 
+            <lb ed="#R" n="41"/>logica non est speculatiua, sed continetur 
+            <lb ed="#R" n="42"/>sub differentia composita diuidente soientiam 
+            <lb ed="#R" n="43"/>quocunque nomine vocetur, vnde sic ad 
+            differen<lb ed="#R" n="44" break="no"/>tia opposita specula tlusaedico non esse speculutuiam, 
+            <lb ed="#R" n="45"/>sed sub tali differentia dotineri hoc alias multipliei 
+            <lb ed="#R" n="46"/>ter est probatum. Sed sufficit haec ratio Suientia, 
+            <lb ed="#R" n="47"/>quae dirigit per modum rego le praeconcepte &amp; 
+            for<lb ed="#R" n="48" break="no"/>mae exemplaris ad cuius imitationem fit aliud non est 
+            <lb ed="#R" n="49"/>speoplatiun: habet enim respectum prioritatis, &amp; 
+            <lb ed="#R" n="50"/>consormitatis, in cuius carentia consistit 
+            specula<lb ed="#R" n="51" break="no"/>tiuum, &amp; habet actiuitatem propriam notitiae 
+            ope<lb ed="#R" n="52" break="no"/>ratiuae iillcet agere modo oxempli, &amp; regulae.
+          </p>
+          <p xml:id="paqqap-a45268-d1e3337">
+            <lb ed="#R" n="53"/>Nec valet, si dicatur hoc verum esse, si su 
+            re<lb ed="#R" n="54" break="no"/>speetu compositionis alterius potereiae ab 
+            intelle<lb ed="#R" n="55" break="no"/>ctu, non autem si sit respecru actus intellectus, hoc 
+            <lb ed="#R" n="56"/>siquidem non valet, quia cohsormitatis, &amp; 
+            priori<lb ed="#R" n="57" break="no"/>tatis est eiusdem rationis, &amp; aetiuitatis 
+            exempla<lb ed="#R" n="58" break="no"/>ris, &amp; regulae, hic &amp; ibi noc propter hoc, quod 
+            <lb ed="#R" n="59"/>transit super diuersa est uterius rationis, 
+            materia<lb ed="#R" n="60" break="no"/>les enim diferentiae non diuersi ficant speciem ♄o. 
+            <lb ed="#R" n="61"/>meta phisieae: sed notitiae sorihae syllogistirae &amp; quia 
+            <lb ed="#R" n="62"/>ditatis eius, &amp; figurarum, &amp; modorum quibus 
+            <lb ed="#R" n="63"/>syllogismus componitur, quae spectant ad libros 
+            <lb ed="#R" n="64"/>Priorum, &amp; terminis gonoralibus, similiter 
+            noti<lb ed="#R" n="65" break="no"/>tia demonstrationis, &amp; conditionum, quae debent 
+            <!--0147.xml-->
+            <cb ed="#R" n="b"/>
+            <lb ed="#R" n="66"/>ad eam concurrere habent geometriam, &amp; 
+            om<lb ed="#R" n="67" break="no"/>nem syllogiaantem, &amp; demostrantem per modum 
+            <lb ed="#R" n="68"/>regulae praeconceptae, &amp; forma praescripta, ad quam 
+            <lb ed="#R" n="69"/>se conformando ratione syllogizant, &amp; 
+            demon<lb ed="#R" n="70" break="no"/>strant, non conformando vero errant, &amp; hoc est, 
+            <lb ed="#R" n="71"/>proprium logicae, nec competit metaphisicae aut 
+            <lb ed="#R" n="72"/>habitui principiorum respectu conclusionis : ergo 
+            <lb ed="#R" n="73"/>logica non est speculatiua. nec est haec noua 
+            philo<lb ed="#R" n="74" break="no"/>sophia, sed antiqua Aristotelis, Auerrois, 
+            Auicen<lb ed="#R" n="75" break="no"/>nae, Symplicij. 
+          </p>
+          <p xml:id="paqqap-a45268-d1e3395">
+            <lb ed="#R" n="76"/>Aristotelis 1. Reth. qui dicit Rethoricam 
+            asse<lb ed="#R" n="77" break="no"/>catiuam Dialecticae in hoc, quod omnes homines 
+            <lb ed="#R" n="78"/>vel ex arte, vel a casu vel a consuetudine conantur 
+            <lb ed="#R" n="79"/>inquirere, &amp; suitinere sermonem, quod pertinet 
+            <lb ed="#R" n="80"/>ad dialecticum, &amp; similiter accusare, &amp; 
+            defende<lb ed="#R" n="81" break="no"/>re, quod pertinet ad Rethoricum. &amp; infia 
+            capi<lb ed="#R" n="82" break="no"/>te tertio dicit Rethoricam partem quandam 
+            Dia<lb ed="#R" n="83" break="no"/>lecicae esse. Similiter autem in prima poeticae 
+            di<lb ed="#R" n="84" break="no"/>cit, quod artes facientes effectum imaginandi sunt 
+            <lb ed="#R" n="85"/>tres, Ars consonandi, Ars medicandi, Ars 
+            com<lb ed="#R" n="86" break="no"/>ponendi sermones repraesentatiuos. Et illa est 
+            lo<lb ed="#R" n="87" break="no"/>gicalis de qua est consideratio in isto libro, scilicet 
+            <lb ed="#R" n="88"/>in poetica. cum igitur ars poeticae sit logicalis secun 
+            <lb ed="#R" n="89"/>dum Philosophum, &amp; simillter Rethofica, &amp; 
+            con<lb ed="#R" n="90" break="no"/>fat, quod sunt practicae, &amp; genus spfeulatiuum 
+            <lb ed="#R" n="91"/>quod est impossibile, nam species nis possunt conti 
+            <lb ed="#R" n="92"/>neri nisi sub differentia opposita generi. 
+          </p>
+          <p xml:id="paqqap-a45268-d1e3434">
+            <lb ed="#R" n="93"/>Auer. vero dicit 7. met. com. a. quod Dit lectiea 
+            <lb ed="#R" n="94"/>vniuersalitatur duobus modis, vno modo secundum 
+            <lb ed="#R" n="95"/>quod est instrumentum, &amp; modum sciendi, quod 
+            <lb ed="#R" n="96"/>accipitur, &amp; declaratur in eatPrimo modo vtitur 
+            <lb ed="#R" n="97"/>sciens logica, scilicet tanquati instrumento vel 
+            for<lb ed="#R" n="98" break="no"/>ma fiue medio sciendi, &amp; el vanum simul quaerere 
+            <lb ed="#R" n="99"/>scientiam, &amp; modum sciendi, vt ipse dicit 2. 
+            me<lb ed="#R" n="100" break="no"/>caph. com. 15.
+          </p>
+          <p xml:id="paqqap-a45268-d1e3454">
+            <lb ed="#R" n="101"/>Secundo modo vtitur Metaphisica principij logi 
+            <lb ed="#R" n="102"/>cis, &amp;scientiae subalternatae propositionibus in alijs 
+            <lb ed="#R" n="103"/>scientijs declaratis, imo, &amp; sciaentiae mutuo sibi 
+            prae<lb ed="#R" n="104" break="no"/>bent propositiones quibus vtuntur. Tunc sic, 
+            om<lb ed="#R" n="105" break="no"/>nis notiria qua quis vtitur tanquam instrumento 
+            <lb ed="#R" n="106"/>fiue modo ac forma praeconcepta qua dirigitur ha 
+            <lb ed="#R" n="107"/>bet duplicem respectum aptitudinalem, scilicet 
+            contor<lb ed="#R" n="108" break="no"/>mitatis, &amp; prioritatis, &amp; respectum eiusdem 
+            ratio<lb ed="#R" n="109" break="no"/>nis cum illo, qui facit notitiam practicam. 
+            Probu<lb ed="#R" n="110" break="no"/>tur, quia non variatur prioritas, &amp; conformabili⸗ 
+            <lb ed="#R" n="111"/>tas ex tertio siue sit respectu actus exterioris, vel 
+            <lb ed="#R" n="112"/>ineerioris, sed notitia logice, hoc vtiturstanquam 
+            <lb ed="#R" n="113"/>modo prae stripto, &amp; forma praeconcepta &amp; 
+            instru<lb ed="#R" n="114" break="no"/>mento secundum Commentatorem: ergo.
+          </p>
+          <p xml:id="paqqap-a45268-d1e3487">
+            <lb ed="#R" n="115"/>Confirmatur, quia errot in logica facit errare 
+            <lb ed="#R" n="116"/>in scientijs alijs vt patet 4. met. &amp; i. sicut est 
+            de<lb ed="#R" n="117" break="no"/>exemplari corrupto, quod eius corruptio redundat 
+            <lb ed="#R" n="118"/>in exemplatum.
+          </p>
+          <p xml:id="paqqap-a45268-d1e3498">
+            <lb ed="#R" n="119"/>Auicenna vero dicit in principio suae logicae, quod 
+            <lb ed="#R" n="120"/>logica non est philosophia sed instrumentum ·
+            phi<lb ed="#R" n="121" break="no"/>losophiae, &amp; post, logica interdum euenit homiti 
+            <lb ed="#R" n="122"/>a natura, sed humana natura insulficiens est in hoc 
+            <lb ed="#R" n="123"/>absque artis suffragio, quemadmodum in maltis 
+            <lb ed="#R" n="124"/>alijs operantionibus. sicut in emissione a sagittario. 
+            <lb ed="#R" n="125"/>&amp; infra dicem, ars logicae indiget studio, &amp; 
+            fre<lb ed="#R" n="126" break="no"/>quenti vsa, &amp; animaduersione operis sui. Est enim 
+            <lb ed="#R" n="127"/>huius artis comparatio ad consultationem 
+            intrinfe<lb ed="#R" n="128" break="no"/>tam, quae ratio interior appellatur, vt 
+            compara<lb ed="#R" n="129" break="no"/>tio gramaticae ad interpreationem, &amp; vt 
+            compa<lb ed="#R" n="130" break="no"/>ratio ponderis tinnuli ad ilerricos modos. 
+            secun<lb ed="#R" n="131" break="no"/>dum Auicennam igitur cum logica non sit 
+            philoso<lb ed="#R" n="132" break="no"/>phiti sed instrumentum, nec solo studio, sed vsu, &amp; 
+            <lb ed="#R" n="133"/>consuetudine acquiratur, &amp; se habeat vt pondus 
+            <!--0148.xml-->
+            <pb ed="#P" n="148"/>
+            <cb ed="#R" n="a"/>
+            <lb ed="#R" n="1"/>ad artem metaphisicam, &amp; sic respectu operis 
+            hu<lb ed="#R" n="2" break="no"/>mani, sicut sagittaria ars patet ex proprijs verbis 
+            <lb ed="#R" n="3"/>eius, quod non est speculatiua. 
+          </p>
+          <p xml:id="paqqap-a45268-d1e3546">
+            <lb ed="#R" n="4"/>Symplicius vero in principio Comment. super 
+            <lb ed="#R" n="5"/>Praedicamenta dicit, quod librorum Aristotelis 
+            or<lb ed="#R" n="6" break="no"/>ganicorum hi sunt de ipsa demonstratiua methodo 
+            <lb ed="#R" n="7"/>vt aualitica posteriora his sunt de his que ante 
+            ip<lb ed="#R" n="8" break="no"/>sam vt priora Periher. praedicamentis, hi sunt de 
+            <lb ed="#R" n="9"/>his, quae demonstrationem subinduunt, vt logici so 
+            <lb ed="#R" n="10"/>phistici rethoricae artes. Cum ergo organica vox 
+            <lb ed="#R" n="11"/>aggreget, &amp; logicam, &amp; Rethoricam simul patet, 
+            <lb ed="#R" n="12"/>quod intellexerunt sic esse extra rationem 
+            specula<lb ed="#R" n="13" break="no"/>tiui logicam, sicut est &amp; Rethorica. 
+          </p>
+          <p xml:id="paqqap-a45268-d1e3571">
+            <lb ed="#R" n="14"/>Dixit autem, quod continetur sub disferentia 
+            <lb ed="#R" n="15"/>oppofita speculatiuo non explicando, quod sit 
+            pra<lb ed="#R" n="16" break="no"/>ctica, pro eo quod Philosophi secundum vsum 
+            lo<lb ed="#R" n="17" break="no"/>quendi aliquando accipiant practicam non pro dif 
+            <lb ed="#R" n="18"/>ferentia adaequata diuidente habitum ex opposito 
+            <lb ed="#R" n="19"/>contra speculatiuum, quod patet, nam Philosoph. 
+            <lb ed="#R" n="20"/>6. Ethi. postquam diuisit mentem in speculatiu am, &amp; pra 
+            <lb ed="#R" n="21"/>cticam, subdit definiendo, quod speculatiuae mentis 
+            <lb ed="#R" n="22"/>bonum est veritas practicae autem veritas concorda 
+            <lb ed="#R" n="23"/>tur se habens appetitui recto, sed constat, quod haec de 
+            <lb ed="#R" n="24"/>finitio non adaequat esse non speculatiuum, nam 
+            <lb ed="#R" n="25"/>mechanicae, &amp; yniuersaliter artes factiuae non sunt 
+            <lb ed="#R" n="26"/>speculatiuae, &amp; tamen bonum earum non est 
+            veri<lb ed="#R" n="27" break="no"/>tas, concorditer se habent appetitui recto, &amp; 
+            ele<lb ed="#R" n="28" break="no"/>ctioni, hoo enim compatis solum habitui morali. 
+          </p>
+          <p xml:id="paqqap-a45268-d1e3606">
+            <lb ed="#R" n="29"/>Rursus Eustachius idem dicit ibidem.
+          </p>
+          <p xml:id="paqqap-a45268-d1e3611">
+            <lb ed="#R" n="30"/>Confirmatur autem, quod logica practica sit ex 
+            <lb ed="#R" n="31"/>hoc, quod facit suum obiectum, &amp; est de tali ente 
+            <lb ed="#R" n="32"/>cuius principium factionis non est in illo, sed 
+            po<lb ed="#R" n="33" break="no"/>tius in nobis ars vel voluntas, vel intellectus, talis 
+            <lb ed="#R" n="34"/>enim babitus dicitur practicus in 6. metaph. Et rur 
+            <lb ed="#R" n="35"/>sum habet alium actum vltra speculari proprij 
+            obie<lb ed="#R" n="36" break="no"/>cti, videlicet agere per modum exemplaris, &amp; 
+            di<lb ed="#R" n="37" break="no"/>rectiui. similiter etiam competunt sibi conditiones 
+            <lb ed="#R" n="38"/>habitus practici, vt illa, quae non scrutamur in 
+            lo<lb ed="#R" n="39" break="no"/>gica solum vt sciamus suum obiecum sed vt 
+            possi<lb ed="#R" n="40" break="no"/>mus operari &amp; ficere ipsum videlicet syllogizare. 
+            <lb ed="#R" n="41"/>sicut Philosophus dicit 7. Ethic. de scientia 
+            mora<lb ed="#R" n="42" break="no"/>li, quod non scrutamur quid est virtus vt sciamus 
+            <lb ed="#R" n="43"/>sed potius vt virtuosi efficiamur. Et similiter in lo 
+            <lb ed="#R" n="44"/>gica non scrutamur vt sciamus quid est propositio 
+            <lb ed="#R" n="45"/>aut quid est syllogismus, sed vt syllogizantes 
+            effi<lb ed="#R" n="46" break="no"/>ciamur. Praeterea Philosophus 6. met. dicit, &amp; Com 
+            <lb ed="#R" n="47"/>mentatpra quod voluntarium, &amp; artificiatum sunt 
+            <lb ed="#R" n="48"/>idem in forma, cum igitur sytlogisinus sit ens 
+            vo<lb ed="#R" n="49" break="no"/>luntarium, &amp; non naturale, erit logica ars 
+            practi<lb ed="#R" n="50" break="no"/>ca, &amp; non speculatiua. Quod etiam patet, quia 
+            <lb ed="#R" n="51"/>differentia opposita generi non constituit sub 
+            spe<lb ed="#R" n="52" break="no"/>ciem sub genere; non enim insensibile consistit in 
+            ca<lb ed="#R" n="53" break="no"/>rentia duplicis respectus aptitudinalis 
+            conformi<lb ed="#R" n="54" break="no"/>tatis scilicet, &amp; prioritatis siue exemplaris 
+            cau<lb ed="#R" n="55" break="no"/>salitatis, vnde consistit in speculari praesupposito 
+            <lb ed="#R" n="56"/>praecise. 
+          </p>
+          <p xml:id="paqqap-a45268-d1e3672">
+            <lb ed="#R" n="57"/>Cum igitur logica vltra omnes speculatiuas 
+            ha<lb ed="#R" n="58" break="no"/>beat, quod suum speculari ordinatur, &amp; extenditur 
+            <lb ed="#R" n="59"/>ad dirigendum per modum formae exemplaris con 
+            <lb ed="#R" n="60"/>stat, quod non poterit esse species constituta sub 
+            <lb ed="#R" n="61"/>scientia speculatiua, &amp; iterum esset bis, &amp; duplici 
+            <lb ed="#R" n="62"/>modo speculatiua semel sicut metaphisica ex 
+            spe<lb ed="#R" n="63" break="no"/>culari sui obiecti, &amp; semel modo singulari prae alijs 
+            <lb ed="#R" n="64"/>scientijs ex hoc, quod dirigit speculationem 
+            alia<lb ed="#R" n="65" break="no"/>rum scientiarum si istud dirigere facit eam 
+            specu<lb ed="#R" n="66" break="no"/>tiuam: aliquid autem contineri bis, &amp; duplici 
+            ra<lb ed="#R" n="67" break="no"/>tione impossibile est, vt patet 6. topic. Vnde cum 
+            <lb ed="#R" n="68"/>aitigere per modum exemplaris non sit formaliter 
+            <!--0148.xml-->
+            <cb ed="#R" n="b"/>
+            <lb ed="#R" n="69"/>speculari, sed sundetur in ipso, et cum sit actus 
+            <lb ed="#R" n="70"/>logicae sequitur, quod faciet eam non esse pure spe: 
+            <lb ed="#R" n="71"/>culatiuam, &amp; per consequens practicam. 
+          </p>
+          <p xml:id="paqqap-a45268-d1e3711">
+            <lb ed="#R" n="72"/>Ad rationem: ergo primam dicendum, quodi 
+            <lb ed="#R" n="73"/>non omnis actus logicae est formaliter speculari: ve 
+            <lb ed="#R" n="74"/>pote dirigere ad speculationem virtutis, &amp; ad 
+            for<lb ed="#R" n="75" break="no"/>mationem demonstrationum, &amp; syllogismorum in 
+            <lb ed="#R" n="76"/>qualibet data materia.
+            <lb ed="#R" n="77"/>
+            <!-- line coord error -->
+          </p>
+          <p xml:id="paqqap-a45268-d1e3729">
+            <lb ed="#R" n="78"/>Et quod additur, quod secundum hoc 7. liber 
+            <lb ed="#R" n="79"/>physic. quia dirigunt ad octauum, &amp; scientiae, quae 
+            <lb ed="#R" n="80"/>iuuant alias scientias erunt practicae, 
+            dicendum<lb ed="#R" n="81" break="no"/>quod aequiuocatur de directtione, quae contingit vel 
+            <lb ed="#R" n="82"/>per modum regulae praeconceptae, &amp; formae exem 
+            <lb ed="#R" n="83"/>plaris, &amp; tale dirigere facit habitum practicum, &amp; 
+            <lb ed="#R" n="84"/>hoc logicae competit, vt saepe dictum est: vel per mo. 
+            <lb ed="#R" n="85"/>dum praebentis propositiones quasdam, &amp; 
+            princi<lb ed="#R" n="86" break="no"/>pia ex quibus alia scientia procedit, &amp; tale 
+            dirige<lb ed="#R" n="87" break="no"/>re non facit scientiam practicam, tum quia accidit 
+            <lb ed="#R" n="88"/>vni scientiae, quod alia scientia ab ipsa 
+            accipiat<lb ed="#R" n="89" break="no"/>tum quia illa non est causalitas proprie vnde 
+            po<lb ed="#R" n="90" break="no"/>titia est, vt dictum est supra talis autem directio 
+            <lb ed="#R" n="91"/>competit physicae respectu aut principii 7. lib. physi 
+            <lb ed="#R" n="92"/>corum respectu octaui, non autem prima, propter 
+            <lb ed="#R" n="93"/>quod non est fimile. 
+          </p>
+          <p xml:id="paqqap-a45268-d1e3767">
+            <lb ed="#R" n="94"/>Ad confirmationem dicendum, quod directio 
+            <lb ed="#R" n="95"/>exemplaris, quam facit logica non est formaliter 
+            <lb ed="#R" n="96"/>speculari, sed magis est quidam respectus fundatus 
+            <lb ed="#R" n="97"/>super speculari sui obiecti, nec est ratio, quod 
+            cer<lb ed="#R" n="98" break="no"/>titudo qua quis cognoscit se procedere scientifice. 
+            <lb ed="#R" n="99"/>Vnde circa logicam est accipere, primo illud 
+            spe<lb ed="#R" n="100" break="no"/>culari quo intellectus logica informatus cognoscis 
+            <lb ed="#R" n="101"/>quor sunt figurae, &amp; modi in qualibet figura &amp; 
+            cae<lb ed="#R" n="102" break="no"/>tera, quae spectant ad veritates sui obiecti, quae 
+            <lb ed="#R" n="103"/>quidem formatio potest dici quaedam speculatio, &amp; 
+            <lb ed="#R" n="104"/>intellectio.
+          </p>
+          <p xml:id="paqqap-a45268-d1e3793">
+            <lb ed="#R" n="105"/>Secundo vero est accipere illam casualitatem 
+            e<lb ed="#R" n="106" break="no"/>xemplarem quam habet primum speculari respectu bu 
+            <lb ed="#R" n="107"/>iusmodi formae communis, &amp; illam impossibile est 
+            <lb ed="#R" n="108"/>esse formaliter speculationem, immo est 
+            causali<lb ed="#R" n="109" break="no"/>tas, &amp; actiuitas, quae habitum praeticum facio 
+          </p>
+          <p xml:id="paqqap-a45268-d1e3806">
+            <lb ed="#R" n="110"/>Ad secundam rationem dicendum, quod immo 
+            <lb ed="#R" n="111"/>praecipui Philosophi posuerunt logicam, &amp; non 
+            <lb ed="#R" n="112"/>speculatiuam sicut Rethoricam, &amp; poeticam; siout 
+            <lb ed="#R" n="113"/>deductum est supra, &amp; Symplicius vocat eam 
+            or<lb ed="#R" n="114" break="no"/>ganicam, &amp; confirmat propositum, quia ratio 
+            or<lb ed="#R" n="115" break="no"/>gani non competit pure speculatiuo habitui: nomem 
+            <lb ed="#R" n="116"/>etiam adminiculatiui ostendit ipsam practicam, 
+            <lb ed="#R" n="117"/>quia non solum adminiculatur praebendo princia 
+            <lb ed="#R" n="118"/>pia, sicut plures aliae, sed per modum euiusdam 
+            <lb ed="#R" n="119"/>regulae, &amp; exemplaris formae, vt declaratum est.
+          </p>
+          <p xml:id="paqqap-a45268-d1e3830">
+            <lb ed="#R" n="120"/>Quod directio non sufficit ad constit uendum hala 
+            <lb ed="#R" n="121"/>tum in esse practico.
+            <lb ed="#R" n="122"/>
+            <!-- line coord error -->
+          </p>
+          <p xml:id="paqqap-a45268-d1e3841">
+            <lb ed="#R" n="123"/>AD octauam difficultatem patet ex dictis 
+            in<lb ed="#R" n="124" break="no"/>
+            <!-- line coord error -->
+            <lb ed="#R" n="125"/>ista septima, quare nec metaphisica nes cae 
+            <lb ed="#R" n="126"/>terae scientiae dirigentes solum principia sint practi 
+            <lb ed="#R" n="127"/>cae, &amp; tamen logica ratione suae propriae 
+            directio<lb ed="#R" n="128" break="no"/>nis est practica. Et quod additur de geometria 
+            <lb ed="#R" n="129"/>dicendum, quod quaedam est practica vt illa, quae 
+            <lb ed="#R" n="130"/>dirigit mathematicam per modum formae 
+            praecon<lb ed="#R" n="131" break="no"/>ceptae &amp; exemplaris, quae diuiditur in perspectiuam 
+            <lb ed="#R" n="132"/>&amp; talis est etiam machinatiua, geometria vero pro 
+            <lb ed="#R" n="133"/>prie accepta est speculatiua, &amp; dirigit 
+            machinati<lb ed="#R" n="134" break="no"/>uam non per modum formae exemplaris, sed per 
+            <lb ed="#R" n="135"/>modum praebentis propositiones, &amp; principia, &amp; 
+            <lb ed="#R" n="136"/>ideo remanet pure speculatiua.
+          </p>
+          <p xml:id="paqqap-a45268-d1e3876">
+            <!--0149.xml-->
+            <pb ed="#P" n="149"/>
+            <cb ed="#R" n="a"/>
+            <lb ed="#R" n="1"/>Quare habitus magis dicatur practicus uel 
+            spe<lb ed="#R" n="2" break="no"/>culatiuus ex obiecto, quam ex fine sed 
+            <lb ed="#R" n="3"/>magis proprie ab intrinseca 
+            acti<lb ed="#R" n="4" break="no"/>uitate. 
+          </p>
+          <p xml:id="paqqap-a45268-d1e3895">
+            <lb ed="#R" n="5"/>AD nonam difficultatem, dicendum, quod 
+            <lb ed="#R" n="6"/>
+            <!-- line coord error -->
+            <lb ed="#R" n="7"/>scientia vel habitus non dicitur 
+            intrinsece<lb ed="#R" n="8" break="no"/>speculatiuus ab obiecto vel a fine, sed tantum 
+            dici<lb ed="#R" n="9" break="no"/>tur extrinsece, &amp; in isto ordine causae extrinsecae, 
+            <lb ed="#R" n="10"/>&amp; originalis magis est ab obiecto ratio 
+            speculati<lb ed="#R" n="11" break="no"/>ui, &amp; practici, quod patet etiam auctoritate 
+            phi<lb ed="#R" n="12" break="no"/>losophi, qui dicit, quod consequuntur scientiae, 
+            <lb ed="#R" n="13"/>quemadmodum, &amp; res de quibus sunt: &amp; 6. Ethic. 
+            <lb ed="#R" n="14"/>vbi diuidit habitus intellectuales penes obiectum, 
+            <lb ed="#R" n="15"/>&amp; non penes fines. Et ratione etiam, quia obiectum 
+            <lb ed="#R" n="16"/>continet habitum in virtute, &amp; mensurat, vt patet 
+            <lb ed="#R" n="17"/>5. metaph. finis vero non, &amp; ideo magis est habitus 
+            <lb ed="#R" n="18"/>&amp; per consequens distinctionis ipsius, praesertim, 
+            <lb ed="#R" n="19"/>qua habitus, &amp; magis per se respicit obiectum, 
+            <lb ed="#R" n="20"/>quam finem. Licet ergo aliquae auctoritates sint 
+            <lb ed="#R" n="21"/>priofine, &amp; aliquae pro obiecto, quia ab vtroque 
+            <lb ed="#R" n="22"/>extrinsece, &amp; originaliter sumitur distinctio 
+            spe<lb ed="#R" n="23" break="no"/>culatiui, &amp; practici, tamen mens Philosophi est, 
+            <lb ed="#R" n="24"/>quod hic in ordine causalitatis magis sumitur ab 
+            <lb ed="#R" n="25"/>obiecto. 
+          </p>
+          <p xml:id="paqqap-a45268-d1e3945">
+            <lb ed="#R" n="26"/>Ad rationem ergo dicendum, quod licet 
+            ha<lb ed="#R" n="27" break="no"/>bitus, &amp; obiectum ordinentur ad finem tanquam 
+            <lb ed="#R" n="28"/>ad causam vltimam tamen habitus non sic refertur 
+            <lb ed="#R" n="29"/>ad finem sicut ad obiectum per se in ratione mensu 
+            <lb ed="#R" n="30"/>rati, &amp; virtualiter contenti.
+          </p>
+          <p xml:id="paqqap-a45268-d1e3958">
+            <lb ed="#R" n="31"/>Ad vltimam difficultatem dicendum, quod 
+            scien<lb ed="#R" n="32" break="no"/>tia dicitur practica ab intrinseca actiuitate 
+            exem<lb ed="#R" n="33" break="no"/>plaris, &amp; formae praeconceptae, quae est actiuitas 
+            <lb ed="#R" n="34"/>specialis, &amp; propria notitiae, vt declaratum est 
+            su<lb ed="#R" n="35" break="no"/>pra. &amp; ridiculosum est, quod dicatur practica 
+            de<lb ed="#R" n="36" break="no"/>nominatione extrinseca a praxi qua dirigit. 
+            Cu<lb ed="#R" n="37" break="no"/>ius ratio est, quia quando aliquid competit alicui 
+            <lb ed="#R" n="38"/>formaliter, &amp; cum hoc effectiue magis dicitur esse 
+            <lb ed="#R" n="39"/>propter hoc, quod includitur formaliter, quam 
+            <lb ed="#R" n="40"/>denominetur tale ab effectu, vt patet de igne, qui 
+            <lb ed="#R" n="41"/>magis dicitur calidus propter formam caloris, 
+            <lb ed="#R" n="42"/>quam propter calorem quem causat. 
+          </p>
+          <p xml:id="paqqap-a45268-d1e3987">
+            <lb ed="#R" n="43"/>Ad argumenta principalia dicendum. 
+            <lb ed="#R" n="44"/>Ad primum, quod actiuitas scientiae 
+            exempla<lb ed="#R" n="45" break="no"/>ris respicit per se obiectum sicut patet, &amp; ideo 
+            po<lb ed="#R" n="46" break="no"/>test diuidere habitum per se. 
+          </p>
+          <p xml:id="paqqap-a45268-d1e3998">
+            <lb ed="#R" n="47"/>Ad secundum dicendum, quod omnis habitus 
+            <lb ed="#R" n="48"/>scientificus habet rationem elicitiui principij 
+            respe<lb ed="#R" n="49" break="no"/>ctu actus sui, sed tamen non habet rationem actiui 
+            <lb ed="#R" n="50"/>per modum causae exemplaris. ideo ratio non 
+            pro<lb ed="#R" n="51" break="no"/>cedit. 
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
